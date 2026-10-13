@@ -1,0 +1,992 @@
+[
+  {
+    "id": "inhouse_356",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "An 18-year-old college freshman living in a dormitory presents to the emergency department with high fever, throbbing holocranial headache, nausea, and severe neck stiffness that began abruptly 6 hours ago. On physical examination, his temperature is 39.2\u00b0C (102.6\u00b0F), blood pressure is 118/72 mmHg, and heart rate is 115 bpm. He demonstrates profound resistance to passive neck flexion. When the physician gently flexes the patient's neck forward toward his sternum while he is lying supine, the patient involuntarily flexes both hips and knees. What is the name of this physical examination sign, and what is its pathophysiological basis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Brudzinski sign; passive stretching of the inflamed meninges and spinal cord roots elicits reflexive bilateral flexion of the lower extremities to minimize meningeal traction",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Kernig sign; compression of the sciatic nerve produces pain when the hip is extended",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Lhermitte sign; electrical shock radiating down the spine upon neck flexion from cervical demyelination",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Babinski sign; primitive plantar extensor response from corticospinal tract lesion",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Chvostek sign; neuromuscular hyper-excitability from acute hypocalcemia",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This case directly matches Case 1 in 'MeningitisCaseAnswers..pptx':\n- Brudzinski sign: In a supine patient, passive flexion of the neck induces involuntary reflexive flexion of the hips and knees. It is caused by meningeal inflammation (meningismus) where stretching the inflamed leptomeninges and spinal cord elicits a protective flexor withdrawal reflex.\n- Kernig sign: In a supine patient with the hip and knee flexed to 90 degrees, passive extension of the knee meets with severe resistance and pain in the posterior thigh/back.\nBoth signs are classical clinical indicators of meningitis."
+  },
+  {
+    "id": "inhouse_357",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A medical resident examines a 24-year-old patient with suspected acute bacterial meningitis. The resident notes that neither the Kernig sign nor the Brudzinski sign is present, and argues that meningitis can be safely ruled out without performing a lumbar puncture. According to Slide 5 of 'MeningitisCaseAnswers..pptx', how should the attending physician critique this reasoning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Although classically taught and specific when present, Kernig and Brudzinski signs have poor clinical sensitivity (often < 50%), meaning their absence CANNOT be used to exclude meningitis",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Kernig and Brudzinski signs have 100% sensitivity; their absence definitively excludes all infectious CNS processes",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Kernig and Brudzinski signs are only valid in patients over the age of 80",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Meningeal signs are only present if the infection is caused by viral pathogens",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Physical examination signs have completely replaced the need for cerebrospinal fluid analysis",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. As explicitly stated on Slide 5 of 'MeningitisCaseAnswers..pptx': 'Though these signs are classically taught and tested, the sensitivity of these signs is poor, so they should not be used to rule out meningitis.' Multiple prospective clinical studies confirm that the sensitivity of Kernig and Brudzinski signs ranges between 5% and 50%. A patient with fever, headache, and altered mental status or acute illness must undergo urgent lumbar puncture and empiric therapy regardless of whether these classic signs are elicited."
+  },
+  {
+    "id": "inhouse_358",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 19-year-old college student with suspected bacterial meningitis undergoes a diagnostic lumbar puncture. Cerebrospinal fluid analysis reveals: Opening pressure: 310 mm H2O (normal < 200 mm H2O); White blood cell count: 4,800/\u00b5L with 92% polymorphonuclear neutrophils (PMNs); Protein: 280 mg/dL (normal 15-45 mg/dL); Glucose: 18 mg/dL (serum glucose: 100 mg/dL; CSF:serum glucose ratio = 0.18); Gram stain reveals Gram-negative diplococci. Which organism is the causative pathogen?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neisseria meningitidis",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Streptococcus pneumoniae",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Listeria monocytogenes",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Haemophilus influenzae",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Cryptococcus neoformans",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. The CSF profile demonstrates classic acute bacterial meningitis:\n- Markedly elevated opening pressure (> 300 mm H2O)\n- Severe neutrophilic pleocytosis (> 1,000 cells/\u00b5L with > 80-90% PMNs)\n- Markedly elevated protein (> 200 mg/dL)\n- Markedly depressed glucose (< 40 mg/dL, CSF:serum ratio < 0.4).\nGram stain identification of Gram-negative diplococci (coffee-bean or kidney-bean shaped intracellular and extracellular diplococci) in an 18-to-19-year-old dorm resident is diagnostic of Neisseria meningitidis (meningococcus)."
+  },
+  {
+    "id": "inhouse_359",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 45-year-old man presents to the emergency department with high fever, severe headache, confusion, and nuchal rigidity. The resident prepares to perform an immediate bedside lumbar puncture. The attending physician notes that the patient has right-sided facial weakness and pronator drift, and orders a non-contrast head CT prior to the lumbar puncture. According to Slide 2 of 'MeningitisContentAnswers.pptx', which of the following is a recognized indication for neuroimaging prior to performing a lumbar puncture in suspected bacterial meningitis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Presence of focal neurological deficits, new-onset seizures, papilledema, altered level of consciousness (GCS < 10), or severe immunocompromise",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "History of uncomplicated migraine headaches 5 years ago",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Presence of a fever above 38.0\u00b0C without focal findings",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Normal pupillary examination and intact cranial nerves",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Age between 18 and 40 years in an otherwise healthy host",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. As detailed on Slide 2 of 'MeningitisContentAnswers.pptx': A head CT scan must be ordered PRIOR to lumbar puncture if there are high-risk features for an intracranial mass lesion or elevated ICP that could trigger fatal brain herniation (uncal or tonsillar coning) upon dural puncture. Established indications include:\n1. Focal neurological deficits (e.g., hemiparesis, cranial nerve palsy)\n2. New-onset seizures\n3. Papilledema\n4. Altered mental status / significantly depressed consciousness\n5. Severe immunocompromised state (e.g., advanced HIV, organ transplant)."
+  },
+  {
+    "id": "inhouse_360",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 58-year-old man with fever, lethargy, and papilledema requires a non-contrast head CT scan before a lumbar puncture can be safely performed. The CT scanner is currently occupied by a polytrauma resuscitation, and neuroimaging will be delayed by at least 60 minutes. What is the single most critical clinical management principle in this scenario?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Immediately draw blood cultures and administer empiric intravenous antibiotics and dexamethasone WITHOUT DELAY; never postpone antimicrobial therapy for neuroimaging",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Withhold all antibiotics and steroids until the CT scan is performed and the lumbar puncture is fully analyzed",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Proceed immediately with lumbar puncture despite papilledema and risk fatal herniation",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Administer high-dose oral aspirin and observe the patient in the waiting room",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Cancel all workup and transfer the patient to an outpatient primary care clinic",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. A cardinal rule of emergency medicine and infectious disease: NEVER DELAY EMPIRIC ANTIMICROBIAL THERAPY for diagnostic neuroimaging or lumbar puncture! In acute bacterial meningitis, mortality increases by ~10-30% for every hour antibiotics are delayed. If a patient requires a pre-LP CT scan, the physician must immediately draw two sets of blood cultures (which have > 60-80% yield in bacterial meningitis) and initiate empiric IV antibiotics + dexamethasone right away before transporting the patient to radiology."
+  },
+  {
+    "id": "inhouse_361",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 1-week-old full-term infant presents with lethargy, poor feeding, hypothermia (rectal temperature 35.8\u00b0C / 96.4\u00b0F), irritability, and a bulging anterior fontanelle. Lumbar puncture confirms bacterial meningitis. According to Slide 4 of 'MeningitisCaseAnswers..pptx', what is the most common causative pathogen of neonatal meningitis, and what empiric intravenous antibiotic regimen is indicated?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Streptococcus agalactiae (Group B Streptococcus); Ampicillin plus Cefotaxime (or Gentamicin)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Streptococcus pneumoniae; Ceftriaxone plus Vancomycin",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Neisseria meningitidis; Oral Ciprofloxacin single dose",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Haemophilus influenzae; Doxycycline plus Rifampin",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Pseudomonas aeruginosa; Meropenem monotherapy",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. In neonates (< 1 month of age), the most common bacterial meningitis pathogens acquired during passage through the maternal birth canal are:\n1. Streptococcus agalactiae (Group B Streptococcus / GBS) - #1 most common\n2. Escherichia coli (K1 capsular strain)\n3. Listeria monocytogenes.\nEmpiric antimicrobial coverage requires: Ampicillin (which provides essential bactericidal coverage against Listeria and enterococci) combined with Cefotaxime or Gentamicin (to cover GBS and Gram-negative coliforms). Ceftriaxone is strictly avoided in neonates due to risk of biliary sludging and displacing bilirubin from albumin causing kernicterus."
+  },
+  {
+    "id": "inhouse_362",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "Why is Ceftriaxone contraindicated as the third-generation cephalosporin of choice in neonates with suspected bacterial meningitis, leading clinicians to use Cefotaxime instead?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ceftriaxone displaces bilirubin from serum albumin, significantly increasing the risk of unconjugated hyperbilirubinemic neurotoxicity (kernicterus), and forms calcium precipitates in the gallbladder (biliary sludging)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Ceftriaxone is inherently ineffective against Streptococcus pneumoniae",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Ceftriaxone cannot penetrate neonatal meninges under any physiological conditions",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Ceftriaxone causes immediate, irreversible closure of the anterior fontanelle",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Ceftriaxone triggers malignant hyperthermia in all neonates lacking ryanodine receptors",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Ceftriaxone has high protein binding and competitively displaces unconjugated bilirubin from serum albumin in neonates. This allows free unconjugated, lipid-soluble bilirubin to cross the immature blood-brain barrier and deposit in the basal ganglia, precipitating kernicterus. In addition, ceftriaxone can precipitate with intravenous calcium, causing fatal cardiopulmonary and biliary sludging (pseudolithiasis). Therefore, Cefotaxime (which does not displace bilirubin) is the third-generation cephalosporin of choice in neonates."
+  },
+  {
+    "id": "inhouse_363",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "An 8-month-old infant who has received no routine childhood immunizations presents with fever, vomiting, high-pitched crying, and marked nuchal rigidity. Lumbar puncture demonstrates 3,500 WBC/\u00b5L with 88% neutrophils, protein 220 mg/dL, and glucose 12 mg/dL. Gram stain of the CSF reveals pleomorphic Gram-negative coccobacilli that grow on chocolate agar supplemented with Factor X (hemin) and Factor V (NAD), but fail to grow on standard 5% sheep blood agar. What is the pathogen?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Haemophilus influenzae type b (Hib)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Bordetella pertussis",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Neisseria meningitidis",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Legionella pneumophila",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Corynebacterium diphtheriae",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Prior to widespread vaccination with the polyribosylribitol phosphate (PRP) capsule conjugate vaccine, Haemophilus influenzae type b (Hib) was the leading cause of bacterial meningitis in young children (aged 2 months to 5 years). Gram stain demonstrates small, pleomorphic Gram-negative coccobacilli. Hib is fastidious and requires both Factor X (hemin) and Factor V (NAD) for growth, which are released inside heat-lysed red blood cells on chocolate agar (or grown via satellite phenomenon around S. aureus colonies on blood agar)."
+  },
+  {
+    "id": "inhouse_364",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 68-year-old man presents to the emergency department with fever, confusion, and nuchal rigidity. According to Slide 8 of 'MeningitisCaseAnswers..pptx', which of the following is the appropriate empiric intravenous antibiotic regimen to administer to a 68-year-old adult with suspected bacterial meningitis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vancomycin, Ceftriaxone, and Ampicillin",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Vancomycin and Ceftriaxone only",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Vancomycin alone",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Ampicillin and Gentamicin only",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Ciprofloxacin and Doxycycline",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This directly reflects Question 2 on Slide 8 of 'MeningitisCaseAnswers..pptx':\n- In adults aged 18 to 50: Ceftriaxone + Vancomycin.\n- In adults aged > 50 years (and immunocompromised hosts of any age): Ceftriaxone + Vancomycin + AMPICILLIN.\nAmpicillin MUST be added in elderly (> 50 yr) and immunocompromised patients to cover Listeria monocytogenes, a facultative intracellular pathogen to which cellular immunity wanes with aging. Third-generation cephalosporins (like ceftriaxone) have zero antimicrobial activity against Listeria!"
+  },
+  {
+    "id": "inhouse_365",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "Why is Ampicillin mandatory in the empiric regimen for bacterial meningitis in patients over 50 years of age, whereas Ceftriaxone and Vancomycin alone are sufficient in healthy 25-year-old adults?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Listeria monocytogenes incidence rises markedly in adults over 50 due to waning T-cell-mediated immunity, and Listeria is inherently resistant to all cephalosporins and poorly killed by vancomycin",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Ampicillin provides unique bactericidal coverage against Methicillin-Resistant Staphylococcus aureus",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Streptococcus pneumoniae is inherently sensitive to ampicillin but 100% resistant to ceftriaxone in the elderly",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Ampicillin prevents vancomycin-induced nephrotoxicity in older kidneys",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Elderly patients cannot absorb cephalosporins across the intestinal mucosa",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. As taught on Slide 4 and Slide 8 of 'MeningitisCaseAnswers..pptx':\nListeria monocytogenes is a foodborne Gram-positive rod (often transmitted via unpasteurized dairy, cold deli meats) that exhibits tumbling motility at room temperature. It infects neonates, pregnant women, the elderly (> 50 yr), and immunocompromised patients. Because Listeria possesses penicillin-binding proteins with low affinity for cephalosporins, ALL cephalosporins (including third- and fourth-generation agents) are completely ineffective against it. Ampicillin (or penicillin G) is the drug of choice to clear Listeria bacteremia and meningitis."
+  },
+  {
+    "id": "inhouse_366",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 44-year-old man with community-acquired Streptococcus pneumoniae meningitis is initiated on intravenous Ceftriaxone and Vancomycin. The emergency physician co-administers intravenous Dexamethasone with the first dose of antibiotics. What is the evidence-based clinical rationale for adjunctive dexamethasone therapy in acute pneumococcal meningitis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It blunts the massive host inflammatory response triggered by antibiotic-mediated bacterial lysis in the subarachnoid space, significantly decreasing sensorineural hearing loss and overall mortality",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "It directly binds to bacterial 50S ribosomal subunits to inhibit peptide elongation",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "It stimulates the renal clearance of vancomycin to prevent red man syndrome",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "It prevents the emergence of beta-lactamase gene expression",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "It induces immediate pupillodilation to prevent acute glaucoma",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. When bactericidal antibiotics lyse bacteria in the subarachnoid space, massive release of cell wall components (teichoic acid, peptidoglycans, endotoxin) triggers an explosive release of inflammatory cytokines (TNF-alpha, IL-1beta) from microglial and endothelial cells. This secondary inflammatory surge exacerbates cerebral edema, increases ICP, and damages cochlear sensory hair cells. Administering Dexamethasone with or 15\u201320 minutes prior to the first antibiotic dose significantly reduces neurological morbidity (especially sensorineural hearing loss) and decreases mortality in adult pneumococcal meningitis."
+  },
+  {
+    "id": "inhouse_367",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "An 18-year-old college student with confirmed Neisseria meningitidis meningitis is admitted to an isolation room. The student's roommate, who shares the dorm room and ate meals with him yesterday, comes to the clinic asking if he needs treatment. Which chemoprophylactic regimen is recommended for close household/dorm contacts exposed to meningococcal meningitis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oral Rifampin (600 mg every 12 hours for 2 days), single-dose oral Ciprofloxacin, or single-dose intramuscular Ceftriaxone",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Intravenous Vancomycin daily for 6 weeks",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Oral Ampicillin for 21 days",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Immediate lumbar puncture and expectant observation",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Application of topical bacitracin ointment to the anterior nares",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Chemoprophylaxis is indicated for close contacts of patients with invasive meningococcal disease (household members, dorm roommates, daycare contacts, or healthcare workers with direct saliva/airway exposure). The goal is to eradicate nasopharyngeal carriage of Neisseria meningitidis. Standard evidence-based prophylactic options include:\n1. Rifampin (600 mg PO BID for 2 days; note: turns bodily secretions orange/red)\n2. Ciprofloxacin (500 mg PO single dose; avoid in children/pregnancy)\n3. Ceftriaxone (250 mg IM single dose; preferred in pregnancy)."
+  },
+  {
+    "id": "inhouse_368",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 21-year-old woman presents with mild fever, headache, photophobia, and stiff neck. Lumbar puncture reveals: Opening pressure: 160 mm H2O (normal 100-200); WBC count: 180/\u00b5L with 88% lymphocytes; Protein: 65 mg/dL (mildly elevated); Glucose: 68 mg/dL (serum glucose 105 mg/dL; CSF:serum glucose ratio = 0.65); Gram stain shows no organisms. Multiplex PCR is positive for Enterovirus. How is this patient's cerebrospinal fluid profile classified compared to bacterial meningitis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aseptic (viral) meningitis; characterized by mild lymphocytic pleocytosis, normal or mildly elevated protein, and normal CSF glucose levels",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Pyogenic bacterial meningitis; characterized by profoundly depressed glucose and neutrophil predominance",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Tuberculous meningitis; characterized by markedly low glucose and acid-fast bacilli",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Cryptococcal meningoencephalitis; characterized by opening pressure > 400 mm H2O",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Normal cerebrospinal fluid profile without pleocytosis",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Comparing CSF findings (Slide 3 of 'MeningitisContentAnswers.pptx'):\n- Viral (Aseptic) Meningitis: Normal or mildly elevated opening pressure; WBC moderately elevated (50\u2013500 cells/\u00b5L) with lymphocytic predominance; Protein normal or mildly elevated (< 100 mg/dL); and NORMAL GLUCOSE (> 60% of serum glucose, ratio > 0.6). Enteroviruses (coxsackievirus, echovirus) account for > 85% of cases.\n- Bacterial Meningitis: High opening pressure (> 200\u2013300); massive WBC pleocytosis (> 1,000\u20135,000) with neutrophil predominance; high protein (> 100\u2013500); and severely depressed glucose (< 40 mg/dL, ratio < 0.4)."
+  },
+  {
+    "id": "inhouse_369",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 36-year-old HIV-positive patient with a CD4 count of 45 cells/\u00b5L presents with progressive headache, fever, and malaise over 2 weeks. Physical examination reveals mild nuchal rigidity and bilateral abducens nerve palsies. Lumbar puncture demonstrates an opening pressure of 360 mm H2O, WBC count 120/\u00b5L (predominantly mononuclear cells), protein 140 mg/dL, and glucose 28 mg/dL. An India ink preparation of the CSF reveals narrow-based budding yeast cells surrounded by prominent, clear halos representing thick mucopolysaccharide capsules. What is the diagnosis and definitive induction therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cryptococcus neoformans meningoencephalitis; induction therapy with Amphotericin B plus Flucytosine, followed by maintenance Fluconazole",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Toxoplasma gondii encephalitis; Pyrimethamine plus Sulfadiazine",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Cerebral Aspergillosis; Voriconazole monotherapy",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Primary amoebic meningoencephalitis; Miltefosine monotherapy",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Cytomegalovirus polyradiculopathy; Ganciclovir monotherapy",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Cryptococcus neoformans is an opportunistic encapsulated fungal pathogen (found in pigeon droppings and soil) that infects patients with advanced T-cell immunodeficiency (CD4 < 100/\u00b5L). Lumbar puncture shows markedly elevated opening pressure, lymphocytic pleocytosis, and low glucose. India ink reveals round budding yeast cells with clear halos (unstained thick polysaccharide capsule), and mucicarmine stains the capsule bright red. First-line induction therapy is Liposomal Amphotericin B combined with Flucytosine for at least 2 weeks, followed by consolidation and maintenance with Fluconazole."
+  },
+  {
+    "id": "inhouse_370",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 52-year-old immigrant from Southeast Asia presents with a 4-week history of low-grade fevers, night sweats, anorexia, weight loss, progressive confusion, and multiple cranial nerve palsies (CN III, VI, and VII). Brain MRI with contrast reveals thick, gelatinous basilar meningeal enhancement encircling the circle of Willis and brainstem. Lumbar puncture shows opening pressure 280 mm H2O, WBC 340/\u00b5L (85% lymphocytes), protein 480 mg/dL (markedly elevated), and glucose 14 mg/dL (profoundly depressed). What is the causative organism, and what is its characteristic histological feature?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mycobacterium tuberculosis; caseating granulomas with Langhans multinucleated giant cells and acid-fast bacilli",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Treponema pallidum; obliterative endarteritis with spirochetal gummas",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Borrelia burgdorferi; non-caseating sarcoid granulomas",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Taenia solium; calcified cysticercal scolex larvae",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Rabies lyssavirus; intracytoplasmic Negri bodies within Purkinje cells",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Tuberculous meningitis typically presents subacutely over weeks with constitutional symptoms followed by cranial neuropathies due to predilection for the skull base. MRI shows intense basilar meningeal enhancement. The CSF profile is distinct: markedly high protein (> 150\u2013500 mg/dL), low glucose (< 30 mg/dL), and lymphocytic pleocytosis. Histopathology demonstrates necrotizing (caseating) granulomas composed of activated epithelioid macrophages, rimmed by lymphocytes and horseshoe-shaped Langhans multinucleated giant cells, with acid-fast bacilli on Ziehl-Neelsen stain."
+  },
+  {
+    "id": "inhouse_371",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "According to Slide 5 of 'MeningitisContentAnswers.pptx', what pathological changes would an autopsy examination of the brain reveal in a patient who died from fulminant acute bacterial meningitis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Grossly: Accumulation of thick, yellow-green purulent exudate covering the leptomeninges with marked engorgement of surface pial blood vessels; Histologically: Massive infiltration of polymorphonuclear neutrophils within the subarachnoid space surrounding leptomeningeal vessels",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Grossly: Complete cavitation of the basal ganglia with absence of all meningeal blood vessels",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Grossly: Normal glistening brain without vascular congestion; Histologically: Exclusively eosinophilic inclusions inside oligodendrocytes",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Grossly: Extensive cerebellar hypoplasia; Histologically: Spongiform change with amyloid plaques",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Grossly: Diffuse cortical calcification; Histologically: Total absence of inflammatory cells",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Slide 5 of 'MeningitisContentAnswers.pptx' directly specifies the gross and microscopic pathology:\n- Gross appearance: Accumulation of cloudy, thick purulent inflammatory exudate over the cerebral convexities and basilar cisterns within the leptomeninges (arachnoid and pia), accompanied by intense congestion, engorgement, and dilation of superficial meningeal blood vessels.\n- Histological examination: Dense sheets of polymorphonuclear neutrophils (PMNs) packing the subarachnoid space, inflammatory infiltration of meningeal vessel walls (vasculitis), and fibrin deposition."
+  },
+  {
+    "id": "inhouse_372",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 19-year-old soldier in basic military training presents with rapid-onset fever, severe headache, confusion, and a non-blanching purpuric and petechial rash covering his extremities and trunk. Within 4 hours of arrival, his blood pressure plummets to 65/35 mmHg, he develops disseminated intravascular coagulation (DIC), and dies of cardiovascular collapse. Autopsy reveals bilateral adrenal cortical hemorrhages and hemorrhagic necrosis (Waterhouse-Friderichsen syndrome). What is the causative pathogen and its primary virulence factor responsible for this endotoxic shock?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neisseria meningitidis; lipooligosaccharide (LOS) endotoxin in the bacterial outer membrane",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Streptococcus pneumoniae; pneumolysin pore-forming toxin",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Staphylococcus aureus; toxic shock syndrome toxin-1 (TSST-1)",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Pseudomonas aeruginosa; Exotoxin A ADP-ribosylating toxin",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Clostridium perfringens; alpha-toxin lecithinase",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Waterhouse-Friderichsen syndrome is fulminant meningococcemia caused by Neisseria meningitidis (meningococcus). It is characterized by severe septic shock, DIC with petechial/purpuric skin lesions, and bilateral hemorrhagic necrosis of the adrenal glands, leading to acute adrenal insufficiency. The primary virulence driver is Lipooligosaccharide (LOS)\u2014the meningococcal outer membrane endotoxin (analogous to LPS in enteric Gram negatives, but lacking the repeating O-antigen). Massive shedding of LOS blebs into the bloodstream triggers overwhelming TNF-alpha, IL-1, and nitric oxide release, driving septic collapse."
+  },
+  {
+    "id": "inhouse_373",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 3-year-old child presents with high fever, neck stiffness, and irritability. Lumbar puncture confirms Streptococcus pneumoniae meningitis. Blood and CSF cultures subsequently grow S. pneumoniae that is reported as highly resistant to penicillin (MIC >= 2.0 \u00b5g/mL). What is the biochemical mechanism of penicillin resistance in Streptococcus pneumoniae?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mutations in chromosomal penicillin-binding proteins (PBPs), altering their structure and reducing their binding affinity for beta-lactam antibiotics",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Plasmid-mediated acquisition of TEM-1 beta-lactamase enzyme that hydrolyzes the penicillin ring",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Active efflux pumping of the antibiotic by an ABC multidrug transporter",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Decreased outer membrane porin permeability",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Enzymatic methylation of the 23S ribosomal RNA subunit",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Unlike Staphylococcus aureus and enteric Gram-negatives which produce beta-lactamase enzymes, Streptococcus pneumoniae develops resistance to penicillin and beta-lactam antibiotics via homologous recombination and chromosomal mutations that alter Penicillin-Binding Proteins (PBPs, specifically PBP 1A, 2B, 2X). These conformational changes reduce the binding affinity of beta-lactams to the enzyme transpeptidase active site. This is precisely why VANCOMYCIN (which binds D-ala-D-ala, bypassing PBPs) is co-administered with Ceftriaxone in all empiric regimens for bacterial meningitis."
+  },
+  {
+    "id": "inhouse_374",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 28-year-old woman presents with acute-onset fever, severe headache, confusion, olfactory hallucinations (smelling burning rubber), and bizarre behavioral changes. Lumbar puncture demonstrates 220 WBC/\u00b5L (95% lymphocytes), elevated RBC count in the absence of traumatic tap (500 RBC/\u00b5L), and normal glucose. Brain MRI demonstrates asymmetrical hyperintensity, petechial hemorrhages, and edema strictly localized to the medial temporal lobes and inferior frontal lobes. What is the most likely pathogen, and what is the drug of choice?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Herpes Simplex Virus Type 1 (HSV-1); intravenous Acyclovir",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Rabies virus; post-exposure rabies immunoglobulin and vaccine",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "West Nile virus; supportive care with mechanical ventilation",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Poliovirus; oral ribavirin",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "John Cunningham (JC) virus; intravenous cidofovir",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Herpes Simplex Virus Type 1 (HSV-1) encephalitis is the most common cause of fatal sporadic viral encephalitis in the United States. Pathognomonic features include:\n- Temporal and inferior frontal lobe predilection (necrotizing, hemorrhagic encephalitis)\n- Clinical presentation: Acute fever, altered mental status, seizures, olfactory/gustatory auras, and aphasia\n- CSF: Lymphocytic pleocytosis with elevated RBCs (due to hemorrhagic cortical necrosis), normal glucose\n- Drug of choice: Immediate intravenous ACYCLOVIR (guanosine analog phosphorylated by viral thymidine kinase to inhibit viral DNA polymerase). Delay in therapy drastically increases mortality and permanent memory deficits."
+  },
+  {
+    "id": "inhouse_375",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 32-year-old male who recently returned from camping in Connecticut presents with fever, severe fatigue, headache, and bilateral facial muscle weakness (inability to close both eyes or smile bilaterally). Physical examination reveals a target-like, annular erythematous rash with central clearing ('erythema migrans') on his groin. Lumbar puncture confirms a mild lymphocytic pleocytosis. Which vector-borne pathogen is responsible for this patient's meningitis and bilateral Bell palsy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Borrelia burgdorferi (Lyme disease, transmitted by Ixodes scapularis tick)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Rickettsia rickettsii (Rocky Mountain spotted fever, transmitted by Dermacentor tick)",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Coxiella burnetii (Q fever, transmitted via aerosolized livestock amniotic fluid)",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Bartonella henselae (Cat scratch disease)",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Ehrlichia chaffeensis (Human monocytic ehrlichiosis)",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This patient presents with early disseminated Lyme disease (Stage 2) caused by the spirochete Borrelia burgdorferi, transmitted by the blacklegged deer tick (Ixodes scapularis). Stage 2 manifestations characteristically include:\n- Neurologic: Aseptic meningitis, radiculopathy, and cranial neuropathies\u2014most famously BILATERAL FACIAL NERVE PALSY (bilateral Bell palsy is a classic board hallmark of Lyme disease).\n- Cardiac: AV block (Lyme carditis)\n- Dermatologic: Multiple secondary erythema migrans lesions.\nFirst-line treatment for Lyme meningitis is intravenous Ceftriaxone (or high-dose oral Doxycycline)."
+  },
+  {
+    "id": "inhouse_376",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 62-year-old woman with a history of recurrent urinary tract infections presents with fever, stiff neck, and confusion. Lumbar puncture demonstrates bacterial meningitis. CSF culture grows a Gram-positive bacillus that displays tumbling motility on wet mount at 22\u00b0C (room temperature) and produces beta-hemolysis on sheep blood agar. What is the unique cellular mechanism by which this pathogen moves from one host cell directly into adjacent host cells without entering the extracellular space?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Polymerization of host cellular actin filaments into 'actin rockets' via the surface protein ActA",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Extension of type IV twitching pili through host nuclear pore complexes",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Direct fusion of bacterial outer membrane vesicles with the Golgi apparatus",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Secretion of collagenase that dissolves basement membranes between adjacent cells",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Passive hitchhiking inside circulating erythrocyte hemoglobin pockets",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Listeria monocytogenes is a facultative intracellular Gram-positive rod. Once phagocytosed by a host macrophage or epithelial cell, it uses listeriolysin O (a pore-forming toxin) and phospholipases to escape the phagolysosome into the host cytoplasm. Once in the cytoplasm, it expresses the surface protein ActA, which hijacks host actin to assemble a tail of polarized microfilaments ('actin rocket' or 'actin comets'). This propels the bacterium to the host cell membrane, where it forms a protrusion that is engulfed by neighboring cells, allowing cell-to-cell spread while shielding the bacterium from circulating antibodies and complement."
+  },
+  {
+    "id": "inhouse_377",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 10-year-old boy presents with high fever, severe nuchal rigidity, and photophobia. The pediatric resident asks why Haemophilus influenzae type b (Hib) and Streptococcus pneumoniae meningitis have decreased dramatically in incidence in pediatric populations over the past three decades. What immunological characteristic of conjugate polysaccharide vaccines accounts for this protection in infants?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Covalently coupling the bacterial capsular polysaccharide to a protein carrier (e.g., diphtheria or tetanus toxoid) recruits CD4+ T helper cells, converting a T-independent antigen into a T-dependent immune response that generates robust IgG antibodies and immunological memory in infants under 2 years of age",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "The polysaccharide capsule directly stimulates cytotoxic CD8+ T cells to lyse all encapsulated bacteria in the bloodstream",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "The protein carrier acts as an irreversible suicide inhibitor of bacterial DNA gyrase",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Conjugate vaccines contain live attenuated bacterial strains that colonize the colon permanently",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Infants naturally produce high titers of maternal IgA against all polysaccharide capsules without vaccination",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Pure capsular polysaccharide vaccines (e.g., Pneumovax 23) are T-independent antigens that cannot stimulate T cells or induce class-switching and memory in children under 2 years of age due to an immature splenic marginal zone. By covalently conjugating the polysaccharide to an immunogenic protein carrier (e.g., CRM197 or tetanus toxoid in PCV13/15/20 and Hib vaccines), B cells present the peptide to CD4+ T helper cells via MHC class II. This induces CD40/CD40L co-stimulation, prompting class switching from IgM to high-affinity IgG antibodies and establishing long-lasting B-cell memory."
+  },
+  {
+    "id": "inhouse_378",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 22-year-old college student presents with recurrent episodes of culture-negative, self-limiting aseptic meningitis over the past two years, with completely symptom-free intervals lasting several months. Lumbar puncture demonstrates lymphocytic pleocytosis with large, fragile, monocytoid cells with folded nuclei in the CSF (Mollaret cells). Multiplex PCR of the CSF confirms Herpes Simplex Virus Type 2 (HSV-2). What is this benign, recurrent aseptic meningitis syndrome called?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mollaret meningitis",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Beh\u00e7et disease",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Vogt-Koyanagi-Harada syndrome",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Neurosarcoidosis",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Rasmussen encephalitis",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Mollaret meningitis (benign recurrent lymphocytic meningitis) is characterized by repeated, self-limiting episodes of aseptic meningitis with complete clinical recovery between episodes. The vast majority (> 80-90%) of cases are caused by reactivation of Herpes Simplex Virus Type 2 (HSV-2) dormant in sensory ganglia. The CSF reveals lymphocytic pleocytosis and transient 'Mollaret cells' (large, pale, fragile endothelial-like monocyte/macrophage cells with 'footprint' clefted nuclei). Treatment with oral valacyclovir or acyclovir accelerates recovery and provides suppression."
+  },
+  {
+    "id": "inhouse_379",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 35-year-old male with an 8-year history of poorly controlled human immunodeficiency virus (HIV) infection presents with fever, progressive headache, and confusion. A contrast-enhanced brain MRI reveals multiple ring-enhancing lesions in the basal ganglia and corticomedullary junction with surrounding vasogenic edema. Serum Toxoplasma gondii IgG is strongly positive. What is the first-line pharmacotherapeutic regimen for cerebral toxoplasmosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pyrimethamine and Sulfadiazine, along with Leucovorin (folinic acid)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Acyclovir and Ganciclovir",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Vancomycin, Ceftriaxone, and Ampicillin",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Amphotericin B and Flucytosine",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Albendazole and Praziquantel",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Toxoplasma gondii is an intracellular protozoan parasite that reactivates in AIDS patients with CD4 < 100 cells/\u00b5L, presenting with multiple ring-enhancing brain lesions (typically in the basal ganglia). The first-line therapeutic regimen is Pyrimethamine (dihydrofolate reductase inhibitor) plus Sulfadiazine (dihydropteroate synthase inhibitor). Leucovorin (folinic acid) must be co-administered to rescue host bone marrow from pyrimethamine-induced megaloblastic anemia and leukopenia. Trimethoprim-sulfamethoxazole (TMP-SMX) is the standard prophylactic agent."
+  },
+  {
+    "id": "inhouse_380",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "In a 25-year-old patient who survived severe bacterial meningitis caused by Streptococcus pneumoniae, what is the single most common long-term permanent neurological deficit encountered as a post-infectious complication?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sensorineural hearing loss due to suppurative suppurative labyrinthitis and cochlear ossification",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Total loss of pain and temperature sensation on the anterior torso",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Persistent bilateral anosmia without cognitive changes",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Selective paralysis of the gastrocnemius muscles bilaterally",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Irreversible Horner syndrome on the right side",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Sensorineural hearing loss (SNHL) is the most common permanent long-term sequela of bacterial meningitis, occurring in up to 10\u201330% of survivors (most frequently with Streptococcus pneumoniae). Infection tracks from the subarachnoid space through the cochlear aqueduct into the scala tympani of the inner ear, causing suppurative labyrinthitis, death of hair cells in the organ of Corti, and subsequent fibro-osseous obliteration (cochlear ossification). Adjunctive dexamethasone administered prior to antibiotics significantly reduces the incidence of hearing impairment."
+  },
+  {
+    "id": "inhouse_381",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 4-week-old infant who was treated for neonatal Escherichia coli meningitis 2 weeks ago returns with an enlarging head circumference, split cranial sutures, and a tense, bulging anterior fontanelle. Brain ultrasound reveals progressive, massive enlargement of all four cerebral ventricles (lateral, third, and fourth ventricles) without any obstructing intraventricular mass or web. What is the pathological mechanism of hydrocephalus following bacterial meningitis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Communicating (non-obstructive) hydrocephalus caused by purulent inflammatory exudate and fibrous scarring clogging the arachnoid granulations (villi), impairing CSF resorption into the venous sinuses",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Non-communicating hydrocephalus caused by congenital stenosis of the aqueduct of Sylvius",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Massive hyper-secretion of CSF by a choroid plexus papilloma",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Herniation of the cerebellar vermis into the third ventricle",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Complete thrombosis of the common femoral vein",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Post-meningitic hydrocephalus is a well-recognized complication. The thick neutrophilic and fibrin exudate in the subarachnoid space tracks into the arachnoid villi and granulations lining the superior sagittal sinus. Fibrotic scarring and debris permanently plug these arachnoid granulations, blocking the normal outflow of CSF from the subarachnoid space into the dural venous circulation. Because all ventricles remain patent and in free communication with the subarachnoid space, this constitutes Communicating Hydrocephalus."
+  },
+  {
+    "id": "inhouse_382",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 23-year-old man who swam in a warm freshwater lake in Florida 5 days ago presents with abrupt-onset high fever, severe headache, confusion, anosmia, and rapidly progressing coma. Lumbar puncture demonstrates bloody, purulent CSF with 6,500 WBC/\u00b5L (predominantly PMNs) and motile amoebic trophozoites on a wet mount. Despite intensive therapy, the patient dies within 72 hours. Autopsy reveals extensive necrotizing, hemorrhagic destruction of the olfactory bulbs and inferior frontal lobes. What is the causative organism, and what is its route of entry into the brain?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Naegleria fowleri; entry via the nasal mucosa, penetrating the cribriform plate along the olfactory fila into the subarachnoid space (Primary Amoebic Meningoencephalitis)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Acanthamoeba castellanii; entry via corneal contact lens micro-abrasions",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Balamuthia mandrillaris; entry via skin abrasions and hematogenous seeding",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Entamoeba histolytica; entry via colonic ulceration and portal-systemic shunting",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Trypanosoma brucei; entry via the tsetse fly bite on the scalp",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Naegleria fowleri is a free-living, thermophilic amoeba found in warm freshwater bodies (lakes, rivers, unchlorinated hot springs). When contaminated water is forcibly inhaled into the nasal cavity (e.g., during diving, swimming, or using non-sterile tap water in neti pots), flagellated trophozoites penetrate the nasal olfactory neuroepithelium and migrate directly across the cribriform plate along the olfactory nerve fibers into the frontal lobes. It causes fulminant Primary Amoebic Meningoencephalitis (PAM), which is almost universally fatal (> 97% mortality) within days."
+  },
+  {
+    "id": "inhouse_383",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 50-year-old male with chronic sinusitis develops high fever, lethargy, and a severe right-sided headache. Contrast-enhanced MRI of the brain reveals a solitary 3.5 cm ring-enhancing round mass with thin, uniform enhancement and extensive surrounding vasogenic edema in the right frontal lobe. The mass exhibits prominent central diffusion restriction on diffusion-weighted imaging (DWI). What is the diagnosis, and which organisms are most frequently cultured from a brain abscess originating via direct contiguous spread from frontal or ethmoid sinusitis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bacterial brain abscess; polymicrobial mixture of Streptococcus viridans/anginosus group and oral anaerobes (Fusobacterium, Peptostreptococcus, Bacteroides)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Glioblastoma multiforme; unculturable neoplastic astrocytes",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Multiple sclerosis tumefactive plaque; oligoclonal IgG bands",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Prion plaque; protease-resistant scrapie protein",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Primary CNS lymphoma; Epstein-Barr virus DNA exclusively",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. A bacterial brain abscess typically presents as a solitary ring-enhancing lesion with restricted diffusion on DWI (hyperintense on DWI and hypointense on ADC, representing thick, viscous pus and inflammatory cellularity). Contiguous spread from the paranasal sinuses (frontal/ethmoid sinuses) seed the frontal lobe, typically with a polymicrobial flora dominated by Viridans streptococci (particularly the Streptococcus anginosus / milleri group) and mixed oral anaerobes (Fusobacterium, Prevotella, Peptostreptococcus). Management involves surgical drainage/aspiration and prolonged IV antibiotics (e.g., ceftriaxone + metronidazole +/- vancomycin)."
+  },
+  {
+    "id": "inhouse_384",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 48-year-old woman presents with severe headache, fever, and neck stiffness. She has an established medical history of a severe, anaphylactic reaction to all beta-lactam antibiotics (facial angioedema, respiratory arrest, and shock following cephalosporins and penicillins). What is the appropriate empiric intravenous antibiotic regimen for acute bacterial meningitis in this patient?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vancomycin plus Chloramphenicol (or Moxifloxacin) plus Aztreonam or Trimethoprim-Sulfamethoxazole",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Ceftriaxone plus Ampicillin",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Penicillin G high-dose infusion",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Amoxicillin-clavulanate oral suspension",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Cefepime plus Meropenem",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. In patients with severe, life-threatening IgE-mediated anaphylaxis to beta-lactam antibiotics (where neither penicillins, cephalosporins, nor carbapenems can be safely administered), alternative empiric regimens must be employed: Vancomycin (to cover Gram-positive cocci, resistant pneumococci) plus either Chloramphenicol, Moxifloxacin, or Aztreonam (to cover Gram-negative diplococci / N. meningitidis and bacilli), along with Trimethoprim-Sulfamethoxazole if Listeria coverage is required. Cephalosporins and penicillins are strictly contraindicated in confirmed anaphylaxis."
+  },
+  {
+    "id": "inhouse_385",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A clinical pathologist evaluates a slide from the subarachnoid space of a deceased 18-year-old patient who had acute meningococcal meningitis. The pathologist notes that beyond the dense accumulation of polymorphonuclear neutrophils, the endothelial cells of the leptomeningeal veins show swelling, necrosis, and mural fibrin thrombi occluding the venous lumina. What catastrophic secondary brain complication occurs when cortical leptomeningeal veins and dural venous sinuses undergo septic thrombophlebitis in bacterial meningitis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cortical venous thrombosis leading to venous congestion, secondary hemorrhagic cerebral infarction, and intractable seizures",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Spontaneous cure of all meningeal inflammation due to vessel obliteration",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Instantaneous regeneration of the subarachnoid trabeculae",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Calcification of the choroid plexus preventing hydrocephalus",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Proliferation of Schwann cells throughout the corpus callosum",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. In fulminant bacterial meningitis, the intense inflammatory exudate surrounding the thin-walled leptomeningeal veins directly triggers septic thrombophlebitis (Slide 5 of 'MeningitisContentAnswers.pptx' and Slide 6 of 'MeningitisCaseAnswers..pptx'). Occlusion of cortical bridging veins and dural venous sinuses impairs venous drainage from the cerebral cortex, resulting in massive venous hypertension, petechial extravasation, and secondary hemorrhagic venous infarction. This causes focal neurological deficits, refractory status epilepticus, and accelerates cerebral edema."
+  }
+]

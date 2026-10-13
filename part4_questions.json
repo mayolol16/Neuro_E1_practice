@@ -1,0 +1,3137 @@
+[
+  {
+    "id": "inhouse_291",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 32-year-old working mother presents to her primary care physician reporting worsening headaches over the past 4 months. She currently experiences approximately two severe episodes per week that force her to leave work early and lie down. She describes the pain as throbbing, predominantly on the right frontotemporal region, and rates it an 8/10. The attacks last between 12 and 24 hours if untreated and are exacerbated by walking up stairs or looking at bright fluorescent screens. She experiences nausea and profound sensitivity to both light and sound during episodes. Neurological examination is completely normal. According to the International Classification of Headache Disorders (ICHD-3), which of the following is an absolute diagnostic criterion for migraine without aura?",
+    "options": [
+      {
+        "id": "A",
+        "text": "At least 5 lifetime attacks lasting 4 to 72 hours, with nausea/vomiting or photophobia and phonophobia",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Presence of a visual scintillation or fortification spectrum preceding the pain by at least 15 minutes",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Mandatory presence of both vomiting and Horner syndrome during every episode",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Bilateral band-like pressure pain that is unaffected by routine physical activity",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Prompt cessation of headache within 5 minutes of inhaling 100% high-flow oxygen",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This question directly reflects the introductory case presented by Dr. Melissa Rayhill in the lecture 'Cases in Headache Medicine.' Under ICHD-3 criteria for Migraine without Aura:\n1. At least 5 attacks fulfilling criteria B-D.\n2. Headache attacks lasting 4\u201372 hours (untreated or unsuccessfully treated).\n3. At least 2 of: unilateral location, pulsating quality, moderate or severe intensity, aggravation by routine physical activity.\n4. During headache, at least 1 of: nausea and/or vomiting, OR photophobia and phonophobia.\nVisual aura is only required for migraine WITH aura (present in ~30% of patients)."
+  },
+  {
+    "id": "inhouse_292",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 29-year-old woman presents with recurrent headaches. A resident physician comments: 'She cannot have migraines because she has never vomited and does not have to lie in a dark, quiet room with the curtains drawn.' How should the attending neurologist respond regarding the clinical presentation of migraine headaches?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Patients do not need to vomit or be incapacitated in a dark room; nausea alone or moderate photophobia/phonophobia meets diagnostic criteria",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Vomiting is an absolute physiological prerequisite for activation of the trigeminovascular caudal nucleus",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Without severe prostration and bilious emesis, the diagnosis is classified as episodic tension-type headache by default",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Photophobia and phonophobia are exclusive hallmarks of bacterial leptomeningitis, not migraine",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Migraine diagnoses cannot be established without documented intracranial hypertension on lumbar puncture",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. A central teaching point emphasized in Dr. Rayhill's headache lecture is: 'You don't need to be throwing up in a dark room to have migraine!' Many patients experience moderate migraine attacks where nausea (without emesis) is present, or mild-to-moderate photophobia and phonophobia occur without requiring complete isolation in darkness. Recognising this prevents undertreating disabling migraines as simple sinus or tension headaches."
+  },
+  {
+    "id": "inhouse_293",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "In the modern neurovascular model of migraine pathophysiology, cortical spreading depression (CSD) is followed by activation of primary afferents within the trigeminovascular system. Which specific neuropeptide, stored in dense-core vesicles of perivascular trigeminal C and A-delta fibers, is the primary mediator of cranial vasodilation, mast cell degranulation, and neurogenic dural plasma protein extravasation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Calcitonin Gene-Related Peptide (CGRP)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Acetylcholine",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Gamma-aminobutyric acid (GABA)",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Endothelin-1",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Dopamine",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. As detailed in the lecture and content slides, Calcitonin Gene-Related Peptide (CGRP) is the central neuropeptide driving migraine pathophysiology. Activation of the spinal trigeminal nucleus leads to peripheral release of CGRP and Substance P around meningeal blood vessels. CGRP binds to the CRLR/RAMP1 receptor complex on vascular smooth muscle, causing profound vasodilation, and stimulates mast cells to degranulate and release histamine and bradykinin, which further sensitizes nociceptive nerve endings."
+  },
+  {
+    "id": "inhouse_294",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 35-year-old accountant with a 10-year history of episodic migraines presents for a routine follow-up. When evaluating her clinical status to determine if her migraine disorder has transitioned from episodic to chronic migraine, which of the following is the single most informative clinical question to ask?",
+    "options": [
+      {
+        "id": "A",
+        "text": "'How often are you completely headache-free?'",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "'Do you experience tingling in both feet after prolonged standing?'",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "'How many times per day do you check your blood pressure?'",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "'Have you ever had an allergic rash to sulfa antibiotics?'",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "'Do your headaches improve immediately after drinking a gallon of water?'",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Dr. Rayhill explicitly highlights in her lecture: 'When determining headache frequency, the most important question is: HOW OFTEN ARE YOU COMPLETELY HEADACHE FREE?' Patients with chronic migraine frequently downplay mild daily or background headaches, only counting 'bad' attack days. Asking how often they are entirely without head pain quickly uncovers continuous or near-daily background headaches meeting criteria for chronic migraine (>= 15 headache days/month for > 3 months)."
+  },
+  {
+    "id": "inhouse_295",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 40-year-old woman reports that over the past 6 months she has experienced headaches on 18 days per month. Detailed questioning reveals that on at least 10 of those days per month, the headaches exhibit pulsating unilateral pain, moderate-to-severe intensity, and are accompanied by photophobia and nausea. On the remaining days, she experiences a dull, mild bilateral pressing tension ache. She has had this pattern for 5 consecutive months. What is the formal ICHD-3 diagnosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chronic migraine",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Episodic tension-type headache",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Chronic cluster headache",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Hemicrania continua",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Paroxysmal hemicrania",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. By ICHD-3 criteria, Chronic Migraine is defined as: headache (migraine-like or tension-type-like) on >= 15 days per month for > 3 months, with at least 8 days per month meeting criteria for a migraine attack or responding to a migraine-specific medication. This patient has headaches on 18 days/month (> 15) for 5 months (> 3), with 10 days (> 8) meeting full migraine criteria. Thus, she meets all diagnostic criteria for Chronic Migraine."
+  },
+  {
+    "id": "inhouse_296",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 34-year-old woman presents to the clinic with acute migraine attacks occurring three times a month. Her physician prescribes sumatriptan for abortive therapy. Which molecular mechanism explains how triptans abort acute migraine headaches?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Selective agonism of serotonin 5-HT 1B and 1D receptors, inducing intracranial vasoconstriction and inhibiting presynaptic CGRP release",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Irreversible inhibition of cyclooxygenase-1 and -2 in peripheral vascular endothelium",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Non-selective antagonism of beta-1 and beta-2 adrenergic receptors",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Blockade of voltage-gated T-type calcium channels in the thalamic reticular nucleus",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Direct agonism of mu-opioid receptors within the periaqueductal gray",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Triptans (e.g., sumatriptan, rizatriptan, zolmitriptan) are selective 5-HT 1B/1D receptor agonists. Their therapeutic action is threefold:\n1. 5-HT 1B activation stimulates vasoconstriction of painfully dilated meningeal and dural blood vessels.\n2. 5-HT 1D activation on presynaptic trigeminal nerve terminals blocks the exocytotic release of vasoactive neuropeptides, specifically CGRP and Substance P.\n3. Modulation of second-order nociceptive neurotransmission in the brainstem trigeminal nucleus caudalis."
+  },
+  {
+    "id": "inhouse_297",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 52-year-old man with a history of hypertension, coronary artery disease, and an anterior myocardial infarction 2 years ago presents with typical episodic migraines. The resident physician suggests prescribing oral zolmitriptan. The attending physician corrects the resident and explains that triptans are contraindicated in this patient because of which pharmacological risk?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Coronary artery vasospasm and myocardial ischemia mediated by 5-HT 1B receptor activation",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Profound peripheral vasodilatation causing refractory orthostatic shock",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Severe lactic acidosis from mitochondrial pyruvate dehydrogenase inhibition",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Acute interstitial nephritis and renal papillary necrosis",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Irreversible bone marrow suppression and aplastic anemia",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Because triptans are 5-HT 1B agonists, they cause vasoconstriction not only in cranial meningeal vessels but can also induce coronary artery vasoconstriction/vasospasm. Consequently, triptans are strictly contraindicated in patients with established coronary artery disease (prior MI, angina), peripheral vascular disease, history of stroke/TIA, Prinzmetal angina, or uncontrolled hypertension."
+  },
+  {
+    "id": "inhouse_298",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 45-year-old woman with chronic coronary artery disease and episodic migraine needs an acute abortive medication that does not cause vasoconstriction. Her neurologist prescribes ubrogepant. What is the drug class and mechanism of action of this medication?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Small-molecule calcitonin gene-related peptide (CGRP) receptor antagonist ('gepant')",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Monoclonal antibody directed against the pituitary adenylate cyclase-activating polypeptide",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Selective 5-HT 2A receptor inverse agonist",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Non-steroidal anti-inflammatory prodrug inhibiting thromboxane A2 synthase",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Peroxisome proliferator-activated receptor alpha agonist",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Small-molecule CGRP receptor antagonists ('gepants', such as ubrogepant, rimegepant, and zavegepant) directly block the CGRP receptor without activating 5-HT 1B receptors. Because they do not cause vasoconstriction, they are safe and preferred acute abortive options in patients with cardiovascular disease, prior stroke, or contraindications to triptans."
+  },
+  {
+    "id": "inhouse_299",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "According to the 2026 American Academy of Neurology (AAN) and American Headache Society (AHS) Guidelines on Pharmacologic Migraine Prevention, when should preventive migraine therapy be formally offered to an adult patient?",
+    "options": [
+      {
+        "id": "A",
+        "text": "When a patient experiences 4 or more migraine headache days per month, or headaches that cause significant disability despite acute therapy",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Only after the patient has failed at least five distinct opioid medications",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Exclusively when cerebrospinal fluid opening pressure exceeds 300 mm H2O",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Only when daily headaches have persisted for a minimum of 20 consecutive years",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Exclusively in post-menopausal women with documented osteopenia",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. As highlighted on Slide 23 of Dr. Rayhill's lecture ('2026 AAN/AHS Guideline: Pharmacologic Migraine Prevention in Adults'), preventive treatment should be offered when patients experience:\n- >= 4 migraine headache days per month\n- Migraines that cause significant impairment or disability regardless of attack frequency\n- Ineffective, contraindicated, or overused acute medications."
+  },
+  {
+    "id": "inhouse_300",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 28-year-old woman with frequent disabling migraines begins preventive therapy with topiramate. In addition to migraine reduction, which constellation of side effects is characteristically associated with topiramate therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Weight loss, cognitive slowing and word-finding difficulty ('Dopamax'), paresthesias, nephrolithiasis, and teratogenicity (cleft palate)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Significant weight gain, polycystic ovarian syndrome, hirsutism, and pancreatitis",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Severe gingival hyperplasia, hirsutism, and megaloblastic anemia",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Bronchospasm, profound bradycardia, and cold extremities",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Dry mouth, urinary retention, blurred vision, and orthostatic hypotension",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Topiramate is an established first-line preventive anticonvulsant for migraine. It blocks voltage-gated Na+ channels, enhances GABA, and antagonizes AMPA/kainate receptors, along with mild carbonic anhydrase inhibition. High-yield side effects include:\n- Cognitive slowing, memory fog, word-finding difficulty (colloquially termed 'Dopamax')\n- Weight loss and anorexia\n- Distal paresthesias and altered taste (carbonic anhydrase inhibition causing tingling)\n- Nephrolithiasis (calcium phosphate kidney stones)\n- Teratogenicity: oral clefts (cleft lip/palate) in the first trimester."
+  },
+  {
+    "id": "inhouse_301",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 36-year-old woman with asthma and a history of major depressive disorder presents seeking preventive therapy for frequent migraines. Which of the following conventional preventive medications should be avoided or used with extreme caution due to her comorbid conditions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Propranolol",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Atogepant",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Erenumab",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Magnesium oxide",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Riboflavin (Vitamin B2)",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Propranolol is a non-selective beta-adrenergic antagonist (beta-1 and beta-2 blocker). Because beta-2 receptor blockade induces bronchoconstriction, propranolol is contraindicated in patients with asthma or active reactive airway disease. Furthermore, beta-blockers can worsen depression and fatigue, making propranolol a poor choice for a patient with depression."
+  },
+  {
+    "id": "inhouse_302",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 42-year-old woman with chronic migraine refractory to multiple oral medications is started on erenumab. How does erenumab differ in target mechanism from galcanezumab and fremanezumab?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Erenumab binds directly to the CGRP receptor, whereas galcanezumab and fremanezumab bind directly to the CGRP neuropeptide ligand",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Erenumab is a small-molecule oral inhibitor, whereas galcanezumab is an intrathecal infusion",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Erenumab inhibits vesicular acetylcholine release at neuromuscular junctions",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Erenumab selectively agonizes 5-HT 1F receptors without blocking CGRP",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Erenumab covalently modifies neuronal carbonic anhydrase enzymes",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. As highlighted in Slide 26 of Dr. Rayhill's lecture on CGRP monoclonal antibodies:\n- Erenumab is a human monoclonal antibody that binds directly and competitively to the Calcitonin Gene-Related Peptide (CGRP) receptor.\n- Galcanezumab, Fremanezumab, and Eptinezumab are monoclonal antibodies that bind directly to the circulating CGRP neuropeptide ligand itself, neutralizing it before it can activate receptors."
+  },
+  {
+    "id": "inhouse_303",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 55-year-old woman with a history of chronic migraine and panic disorder reports that over the past year her headaches have become daily. Her medication list states she takes no prescription headache drugs. Upon detailed questioning regarding over-the-counter medications, she admits she takes 2 to 3 tablets of Excedrin (acetaminophen/aspirin/caffeine) nearly every single morning and afternoon (approximately 25 days per month). What condition has developed, and what is the maximum recommended frequency for taking acute combination analgesics to prevent it?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Medication Overuse Headache (MOH); acute combination analgesics should be limited to no more than 8 to 10 days per month",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Temporal arteritis; acute analgesics should be taken for at least 30 consecutive days",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Idiopathic intracranial hypertension; caffeine should be consumed continuously throughout the day",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Trigeminal autonomic cephalgia; acute analgesics must be administered intravenously only",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Cervicogenic cephalalgia; physical manipulation should replace all oral hydration",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This case matches Patient #2 in Dr. Rayhill's lecture ('I'm not a fan of medications... but Excedrin works pretty well'). Medication Overuse Headache (MOH / rebound headache) occurs in patients with pre-existing headache disorders who use acute headache medications frequently (combination analgesics, triptans, NSAIDs, opioids, butalbital). Slide 34 specifically highlights: 'Medication Overuse Headache: Limit most acute treatments to no more than 8-10 days per month.' Using combination analgesics on >= 10 days/month for > 3 months perpetuates daily withdrawal headaches."
+  },
+  {
+    "id": "inhouse_304",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 26-year-old woman presents to the student health center requesting oral contraceptive pills (OCPs) for contraception. During the medical intake, she mentions that twice a year she notices a bright, shimmering, zigzag visual disturbance that starts in the center of her right visual field and slowly expands outward over 25 minutes, leaving behind a temporary dark blind spot. This is followed immediately by a throbbing left hemicranial headache and nausea. What is the critical clinical implication of her headache history regarding oral contraceptive prescription?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Combined estrogen-progestin oral contraceptives are contraindicated due to a substantially elevated risk of ischemic stroke in women with migraine with aura",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Estrogen therapy is mandatory to stabilize visual cortical pyramidal neurons",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Progestin-only pills are strictly contraindicated, while high-dose estrogen is safe",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Oral contraceptives permanently cure visual aura by inhibiting cortical spreading depression",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Migraine with aura eliminates all cardiovascular risks associated with synthetic steroids",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. As emphasized on Slides 40-41 of Dr. Rayhill's lecture ('If you may prescribe oral contraceptive pills, you need to know how to diagnose aura'):\nWomen with migraine with aura already possess a 2- to 4-fold baseline increase in the relative risk of ischemic stroke. Adding estrogen-containing combined oral contraceptives (OCPs) compounds this thrombotic risk synergistically (up to a 7- to 10-fold increased risk of ischemic stroke, especially if combined with smoking). According to CDC and WHO Medical Eligibility Criteria, combined estrogen-containing hormonal contraceptives are Category 4 (unacceptable health risk / contraindicated) in women who experience migraine with aura. Progestin-only methods (e.g., levonorgestrel IUD, progestin implant, norethindrone) are safe alternatives."
+  },
+  {
+    "id": "inhouse_305",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 38-year-old man presents with recurring episodes of excruciating, piercing pain centered deep behind his left eye. The attacks last 45 to 60 minutes and occur 2 to 3 times per day, often awakening him from sleep at 2:00 AM. During the attacks, he is severely agitated, pacing the floor, and rubbing his head. Physical examination during an acute attack reveals left-sided conjunctival injection, lacrimation, rhinorrhea, and partial ptosis with miosis. Which of the following is the first-line, non-pharmacological acute abortive treatment for this condition?",
+    "options": [
+      {
+        "id": "A",
+        "text": "100% High-flow Oxygen (12 to 15 L/min) administered via a non-rebreather face mask",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "High-dose oral acetaminophen with codeine",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Application of a warm moist compress over the cervical spine",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Intramuscular ketorolac combined with diphenhydramine",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Oral topiramate titrated over six weeks",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This patient has a classic presentation of cluster headache ('suicide headache'), a trigeminal autonomic cephalgia. Hallmarks include: severe unilateral periorbital pain, brief duration (15\u2013180 minutes), restlessness/pacing, and ipsilateral autonomic signs (Horner syndrome, rhinorrhea, lacrimation). The gold standard, first-line acute abortive therapy is 100% oxygen delivered at 12\u201315 L/min via a non-rebreather mask (Slide 44 of Dr. Rayhill's lecture). Subcutaneous or intranasal sumatriptan is also an effective abortive option."
+  },
+  {
+    "id": "inhouse_306",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 42-year-old man with newly diagnosed episodic cluster headaches has achieved acute relief using high-flow oxygen, but continues to experience 2 to 3 excruciating nocturnal attacks daily. His physician plans to initiate maintenance preventive therapy along with a short bridging steroid taper. What is the first-line maintenance medication for the prevention of cluster headaches, and what baseline screening is mandatory prior to dose escalation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Verapamil; baseline and serial electrocardiograms (ECGs) to monitor for PR prolongation and heart block",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Propranolol; baseline pulmonary function testing to rule out pulmonary fibrosis",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Amitriptyline; baseline slit-lamp examination to assess for cataracts",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Lithium carbonate; baseline chest radiography to rule out sarcoidosis",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Valproate; baseline audiometry testing to detect sensorineural hearing loss",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Verapamil (a non-dihydropyridine calcium channel blocker) is the undisputed first-line maintenance preventive drug for cluster headache. Because high doses (often 240 mg to 720 mg/day or higher) are typically required to suppress cluster attacks, verapamil carries a substantial risk of cardiac conduction abnormalities (specifically PR interval prolongation, atrioventricular block, and bradycardia). Therefore, a baseline ECG and serial ECGs during dose titration are mandatory."
+  },
+  {
+    "id": "inhouse_307",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 24-year-old law student presents with dull, non-pulsating head pain that occurs towards the end of long study sessions. She describes it as a tight, pressing sensation encircling her entire forehead and occiput 'like a tight rubber band.' The headaches typically last 2 to 4 hours, are mild to moderate in severity, and do not worsen when she walks around the library. She has no nausea, vomiting, photophobia, or phonophobia. Neurological examination is unremarkable with mild pericranial muscle tenderness. What is the most likely diagnosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tension-type headache",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Migraine without aura",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Cluster headache",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Paroxysmal hemicrania",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Trigeminal neuralgia",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Tension-type headache (TTH) is the most common primary headache disorder worldwide. Diagnostic criteria under ICHD-3 include:\n- Bilateral location\n- Pressing or tightening (non-pulsating) quality ('band-like')\n- Mild to moderate intensity\n- Not aggravated by routine physical activity (e.g., walking, climbing stairs)\n- No nausea or vomiting\n- No more than one of photophobia or phonophobia.\nThis contrasts sharply with migraine (unilateral, throbbing, worsened by activity, with nausea/photophobia)."
+  },
+  {
+    "id": "inhouse_308",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "In evaluating a patient presenting with an acute headache, clinicians utilize the 'SNOOP' mnemonic to identify potential 'red flag' characteristics that indicate a life-threatening secondary headache rather than a benign primary headache. Which of the following correctly pairs an element of the SNOOP mnemonic with its associated secondary pathology?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O (Onset): Sudden, 'thunderclap' onset peaking within 1 minute, signaling possible aneurysmal subarachnoid hemorrhage",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "S (Systemic): Throbbing hemicranial ache with normal temperature, signaling tension-type headache",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "N (Neurologic): Reversible 20-minute visual scintillation, signaling inevitable cerebral infarction",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "O (Older age): Age younger than 20 years, signaling giant cell arteritis",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "P (Pattern): Headache relieved by lying flat, signaling acute angle-closure glaucoma",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. The SNOOP mnemonic for headache red flags:\n- S: Systemic symptoms (fever, weight loss) or secondary risk factors (HIV, cancer).\n- N: Neurologic symptoms or abnormal signs (confusion, focal deficit, altered consciousness).\n- O: Onset sudden / 'thunderclap' (peaks < 1 min, classically aneurysmal subarachnoid hemorrhage).\n- O: Older age of onset (> 50 years, suspicion for Giant Cell / Temporal Arteritis or intracranial mass).\n- P: Pattern change, Papilledema, Positional aggravation, Precipitation by Valsalva."
+  },
+  {
+    "id": "inhouse_309",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 72-year-old woman presents with a 3-week history of persistent, boring pain over her right temple, severe fatigue, and pain in her jaw muscles when chewing tough foods (jaw claudication). Yesterday, she experienced transient dimming of vision ('amaurosis fugax') in her right eye lasting 5 minutes. On physical examination, the right superficial temporal artery is thickened, tender, and pulseless. Erythrocyte sedimentation rate (ESR) is 95 mm/hr and C-reactive protein is markedly elevated. What is the immediate next step in management to prevent irreversible bilateral blindness?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Immediately administer high-dose systemic corticosteroids (e.g., intravenous methylprednisolone or oral prednisone) prior to obtaining a temporal artery biopsy",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Schedule an elective temporal artery biopsy in 3 weeks and delay all steroids until pathology confirms giant cells",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Prescribe high-flow oxygen via a non-rebreather mask and oral sumatriptan",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Perform emergent lumbar puncture to measure opening pressure",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Administer broad-spectrum intravenous vancomycin and ceftriaxone",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This patient presents with Giant Cell (Temporal) Arteritis, a granulomatous vasculitis of medium and large arteries (branches of the external carotid and ophthalmic arteries). Hallmarks include: elderly patient (> 50 yr), new localized headache, jaw claudication, tender temporal artery, and elevated ESR/CRP. The dreaded complication is anterior ischemic optic neuropathy causing irreversible blindness. Steroids must be started IMMEDIATELY upon clinical suspicion; waiting for biopsy confirmation risks permanent vision loss. Biopsy remains diagnostically positive for up to 1\u20132 weeks following steroid initiation."
+  },
+  {
+    "id": "inhouse_310",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 26-year-old obese woman (BMI 36 kg/m\u00b2) presents with daily, diffuse, holocranial headaches that are worse in the morning and aggravated by coughing or bending over. She also reports transient visual obscurations when standing up and hears a continuous, whooshing 'heartbeat' sound in both ears (pulsatile tinnitus). Fundoscopic examination reveals bilateral optic disc swelling with blurred margins (papilledema). Magnetic resonance imaging of the brain with MR venography shows no mass lesions, ventriculomegaly, or venous sinus thrombosis, but demonstrates a partially empty sella and bilateral transverse sinus narrowing. Lumbar puncture in the lateral decubitus position reveals an opening pressure of 340 mm H2O (normal < 200 mm H2O) with normal CSF cell count, protein, and glucose. What is the first-line pharmacotherapeutic agent for this disorder?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acetazolamide",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Sumatriptan",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Verapamil",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Amitriptyline",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Carbamazepine",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This is the classic presentation of Idiopathic Intracranial Hypertension (IIH, formerly pseudotumor cerebri). Typical patient: young obese female presenting with headache, papilledema, pulsatile tinnitus, transient visual obscurations, normal neuroimaging (except empty sella, slit-like ventricles), and elevated CSF opening pressure (> 250 mm H2O) with normal CSF composition. The primary goal is preserving visual acuity and fields. First-line medical therapy is Acetazolamide, a carbonic anhydrase inhibitor that reduces CSF production by the choroid plexus. Weight loss is the definitive long-term modifying therapy."
+  },
+  {
+    "id": "inhouse_311",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 49-year-old man presents to the emergency department clutching his head, screaming that he was hit by a sledgehammer. He was lifting a heavy barbell at the gym when an excruciating, explosive occipital headache erupted in less than 30 seconds ('worst headache of my life'). He is vomiting and irritable. Non-contrast computed tomography (NCCT) of the head performed 2 hours after symptom onset is completely normal. What is the mandatory next diagnostic step to definitively rule out an aneurysmal subarachnoid hemorrhage (SAH)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lumbar puncture to assess for persistent elevated red blood cell count across serial tubes and spectrophotometric xanthochromia",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Discharge home with an oral muscle relaxant and reassuring counseling",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Electroencephalogram (EEG) to rule out absence status epilepticus",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Repeat non-contrast head CT in 2 weeks",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Prescribe oral topiramate and titrate weekly",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. A thunderclap headache ('worst headache of life', peaking in < 1 minute) is a medical emergency concerning for aneurysmal subarachnoid hemorrhage (SAH). While non-contrast head CT is > 95-98% sensitive in the first 6-12 hours, false negatives occur. If head CT is negative or equivocal, a LUMBAR PUNCTURE is mandatory. Findings confirming SAH include: non-clearing RBCs from tube 1 to tube 4, and xanthochromia (yellowish discoloration of the CSF supernatant due to enzymatic breakdown of hemoglobin into bilirubin, best detected by spectrophotometry ~6-12 hours post-bleed)."
+  },
+  {
+    "id": "inhouse_312",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 51-year-old woman is admitted to the neuro-intensive care unit following surgical clipping of a ruptured anterior communicating artery aneurysm. On hospital day 6, she develops new-onset left-sided hemiparesis, dysarthria, and lethargy. Transcranial Doppler ultrasound reveals markedly accelerated velocities in the right middle and anterior cerebral arteries, consistent with delayed cerebral ischemia (vasospasm). Which medication, administered routinely from admission, significantly reduces mortality and cerebral infarction from vasospasm in patients with aneurysmal subarachnoid hemorrhage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nimodipine (oral dihydropyridine calcium channel blocker)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Heparin continuous intravenous infusion",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Metoprolol intravenous push",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Mannitol bolus every 2 hours indefinitely",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Sumatriptan subcutaneous auto-injector",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Delayed cerebral vasospasm typically occurs between days 4 and 14 after aneurysmal SAH, triggered by spasmogenic blood breakdown products (oxyhemoglobin, endothelin). Nimodipine, a lipophilic dihydropyridine calcium channel blocker with high central nervous system penetration, is universally administered to all patients with aneurysmal SAH for 21 consecutive days. It is proven in randomized trials to reduce the incidence of secondary ischemic neurological deficits and improve overall clinical outcomes."
+  },
+  {
+    "id": "inhouse_313",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 37-year-old woman experiences severe, strictly unilateral right-sided retro-orbital headaches that occur 15 to 20 times per day, each episode lasting between 5 and 20 minutes. Each painful attack is accompanied by right lacrimation, conjunctival redness, and nasal blockage. Her symptoms are completely refractory to high-flow oxygen, oral sumatriptan, and verapamil. Her neurologist initiates an oral trial of indomethacin. Within 24 hours of starting indomethacin, the attacks cease entirely. What is the diagnosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Paroxysmal hemicrania",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Episodic cluster headache",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Classic migraine with brainstem aura",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Tension-type headache",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Trigeminal neuralgia (Tic douloureux)",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Paroxysmal hemicrania is a trigeminal autonomic cephalgia (TAC) that shares unilateral orbital pain and cranial autonomic features with cluster headache, but differs distinctly in frequency and duration: attacks are shorter (2\u201330 minutes) and much more frequent (typically > 5 attacks per day, often 10\u201320/day), with female predominance. Crucially, paroxysmal hemicrania is defined by an absolute, exquisitely rapid, 100% therapeutic response to INDOMETHACIN ('indomethacin-responsive headache')."
+  },
+  {
+    "id": "inhouse_314",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 31-year-old woman who underwent a diagnostic lumbar puncture 2 days ago presents with a severe, throbbing, dull occipital and frontal headache. She notes that whenever she sits up in bed or stands, her head throbs excruciatingly and she becomes nauseated. However, within 15 minutes of lying completely flat (supine), the headache vanishes entirely. Neurological examination is normal without meningismus. What is the underlying mechanism of this post-dural puncture headache (PDPH)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Persistent CSF leakage through the dural puncture site leading to low intracranial CSF volume/pressure and gravitational traction on pain-sensitive meninges",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Acute bacterial contamination of the subarachnoid space causing purulent leptomeningitis",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Retrograde thrombosis of the superior sagittal sinus from accidental venous catheterization",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Rupture of an anterior communicating artery aneurysm precipitated by spinal needle insertion",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Autoimmune demyelination of the cervical dorsal root entry zone",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Post-dural puncture headache (low-pressure / orthostatic headache) occurs when CSF leaks through the persistent hole created by the spinal needle faster than the choroid plexus can replace it. The resulting intracranial hypotension reduces the CSF buoyant cushion, causing the brain to sag gravitationally when upright, which exerts mechanical traction on pain-sensitive dural structures, bridging veins, and sensory cranial nerves (CN V, IX, X). When conservative therapy (bed rest, hydration, caffeine) fails, an epidural blood patch provides definitive mechanical seal and cure."
+  },
+  {
+    "id": "inhouse_315",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 22-year-old male college student presents with sudden, sharp, ice-pick-like stabs of pain over his right temple that occur spontaneously without warning. Each stab lasts approximately 2 seconds, recurs unpredictably several times a week, and is not accompanied by nausea, eye redness, tearing, or rhinorrhea. Between stabs, he is completely symptom-free. What is the diagnosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Primary stabbing headache ('ice-pick headache')",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Chronic cluster headache",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Classical migraine with prolonged aura",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Giant cell arteritis",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Subarachnoid hemorrhage",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Primary stabbing headache (colloquially called 'ice-pick headache' or 'jabs and jolts') is characterized by ultra-brief, transient, sharp, lancinating jabs of pain lasting 1 to a few seconds, typically occurring in the distribution of the first division of the trigeminal nerve. They lack cranial autonomic symptoms (which distinguishes them from TACs) and do not follow the severe multi-minute pulsating trajectory of migraine."
+  },
+  {
+    "id": "inhouse_316",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 64-year-old man presents with sharp, shooting pains in the back of his throat and base of his tongue that are triggered when he swallows cold drinks or yawns. The pain occasionally radiates deeply into his right ear canal. During one particularly severe paroxysm of pain in the office, his heart rate abruptly drops to 32 beats per minute, his blood pressure plummets, and he suffers a brief syncopal episode. Which cranial nerve is affected, and what reflex arc explains the syncopal bradycardia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Glossopharyngeal nerve (CN IX); visceral sensory afferents stimulate the dorsal motor nucleus of the vagus nerve (CN X), causing profound parasympathetic bradycardia and hypotension",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Trigeminal nerve (CN V3); somatic motor afferents directly stimulate the sinoatrial node",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Facial nerve (CN VII); motor branches stimulate carotid body chemoreceptors",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Hypoglossal nerve (CN XII); tongue motor neurons cause direct coronary vasospasm",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Spinal accessory nerve (CN XI); sternocleidomastoid spasm compresses the internal jugular vein",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Glossopharyngeal neuralgia causes lancinating, excruciating pain in the posterior pharynx, tonsillar fossa, base of the tongue, and ear canal triggered by swallowing, talking, or coughing. Because CN IX carries visceral afferents from the carotid sinus, cross-excitation or intense stimulation of the nearby dorsal motor nucleus of the vagus nerve (CN X) or nucleus tractus solitarius can elicit a profound vagal discharge, leading to severe bradycardia, sinus arrest, hypotension, and syncope."
+  },
+  {
+    "id": "inhouse_317",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 43-year-old woman presents to the clinic with severe migraines occurring 8 days per month. She has tried and failed metoprolol, amitriptyline, and topiramate due to intolerable side effects. Her neurologist discusses administering OnabotulinumtoxinA (Botox) injections. Which clinical criterion regarding FDA approval and evidence-based guidelines must be satisfied before Botox can be administered for migraine prophylaxis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The patient must meet diagnostic criteria for Chronic Migraine (headache on >= 15 days/month for > 3 months, with >= 8 days being migraine); Botox is NOT efficacious or approved for episodic migraine",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "The patient must have documented bacterial meningitis within the past calendar year",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "The patient must have failed high-flow oxygen therapy",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Botox is approved solely for tension-type headache and strictly prohibited in migraine",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "The injections must be performed into the lumbar subarachnoid space under fluoroscopy",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. As taught on Slide 25 of Dr. Rayhill's lecture ('Onabotulinum toxin A (Botox)... Given every 12 weeks in the office'): Botox is FDA-approved and clinically proven EXCLUSIVELY for CHRONIC MIGRAINE (>= 15 headache days/month for > 3 months). Randomized clinical trials (the PREEMPT trials) showed that Botox is NOT effective for episodic migraine (< 15 days/month). Therefore, insurers and guidelines require a diagnosis of chronic migraine before Botox therapy."
+  },
+  {
+    "id": "inhouse_318",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 33-year-old woman presents with severe throbbing headaches. She reports that her mother and maternal grandmother suffered from identical headaches. When evaluating the genetic epidemiology of common primary headaches, what is known regarding the inheritance of typical migraine without aura?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is a complex polygenic multifactorial disorder with significant heritability and environmental gene-lifestyle interactions",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "It follows strict autosomal recessive Mendelian inheritance linked to a single phenylalanine deletion",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "It is an X-linked dominant condition with 100% penetrance in males exclusively",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "It is caused entirely by de novo mitochondrial point mutations that never run in families",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "It has 0% genetic basis and is caused purely by ergonomic neck strain",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Common migraine (with or without aura) is a polygenic, multifactorial disease influenced by dozens of common genetic risk loci regulating ion channel conductances, glutamatergic signaling, and vascular homeostasis. A family history is present in > 60-70% of migraineurs. (Note: Rare monogenic forms, like Familial Hemiplegic Migraine, follow autosomal dominant transmission via CACNA1A, ATP1A2, or SCN1A channel mutations, but common migraine is polygenic)."
+  },
+  {
+    "id": "inhouse_319",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A clinical trial compares newer migraine abortive agents with conventional therapies. The trial tests Lasmiditan, an oral agent approved for acute migraine treatment. How does Lasmiditan's receptor selectivity differ from sumatriptan, making it uniquely safe for patients with vascular disease?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lasmiditan is a high-affinity, selective 5-HT 1F receptor agonist that centrally inhibits trigeminal nociceptive pathways without causing 5-HT 1B-mediated vasoconstriction",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Lasmiditan binds exclusively to histamine H1 receptors, avoiding adrenergic tone",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Lasmiditan irreversible blocks thromboxane receptors on platelet surfaces",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Lasmiditan induces profound systemic vasodilatation by activating guanylyl cyclase",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Lasmiditan stimulates alpha-1 adrenergic receptors in coronary arteries",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Lasmiditan is a novel 'ditan' class drug that acts as a selective 5-HT 1F receptor agonist. Unlike triptans (which activate 5-HT 1B and 1D receptors), Lasmiditan does NOT activate 5-HT 1B receptors and therefore produces NO vasoconstriction of coronary, cerebral, or peripheral arteries. It exerts its antimigraine effect purely through neural inhibition of the trigeminovascular pathway, allowing safe acute migraine treatment in patients with cardiovascular disease (though it carries a warning regarding driving impairment due to CNS sedation)."
+  },
+  {
+    "id": "inhouse_320",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 27-year-old woman presents to the emergency room with a 2-day history of escalating right frontotemporal throbbing headache, photophobia, phonophobia, and intractable vomiting. She has been unable to retain fluids or oral medications for 36 hours. Physical examination reveals orthostatic hypotension, dry mucous membranes, and severe distress from room lighting. In addition to vigorous intravenous fluid hydration and an intravenous antiemetic (e.g., metoclopramide), which intravenous medication is a standard, non-vasoconstrictive, non-opioid abortive agent used in the emergency department for severe refractory migraine (status migrainosus)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Intravenous Ketorolac (NSAID)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Intravenous Hydromorphone (opioid)",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Intravenous Verapamil bolus",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Oral topiramate dissolved in apple juice",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Intravenous mannitol 20% solution",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. In the emergency department setting, standard evidence-based migraine 'cocktails' for status migrainosus avoid opioids (which cause hyperalgesia, dependency, and medication overuse headache). First-line therapies include:\n- IV hydration\n- IV dopamine receptor antagonist antiemetics (metoclopramide or prochlorperazine, which also provide direct antimigraine efficacy)\n- IV nonsteroidal anti-inflammatory drugs, specifically Ketorolac (Toradol)\n- Subcutaneous/nasal sumatriptan or IV dihydroergotamine (if no vascular contraindications)\n- IV Dexamethasone (to prevent headache recurrence over the subsequent 48-72 hours)."
+  },
+  {
+    "id": "inhouse_321",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 12-year-old boy is accidentally struck on the right side of his head with an aluminum baseball bat when standing too close to the home plate batter. He is momentarily dazed and falls to his knees, but quickly stands up, reassures his coach that he is fine, and plays the rest of the game. Two hours later at home, he develops a severe escalating headache, projectile vomiting, and progressive drowsiness. In the emergency department, his right pupil is 6 mm, fixed and non-reactive to light, while the left pupil is 3 mm and briskly reactive. He demonstrates left-sided spastic hemiparesis. An emergent non-contrast head CT reveals a hyperdense, biconvex (lenticular) extra-axial mass on the right that does not cross the coronal or lambdoid cranial sutures. Which vascular structure was torn by the impact?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Middle meningeal artery",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Bridging cortical veins",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Basilar artery apex",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Internal carotid cavernous segment",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Great cerebral vein of Galen",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This is the textbook presentation of an epidural hematoma (EDH), directly mirroring Case 1 in '9-TraumaCASEANS.pptx'. Key features:\n- Mechanism: Lateral cranial impact at the pterion (where frontal, parietal, temporal, and sphenoid bones meet).\n- Vessel: Fracture tears the middle meningeal artery (a branch of the maxillary artery traversing the foramen spinosum).\n- Clinical course: The classic 'lucid interval' (transient concussion followed by complete lucidity for hours, then rapid herniation and coma as arterial blood strips periosteal dura from skull bone).\n- Imaging: Lenticular / biconvex shape restricted by cranial suture lines where dura is tightly adherent to bone.\n- Complication: Uncal herniation compressing the ipsilateral CN III (ipsilateral blown pupil) and cerebral peduncle (contralateral hemiparesis)."
+  },
+  {
+    "id": "inhouse_322",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "Why is an epidural hematoma limited by cranial suture lines on head CT imaging, whereas a subdural hematoma can cross suture lines freely?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The outer periosteal layer of the dura mater is firmly affixed to the inner skull table at the cranial sutures, preventing epidural blood from crossing",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Epidural arterial blood coagulates instantaneously at suture margins due to suture-specific thromboplastin",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Subdural hematomas are contained within the subarachnoid trabeculae",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "The falx cerebri is located exclusively in the epidural space",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Arterial pressure is lower than intracranial venous sinus pressure",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. As explicitly detailed on Slide 5 of '9-TraumaContentANS.pptx':\n- Epidural hematomas reside between the inner skull table and the periosteal dura mater. Because the periosteal dura is tightly attached to the skull at the cranial sutures (where skull bones fuse), an epidural collection cannot dissect past suture lines, creating the characteristic biconvex/lenticular lens shape.\n- Subdural hematomas reside in the potential space between the inner meningeal dura and the arachnoid mater. There are no suture attachments in this subdural plane, allowing blood to spread freely across the entire cerebral hemisphere across sutures, conforming to the crescentic curvature of the brain."
+  },
+  {
+    "id": "inhouse_323",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A neurotrauma fellow asks medical students whether a single hematoma can cross the midline from one cerebral hemisphere to the other. Based on anatomical compartments, which statement correctly compares the boundary limits of epidural versus subdural hematomas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "An epidural hematoma can spread across the cranial midline from one side to the other, whereas a subdural hematoma cannot cross the midline because it is blocked by the dural falx cerebri",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "A subdural hematoma can cross the midline beneath the superior sagittal sinus, whereas an epidural hematoma is blocked by the pial septa",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Neither hematoma can ever cross the midline under any anatomical circumstances",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Both hematomas cross the midline indiscriminately because the dura mater terminates at the coronal suture",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Epidural hematomas are stopped by the tentorium cerebelli, whereas subdural hematomas cross both the tentorium and the foramen magnum",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This question tests the precise learning point from Slide 5 of '9-TraumaContentANS.pptx' ('Can a single epidural hematoma spread from one side of the skull to the other? Can a subdural hematoma spread from one side to the other?'):\n- Epidural hematomas lie outside the dura mater (between bone and dura). Thus, an epidural bleed can track across the midline skull vault over the superior sagittal sinus from one parietal bone to the other (if not stopped by a sagittal suture).\n- Subdural hematomas lie beneath the dura mater. The inner meningeal layer of the dura reflects downward at the midline to form the falx cerebri. Therefore, subdural blood on one hemisphere cannot cross to the contralateral hemisphere because it is physically stopped by the rigid barrier of the falx cerebri."
+  },
+  {
+    "id": "inhouse_324",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 78-year-old woman with mild vascular dementia and cerebral atrophy presents with progressive confusion, gait instability, and intermittent headache over the past 3 weeks. Her daughter reports that the patient had a minor, un-witnessed fall from a kitchen chair a month ago with no loss of consciousness. On neurological examination, she has mild left pronator drift and cognitive slowing. Non-contrast head CT reveals a crescent-shaped (concavo-convex), hypodense extra-axial fluid collection overlying the entire right frontoparietal convexity that crosses suture lines and produces 5 mm of midline shift. What is the diagnosis and source of bleeding?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chronic subdural hematoma resulting from tearing of bridging cortical veins",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Acute epidural hematoma from rupture of the anterior ethmoidal artery",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Subarachnoid hemorrhage from rupture of a posterior communicating artery aneurysm",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Intraventricular hemorrhage from choroid plexus arteriovenous malformation",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Dural arteriovenous fistula within the transverse sinus",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This case illustrates a classic Chronic Subdural Hematoma (SDH), matching Case 2 in '9-TraumaCASEANS.pptx':\n- Demographics: Elderly individuals and chronic alcoholics are predisposed because age-related cerebral atrophy increases the distance the bridging veins must travel across the subdural space to reach the superior sagittal sinus, putting them on mechanical tension.\n- Trauma: Minor or forgotten trauma shears these stretched bridging veins.\n- Time course & imaging: Chronic SDHs (> 2-3 weeks) appear HYPODENSE (dark/gray, similar to CSF) on CT as erythrocytes break down and liquefy, forming a crescent-shaped extra-axial mass that crosses suture lines."
+  },
+  {
+    "id": "inhouse_325",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 21-year-old cyclist is struck by a delivery truck while riding without a helmet. Paramedics arrive on scene within 4 minutes. The patient's eyes do not open to speech or noxious nailbed pressure (score 1). He produces only incomprehensible guttural groans when pinched (score 2). His motor response demonstrates decerebrate posturing, characterized by bilateral adduction, internal rotation of the arms, and rigid extension of both elbows and wrists upon painful sternal rub (score 2). What is this patient's total Glasgow Coma Scale (GCS) score, and how is his traumatic brain injury categorized?",
+    "options": [
+      {
+        "id": "A",
+        "text": "GCS 5; Severe traumatic brain injury requiring immediate endotracheal intubation",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "GCS 8; Moderate traumatic brain injury requiring observation in a step-down unit",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "GCS 10; Mild traumatic brain injury suitable for outpatient discharge",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "GCS 3; Brain death confirmed",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "GCS 7; Moderate concussion manageable with oral analgesics",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Calculating the Glasgow Coma Scale (GCS) from Slide 5 of '9-TraumaContentANS.pptx':\n- Eye Opening: No eye opening to pain = 1 (Range 1-4)\n- Verbal Response: Incomprehensible groans = 2 (Range 1-5)\n- Motor Response: Abnormal extension / decerebrate posturing = 2 (Range 1-6)\n- Total GCS = 1 + 2 + 2 = 5.\nTBI Classification based on GCS:\n- Severe TBI: GCS 3 to 8 (Classic aphorism: 'GCS of 8, intubate!')\n- Moderate TBI: GCS 9 to 12\n- Mild TBI: GCS 13 to 15."
+  },
+  {
+    "id": "inhouse_326",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "In the motor component of the Glasgow Coma Scale, decorticate posturing receives a score of 3, while decerebrate posturing receives a score of 2. What neuroanatomical level of transection or lesion distinguishes decorticate (abnormal flexion) from decerebrate (abnormal extension) posturing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decorticate posturing reflects lesions above the red nucleus (cerebral cortex or internal capsule, sparing the red nucleus and rubrospinal tract), whereas decerebrate posturing reflects brainstem lesions at or below the red nucleus (midbrain/upper pons, leaving uninhibited vestibulospinal extensor drive)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Decorticate posturing indicates cervical spinal cord transection, while decerebrate posturing indicates medullary obliteration",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Decorticate posturing involves exclusive loss of cerebellar Purkinje cells, while decerebrate posturing spares the motor cortex",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Both postures originate from identical thalamic lesions, differing only in serum calcium levels",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Decerebrate posturing requires an intact corticospinal tract and damaged dorsal columns",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Neuroanatomical localization of posturing:\n- Decorticate posturing (abnormal flexion: arms flexed to the chest, fists clenched, legs extended): Lesion is rostral to the red nucleus (cortical or subcortical/diencephalic). The red nucleus in the midbrain and the rubrospinal tract remain intact, driving upper extremity flexion, while lower extremities extend via the vestibulospinal tract.\n- Decerebrate posturing (abnormal extension: arms extended and pronated, wrists flexed, legs extended): Lesion is at or below the red nucleus (midbrain to upper pons). The rubrospinal flexor tract is severed, leaving the pontine reticulospinal and lateral vestibulospinal tracts unopposed, driving massive extensor tone throughout all four limbs."
+  },
+  {
+    "id": "inhouse_327",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A high school football quarterback is tackled hard and strikes his helmet on the turf. He experiences transient confusion and cannot recall the plays from the first half (retrograde amnesia), but has no loss of consciousness. At the hospital, a non-contrast head CT is completely normal without hemorrhage or edema. In contrast, another player involved in a high-speed collision has punctate petechial hemorrhages and localized cortical edema visible on CT along the inferior frontal and anterior temporal gyri. According to '9-TraumaContentANS.pptx', what is the fundamental pathological distinction between a cerebral concussion and a cerebral contusion?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Concussions cause transient alterations of brain function without macroscopic or CT-visible structural lesions, whereas contusions represent visible structural brain tissue damage characterized by petechial hemorrhages, cellular necrosis, and edema",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Concussions are caused exclusively by bacterial toxins, whereas contusions require penetrating missile trauma",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Concussions always involve rupture of the middle meningeal artery, whereas contusions spare vascular tissue",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Contusions are purely functional neurochemical disturbances that resolve within 15 minutes",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Concussions require surgical craniotomy, while contusions are managed with outpatient observation",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. As explicitly stated on Slide 3 of '9-TraumaContentANS.pptx' ('How are concussions different from brain contusions?'):\n- Concussions produce transient neurofunctional impairment (dizziness, amnesia, confusion, headache) driven by microscopic metabolic and ionic flux, but produce NO macroscopic structural lesions visible on standard neuroimaging (CT or MRI).\n- Cerebral Contusions are true structural bruises of the brain parenchyma, characterized by mechanical disruption of capillaries, punctate petechial hemorrhages, tissue necrosis, and edema readily visible on CT and MRI."
+  },
+  {
+    "id": "inhouse_328",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "Why are cerebral contusions characteristically localized to the inferior frontal lobes (orbitofrontal cortex) and the anterior/inferior temporal poles, even when the blunt trauma occurs at the occiput or vertex of the head?",
+    "options": [
+      {
+        "id": "A",
+        "text": "During rapid acceleration and deceleration, the moving brain slides violently across the sharp, irregular bony ridges of the anterior and middle cranial fossae (cribriform plate, orbital roof, sphenoid wings, and petrous ridges)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "The inferior frontal and temporal lobes lack a blood-brain barrier, making them uniquely fragile to hydrodynamic pressure",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "The middle cerebral artery branches only supply the occipital lobe during traumatic impact",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Bridging veins exist exclusively in the inferior temporal fossae",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "The tentorium cerebelli attaches directly to the orbital roofs",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. The internal floor of the skull is not smooth: the anterior cranial fossa contains the rough orbital roofs and sharp crista galli/cribriform plate, and the middle cranial fossa contains the jagged lesser and greater sphenoid wings and petrous temporal ridges. In acceleration-deceleration closed head trauma, inertial movement of the brain causes the orbitofrontal surfaces and temporal poles to collide forcibly against these sharp bony prominences, making them the most common sites for cerebral contusions regardless of impact location (coup vs contrecoup)."
+  },
+  {
+    "id": "inhouse_329",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 23-year-old passenger involved in a high-speed rollover motor vehicle crash arrives in deep coma (GCS 4). Initial non-contrast head CT shows only subtle, minute, punctate microhemorrhages at the junction between the subcortical gray and white matter and in the splenium of the corpus callosum, with no large mass lesion or midline shift. Despite normal intracranial pressure, he remains completely unresponsive in a coma for weeks. Magnetic resonance imaging (diffusion-weighted and gradient-echo sequences) demonstrates extensive shear injury with numerous axonal retraction balls throughout the deep white matter tracts and dorsolateral rostral brainstem. What is the pathological diagnosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diffuse Axonal Injury (DAI)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Acute epidural hematoma",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Cerebellar tonsillar herniation",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Fat embolism syndrome of the lung",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Central pontine myelinolysis",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Diffuse Axonal Injury (DAI), highlighted in Case 4 of '9-TraumaCASEANS.pptx', is a severe form of traumatic brain injury resulting from rapid angular/rotational acceleration and deceleration. High shear strains stretch, twist, and disrupt long white matter axons. Pathological hallmarks include:\n- Impairment of axonal transport leading to local swellings termed 'axonal retraction balls' (immunohistochemically stained with Amyloid Precursor Protein, APP).\n- Typical anatomical locations: Gray-white matter junction, corpus callosum, and dorsolateral midbrain/upper pons.\n- Clinical picture: Immediate, prolonged coma out of proportion to initial subtle CT findings."
+  },
+  {
+    "id": "inhouse_330",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 16-year-old boy arrives at the emergency department after a collision with a tree while riding an all-terrain vehicle. Physical examination reveals bilateral periorbital ecchymoses ('raccoon eyes'), ecchymosis over the right mastoid process ('Battle sign'), and continuous clear, watery discharge draining from his right nostril. When the nasal fluid is dropped onto a sterile gauze pad, the blood separates into a central red dot surrounded by a clear outer ring ('halo sign' or 'target sign'). Which laboratory test performed on the nasal fluid is the most definitive and specific diagnostic confirmation that the fluid contains cerebrospinal fluid (CSF)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Beta-2 transferrin (asialotransferrin) electrophoresis",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Urine dipstick testing for glucose",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Serum troponin I level",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Gram stain and potassium hydroxide prep",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Enzyme-linked immunosorbent assay for myelin basic protein",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. The constellation of raccoon eyes (periorbital ecchymosis), Battle sign (retroauricular/mastoid ecchymosis), and clear rhinorrhea represents a Basilar Skull Fracture (specifically involving the cribriform plate of the ethmoid bone or anterior skull base). The definitive gold standard diagnostic test to prove that clear nasal or ear fluid is CSF (and not allergic tears or nasal mucus) is detection of Beta-2 transferrin (also called tau transferrin or asialotransferrin). Beta-2 transferrin is produced exclusively by brain neuraminidase activity and is found only in CSF, perilymph, and aqueous humor, never in normal serum or nasal secretions. (Note: Glucose testing on dipstick is unreliable due to false positives from lacrimal/nasal secretions)."
+  },
+  {
+    "id": "inhouse_331",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "What is the most severe and frequent infectious complication that threatens patients who sustain a basilar skull fracture with persistent cerebrospinal fluid rhinorrhea?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bacterial meningitis, most commonly caused by Streptococcus pneumoniae",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Rabies encephalitis from airborne rhabdovirus particles",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Prion-mediated Creutzfeldt-Jakob disease",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Progressive multifocal leukoencephalopathy",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Tuberculous spinal arachnoiditis (Pott disease)",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. A basilar skull fracture creates a direct anatomical fistula between the non-sterile mucosal cavities of the upper respiratory tract (nasopharynx, paranasal sinuses, middle ear) and the sterile subarachnoid space. Patients with CSF leaks are at high risk for ascending bacterial meningitis, most frequently caused by Streptococcus pneumoniae (pneumococcus), which colonizes the nasopharynx. Pneumococcal vaccination is indicated in persistent leaks, and surgical repair is performed if the dural tear fails to seal spontaneously."
+  },
+  {
+    "id": "inhouse_332",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 35-year-old unrestrained driver sustains severe traumatic brain injury. In the neuro-intensive care unit, an intracranial pressure (ICP) monitor is placed, recording an ICP of 32 mmHg (normal < 15-20 mmHg). His arterial blood pressure is 110/60 mmHg (Mean Arterial Pressure = 77 mmHg). How is Cerebral Perfusion Pressure (CPP) calculated, what is this patient's CPP, and what is the minimum therapeutic CPP threshold required to avoid secondary ischemic brain injury?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CPP = MAP - ICP; patient CPP is 45 mmHg; the minimum target threshold is 60 to 70 mmHg",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "CPP = MAP + ICP; patient CPP is 109 mmHg; the minimum target threshold is 120 mmHg",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "CPP = Systolic BP / ICP; patient CPP is 3.4; the target threshold is 10.0",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "CPP = Pulse Pressure - ICP; patient CPP is 18 mmHg; the target threshold is 25 mmHg",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "CPP = Diastolic BP + Central Venous Pressure; patient CPP is 68 mmHg; target is 40 mmHg",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Critical neuro-ICU hemodynamic formulas:\n1. Cerebral Perfusion Pressure (CPP) = Mean Arterial Pressure (MAP) - Intracranial Pressure (ICP).\n2. For this patient: CPP = 77 mmHg - 32 mmHg = 45 mmHg.\n3. Clinical target: Normal brain autoregulation requires maintaining CPP between 60 and 70 mmHg. A CPP below 50-60 mmHg results in cerebral hypoperfusion, severe cellular ischemia, and secondary infarction. Management involves decreasing ICP (hyperosmolar therapy, sedation, CSF drainage) and elevating MAP with vasopressors."
+  },
+  {
+    "id": "inhouse_333",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "According to the Monro-Kellie doctrine, which of the following statements correctly articulates the fundamental principle governing intracranial pressure dynamics?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The cranial vault is a rigid, non-compliant container with a fixed internal volume; any volume expansion of brain parenchyma, blood, or CSF must be compensated by an equal volume reduction of another component to prevent rapid escalation of intracranial pressure",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "The skull bone expands up to 20% in adult humans via cranial suture elasticity to accommodate hematomas",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Cerebrospinal fluid pressure is entirely independent of intracranial venous sinus resistance",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Intracranial arterial volume is always precisely five times larger than cerebral venous volume",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Cerebral blood flow remains constant down to an arterial systolic pressure of 0 mmHg",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. The Monro-Kellie hypothesis states that the cranial cavity is a closed, rigid sphere with fixed total volume: V_intracranial = V_brain (80%) + V_blood (10%) + V_CSF (10%). Because bone cannot expand, an expanding mass lesion (such as an epidural or subdural hematoma) is initially compensated by displacing CSF down the spinal canal and compressing venous blood into extracranial veins. Once these compensatory buffering volumes are exhausted, the volume-pressure elastance curve enters an exponential rise, where even a minute volume addition triggers massive spikes in ICP and fatal brain herniation."
+  },
+  {
+    "id": "inhouse_334",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 48-year-old trauma patient with an expanding right temporal epidural hematoma rapidly deteriorates. The neuro-ICU nurse notes that his blood pressure has risen from 125/80 mmHg to 195/95 mmHg, his heart rate has dropped from 78 bpm to 42 bpm, and his breathing pattern has become irregular and shallow with periods of apnea. What is this clinical triad called, and what does it indicate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cushing Triad (hypertension with widened pulse pressure, bradycardia, irregular respirations); it indicates critically elevated intracranial pressure and imminent brainstem herniation",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Beck Triad; it indicates acute pericardial tamponade",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Charcot Neurologic Triad; it indicates multiple sclerosis flare",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Virchow Triad; it indicates deep venous thrombosis",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Whipple Triad; it indicates insulinoma hypoglycemia",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. The Cushing Triad (Cushing reflex / phenomenon) is a late and ominous physiological response to dangerously elevated intracranial pressure (ICP) causing brainstem ischemia:\n1. Severe hypertension with widened pulse pressure: Sympathetic hyperactivation mediated by ischemic medullary vasomotor centers to force blood into the compressed cerebral circulation.\n2. Bradycardia: High systemic pressure stimulates carotid sinus baroreceptors, triggering compensatory vagal parasympathetic slowing of the heart rate.\n3. Respiratory irregularity (Cheyne-Stokes or ataxic breathing): Compression and ischemia of respiratory pacing centers in the pons and medulla.\nIt signals impending fatal transtentorial or tonsillar herniation."
+  },
+  {
+    "id": "inhouse_335",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "An expanding mass lesion in the right temporal lobe forces the uncus of the parahippocampal gyrus medially over the free edge of the tentorium cerebelli (uncal herniation). Which cranial nerve is directly compressed between the herniating uncus and the petroclinoid ligament, and what is the earliest physical exam manifestation of this compression?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oculomotor nerve (CN III); ipsilateral pupillary dilation with sluggish or absent light reflex (blown pupil) due to compression of peripheral parasympathetic fibers",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Abducens nerve (CN VI); inability to adduct the contralateral eye on lateral gaze",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Trochlear nerve (CN IV); vertical diplopia when looking upward and outward",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Optic nerve (CN II); bilateral central bitemporal hemianopsia",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Facial nerve (CN VII); bilateral lower motor neuron facial diplegia",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. As explicitly highlighted on Slide 6 of '9-TraumaContentANS.pptx':\nIn uncal (transtentorial) herniation, the medial temporal lobe (uncus) herniates downward over the rigid edge of the tentorium cerebelli. The ipsilateral Oculomotor nerve (CN III) is compressed directly against the tentorial edge. Because parasympathetic pupilloconstrictor fibers travel in the outer, superficial periphery of the CN III sheath, they are compromised first by external mechanical compression. This produces early ipsilateral pupillary dilation ('blown pupil') that is fixed and non-reactive to light, followed later by somatic motor paralysis of extraocular muscles producing the classic 'down-and-out' eye."
+  },
+  {
+    "id": "inhouse_336",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "In a patient suffering from a large left-sided hemispheric subdural hematoma causing left uncal herniation, the examiner is surprised to discover IPSILATERAL (left-sided) hemiparesis instead of the expected right-sided hemiparesis. What is the anatomical explanation for this paradoxical false-localizing neurological sign?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kernohan notch phenomenon: The expanding left mass shifts the midbrain laterally, crushing the OPPOSITE (right) cerebral peduncle against the contralateral rigid tentorial edge, paralyzing descending corticospinal fibers that supply the left body",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Aberrant anterior corticospinal fibers that cross four times within the spinal gray matter",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Simultaneous infarction of the right posterior inferior cerebellar artery",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Spontaneous avulsion of the left dorsal root entry zone",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Selective necrosis of the contralateral ventral tegmental dopaminergic tracts",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This classic board-tested neuropathological phenomenon is known as the Kernohan notch phenomenon (or Kernohan-Woltman notch syndrome). While an expanding left-sided mass typically compresses the ipsilateral (left) cerebral peduncle (causing right hemiparesis), severe lateral displacement of the entire brainstem can push the midbrain across against the opposite (right) sharp tentorial edge. This indents and notches the RIGHT cerebral peduncle. Because the corticospinal fibers in the right peduncle decussate lower down in the medulla to supply the left side of the body, damage to the right peduncle produces paradoxical left-sided (ipsilateral to the hematoma) hemiparesis, creating a 'false localizing sign'."
+  },
+  {
+    "id": "inhouse_337",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A patient with a massive traumatic left frontal lobar contusion develops subfalcine (cingulate gyrus) herniation. Which major vascular structure is directly compressed beneath the free margin of the falx cerebri, and what focal neurological deficit results from infarction of this arterial territory?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anterior cerebral artery (ACA); contralateral lower extremity weakness and sensory loss",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Middle cerebral artery (MCA); contralateral face and upper extremity weakness",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Posterior cerebral artery (PCA); contralateral homonymous hemianopsia",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Basilar artery; complete locked-in quadriplegia",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Anterior inferior cerebellar artery (AICA); ipsilateral sensorineural deafness",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Subfalcine herniation occurs when an expanding unilateral lesion in the frontal or parietal lobe pushes the cingulate gyrus beneath the rigid, sickle-shaped falx cerebri across the midline. This herniation can directly compress the ipsilateral (or both) Anterior Cerebral Arteries (ACA) against the falx. Ischemia and infarction in the ACA territory selectively damages the medial sensory-motor strip of the paracentral lobule, causing sensory loss and paralysis predominantly affecting the CONTRALATERAL LOWER EXTREMITY (leg and foot)."
+  },
+  {
+    "id": "inhouse_338",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 54-year-old man in the intensive care unit with acute diffuse cerebral edema from severe head trauma experiences downward displacement of the cerebellar tonsils through the foramen magnum (tonsillar herniation). What is the catastrophic consequence of tonsillar herniation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Direct mechanical compression of the medulla oblongata, leading to fatal respiratory arrest and cardiac collapse",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Isolated loss of taste on the posterior one-third of the tongue",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Transient horizontal nystagmus without vital sign instability",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Selective avulsion of the olfactory nerve filaments in the cribriform plate",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Isolated numbness over the tip of the nose with preserved motor power",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Tonsillar herniation (coning) occurs when elevated infratentorial (posterior fossa) or global intracranial pressure forces the rounded cerebellar tonsils downward through the foramen magnum. This wedges the tonsils against the medulla oblongata, crushing the vital medullary cardiac and respiratory centers. The immediate consequence is acute respiratory arrest, profound hypotension, bradycardia, and rapid death. (This is identical to the fatal complication seen when a lumbar puncture is accidentally performed in a patient with a mass lesion or elevated ICP)."
+  },
+  {
+    "id": "inhouse_339",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 60-year-old trauma patient with acute severe brain swelling has an ICP rising above 25 mmHg. The neurointensivist orders hyperosmolar therapy. How does intravenous Mannitol (20% solution) work to rapidly lower intracranial pressure in the emergency management of cerebral edema?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It remains within the intravascular space with an intact blood-brain barrier, creating an osmotic gradient that draws free water from cerebral parenchymal tissue into the circulation, followed by osmotic diuresis",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "It binds directly to neuronal GABA receptors to suppress cerebral oxygen demand",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "It selectively dilates cerebral arterioles to increase cerebral blood volume",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "It covalently destroys aquaporin-4 water channels on astrocytic end-feet",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "It neutralizes lactic acid directly within the choroid plexus epithelium",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Mannitol is an inert six-carbon sugar alcohol that does not cross the intact blood-brain barrier. Administered as an intravenous bolus, it increases intravascular serum osmolarity, establishing an osmotic gradient that pulls interstitial water out of the brain parenchyma and into the cerebral capillary vasculature, thereby shrinking brain volume and lowering ICP within 10 to 15 minutes. It subsequently induces osmotic diuresis in the renal proximal tubules. (Hypertonic 3% or 23.4% saline works via an identical hyperosmotic mechanism)."
+  },
+  {
+    "id": "inhouse_340",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "In the mechanical ventilation of a head-injured patient experiencing an acute intracranial pressure crisis, transient therapeutic hyperventilation is sometimes utilized. What is the physiological mechanism by which lowering arterial partial pressure of carbon dioxide (PaCO2) to 30\u201335 mmHg reduces intracranial pressure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hypocapnia causes cerebral alkalosis, triggering potent cerebral arteriolar vasoconstriction, which decreases cerebral blood volume (CBV)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Hypocapnia directly increases CSF absorption at the arachnoid villi by 400%",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Hyperventilation increases intrathoracic pressure to force venous blood into the skull",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Hypocapnia stimulates the immediate release of endogenous beta-endorphins",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Low CO2 stimulates systemic vasodilatation, causing profound cerebral luxury perfusion",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Carbon dioxide (PaCO2) is a potent regulator of cerebral vascular caliber: hypercapnia causes vasodilation, whereas hypocapnia causes vasoconstriction. Inducing hyperventilation lowers PaCO2, raising perivascular pH (cerebral alkalosis), which triggers acute constriction of cerebral precapillary arterioles. This reduces cerebral blood flow and intracranial cerebral blood volume (CBV), leading to an immediate drop in ICP. However, hyperventilation must be used only briefly (< 24-48 hours) and cautiously (titrated to PaCO2 30-35 mmHg), as severe hypocapnia (< 25 mmHg) can cause profound cerebral vasoconstriction resulting in tissue ischemia and infarction."
+  },
+  {
+    "id": "inhouse_341",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 26-year-old unrestrained driver hits his head against a windshield. Head CT demonstrates secondary midline compression with midline brainstem flame-shaped linear hemorrhages in the dorsal midbrain and upper pons. What are these secondary brainstem hemorrhages called, and what is their pathophysiological origin?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Duret hemorrhages; caused by stretching and shearing of penetrating median and paramedian basilar perforating arteries during downward transtentorial brainstem displacement",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Charcot-Bouchard aneurysms; caused by chronic long-standing arteriolar lipohyalinosis",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Telangiectasias; congenital hamartomatous low-pressure capillary ectasias",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Cavernomas; encapsulated clusters of sinusoidal vessels without intervening neural parenchyma",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Splenial purpura; caused exclusively by severe fat embolism syndrome",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Duret hemorrhages are secondary, linear or flame-shaped hemorrhages within the midline tegmentum of the midbrain and upper pons. They occur late in the course of severe central transtentorial or uncal herniation. As the supratentorial mass pushes the diencephalon and upper brainstem caudal-ward, while the basilar artery remains fixed to the skull base, the penetrating median and paramedian perforating branches of the basilar artery are stretched, torn, and sheared. Duret hemorrhages represent catastrophic, irreversible brainstem destruction."
+  },
+  {
+    "id": "inhouse_342",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 70-year-old woman is brought to the emergency department after being found confused and disoriented at home by her brother. She has a 2-day history of weakness, nausea, and mild shortness of breath. On physical exam, she is lethargic, intermittently drowsy, and unable to recite the months of the year backwards or maintain focused attention. Her brother notes that yesterday morning she seemed relatively alert and recognized him, but by nightfall she was frightened and seeing insects on the walls. Her temperature is 38.3\u00b0C (101.0\u00b0F), urinalysis reveals numerous leukocytes and positive nitrites, and serum sodium is 131 mEq/L. According to Slide 2 of '9-TraumaContentANS.pptx', how is her acute change in mental status classified?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Delirium (acute toxic-metabolic encephalopathy)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Alzheimer disease progression",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Frontotemporal lobar degeneration",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Persistent vegetative state",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Schizophrenia spectrum disorder",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This case directly mirrors Case 2 on Slide 2 of '9-TraumaContentANS.pptx' ('Define Delirium/Encephalopathy'):\nDelirium (acute encephalopathy) is defined as an acute, fluctuating change in mental status secondary to an underlying medical condition (here, a urinary tract infection / urosepsis). Cardinal diagnostic features:\n1. Change in consciousness/attention: Reduced awareness of environment, inability to focus, sustain, or shift attention, distractibility.\n2. Change in cognition: Disorientation, memory impairment, perceptual disturbances (visual hallucinations).\n3. Fluctuating course over hours to days (typically worsening at night, 'sundowning').\nUnlike dementia, delirium develops acutely and is potentially fully reversible once the underlying trigger is treated."
+  },
+  {
+    "id": "inhouse_343",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 30-year-old male construction worker falls 15 feet from scaffolding. On scene, he is combative and confused, with a GCS of 13. Over the next 45 minutes in the trauma bay, he rapidly declines: GCS drops to 6, his right pupil becomes 7 mm and unreactive, and he develops decerebrate extension on the left side. What is the definitive emergency surgical intervention required to save this patient's life?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Emergent decompressive craniotomy or burr-hole evacuation of the epidural hematoma",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Diagnostic lumbar puncture with manometric opening pressure determination",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Intravenous tissue plasminogen activator (tPA) infusion",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Oral administration of topiramate and propranolol",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "High-dose heparin anticoagulation to prevent deep venous thrombosis",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This patient has an expanding acute epidural hematoma causing uncal herniation (ipsilateral blown pupil, contralateral decerebration). This is an absolute surgical emergency. The definitive management is emergent surgical decompression via burr-hole exploration or open craniotomy with hematoma evacuation and coagulative ligation of the bleeding middle meningeal artery. Lumbar puncture is contraindicated because removing spinal CSF would precipitate fatal tentorial and tonsillar brain herniation."
+  },
+  {
+    "id": "inhouse_344",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "In neuropathology, cerebral edema is categorized into cytotoxic edema and vasogenic edema. Which of the following pathophysiological mechanisms correctly characterizes vasogenic cerebral edema?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Disruption of endothelial tight junctions forming the blood-brain barrier, allowing plasma proteins and intravascular fluid to extravasate into the extracellular interstitial space (predominantly in the cerebral white matter)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Failure of ATP-dependent Na+/K+ pumps in neuronal cell membranes causing intracellular water accumulation and cellular swelling",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Excessive filtration of hypotonic CSF from the fourth ventricle into the central canal",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Autoimmune demyelination of peripheral Schwann cells causing interstitial fibrosis",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Congenital absence of cerebral capillary pericytes resulting in spontaneous aneurysm formation",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Mechanisms of cerebral edema:\n1. Vasogenic Edema: Breakdown of the blood-brain barrier (tight junctions between capillary endothelial cells). Plasma proteins and fluid leak into the extracellular interstitium. It characteristically affects white matter and is seen surrounding brain tumors, contusions, abscesses, and hematomas. Responds well to glucocorticoids (dexamethasone).\n2. Cytotoxic Edema: The blood-brain barrier is intact, but cellular metabolic failure (ischemia/infarction with loss of ATP for Na+/K+ ATPase pumps) causes Na+ and water to enter the intracellular compartment, swelling neurons, glia, and endothelia."
+  },
+  {
+    "id": "inhouse_345",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 19-year-old college hockey player sustains a concussive blow to the jaw during a game. He is evaluated on the sideline and reports a headache, mild photophobia, and feels 'foggy.' The coach asks if the player can return to the ice for the final 5 minutes of the championship game because 'he didn't even get knocked out.' Which of the following statements regarding concussion management and Second Impact Syndrome is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Athletes diagnosed with a concussion must NEVER return to play on the same day; sustaining a second impact before cellular metabolic recovery can cause catastrophic, dysregulated cerebral autoregulation, massive brain swelling, and death (Second Impact Syndrome)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Athletes may return to play immediately as long as they can recall their jersey number",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Concussions only require removal from play if a skull fracture is visualized on lateral radiographs",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Administration of an oral triptan permits same-day athletic clearance",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Second impact syndrome only occurs in octogenarians with severe cerebral amyloid angiopathy",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Universal sports concussion protocols dictate: 'When in doubt, sit them out!' Any athlete suspected of a concussion must be removed immediately and CANNOT return to play on the same day. Following concussion, the brain is in a state of vulnerable neurochemical mismatch (high glucose demand, decreased cerebral blood flow). If the athlete sustains a second head impact while still symptomatic, loss of cerebral vascular autoregulation can trigger rapid, uncontrollable, malignant cerebral edema and fatal herniation (Second Impact Syndrome)."
+  },
+  {
+    "id": "inhouse_346",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 22-year-old woman is admitted following a motor vehicle collision with front-of-head windshield impact. Initial GCS was 8. She spent 6 days in a coma. During rehabilitation, her therapist notes severe impairments in executive functioning, including poor impulse control, disinhibition, apathy, and difficulty planning multi-step tasks, while her sensory and motor strength are completely normal. Which region of the cerebral cortex was most severely injured by this frontal deceleration trauma?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prefrontal cortex (orbitofrontal and dorsolateral prefrontal circuits)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Primary somatosensory cortex (postcentral gyrus)",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Primary visual cortex (calcarine sulcus)",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Primary auditory cortex (transverse temporal gyri of Heschl)",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Superior parietal lobule precuneus",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This case mirrors Case 4 in '9-TraumaCASEANS.pptx' (a 22-year-old woman with windshield head impact, coma for 6 days, undergoing rehab for cognitive/executive dysfunction). The prefrontal cortex (composed of the dorsolateral prefrontal cortex, orbitofrontal cortex, and anterior cingulate gyrus) mediates 'executive functions': abstract reasoning, working memory, impulse regulation, social inhibition, and cognitive flexibility. Frontal pole contusions and diffuse shear injuries characteristically disrupt these frontostriatal circuits, producing the classic frontal lobe dysexecutive syndrome."
+  },
+  {
+    "id": "inhouse_347",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 32-year-old trauma victim with severe traumatic brain injury develops an acute subdural hematoma with significant mass effect. Which of the following non-invasive clinical findings on physical examination would be the most reliable indicator of severe, life-threatening transtentorial herniation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A unilaterally dilated, fixed pupil that fails to constrict to direct or consensual light stimulation",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Isolated loss of the Achilles tendon reflex bilaterally",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "A normal 2+ patellar reflex with down-going toes",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Transient hyperactive bowel sounds on abdominal auscultation",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Bilateral intact corneal reflexes",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. A unilaterally dilated, unreactive pupil ('blown pupil') in a patient with severe acute traumatic brain injury is the cardinal physical exam hallmark of uncal / transtentorial herniation. The uncus compresses the ipsilateral oculomotor nerve (CN III), paralyzing its parasympathetic pupillomotor fibers. This is a neurosurgical red alert requiring immediate intervention to halt progression to complete brainstem compression."
+  },
+  {
+    "id": "inhouse_348",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 68-year-old male with chronic alcohol use disorder presents with fluctuating disorientation, unsteadiness, and memory deficits. Head CT demonstrates a bilateral, crescent-shaped, hypodense extra-axial fluid collection compressing both cerebral hemispheres. Which of the following pathophysiological mechanisms explains why chronic subdural hematomas can slowly enlarge over weeks to months without additional head trauma?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The hematoma is encapsulated by a vascularized neo-membrane containing fragile, permeable neocapillaries that undergo repeated micro-hemorrhages, while high-protein breakdown products exert local oncotic pressure drawing in fluid",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "The patient possesses a congenital arteriovenous malformation that continuously dumps arterial blood into the subarachnoid space",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "The choroid plexus secretes CSF directly into the subdural space via ruptured arachnoid granulations",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "The middle meningeal artery undergoes chronic aneurysmal dilation that expands during Valsalva maneuvers",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Activated T cells secrete osteoclasts that erode the inner skull table into the hematoma cavity",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. The enlargement of chronic subdural hematomas is driven by inflammatory angiogenesis. Within weeks of an initial small subdural bleed, fibroblasts and inflammatory cells form a fibrous 'neo-membrane' surrounding the hematoma. This membrane develops friable, abnormally permeable neo-capillaries that continually leak plasma proteins and undergo recurrent, spontaneous micro-hemorrhages. Enzymatic fibrinolysis and the oncotic load of erythrocyte breakdown products draw water into the encapsulated cavity, causing it to insidiously expand and produce delayed mass effect."
+  },
+  {
+    "id": "inhouse_349",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 17-year-old cross-country runner tripped over a curb, struck her occiput on the asphalt, and experienced a 30-second loss of consciousness. A non-contrast head CT is negative for hemorrhage or fracture. She is diagnosed with a concussion. Two weeks later, she returns reporting persistent daily headaches, fatigue, dizziness, irritability, difficulty concentrating on schoolwork, and sleep disturbances. What is this clinical entity, and what is the primary initial therapeutic approach?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Post-concussion syndrome; managed with initial 24 to 48 hours of relative cognitive and physical rest followed by gradual, symptom-limited return to academic and physical activities",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Chronic traumatic encephalopathy; managed with emergent surgical craniectomy",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Subacute bacterial endocarditis; managed with 6 weeks of intravenous penicillin",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Normal pressure hydrocephalus; managed with urgent ventriculoperitoneal shunting",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Acute disseminated encephalomyelitis; managed with plasma exchange therapy",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Post-concussion syndrome (PCS) is characterized by persistent somatic (headache, dizziness, fatigue), cognitive (impaired memory, concentration), and emotional (irritability, anxiety, insomnia) symptoms lasting weeks to months following a concussion. Current consensus guidelines recommend a brief period (24\u201348 hours) of relative cognitive and physical rest, followed by gradual, individualized, step-wise resumption of daily and school activities that do not significantly exacerbate symptoms. Strict prolonged 'dark room' isolation is no longer recommended and may prolong recovery."
+  },
+  {
+    "id": "inhouse_350",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 50-year-old male is admitted following severe polytrauma with traumatic brain injury. On day 3 of hospitalization, his serum sodium drops precipitously from 140 mEq/L to 122 mEq/L. Urine osmolarity is 550 mOsm/kg (elevated), urine sodium is 65 mEq/L (elevated), and the patient is clinically euvolemic with normal skin turgor and blood pressure. What is the most likely diagnosis for his hyponatremia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Syndrome of Inappropriate Antidiuretic Hormone (SIADH)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Central diabetes insipidus",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Primary hyporeninemic hypoaldosteronism",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Severe dehydration secondary to mannitol diuresis",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Primary polydipsia",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. SIADH is a frequent neuroendocrine complication of traumatic brain injury, CNS infections, and subarachnoid hemorrhage. Unregulated release of ADH (vasopressin) causes free water retention in the renal collecting tubules, producing euvolemic hypotonic hyponatremia, inappropriately concentrated urine (urine osmolarity > 100-300 mOsm/kg), and high urine sodium excretion (> 40 mEq/L). In neurosurgical patients, SIADH must be distinguished from Cerebral Salt Wasting (CSW), where hyponatremia is accompanied by true hypovolemia and dehydration."
+  },
+  {
+    "id": "inhouse_351",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "In a comatose head-injured patient, the physician tests the oculocephalic reflex ('doll's eyes' maneuver) after confirming the cervical spine is cleared of fracture. When the patient's head is rotated rapidly to the right, both eyes smoothly deviate toward the left. When the head is rotated to the left, both eyes deviate toward the right. What does this intact reflex demonstrate regarding the patient's nervous system?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Integrity of the brainstem reflex pathways involving the vestibular nuclei, abducens (CN VI) nuclei, oculomotor (CN III) nuclei, and medial longitudinal fasciculus (MLF) in the pons and midbrain",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Complete transection of the midbrain tegmentum and irreversible brain death",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Bilateral infarction of the posterior cerebral arteries",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Loss of cortical inhibition indicating acute subdural hematoma",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Complete absence of sensory input from the semicircular canals",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. The oculocephalic reflex (vestibulo-ocular reflex, VOR) assesses brainstem integrity in unconscious patients. Rotating the head activates semicircular canal afferents (CN VIII), synapsing in vestibular nuclei, which cross to the contralateral CN VI nucleus and project via the medial longitudinal fasciculus (MLF) to the ipsilateral CN III nucleus. In a comatose patient with an intact brainstem, the eyes conjugate and move in the direction opposite to head rotation (positive 'doll's eyes'). If the brainstem is severely injured or non-functional (e.g., brain death), the eyes remain fixed in midline like painted eyes on a doll (negative doll's eyes)."
+  },
+  {
+    "id": "inhouse_352",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 40-year-old trauma victim in the intensive care unit is being assessed for brain death following a non-survivable closed head injury. Which of the following is an absolute prerequisite before formal clinical brain death testing can be conducted?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Establishment of an irreversible cause of coma, achievement of normal core body temperature (>= 36\u00b0C / 96.8\u00b0F), normal systolic blood pressure (>= 100 mmHg), and exclusion of CNS-depressant drugs or neuromuscular blocking agents",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Execution of at least three surgical craniotomies",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Administration of high-dose intravenous pentobarbital to induce burst suppression",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Presence of a hyperactive jaw jerk reflex",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Elevation of serum potassium above 7.0 mEq/L",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Establishing brain death requires rigorous pre-conditions: an established, irreversible etiology; absence of severe metabolic/endocrine derangements; core normothermia (>= 36\u00b0C); hemodynamic stability (systolic BP >= 100 mmHg); and complete absence of confounding CNS depressants (sedatives, opioids, barbiturates) or neuromuscular blocking agents. Clinical examination must then demonstrate coma, absence of all brainstem reflexes (pupillary, corneal, oculocephalic, oculovestibular, gag, cough), and a positive apnea test (no respiratory drive despite PaCO2 >= 60 mmHg and >= 20 mmHg above baseline)."
+  },
+  {
+    "id": "inhouse_353",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 25-year-old motorcyclist sustains a traumatic anterior skull base fracture. On post-trauma day 5, while recovering in the hospital, he complains of an inability to smell his meals (anosmia) and reports that everything he eats 'tastes bland and like cardboard.' Physical examination reveals normal facial sensation and normal motor strength. Which neural structures were severed by the skull fracture to cause his anosmia and impaired flavor perception?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Olfactory nerve (CN I) fila traversing the perforations of the cribriform plate of the ethmoid bone",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Chorda tympani nerve fibers within the middle ear cavity",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Glossopharyngeal nerve branches traversing the jugular foramen",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Trigeminal lingual nerve branches in the pterygomandibular space",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Greater superficial petrosal nerve at the petrous temporal apex",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Delicate olfactory nerve (CN I) filaments (fila olfactoria) arise from olfactory receptor neurons in the nasal mucosa and ascend through the fragile, cribriform plate of the ethmoid bone to synapse in the olfactory bulbs. Closed head trauma (especially frontal impact or basilar skull fractures) shears these delicate unmyelinated axons as the brain shifts over the cribriform plate. This results in permanent or prolonged anosmia. Because retronasal olfaction provides > 80% of perceived food flavor, patients characteristically perceive that their sense of taste is lost."
+  },
+  {
+    "id": "inhouse_354",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 45-year-old pedestrian struck by a vehicle sustains high-energy traumatic brain injury. In the trauma bay, the trauma surgeon notes that the patient's neck is cleared, but orders continuous pulse oximetry and capnography, maintaining PaO2 > 80 mmHg and avoiding episodes of hypotension (Systolic BP < 90 mmHg). Why is preventing systemic hypotension and hypoxemia the most critical initial goal in early TBI management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Even a single episode of hypotension (SBP < 90 mmHg) or hypoxemia (PaO2 < 60 mmHg) doubles mortality and significantly worsens neurological outcomes by precipitating secondary ischemic neuronal death",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Hypotension accelerates the enzymatic clearance of intravenous antibiotics",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Hypoxemia directly triggers premature closure of the cranial sutures",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "High blood pressure is necessary to induce spontaneous sealing of dural sinus tears",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Hypotension prevents the formation of vasogenic cerebral edema",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. In traumatic brain injury, the primary brain damage occurs at the moment of mechanical impact (shearing, contusion, laceration). Secondary brain injury develops over subsequent minutes to days through ischemia, excitotoxicity, edema, and intracranial hypertension. Extensive trauma registry data (such as the Brain Trauma Foundation guidelines) establish that even a single transient episode of hypotension (systolic BP < 90 mmHg) or hypoxemia (PaO2 < 60 mmHg) doubles patient mortality by drastically reducing cerebral perfusion pressure in an already compromised, poorly autoregulated brain."
+  },
+  {
+    "id": "inhouse_355",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 38-year-old construction worker survives severe traumatic brain injury after emergency evacuation of a subdural hematoma. To allow for brain swelling without catastrophic intracranial pressure spikes, the neurosurgeon leaves the bone flap off, storing it in a subcutaneous abdominal pocket or bone freezer. What is this surgical procedure called, and what is the delayed syndrome characterized by sinking skin flap, headaches, and neurological deficits that can occur months later prior to bone flap replacement?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decompressive hemicraniectomy; Syndrome of the Trephined ('Sinking Skin Flap Syndrome')",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Stereotactic pallidotomy; On-Off motor oscillation syndrome",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Endoscopic third ventriculostomy; Balint syndrome",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Transsphenoidal hypophysectomy; Sheehan syndrome",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Anterior temporal lobectomy; Kluver-Bucy syndrome",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Decompressive hemicraniectomy involves removing a large section of the skull bone (and opening the dura with a patch) to accommodate severe swelling and prevent fatal herniation. Months later, atmospheric pressure acting directly on the unprotected brain parenchyma without the rigid skull vault can cause the skin flap to sink deeply inwards, distorting cerebral blood flow and CSF dynamics. This is called 'Syndrome of the Trephined' (or Sinking Skin Flap Syndrome), which manifests with cognitive decline, headaches, and motor deficits, and is cured by cranioplasty (replacing the bone flap)."
+  },
+  {
+    "id": "inhouse_356",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "An 18-year-old college freshman living in a dormitory presents to the emergency department with high fever, throbbing holocranial headache, nausea, and severe neck stiffness that began abruptly 6 hours ago. On physical examination, his temperature is 39.2\u00b0C (102.6\u00b0F), blood pressure is 118/72 mmHg, and heart rate is 115 bpm. He demonstrates profound resistance to passive neck flexion. When the physician gently flexes the patient's neck forward toward his sternum while he is lying supine, the patient involuntarily flexes both hips and knees. What is the name of this physical examination sign, and what is its pathophysiological basis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Brudzinski sign; passive stretching of the inflamed meninges and spinal cord roots elicits reflexive bilateral flexion of the lower extremities to minimize meningeal traction",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Kernig sign; compression of the sciatic nerve produces pain when the hip is extended",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Lhermitte sign; electrical shock radiating down the spine upon neck flexion from cervical demyelination",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Babinski sign; primitive plantar extensor response from corticospinal tract lesion",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Chvostek sign; neuromuscular hyper-excitability from acute hypocalcemia",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This case directly matches Case 1 in 'MeningitisCaseAnswers..pptx':\n- Brudzinski sign: In a supine patient, passive flexion of the neck induces involuntary reflexive flexion of the hips and knees. It is caused by meningeal inflammation (meningismus) where stretching the inflamed leptomeninges and spinal cord elicits a protective flexor withdrawal reflex.\n- Kernig sign: In a supine patient with the hip and knee flexed to 90 degrees, passive extension of the knee meets with severe resistance and pain in the posterior thigh/back.\nBoth signs are classical clinical indicators of meningitis."
+  },
+  {
+    "id": "inhouse_357",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A medical resident examines a 24-year-old patient with suspected acute bacterial meningitis. The resident notes that neither the Kernig sign nor the Brudzinski sign is present, and argues that meningitis can be safely ruled out without performing a lumbar puncture. According to Slide 5 of 'MeningitisCaseAnswers..pptx', how should the attending physician critique this reasoning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Although classically taught and specific when present, Kernig and Brudzinski signs have poor clinical sensitivity (often < 50%), meaning their absence CANNOT be used to exclude meningitis",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Kernig and Brudzinski signs have 100% sensitivity; their absence definitively excludes all infectious CNS processes",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Kernig and Brudzinski signs are only valid in patients over the age of 80",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Meningeal signs are only present if the infection is caused by viral pathogens",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Physical examination signs have completely replaced the need for cerebrospinal fluid analysis",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. As explicitly stated on Slide 5 of 'MeningitisCaseAnswers..pptx': 'Though these signs are classically taught and tested, the sensitivity of these signs is poor, so they should not be used to rule out meningitis.' Multiple prospective clinical studies confirm that the sensitivity of Kernig and Brudzinski signs ranges between 5% and 50%. A patient with fever, headache, and altered mental status or acute illness must undergo urgent lumbar puncture and empiric therapy regardless of whether these classic signs are elicited."
+  },
+  {
+    "id": "inhouse_358",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 19-year-old college student with suspected bacterial meningitis undergoes a diagnostic lumbar puncture. Cerebrospinal fluid analysis reveals: Opening pressure: 310 mm H2O (normal < 200 mm H2O); White blood cell count: 4,800/\u00b5L with 92% polymorphonuclear neutrophils (PMNs); Protein: 280 mg/dL (normal 15-45 mg/dL); Glucose: 18 mg/dL (serum glucose: 100 mg/dL; CSF:serum glucose ratio = 0.18); Gram stain reveals Gram-negative diplococci. Which organism is the causative pathogen?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neisseria meningitidis",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Streptococcus pneumoniae",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Listeria monocytogenes",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Haemophilus influenzae",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Cryptococcus neoformans",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. The CSF profile demonstrates classic acute bacterial meningitis:\n- Markedly elevated opening pressure (> 300 mm H2O)\n- Severe neutrophilic pleocytosis (> 1,000 cells/\u00b5L with > 80-90% PMNs)\n- Markedly elevated protein (> 200 mg/dL)\n- Markedly depressed glucose (< 40 mg/dL, CSF:serum ratio < 0.4).\nGram stain identification of Gram-negative diplococci (coffee-bean or kidney-bean shaped intracellular and extracellular diplococci) in an 18-to-19-year-old dorm resident is diagnostic of Neisseria meningitidis (meningococcus)."
+  },
+  {
+    "id": "inhouse_359",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 45-year-old man presents to the emergency department with high fever, severe headache, confusion, and nuchal rigidity. The resident prepares to perform an immediate bedside lumbar puncture. The attending physician notes that the patient has right-sided facial weakness and pronator drift, and orders a non-contrast head CT prior to the lumbar puncture. According to Slide 2 of 'MeningitisContentAnswers.pptx', which of the following is a recognized indication for neuroimaging prior to performing a lumbar puncture in suspected bacterial meningitis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Presence of focal neurological deficits, new-onset seizures, papilledema, altered level of consciousness (GCS < 10), or severe immunocompromise",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "History of uncomplicated migraine headaches 5 years ago",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Presence of a fever above 38.0\u00b0C without focal findings",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Normal pupillary examination and intact cranial nerves",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Age between 18 and 40 years in an otherwise healthy host",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. As detailed on Slide 2 of 'MeningitisContentAnswers.pptx': A head CT scan must be ordered PRIOR to lumbar puncture if there are high-risk features for an intracranial mass lesion or elevated ICP that could trigger fatal brain herniation (uncal or tonsillar coning) upon dural puncture. Established indications include:\n1. Focal neurological deficits (e.g., hemiparesis, cranial nerve palsy)\n2. New-onset seizures\n3. Papilledema\n4. Altered mental status / significantly depressed consciousness\n5. Severe immunocompromised state (e.g., advanced HIV, organ transplant)."
+  },
+  {
+    "id": "inhouse_360",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 58-year-old man with fever, lethargy, and papilledema requires a non-contrast head CT scan before a lumbar puncture can be safely performed. The CT scanner is currently occupied by a polytrauma resuscitation, and neuroimaging will be delayed by at least 60 minutes. What is the single most critical clinical management principle in this scenario?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Immediately draw blood cultures and administer empiric intravenous antibiotics and dexamethasone WITHOUT DELAY; never postpone antimicrobial therapy for neuroimaging",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Withhold all antibiotics and steroids until the CT scan is performed and the lumbar puncture is fully analyzed",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Proceed immediately with lumbar puncture despite papilledema and risk fatal herniation",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Administer high-dose oral aspirin and observe the patient in the waiting room",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Cancel all workup and transfer the patient to an outpatient primary care clinic",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. A cardinal rule of emergency medicine and infectious disease: NEVER DELAY EMPIRIC ANTIMICROBIAL THERAPY for diagnostic neuroimaging or lumbar puncture! In acute bacterial meningitis, mortality increases by ~10-30% for every hour antibiotics are delayed. If a patient requires a pre-LP CT scan, the physician must immediately draw two sets of blood cultures (which have > 60-80% yield in bacterial meningitis) and initiate empiric IV antibiotics + dexamethasone right away before transporting the patient to radiology."
+  },
+  {
+    "id": "inhouse_361",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 1-week-old full-term infant presents with lethargy, poor feeding, hypothermia (rectal temperature 35.8\u00b0C / 96.4\u00b0F), irritability, and a bulging anterior fontanelle. Lumbar puncture confirms bacterial meningitis. According to Slide 4 of 'MeningitisCaseAnswers..pptx', what is the most common causative pathogen of neonatal meningitis, and what empiric intravenous antibiotic regimen is indicated?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Streptococcus agalactiae (Group B Streptococcus); Ampicillin plus Cefotaxime (or Gentamicin)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Streptococcus pneumoniae; Ceftriaxone plus Vancomycin",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Neisseria meningitidis; Oral Ciprofloxacin single dose",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Haemophilus influenzae; Doxycycline plus Rifampin",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Pseudomonas aeruginosa; Meropenem monotherapy",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. In neonates (< 1 month of age), the most common bacterial meningitis pathogens acquired during passage through the maternal birth canal are:\n1. Streptococcus agalactiae (Group B Streptococcus / GBS) - #1 most common\n2. Escherichia coli (K1 capsular strain)\n3. Listeria monocytogenes.\nEmpiric antimicrobial coverage requires: Ampicillin (which provides essential bactericidal coverage against Listeria and enterococci) combined with Cefotaxime or Gentamicin (to cover GBS and Gram-negative coliforms). Ceftriaxone is strictly avoided in neonates due to risk of biliary sludging and displacing bilirubin from albumin causing kernicterus."
+  },
+  {
+    "id": "inhouse_362",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "Why is Ceftriaxone contraindicated as the third-generation cephalosporin of choice in neonates with suspected bacterial meningitis, leading clinicians to use Cefotaxime instead?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ceftriaxone displaces bilirubin from serum albumin, significantly increasing the risk of unconjugated hyperbilirubinemic neurotoxicity (kernicterus), and forms calcium precipitates in the gallbladder (biliary sludging)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Ceftriaxone is inherently ineffective against Streptococcus pneumoniae",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Ceftriaxone cannot penetrate neonatal meninges under any physiological conditions",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Ceftriaxone causes immediate, irreversible closure of the anterior fontanelle",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Ceftriaxone triggers malignant hyperthermia in all neonates lacking ryanodine receptors",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Ceftriaxone has high protein binding and competitively displaces unconjugated bilirubin from serum albumin in neonates. This allows free unconjugated, lipid-soluble bilirubin to cross the immature blood-brain barrier and deposit in the basal ganglia, precipitating kernicterus. In addition, ceftriaxone can precipitate with intravenous calcium, causing fatal cardiopulmonary and biliary sludging (pseudolithiasis). Therefore, Cefotaxime (which does not displace bilirubin) is the third-generation cephalosporin of choice in neonates."
+  },
+  {
+    "id": "inhouse_363",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "An 8-month-old infant who has received no routine childhood immunizations presents with fever, vomiting, high-pitched crying, and marked nuchal rigidity. Lumbar puncture demonstrates 3,500 WBC/\u00b5L with 88% neutrophils, protein 220 mg/dL, and glucose 12 mg/dL. Gram stain of the CSF reveals pleomorphic Gram-negative coccobacilli that grow on chocolate agar supplemented with Factor X (hemin) and Factor V (NAD), but fail to grow on standard 5% sheep blood agar. What is the pathogen?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Haemophilus influenzae type b (Hib)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Bordetella pertussis",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Neisseria meningitidis",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Legionella pneumophila",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Corynebacterium diphtheriae",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Prior to widespread vaccination with the polyribosylribitol phosphate (PRP) capsule conjugate vaccine, Haemophilus influenzae type b (Hib) was the leading cause of bacterial meningitis in young children (aged 2 months to 5 years). Gram stain demonstrates small, pleomorphic Gram-negative coccobacilli. Hib is fastidious and requires both Factor X (hemin) and Factor V (NAD) for growth, which are released inside heat-lysed red blood cells on chocolate agar (or grown via satellite phenomenon around S. aureus colonies on blood agar)."
+  },
+  {
+    "id": "inhouse_364",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 68-year-old man presents to the emergency department with fever, confusion, and nuchal rigidity. According to Slide 8 of 'MeningitisCaseAnswers..pptx', which of the following is the appropriate empiric intravenous antibiotic regimen to administer to a 68-year-old adult with suspected bacterial meningitis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vancomycin, Ceftriaxone, and Ampicillin",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Vancomycin and Ceftriaxone only",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Vancomycin alone",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Ampicillin and Gentamicin only",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Ciprofloxacin and Doxycycline",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This directly reflects Question 2 on Slide 8 of 'MeningitisCaseAnswers..pptx':\n- In adults aged 18 to 50: Ceftriaxone + Vancomycin.\n- In adults aged > 50 years (and immunocompromised hosts of any age): Ceftriaxone + Vancomycin + AMPICILLIN.\nAmpicillin MUST be added in elderly (> 50 yr) and immunocompromised patients to cover Listeria monocytogenes, a facultative intracellular pathogen to which cellular immunity wanes with aging. Third-generation cephalosporins (like ceftriaxone) have zero antimicrobial activity against Listeria!"
+  },
+  {
+    "id": "inhouse_365",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "Why is Ampicillin mandatory in the empiric regimen for bacterial meningitis in patients over 50 years of age, whereas Ceftriaxone and Vancomycin alone are sufficient in healthy 25-year-old adults?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Listeria monocytogenes incidence rises markedly in adults over 50 due to waning T-cell-mediated immunity, and Listeria is inherently resistant to all cephalosporins and poorly killed by vancomycin",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Ampicillin provides unique bactericidal coverage against Methicillin-Resistant Staphylococcus aureus",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Streptococcus pneumoniae is inherently sensitive to ampicillin but 100% resistant to ceftriaxone in the elderly",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Ampicillin prevents vancomycin-induced nephrotoxicity in older kidneys",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Elderly patients cannot absorb cephalosporins across the intestinal mucosa",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. As taught on Slide 4 and Slide 8 of 'MeningitisCaseAnswers..pptx':\nListeria monocytogenes is a foodborne Gram-positive rod (often transmitted via unpasteurized dairy, cold deli meats) that exhibits tumbling motility at room temperature. It infects neonates, pregnant women, the elderly (> 50 yr), and immunocompromised patients. Because Listeria possesses penicillin-binding proteins with low affinity for cephalosporins, ALL cephalosporins (including third- and fourth-generation agents) are completely ineffective against it. Ampicillin (or penicillin G) is the drug of choice to clear Listeria bacteremia and meningitis."
+  },
+  {
+    "id": "inhouse_366",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 44-year-old man with community-acquired Streptococcus pneumoniae meningitis is initiated on intravenous Ceftriaxone and Vancomycin. The emergency physician co-administers intravenous Dexamethasone with the first dose of antibiotics. What is the evidence-based clinical rationale for adjunctive dexamethasone therapy in acute pneumococcal meningitis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It blunts the massive host inflammatory response triggered by antibiotic-mediated bacterial lysis in the subarachnoid space, significantly decreasing sensorineural hearing loss and overall mortality",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "It directly binds to bacterial 50S ribosomal subunits to inhibit peptide elongation",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "It stimulates the renal clearance of vancomycin to prevent red man syndrome",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "It prevents the emergence of beta-lactamase gene expression",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "It induces immediate pupillodilation to prevent acute glaucoma",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. When bactericidal antibiotics lyse bacteria in the subarachnoid space, massive release of cell wall components (teichoic acid, peptidoglycans, endotoxin) triggers an explosive release of inflammatory cytokines (TNF-alpha, IL-1beta) from microglial and endothelial cells. This secondary inflammatory surge exacerbates cerebral edema, increases ICP, and damages cochlear sensory hair cells. Administering Dexamethasone with or 15\u201320 minutes prior to the first antibiotic dose significantly reduces neurological morbidity (especially sensorineural hearing loss) and decreases mortality in adult pneumococcal meningitis."
+  },
+  {
+    "id": "inhouse_367",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "An 18-year-old college student with confirmed Neisseria meningitidis meningitis is admitted to an isolation room. The student's roommate, who shares the dorm room and ate meals with him yesterday, comes to the clinic asking if he needs treatment. Which chemoprophylactic regimen is recommended for close household/dorm contacts exposed to meningococcal meningitis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oral Rifampin (600 mg every 12 hours for 2 days), single-dose oral Ciprofloxacin, or single-dose intramuscular Ceftriaxone",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Intravenous Vancomycin daily for 6 weeks",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Oral Ampicillin for 21 days",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Immediate lumbar puncture and expectant observation",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Application of topical bacitracin ointment to the anterior nares",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Chemoprophylaxis is indicated for close contacts of patients with invasive meningococcal disease (household members, dorm roommates, daycare contacts, or healthcare workers with direct saliva/airway exposure). The goal is to eradicate nasopharyngeal carriage of Neisseria meningitidis. Standard evidence-based prophylactic options include:\n1. Rifampin (600 mg PO BID for 2 days; note: turns bodily secretions orange/red)\n2. Ciprofloxacin (500 mg PO single dose; avoid in children/pregnancy)\n3. Ceftriaxone (250 mg IM single dose; preferred in pregnancy)."
+  },
+  {
+    "id": "inhouse_368",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 21-year-old woman presents with mild fever, headache, photophobia, and stiff neck. Lumbar puncture reveals: Opening pressure: 160 mm H2O (normal 100-200); WBC count: 180/\u00b5L with 88% lymphocytes; Protein: 65 mg/dL (mildly elevated); Glucose: 68 mg/dL (serum glucose 105 mg/dL; CSF:serum glucose ratio = 0.65); Gram stain shows no organisms. Multiplex PCR is positive for Enterovirus. How is this patient's cerebrospinal fluid profile classified compared to bacterial meningitis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aseptic (viral) meningitis; characterized by mild lymphocytic pleocytosis, normal or mildly elevated protein, and normal CSF glucose levels",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Pyogenic bacterial meningitis; characterized by profoundly depressed glucose and neutrophil predominance",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Tuberculous meningitis; characterized by markedly low glucose and acid-fast bacilli",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Cryptococcal meningoencephalitis; characterized by opening pressure > 400 mm H2O",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Normal cerebrospinal fluid profile without pleocytosis",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Comparing CSF findings (Slide 3 of 'MeningitisContentAnswers.pptx'):\n- Viral (Aseptic) Meningitis: Normal or mildly elevated opening pressure; WBC moderately elevated (50\u2013500 cells/\u00b5L) with lymphocytic predominance; Protein normal or mildly elevated (< 100 mg/dL); and NORMAL GLUCOSE (> 60% of serum glucose, ratio > 0.6). Enteroviruses (coxsackievirus, echovirus) account for > 85% of cases.\n- Bacterial Meningitis: High opening pressure (> 200\u2013300); massive WBC pleocytosis (> 1,000\u20135,000) with neutrophil predominance; high protein (> 100\u2013500); and severely depressed glucose (< 40 mg/dL, ratio < 0.4)."
+  },
+  {
+    "id": "inhouse_369",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 36-year-old HIV-positive patient with a CD4 count of 45 cells/\u00b5L presents with progressive headache, fever, and malaise over 2 weeks. Physical examination reveals mild nuchal rigidity and bilateral abducens nerve palsies. Lumbar puncture demonstrates an opening pressure of 360 mm H2O, WBC count 120/\u00b5L (predominantly mononuclear cells), protein 140 mg/dL, and glucose 28 mg/dL. An India ink preparation of the CSF reveals narrow-based budding yeast cells surrounded by prominent, clear halos representing thick mucopolysaccharide capsules. What is the diagnosis and definitive induction therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cryptococcus neoformans meningoencephalitis; induction therapy with Amphotericin B plus Flucytosine, followed by maintenance Fluconazole",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Toxoplasma gondii encephalitis; Pyrimethamine plus Sulfadiazine",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Cerebral Aspergillosis; Voriconazole monotherapy",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Primary amoebic meningoencephalitis; Miltefosine monotherapy",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Cytomegalovirus polyradiculopathy; Ganciclovir monotherapy",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Cryptococcus neoformans is an opportunistic encapsulated fungal pathogen (found in pigeon droppings and soil) that infects patients with advanced T-cell immunodeficiency (CD4 < 100/\u00b5L). Lumbar puncture shows markedly elevated opening pressure, lymphocytic pleocytosis, and low glucose. India ink reveals round budding yeast cells with clear halos (unstained thick polysaccharide capsule), and mucicarmine stains the capsule bright red. First-line induction therapy is Liposomal Amphotericin B combined with Flucytosine for at least 2 weeks, followed by consolidation and maintenance with Fluconazole."
+  },
+  {
+    "id": "inhouse_370",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 52-year-old immigrant from Southeast Asia presents with a 4-week history of low-grade fevers, night sweats, anorexia, weight loss, progressive confusion, and multiple cranial nerve palsies (CN III, VI, and VII). Brain MRI with contrast reveals thick, gelatinous basilar meningeal enhancement encircling the circle of Willis and brainstem. Lumbar puncture shows opening pressure 280 mm H2O, WBC 340/\u00b5L (85% lymphocytes), protein 480 mg/dL (markedly elevated), and glucose 14 mg/dL (profoundly depressed). What is the causative organism, and what is its characteristic histological feature?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mycobacterium tuberculosis; caseating granulomas with Langhans multinucleated giant cells and acid-fast bacilli",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Treponema pallidum; obliterative endarteritis with spirochetal gummas",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Borrelia burgdorferi; non-caseating sarcoid granulomas",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Taenia solium; calcified cysticercal scolex larvae",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Rabies lyssavirus; intracytoplasmic Negri bodies within Purkinje cells",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Tuberculous meningitis typically presents subacutely over weeks with constitutional symptoms followed by cranial neuropathies due to predilection for the skull base. MRI shows intense basilar meningeal enhancement. The CSF profile is distinct: markedly high protein (> 150\u2013500 mg/dL), low glucose (< 30 mg/dL), and lymphocytic pleocytosis. Histopathology demonstrates necrotizing (caseating) granulomas composed of activated epithelioid macrophages, rimmed by lymphocytes and horseshoe-shaped Langhans multinucleated giant cells, with acid-fast bacilli on Ziehl-Neelsen stain."
+  },
+  {
+    "id": "inhouse_371",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "According to Slide 5 of 'MeningitisContentAnswers.pptx', what pathological changes would an autopsy examination of the brain reveal in a patient who died from fulminant acute bacterial meningitis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Grossly: Accumulation of thick, yellow-green purulent exudate covering the leptomeninges with marked engorgement of surface pial blood vessels; Histologically: Massive infiltration of polymorphonuclear neutrophils within the subarachnoid space surrounding leptomeningeal vessels",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Grossly: Complete cavitation of the basal ganglia with absence of all meningeal blood vessels",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Grossly: Normal glistening brain without vascular congestion; Histologically: Exclusively eosinophilic inclusions inside oligodendrocytes",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Grossly: Extensive cerebellar hypoplasia; Histologically: Spongiform change with amyloid plaques",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Grossly: Diffuse cortical calcification; Histologically: Total absence of inflammatory cells",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Slide 5 of 'MeningitisContentAnswers.pptx' directly specifies the gross and microscopic pathology:\n- Gross appearance: Accumulation of cloudy, thick purulent inflammatory exudate over the cerebral convexities and basilar cisterns within the leptomeninges (arachnoid and pia), accompanied by intense congestion, engorgement, and dilation of superficial meningeal blood vessels.\n- Histological examination: Dense sheets of polymorphonuclear neutrophils (PMNs) packing the subarachnoid space, inflammatory infiltration of meningeal vessel walls (vasculitis), and fibrin deposition."
+  },
+  {
+    "id": "inhouse_372",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 19-year-old soldier in basic military training presents with rapid-onset fever, severe headache, confusion, and a non-blanching purpuric and petechial rash covering his extremities and trunk. Within 4 hours of arrival, his blood pressure plummets to 65/35 mmHg, he develops disseminated intravascular coagulation (DIC), and dies of cardiovascular collapse. Autopsy reveals bilateral adrenal cortical hemorrhages and hemorrhagic necrosis (Waterhouse-Friderichsen syndrome). What is the causative pathogen and its primary virulence factor responsible for this endotoxic shock?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neisseria meningitidis; lipooligosaccharide (LOS) endotoxin in the bacterial outer membrane",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Streptococcus pneumoniae; pneumolysin pore-forming toxin",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Staphylococcus aureus; toxic shock syndrome toxin-1 (TSST-1)",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Pseudomonas aeruginosa; Exotoxin A ADP-ribosylating toxin",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Clostridium perfringens; alpha-toxin lecithinase",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Waterhouse-Friderichsen syndrome is fulminant meningococcemia caused by Neisseria meningitidis (meningococcus). It is characterized by severe septic shock, DIC with petechial/purpuric skin lesions, and bilateral hemorrhagic necrosis of the adrenal glands, leading to acute adrenal insufficiency. The primary virulence driver is Lipooligosaccharide (LOS)\u2014the meningococcal outer membrane endotoxin (analogous to LPS in enteric Gram negatives, but lacking the repeating O-antigen). Massive shedding of LOS blebs into the bloodstream triggers overwhelming TNF-alpha, IL-1, and nitric oxide release, driving septic collapse."
+  },
+  {
+    "id": "inhouse_373",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 3-year-old child presents with high fever, neck stiffness, and irritability. Lumbar puncture confirms Streptococcus pneumoniae meningitis. Blood and CSF cultures subsequently grow S. pneumoniae that is reported as highly resistant to penicillin (MIC >= 2.0 \u00b5g/mL). What is the biochemical mechanism of penicillin resistance in Streptococcus pneumoniae?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mutations in chromosomal penicillin-binding proteins (PBPs), altering their structure and reducing their binding affinity for beta-lactam antibiotics",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Plasmid-mediated acquisition of TEM-1 beta-lactamase enzyme that hydrolyzes the penicillin ring",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Active efflux pumping of the antibiotic by an ABC multidrug transporter",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Decreased outer membrane porin permeability",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Enzymatic methylation of the 23S ribosomal RNA subunit",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Unlike Staphylococcus aureus and enteric Gram-negatives which produce beta-lactamase enzymes, Streptococcus pneumoniae develops resistance to penicillin and beta-lactam antibiotics via homologous recombination and chromosomal mutations that alter Penicillin-Binding Proteins (PBPs, specifically PBP 1A, 2B, 2X). These conformational changes reduce the binding affinity of beta-lactams to the enzyme transpeptidase active site. This is precisely why VANCOMYCIN (which binds D-ala-D-ala, bypassing PBPs) is co-administered with Ceftriaxone in all empiric regimens for bacterial meningitis."
+  },
+  {
+    "id": "inhouse_374",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 28-year-old woman presents with acute-onset fever, severe headache, confusion, olfactory hallucinations (smelling burning rubber), and bizarre behavioral changes. Lumbar puncture demonstrates 220 WBC/\u00b5L (95% lymphocytes), elevated RBC count in the absence of traumatic tap (500 RBC/\u00b5L), and normal glucose. Brain MRI demonstrates asymmetrical hyperintensity, petechial hemorrhages, and edema strictly localized to the medial temporal lobes and inferior frontal lobes. What is the most likely pathogen, and what is the drug of choice?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Herpes Simplex Virus Type 1 (HSV-1); intravenous Acyclovir",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Rabies virus; post-exposure rabies immunoglobulin and vaccine",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "West Nile virus; supportive care with mechanical ventilation",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Poliovirus; oral ribavirin",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "John Cunningham (JC) virus; intravenous cidofovir",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Herpes Simplex Virus Type 1 (HSV-1) encephalitis is the most common cause of fatal sporadic viral encephalitis in the United States. Pathognomonic features include:\n- Temporal and inferior frontal lobe predilection (necrotizing, hemorrhagic encephalitis)\n- Clinical presentation: Acute fever, altered mental status, seizures, olfactory/gustatory auras, and aphasia\n- CSF: Lymphocytic pleocytosis with elevated RBCs (due to hemorrhagic cortical necrosis), normal glucose\n- Drug of choice: Immediate intravenous ACYCLOVIR (guanosine analog phosphorylated by viral thymidine kinase to inhibit viral DNA polymerase). Delay in therapy drastically increases mortality and permanent memory deficits."
+  },
+  {
+    "id": "inhouse_375",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 32-year-old male who recently returned from camping in Connecticut presents with fever, severe fatigue, headache, and bilateral facial muscle weakness (inability to close both eyes or smile bilaterally). Physical examination reveals a target-like, annular erythematous rash with central clearing ('erythema migrans') on his groin. Lumbar puncture confirms a mild lymphocytic pleocytosis. Which vector-borne pathogen is responsible for this patient's meningitis and bilateral Bell palsy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Borrelia burgdorferi (Lyme disease, transmitted by Ixodes scapularis tick)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Rickettsia rickettsii (Rocky Mountain spotted fever, transmitted by Dermacentor tick)",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Coxiella burnetii (Q fever, transmitted via aerosolized livestock amniotic fluid)",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Bartonella henselae (Cat scratch disease)",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Ehrlichia chaffeensis (Human monocytic ehrlichiosis)",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This patient presents with early disseminated Lyme disease (Stage 2) caused by the spirochete Borrelia burgdorferi, transmitted by the blacklegged deer tick (Ixodes scapularis). Stage 2 manifestations characteristically include:\n- Neurologic: Aseptic meningitis, radiculopathy, and cranial neuropathies\u2014most famously BILATERAL FACIAL NERVE PALSY (bilateral Bell palsy is a classic board hallmark of Lyme disease).\n- Cardiac: AV block (Lyme carditis)\n- Dermatologic: Multiple secondary erythema migrans lesions.\nFirst-line treatment for Lyme meningitis is intravenous Ceftriaxone (or high-dose oral Doxycycline)."
+  },
+  {
+    "id": "inhouse_376",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 62-year-old woman with a history of recurrent urinary tract infections presents with fever, stiff neck, and confusion. Lumbar puncture demonstrates bacterial meningitis. CSF culture grows a Gram-positive bacillus that displays tumbling motility on wet mount at 22\u00b0C (room temperature) and produces beta-hemolysis on sheep blood agar. What is the unique cellular mechanism by which this pathogen moves from one host cell directly into adjacent host cells without entering the extracellular space?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Polymerization of host cellular actin filaments into 'actin rockets' via the surface protein ActA",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Extension of type IV twitching pili through host nuclear pore complexes",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Direct fusion of bacterial outer membrane vesicles with the Golgi apparatus",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Secretion of collagenase that dissolves basement membranes between adjacent cells",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Passive hitchhiking inside circulating erythrocyte hemoglobin pockets",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Listeria monocytogenes is a facultative intracellular Gram-positive rod. Once phagocytosed by a host macrophage or epithelial cell, it uses listeriolysin O (a pore-forming toxin) and phospholipases to escape the phagolysosome into the host cytoplasm. Once in the cytoplasm, it expresses the surface protein ActA, which hijacks host actin to assemble a tail of polarized microfilaments ('actin rocket' or 'actin comets'). This propels the bacterium to the host cell membrane, where it forms a protrusion that is engulfed by neighboring cells, allowing cell-to-cell spread while shielding the bacterium from circulating antibodies and complement."
+  },
+  {
+    "id": "inhouse_377",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 10-year-old boy presents with high fever, severe nuchal rigidity, and photophobia. The pediatric resident asks why Haemophilus influenzae type b (Hib) and Streptococcus pneumoniae meningitis have decreased dramatically in incidence in pediatric populations over the past three decades. What immunological characteristic of conjugate polysaccharide vaccines accounts for this protection in infants?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Covalently coupling the bacterial capsular polysaccharide to a protein carrier (e.g., diphtheria or tetanus toxoid) recruits CD4+ T helper cells, converting a T-independent antigen into a T-dependent immune response that generates robust IgG antibodies and immunological memory in infants under 2 years of age",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "The polysaccharide capsule directly stimulates cytotoxic CD8+ T cells to lyse all encapsulated bacteria in the bloodstream",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "The protein carrier acts as an irreversible suicide inhibitor of bacterial DNA gyrase",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Conjugate vaccines contain live attenuated bacterial strains that colonize the colon permanently",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Infants naturally produce high titers of maternal IgA against all polysaccharide capsules without vaccination",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Pure capsular polysaccharide vaccines (e.g., Pneumovax 23) are T-independent antigens that cannot stimulate T cells or induce class-switching and memory in children under 2 years of age due to an immature splenic marginal zone. By covalently conjugating the polysaccharide to an immunogenic protein carrier (e.g., CRM197 or tetanus toxoid in PCV13/15/20 and Hib vaccines), B cells present the peptide to CD4+ T helper cells via MHC class II. This induces CD40/CD40L co-stimulation, prompting class switching from IgM to high-affinity IgG antibodies and establishing long-lasting B-cell memory."
+  },
+  {
+    "id": "inhouse_378",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 22-year-old college student presents with recurrent episodes of culture-negative, self-limiting aseptic meningitis over the past two years, with completely symptom-free intervals lasting several months. Lumbar puncture demonstrates lymphocytic pleocytosis with large, fragile, monocytoid cells with folded nuclei in the CSF (Mollaret cells). Multiplex PCR of the CSF confirms Herpes Simplex Virus Type 2 (HSV-2). What is this benign, recurrent aseptic meningitis syndrome called?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mollaret meningitis",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Beh\u00e7et disease",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Vogt-Koyanagi-Harada syndrome",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Neurosarcoidosis",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Rasmussen encephalitis",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Mollaret meningitis (benign recurrent lymphocytic meningitis) is characterized by repeated, self-limiting episodes of aseptic meningitis with complete clinical recovery between episodes. The vast majority (> 80-90%) of cases are caused by reactivation of Herpes Simplex Virus Type 2 (HSV-2) dormant in sensory ganglia. The CSF reveals lymphocytic pleocytosis and transient 'Mollaret cells' (large, pale, fragile endothelial-like monocyte/macrophage cells with 'footprint' clefted nuclei). Treatment with oral valacyclovir or acyclovir accelerates recovery and provides suppression."
+  },
+  {
+    "id": "inhouse_379",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 35-year-old male with an 8-year history of poorly controlled human immunodeficiency virus (HIV) infection presents with fever, progressive headache, and confusion. A contrast-enhanced brain MRI reveals multiple ring-enhancing lesions in the basal ganglia and corticomedullary junction with surrounding vasogenic edema. Serum Toxoplasma gondii IgG is strongly positive. What is the first-line pharmacotherapeutic regimen for cerebral toxoplasmosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pyrimethamine and Sulfadiazine, along with Leucovorin (folinic acid)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Acyclovir and Ganciclovir",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Vancomycin, Ceftriaxone, and Ampicillin",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Amphotericin B and Flucytosine",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Albendazole and Praziquantel",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Toxoplasma gondii is an intracellular protozoan parasite that reactivates in AIDS patients with CD4 < 100 cells/\u00b5L, presenting with multiple ring-enhancing brain lesions (typically in the basal ganglia). The first-line therapeutic regimen is Pyrimethamine (dihydrofolate reductase inhibitor) plus Sulfadiazine (dihydropteroate synthase inhibitor). Leucovorin (folinic acid) must be co-administered to rescue host bone marrow from pyrimethamine-induced megaloblastic anemia and leukopenia. Trimethoprim-sulfamethoxazole (TMP-SMX) is the standard prophylactic agent."
+  },
+  {
+    "id": "inhouse_380",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "In a 25-year-old patient who survived severe bacterial meningitis caused by Streptococcus pneumoniae, what is the single most common long-term permanent neurological deficit encountered as a post-infectious complication?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sensorineural hearing loss due to suppurative suppurative labyrinthitis and cochlear ossification",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Total loss of pain and temperature sensation on the anterior torso",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Persistent bilateral anosmia without cognitive changes",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Selective paralysis of the gastrocnemius muscles bilaterally",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Irreversible Horner syndrome on the right side",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Sensorineural hearing loss (SNHL) is the most common permanent long-term sequela of bacterial meningitis, occurring in up to 10\u201330% of survivors (most frequently with Streptococcus pneumoniae). Infection tracks from the subarachnoid space through the cochlear aqueduct into the scala tympani of the inner ear, causing suppurative labyrinthitis, death of hair cells in the organ of Corti, and subsequent fibro-osseous obliteration (cochlear ossification). Adjunctive dexamethasone administered prior to antibiotics significantly reduces the incidence of hearing impairment."
+  },
+  {
+    "id": "inhouse_381",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 4-week-old infant who was treated for neonatal Escherichia coli meningitis 2 weeks ago returns with an enlarging head circumference, split cranial sutures, and a tense, bulging anterior fontanelle. Brain ultrasound reveals progressive, massive enlargement of all four cerebral ventricles (lateral, third, and fourth ventricles) without any obstructing intraventricular mass or web. What is the pathological mechanism of hydrocephalus following bacterial meningitis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Communicating (non-obstructive) hydrocephalus caused by purulent inflammatory exudate and fibrous scarring clogging the arachnoid granulations (villi), impairing CSF resorption into the venous sinuses",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Non-communicating hydrocephalus caused by congenital stenosis of the aqueduct of Sylvius",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Massive hyper-secretion of CSF by a choroid plexus papilloma",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Herniation of the cerebellar vermis into the third ventricle",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Complete thrombosis of the common femoral vein",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Post-meningitic hydrocephalus is a well-recognized complication. The thick neutrophilic and fibrin exudate in the subarachnoid space tracks into the arachnoid villi and granulations lining the superior sagittal sinus. Fibrotic scarring and debris permanently plug these arachnoid granulations, blocking the normal outflow of CSF from the subarachnoid space into the dural venous circulation. Because all ventricles remain patent and in free communication with the subarachnoid space, this constitutes Communicating Hydrocephalus."
+  },
+  {
+    "id": "inhouse_382",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 23-year-old man who swam in a warm freshwater lake in Florida 5 days ago presents with abrupt-onset high fever, severe headache, confusion, anosmia, and rapidly progressing coma. Lumbar puncture demonstrates bloody, purulent CSF with 6,500 WBC/\u00b5L (predominantly PMNs) and motile amoebic trophozoites on a wet mount. Despite intensive therapy, the patient dies within 72 hours. Autopsy reveals extensive necrotizing, hemorrhagic destruction of the olfactory bulbs and inferior frontal lobes. What is the causative organism, and what is its route of entry into the brain?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Naegleria fowleri; entry via the nasal mucosa, penetrating the cribriform plate along the olfactory fila into the subarachnoid space (Primary Amoebic Meningoencephalitis)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Acanthamoeba castellanii; entry via corneal contact lens micro-abrasions",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Balamuthia mandrillaris; entry via skin abrasions and hematogenous seeding",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Entamoeba histolytica; entry via colonic ulceration and portal-systemic shunting",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Trypanosoma brucei; entry via the tsetse fly bite on the scalp",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Naegleria fowleri is a free-living, thermophilic amoeba found in warm freshwater bodies (lakes, rivers, unchlorinated hot springs). When contaminated water is forcibly inhaled into the nasal cavity (e.g., during diving, swimming, or using non-sterile tap water in neti pots), flagellated trophozoites penetrate the nasal olfactory neuroepithelium and migrate directly across the cribriform plate along the olfactory nerve fibers into the frontal lobes. It causes fulminant Primary Amoebic Meningoencephalitis (PAM), which is almost universally fatal (> 97% mortality) within days."
+  },
+  {
+    "id": "inhouse_383",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 50-year-old male with chronic sinusitis develops high fever, lethargy, and a severe right-sided headache. Contrast-enhanced MRI of the brain reveals a solitary 3.5 cm ring-enhancing round mass with thin, uniform enhancement and extensive surrounding vasogenic edema in the right frontal lobe. The mass exhibits prominent central diffusion restriction on diffusion-weighted imaging (DWI). What is the diagnosis, and which organisms are most frequently cultured from a brain abscess originating via direct contiguous spread from frontal or ethmoid sinusitis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bacterial brain abscess; polymicrobial mixture of Streptococcus viridans/anginosus group and oral anaerobes (Fusobacterium, Peptostreptococcus, Bacteroides)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Glioblastoma multiforme; unculturable neoplastic astrocytes",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Multiple sclerosis tumefactive plaque; oligoclonal IgG bands",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Prion plaque; protease-resistant scrapie protein",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Primary CNS lymphoma; Epstein-Barr virus DNA exclusively",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. A bacterial brain abscess typically presents as a solitary ring-enhancing lesion with restricted diffusion on DWI (hyperintense on DWI and hypointense on ADC, representing thick, viscous pus and inflammatory cellularity). Contiguous spread from the paranasal sinuses (frontal/ethmoid sinuses) seed the frontal lobe, typically with a polymicrobial flora dominated by Viridans streptococci (particularly the Streptococcus anginosus / milleri group) and mixed oral anaerobes (Fusobacterium, Prevotella, Peptostreptococcus). Management involves surgical drainage/aspiration and prolonged IV antibiotics (e.g., ceftriaxone + metronidazole +/- vancomycin)."
+  },
+  {
+    "id": "inhouse_384",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A 48-year-old woman presents with severe headache, fever, and neck stiffness. She has an established medical history of a severe, anaphylactic reaction to all beta-lactam antibiotics (facial angioedema, respiratory arrest, and shock following cephalosporins and penicillins). What is the appropriate empiric intravenous antibiotic regimen for acute bacterial meningitis in this patient?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vancomycin plus Chloramphenicol (or Moxifloxacin) plus Aztreonam or Trimethoprim-Sulfamethoxazole",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Ceftriaxone plus Ampicillin",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Penicillin G high-dose infusion",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Amoxicillin-clavulanate oral suspension",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Cefepime plus Meropenem",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. In patients with severe, life-threatening IgE-mediated anaphylaxis to beta-lactam antibiotics (where neither penicillins, cephalosporins, nor carbapenems can be safely administered), alternative empiric regimens must be employed: Vancomycin (to cover Gram-positive cocci, resistant pneumococci) plus either Chloramphenicol, Moxifloxacin, or Aztreonam (to cover Gram-negative diplococci / N. meningitidis and bacilli), along with Trimethoprim-Sulfamethoxazole if Listeria coverage is required. Cephalosporins and penicillins are strictly contraindicated in confirmed anaphylaxis."
+  },
+  {
+    "id": "inhouse_385",
+    "category": "CNS Infectious Diseases & Meningitis",
+    "question": "A clinical pathologist evaluates a slide from the subarachnoid space of a deceased 18-year-old patient who had acute meningococcal meningitis. The pathologist notes that beyond the dense accumulation of polymorphonuclear neutrophils, the endothelial cells of the leptomeningeal veins show swelling, necrosis, and mural fibrin thrombi occluding the venous lumina. What catastrophic secondary brain complication occurs when cortical leptomeningeal veins and dural venous sinuses undergo septic thrombophlebitis in bacterial meningitis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cortical venous thrombosis leading to venous congestion, secondary hemorrhagic cerebral infarction, and intractable seizures",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Spontaneous cure of all meningeal inflammation due to vessel obliteration",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Instantaneous regeneration of the subarachnoid trabeculae",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Calcification of the choroid plexus preventing hydrocephalus",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Proliferation of Schwann cells throughout the corpus callosum",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. In fulminant bacterial meningitis, the intense inflammatory exudate surrounding the thin-walled leptomeningeal veins directly triggers septic thrombophlebitis (Slide 5 of 'MeningitisContentAnswers.pptx' and Slide 6 of 'MeningitisCaseAnswers..pptx'). Occlusion of cortical bridging veins and dural venous sinuses impairs venous drainage from the cerebral cortex, resulting in massive venous hypertension, petechial extravasation, and secondary hemorrhagic venous infarction. This causes focal neurological deficits, refractory status epilepticus, and accelerates cerebral edema."
+  }
+]

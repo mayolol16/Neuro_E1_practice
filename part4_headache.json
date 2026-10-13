@@ -1,0 +1,992 @@
+[
+  {
+    "id": "inhouse_291",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 32-year-old working mother presents to her primary care physician reporting worsening headaches over the past 4 months. She currently experiences approximately two severe episodes per week that force her to leave work early and lie down. She describes the pain as throbbing, predominantly on the right frontotemporal region, and rates it an 8/10. The attacks last between 12 and 24 hours if untreated and are exacerbated by walking up stairs or looking at bright fluorescent screens. She experiences nausea and profound sensitivity to both light and sound during episodes. Neurological examination is completely normal. According to the International Classification of Headache Disorders (ICHD-3), which of the following is an absolute diagnostic criterion for migraine without aura?",
+    "options": [
+      {
+        "id": "A",
+        "text": "At least 5 lifetime attacks lasting 4 to 72 hours, with nausea/vomiting or photophobia and phonophobia",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Presence of a visual scintillation or fortification spectrum preceding the pain by at least 15 minutes",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Mandatory presence of both vomiting and Horner syndrome during every episode",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Bilateral band-like pressure pain that is unaffected by routine physical activity",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Prompt cessation of headache within 5 minutes of inhaling 100% high-flow oxygen",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This question directly reflects the introductory case presented by Dr. Melissa Rayhill in the lecture 'Cases in Headache Medicine.' Under ICHD-3 criteria for Migraine without Aura:\n1. At least 5 attacks fulfilling criteria B-D.\n2. Headache attacks lasting 4\u201372 hours (untreated or unsuccessfully treated).\n3. At least 2 of: unilateral location, pulsating quality, moderate or severe intensity, aggravation by routine physical activity.\n4. During headache, at least 1 of: nausea and/or vomiting, OR photophobia and phonophobia.\nVisual aura is only required for migraine WITH aura (present in ~30% of patients)."
+  },
+  {
+    "id": "inhouse_292",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 29-year-old woman presents with recurrent headaches. A resident physician comments: 'She cannot have migraines because she has never vomited and does not have to lie in a dark, quiet room with the curtains drawn.' How should the attending neurologist respond regarding the clinical presentation of migraine headaches?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Patients do not need to vomit or be incapacitated in a dark room; nausea alone or moderate photophobia/phonophobia meets diagnostic criteria",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Vomiting is an absolute physiological prerequisite for activation of the trigeminovascular caudal nucleus",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Without severe prostration and bilious emesis, the diagnosis is classified as episodic tension-type headache by default",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Photophobia and phonophobia are exclusive hallmarks of bacterial leptomeningitis, not migraine",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Migraine diagnoses cannot be established without documented intracranial hypertension on lumbar puncture",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. A central teaching point emphasized in Dr. Rayhill's headache lecture is: 'You don't need to be throwing up in a dark room to have migraine!' Many patients experience moderate migraine attacks where nausea (without emesis) is present, or mild-to-moderate photophobia and phonophobia occur without requiring complete isolation in darkness. Recognising this prevents undertreating disabling migraines as simple sinus or tension headaches."
+  },
+  {
+    "id": "inhouse_293",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "In the modern neurovascular model of migraine pathophysiology, cortical spreading depression (CSD) is followed by activation of primary afferents within the trigeminovascular system. Which specific neuropeptide, stored in dense-core vesicles of perivascular trigeminal C and A-delta fibers, is the primary mediator of cranial vasodilation, mast cell degranulation, and neurogenic dural plasma protein extravasation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Calcitonin Gene-Related Peptide (CGRP)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Acetylcholine",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Gamma-aminobutyric acid (GABA)",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Endothelin-1",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Dopamine",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. As detailed in the lecture and content slides, Calcitonin Gene-Related Peptide (CGRP) is the central neuropeptide driving migraine pathophysiology. Activation of the spinal trigeminal nucleus leads to peripheral release of CGRP and Substance P around meningeal blood vessels. CGRP binds to the CRLR/RAMP1 receptor complex on vascular smooth muscle, causing profound vasodilation, and stimulates mast cells to degranulate and release histamine and bradykinin, which further sensitizes nociceptive nerve endings."
+  },
+  {
+    "id": "inhouse_294",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 35-year-old accountant with a 10-year history of episodic migraines presents for a routine follow-up. When evaluating her clinical status to determine if her migraine disorder has transitioned from episodic to chronic migraine, which of the following is the single most informative clinical question to ask?",
+    "options": [
+      {
+        "id": "A",
+        "text": "'How often are you completely headache-free?'",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "'Do you experience tingling in both feet after prolonged standing?'",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "'How many times per day do you check your blood pressure?'",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "'Have you ever had an allergic rash to sulfa antibiotics?'",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "'Do your headaches improve immediately after drinking a gallon of water?'",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Dr. Rayhill explicitly highlights in her lecture: 'When determining headache frequency, the most important question is: HOW OFTEN ARE YOU COMPLETELY HEADACHE FREE?' Patients with chronic migraine frequently downplay mild daily or background headaches, only counting 'bad' attack days. Asking how often they are entirely without head pain quickly uncovers continuous or near-daily background headaches meeting criteria for chronic migraine (>= 15 headache days/month for > 3 months)."
+  },
+  {
+    "id": "inhouse_295",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 40-year-old woman reports that over the past 6 months she has experienced headaches on 18 days per month. Detailed questioning reveals that on at least 10 of those days per month, the headaches exhibit pulsating unilateral pain, moderate-to-severe intensity, and are accompanied by photophobia and nausea. On the remaining days, she experiences a dull, mild bilateral pressing tension ache. She has had this pattern for 5 consecutive months. What is the formal ICHD-3 diagnosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chronic migraine",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Episodic tension-type headache",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Chronic cluster headache",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Hemicrania continua",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Paroxysmal hemicrania",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. By ICHD-3 criteria, Chronic Migraine is defined as: headache (migraine-like or tension-type-like) on >= 15 days per month for > 3 months, with at least 8 days per month meeting criteria for a migraine attack or responding to a migraine-specific medication. This patient has headaches on 18 days/month (> 15) for 5 months (> 3), with 10 days (> 8) meeting full migraine criteria. Thus, she meets all diagnostic criteria for Chronic Migraine."
+  },
+  {
+    "id": "inhouse_296",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 34-year-old woman presents to the clinic with acute migraine attacks occurring three times a month. Her physician prescribes sumatriptan for abortive therapy. Which molecular mechanism explains how triptans abort acute migraine headaches?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Selective agonism of serotonin 5-HT 1B and 1D receptors, inducing intracranial vasoconstriction and inhibiting presynaptic CGRP release",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Irreversible inhibition of cyclooxygenase-1 and -2 in peripheral vascular endothelium",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Non-selective antagonism of beta-1 and beta-2 adrenergic receptors",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Blockade of voltage-gated T-type calcium channels in the thalamic reticular nucleus",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Direct agonism of mu-opioid receptors within the periaqueductal gray",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Triptans (e.g., sumatriptan, rizatriptan, zolmitriptan) are selective 5-HT 1B/1D receptor agonists. Their therapeutic action is threefold:\n1. 5-HT 1B activation stimulates vasoconstriction of painfully dilated meningeal and dural blood vessels.\n2. 5-HT 1D activation on presynaptic trigeminal nerve terminals blocks the exocytotic release of vasoactive neuropeptides, specifically CGRP and Substance P.\n3. Modulation of second-order nociceptive neurotransmission in the brainstem trigeminal nucleus caudalis."
+  },
+  {
+    "id": "inhouse_297",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 52-year-old man with a history of hypertension, coronary artery disease, and an anterior myocardial infarction 2 years ago presents with typical episodic migraines. The resident physician suggests prescribing oral zolmitriptan. The attending physician corrects the resident and explains that triptans are contraindicated in this patient because of which pharmacological risk?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Coronary artery vasospasm and myocardial ischemia mediated by 5-HT 1B receptor activation",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Profound peripheral vasodilatation causing refractory orthostatic shock",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Severe lactic acidosis from mitochondrial pyruvate dehydrogenase inhibition",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Acute interstitial nephritis and renal papillary necrosis",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Irreversible bone marrow suppression and aplastic anemia",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Because triptans are 5-HT 1B agonists, they cause vasoconstriction not only in cranial meningeal vessels but can also induce coronary artery vasoconstriction/vasospasm. Consequently, triptans are strictly contraindicated in patients with established coronary artery disease (prior MI, angina), peripheral vascular disease, history of stroke/TIA, Prinzmetal angina, or uncontrolled hypertension."
+  },
+  {
+    "id": "inhouse_298",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 45-year-old woman with chronic coronary artery disease and episodic migraine needs an acute abortive medication that does not cause vasoconstriction. Her neurologist prescribes ubrogepant. What is the drug class and mechanism of action of this medication?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Small-molecule calcitonin gene-related peptide (CGRP) receptor antagonist ('gepant')",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Monoclonal antibody directed against the pituitary adenylate cyclase-activating polypeptide",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Selective 5-HT 2A receptor inverse agonist",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Non-steroidal anti-inflammatory prodrug inhibiting thromboxane A2 synthase",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Peroxisome proliferator-activated receptor alpha agonist",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Small-molecule CGRP receptor antagonists ('gepants', such as ubrogepant, rimegepant, and zavegepant) directly block the CGRP receptor without activating 5-HT 1B receptors. Because they do not cause vasoconstriction, they are safe and preferred acute abortive options in patients with cardiovascular disease, prior stroke, or contraindications to triptans."
+  },
+  {
+    "id": "inhouse_299",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "According to the 2026 American Academy of Neurology (AAN) and American Headache Society (AHS) Guidelines on Pharmacologic Migraine Prevention, when should preventive migraine therapy be formally offered to an adult patient?",
+    "options": [
+      {
+        "id": "A",
+        "text": "When a patient experiences 4 or more migraine headache days per month, or headaches that cause significant disability despite acute therapy",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Only after the patient has failed at least five distinct opioid medications",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Exclusively when cerebrospinal fluid opening pressure exceeds 300 mm H2O",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Only when daily headaches have persisted for a minimum of 20 consecutive years",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Exclusively in post-menopausal women with documented osteopenia",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. As highlighted on Slide 23 of Dr. Rayhill's lecture ('2026 AAN/AHS Guideline: Pharmacologic Migraine Prevention in Adults'), preventive treatment should be offered when patients experience:\n- >= 4 migraine headache days per month\n- Migraines that cause significant impairment or disability regardless of attack frequency\n- Ineffective, contraindicated, or overused acute medications."
+  },
+  {
+    "id": "inhouse_300",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 28-year-old woman with frequent disabling migraines begins preventive therapy with topiramate. In addition to migraine reduction, which constellation of side effects is characteristically associated with topiramate therapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Weight loss, cognitive slowing and word-finding difficulty ('Dopamax'), paresthesias, nephrolithiasis, and teratogenicity (cleft palate)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Significant weight gain, polycystic ovarian syndrome, hirsutism, and pancreatitis",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Severe gingival hyperplasia, hirsutism, and megaloblastic anemia",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Bronchospasm, profound bradycardia, and cold extremities",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Dry mouth, urinary retention, blurred vision, and orthostatic hypotension",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Topiramate is an established first-line preventive anticonvulsant for migraine. It blocks voltage-gated Na+ channels, enhances GABA, and antagonizes AMPA/kainate receptors, along with mild carbonic anhydrase inhibition. High-yield side effects include:\n- Cognitive slowing, memory fog, word-finding difficulty (colloquially termed 'Dopamax')\n- Weight loss and anorexia\n- Distal paresthesias and altered taste (carbonic anhydrase inhibition causing tingling)\n- Nephrolithiasis (calcium phosphate kidney stones)\n- Teratogenicity: oral clefts (cleft lip/palate) in the first trimester."
+  },
+  {
+    "id": "inhouse_301",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 36-year-old woman with asthma and a history of major depressive disorder presents seeking preventive therapy for frequent migraines. Which of the following conventional preventive medications should be avoided or used with extreme caution due to her comorbid conditions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Propranolol",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Atogepant",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Erenumab",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Magnesium oxide",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Riboflavin (Vitamin B2)",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Propranolol is a non-selective beta-adrenergic antagonist (beta-1 and beta-2 blocker). Because beta-2 receptor blockade induces bronchoconstriction, propranolol is contraindicated in patients with asthma or active reactive airway disease. Furthermore, beta-blockers can worsen depression and fatigue, making propranolol a poor choice for a patient with depression."
+  },
+  {
+    "id": "inhouse_302",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 42-year-old woman with chronic migraine refractory to multiple oral medications is started on erenumab. How does erenumab differ in target mechanism from galcanezumab and fremanezumab?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Erenumab binds directly to the CGRP receptor, whereas galcanezumab and fremanezumab bind directly to the CGRP neuropeptide ligand",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Erenumab is a small-molecule oral inhibitor, whereas galcanezumab is an intrathecal infusion",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Erenumab inhibits vesicular acetylcholine release at neuromuscular junctions",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Erenumab selectively agonizes 5-HT 1F receptors without blocking CGRP",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Erenumab covalently modifies neuronal carbonic anhydrase enzymes",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. As highlighted in Slide 26 of Dr. Rayhill's lecture on CGRP monoclonal antibodies:\n- Erenumab is a human monoclonal antibody that binds directly and competitively to the Calcitonin Gene-Related Peptide (CGRP) receptor.\n- Galcanezumab, Fremanezumab, and Eptinezumab are monoclonal antibodies that bind directly to the circulating CGRP neuropeptide ligand itself, neutralizing it before it can activate receptors."
+  },
+  {
+    "id": "inhouse_303",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 55-year-old woman with a history of chronic migraine and panic disorder reports that over the past year her headaches have become daily. Her medication list states she takes no prescription headache drugs. Upon detailed questioning regarding over-the-counter medications, she admits she takes 2 to 3 tablets of Excedrin (acetaminophen/aspirin/caffeine) nearly every single morning and afternoon (approximately 25 days per month). What condition has developed, and what is the maximum recommended frequency for taking acute combination analgesics to prevent it?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Medication Overuse Headache (MOH); acute combination analgesics should be limited to no more than 8 to 10 days per month",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Temporal arteritis; acute analgesics should be taken for at least 30 consecutive days",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Idiopathic intracranial hypertension; caffeine should be consumed continuously throughout the day",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Trigeminal autonomic cephalgia; acute analgesics must be administered intravenously only",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Cervicogenic cephalalgia; physical manipulation should replace all oral hydration",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This case matches Patient #2 in Dr. Rayhill's lecture ('I'm not a fan of medications... but Excedrin works pretty well'). Medication Overuse Headache (MOH / rebound headache) occurs in patients with pre-existing headache disorders who use acute headache medications frequently (combination analgesics, triptans, NSAIDs, opioids, butalbital). Slide 34 specifically highlights: 'Medication Overuse Headache: Limit most acute treatments to no more than 8-10 days per month.' Using combination analgesics on >= 10 days/month for > 3 months perpetuates daily withdrawal headaches."
+  },
+  {
+    "id": "inhouse_304",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 26-year-old woman presents to the student health center requesting oral contraceptive pills (OCPs) for contraception. During the medical intake, she mentions that twice a year she notices a bright, shimmering, zigzag visual disturbance that starts in the center of her right visual field and slowly expands outward over 25 minutes, leaving behind a temporary dark blind spot. This is followed immediately by a throbbing left hemicranial headache and nausea. What is the critical clinical implication of her headache history regarding oral contraceptive prescription?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Combined estrogen-progestin oral contraceptives are contraindicated due to a substantially elevated risk of ischemic stroke in women with migraine with aura",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Estrogen therapy is mandatory to stabilize visual cortical pyramidal neurons",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Progestin-only pills are strictly contraindicated, while high-dose estrogen is safe",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Oral contraceptives permanently cure visual aura by inhibiting cortical spreading depression",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Migraine with aura eliminates all cardiovascular risks associated with synthetic steroids",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. As emphasized on Slides 40-41 of Dr. Rayhill's lecture ('If you may prescribe oral contraceptive pills, you need to know how to diagnose aura'):\nWomen with migraine with aura already possess a 2- to 4-fold baseline increase in the relative risk of ischemic stroke. Adding estrogen-containing combined oral contraceptives (OCPs) compounds this thrombotic risk synergistically (up to a 7- to 10-fold increased risk of ischemic stroke, especially if combined with smoking). According to CDC and WHO Medical Eligibility Criteria, combined estrogen-containing hormonal contraceptives are Category 4 (unacceptable health risk / contraindicated) in women who experience migraine with aura. Progestin-only methods (e.g., levonorgestrel IUD, progestin implant, norethindrone) are safe alternatives."
+  },
+  {
+    "id": "inhouse_305",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 38-year-old man presents with recurring episodes of excruciating, piercing pain centered deep behind his left eye. The attacks last 45 to 60 minutes and occur 2 to 3 times per day, often awakening him from sleep at 2:00 AM. During the attacks, he is severely agitated, pacing the floor, and rubbing his head. Physical examination during an acute attack reveals left-sided conjunctival injection, lacrimation, rhinorrhea, and partial ptosis with miosis. Which of the following is the first-line, non-pharmacological acute abortive treatment for this condition?",
+    "options": [
+      {
+        "id": "A",
+        "text": "100% High-flow Oxygen (12 to 15 L/min) administered via a non-rebreather face mask",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "High-dose oral acetaminophen with codeine",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Application of a warm moist compress over the cervical spine",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Intramuscular ketorolac combined with diphenhydramine",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Oral topiramate titrated over six weeks",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This patient has a classic presentation of cluster headache ('suicide headache'), a trigeminal autonomic cephalgia. Hallmarks include: severe unilateral periorbital pain, brief duration (15\u2013180 minutes), restlessness/pacing, and ipsilateral autonomic signs (Horner syndrome, rhinorrhea, lacrimation). The gold standard, first-line acute abortive therapy is 100% oxygen delivered at 12\u201315 L/min via a non-rebreather mask (Slide 44 of Dr. Rayhill's lecture). Subcutaneous or intranasal sumatriptan is also an effective abortive option."
+  },
+  {
+    "id": "inhouse_306",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 42-year-old man with newly diagnosed episodic cluster headaches has achieved acute relief using high-flow oxygen, but continues to experience 2 to 3 excruciating nocturnal attacks daily. His physician plans to initiate maintenance preventive therapy along with a short bridging steroid taper. What is the first-line maintenance medication for the prevention of cluster headaches, and what baseline screening is mandatory prior to dose escalation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Verapamil; baseline and serial electrocardiograms (ECGs) to monitor for PR prolongation and heart block",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Propranolol; baseline pulmonary function testing to rule out pulmonary fibrosis",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Amitriptyline; baseline slit-lamp examination to assess for cataracts",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Lithium carbonate; baseline chest radiography to rule out sarcoidosis",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Valproate; baseline audiometry testing to detect sensorineural hearing loss",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Verapamil (a non-dihydropyridine calcium channel blocker) is the undisputed first-line maintenance preventive drug for cluster headache. Because high doses (often 240 mg to 720 mg/day or higher) are typically required to suppress cluster attacks, verapamil carries a substantial risk of cardiac conduction abnormalities (specifically PR interval prolongation, atrioventricular block, and bradycardia). Therefore, a baseline ECG and serial ECGs during dose titration are mandatory."
+  },
+  {
+    "id": "inhouse_307",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 24-year-old law student presents with dull, non-pulsating head pain that occurs towards the end of long study sessions. She describes it as a tight, pressing sensation encircling her entire forehead and occiput 'like a tight rubber band.' The headaches typically last 2 to 4 hours, are mild to moderate in severity, and do not worsen when she walks around the library. She has no nausea, vomiting, photophobia, or phonophobia. Neurological examination is unremarkable with mild pericranial muscle tenderness. What is the most likely diagnosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tension-type headache",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Migraine without aura",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Cluster headache",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Paroxysmal hemicrania",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Trigeminal neuralgia",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Tension-type headache (TTH) is the most common primary headache disorder worldwide. Diagnostic criteria under ICHD-3 include:\n- Bilateral location\n- Pressing or tightening (non-pulsating) quality ('band-like')\n- Mild to moderate intensity\n- Not aggravated by routine physical activity (e.g., walking, climbing stairs)\n- No nausea or vomiting\n- No more than one of photophobia or phonophobia.\nThis contrasts sharply with migraine (unilateral, throbbing, worsened by activity, with nausea/photophobia)."
+  },
+  {
+    "id": "inhouse_308",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "In evaluating a patient presenting with an acute headache, clinicians utilize the 'SNOOP' mnemonic to identify potential 'red flag' characteristics that indicate a life-threatening secondary headache rather than a benign primary headache. Which of the following correctly pairs an element of the SNOOP mnemonic with its associated secondary pathology?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O (Onset): Sudden, 'thunderclap' onset peaking within 1 minute, signaling possible aneurysmal subarachnoid hemorrhage",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "S (Systemic): Throbbing hemicranial ache with normal temperature, signaling tension-type headache",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "N (Neurologic): Reversible 20-minute visual scintillation, signaling inevitable cerebral infarction",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "O (Older age): Age younger than 20 years, signaling giant cell arteritis",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "P (Pattern): Headache relieved by lying flat, signaling acute angle-closure glaucoma",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. The SNOOP mnemonic for headache red flags:\n- S: Systemic symptoms (fever, weight loss) or secondary risk factors (HIV, cancer).\n- N: Neurologic symptoms or abnormal signs (confusion, focal deficit, altered consciousness).\n- O: Onset sudden / 'thunderclap' (peaks < 1 min, classically aneurysmal subarachnoid hemorrhage).\n- O: Older age of onset (> 50 years, suspicion for Giant Cell / Temporal Arteritis or intracranial mass).\n- P: Pattern change, Papilledema, Positional aggravation, Precipitation by Valsalva."
+  },
+  {
+    "id": "inhouse_309",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 72-year-old woman presents with a 3-week history of persistent, boring pain over her right temple, severe fatigue, and pain in her jaw muscles when chewing tough foods (jaw claudication). Yesterday, she experienced transient dimming of vision ('amaurosis fugax') in her right eye lasting 5 minutes. On physical examination, the right superficial temporal artery is thickened, tender, and pulseless. Erythrocyte sedimentation rate (ESR) is 95 mm/hr and C-reactive protein is markedly elevated. What is the immediate next step in management to prevent irreversible bilateral blindness?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Immediately administer high-dose systemic corticosteroids (e.g., intravenous methylprednisolone or oral prednisone) prior to obtaining a temporal artery biopsy",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Schedule an elective temporal artery biopsy in 3 weeks and delay all steroids until pathology confirms giant cells",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Prescribe high-flow oxygen via a non-rebreather mask and oral sumatriptan",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Perform emergent lumbar puncture to measure opening pressure",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Administer broad-spectrum intravenous vancomycin and ceftriaxone",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This patient presents with Giant Cell (Temporal) Arteritis, a granulomatous vasculitis of medium and large arteries (branches of the external carotid and ophthalmic arteries). Hallmarks include: elderly patient (> 50 yr), new localized headache, jaw claudication, tender temporal artery, and elevated ESR/CRP. The dreaded complication is anterior ischemic optic neuropathy causing irreversible blindness. Steroids must be started IMMEDIATELY upon clinical suspicion; waiting for biopsy confirmation risks permanent vision loss. Biopsy remains diagnostically positive for up to 1\u20132 weeks following steroid initiation."
+  },
+  {
+    "id": "inhouse_310",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 26-year-old obese woman (BMI 36 kg/m\u00b2) presents with daily, diffuse, holocranial headaches that are worse in the morning and aggravated by coughing or bending over. She also reports transient visual obscurations when standing up and hears a continuous, whooshing 'heartbeat' sound in both ears (pulsatile tinnitus). Fundoscopic examination reveals bilateral optic disc swelling with blurred margins (papilledema). Magnetic resonance imaging of the brain with MR venography shows no mass lesions, ventriculomegaly, or venous sinus thrombosis, but demonstrates a partially empty sella and bilateral transverse sinus narrowing. Lumbar puncture in the lateral decubitus position reveals an opening pressure of 340 mm H2O (normal < 200 mm H2O) with normal CSF cell count, protein, and glucose. What is the first-line pharmacotherapeutic agent for this disorder?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acetazolamide",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Sumatriptan",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Verapamil",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Amitriptyline",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Carbamazepine",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This is the classic presentation of Idiopathic Intracranial Hypertension (IIH, formerly pseudotumor cerebri). Typical patient: young obese female presenting with headache, papilledema, pulsatile tinnitus, transient visual obscurations, normal neuroimaging (except empty sella, slit-like ventricles), and elevated CSF opening pressure (> 250 mm H2O) with normal CSF composition. The primary goal is preserving visual acuity and fields. First-line medical therapy is Acetazolamide, a carbonic anhydrase inhibitor that reduces CSF production by the choroid plexus. Weight loss is the definitive long-term modifying therapy."
+  },
+  {
+    "id": "inhouse_311",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 49-year-old man presents to the emergency department clutching his head, screaming that he was hit by a sledgehammer. He was lifting a heavy barbell at the gym when an excruciating, explosive occipital headache erupted in less than 30 seconds ('worst headache of my life'). He is vomiting and irritable. Non-contrast computed tomography (NCCT) of the head performed 2 hours after symptom onset is completely normal. What is the mandatory next diagnostic step to definitively rule out an aneurysmal subarachnoid hemorrhage (SAH)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lumbar puncture to assess for persistent elevated red blood cell count across serial tubes and spectrophotometric xanthochromia",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Discharge home with an oral muscle relaxant and reassuring counseling",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Electroencephalogram (EEG) to rule out absence status epilepticus",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Repeat non-contrast head CT in 2 weeks",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Prescribe oral topiramate and titrate weekly",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. A thunderclap headache ('worst headache of life', peaking in < 1 minute) is a medical emergency concerning for aneurysmal subarachnoid hemorrhage (SAH). While non-contrast head CT is > 95-98% sensitive in the first 6-12 hours, false negatives occur. If head CT is negative or equivocal, a LUMBAR PUNCTURE is mandatory. Findings confirming SAH include: non-clearing RBCs from tube 1 to tube 4, and xanthochromia (yellowish discoloration of the CSF supernatant due to enzymatic breakdown of hemoglobin into bilirubin, best detected by spectrophotometry ~6-12 hours post-bleed)."
+  },
+  {
+    "id": "inhouse_312",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 51-year-old woman is admitted to the neuro-intensive care unit following surgical clipping of a ruptured anterior communicating artery aneurysm. On hospital day 6, she develops new-onset left-sided hemiparesis, dysarthria, and lethargy. Transcranial Doppler ultrasound reveals markedly accelerated velocities in the right middle and anterior cerebral arteries, consistent with delayed cerebral ischemia (vasospasm). Which medication, administered routinely from admission, significantly reduces mortality and cerebral infarction from vasospasm in patients with aneurysmal subarachnoid hemorrhage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nimodipine (oral dihydropyridine calcium channel blocker)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Heparin continuous intravenous infusion",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Metoprolol intravenous push",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Mannitol bolus every 2 hours indefinitely",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Sumatriptan subcutaneous auto-injector",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Delayed cerebral vasospasm typically occurs between days 4 and 14 after aneurysmal SAH, triggered by spasmogenic blood breakdown products (oxyhemoglobin, endothelin). Nimodipine, a lipophilic dihydropyridine calcium channel blocker with high central nervous system penetration, is universally administered to all patients with aneurysmal SAH for 21 consecutive days. It is proven in randomized trials to reduce the incidence of secondary ischemic neurological deficits and improve overall clinical outcomes."
+  },
+  {
+    "id": "inhouse_313",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 37-year-old woman experiences severe, strictly unilateral right-sided retro-orbital headaches that occur 15 to 20 times per day, each episode lasting between 5 and 20 minutes. Each painful attack is accompanied by right lacrimation, conjunctival redness, and nasal blockage. Her symptoms are completely refractory to high-flow oxygen, oral sumatriptan, and verapamil. Her neurologist initiates an oral trial of indomethacin. Within 24 hours of starting indomethacin, the attacks cease entirely. What is the diagnosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Paroxysmal hemicrania",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Episodic cluster headache",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Classic migraine with brainstem aura",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Tension-type headache",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Trigeminal neuralgia (Tic douloureux)",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Paroxysmal hemicrania is a trigeminal autonomic cephalgia (TAC) that shares unilateral orbital pain and cranial autonomic features with cluster headache, but differs distinctly in frequency and duration: attacks are shorter (2\u201330 minutes) and much more frequent (typically > 5 attacks per day, often 10\u201320/day), with female predominance. Crucially, paroxysmal hemicrania is defined by an absolute, exquisitely rapid, 100% therapeutic response to INDOMETHACIN ('indomethacin-responsive headache')."
+  },
+  {
+    "id": "inhouse_314",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 31-year-old woman who underwent a diagnostic lumbar puncture 2 days ago presents with a severe, throbbing, dull occipital and frontal headache. She notes that whenever she sits up in bed or stands, her head throbs excruciatingly and she becomes nauseated. However, within 15 minutes of lying completely flat (supine), the headache vanishes entirely. Neurological examination is normal without meningismus. What is the underlying mechanism of this post-dural puncture headache (PDPH)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Persistent CSF leakage through the dural puncture site leading to low intracranial CSF volume/pressure and gravitational traction on pain-sensitive meninges",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Acute bacterial contamination of the subarachnoid space causing purulent leptomeningitis",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Retrograde thrombosis of the superior sagittal sinus from accidental venous catheterization",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Rupture of an anterior communicating artery aneurysm precipitated by spinal needle insertion",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Autoimmune demyelination of the cervical dorsal root entry zone",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Post-dural puncture headache (low-pressure / orthostatic headache) occurs when CSF leaks through the persistent hole created by the spinal needle faster than the choroid plexus can replace it. The resulting intracranial hypotension reduces the CSF buoyant cushion, causing the brain to sag gravitationally when upright, which exerts mechanical traction on pain-sensitive dural structures, bridging veins, and sensory cranial nerves (CN V, IX, X). When conservative therapy (bed rest, hydration, caffeine) fails, an epidural blood patch provides definitive mechanical seal and cure."
+  },
+  {
+    "id": "inhouse_315",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 22-year-old male college student presents with sudden, sharp, ice-pick-like stabs of pain over his right temple that occur spontaneously without warning. Each stab lasts approximately 2 seconds, recurs unpredictably several times a week, and is not accompanied by nausea, eye redness, tearing, or rhinorrhea. Between stabs, he is completely symptom-free. What is the diagnosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Primary stabbing headache ('ice-pick headache')",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Chronic cluster headache",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Classical migraine with prolonged aura",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Giant cell arteritis",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Subarachnoid hemorrhage",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Primary stabbing headache (colloquially called 'ice-pick headache' or 'jabs and jolts') is characterized by ultra-brief, transient, sharp, lancinating jabs of pain lasting 1 to a few seconds, typically occurring in the distribution of the first division of the trigeminal nerve. They lack cranial autonomic symptoms (which distinguishes them from TACs) and do not follow the severe multi-minute pulsating trajectory of migraine."
+  },
+  {
+    "id": "inhouse_316",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 64-year-old man presents with sharp, shooting pains in the back of his throat and base of his tongue that are triggered when he swallows cold drinks or yawns. The pain occasionally radiates deeply into his right ear canal. During one particularly severe paroxysm of pain in the office, his heart rate abruptly drops to 32 beats per minute, his blood pressure plummets, and he suffers a brief syncopal episode. Which cranial nerve is affected, and what reflex arc explains the syncopal bradycardia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Glossopharyngeal nerve (CN IX); visceral sensory afferents stimulate the dorsal motor nucleus of the vagus nerve (CN X), causing profound parasympathetic bradycardia and hypotension",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Trigeminal nerve (CN V3); somatic motor afferents directly stimulate the sinoatrial node",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Facial nerve (CN VII); motor branches stimulate carotid body chemoreceptors",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Hypoglossal nerve (CN XII); tongue motor neurons cause direct coronary vasospasm",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Spinal accessory nerve (CN XI); sternocleidomastoid spasm compresses the internal jugular vein",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Glossopharyngeal neuralgia causes lancinating, excruciating pain in the posterior pharynx, tonsillar fossa, base of the tongue, and ear canal triggered by swallowing, talking, or coughing. Because CN IX carries visceral afferents from the carotid sinus, cross-excitation or intense stimulation of the nearby dorsal motor nucleus of the vagus nerve (CN X) or nucleus tractus solitarius can elicit a profound vagal discharge, leading to severe bradycardia, sinus arrest, hypotension, and syncope."
+  },
+  {
+    "id": "inhouse_317",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 43-year-old woman presents to the clinic with severe migraines occurring 8 days per month. She has tried and failed metoprolol, amitriptyline, and topiramate due to intolerable side effects. Her neurologist discusses administering OnabotulinumtoxinA (Botox) injections. Which clinical criterion regarding FDA approval and evidence-based guidelines must be satisfied before Botox can be administered for migraine prophylaxis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The patient must meet diagnostic criteria for Chronic Migraine (headache on >= 15 days/month for > 3 months, with >= 8 days being migraine); Botox is NOT efficacious or approved for episodic migraine",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "The patient must have documented bacterial meningitis within the past calendar year",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "The patient must have failed high-flow oxygen therapy",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Botox is approved solely for tension-type headache and strictly prohibited in migraine",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "The injections must be performed into the lumbar subarachnoid space under fluoroscopy",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. As taught on Slide 25 of Dr. Rayhill's lecture ('Onabotulinum toxin A (Botox)... Given every 12 weeks in the office'): Botox is FDA-approved and clinically proven EXCLUSIVELY for CHRONIC MIGRAINE (>= 15 headache days/month for > 3 months). Randomized clinical trials (the PREEMPT trials) showed that Botox is NOT effective for episodic migraine (< 15 days/month). Therefore, insurers and guidelines require a diagnosis of chronic migraine before Botox therapy."
+  },
+  {
+    "id": "inhouse_318",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 33-year-old woman presents with severe throbbing headaches. She reports that her mother and maternal grandmother suffered from identical headaches. When evaluating the genetic epidemiology of common primary headaches, what is known regarding the inheritance of typical migraine without aura?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is a complex polygenic multifactorial disorder with significant heritability and environmental gene-lifestyle interactions",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "It follows strict autosomal recessive Mendelian inheritance linked to a single phenylalanine deletion",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "It is an X-linked dominant condition with 100% penetrance in males exclusively",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "It is caused entirely by de novo mitochondrial point mutations that never run in families",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "It has 0% genetic basis and is caused purely by ergonomic neck strain",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Common migraine (with or without aura) is a polygenic, multifactorial disease influenced by dozens of common genetic risk loci regulating ion channel conductances, glutamatergic signaling, and vascular homeostasis. A family history is present in > 60-70% of migraineurs. (Note: Rare monogenic forms, like Familial Hemiplegic Migraine, follow autosomal dominant transmission via CACNA1A, ATP1A2, or SCN1A channel mutations, but common migraine is polygenic)."
+  },
+  {
+    "id": "inhouse_319",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A clinical trial compares newer migraine abortive agents with conventional therapies. The trial tests Lasmiditan, an oral agent approved for acute migraine treatment. How does Lasmiditan's receptor selectivity differ from sumatriptan, making it uniquely safe for patients with vascular disease?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lasmiditan is a high-affinity, selective 5-HT 1F receptor agonist that centrally inhibits trigeminal nociceptive pathways without causing 5-HT 1B-mediated vasoconstriction",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Lasmiditan binds exclusively to histamine H1 receptors, avoiding adrenergic tone",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Lasmiditan irreversible blocks thromboxane receptors on platelet surfaces",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Lasmiditan induces profound systemic vasodilatation by activating guanylyl cyclase",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Lasmiditan stimulates alpha-1 adrenergic receptors in coronary arteries",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Lasmiditan is a novel 'ditan' class drug that acts as a selective 5-HT 1F receptor agonist. Unlike triptans (which activate 5-HT 1B and 1D receptors), Lasmiditan does NOT activate 5-HT 1B receptors and therefore produces NO vasoconstriction of coronary, cerebral, or peripheral arteries. It exerts its antimigraine effect purely through neural inhibition of the trigeminovascular pathway, allowing safe acute migraine treatment in patients with cardiovascular disease (though it carries a warning regarding driving impairment due to CNS sedation)."
+  },
+  {
+    "id": "inhouse_320",
+    "category": "Headache Disorders & Neurovascular Syndromes",
+    "question": "A 27-year-old woman presents to the emergency room with a 2-day history of escalating right frontotemporal throbbing headache, photophobia, phonophobia, and intractable vomiting. She has been unable to retain fluids or oral medications for 36 hours. Physical examination reveals orthostatic hypotension, dry mucous membranes, and severe distress from room lighting. In addition to vigorous intravenous fluid hydration and an intravenous antiemetic (e.g., metoclopramide), which intravenous medication is a standard, non-vasoconstrictive, non-opioid abortive agent used in the emergency department for severe refractory migraine (status migrainosus)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Intravenous Ketorolac (NSAID)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Intravenous Hydromorphone (opioid)",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Intravenous Verapamil bolus",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Oral topiramate dissolved in apple juice",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Intravenous mannitol 20% solution",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. In the emergency department setting, standard evidence-based migraine 'cocktails' for status migrainosus avoid opioids (which cause hyperalgesia, dependency, and medication overuse headache). First-line therapies include:\n- IV hydration\n- IV dopamine receptor antagonist antiemetics (metoclopramide or prochlorperazine, which also provide direct antimigraine efficacy)\n- IV nonsteroidal anti-inflammatory drugs, specifically Ketorolac (Toradol)\n- Subcutaneous/nasal sumatriptan or IV dihydroergotamine (if no vascular contraindications)\n- IV Dexamethasone (to prevent headache recurrence over the subsequent 48-72 hours)."
+  }
+]

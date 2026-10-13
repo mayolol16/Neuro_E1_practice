@@ -15,20 +15,18 @@ with open('/Users/markyoussef_1/.gemini/antigravity-ide/scratch/usmle_exam1/inho
     inhouse_questions = json.load(f)
 
 inhouse_categories = [
-    'In House: CNS Anatomy & Glia',
-    'In House: CNS Development & Genetics',
-    'In House: Neurotransmission & Synapse',
-    'In House: Ventricular System & CSF',
-    'In House: Neuromuscular Junction Disorders',
-    'In House: Anesthetic Pharmacology',
-    'In House: Somatosensory DCML Pathway',
-    'In House: Somatosensory ALS & Pain',
-    'In House: Trigeminal Pathways & Reflexes',
-    'In House: Spinal Cord Syndromes & Radiculopathies',
-    'In House: Neuropathies & Electrodiagnosis',
-    'In House: Headache Disorders',
-    'In House: Traumatic Brain Injuries',
-    'In House: Meningitis & CNS Infections'
+    'CNS Anatomy & Gross Morphology',
+    'CNS Development & Congenital Malformations',
+    'Ventricular System, CSF Dynamics & Glial Histology',
+    'Action Potentials & Synaptic Neurotransmission',
+    'Neuromuscular Junction Disorders & Toxicology',
+    'Anesthetic Pharmacology & Neuromuscular Blockade',
+    'Somatosensory DCML Pathway & Mechanoreceptors',
+    'Anterolateral System & Spinal Cord Syndromes',
+    'Trigeminal System, Facial Sensation & Reflexes',
+    'Headache Disorders & Neurovascular Syndromes',
+    'Traumatic Brain Injury, Hematomas & Critical Care',
+    'CNS Infectious Diseases & Meningitis'
 ]
 
 categories = [
@@ -1142,8 +1140,8 @@ html_template = """<!DOCTYPE html>
         </button>
         <button id="trackInHouseBtn" class="track-btn inhouse-active" onclick="switchTrack('inhouse')">
           <span>🏠</span>
-          <span>In House (150 Qs)</span>
-          <span class="zen-pill-badge">Course Modules</span>
+          <span>In House (385 Qs)</span>
+          <span class="zen-pill-badge">12 Topics</span>
         </button>
         <button id="trackFocusedZenBtn" class="track-btn" onclick="switchTrack('focused_zen')">
           <span>🎯</span>
@@ -1524,7 +1522,7 @@ html_template = """<!DOCTYPE html>
         trackTag.className = 'q-track-tag inhouse';
         trackTag.textContent = '🏠 In House';
         timerDisplay.classList.add('inhouse');
-        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> In-House Course Modules (14)`;
+        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> In-House Course Modules (12)`;
       } else if (currentTrack === 'focused_zen') {
         focusedZenBtn.className = 'track-btn focused-zen-active';
         zenTray.style.display = 'flex';
@@ -1566,7 +1564,7 @@ html_template = """<!DOCTYPE html>
       renderCurrentQuestion();
 
       const toastMsg = currentTrack === 'inhouse'
-        ? 'Switched to 🏠 In-House Course Track (150 Qs from Lectures & Cases)'
+        ? 'Switched to 🏠 In-House Course Track (385 Qs from Lectures & Cases)'
         : currentTrack === 'focused_zen'
         ? 'Switched to 🎯 Focused Zen Mode (Study Guide 20 Qs/topic)'
         : currentTrack === 'zen'
@@ -1592,6 +1590,7 @@ html_template = """<!DOCTYPE html>
 
       questions = rawData.map((q, idx) => ({
         ...q,
+        stem: q.stem || q.question,
         index: idx
       }));
 
@@ -1606,9 +1605,14 @@ html_template = """<!DOCTYPE html>
         if (restoredState && restoredState[q.id]) {
           const s = restoredState[q.id];
           const hasOptionMismatch = !s.shuffledOptions || s.shuffledOptions.length !== q.options.length;
+          let chosenIdx = hasOptionMismatch ? null : s.selectedChoiceIndex;
+          let restoredIsCorrect = hasOptionMismatch ? null : s.isCorrect;
+          if (chosenIdx !== null && s.shuffledOptions && s.shuffledOptions[chosenIdx]) {
+            restoredIsCorrect = (s.shuffledOptions[chosenIdx].is_correct === true);
+          }
           userState[q.id] = {
-            selectedChoiceIndex: hasOptionMismatch ? null : s.selectedChoiceIndex,
-            isCorrect: hasOptionMismatch ? null : s.isCorrect,
+            selectedChoiceIndex: chosenIdx,
+            isCorrect: restoredIsCorrect,
             flagged: s.flagged || false,
             struckChoices: new Set(hasOptionMismatch ? [] : (s.struckChoices || [])),
             shuffledOptions: hasOptionMismatch ? (randomizeChoices ? shuffleArray(q.options) : [...q.options]) : s.shuffledOptions,
@@ -1698,7 +1702,7 @@ html_template = """<!DOCTYPE html>
       catsToUse.forEach((cat) => {
         const isActive = activeCategoryFilter === cat;
         const catQuestions = questions.filter(q => q.category === cat);
-        const answered = catQuestions.filter(q => userState[q.id] && userState[q.id].selectedChoiceIndex !== null).length;
+        const answered = catQuestions.filter(q => userState[q.id] && userState[q.id].isCorrect !== null).length;
         html += `
           <button class="zen-topic-pill ${isActive ? 'active' : ''}" onclick="selectZenTopic('${cat.replace(/'/g, "\\\\'")}')">
             <span>${cat}</span>
@@ -1820,7 +1824,7 @@ html_template = """<!DOCTYPE html>
       filterIncorrectOnly = false;
       filterFlaggedOnly = false;
       applyFilter();
-      if (currentTrack === 'focused_zen' || currentTrack === 'zen') renderZenTray();
+      if (currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') renderZenTray();
       renderSidebarCategories();
       updateOverallStats();
       if (filteredIndices.length > 0 && !filteredIndices.includes(currentIndex)) {
@@ -1879,7 +1883,7 @@ html_template = """<!DOCTYPE html>
         renderCurrentQuestion();
         renderSidebarCategories();
         updateOverallStats();
-        if (currentTrack === 'focused_zen' || currentTrack === 'zen') renderZenTray();
+        if (currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') renderZenTray();
         saveState();
         showToast(`Reset ${wrongIndices.length} incorrect questions for re-attempt!`);
       }
@@ -1946,7 +1950,7 @@ html_template = """<!DOCTYPE html>
       const optionsList = document.getElementById('optionsList');
       optionsList.innerHTML = '';
       const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'];
-      const isAnswered = state.selectedChoiceIndex !== null;
+      const isAnswered = state.isCorrect !== null;
 
       state.shuffledOptions.forEach((opt, optIdx) => {
         const item = document.createElement('div');
@@ -1999,7 +2003,7 @@ html_template = """<!DOCTYPE html>
 
       // Submit Button visibility
       const submitBtn = document.getElementById('submitChoiceBtn');
-      if (isAnswered) {
+      if (isAnswered || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
         submitBtn.style.display = 'none';
       } else {
         submitBtn.style.display = 'inline-flex';
@@ -2046,11 +2050,12 @@ html_template = """<!DOCTYPE html>
       const state = userState[q.id];
       state.selectedChoiceIndex = optIdx;
 
-      // In Zen modes, instant submit on click!
-      if (currentTrack === 'focused_zen' || currentTrack === 'zen') {
+      // In In-House and Zen modes, instant submit and feedback on click!
+      if (currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
         submitAnswer();
       } else {
         renderCurrentQuestion();
+        saveState();
       }
     }
 
@@ -2074,12 +2079,14 @@ html_template = """<!DOCTYPE html>
       }
 
       const selectedOption = state.shuffledOptions[state.selectedChoiceIndex];
-      state.isCorrect = selectedOption.is_correct;
+      state.isCorrect = (selectedOption && selectedOption.is_correct === true);
 
       renderCurrentQuestion();
       renderSidebarCategories();
       updateOverallStats();
-      if (currentTrack === 'focused_zen' || currentTrack === 'zen') renderZenTray();
+      if (currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
+        renderZenTray();
+      }
       saveState();
     }
 
@@ -2138,9 +2145,9 @@ html_template = """<!DOCTYPE html>
 
       questions.forEach((q) => {
         const state = userState[q.id];
-        if (state.selectedChoiceIndex !== null) {
+        if (state.isCorrect !== null) {
           totalAnswered++;
-          if (state.isCorrect) totalCorrect++;
+          if (state.isCorrect === true) totalCorrect++;
           else totalIncorrect++;
         }
         if (state.flagged) totalFlagged++;
@@ -2236,7 +2243,9 @@ html_template = """<!DOCTYPE html>
     function openItemGrid() {
       const container = document.getElementById('gridItemsContainer');
       container.innerHTML = '';
-      const trackName = currentTrack === 'focused_zen'
+      const trackName = currentTrack === 'inhouse'
+        ? '🏠 In-House Course'
+        : currentTrack === 'focused_zen'
         ? '🎯 Focused Zen'
         : currentTrack === 'zen'
         ? '🧘 General Zen'
@@ -2286,9 +2295,9 @@ html_template = """<!DOCTYPE html>
 
       questions.forEach((q) => {
         const state = userState[q.id];
-        if (state.selectedChoiceIndex !== null) {
+        if (state.isCorrect !== null) {
           totalAnswered++;
-          if (state.isCorrect) totalCorrect++;
+          if (state.isCorrect === true) totalCorrect++;
           else totalIncorrect++;
         }
       });
@@ -2407,7 +2416,10 @@ For each question:
     function resetCurrentTrack() {
       let trackName = 'Exam 1 (125 questions)';
       let storagePrefix = 'usmle_exam1_';
-      if (currentTrack === 'focused_zen') {
+      if (currentTrack === 'inhouse') {
+        trackName = '🏠 In-House Course Track (385 questions)';
+        storagePrefix = 'usmle_inhouse_';
+      } else if (currentTrack === 'focused_zen') {
         trackName = '🎯 Focused Zen Mode (320 questions)';
         storagePrefix = 'usmle_focused_zen_';
       } else if (currentTrack === 'zen') {
@@ -2421,7 +2433,7 @@ For each question:
         localStorage.removeItem(storagePrefix + 'timer_seconds');
 
         loadTrackState();
-        if (currentTrack === 'focused_zen' || currentTrack === 'zen') renderZenTray();
+        if (currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') renderZenTray();
         applyFilter();
         renderSidebarCategories();
         updateOverallStats();
@@ -2447,7 +2459,7 @@ For each question:
         const optIdx = parseInt(e.key, 10) - 1;
         const q = questions[currentIndex];
         const state = userState[q.id];
-        if (optIdx < state.shuffledOptions.length && state.selectedChoiceIndex === null) {
+        if (optIdx < state.shuffledOptions.length && state.isCorrect === null) {
           selectChoice(optIdx);
         }
       }
@@ -2518,12 +2530,12 @@ For each question:
         trackTag.className = 'q-track-tag inhouse';
         trackTag.textContent = '🏠 In House';
         timerDisplay.classList.add('inhouse');
-        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> In-House Course Modules (14)`;
+        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> In-House Course Modules (12)`;
       }
 
       loadTrackState();
       setupAutoHighlighting();
-      if (currentTrack === 'focused_zen' || currentTrack === 'zen') renderZenTray();
+      if (currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') renderZenTray();
       applyFilter();
       renderSidebarCategories();
       updateOverallStats();
@@ -2559,13 +2571,4 @@ with open(downloads_path, 'w', encoding='utf-8') as f:
     f.write(html_template)
 print(f'Also saved copy directly to Downloads: {downloads_path}')
 
-# Also overwrite update_builder.py and build_html.py with the new builder
-with open('/Users/markyoussef_1/.gemini/antigravity-ide/scratch/usmle_exam1/update_builder.py', 'w', encoding='utf-8') as f:
-    with open(__file__, 'r', encoding='utf-8') as src:
-        f.write(src.read())
-
-with open('/Users/markyoussef_1/.gemini/antigravity-ide/scratch/usmle_exam1/build_html.py', 'w', encoding='utf-8') as f:
-    with open(__file__, 'r', encoding='utf-8') as src:
-        f.write(src.read())
-
-print('Updated update_builder.py and build_html.py successfully.')
+# Build complete successfully.

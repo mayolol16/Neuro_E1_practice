@@ -1,26 +1,25 @@
 # Neuro_E1_practice
 
-An interactive USMLE Step 1 NeuroPsych practice exam simulator and focused study application with **915 high-yield clinical questions** across 4 study tracks.
+An interactive USMLE Step 1 NeuroPsych practice exam simulator and focused study application with **1,150 high-yield clinical questions** across 4 study tracks.
 
 ## 🌟 Study Tracks
 
-1. **🏠 In-House Course Track (150 Questions)**
+1. **🏠 In-House Course Track (385 Questions)**
    - Generated directly from course lectures, content question decks, and clinical case presentations in `NeuroE1ShEET`.
-   - **14 High-Yield Course Modules**:
-     - CNS Anatomy & Glia (13 Qs)
-     - CNS Development & Genetics (19 Qs)
-     - Neurotransmission & Synapse (22 Qs)
-     - Ventricular System & CSF (21 Qs)
-     - Neuromuscular Junction Disorders (8 Qs)
-     - Anesthetic Pharmacology (22 Qs)
-     - Somatosensory DCML Pathway (6 Qs)
-     - Somatosensory ALS & Pain (5 Qs)
-     - Trigeminal Pathways & Reflexes (4 Qs)
-     - Spinal Cord Syndromes & Radiculopathies (6 Qs)
-     - Neuropathies & Electrodiagnosis (4 Qs)
-     - Headache Disorders (7 Qs)
-     - Traumatic Brain Injuries (6 Qs)
-     - Meningitis & CNS Infections (7 Qs)
+   - **3–5 questions per lecture Learning Objective** and **2–3 questions per Content/Case PowerPoint question**.
+   - **12 High-Yield Course Modules**:
+     - CNS Anatomy & Gross Morphology (30 Qs)
+     - CNS Development & Congenital Malformations (40 Qs)
+     - Ventricular System, CSF Dynamics & Glial Histology (30 Qs)
+     - Action Potentials & Synaptic Neurotransmission (35 Qs)
+     - Neuromuscular Junction Disorders & Toxicology (30 Qs)
+     - Anesthetic Pharmacology & Neuromuscular Blockade (30 Qs)
+     - Somatosensory DCML Pathway & Mechanoreceptors (30 Qs)
+     - Anterolateral System & Spinal Cord Syndromes (35 Qs)
+     - Trigeminal System, Facial Sensation & Reflexes (30 Qs)
+     - Headache Disorders & Neurovascular Syndromes (30 Qs)
+     - Traumatic Brain Injury, Hematomas & Critical Care (35 Qs)
+     - CNS Infectious Diseases & Meningitis (30 Qs)
 
 2. **🎯 Focused Zen Mode (320 Questions)**
    - 20 board-style USMLE Step 1 questions per topic area directly mapped from the official *Long NeuroPsych Exam 1 Study Guide*.
@@ -38,6 +37,7 @@ An interactive USMLE Step 1 NeuroPsych practice exam simulator and focused study
 
 - **Self-Contained Single-File App**: All CSS, JavaScript, fonts, and question databases are fully embedded into `index.html`. No dependencies or build steps required.
 - **Instant Interactive Feedback**: Option choices highlight immediately on click with full explanation cards detailing why the correct answer is right and why distractors are wrong.
+- **Robust State Persistence & Grading**: Accurate real-time grading with instantaneous color feedback (green for correct, red for incorrect), local storage persistence across browser refreshes, and independent tracking for all 4 tracks.
 - **Auto-Highlighting**: Highlight any text directly in the question stem with your cursor (no need to click a button). Click any highlight to remove it.
 - **Strikethrough / Elimination**: Double-click or right-click any answer choice to strike it through.
 - **Review & Redo Wrong Questions**: Filter only missed questions or reset all incorrect questions for an instant fresh re-attempt.

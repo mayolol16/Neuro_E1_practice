@@ -1,0 +1,1157 @@
+[
+  {
+    "id": "inhouse_321",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 12-year-old boy is accidentally struck on the right side of his head with an aluminum baseball bat when standing too close to the home plate batter. He is momentarily dazed and falls to his knees, but quickly stands up, reassures his coach that he is fine, and plays the rest of the game. Two hours later at home, he develops a severe escalating headache, projectile vomiting, and progressive drowsiness. In the emergency department, his right pupil is 6 mm, fixed and non-reactive to light, while the left pupil is 3 mm and briskly reactive. He demonstrates left-sided spastic hemiparesis. An emergent non-contrast head CT reveals a hyperdense, biconvex (lenticular) extra-axial mass on the right that does not cross the coronal or lambdoid cranial sutures. Which vascular structure was torn by the impact?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Middle meningeal artery",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Bridging cortical veins",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Basilar artery apex",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Internal carotid cavernous segment",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Great cerebral vein of Galen",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This is the textbook presentation of an epidural hematoma (EDH), directly mirroring Case 1 in '9-TraumaCASEANS.pptx'. Key features:\n- Mechanism: Lateral cranial impact at the pterion (where frontal, parietal, temporal, and sphenoid bones meet).\n- Vessel: Fracture tears the middle meningeal artery (a branch of the maxillary artery traversing the foramen spinosum).\n- Clinical course: The classic 'lucid interval' (transient concussion followed by complete lucidity for hours, then rapid herniation and coma as arterial blood strips periosteal dura from skull bone).\n- Imaging: Lenticular / biconvex shape restricted by cranial suture lines where dura is tightly adherent to bone.\n- Complication: Uncal herniation compressing the ipsilateral CN III (ipsilateral blown pupil) and cerebral peduncle (contralateral hemiparesis)."
+  },
+  {
+    "id": "inhouse_322",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "Why is an epidural hematoma limited by cranial suture lines on head CT imaging, whereas a subdural hematoma can cross suture lines freely?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The outer periosteal layer of the dura mater is firmly affixed to the inner skull table at the cranial sutures, preventing epidural blood from crossing",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Epidural arterial blood coagulates instantaneously at suture margins due to suture-specific thromboplastin",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Subdural hematomas are contained within the subarachnoid trabeculae",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "The falx cerebri is located exclusively in the epidural space",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Arterial pressure is lower than intracranial venous sinus pressure",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. As explicitly detailed on Slide 5 of '9-TraumaContentANS.pptx':\n- Epidural hematomas reside between the inner skull table and the periosteal dura mater. Because the periosteal dura is tightly attached to the skull at the cranial sutures (where skull bones fuse), an epidural collection cannot dissect past suture lines, creating the characteristic biconvex/lenticular lens shape.\n- Subdural hematomas reside in the potential space between the inner meningeal dura and the arachnoid mater. There are no suture attachments in this subdural plane, allowing blood to spread freely across the entire cerebral hemisphere across sutures, conforming to the crescentic curvature of the brain."
+  },
+  {
+    "id": "inhouse_323",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A neurotrauma fellow asks medical students whether a single hematoma can cross the midline from one cerebral hemisphere to the other. Based on anatomical compartments, which statement correctly compares the boundary limits of epidural versus subdural hematomas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "An epidural hematoma can spread across the cranial midline from one side to the other, whereas a subdural hematoma cannot cross the midline because it is blocked by the dural falx cerebri",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "A subdural hematoma can cross the midline beneath the superior sagittal sinus, whereas an epidural hematoma is blocked by the pial septa",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Neither hematoma can ever cross the midline under any anatomical circumstances",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Both hematomas cross the midline indiscriminately because the dura mater terminates at the coronal suture",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Epidural hematomas are stopped by the tentorium cerebelli, whereas subdural hematomas cross both the tentorium and the foramen magnum",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This question tests the precise learning point from Slide 5 of '9-TraumaContentANS.pptx' ('Can a single epidural hematoma spread from one side of the skull to the other? Can a subdural hematoma spread from one side to the other?'):\n- Epidural hematomas lie outside the dura mater (between bone and dura). Thus, an epidural bleed can track across the midline skull vault over the superior sagittal sinus from one parietal bone to the other (if not stopped by a sagittal suture).\n- Subdural hematomas lie beneath the dura mater. The inner meningeal layer of the dura reflects downward at the midline to form the falx cerebri. Therefore, subdural blood on one hemisphere cannot cross to the contralateral hemisphere because it is physically stopped by the rigid barrier of the falx cerebri."
+  },
+  {
+    "id": "inhouse_324",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 78-year-old woman with mild vascular dementia and cerebral atrophy presents with progressive confusion, gait instability, and intermittent headache over the past 3 weeks. Her daughter reports that the patient had a minor, un-witnessed fall from a kitchen chair a month ago with no loss of consciousness. On neurological examination, she has mild left pronator drift and cognitive slowing. Non-contrast head CT reveals a crescent-shaped (concavo-convex), hypodense extra-axial fluid collection overlying the entire right frontoparietal convexity that crosses suture lines and produces 5 mm of midline shift. What is the diagnosis and source of bleeding?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chronic subdural hematoma resulting from tearing of bridging cortical veins",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Acute epidural hematoma from rupture of the anterior ethmoidal artery",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Subarachnoid hemorrhage from rupture of a posterior communicating artery aneurysm",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Intraventricular hemorrhage from choroid plexus arteriovenous malformation",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Dural arteriovenous fistula within the transverse sinus",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This case illustrates a classic Chronic Subdural Hematoma (SDH), matching Case 2 in '9-TraumaCASEANS.pptx':\n- Demographics: Elderly individuals and chronic alcoholics are predisposed because age-related cerebral atrophy increases the distance the bridging veins must travel across the subdural space to reach the superior sagittal sinus, putting them on mechanical tension.\n- Trauma: Minor or forgotten trauma shears these stretched bridging veins.\n- Time course & imaging: Chronic SDHs (> 2-3 weeks) appear HYPODENSE (dark/gray, similar to CSF) on CT as erythrocytes break down and liquefy, forming a crescent-shaped extra-axial mass that crosses suture lines."
+  },
+  {
+    "id": "inhouse_325",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 21-year-old cyclist is struck by a delivery truck while riding without a helmet. Paramedics arrive on scene within 4 minutes. The patient's eyes do not open to speech or noxious nailbed pressure (score 1). He produces only incomprehensible guttural groans when pinched (score 2). His motor response demonstrates decerebrate posturing, characterized by bilateral adduction, internal rotation of the arms, and rigid extension of both elbows and wrists upon painful sternal rub (score 2). What is this patient's total Glasgow Coma Scale (GCS) score, and how is his traumatic brain injury categorized?",
+    "options": [
+      {
+        "id": "A",
+        "text": "GCS 5; Severe traumatic brain injury requiring immediate endotracheal intubation",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "GCS 8; Moderate traumatic brain injury requiring observation in a step-down unit",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "GCS 10; Mild traumatic brain injury suitable for outpatient discharge",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "GCS 3; Brain death confirmed",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "GCS 7; Moderate concussion manageable with oral analgesics",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Calculating the Glasgow Coma Scale (GCS) from Slide 5 of '9-TraumaContentANS.pptx':\n- Eye Opening: No eye opening to pain = 1 (Range 1-4)\n- Verbal Response: Incomprehensible groans = 2 (Range 1-5)\n- Motor Response: Abnormal extension / decerebrate posturing = 2 (Range 1-6)\n- Total GCS = 1 + 2 + 2 = 5.\nTBI Classification based on GCS:\n- Severe TBI: GCS 3 to 8 (Classic aphorism: 'GCS of 8, intubate!')\n- Moderate TBI: GCS 9 to 12\n- Mild TBI: GCS 13 to 15."
+  },
+  {
+    "id": "inhouse_326",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "In the motor component of the Glasgow Coma Scale, decorticate posturing receives a score of 3, while decerebrate posturing receives a score of 2. What neuroanatomical level of transection or lesion distinguishes decorticate (abnormal flexion) from decerebrate (abnormal extension) posturing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decorticate posturing reflects lesions above the red nucleus (cerebral cortex or internal capsule, sparing the red nucleus and rubrospinal tract), whereas decerebrate posturing reflects brainstem lesions at or below the red nucleus (midbrain/upper pons, leaving uninhibited vestibulospinal extensor drive)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Decorticate posturing indicates cervical spinal cord transection, while decerebrate posturing indicates medullary obliteration",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Decorticate posturing involves exclusive loss of cerebellar Purkinje cells, while decerebrate posturing spares the motor cortex",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Both postures originate from identical thalamic lesions, differing only in serum calcium levels",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Decerebrate posturing requires an intact corticospinal tract and damaged dorsal columns",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Neuroanatomical localization of posturing:\n- Decorticate posturing (abnormal flexion: arms flexed to the chest, fists clenched, legs extended): Lesion is rostral to the red nucleus (cortical or subcortical/diencephalic). The red nucleus in the midbrain and the rubrospinal tract remain intact, driving upper extremity flexion, while lower extremities extend via the vestibulospinal tract.\n- Decerebrate posturing (abnormal extension: arms extended and pronated, wrists flexed, legs extended): Lesion is at or below the red nucleus (midbrain to upper pons). The rubrospinal flexor tract is severed, leaving the pontine reticulospinal and lateral vestibulospinal tracts unopposed, driving massive extensor tone throughout all four limbs."
+  },
+  {
+    "id": "inhouse_327",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A high school football quarterback is tackled hard and strikes his helmet on the turf. He experiences transient confusion and cannot recall the plays from the first half (retrograde amnesia), but has no loss of consciousness. At the hospital, a non-contrast head CT is completely normal without hemorrhage or edema. In contrast, another player involved in a high-speed collision has punctate petechial hemorrhages and localized cortical edema visible on CT along the inferior frontal and anterior temporal gyri. According to '9-TraumaContentANS.pptx', what is the fundamental pathological distinction between a cerebral concussion and a cerebral contusion?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Concussions cause transient alterations of brain function without macroscopic or CT-visible structural lesions, whereas contusions represent visible structural brain tissue damage characterized by petechial hemorrhages, cellular necrosis, and edema",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Concussions are caused exclusively by bacterial toxins, whereas contusions require penetrating missile trauma",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Concussions always involve rupture of the middle meningeal artery, whereas contusions spare vascular tissue",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Contusions are purely functional neurochemical disturbances that resolve within 15 minutes",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Concussions require surgical craniotomy, while contusions are managed with outpatient observation",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. As explicitly stated on Slide 3 of '9-TraumaContentANS.pptx' ('How are concussions different from brain contusions?'):\n- Concussions produce transient neurofunctional impairment (dizziness, amnesia, confusion, headache) driven by microscopic metabolic and ionic flux, but produce NO macroscopic structural lesions visible on standard neuroimaging (CT or MRI).\n- Cerebral Contusions are true structural bruises of the brain parenchyma, characterized by mechanical disruption of capillaries, punctate petechial hemorrhages, tissue necrosis, and edema readily visible on CT and MRI."
+  },
+  {
+    "id": "inhouse_328",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "Why are cerebral contusions characteristically localized to the inferior frontal lobes (orbitofrontal cortex) and the anterior/inferior temporal poles, even when the blunt trauma occurs at the occiput or vertex of the head?",
+    "options": [
+      {
+        "id": "A",
+        "text": "During rapid acceleration and deceleration, the moving brain slides violently across the sharp, irregular bony ridges of the anterior and middle cranial fossae (cribriform plate, orbital roof, sphenoid wings, and petrous ridges)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "The inferior frontal and temporal lobes lack a blood-brain barrier, making them uniquely fragile to hydrodynamic pressure",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "The middle cerebral artery branches only supply the occipital lobe during traumatic impact",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Bridging veins exist exclusively in the inferior temporal fossae",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "The tentorium cerebelli attaches directly to the orbital roofs",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. The internal floor of the skull is not smooth: the anterior cranial fossa contains the rough orbital roofs and sharp crista galli/cribriform plate, and the middle cranial fossa contains the jagged lesser and greater sphenoid wings and petrous temporal ridges. In acceleration-deceleration closed head trauma, inertial movement of the brain causes the orbitofrontal surfaces and temporal poles to collide forcibly against these sharp bony prominences, making them the most common sites for cerebral contusions regardless of impact location (coup vs contrecoup)."
+  },
+  {
+    "id": "inhouse_329",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 23-year-old passenger involved in a high-speed rollover motor vehicle crash arrives in deep coma (GCS 4). Initial non-contrast head CT shows only subtle, minute, punctate microhemorrhages at the junction between the subcortical gray and white matter and in the splenium of the corpus callosum, with no large mass lesion or midline shift. Despite normal intracranial pressure, he remains completely unresponsive in a coma for weeks. Magnetic resonance imaging (diffusion-weighted and gradient-echo sequences) demonstrates extensive shear injury with numerous axonal retraction balls throughout the deep white matter tracts and dorsolateral rostral brainstem. What is the pathological diagnosis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diffuse Axonal Injury (DAI)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Acute epidural hematoma",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Cerebellar tonsillar herniation",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Fat embolism syndrome of the lung",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Central pontine myelinolysis",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Diffuse Axonal Injury (DAI), highlighted in Case 4 of '9-TraumaCASEANS.pptx', is a severe form of traumatic brain injury resulting from rapid angular/rotational acceleration and deceleration. High shear strains stretch, twist, and disrupt long white matter axons. Pathological hallmarks include:\n- Impairment of axonal transport leading to local swellings termed 'axonal retraction balls' (immunohistochemically stained with Amyloid Precursor Protein, APP).\n- Typical anatomical locations: Gray-white matter junction, corpus callosum, and dorsolateral midbrain/upper pons.\n- Clinical picture: Immediate, prolonged coma out of proportion to initial subtle CT findings."
+  },
+  {
+    "id": "inhouse_330",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 16-year-old boy arrives at the emergency department after a collision with a tree while riding an all-terrain vehicle. Physical examination reveals bilateral periorbital ecchymoses ('raccoon eyes'), ecchymosis over the right mastoid process ('Battle sign'), and continuous clear, watery discharge draining from his right nostril. When the nasal fluid is dropped onto a sterile gauze pad, the blood separates into a central red dot surrounded by a clear outer ring ('halo sign' or 'target sign'). Which laboratory test performed on the nasal fluid is the most definitive and specific diagnostic confirmation that the fluid contains cerebrospinal fluid (CSF)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Beta-2 transferrin (asialotransferrin) electrophoresis",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Urine dipstick testing for glucose",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Serum troponin I level",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Gram stain and potassium hydroxide prep",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Enzyme-linked immunosorbent assay for myelin basic protein",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. The constellation of raccoon eyes (periorbital ecchymosis), Battle sign (retroauricular/mastoid ecchymosis), and clear rhinorrhea represents a Basilar Skull Fracture (specifically involving the cribriform plate of the ethmoid bone or anterior skull base). The definitive gold standard diagnostic test to prove that clear nasal or ear fluid is CSF (and not allergic tears or nasal mucus) is detection of Beta-2 transferrin (also called tau transferrin or asialotransferrin). Beta-2 transferrin is produced exclusively by brain neuraminidase activity and is found only in CSF, perilymph, and aqueous humor, never in normal serum or nasal secretions. (Note: Glucose testing on dipstick is unreliable due to false positives from lacrimal/nasal secretions)."
+  },
+  {
+    "id": "inhouse_331",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "What is the most severe and frequent infectious complication that threatens patients who sustain a basilar skull fracture with persistent cerebrospinal fluid rhinorrhea?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bacterial meningitis, most commonly caused by Streptococcus pneumoniae",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Rabies encephalitis from airborne rhabdovirus particles",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Prion-mediated Creutzfeldt-Jakob disease",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Progressive multifocal leukoencephalopathy",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Tuberculous spinal arachnoiditis (Pott disease)",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. A basilar skull fracture creates a direct anatomical fistula between the non-sterile mucosal cavities of the upper respiratory tract (nasopharynx, paranasal sinuses, middle ear) and the sterile subarachnoid space. Patients with CSF leaks are at high risk for ascending bacterial meningitis, most frequently caused by Streptococcus pneumoniae (pneumococcus), which colonizes the nasopharynx. Pneumococcal vaccination is indicated in persistent leaks, and surgical repair is performed if the dural tear fails to seal spontaneously."
+  },
+  {
+    "id": "inhouse_332",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 35-year-old unrestrained driver sustains severe traumatic brain injury. In the neuro-intensive care unit, an intracranial pressure (ICP) monitor is placed, recording an ICP of 32 mmHg (normal < 15-20 mmHg). His arterial blood pressure is 110/60 mmHg (Mean Arterial Pressure = 77 mmHg). How is Cerebral Perfusion Pressure (CPP) calculated, what is this patient's CPP, and what is the minimum therapeutic CPP threshold required to avoid secondary ischemic brain injury?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CPP = MAP - ICP; patient CPP is 45 mmHg; the minimum target threshold is 60 to 70 mmHg",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "CPP = MAP + ICP; patient CPP is 109 mmHg; the minimum target threshold is 120 mmHg",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "CPP = Systolic BP / ICP; patient CPP is 3.4; the target threshold is 10.0",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "CPP = Pulse Pressure - ICP; patient CPP is 18 mmHg; the target threshold is 25 mmHg",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "CPP = Diastolic BP + Central Venous Pressure; patient CPP is 68 mmHg; target is 40 mmHg",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Critical neuro-ICU hemodynamic formulas:\n1. Cerebral Perfusion Pressure (CPP) = Mean Arterial Pressure (MAP) - Intracranial Pressure (ICP).\n2. For this patient: CPP = 77 mmHg - 32 mmHg = 45 mmHg.\n3. Clinical target: Normal brain autoregulation requires maintaining CPP between 60 and 70 mmHg. A CPP below 50-60 mmHg results in cerebral hypoperfusion, severe cellular ischemia, and secondary infarction. Management involves decreasing ICP (hyperosmolar therapy, sedation, CSF drainage) and elevating MAP with vasopressors."
+  },
+  {
+    "id": "inhouse_333",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "According to the Monro-Kellie doctrine, which of the following statements correctly articulates the fundamental principle governing intracranial pressure dynamics?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The cranial vault is a rigid, non-compliant container with a fixed internal volume; any volume expansion of brain parenchyma, blood, or CSF must be compensated by an equal volume reduction of another component to prevent rapid escalation of intracranial pressure",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "The skull bone expands up to 20% in adult humans via cranial suture elasticity to accommodate hematomas",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Cerebrospinal fluid pressure is entirely independent of intracranial venous sinus resistance",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Intracranial arterial volume is always precisely five times larger than cerebral venous volume",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Cerebral blood flow remains constant down to an arterial systolic pressure of 0 mmHg",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. The Monro-Kellie hypothesis states that the cranial cavity is a closed, rigid sphere with fixed total volume: V_intracranial = V_brain (80%) + V_blood (10%) + V_CSF (10%). Because bone cannot expand, an expanding mass lesion (such as an epidural or subdural hematoma) is initially compensated by displacing CSF down the spinal canal and compressing venous blood into extracranial veins. Once these compensatory buffering volumes are exhausted, the volume-pressure elastance curve enters an exponential rise, where even a minute volume addition triggers massive spikes in ICP and fatal brain herniation."
+  },
+  {
+    "id": "inhouse_334",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 48-year-old trauma patient with an expanding right temporal epidural hematoma rapidly deteriorates. The neuro-ICU nurse notes that his blood pressure has risen from 125/80 mmHg to 195/95 mmHg, his heart rate has dropped from 78 bpm to 42 bpm, and his breathing pattern has become irregular and shallow with periods of apnea. What is this clinical triad called, and what does it indicate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cushing Triad (hypertension with widened pulse pressure, bradycardia, irregular respirations); it indicates critically elevated intracranial pressure and imminent brainstem herniation",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Beck Triad; it indicates acute pericardial tamponade",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Charcot Neurologic Triad; it indicates multiple sclerosis flare",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Virchow Triad; it indicates deep venous thrombosis",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Whipple Triad; it indicates insulinoma hypoglycemia",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. The Cushing Triad (Cushing reflex / phenomenon) is a late and ominous physiological response to dangerously elevated intracranial pressure (ICP) causing brainstem ischemia:\n1. Severe hypertension with widened pulse pressure: Sympathetic hyperactivation mediated by ischemic medullary vasomotor centers to force blood into the compressed cerebral circulation.\n2. Bradycardia: High systemic pressure stimulates carotid sinus baroreceptors, triggering compensatory vagal parasympathetic slowing of the heart rate.\n3. Respiratory irregularity (Cheyne-Stokes or ataxic breathing): Compression and ischemia of respiratory pacing centers in the pons and medulla.\nIt signals impending fatal transtentorial or tonsillar herniation."
+  },
+  {
+    "id": "inhouse_335",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "An expanding mass lesion in the right temporal lobe forces the uncus of the parahippocampal gyrus medially over the free edge of the tentorium cerebelli (uncal herniation). Which cranial nerve is directly compressed between the herniating uncus and the petroclinoid ligament, and what is the earliest physical exam manifestation of this compression?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oculomotor nerve (CN III); ipsilateral pupillary dilation with sluggish or absent light reflex (blown pupil) due to compression of peripheral parasympathetic fibers",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Abducens nerve (CN VI); inability to adduct the contralateral eye on lateral gaze",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Trochlear nerve (CN IV); vertical diplopia when looking upward and outward",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Optic nerve (CN II); bilateral central bitemporal hemianopsia",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Facial nerve (CN VII); bilateral lower motor neuron facial diplegia",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. As explicitly highlighted on Slide 6 of '9-TraumaContentANS.pptx':\nIn uncal (transtentorial) herniation, the medial temporal lobe (uncus) herniates downward over the rigid edge of the tentorium cerebelli. The ipsilateral Oculomotor nerve (CN III) is compressed directly against the tentorial edge. Because parasympathetic pupilloconstrictor fibers travel in the outer, superficial periphery of the CN III sheath, they are compromised first by external mechanical compression. This produces early ipsilateral pupillary dilation ('blown pupil') that is fixed and non-reactive to light, followed later by somatic motor paralysis of extraocular muscles producing the classic 'down-and-out' eye."
+  },
+  {
+    "id": "inhouse_336",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "In a patient suffering from a large left-sided hemispheric subdural hematoma causing left uncal herniation, the examiner is surprised to discover IPSILATERAL (left-sided) hemiparesis instead of the expected right-sided hemiparesis. What is the anatomical explanation for this paradoxical false-localizing neurological sign?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kernohan notch phenomenon: The expanding left mass shifts the midbrain laterally, crushing the OPPOSITE (right) cerebral peduncle against the contralateral rigid tentorial edge, paralyzing descending corticospinal fibers that supply the left body",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Aberrant anterior corticospinal fibers that cross four times within the spinal gray matter",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Simultaneous infarction of the right posterior inferior cerebellar artery",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Spontaneous avulsion of the left dorsal root entry zone",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Selective necrosis of the contralateral ventral tegmental dopaminergic tracts",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This classic board-tested neuropathological phenomenon is known as the Kernohan notch phenomenon (or Kernohan-Woltman notch syndrome). While an expanding left-sided mass typically compresses the ipsilateral (left) cerebral peduncle (causing right hemiparesis), severe lateral displacement of the entire brainstem can push the midbrain across against the opposite (right) sharp tentorial edge. This indents and notches the RIGHT cerebral peduncle. Because the corticospinal fibers in the right peduncle decussate lower down in the medulla to supply the left side of the body, damage to the right peduncle produces paradoxical left-sided (ipsilateral to the hematoma) hemiparesis, creating a 'false localizing sign'."
+  },
+  {
+    "id": "inhouse_337",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A patient with a massive traumatic left frontal lobar contusion develops subfalcine (cingulate gyrus) herniation. Which major vascular structure is directly compressed beneath the free margin of the falx cerebri, and what focal neurological deficit results from infarction of this arterial territory?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anterior cerebral artery (ACA); contralateral lower extremity weakness and sensory loss",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Middle cerebral artery (MCA); contralateral face and upper extremity weakness",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Posterior cerebral artery (PCA); contralateral homonymous hemianopsia",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Basilar artery; complete locked-in quadriplegia",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Anterior inferior cerebellar artery (AICA); ipsilateral sensorineural deafness",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Subfalcine herniation occurs when an expanding unilateral lesion in the frontal or parietal lobe pushes the cingulate gyrus beneath the rigid, sickle-shaped falx cerebri across the midline. This herniation can directly compress the ipsilateral (or both) Anterior Cerebral Arteries (ACA) against the falx. Ischemia and infarction in the ACA territory selectively damages the medial sensory-motor strip of the paracentral lobule, causing sensory loss and paralysis predominantly affecting the CONTRALATERAL LOWER EXTREMITY (leg and foot)."
+  },
+  {
+    "id": "inhouse_338",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 54-year-old man in the intensive care unit with acute diffuse cerebral edema from severe head trauma experiences downward displacement of the cerebellar tonsils through the foramen magnum (tonsillar herniation). What is the catastrophic consequence of tonsillar herniation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Direct mechanical compression of the medulla oblongata, leading to fatal respiratory arrest and cardiac collapse",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Isolated loss of taste on the posterior one-third of the tongue",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Transient horizontal nystagmus without vital sign instability",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Selective avulsion of the olfactory nerve filaments in the cribriform plate",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Isolated numbness over the tip of the nose with preserved motor power",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Tonsillar herniation (coning) occurs when elevated infratentorial (posterior fossa) or global intracranial pressure forces the rounded cerebellar tonsils downward through the foramen magnum. This wedges the tonsils against the medulla oblongata, crushing the vital medullary cardiac and respiratory centers. The immediate consequence is acute respiratory arrest, profound hypotension, bradycardia, and rapid death. (This is identical to the fatal complication seen when a lumbar puncture is accidentally performed in a patient with a mass lesion or elevated ICP)."
+  },
+  {
+    "id": "inhouse_339",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 60-year-old trauma patient with acute severe brain swelling has an ICP rising above 25 mmHg. The neurointensivist orders hyperosmolar therapy. How does intravenous Mannitol (20% solution) work to rapidly lower intracranial pressure in the emergency management of cerebral edema?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It remains within the intravascular space with an intact blood-brain barrier, creating an osmotic gradient that draws free water from cerebral parenchymal tissue into the circulation, followed by osmotic diuresis",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "It binds directly to neuronal GABA receptors to suppress cerebral oxygen demand",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "It selectively dilates cerebral arterioles to increase cerebral blood volume",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "It covalently destroys aquaporin-4 water channels on astrocytic end-feet",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "It neutralizes lactic acid directly within the choroid plexus epithelium",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Mannitol is an inert six-carbon sugar alcohol that does not cross the intact blood-brain barrier. Administered as an intravenous bolus, it increases intravascular serum osmolarity, establishing an osmotic gradient that pulls interstitial water out of the brain parenchyma and into the cerebral capillary vasculature, thereby shrinking brain volume and lowering ICP within 10 to 15 minutes. It subsequently induces osmotic diuresis in the renal proximal tubules. (Hypertonic 3% or 23.4% saline works via an identical hyperosmotic mechanism)."
+  },
+  {
+    "id": "inhouse_340",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "In the mechanical ventilation of a head-injured patient experiencing an acute intracranial pressure crisis, transient therapeutic hyperventilation is sometimes utilized. What is the physiological mechanism by which lowering arterial partial pressure of carbon dioxide (PaCO2) to 30\u201335 mmHg reduces intracranial pressure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hypocapnia causes cerebral alkalosis, triggering potent cerebral arteriolar vasoconstriction, which decreases cerebral blood volume (CBV)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Hypocapnia directly increases CSF absorption at the arachnoid villi by 400%",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Hyperventilation increases intrathoracic pressure to force venous blood into the skull",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Hypocapnia stimulates the immediate release of endogenous beta-endorphins",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Low CO2 stimulates systemic vasodilatation, causing profound cerebral luxury perfusion",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Carbon dioxide (PaCO2) is a potent regulator of cerebral vascular caliber: hypercapnia causes vasodilation, whereas hypocapnia causes vasoconstriction. Inducing hyperventilation lowers PaCO2, raising perivascular pH (cerebral alkalosis), which triggers acute constriction of cerebral precapillary arterioles. This reduces cerebral blood flow and intracranial cerebral blood volume (CBV), leading to an immediate drop in ICP. However, hyperventilation must be used only briefly (< 24-48 hours) and cautiously (titrated to PaCO2 30-35 mmHg), as severe hypocapnia (< 25 mmHg) can cause profound cerebral vasoconstriction resulting in tissue ischemia and infarction."
+  },
+  {
+    "id": "inhouse_341",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 26-year-old unrestrained driver hits his head against a windshield. Head CT demonstrates secondary midline compression with midline brainstem flame-shaped linear hemorrhages in the dorsal midbrain and upper pons. What are these secondary brainstem hemorrhages called, and what is their pathophysiological origin?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Duret hemorrhages; caused by stretching and shearing of penetrating median and paramedian basilar perforating arteries during downward transtentorial brainstem displacement",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Charcot-Bouchard aneurysms; caused by chronic long-standing arteriolar lipohyalinosis",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Telangiectasias; congenital hamartomatous low-pressure capillary ectasias",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Cavernomas; encapsulated clusters of sinusoidal vessels without intervening neural parenchyma",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Splenial purpura; caused exclusively by severe fat embolism syndrome",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Duret hemorrhages are secondary, linear or flame-shaped hemorrhages within the midline tegmentum of the midbrain and upper pons. They occur late in the course of severe central transtentorial or uncal herniation. As the supratentorial mass pushes the diencephalon and upper brainstem caudal-ward, while the basilar artery remains fixed to the skull base, the penetrating median and paramedian perforating branches of the basilar artery are stretched, torn, and sheared. Duret hemorrhages represent catastrophic, irreversible brainstem destruction."
+  },
+  {
+    "id": "inhouse_342",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 70-year-old woman is brought to the emergency department after being found confused and disoriented at home by her brother. She has a 2-day history of weakness, nausea, and mild shortness of breath. On physical exam, she is lethargic, intermittently drowsy, and unable to recite the months of the year backwards or maintain focused attention. Her brother notes that yesterday morning she seemed relatively alert and recognized him, but by nightfall she was frightened and seeing insects on the walls. Her temperature is 38.3\u00b0C (101.0\u00b0F), urinalysis reveals numerous leukocytes and positive nitrites, and serum sodium is 131 mEq/L. According to Slide 2 of '9-TraumaContentANS.pptx', how is her acute change in mental status classified?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Delirium (acute toxic-metabolic encephalopathy)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Alzheimer disease progression",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Frontotemporal lobar degeneration",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Persistent vegetative state",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Schizophrenia spectrum disorder",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This case directly mirrors Case 2 on Slide 2 of '9-TraumaContentANS.pptx' ('Define Delirium/Encephalopathy'):\nDelirium (acute encephalopathy) is defined as an acute, fluctuating change in mental status secondary to an underlying medical condition (here, a urinary tract infection / urosepsis). Cardinal diagnostic features:\n1. Change in consciousness/attention: Reduced awareness of environment, inability to focus, sustain, or shift attention, distractibility.\n2. Change in cognition: Disorientation, memory impairment, perceptual disturbances (visual hallucinations).\n3. Fluctuating course over hours to days (typically worsening at night, 'sundowning').\nUnlike dementia, delirium develops acutely and is potentially fully reversible once the underlying trigger is treated."
+  },
+  {
+    "id": "inhouse_343",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 30-year-old male construction worker falls 15 feet from scaffolding. On scene, he is combative and confused, with a GCS of 13. Over the next 45 minutes in the trauma bay, he rapidly declines: GCS drops to 6, his right pupil becomes 7 mm and unreactive, and he develops decerebrate extension on the left side. What is the definitive emergency surgical intervention required to save this patient's life?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Emergent decompressive craniotomy or burr-hole evacuation of the epidural hematoma",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Diagnostic lumbar puncture with manometric opening pressure determination",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Intravenous tissue plasminogen activator (tPA) infusion",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Oral administration of topiramate and propranolol",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "High-dose heparin anticoagulation to prevent deep venous thrombosis",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This patient has an expanding acute epidural hematoma causing uncal herniation (ipsilateral blown pupil, contralateral decerebration). This is an absolute surgical emergency. The definitive management is emergent surgical decompression via burr-hole exploration or open craniotomy with hematoma evacuation and coagulative ligation of the bleeding middle meningeal artery. Lumbar puncture is contraindicated because removing spinal CSF would precipitate fatal tentorial and tonsillar brain herniation."
+  },
+  {
+    "id": "inhouse_344",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "In neuropathology, cerebral edema is categorized into cytotoxic edema and vasogenic edema. Which of the following pathophysiological mechanisms correctly characterizes vasogenic cerebral edema?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Disruption of endothelial tight junctions forming the blood-brain barrier, allowing plasma proteins and intravascular fluid to extravasate into the extracellular interstitial space (predominantly in the cerebral white matter)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Failure of ATP-dependent Na+/K+ pumps in neuronal cell membranes causing intracellular water accumulation and cellular swelling",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Excessive filtration of hypotonic CSF from the fourth ventricle into the central canal",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Autoimmune demyelination of peripheral Schwann cells causing interstitial fibrosis",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Congenital absence of cerebral capillary pericytes resulting in spontaneous aneurysm formation",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Mechanisms of cerebral edema:\n1. Vasogenic Edema: Breakdown of the blood-brain barrier (tight junctions between capillary endothelial cells). Plasma proteins and fluid leak into the extracellular interstitium. It characteristically affects white matter and is seen surrounding brain tumors, contusions, abscesses, and hematomas. Responds well to glucocorticoids (dexamethasone).\n2. Cytotoxic Edema: The blood-brain barrier is intact, but cellular metabolic failure (ischemia/infarction with loss of ATP for Na+/K+ ATPase pumps) causes Na+ and water to enter the intracellular compartment, swelling neurons, glia, and endothelia."
+  },
+  {
+    "id": "inhouse_345",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 19-year-old college hockey player sustains a concussive blow to the jaw during a game. He is evaluated on the sideline and reports a headache, mild photophobia, and feels 'foggy.' The coach asks if the player can return to the ice for the final 5 minutes of the championship game because 'he didn't even get knocked out.' Which of the following statements regarding concussion management and Second Impact Syndrome is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Athletes diagnosed with a concussion must NEVER return to play on the same day; sustaining a second impact before cellular metabolic recovery can cause catastrophic, dysregulated cerebral autoregulation, massive brain swelling, and death (Second Impact Syndrome)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Athletes may return to play immediately as long as they can recall their jersey number",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Concussions only require removal from play if a skull fracture is visualized on lateral radiographs",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Administration of an oral triptan permits same-day athletic clearance",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Second impact syndrome only occurs in octogenarians with severe cerebral amyloid angiopathy",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Universal sports concussion protocols dictate: 'When in doubt, sit them out!' Any athlete suspected of a concussion must be removed immediately and CANNOT return to play on the same day. Following concussion, the brain is in a state of vulnerable neurochemical mismatch (high glucose demand, decreased cerebral blood flow). If the athlete sustains a second head impact while still symptomatic, loss of cerebral vascular autoregulation can trigger rapid, uncontrollable, malignant cerebral edema and fatal herniation (Second Impact Syndrome)."
+  },
+  {
+    "id": "inhouse_346",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 22-year-old woman is admitted following a motor vehicle collision with front-of-head windshield impact. Initial GCS was 8. She spent 6 days in a coma. During rehabilitation, her therapist notes severe impairments in executive functioning, including poor impulse control, disinhibition, apathy, and difficulty planning multi-step tasks, while her sensory and motor strength are completely normal. Which region of the cerebral cortex was most severely injured by this frontal deceleration trauma?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prefrontal cortex (orbitofrontal and dorsolateral prefrontal circuits)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Primary somatosensory cortex (postcentral gyrus)",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Primary visual cortex (calcarine sulcus)",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Primary auditory cortex (transverse temporal gyri of Heschl)",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Superior parietal lobule precuneus",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. This case mirrors Case 4 in '9-TraumaCASEANS.pptx' (a 22-year-old woman with windshield head impact, coma for 6 days, undergoing rehab for cognitive/executive dysfunction). The prefrontal cortex (composed of the dorsolateral prefrontal cortex, orbitofrontal cortex, and anterior cingulate gyrus) mediates 'executive functions': abstract reasoning, working memory, impulse regulation, social inhibition, and cognitive flexibility. Frontal pole contusions and diffuse shear injuries characteristically disrupt these frontostriatal circuits, producing the classic frontal lobe dysexecutive syndrome."
+  },
+  {
+    "id": "inhouse_347",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 32-year-old trauma victim with severe traumatic brain injury develops an acute subdural hematoma with significant mass effect. Which of the following non-invasive clinical findings on physical examination would be the most reliable indicator of severe, life-threatening transtentorial herniation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A unilaterally dilated, fixed pupil that fails to constrict to direct or consensual light stimulation",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Isolated loss of the Achilles tendon reflex bilaterally",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "A normal 2+ patellar reflex with down-going toes",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Transient hyperactive bowel sounds on abdominal auscultation",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Bilateral intact corneal reflexes",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. A unilaterally dilated, unreactive pupil ('blown pupil') in a patient with severe acute traumatic brain injury is the cardinal physical exam hallmark of uncal / transtentorial herniation. The uncus compresses the ipsilateral oculomotor nerve (CN III), paralyzing its parasympathetic pupillomotor fibers. This is a neurosurgical red alert requiring immediate intervention to halt progression to complete brainstem compression."
+  },
+  {
+    "id": "inhouse_348",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 68-year-old male with chronic alcohol use disorder presents with fluctuating disorientation, unsteadiness, and memory deficits. Head CT demonstrates a bilateral, crescent-shaped, hypodense extra-axial fluid collection compressing both cerebral hemispheres. Which of the following pathophysiological mechanisms explains why chronic subdural hematomas can slowly enlarge over weeks to months without additional head trauma?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The hematoma is encapsulated by a vascularized neo-membrane containing fragile, permeable neocapillaries that undergo repeated micro-hemorrhages, while high-protein breakdown products exert local oncotic pressure drawing in fluid",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "The patient possesses a congenital arteriovenous malformation that continuously dumps arterial blood into the subarachnoid space",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "The choroid plexus secretes CSF directly into the subdural space via ruptured arachnoid granulations",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "The middle meningeal artery undergoes chronic aneurysmal dilation that expands during Valsalva maneuvers",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Activated T cells secrete osteoclasts that erode the inner skull table into the hematoma cavity",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. The enlargement of chronic subdural hematomas is driven by inflammatory angiogenesis. Within weeks of an initial small subdural bleed, fibroblasts and inflammatory cells form a fibrous 'neo-membrane' surrounding the hematoma. This membrane develops friable, abnormally permeable neo-capillaries that continually leak plasma proteins and undergo recurrent, spontaneous micro-hemorrhages. Enzymatic fibrinolysis and the oncotic load of erythrocyte breakdown products draw water into the encapsulated cavity, causing it to insidiously expand and produce delayed mass effect."
+  },
+  {
+    "id": "inhouse_349",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 17-year-old cross-country runner tripped over a curb, struck her occiput on the asphalt, and experienced a 30-second loss of consciousness. A non-contrast head CT is negative for hemorrhage or fracture. She is diagnosed with a concussion. Two weeks later, she returns reporting persistent daily headaches, fatigue, dizziness, irritability, difficulty concentrating on schoolwork, and sleep disturbances. What is this clinical entity, and what is the primary initial therapeutic approach?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Post-concussion syndrome; managed with initial 24 to 48 hours of relative cognitive and physical rest followed by gradual, symptom-limited return to academic and physical activities",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Chronic traumatic encephalopathy; managed with emergent surgical craniectomy",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Subacute bacterial endocarditis; managed with 6 weeks of intravenous penicillin",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Normal pressure hydrocephalus; managed with urgent ventriculoperitoneal shunting",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Acute disseminated encephalomyelitis; managed with plasma exchange therapy",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Post-concussion syndrome (PCS) is characterized by persistent somatic (headache, dizziness, fatigue), cognitive (impaired memory, concentration), and emotional (irritability, anxiety, insomnia) symptoms lasting weeks to months following a concussion. Current consensus guidelines recommend a brief period (24\u201348 hours) of relative cognitive and physical rest, followed by gradual, individualized, step-wise resumption of daily and school activities that do not significantly exacerbate symptoms. Strict prolonged 'dark room' isolation is no longer recommended and may prolong recovery."
+  },
+  {
+    "id": "inhouse_350",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 50-year-old male is admitted following severe polytrauma with traumatic brain injury. On day 3 of hospitalization, his serum sodium drops precipitously from 140 mEq/L to 122 mEq/L. Urine osmolarity is 550 mOsm/kg (elevated), urine sodium is 65 mEq/L (elevated), and the patient is clinically euvolemic with normal skin turgor and blood pressure. What is the most likely diagnosis for his hyponatremia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Syndrome of Inappropriate Antidiuretic Hormone (SIADH)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Central diabetes insipidus",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Primary hyporeninemic hypoaldosteronism",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Severe dehydration secondary to mannitol diuresis",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Primary polydipsia",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. SIADH is a frequent neuroendocrine complication of traumatic brain injury, CNS infections, and subarachnoid hemorrhage. Unregulated release of ADH (vasopressin) causes free water retention in the renal collecting tubules, producing euvolemic hypotonic hyponatremia, inappropriately concentrated urine (urine osmolarity > 100-300 mOsm/kg), and high urine sodium excretion (> 40 mEq/L). In neurosurgical patients, SIADH must be distinguished from Cerebral Salt Wasting (CSW), where hyponatremia is accompanied by true hypovolemia and dehydration."
+  },
+  {
+    "id": "inhouse_351",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "In a comatose head-injured patient, the physician tests the oculocephalic reflex ('doll's eyes' maneuver) after confirming the cervical spine is cleared of fracture. When the patient's head is rotated rapidly to the right, both eyes smoothly deviate toward the left. When the head is rotated to the left, both eyes deviate toward the right. What does this intact reflex demonstrate regarding the patient's nervous system?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Integrity of the brainstem reflex pathways involving the vestibular nuclei, abducens (CN VI) nuclei, oculomotor (CN III) nuclei, and medial longitudinal fasciculus (MLF) in the pons and midbrain",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Complete transection of the midbrain tegmentum and irreversible brain death",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Bilateral infarction of the posterior cerebral arteries",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Loss of cortical inhibition indicating acute subdural hematoma",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Complete absence of sensory input from the semicircular canals",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. The oculocephalic reflex (vestibulo-ocular reflex, VOR) assesses brainstem integrity in unconscious patients. Rotating the head activates semicircular canal afferents (CN VIII), synapsing in vestibular nuclei, which cross to the contralateral CN VI nucleus and project via the medial longitudinal fasciculus (MLF) to the ipsilateral CN III nucleus. In a comatose patient with an intact brainstem, the eyes conjugate and move in the direction opposite to head rotation (positive 'doll's eyes'). If the brainstem is severely injured or non-functional (e.g., brain death), the eyes remain fixed in midline like painted eyes on a doll (negative doll's eyes)."
+  },
+  {
+    "id": "inhouse_352",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 40-year-old trauma victim in the intensive care unit is being assessed for brain death following a non-survivable closed head injury. Which of the following is an absolute prerequisite before formal clinical brain death testing can be conducted?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Establishment of an irreversible cause of coma, achievement of normal core body temperature (>= 36\u00b0C / 96.8\u00b0F), normal systolic blood pressure (>= 100 mmHg), and exclusion of CNS-depressant drugs or neuromuscular blocking agents",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Execution of at least three surgical craniotomies",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Administration of high-dose intravenous pentobarbital to induce burst suppression",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Presence of a hyperactive jaw jerk reflex",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Elevation of serum potassium above 7.0 mEq/L",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Establishing brain death requires rigorous pre-conditions: an established, irreversible etiology; absence of severe metabolic/endocrine derangements; core normothermia (>= 36\u00b0C); hemodynamic stability (systolic BP >= 100 mmHg); and complete absence of confounding CNS depressants (sedatives, opioids, barbiturates) or neuromuscular blocking agents. Clinical examination must then demonstrate coma, absence of all brainstem reflexes (pupillary, corneal, oculocephalic, oculovestibular, gag, cough), and a positive apnea test (no respiratory drive despite PaCO2 >= 60 mmHg and >= 20 mmHg above baseline)."
+  },
+  {
+    "id": "inhouse_353",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 25-year-old motorcyclist sustains a traumatic anterior skull base fracture. On post-trauma day 5, while recovering in the hospital, he complains of an inability to smell his meals (anosmia) and reports that everything he eats 'tastes bland and like cardboard.' Physical examination reveals normal facial sensation and normal motor strength. Which neural structures were severed by the skull fracture to cause his anosmia and impaired flavor perception?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Olfactory nerve (CN I) fila traversing the perforations of the cribriform plate of the ethmoid bone",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Chorda tympani nerve fibers within the middle ear cavity",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Glossopharyngeal nerve branches traversing the jugular foramen",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Trigeminal lingual nerve branches in the pterygomandibular space",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Greater superficial petrosal nerve at the petrous temporal apex",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Delicate olfactory nerve (CN I) filaments (fila olfactoria) arise from olfactory receptor neurons in the nasal mucosa and ascend through the fragile, cribriform plate of the ethmoid bone to synapse in the olfactory bulbs. Closed head trauma (especially frontal impact or basilar skull fractures) shears these delicate unmyelinated axons as the brain shifts over the cribriform plate. This results in permanent or prolonged anosmia. Because retronasal olfaction provides > 80% of perceived food flavor, patients characteristically perceive that their sense of taste is lost."
+  },
+  {
+    "id": "inhouse_354",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 45-year-old pedestrian struck by a vehicle sustains high-energy traumatic brain injury. In the trauma bay, the trauma surgeon notes that the patient's neck is cleared, but orders continuous pulse oximetry and capnography, maintaining PaO2 > 80 mmHg and avoiding episodes of hypotension (Systolic BP < 90 mmHg). Why is preventing systemic hypotension and hypoxemia the most critical initial goal in early TBI management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Even a single episode of hypotension (SBP < 90 mmHg) or hypoxemia (PaO2 < 60 mmHg) doubles mortality and significantly worsens neurological outcomes by precipitating secondary ischemic neuronal death",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Hypotension accelerates the enzymatic clearance of intravenous antibiotics",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Hypoxemia directly triggers premature closure of the cranial sutures",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "High blood pressure is necessary to induce spontaneous sealing of dural sinus tears",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Hypotension prevents the formation of vasogenic cerebral edema",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. In traumatic brain injury, the primary brain damage occurs at the moment of mechanical impact (shearing, contusion, laceration). Secondary brain injury develops over subsequent minutes to days through ischemia, excitotoxicity, edema, and intracranial hypertension. Extensive trauma registry data (such as the Brain Trauma Foundation guidelines) establish that even a single transient episode of hypotension (systolic BP < 90 mmHg) or hypoxemia (PaO2 < 60 mmHg) doubles patient mortality by drastically reducing cerebral perfusion pressure in an already compromised, poorly autoregulated brain."
+  },
+  {
+    "id": "inhouse_355",
+    "category": "Traumatic Brain Injury, Hematomas & Critical Care",
+    "question": "A 38-year-old construction worker survives severe traumatic brain injury after emergency evacuation of a subdural hematoma. To allow for brain swelling without catastrophic intracranial pressure spikes, the neurosurgeon leaves the bone flap off, storing it in a subcutaneous abdominal pocket or bone freezer. What is this surgical procedure called, and what is the delayed syndrome characterized by sinking skin flap, headaches, and neurological deficits that can occur months later prior to bone flap replacement?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decompressive hemicraniectomy; Syndrome of the Trephined ('Sinking Skin Flap Syndrome')",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Stereotactic pallidotomy; On-Off motor oscillation syndrome",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Endoscopic third ventriculostomy; Balint syndrome",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Transsphenoidal hypophysectomy; Sheehan syndrome",
+        "is_correct": false
+      },
+      {
+        "id": "E",
+        "text": "Anterior temporal lobectomy; Kluver-Bucy syndrome",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Correct Answer: A. Decompressive hemicraniectomy involves removing a large section of the skull bone (and opening the dura with a patch) to accommodate severe swelling and prevent fatal herniation. Months later, atmospheric pressure acting directly on the unprotected brain parenchyma without the rigid skull vault can cause the skin flap to sink deeply inwards, distorting cerebral blood flow and CSF dynamics. This is called 'Syndrome of the Trephined' (or Sinking Skin Flap Syndrome), which manifests with cognitive decline, headaches, and motor deficits, and is cured by cranioplasty (replacing the bone flap)."
+  }
+]
