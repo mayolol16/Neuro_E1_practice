@@ -1,0 +1,13 @@
+# Dependencies & Logs
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+.DS_Store
+
+# Temporary scratch inspection dumps
+*.txt
+dump_*.py
+append_*.py
+test_*.py
+check_*.py
