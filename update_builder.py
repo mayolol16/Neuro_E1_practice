@@ -1339,7 +1339,10 @@ html_template = """<!DOCTYPE html>
 
   <!-- Lightbox Modal -->
   <div class="modal-backdrop" id="imageModal" onclick="closeLightbox(event)">
-    <img id="lightboxImg" class="lightbox-img" src="" alt="Enlarged Medical Exhibit" />
+    <div style="position: relative; max-width: 90vw; max-height: 85vh; display: flex; align-items: center; justify-content: center;">
+      <button class="btn btn-icon" onclick="closeLightboxDirect()" style="position: absolute; top: 12px; right: 12px; background: rgba(0,0,0,0.85); color: #fff; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; z-index: 10; font-size: 20px; border: 1px solid rgba(255,255,255,0.4);">&times;</button>
+      <img id="lightboxImg" class="lightbox-img" src="" alt="Enlarged Medical Exhibit" />
+    </div>
   </div>
 
   <!-- Question Grid Navigator Modal -->
@@ -1591,6 +1594,7 @@ html_template = """<!DOCTYPE html>
       questions = rawData.map((q, idx) => ({
         ...q,
         stem: q.stem || q.question,
+        image: q.image || q.image_base64 || null,
         index: idx
       }));
 
@@ -1928,8 +1932,9 @@ html_template = """<!DOCTYPE html>
       // Image / Figure
       const imgContainer = document.getElementById('questionImageContainer');
       const imgElem = document.getElementById('questionImageElem');
-      if (q.image_base64) {
-        imgElem.src = q.image_base64;
+      const imgSrc = q.image || q.image_base64;
+      if (imgSrc) {
+        imgElem.src = imgSrc;
         imgContainer.style.display = 'block';
       } else {
         imgContainer.style.display = 'none';
