@@ -14,7 +14,11 @@ with open('/Users/markyoussef_1/.gemini/antigravity-ide/scratch/usmle_exam1/zen_
 with open('/Users/markyoussef_1/.gemini/antigravity-ide/scratch/usmle_exam1/inhouse_questions_data.json', 'r', encoding='utf-8') as f:
     inhouse_questions = json.load(f)
 
-with open('/Users/markyoussef_1/.gemini/antigravity-ide/scratch/usmle_exam2/exam2_questions_data.json', 'r', encoding='utf-8') as f:
+exam2_path = '/Users/markyoussef_1/.gemini/antigravity-ide/scratch/usmle_exam1/exam2_questions_data.json'
+if not os.path.exists(exam2_path):
+    exam2_path = '/Users/markyoussef_1/.gemini/antigravity-ide/scratch/usmle_exam2/exam2_questions_data.json'
+
+with open(exam2_path, 'r', encoding='utf-8') as f:
     raw_exam2 = json.load(f)
 
 exam2_questions = []
