@@ -184,6 +184,60 @@ html_template = """<!DOCTYPE html>
       line-height: 1.5;
     }
 
+        /* Level 1: Exam Selector Tabs */
+    .exam-selector-tabs {
+      display: inline-flex;
+      background: rgba(15, 23, 42, 0.7);
+      border: 1.5px solid rgba(255, 255, 255, 0.12);
+      border-radius: 999px;
+      padding: 3px;
+      gap: 3px;
+      box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.4);
+    }
+
+    .exam-tab-btn {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-family: inherit;
+      font-size: 0.82rem;
+      font-weight: 700;
+      padding: 5px 14px;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      white-space: nowrap;
+    }
+
+    .exam-tab-btn:hover {
+      color: var(--text-main);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .exam-tab-btn.active-exam1 {
+      background: linear-gradient(135deg, #0284c7, #38bdf8);
+      color: #041324;
+      font-weight: 800;
+      box-shadow: 0 2px 10px rgba(56, 189, 248, 0.45);
+    }
+
+    .exam-tab-btn.active-exam2 {
+      background: linear-gradient(135deg, #8b5cf6, #3b82f6);
+      color: #ffffff;
+      font-weight: 800;
+      box-shadow: 0 2px 10px rgba(139, 92, 246, 0.45);
+    }
+
+    .switcher-separator {
+      width: 1px;
+      height: 22px;
+      background: var(--border-color);
+      margin: 0 2px;
+    }
+
     /* Track switcher tabs */
     .track-switcher {
       display: inline-flex;
@@ -1196,32 +1250,22 @@ html_template = """<!DOCTYPE html>
         <span>USMLE Step 1</span>
       </div>
 
-      <!-- 5-Track Mode Switcher -->
-      <div class="track-switcher">
-        <button id="trackExamBtn" class="track-btn" onclick="switchTrack('exam')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-          <span>Exam 1 (125 Qs)</span>
+      <!-- 2-Level Exam & Bank Selector -->
+      <div class="exam-selector-tabs">
+        <button id="exam1TabBtn" class="exam-tab-btn active-exam1" onclick="selectExam('exam1')">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          <span>Exam 1</span>
         </button>
-        <button id="trackExam2Btn" class="track-btn" onclick="switchTrack('exam2')">
+        <button id="exam2TabBtn" class="exam-tab-btn" onclick="selectExam('exam2')">
           <span>🧠</span>
-          <span>Exam 2 (103 Qs)</span>
-          <span class="zen-pill-badge">9 Sections</span>
+          <span>Exam 2</span>
         </button>
-        <button id="trackInHouseBtn" class="track-btn inhouse-active" onclick="switchTrack('inhouse')">
-          <span>🏠</span>
-          <span>In House (385 Qs)</span>
-          <span class="zen-pill-badge">12 Topics</span>
-        </button>
-        <button id="trackFocusedZenBtn" class="track-btn" onclick="switchTrack('focused_zen')">
-          <span>🎯</span>
-          <span>Focused Zen (320 Qs)</span>
-          <span class="zen-pill-badge">Study Guide</span>
-        </button>
-        <button id="trackZenBtn" class="track-btn" onclick="switchTrack('zen')">
-          <span>🧘</span>
-          <span>General Zen (320 Qs)</span>
-          <span class="zen-pill-badge">20 / Topic</span>
-        </button>
+      </div>
+
+      <div class="switcher-separator"></div>
+
+      <div class="track-switcher" id="bankSwitcherContainer">
+        <!-- Dynamically rendered based on active Exam -->
       </div>
 
       <div class="timer-box focused-zen" id="timerDisplay">
@@ -1562,19 +1606,154 @@ html_template = """<!DOCTYPE html>
       return copy;
     }
 
-    // Switch between Exam 1, Focused Zen Mode, and General Zen Mode
+    // =========================================================================
+    // 2-LEVEL EXAM & BANK NAVIGATION
+    // Level 1: Exam 1 vs Exam 2
+    // Level 2: Specific Banks for that Exam
+    // =========================================================================
+    let currentExam = 'exam1'; // 'exam1' or 'exam2'
+
+    const EXAM_BANKS = {
+      exam1: [
+        {
+          id: 'exam',
+          label: 'Simulation (125 Qs)',
+          icon: '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>',
+          badge: 'Official',
+          type: 'sim'
+        },
+        {
+          id: 'inhouse',
+          label: 'In House (385 Qs)',
+          icon: '🏠',
+          badge: '12 Modules',
+          type: 'inhouse'
+        },
+        {
+          id: 'focused_zen',
+          label: 'Focused Zen (320 Qs)',
+          icon: '🎯',
+          badge: 'Study Guide',
+          type: 'focused_zen'
+        },
+        {
+          id: 'zen',
+          label: 'General Zen (320 Qs)',
+          icon: '🧘',
+          badge: '20 / Topic',
+          type: 'zen'
+        }
+      ],
+      exam2: [
+        {
+          id: 'exam2_sim',
+          label: 'Simulation (103 Qs)',
+          icon: '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>',
+          badge: 'Official PDF',
+          type: 'sim'
+        },
+        {
+          id: 'exam2_zen',
+          label: 'Section Mastery (9 Topics)',
+          icon: '🎯',
+          badge: '9 Sections',
+          type: 'exam2'
+        }
+      ]
+    };
+
+    function isExam2Track(track) {
+      return track === 'exam2' || track === 'exam2_sim' || track === 'exam2_zen';
+    }
+
+    function selectExam(examId) {
+      currentExam = examId;
+      localStorage.setItem('usmle_active_exam', currentExam);
+
+      const e1Tab = document.getElementById('exam1TabBtn');
+      const e2Tab = document.getElementById('exam2TabBtn');
+      if (e1Tab && e2Tab) {
+        if (currentExam === 'exam1') {
+          e1Tab.className = 'exam-tab-btn active-exam1';
+          e2Tab.className = 'exam-tab-btn';
+        } else {
+          e1Tab.className = 'exam-tab-btn';
+          e2Tab.className = 'exam-tab-btn active-exam2';
+        }
+      }
+
+      renderBankSwitcher();
+
+      // Pick active bank for this exam
+      if (currentExam === 'exam2') {
+        const savedBank = localStorage.getItem('usmle_exam2_active_bank') || 'exam2_zen';
+        switchTrack(savedBank);
+      } else {
+        const savedBank = localStorage.getItem('usmle_exam1_active_bank') || 'inhouse';
+        switchTrack(savedBank);
+      }
+    }
+
+    function renderBankSwitcher() {
+      const container = document.getElementById('bankSwitcherContainer');
+      if (!container) return;
+      container.innerHTML = '';
+
+      const banks = EXAM_BANKS[currentExam] || EXAM_BANKS.exam1;
+      banks.forEach(b => {
+        const btn = document.createElement('button');
+        btn.id = 'trackBtn_' + b.id;
+        const isActive = (currentTrack === b.id || (b.id === 'exam2_zen' && currentTrack === 'exam2'));
+        let activeClass = '';
+        if (isActive) {
+          if (b.type === 'sim') activeClass = ' active';
+          else if (b.type === 'inhouse') activeClass = ' inhouse-active';
+          else if (b.type === 'focused_zen') activeClass = ' focused-zen-active';
+          else if (b.type === 'zen') activeClass = ' zen-active';
+          else if (b.type === 'exam2') activeClass = ' exam2-active';
+        }
+        btn.className = 'track-btn' + activeClass;
+        btn.onclick = () => switchTrack(b.id);
+        btn.innerHTML = `
+          <span>${b.icon}</span>
+          <span>${b.label}</span>
+          ${b.badge ? `<span class="zen-pill-badge">${b.badge}</span>` : ''}
+        `;
+        container.appendChild(btn);
+      });
+    }
+
     function switchTrack(newTrack) {
-      if (currentTrack === newTrack) return;
       saveState();
+
+      if (isExam2Track(newTrack)) {
+        currentExam = 'exam2';
+        localStorage.setItem('usmle_exam2_active_bank', newTrack);
+      } else {
+        currentExam = 'exam1';
+        localStorage.setItem('usmle_exam1_active_bank', newTrack);
+      }
+      localStorage.setItem('usmle_active_exam', currentExam);
 
       currentTrack = newTrack;
       localStorage.setItem('usmle_active_track', currentTrack);
 
-      const inHouseBtn = document.getElementById('trackInHouseBtn');
-      const examBtn = document.getElementById('trackExamBtn');
-      const exam2Btn = document.getElementById('trackExam2Btn');
-      const focusedZenBtn = document.getElementById('trackFocusedZenBtn');
-      const zenBtn = document.getElementById('trackZenBtn');
+      // Highlight level 1 tabs
+      const e1Tab = document.getElementById('exam1TabBtn');
+      const e2Tab = document.getElementById('exam2TabBtn');
+      if (e1Tab && e2Tab) {
+        if (currentExam === 'exam1') {
+          e1Tab.className = 'exam-tab-btn active-exam1';
+          e2Tab.className = 'exam-tab-btn';
+        } else {
+          e1Tab.className = 'exam-tab-btn';
+          e2Tab.className = 'exam-tab-btn active-exam2';
+        }
+      }
+
+      // Re-render level 2 bank pills with new active state
+      renderBankSwitcher();
+
       const zenTray = document.getElementById('zenSectionTray');
       const trayIcon = document.getElementById('zenTrayIcon');
       const trayLabelText = document.getElementById('zenTrayLabelText');
@@ -1582,25 +1761,25 @@ html_template = """<!DOCTYPE html>
       const sidebarTitle = document.getElementById('sidebarTitle');
       const timerDisplay = document.getElementById('timerDisplay');
 
-      if (inHouseBtn) inHouseBtn.className = 'track-btn';
-      if (exam2Btn) exam2Btn.className = 'track-btn';
-      examBtn.className = 'track-btn';
-      focusedZenBtn.className = 'track-btn';
-      zenBtn.className = 'track-btn';
       timerDisplay.classList.remove('zen', 'focused-zen', 'inhouse', 'exam2');
 
-      if (currentTrack === 'exam2') {
-        if (exam2Btn) exam2Btn.className = 'track-btn exam2-active';
+      if (currentTrack === 'exam2_sim') {
+        zenTray.style.display = 'none';
+        trackTag.style.display = 'inline-block';
+        trackTag.className = 'q-track-tag exam2';
+        trackTag.textContent = '🧠 Exam 2 Sim';
+        timerDisplay.classList.add('exam2');
+        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg> Exam 2 Sections (9)`;
+      } else if (currentTrack === 'exam2_zen' || currentTrack === 'exam2') {
         zenTray.style.display = 'flex';
         trayIcon.textContent = '🧠';
         trayLabelText.textContent = 'Exam 2 Sections:';
         trackTag.style.display = 'inline-block';
         trackTag.className = 'q-track-tag exam2';
-        trackTag.textContent = '🧠 Exam 2';
+        trackTag.textContent = '🧠 Exam 2 Mastery';
         timerDisplay.classList.add('exam2');
         sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v8"/><path d="M8 12h8"/></svg> Exam 2 Sections (9)`;
       } else if (currentTrack === 'inhouse') {
-        if (inHouseBtn) inHouseBtn.className = 'track-btn inhouse-active';
         zenTray.style.display = 'flex';
         trayIcon.textContent = '🏠';
         trayLabelText.textContent = 'In-House Modules:';
@@ -1610,7 +1789,6 @@ html_template = """<!DOCTYPE html>
         timerDisplay.classList.add('inhouse');
         sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> In-House Course Modules (12)`;
       } else if (currentTrack === 'focused_zen') {
-        focusedZenBtn.className = 'track-btn focused-zen-active';
         zenTray.style.display = 'flex';
         trayIcon.textContent = '🎯';
         trayLabelText.textContent = 'Study Guide Topics:';
@@ -1620,7 +1798,6 @@ html_template = """<!DOCTYPE html>
         timerDisplay.classList.add('focused-zen');
         sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v8"/><path d="M8 12h8"/></svg> Study Guide Topics (20/each)`;
       } else if (currentTrack === 'zen') {
-        zenBtn.className = 'track-btn zen-active';
         zenTray.style.display = 'flex';
         trayIcon.textContent = '🧘';
         trayLabelText.textContent = 'General Topics:';
@@ -1630,7 +1807,7 @@ html_template = """<!DOCTYPE html>
         timerDisplay.classList.add('zen');
         sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/></svg> Zen Topics (20/each)`;
       } else {
-        examBtn.className = 'track-btn active';
+        // Exam 1 Simulation
         zenTray.style.display = 'none';
         trackTag.style.display = 'none';
         sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg> Subject Areas`;
@@ -1641,7 +1818,7 @@ html_template = """<!DOCTYPE html>
       filterIncorrectOnly = false;
 
       loadTrackState();
-      if (currentTrack === 'exam2' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
+      if (currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
         renderZenTray();
       }
       applyFilter();
@@ -1649,15 +1826,17 @@ html_template = """<!DOCTYPE html>
       updateOverallStats();
       renderCurrentQuestion();
 
-      const toastMsg = currentTrack === 'exam2'
-        ? 'Switched to 🧠 Exam 2 (103 Qs from Ex2-USMLEPracANS)'
+      const toastMsg = currentTrack === 'exam2_sim'
+        ? 'Exam 2: Loaded 📝 Simulation Bank (103 Qs)'
+        : (currentTrack === 'exam2_zen' || currentTrack === 'exam2')
+        ? 'Exam 2: Loaded 🎯 Section Mastery (9 Topics)'
         : currentTrack === 'inhouse'
-        ? 'Switched to 🏠 In-House Course Track (385 Qs from Lectures & Cases)'
+        ? 'Exam 1: Loaded 🏠 In-House Lectures & Cases (385 Qs)'
         : currentTrack === 'focused_zen'
-        ? 'Switched to 🎯 Focused Zen Mode (Study Guide 20 Qs/topic)'
+        ? 'Exam 1: Loaded 🎯 Focused Zen Bank (320 Qs)'
         : currentTrack === 'zen'
-        ? 'Switched to 🧘 General Zen Mode (20 Qs/topic)'
-        : 'Switched to 📝 Exam 1 Practice (125 Qs)';
+        ? 'Exam 1: Loaded 🧘 General Zen Bank (320 Qs)'
+        : 'Exam 1: Loaded 📝 Simulation Practice (125 Qs)';
       showToast(toastMsg);
     }
 
@@ -1665,8 +1844,12 @@ html_template = """<!DOCTYPE html>
     function loadTrackState() {
       let storagePrefix = 'usmle_exam1_';
       let rawData = rawExamQuestions;
-      if (currentTrack === 'exam2') {
-        storagePrefix = 'usmle_exam2_';
+
+      if (currentTrack === 'exam2_sim') {
+        storagePrefix = 'usmle_exam2_sim_';
+        rawData = rawExam2Questions;
+      } else if (currentTrack === 'exam2_zen' || currentTrack === 'exam2') {
+        storagePrefix = 'usmle_exam2_zen_';
         rawData = rawExam2Questions;
       } else if (currentTrack === 'inhouse') {
         storagePrefix = 'usmle_inhouse_';
@@ -1687,7 +1870,12 @@ html_template = """<!DOCTYPE html>
       }));
 
       userState = {};
-      const saved = localStorage.getItem(storagePrefix + 'state');
+      let saved = localStorage.getItem(storagePrefix + 'state');
+      // Graceful fallback for exam2 if switching between zen and sim
+      if (!saved && (currentTrack === 'exam2_zen' || currentTrack === 'exam2')) {
+        saved = localStorage.getItem('usmle_exam2_state');
+      }
+
       let restoredState = null;
       if (saved) {
         try { restoredState = JSON.parse(saved); } catch (e) {}
@@ -1722,7 +1910,7 @@ html_template = """<!DOCTYPE html>
         }
       });
 
-      const savedIdx = localStorage.getItem(storagePrefix + 'current_index');
+      const savedIdx = localStorage.getItem(storagePrefix + 'current_index') || (isExam2Track(currentTrack) ? localStorage.getItem('usmle_exam2_current_index') : null);
       if (savedIdx !== null && !isNaN(parseInt(savedIdx, 10))) {
         const parsedIdx = parseInt(savedIdx, 10);
         currentIndex = (parsedIdx >= 0 && parsedIdx < questions.length) ? parsedIdx : 0;
@@ -1740,7 +1928,8 @@ html_template = """<!DOCTYPE html>
 
     function saveState() {
       let storagePrefix = 'usmle_exam1_';
-      if (currentTrack === 'exam2') storagePrefix = 'usmle_exam2_';
+      if (currentTrack === 'exam2_sim') storagePrefix = 'usmle_exam2_sim_';
+      else if (currentTrack === 'exam2_zen' || currentTrack === 'exam2') storagePrefix = 'usmle_exam2_zen_';
       else if (currentTrack === 'inhouse') storagePrefix = 'usmle_inhouse_';
       else if (currentTrack === 'focused_zen') storagePrefix = 'usmle_focused_zen_';
       else if (currentTrack === 'zen') storagePrefix = 'usmle_zen_';
@@ -1771,12 +1960,14 @@ html_template = """<!DOCTYPE html>
         const mins = Math.floor(timerSeconds / 60);
         const secs = timerSeconds % 60;
         const text = `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
-        if (currentTrack === 'exam2') {
+        if (isExam2Track(currentTrack)) {
           document.getElementById('timerText').textContent = `🧠 ${text}`;
         } else if (currentTrack === 'focused_zen') {
           document.getElementById('timerText').textContent = `🎯 ${text}`;
         } else if (currentTrack === 'zen') {
           document.getElementById('timerText').textContent = `🧘 ${text}`;
+        } else if (currentTrack === 'inhouse') {
+          document.getElementById('timerText').textContent = `🏠 ${text}`;
         } else {
           document.getElementById('timerText').textContent = text;
         }
@@ -1789,8 +1980,9 @@ html_template = """<!DOCTYPE html>
     function renderZenTray() {
       const container = document.getElementById('zenTopicPillsContainer');
       const allPill = document.getElementById('zenTopicPillAll');
+      if (!allPill || !container) return;
       allPill.className = 'zen-topic-pill ' + (activeCategoryFilter === null ? 'active' : '');
-      const catsToUse = currentTrack === 'exam2' ? exam2Categories : (currentTrack === 'inhouse' ? inHouseCategories : subjectCategories);
+      const catsToUse = isExam2Track(currentTrack) ? exam2Categories : (currentTrack === 'inhouse' ? inHouseCategories : subjectCategories);
       allPill.innerHTML = `<span>All ${catsToUse.length} Topics</span><span class="chip-count">${questions.length}</span>`;
 
       let html = '';
@@ -1799,7 +1991,7 @@ html_template = """<!DOCTYPE html>
         const catQuestions = questions.filter(q => q.category === cat);
         const answered = catQuestions.filter(q => userState[q.id] && userState[q.id].isCorrect !== null).length;
         html += `
-          <button class="zen-topic-pill ${isActive ? 'active' : ''}" onclick="selectZenTopic('${cat.replace(/'/g, "\\\\'")}')">
+          <button class="zen-topic-pill ${isActive ? 'active' : ''}" onclick="selectZenTopic('${cat.replace(/'/g, "\\'")}')">
             <span>${cat}</span>
             <span class="chip-count">${answered}/${catQuestions.length}</span>
           </button>
@@ -1819,10 +2011,11 @@ html_template = """<!DOCTYPE html>
       currentIndex = filteredIndices.length > 0 ? filteredIndices[0] : 0;
       renderCurrentQuestion();
       saveState();
-      showToast(cat ? `Filtered to: ${cat} (20 Questions)` : `Showing all ${questions.length} Questions`);
+      const count = filteredIndices.length;
+      showToast(cat ? `Filtered to: ${cat} (${count} Qs)` : `Showing all ${questions.length} Questions`);
     }
 
-    // Auto-Highlighting
+        // Auto-Highlighting
     function setupAutoHighlighting() {
       const stemContainer = document.getElementById('questionStemText');
       stemContainer.addEventListener('mouseup', handleAutoHighlight);
@@ -2099,7 +2292,7 @@ html_template = """<!DOCTYPE html>
 
       // Submit Button visibility
       const submitBtn = document.getElementById('submitChoiceBtn');
-      if (isAnswered || currentTrack === 'exam2' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
+      if (isAnswered || currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
         submitBtn.style.display = 'none';
       } else {
         submitBtn.style.display = 'inline-flex';
@@ -2147,7 +2340,7 @@ html_template = """<!DOCTYPE html>
       state.selectedChoiceIndex = optIdx;
 
       // In In-House and Zen modes, instant submit and feedback on click!
-      if (currentTrack === 'exam2' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
+      if (currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
         submitAnswer();
       } else {
         renderCurrentQuestion();
@@ -2180,7 +2373,7 @@ html_template = """<!DOCTYPE html>
       renderCurrentQuestion();
       renderSidebarCategories();
       updateOverallStats();
-      if (currentTrack === 'exam2' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
+      if (currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
         renderZenTray();
       }
       saveState();
@@ -2263,7 +2456,7 @@ html_template = """<!DOCTYPE html>
       const container = document.getElementById('categoryList');
       container.innerHTML = '';
 
-      const catsToUse = currentTrack === 'exam2' ? exam2Categories : (currentTrack === 'inhouse' ? inHouseCategories : subjectCategories);
+      const catsToUse = isExam2Track(currentTrack) ? exam2Categories : (currentTrack === 'inhouse' ? inHouseCategories : subjectCategories);
       catsToUse.forEach((cat) => {
         const catQuestions = questions.filter(q => q.category === cat);
         const total = catQuestions.length;
@@ -2284,7 +2477,7 @@ html_template = """<!DOCTYPE html>
 
         const item = document.createElement('div');
         const isActive = activeCategoryFilter === cat;
-        const catClass = currentTrack === 'exam2' ? 'exam2-cat' : currentTrack === 'inhouse' ? 'inhouse-cat' : currentTrack === 'focused_zen' ? 'focused-zen-cat' : currentTrack === 'zen' ? 'zen-cat' : '';
+        const catClass = isExam2Track(currentTrack) ? 'exam2-cat' : currentTrack === 'inhouse' ? 'inhouse-cat' : currentTrack === 'focused_zen' ? 'focused-zen-cat' : currentTrack === 'zen' ? 'zen-cat' : '';
         item.className = `cat-item ${isActive ? 'active' : ''} ${catClass}`;
         item.onclick = () => filterCategory(isActive ? null : cat);
 
@@ -2405,8 +2598,8 @@ html_template = """<!DOCTYPE html>
       document.getElementById('reportCorrectCount').textContent = totalCorrect.toString();
       document.getElementById('reportIncorrectCount').textContent = totalIncorrect.toString();
 
-      const reportTitle = currentTrack === 'exam2'
-        ? '🧠 Exam 2 (103 Qs) Performance Report'
+      const reportTitle = isExam2Track(currentTrack)
+        ? (currentTrack === 'exam2_sim' ? '🧠 Exam 2 Simulation (103 Qs) Score Report' : '🧠 Exam 2 Section Mastery (103 Qs) Score Report')
         : currentTrack === 'focused_zen'
         ? '🎯 Focused Zen Mode (320 Qs) Performance Report'
         : currentTrack === 'zen'
@@ -2516,9 +2709,12 @@ For each question:
     function resetCurrentTrack() {
       let trackName = 'Exam 1 (125 questions)';
       let storagePrefix = 'usmle_exam1_';
-      if (currentTrack === 'exam2') {
-        trackName = '🧠 Exam 2 (103 questions)';
-        storagePrefix = 'usmle_exam2_';
+      if (currentTrack === 'exam2_sim') {
+        trackName = '🧠 Exam 2 Simulation (103 questions)';
+        storagePrefix = 'usmle_exam2_sim_';
+      } else if (currentTrack === 'exam2_zen' || currentTrack === 'exam2') {
+        trackName = '🧠 Exam 2 Section Mastery (103 questions)';
+        storagePrefix = 'usmle_exam2_zen_';
       } else if (currentTrack === 'inhouse') {
         trackName = '🏠 In-House Course Track (385 questions)';
         storagePrefix = 'usmle_inhouse_';
@@ -2536,7 +2732,7 @@ For each question:
         localStorage.removeItem(storagePrefix + 'timer_seconds');
 
         loadTrackState();
-        if (currentTrack === 'exam2' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') renderZenTray();
+        if (isExam2Track(currentTrack) || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') renderZenTray();
         applyFilter();
         renderSidebarCategories();
         updateOverallStats();
@@ -2575,91 +2771,26 @@ For each question:
         document.body.setAttribute('data-theme', savedTheme);
       }
 
-      // Check saved track, defaulting to In House Mode
-      const savedTrack = localStorage.getItem('usmle_active_track');
-      const inHouseBtn = document.getElementById('trackInHouseBtn');
-      const examBtn = document.getElementById('trackExamBtn');
-      const focusedZenBtn = document.getElementById('trackFocusedZenBtn');
-      const zenBtn = document.getElementById('trackZenBtn');
-      const zenTray = document.getElementById('zenSectionTray');
-      const trayIcon = document.getElementById('zenTrayIcon');
-      const trayLabelText = document.getElementById('zenTrayLabelText');
-      const trackTag = document.getElementById('currentQTrackTag');
-      const sidebarTitle = document.getElementById('sidebarTitle');
-      const timerDisplay = document.getElementById('timerDisplay');
+      setupAutoHighlighting();
+      startTimer();
 
-      timerDisplay.classList.remove('zen', 'focused-zen', 'inhouse');
-      if (inHouseBtn) inHouseBtn.className = 'track-btn';
-      examBtn.className = 'track-btn';
-      focusedZenBtn.className = 'track-btn';
-      zenBtn.className = 'track-btn';
-
-      if (savedTrack === 'exam2') {
-        currentTrack = 'exam2';
-        if (exam2Btn) exam2Btn.className = 'track-btn exam2-active';
-        zenTray.style.display = 'flex';
-        trayIcon.textContent = '🧠';
-        trayLabelText.textContent = 'Exam 2 Sections:';
-        trackTag.style.display = 'inline-block';
-        trackTag.className = 'q-track-tag exam2';
-        trackTag.textContent = '🧠 Exam 2';
-        timerDisplay.classList.add('exam2');
-        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v8"/><path d="M8 12h8"/></svg> Exam 2 Sections (9)`;
-      } else if (savedTrack === 'exam') {
-        currentTrack = 'exam';
-        examBtn.className = 'track-btn active';
-        zenTray.style.display = 'none';
-        trackTag.style.display = 'none';
-        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg> Subject Areas`;
-      } else if (savedTrack === 'focused_zen') {
-        currentTrack = 'focused_zen';
-        focusedZenBtn.className = 'track-btn focused-zen-active';
-        zenTray.style.display = 'flex';
-        trayIcon.textContent = '🎯';
-        trayLabelText.textContent = 'Study Guide Topics:';
-        trackTag.style.display = 'inline-block';
-        trackTag.className = 'q-track-tag focused-zen';
-        trackTag.textContent = '🎯 Focused Zen';
-        timerDisplay.classList.add('focused-zen');
-        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v8"/><path d="M8 12h8"/></svg> Study Guide Topics (20/each)`;
-      } else if (savedTrack === 'zen') {
-        currentTrack = 'zen';
-        zenBtn.className = 'track-btn zen-active';
-        zenTray.style.display = 'flex';
-        trayIcon.textContent = '🧘';
-        trayLabelText.textContent = 'General Topics:';
-        trackTag.style.display = 'inline-block';
-        trackTag.className = 'q-track-tag zen';
-        trackTag.textContent = '🧘 Zen Mode';
-        timerDisplay.classList.add('zen');
-        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/></svg> Zen Topics (20/each)`;
-      } else {
-        // Default to In-House Course Track
-        currentTrack = 'inhouse';
-        if (inHouseBtn) inHouseBtn.className = 'track-btn inhouse-active';
-        zenTray.style.display = 'flex';
-        trayIcon.textContent = '🏠';
-        trayLabelText.textContent = 'In-House Modules:';
-        trackTag.style.display = 'inline-block';
-        trackTag.className = 'q-track-tag inhouse';
-        trackTag.textContent = '🏠 In House';
-        timerDisplay.classList.add('inhouse');
-        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> In-House Course Modules (12)`;
+      // Restore active exam & track
+      const savedExam = localStorage.getItem('usmle_active_exam') || 'exam1';
+      let targetTrack = localStorage.getItem('usmle_active_track');
+      if (!targetTrack) {
+        targetTrack = (savedExam === 'exam2') ? 'exam2_zen' : 'inhouse';
       }
 
-      loadTrackState();
-      setupAutoHighlighting();
-      if (currentTrack === 'exam2' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') renderZenTray();
-      applyFilter();
-      renderSidebarCategories();
-      updateOverallStats();
-      startTimer();
-      renderCurrentQuestion();
+      currentExam = savedExam;
+      selectExam(savedExam);
+      if (targetTrack) {
+        switchTrack(targetTrack);
+      }
 
       if (currentIndex > 0) {
         setTimeout(() => {
-          const trackLabel = currentTrack === 'exam2'
-            ? 'Exam 2'
+          const trackLabel = isExam2Track(currentTrack)
+            ? (currentTrack === 'exam2_sim' ? 'Exam 2 Sim' : 'Exam 2 Mastery')
             : currentTrack === 'focused_zen'
             ? 'Focused Zen'
             : currentTrack === 'zen'
