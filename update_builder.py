@@ -1923,7 +1923,7 @@ html_template = """<!DOCTYPE html>
         storagePrefix = 'usmle_exam2_sim_';
         rawData = rawExam2Questions;
       } else if (currentTrack === 'exam2_zen' || currentTrack === 'exam2') {
-        storagePrefix = 'usmle_exam2_zen_';
+        storagePrefix = 'usmle_exam2_zen_units1_3_';
         rawData = rawExam2ZenQuestions;
       } else if (currentTrack === 'exam2_pdf_practice') {
         storagePrefix = 'usmle_exam2_pdf_';
@@ -1967,10 +1967,27 @@ html_template = """<!DOCTYPE html>
         } catch(e) {}
       });
 
+      // Auto-migrate legacy Exam 2 answers so user never loses previous work
+      try {
+        const legacyExam2 = localStorage.getItem('usmle_exam2_state');
+        if (legacyExam2) {
+          if (!localStorage.getItem('usmle_exam2_sim_state')) {
+            localStorage.setItem('usmle_exam2_sim_state', legacyExam2);
+          }
+          if (!localStorage.getItem('usmle_exam2_pdf_state')) {
+            localStorage.setItem('usmle_exam2_pdf_state', legacyExam2);
+          }
+          const legacyIdx = localStorage.getItem('usmle_exam2_current_index');
+          if (legacyIdx && !localStorage.getItem('usmle_exam2_sim_current_index')) {
+            localStorage.setItem('usmle_exam2_sim_current_index', legacyIdx);
+          }
+        }
+      } catch (e) {}
+
       userState = {};
       let saved = localStorage.getItem(storagePrefix + 'state');
-      // Graceful fallback for exam2 if switching between zen and sim
-      if (!saved && (currentTrack === 'exam2_zen' || currentTrack === 'exam2')) {
+      // For exam2_sim, if sim state is still empty, fallback to legacy usmle_exam2_state
+      if (!saved && currentTrack === 'exam2_sim') {
         saved = localStorage.getItem('usmle_exam2_state');
       }
 
@@ -1993,9 +2010,16 @@ html_template = """<!DOCTYPE html>
             restoredIsCorrect = (s.shuffledOptions[chosenIdx].is_correct === true);
           }
 
-          let stemHtml = s.stemHtml || null;
-          if (stemHtml && (stemHtml.includes('menu in a dimly lit') || stemHtml.length > q.stem.length + 120)) {
-            stemHtml = null;
+          let stemHtml = null;
+          if (s.stemHtml) {
+            // Strict check: only restore stemHtml if its plain text EXACTLY matches q.stem
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = s.stemHtml;
+            const plainFromHtml = (tempDiv.textContent || tempDiv.innerText || '').trim().replace(/\s+/g, ' ');
+            const plainFromQ = (q.stem || '').trim().replace(/\s+/g, ' ');
+            if (plainFromHtml === plainFromQ) {
+              stemHtml = s.stemHtml;
+            }
           }
 
           userState[q.id] = {
@@ -2037,7 +2061,8 @@ html_template = """<!DOCTYPE html>
     function saveState() {
       let storagePrefix = 'usmle_exam1_';
       if (currentTrack === 'exam2_sim') storagePrefix = 'usmle_exam2_sim_';
-      else if (currentTrack === 'exam2_zen' || currentTrack === 'exam2') storagePrefix = 'usmle_exam2_zen_';
+      else if (currentTrack === 'exam2_zen' || currentTrack === 'exam2') storagePrefix = 'usmle_exam2_zen_units1_3_';
+      else if (currentTrack === 'exam2_pdf_practice') storagePrefix = 'usmle_exam2_pdf_';
       else if (currentTrack === 'inhouse') storagePrefix = 'usmle_inhouse_';
       else if (currentTrack === 'focused_zen') storagePrefix = 'usmle_focused_zen_';
       else if (currentTrack === 'zen') storagePrefix = 'usmle_zen_';
@@ -2058,6 +2083,12 @@ html_template = """<!DOCTYPE html>
       localStorage.setItem(storagePrefix + 'state', JSON.stringify(serializable));
       localStorage.setItem(storagePrefix + 'current_index', currentIndex);
       localStorage.setItem(storagePrefix + 'timer_seconds', timerSeconds);
+
+      // Mirror exam2_sim to legacy usmle_exam2_state for seamless compatibility
+      if (currentTrack === 'exam2_sim') {
+        localStorage.setItem('usmle_exam2_state', JSON.stringify(serializable));
+        localStorage.setItem('usmle_exam2_current_index', currentIndex);
+      }
     }
 
     // Timer
@@ -2841,7 +2872,7 @@ For each question:
         storagePrefix = 'usmle_exam2_sim_';
       } else if (currentTrack === 'exam2_zen' || currentTrack === 'exam2') {
         trackName = '🧘 Exam 2 Zen Mode (108 questions)';
-        storagePrefix = 'usmle_exam2_zen_';
+        storagePrefix = 'usmle_exam2_zen_units1_3_';
       } else if (currentTrack === 'exam2_pdf_practice') {
         trackName = '🎯 Exam 2 PDF Practice (103 questions)';
         storagePrefix = 'usmle_exam2_pdf_';
