@@ -39,6 +39,41 @@ for q in raw_exam2:
         'q_num': str(q['q_num']),
         'stem': q['question'],
         'category': q['category'],
+        'source': q.get('source', 'Official Exam 2 PDF'),
+        'options': opts,
+        'correct_idx': correct_idx,
+        'explanation': q['explanation'],
+        'high_yield_pearl': q.get('high_yield_pearl', ''),
+        'image': q.get('image', None)
+    })
+
+# Load Exam 2 Zen (Units 1-3 In-House Bank: 108 Questions)
+exam2_zen_path = '/Users/markyoussef_1/.gemini/antigravity-ide/scratch/usmle_exam2/new_bank_units1_3/units1_3_questions.json'
+if not os.path.exists(exam2_zen_path):
+    exam2_zen_path = '/Users/markyoussef_1/.gemini/antigravity-ide/scratch/usmle_exam1/exam2_zen_units1_3_questions.json'
+
+with open(exam2_zen_path, 'r', encoding='utf-8') as f:
+    raw_exam2_zen = json.load(f)
+
+exam2_zen_questions = []
+for q in raw_exam2_zen:
+    opts = []
+    correct_idx = 0
+    for idx, opt in enumerate(q['options']):
+        is_cor = (opt['id'] == q['correct_answer'])
+        if is_cor:
+            correct_idx = idx
+        opts.append({
+            'letter': opt['id'],
+            'is_correct': is_cor,
+            'text': opt['text']
+        })
+    exam2_zen_questions.append({
+        'id': q['id'],
+        'q_num': str(q['q_num']),
+        'stem': q['question'],
+        'category': q['category'],
+        'source': q.get('source', ''),
         'options': opts,
         'correct_idx': correct_idx,
         'explanation': q['explanation'],
@@ -56,6 +91,12 @@ exam2_categories = [
     'Basal Ganglia',
     'ALS',
     'Sleep'
+]
+
+exam2_zen_categories = [
+    'Visual System',
+    'Visual Reflexes',
+    'Infection/Inflammation of eye disorders'
 ]
 
 inhouse_categories = [
@@ -97,9 +138,11 @@ focused_zen_json_data_str = json.dumps(focused_zen_questions, ensure_ascii=False
 zen_json_data_str = json.dumps(zen_questions, ensure_ascii=False)
 inhouse_json_data_str = json.dumps(inhouse_questions, ensure_ascii=False)
 exam2_json_data_str = json.dumps(exam2_questions, ensure_ascii=False)
+exam2_zen_json_data_str = json.dumps(exam2_zen_questions, ensure_ascii=False)
 categories_json_str = json.dumps(categories, ensure_ascii=False)
 inhouse_categories_json_str = json.dumps(inhouse_categories, ensure_ascii=False)
 exam2_categories_json_str = json.dumps(exam2_categories, ensure_ascii=False)
+exam2_zen_categories_json_str = json.dumps(exam2_zen_categories, ensure_ascii=False)
 
 html_template = """<!DOCTYPE html>
 <html lang="en">
@@ -1574,7 +1617,9 @@ html_template = """<!DOCTYPE html>
     const subjectCategories = """ + categories_json_str + """;
     const inHouseCategories = """ + inhouse_categories_json_str + """;
     const rawExam2Questions = """ + exam2_json_data_str + """;
+    const rawExam2ZenQuestions = """ + exam2_zen_json_data_str + """;
     const exam2Categories = """ + exam2_categories_json_str + """;
+    const exam2ZenCategories = """ + exam2_zen_categories_json_str + """;
 
     // ACTIVE TRACK: 'focused_zen' (320 Qs from Study Guide), 'exam' (125 Qs), or 'zen' (320 Qs)
     let currentTrack = 'focused_zen';
@@ -1650,6 +1695,13 @@ html_template = """<!DOCTYPE html>
       ],
       exam2: [
         {
+          id: 'exam2_zen',
+          label: 'Zen Mode (108 Qs)',
+          icon: '🧘',
+          badge: 'Units 1–3 In-House',
+          type: 'exam2'
+        },
+        {
           id: 'exam2_sim',
           label: 'Simulation (103 Qs)',
           icon: '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>',
@@ -1657,8 +1709,8 @@ html_template = """<!DOCTYPE html>
           type: 'sim'
         },
         {
-          id: 'exam2_zen',
-          label: 'Section Mastery (9 Topics)',
+          id: 'exam2_pdf_practice',
+          label: 'PDF Practice (103 Qs)',
           icon: '🎯',
           badge: '9 Sections',
           type: 'exam2'
@@ -1667,7 +1719,14 @@ html_template = """<!DOCTYPE html>
     };
 
     function isExam2Track(track) {
-      return track === 'exam2' || track === 'exam2_sim' || track === 'exam2_zen';
+      return track === 'exam2' || track === 'exam2_sim' || track === 'exam2_zen' || track === 'exam2_pdf_practice';
+    }
+
+    function getCategoriesForTrack() {
+      if (currentTrack === 'exam2_zen' || currentTrack === 'exam2') return exam2ZenCategories;
+      if (isExam2Track(currentTrack)) return exam2Categories;
+      if (currentTrack === 'inhouse') return inHouseCategories;
+      return subjectCategories;
     }
 
     function selectExam(examId) {
@@ -1776,13 +1835,22 @@ html_template = """<!DOCTYPE html>
         sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg> Exam 2 Sections (9)`;
       } else if (currentTrack === 'exam2_zen' || currentTrack === 'exam2') {
         zenTray.style.display = 'flex';
-        trayIcon.textContent = '🧠';
-        trayLabelText.textContent = 'Exam 2 Sections:';
+        trayIcon.textContent = '🧘';
+        trayLabelText.textContent = 'Exam 2 Units 1–3:';
         trackTag.style.display = 'inline-block';
         trackTag.className = 'q-track-tag exam2';
-        trackTag.textContent = '🧠 Exam 2 Mastery';
+        trackTag.textContent = '🧘 Exam 2 Zen';
         timerDisplay.classList.add('exam2');
-        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v8"/><path d="M8 12h8"/></svg> Exam 2 Sections (9)`;
+        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/></svg> Units 1–3 Topics (3)`;
+      } else if (currentTrack === 'exam2_pdf_practice') {
+        zenTray.style.display = 'flex';
+        trayIcon.textContent = '🎯';
+        trayLabelText.textContent = 'PDF Sections:';
+        trackTag.style.display = 'inline-block';
+        trackTag.className = 'q-track-tag exam2';
+        trackTag.textContent = '🎯 PDF Practice';
+        timerDisplay.classList.add('exam2');
+        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v8"/><path d="M8 12h8"/></svg> PDF Sections (9)`;
       } else if (currentTrack === 'inhouse') {
         zenTray.style.display = 'flex';
         trayIcon.textContent = '🏠';
@@ -1822,7 +1890,7 @@ html_template = """<!DOCTYPE html>
       filterIncorrectOnly = false;
 
       loadTrackState();
-      if (currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
+      if (currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'exam2_pdf_practice' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
         renderZenTray();
       }
       applyFilter();
@@ -1833,7 +1901,9 @@ html_template = """<!DOCTYPE html>
       const toastMsg = currentTrack === 'exam2_sim'
         ? 'Exam 2: Loaded 📝 Simulation Bank (103 Qs)'
         : (currentTrack === 'exam2_zen' || currentTrack === 'exam2')
-        ? 'Exam 2: Loaded 🎯 Section Mastery (9 Topics)'
+        ? 'Exam 2: Loaded 🧘 Zen Mode Bank (108 Qs: Units 1–3)'
+        : currentTrack === 'exam2_pdf_practice'
+        ? 'Exam 2: Loaded 🎯 PDF Practice Bank (103 Qs)'
         : currentTrack === 'inhouse'
         ? 'Exam 1: Loaded 🏠 In-House Lectures & Cases (385 Qs)'
         : currentTrack === 'focused_zen'
@@ -1854,6 +1924,9 @@ html_template = """<!DOCTYPE html>
         rawData = rawExam2Questions;
       } else if (currentTrack === 'exam2_zen' || currentTrack === 'exam2') {
         storagePrefix = 'usmle_exam2_zen_';
+        rawData = rawExam2ZenQuestions;
+      } else if (currentTrack === 'exam2_pdf_practice') {
+        storagePrefix = 'usmle_exam2_pdf_';
         rawData = rawExam2Questions;
       } else if (currentTrack === 'inhouse') {
         storagePrefix = 'usmle_inhouse_';
@@ -1870,6 +1943,8 @@ html_template = """<!DOCTYPE html>
         ...q,
         stem: q.stem || q.question,
         image: q.image || q.image_base64 || null,
+        source: q.source || '',
+        high_yield_pearl: q.high_yield_pearl || '',
         index: idx
       }));
 
@@ -2015,7 +2090,7 @@ html_template = """<!DOCTYPE html>
       const allPill = document.getElementById('zenTopicPillAll');
       if (!allPill || !container) return;
       allPill.className = 'zen-topic-pill ' + (activeCategoryFilter === null ? 'active' : '');
-      const catsToUse = isExam2Track(currentTrack) ? exam2Categories : (currentTrack === 'inhouse' ? inHouseCategories : subjectCategories);
+      const catsToUse = getCategoriesForTrack();
       allPill.innerHTML = `<span>All ${catsToUse.length} Topics</span><span class="chip-count">${questions.length}</span>`;
 
       let html = '';
@@ -2355,7 +2430,26 @@ html_template = """<!DOCTYPE html>
             expText = expText.substring(nlIndex).trim();
           }
         }
-        document.getElementById('explanationText').textContent = expText;
+        
+        let expBodyHtml = `<div style="line-height: 1.6; color: var(--text-primary); font-size: 0.95rem;">${expText}</div>`;
+        if (q.high_yield_pearl) {
+          expBodyHtml += `
+            <div style="margin-top: 14px; padding: 12px 14px; background: rgba(59, 130, 246, 0.08); border-left: 4px solid #3b82f6; border-radius: 6px;">
+              <div style="font-weight: 700; margin-bottom: 4px; display: flex; align-items: center; gap: 6px; color: #1d4ed8; font-size: 0.88rem;">
+                <span>💡</span> High-Yield Clinical Pearl
+              </div>
+              <div style="color: var(--text-primary); font-size: 0.9rem; line-height: 1.5;">${q.high_yield_pearl}</div>
+            </div>
+          `;
+        }
+        if (q.source) {
+          expBodyHtml += `
+            <div style="margin-top: 10px; font-size: 0.76rem; color: #6b7280; font-style: italic; display: flex; align-items: center; gap: 5px;">
+              <span>📖</span> Reference: ${q.source}
+            </div>
+          `;
+        }
+        document.getElementById('explanationText').innerHTML = expBodyHtml;
         expCard.classList.add('show');
       } else {
         expCard.classList.remove('show');
@@ -2373,7 +2467,7 @@ html_template = """<!DOCTYPE html>
       state.selectedChoiceIndex = optIdx;
 
       // In In-House and Zen modes, instant submit and feedback on click!
-      if (currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
+      if (currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'exam2_pdf_practice' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
         submitAnswer();
       } else {
         renderCurrentQuestion();
@@ -2406,7 +2500,7 @@ html_template = """<!DOCTYPE html>
       renderCurrentQuestion();
       renderSidebarCategories();
       updateOverallStats();
-      if (currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
+      if (currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'exam2_pdf_practice' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
         renderZenTray();
       }
       saveState();
@@ -2489,7 +2583,7 @@ html_template = """<!DOCTYPE html>
       const container = document.getElementById('categoryList');
       container.innerHTML = '';
 
-      const catsToUse = isExam2Track(currentTrack) ? exam2Categories : (currentTrack === 'inhouse' ? inHouseCategories : subjectCategories);
+      const catsToUse = getCategoriesForTrack();
       catsToUse.forEach((cat) => {
         const catQuestions = questions.filter(q => q.category === cat);
         const total = catQuestions.length;
@@ -2746,8 +2840,11 @@ For each question:
         trackName = '🧠 Exam 2 Simulation (103 questions)';
         storagePrefix = 'usmle_exam2_sim_';
       } else if (currentTrack === 'exam2_zen' || currentTrack === 'exam2') {
-        trackName = '🧠 Exam 2 Section Mastery (103 questions)';
+        trackName = '🧘 Exam 2 Zen Mode (108 questions)';
         storagePrefix = 'usmle_exam2_zen_';
+      } else if (currentTrack === 'exam2_pdf_practice') {
+        trackName = '🎯 Exam 2 PDF Practice (103 questions)';
+        storagePrefix = 'usmle_exam2_pdf_';
       } else if (currentTrack === 'inhouse') {
         trackName = '🏠 In-House Course Track (385 questions)';
         storagePrefix = 'usmle_inhouse_';
