@@ -5098,5 +5098,2045 @@
     "high_yield_pearl": "Conjugate = same direction; vergence = opposite directions.",
     "image": null,
     "image_file": null
+  },
+  {
+    "id": 151,
+    "q_num": "151",
+    "category": "Visual System",
+    "source": "Lecture Slide 6-7 & Content Q4: Phototransduction Dark Current",
+    "question": "An investigator records the resting intracellular potential of human rod photoreceptors in total darkness. The outer segments maintain a resting membrane potential of approximately -40 mV with steady inward sodium and calcium currents. Which molecular mechanism sustains this tonic depolarization in the dark?",
+    "options": [
+      {
+        "id": "A",
+        "text": "High cytoplasmic levels of cyclic GMP opening cyclic nucleotide-gated channels"
+      },
+      {
+        "id": "B",
+        "text": "Continuous phosphorylation of transducin by active rhodopsin kinase"
+      },
+      {
+        "id": "C",
+        "text": "Active uptake of glutamate through presynaptic sodium-dependent transporters"
+      },
+      {
+        "id": "D",
+        "text": "Tonic inhibition of guanylyl cyclase by low intracellular calcium levels"
+      },
+      {
+        "id": "E",
+        "text": "Voltage-gated sodium channel activation triggered by extracellular calcium"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "In total darkness, retinal rod and cone photoreceptors are tonically depolarized to around -40 mV due to a continuous inward sodium and calcium influx known as the 'dark current'. Guanylyl cyclase tonically synthesizes cGMP, which binds directly to and keeps open cyclic nucleotide-gated (CNG) cation channels in the outer segment plasma membrane. Continuous influx of Na+ and Ca2+ depolarizes the terminal, stimulating tonic exocytosis of the neurotransmitter glutamate into the synaptic cleft.",
+    "high_yield_pearl": "Darkness = high cGMP -> open CNG channels -> Na+/Ca2+ influx ('dark current') -> tonic depolarization (-40 mV) & steady glutamate release.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 152,
+    "q_num": "152",
+    "category": "Visual System",
+    "source": "Lecture Slide 6-7 & Content Q4: Phototransduction Cascade",
+    "question": "During phototransduction in a rod photoreceptor, absorption of a single photon triggers a rapid intracellular signaling cascade that leads to cellular hyperpolarization. Which molecular event represents the direct downstream consequence of transducin activation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Opening of voltage-gated potassium channels in the inner segment"
+      },
+      {
+        "id": "B",
+        "text": "Direct phosphorylation of cyclic nucleotide-gated cation channels"
+      },
+      {
+        "id": "C",
+        "text": "Phosphorylation of rhodopsin by calcium-dependent protein kinase C"
+      },
+      {
+        "id": "D",
+        "text": "Isomerization of all-trans-retinal back into 11-cis-retinal molecules"
+      },
+      {
+        "id": "E",
+        "text": "Activation of cGMP phosphodiesterase type 6 to hydrolyze cyclic GMP"
+      }
+    ],
+    "correct_answer": "E",
+    "explanation": "When a photon is absorbed by 11-cis-retinal, it photoisomerizes to all-trans-retinal, conformational changing rhodopsin into metarhodopsin II. Metarhodopsin II activates the G-protein transducin (Gt). The active alpha-subunit of transducin then binds to and activates cGMP phosphodiesterase (PDE6), which rapidly hydrolyzes cGMP to 5'-GMP. The resulting fall in cytoplasmic cGMP causes CNG channels to close, stopping the dark current and hyperpolarizing the photoreceptor.",
+    "high_yield_pearl": "Photon -> 11-cis to all-trans retinal -> metarhodopsin II -> transducin (Gt) -> PDE6 activation -> decreased cGMP -> CNG channels close -> hyperpolarization.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 153,
+    "q_num": "153",
+    "category": "Visual System",
+    "source": "Lecture Slide 6-7 & Content Q4: Inactivation of Phototransduction",
+    "question": "Following exposure to a brief pulse of bright light, rod photoreceptors rapidly restore baseline dark-adapted sensitivity. Which enzymatic process is primarily responsible for terminating activated metarhodopsin II signaling during this recovery phase?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rhodopsin kinase phosphorylation of metarhodopsin II followed by arrestin binding"
+      },
+      {
+        "id": "B",
+        "text": "Hydrolysis of guanosine triphosphate by the alpha subunit of transducin alone"
+      },
+      {
+        "id": "C",
+        "text": "Cleavage of all-trans-retinal by cytosolic retinoid isomerohydrolase enzymes"
+      },
+      {
+        "id": "D",
+        "text": "Receptor-mediated endocytosis of rhodopsin into retinal pigment epithelial lysosomes"
+      },
+      {
+        "id": "E",
+        "text": "Dephosphorylation of cyclic nucleotide-gated channels by calcineurin phosphatase"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "To terminate phototransduction and allow rapid recovery, active metarhodopsin II must be shut off. Rhodopsin kinase (G-protein-coupled receptor kinase 1, GRK1) specifically phosphorylates multiple serine/threonine residues on the C-terminus of active rhodopsin. The cytosolic protein arrestin then binds the phosphorylated receptor, sterically blocking any further transducin activation. Concurrently, transducin hydrolyzes GTP to GDP (accelerated by RGS9), and guanylyl cyclase replenishes cGMP.",
+    "high_yield_pearl": "Rhodopsin inactivation requires phosphorylation by rhodopsin kinase (GRK1) + arrestin capping, preventing further Gt activation.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 154,
+    "q_num": "154",
+    "category": "Visual System",
+    "source": "Lecture Slide 7-8 & Content Q1: On-Center Bipolar Cell Receptors",
+    "question": "A neuroscientist records from retinal bipolar cells while shining a focal spot of light onto their receptive field centers. An ON-center bipolar cell responds to central light with marked membrane depolarization. Which receptor type mediates the hyperpolarizing response of this cell to glutamate in darkness?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ionotropic kainate receptors promoting rapid sodium and calcium influx"
+      },
+      {
+        "id": "B",
+        "text": "Presynaptic GABAB receptors activating inward-rectifying potassium channels"
+      },
+      {
+        "id": "C",
+        "text": "Ionotropic AMPA receptors opening non-selective monovalent cation channels"
+      },
+      {
+        "id": "D",
+        "text": "Metabotropic glutamate receptor type 6 coupled to Gi/Go signaling proteins"
+      },
+      {
+        "id": "E",
+        "text": "Ionotropic NMDA receptors that require glycine as an essential co-agonist"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "Photoreceptors release glutamate tonically in the dark and decrease release in response to light. ON-center bipolar cells express metabotropic glutamate receptors (mGluR6). In the dark, glutamate binding to mGluR6 activates the G-protein Go, which closes cation channels (TRPM1), keeping the ON bipolar cell hyperpolarized. When light decreases glutamate release, this tonic inhibition is removed, allowing TRPM1 channels to open and depolarizing the ON-center cell.",
+    "high_yield_pearl": "ON-center bipolar cells express mGluR6 (metabotropic): glutamate inhibits/hyperpolarizes them; light removes glutamate -> cell depolarizes.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 155,
+    "q_num": "155",
+    "category": "Visual System",
+    "source": "Lecture Slide 7-8 & Content Q1: Off-Center Bipolar Cell Receptors",
+    "question": "In contrast to ON-center cells, OFF-center bipolar cells respond to a sudden decrease in luminance (darkness in their receptive field center) with cellular depolarization and increased glutamate release onto ganglion cells. Which postsynaptic receptor mechanism explains this response?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Metabotropic mGluR1 receptors that stimulate inositol trisphosphate synthesis"
+      },
+      {
+        "id": "B",
+        "text": "Ionotropic AMPA and kainate receptors depolarized directly by glutamate"
+      },
+      {
+        "id": "C",
+        "text": "Ligand-gated chloride channels opened directly by glutamate neurotransmission"
+      },
+      {
+        "id": "D",
+        "text": "Presynaptic nicotinic receptors facilitating vesicular acetylcholine release"
+      },
+      {
+        "id": "E",
+        "text": "Metabotropic mGluR6 receptors closing transient receptor potential channels"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "OFF-center bipolar cells preserve the sign of photoreceptors using conventional ionotropic glutamate receptors (AMPA and kainate). In the dark, when photoreceptors release abundant glutamate, glutamate binds AMPA/kainate receptors on OFF-center bipolar cells, opening ligand-gated cation channels (Na+ influx) and depolarizing the cell. Light decreases glutamate, allowing OFF bipolar cells to hyperpolarize.",
+    "high_yield_pearl": "OFF-center bipolar cells express AMPA/kainate (ionotropic): glutamate depolarizes them directly in the dark; light hyperpolarizes them.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 156,
+    "q_num": "156",
+    "category": "Visual System",
+    "source": "Lecture Slide 6-8 & Content Q1: Horizontal Cells & Lateral Inhibition",
+    "question": "Horizontal cells in the outer plexiform layer of the retina receive glutamatergic synaptic input from photoreceptors and project laterally to neighboring photoreceptors. What is the primary neurochemical mechanism and physiologic role of this circuit?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Release of GABA to provide lateral inhibition and enhance spatial contrast"
+      },
+      {
+        "id": "B",
+        "text": "Release of dopamine to stimulate daytime cone outer segment disc shedding"
+      },
+      {
+        "id": "C",
+        "text": "Release of acetylcholine to synchronize circadian clock oscillations in the retina"
+      },
+      {
+        "id": "D",
+        "text": "Secretion of brain-derived neurotrophic factor to support ganglion cell survival"
+      },
+      {
+        "id": "E",
+        "text": "Uptake of excess potassium ions to buffer extracellular fluid during bright light"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Horizontal cells are inhibitory interneurons located in the outer plexiform layer. They receive excitatory input from photoreceptors and release the inhibitory neurotransmitter GABA onto neighboring photoreceptor terminals. This lateral inhibition creates center-surround antagonism in bipolar cell receptive fields, which sharpens edges and enhances spatial contrast perception at luminance boundaries.",
+    "high_yield_pearl": "Horizontal cells release GABA -> lateral inhibition of adjacent photoreceptors -> center-surround antagonism & contrast enhancement.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 157,
+    "q_num": "157",
+    "category": "Visual System",
+    "source": "Lecture Slide 6-8 & Content Q1: Amacrine Cell Circuitry",
+    "question": "Under scotopic (starlight/dim) conditions, rod photoreceptors signal through rod bipolar cells, which do not synapse directly onto retinal ganglion cells. Instead, visual impulses pass through specialized interneurons in the inner plexiform layer. Which interneuron mediates this essential relay?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Horizontal cells connecting rod terminals directly to retinal ganglion axons"
+      },
+      {
+        "id": "B",
+        "text": "Retinal pigment epithelial cells transferring electrical current via gap junctions"
+      },
+      {
+        "id": "C",
+        "text": "AII amacrine cells connecting rod bipolar cells to cone ON and OFF pathways"
+      },
+      {
+        "id": "D",
+        "text": "Radial Muller glial cells generating calcium waves across the retinal lamina"
+      },
+      {
+        "id": "E",
+        "text": "Centrifugal sympathetic axons modulating ganglionic dendritic branching patterns"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Under dim/scotopic conditions, rod signals travel to rod bipolar cells. Unlike cone bipolar cells, rod bipolar cells do not synapse directly onto ganglion cells. Instead, they synapse onto AII amacrine cells (glycinergic interneurons in the inner plexiform layer). The AII amacrine cell then depolarizes ON cone bipolar cells via electrical gap junctions and inhibits OFF cone bipolar cells via glycinergic chemical synapses, routing rod input into the standard ganglion cell output channels.",
+    "high_yield_pearl": "Rod pathway routing: Rod -> Rod bipolar cell -> AII amacrine cell -> ON/OFF cone pathways -> Ganglion cells.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 158,
+    "q_num": "158",
+    "category": "Visual System",
+    "source": "Lecture Slide 5-6 & Content Q2: Retinal Layer Blood Supply",
+    "question": "A 72-year-old man with severe carotid atherosclerosis has sudden painless monocular visual loss. Fundoscopy demonstrates ischemic whitening of the inner retina with a cherry-red spot at the fovea. Which vessel normally supplies the inner two-thirds of the retina affected by this infarction?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anterior ciliary arteries derived from muscular branches of the rectus muscles"
+      },
+      {
+        "id": "B",
+        "text": "Supraorbital and supratrochlear terminal branches of the ophthalmic artery"
+      },
+      {
+        "id": "C",
+        "text": "Long posterior ciliary arteries providing circumferential limbal arcade flow"
+      },
+      {
+        "id": "D",
+        "text": "Central retinal artery supplying the ganglion and bipolar cell layers"
+      },
+      {
+        "id": "E",
+        "text": "Short posterior ciliary arteries supplying the choroidal choriocapillaris"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "The retina has a dual blood supply. The inner two-thirds (including the nerve fiber, ganglion cell, inner plexiform, and inner nuclear layers) is supplied by branches of the central retinal artery, a direct branch of the ophthalmic artery. The outer one-third (photoreceptors and retinal pigment epithelium) is avascular and receives oxygen and nutrients by diffusion from the underlying choroid (supplied by short posterior ciliary arteries). At the fovea, the inner layers are absent, so the choroid shines through as a 'cherry-red spot' when the surrounding ischemic inner retina whitens.",
+    "high_yield_pearl": "Inner 2/3 of retina (ganglion/bipolar) = Central retinal artery. Outer 1/3 (photoreceptors/RPE) = Posterior ciliary arteries / choroid.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 159,
+    "q_num": "159",
+    "category": "Visual System",
+    "source": "Lecture Slide 5-6 & Content Q2: Cilioretinal Artery Sparing",
+    "question": "A 68-year-old woman experiences sudden painless loss of vision in her right eye due to an acute central retinal artery occlusion (CRAO). On visual acuity testing, her central visual acuity is remarkably preserved at 20/25, with a tiny 5-degree island of preserved central visual field amidst complete peripheral blindness. Which anatomical variation explains this sparing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Recanalization of the vortex veins draining the posterior choroidal circulation"
+      },
+      {
+        "id": "B",
+        "text": "Dual drainage of the central retinal vein into both ophthalmic venous networks"
+      },
+      {
+        "id": "C",
+        "text": "Presence of a patent cilioretinal artery arising from the posterior ciliary circulation"
+      },
+      {
+        "id": "D",
+        "text": "Persistent hyaloid artery maintaining anterior perfusion to the crystalline lens"
+      },
+      {
+        "id": "E",
+        "text": "Collateral anastomosis between the facial artery and angular ophthalmic branches"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "In approximately 15-30% of the population, a cilioretinal artery is present. This anatomical variant arises from the short posterior ciliary arteries (choroidal circulation) rather than the central retinal artery. When an embolic central retinal artery occlusion occurs, the cilioretinal artery remains patent because it derives from a different vascular source, sparing the fovea and preserving central 20/20 vision despite total peripheral retinal infarction.",
+    "high_yield_pearl": "Cilioretinal artery (15-30% of people) branches from posterior ciliary/choroidal system, preserving central foveal vision in CRAO.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 160,
+    "q_num": "160",
+    "category": "Visual System",
+    "source": "Lecture Slide 5-6 & Content Q2: Central Retinal Vein Occlusion",
+    "question": "A 64-year-old man with poorly controlled hypertension and open-angle glaucoma reports sudden, painless, blurry vision in his left eye. Fundoscopy reveals extensive flame-shaped and blot hemorrhages across all four quadrants, engorged and tortuous retinal veins, cotton-wool spots, and optic disc edema. Which pathophysiologic mechanism best accounts for this 'blood and thunder' appearance?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Atheroembolic occlusion of the main trunk of the ophthalmic artery"
+      },
+      {
+        "id": "B",
+        "text": "Autoimmune granulomatous inflammation of the temporal arterial wall"
+      },
+      {
+        "id": "C",
+        "text": "Thrombosis of the central retinal vein at or near the lamina cribrosa"
+      },
+      {
+        "id": "D",
+        "text": "Separation of the neurosensory retina from the pigment epithelium"
+      },
+      {
+        "id": "E",
+        "text": "Subretinal choroidal neovascularization penetrating Bruch's membrane"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Central retinal vein occlusion (CRVO) is typically caused by thrombosis of the central retinal vein where it passes through the lamina cribrosa alongside the central retinal artery. Venous stasis and elevated intravascular pressure lead to capillary rupture, producing widespread retinal hemorrhages across all four quadrants ('blood and thunder' fundus), severe venous tortuosity, macular edema, and optic disc swelling. A significant late complication is neovascular glaucoma ('90-day glaucoma') driven by retinal ischemia and VEGF release.",
+    "high_yield_pearl": "CRVO: Thrombosis of central retinal vein at lamina cribrosa -> 'blood & thunder' (4-quadrant hemorrhages, tortuous veins, disc edema).",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 161,
+    "q_num": "161",
+    "category": "Visual System",
+    "source": "Lecture Slide 5-6 & Case 3: Giant Cell Arteritis / Arteritic AION",
+    "question": "A 74-year-old woman presents to the emergency department with sudden, severe vision loss in her right eye, described as a gray curtain that dropped over the entire eye this morning. Over the past 3 weeks, she has had right-sided throbbing headaches, scalp tenderness while brushing her hair, and pain in her jaw muscles when chewing meat. ESR is 98 mm/hr and CRP is 45 mg/L. Fundoscopy shows a chalky pale, swollen right optic disc. What is the most urgent initial step in management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Intra-arterial thrombolysis of the right ophthalmic artery within a four-hour window"
+      },
+      {
+        "id": "B",
+        "text": "Administration of high-dose oral aspirin and therapeutic subcutaneous enoxaparin"
+      },
+      {
+        "id": "C",
+        "text": "Immediate surgical decompression of the optic canal via transethmoidal approach"
+      },
+      {
+        "id": "D",
+        "text": "Immediate intravenous methylprednisolone therapy to prevent contralateral blindness"
+      },
+      {
+        "id": "E",
+        "text": "Urgent temporal artery biopsy followed by observation until pathology confirms diagnosis"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "This patient presents with classic signs of Giant Cell (Temporal) Arteritis causing Arteritic Anterior Ischemic Optic Neuropathy (A-AION). Occlusion of the posterior ciliary arteries leads to ischemia of the optic nerve head, presenting as a chalky pale, swollen disc and sudden severe vision loss. Associated symptoms include temporal headache, jaw claudication, scalp tenderness, and markedly elevated ESR/CRP. The most urgent intervention is immediate high-dose systemic corticosteroid therapy to protect the fellow eye from irreversible blindness; biopsy should follow but never delay treatment.",
+    "high_yield_pearl": "Giant Cell Arteritis -> posterior ciliary artery vasculitis -> A-AION. Immediate IV steroids mandatory to prevent blindness in contralateral eye.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 162,
+    "q_num": "162",
+    "category": "Visual System",
+    "source": "Case 2-4 & Content Q5: Junctional Scotoma of Traquair",
+    "question": "A 52-year-old man is evaluated for progressive vision problems. Automated perimetry reveals the visual field defect shown in the exhibit: a central scotoma in his left eye combined with an upper temporal quadrantanopia in his right eye. An MRI of the brain confirms an intracranial mass. Where is the lesion located?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Right parietal lobe white matter interrupting the superior optic radiation"
+      },
+      {
+        "id": "B",
+        "text": "Posterior pole of the left occipital lobe along the calcarine fissure"
+      },
+      {
+        "id": "C",
+        "text": "Left temporal lobe white matter damaging the anterior loop of Meyer"
+      },
+      {
+        "id": "D",
+        "text": "Right optic tract near its termination in the lateral geniculate body"
+      },
+      {
+        "id": "E",
+        "text": "Junction of the left optic nerve and the anterior optic chiasm"
+      }
+    ],
+    "correct_answer": "E",
+    "explanation": "This pattern is a junctional scotoma (of Traquair). It is pathognomonic for a lesion at the junction of the ipsilateral optic nerve and the anterior optic chiasm. The mass interrupts ipsilateral macular fibers in the optic nerve (causing an ipsilateral central scotoma) and also compresses the loop of inferonasal fibers from the contralateral eye that dip into the anterior optic nerve before crossing in the chiasm (Wilbrand's knee), producing a contralateral superior temporal quadrantanopia.",
+    "high_yield_pearl": "Junctional scotoma: ipsilateral central scotoma + contralateral superior temporal defect -> lesion at optic nerve/chiasm junction (Wilbrand knee).",
+    "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MjAiIGhlaWdodD0iMjMwIiB2aWV3Qm94PSIwIDAgNDIwIDIzMCI+PHJlY3Qgd2lkdGg9IjQyMCIgaGVpZ2h0PSIyMzAiIGZpbGw9IiNmZmZmZmYiLz48dGV4dCB4PSIyMTAiIHk9IjIwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMxMTEiPlZpc3VhbCBmaWVsZHMgKHZpZXdlZCBhcyB0aGUgcGF0aWVudCBzZWVzIHRoZW0pPC90ZXh0PjxjaXJjbGUgY3g9IjExMCIgY3k9IjExNSIgcj0iNzIiIGZpbGw9IiNmZmZmZmYiIHN0cm9rZT0iIzExMSIgc3Ryb2tlLXdpZHRoPSIyIi8+PGNpcmNsZSBjeD0iMTEwIiBjeT0iMTE1IiByPSIyOCIgZmlsbD0iIzFmMjkzNyIvPjxsaW5lIHgxPSIzOCIgeTE9IjExNSIgeDI9IjE4MiIgeTI9IjExNSIgc3Ryb2tlPSIjOWNhM2FmIiBzdHJva2Utd2lkdGg9IjEiLz48bGluZSB4MT0iMTEwIiB5MT0iNDMiIHgyPSIxMTAiIHkyPSIxODciIHN0cm9rZT0iIzljYTNhZiIgc3Ryb2tlLXdpZHRoPSIxIi8+PGNpcmNsZSBjeD0iMTEwIiBjeT0iMTE1IiByPSI3MiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTExIiBzdHJva2Utd2lkdGg9IjIiLz48dGV4dCB4PSIxMTAiIHk9IjIwOSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMTExIj5MRUZUIEVZRSAoQ2VudHJhbCBTY290b21hKTwvdGV4dD48Y2lyY2xlIGN4PSIzMTAiIGN5PSIxMTUiIHI9IjcyIiBmaWxsPSIjZmZmZmZmIiBzdHJva2U9IiMxMTEiIHN0cm9rZS13aWR0aD0iMiIvPjxwYXRoIGQ9Ik0zMTAsMTE1IEwzMTAsNDMgQTcyLDcyIDAgMCAxIDM4MiwxMTUgWiIgZmlsbD0iIzFmMjkzNyIvPjxsaW5lIHgxPSIyMzgiIHkxPSIxMTUiIHgyPSIzODIiIHkyPSIxMTUiIHN0cm9rZT0iIzljYTNhZiIgc3Ryb2tlLXdpZHRoPSIxIi8+PGxpbmUgeDE9IjMxMCIgeTE9IjQzIiB4Mj0iMzEwIiB5Mj0iMTg3IiBzdHJva2U9IiM5Y2EzYWYiIHN0cm9rZS13aWR0aD0iMSIvPjxjaXJjbGUgY3g9IjMxMCIgY3k9IjExNSIgcj0iNzIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzExMSIgc3Ryb2tlLXdpZHRoPSIyIi8+PHRleHQgeD0iMzEwIiB5PSIyMDkiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzExMSI+UklHSFQgRVlFIChVcHBlciBUZW1wb3JhbCBMb3NzKTwvdGV4dD48L3N2Zz4=",
+    "image_file": "images/vf_junctional.svg"
+  },
+  {
+    "id": 163,
+    "q_num": "163",
+    "category": "Visual System",
+    "source": "Case 2 & Content Q5: Pituitary vs. Craniopharyngioma",
+    "question": "A 9-year-old boy presents with headaches, growth delay, and progressive visual difficulty. Visual field testing reveals a bitemporal inferior quadrantanopia that is more pronounced in the lower visual fields. Brain MRI demonstrates a suprasellar, partially cystic mass with calcifications that compresses the optic chiasm from above and behind. What is the embryologic origin of this neoplasm?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mesodermal meningeal precursor cells lining the arachnoid cap cell layer"
+      },
+      {
+        "id": "B",
+        "text": "Schwann cell progenitors ensheathing the intracanalicular optic nerve sheath"
+      },
+      {
+        "id": "C",
+        "text": "Anterior neural tube neuroectoderm forming the posterior pituitary stalk"
+      },
+      {
+        "id": "D",
+        "text": "Epithelial remnants of Rathke's pouch derived from surface ectoderm"
+      },
+      {
+        "id": "E",
+        "text": "Pineal parenchymal cells migrating rostrally along the roof of the third ventricle"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "Craniopharyngiomas are benign suprasellar neoplasms derived from epithelial remnants of Rathke's pouch (an evagination of oral surface ectoderm that gives rise to the anterior pituitary). Because they typically arise suprasellarly above and behind the chiasm, they compress the superior crossing fibers first, producing an initial bitemporal INFERIOR quadrantanopia. In contrast, pituitary adenomas arise within the sella turcica below the chiasm and compress inferior fibers first, producing a bitemporal SUPERIOR quadrantanopia.",
+    "high_yield_pearl": "Craniopharyngioma: suprasellar mass from Rathke's pouch (surface ectoderm) -> compresses chiasm from ABOVE -> bitemporal INFERIOR field defect.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 164,
+    "q_num": "164",
+    "category": "Visual System",
+    "source": "Content Q5 & Case 2: Binasal Hemianopia",
+    "question": "A 70-year-old man with severe generalized atherosclerosis and chronic hypertension undergoes visual field evaluation. Perimetry reveals a binasal hemianopia (loss of vision in the nasal half of both eyes), as illustrated in the exhibit. Which vascular pathology is the most classic cause of this bilateral visual field deficit?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Embolic occlusion of the distal branches of both middle cerebral arteries"
+      },
+      {
+        "id": "B",
+        "text": "Thrombosis of the posterior cerebral arteries supplying both cuneus gyri"
+      },
+      {
+        "id": "C",
+        "text": "Subfalcine herniation compressing both anterior cerebral artery segments"
+      },
+      {
+        "id": "D",
+        "text": "Saccular aneurysm arising from the anterior communicating artery bifurcation"
+      },
+      {
+        "id": "E",
+        "text": "Bilateral atherosclerotic calcification and ectasia of the internal carotid arteries"
+      }
+    ],
+    "correct_answer": "E",
+    "explanation": "Binasal hemianopia is an uncommon visual field defect in which the nasal hemifields of both eyes are lost. This defect requires bilateral injury to the uncrossed, lateral (temporal) retinal fibers traversing the lateral aspects of the optic chiasm. The most classic etiology is bilateral atherosclerotic ectasia, calcification, or aneurysmal dilation of the internal carotid arteries, which flank both lateral margins of the optic chiasm and compress these uncrossed temporal fibers.",
+    "high_yield_pearl": "Binasal hemianopia: bilateral compression of lateral optic chiasm temporal fibers, classically due to bilateral calcified ICAs.",
+    "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MjAiIGhlaWdodD0iMjMwIiB2aWV3Qm94PSIwIDAgNDIwIDIzMCI+PHJlY3Qgd2lkdGg9IjQyMCIgaGVpZ2h0PSIyMzAiIGZpbGw9IiNmZmZmZmYiLz48dGV4dCB4PSIyMTAiIHk9IjIwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMxMTEiPlZpc3VhbCBmaWVsZHMgKHZpZXdlZCBhcyB0aGUgcGF0aWVudCBzZWVzIHRoZW0pPC90ZXh0PjxjaXJjbGUgY3g9IjExMCIgY3k9IjExNSIgcj0iNzIiIGZpbGw9IiNmZmZmZmYiIHN0cm9rZT0iIzExMSIgc3Ryb2tlLXdpZHRoPSIyIi8+PHBhdGggZD0iTTExMCwxMTUgTDExMCw0MyBBNzIsNzIgMCAwIDEgMTgyLDExNSBaIiBmaWxsPSIjMWYyOTM3Ii8+PHBhdGggZD0iTTExMCwxMTUgTDE4MiwxMTUgQTcyLDcyIDAgMCAxIDExMCwxODcgWiIgZmlsbD0iIzFmMjkzNyIvPjxsaW5lIHgxPSIzOCIgeTE9IjExNSIgeDI9IjE4MiIgeTI9IjExNSIgc3Ryb2tlPSIjOWNhM2FmIiBzdHJva2Utd2lkdGg9IjEiLz48bGluZSB4MT0iMTEwIiB5MT0iNDMiIHgyPSIxMTAiIHkyPSIxODciIHN0cm9rZT0iIzljYTNhZiIgc3Ryb2tlLXdpZHRoPSIxIi8+PGNpcmNsZSBjeD0iMTEwIiBjeT0iMTE1IiByPSI3MiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTExIiBzdHJva2Utd2lkdGg9IjIiLz48dGV4dCB4PSIxMTAiIHk9IjIwOSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMTExIj5MRUZUIEVZRTwvdGV4dD48Y2lyY2xlIGN4PSIzMTAiIGN5PSIxMTUiIHI9IjcyIiBmaWxsPSIjZmZmZmZmIiBzdHJva2U9IiMxMTEiIHN0cm9rZS13aWR0aD0iMiIvPjxwYXRoIGQ9Ik0zMTAsMTE1IEwyMzgsMTE1IEE3Miw3MiAwIDAgMSAzMTAsNDMgWiIgZmlsbD0iIzFmMjkzNyIvPjxwYXRoIGQ9Ik0zMTAsMTE1IEwzMTAsMTg3IEE3Miw3MiAwIDAgMSAyMzgsMTE1IFoiIGZpbGw9IiMxZjI5MzciLz48bGluZSB4MT0iMjM4IiB5MT0iMTE1IiB4Mj0iMzgyIiB5Mj0iMTE1IiBzdHJva2U9IiM5Y2EzYWYiIHN0cm9rZS13aWR0aD0iMSIvPjxsaW5lIHgxPSIzMTAiIHkxPSI0MyIgeDI9IjMxMCIgeTI9IjE4NyIgc3Ryb2tlPSIjOWNhM2FmIiBzdHJva2Utd2lkdGg9IjEiLz48Y2lyY2xlIGN4PSIzMTAiIGN5PSIxMTUiIHI9IjcyIiBmaWxsPSJub25lIiBzdHJva2U9IiMxMTEiIHN0cm9rZS13aWR0aD0iMiIvPjx0ZXh0IHg9IjMxMCIgeT0iMjA5IiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMxMTEiPlJJR0hUIEVZRTwvdGV4dD48L3N2Zz4=",
+    "image_file": "images/vf_binasal.svg"
+  },
+  {
+    "id": 165,
+    "q_num": "165",
+    "category": "Visual System",
+    "source": "Lecture Slide 10-12 & Content Q5: Optic Tract & Wernicke Pupil",
+    "question": "A 56-year-old woman sustains an embolic stroke affecting the left optic tract. Beyond having a complete right homonymous hemianopia, she exhibits Wernicke's hemianopic pupillary sign. Which finding describes this pupillary phenomenon?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Light directed onto the non-seeing hemiretinas fails to elicit pupillary constriction"
+      },
+      {
+        "id": "B",
+        "text": "The pupils constrict briskly to accommodation but do not respond to direct light"
+      },
+      {
+        "id": "C",
+        "text": "The ipsilateral pupil is persistently constricted and fails to dilate in darkness"
+      },
+      {
+        "id": "D",
+        "text": "Both pupils remain fixed and dilated in response to all visual stimuli bilaterally"
+      },
+      {
+        "id": "E",
+        "text": "Pupillary constriction occurs paradoxically when swinging the light to the left eye"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "The optic tract contains axons from the ipsilateral temporal hemiretina and contralateral nasal hemiretina (conveying the entire contralateral hemifield). In addition to relaying to the LGN for vision, some fibers branch off prior to the LGN to synapse in the pretectal nuclei mediating the pupillary light reflex. Wernicke's hemianopic pupil occurs in optic tract lesions: shining a narrow beam of light onto the hemiretinas on the blind side elicits no pupillary reaction, whereas shining light onto the seeing hemiretinas produces normal bilateral constriction.",
+    "high_yield_pearl": "Optic tract lesion: contralateral homonymous hemianopia + Wernicke pupil (light on blind hemiretina produces no pupillary response).",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 166,
+    "q_num": "166",
+    "category": "Visual System",
+    "source": "Lecture Slide 14-16 & Content Q4: LGN Magnocellular Layers",
+    "question": "The lateral geniculate nucleus (LGN) consists of six distinct cellular layers. Layers 1 and 2 comprise the magnocellular pathway, receiving inputs from parasol (M) retinal ganglion cells. Which visual perceptual modality is predominantly processed by these two magnocellular layers?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Detection of rapid motion, flicker, depth, and broad spatial organization"
+      },
+      {
+        "id": "B",
+        "text": "Fine spatial acuity required for reading fine printed text and faces"
+      },
+      {
+        "id": "C",
+        "text": "Direct initiation of autonomic circadian neuroendocrine hormone release"
+      },
+      {
+        "id": "D",
+        "text": "High-resolution color vision in the red-green chromatic spectrum"
+      },
+      {
+        "id": "E",
+        "text": "Conscious recognition of complex shapes and semantic object identities"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "The LGN is organized into six layers: Layers 1-2 are the Magnocellular layers (M-pathway), and Layers 3-6 are the Parvocellular layers (P-pathway). Magnocellular neurons have large receptive fields, respond transiently with rapid axonal conduction velocity, and exhibit high contrast sensitivity. They are specialized for detecting movement, flicker, location, and depth ('Where' pathway). They do not process color or fine high-spatial-frequency detail.",
+    "high_yield_pearl": "LGN Magnocellular (Layers 1-2): M-cells, large receptive fields, fast conduction -> motion, depth, location ('Where' dorsal stream).",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 167,
+    "q_num": "167",
+    "category": "Visual System",
+    "source": "Lecture Slide 14-16 & Content Q4: LGN Parvocellular Layers",
+    "question": "Layers 3, 4, 5, and 6 of the lateral geniculate nucleus receive inputs from midget (P) ganglion cells and form the parvocellular visual pathway. Which perceptual deficit would occur following a selective neurotoxic ablation of these parvocellular layers?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Severe loss of color discrimination and fine visual acuity for detailed shapes"
+      },
+      {
+        "id": "B",
+        "text": "Complete loss of stereoscopic depth perception while tracking moving targets"
+      },
+      {
+        "id": "C",
+        "text": "Impairment of rapid saccadic refixation toward peripheral visual stimuli"
+      },
+      {
+        "id": "D",
+        "text": "Disruption of the circadian sleep-wake cycle and melatonin secretion rhythm"
+      },
+      {
+        "id": "E",
+        "text": "Inability to perceive the movement or speed of a rapidly traveling vehicle"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "The Parvocellular layers (Layers 3-6 of the LGN) receive input from midget (P) ganglion cells. Parvocellular neurons have small receptive fields, sustained firing properties, slower conduction velocities, and wavelength sensitivity. They are dedicated to high spatial resolution, fine detail, shape analysis, and red-green color vision ('What' pathway). Damage impairs color discrimination and high-acuity form perception.",
+    "high_yield_pearl": "LGN Parvocellular (Layers 3-6): P-cells, small receptive fields, sustained firing -> fine acuity, color vision, detailed shape ('What' ventral stream).",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 168,
+    "q_num": "168",
+    "category": "Visual System",
+    "source": "Lecture Slide 14-16 & Content Q4: LGN Layer Eye Segregation",
+    "question": "A neuroanatomist traces anterograde axonal degeneration following enucleation of the left eye in an animal model. In the right lateral geniculate nucleus, which specific laminae will demonstrate terminal axonal degeneration?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Layers 2, 3, and 5 of the contralateral lateral geniculate nucleus"
+      },
+      {
+        "id": "B",
+        "text": "Layers 1 and 2 exclusively, with complete sparing of layers 3 through 6"
+      },
+      {
+        "id": "C",
+        "text": "All six laminar layers uniformly across the entire dorsal nuclear extent"
+      },
+      {
+        "id": "D",
+        "text": "Layers 3, 4, 5, and 6 exclusively, sparing the basal magnocellular layers"
+      },
+      {
+        "id": "E",
+        "text": "Layers 1, 4, and 6 of the contralateral lateral geniculate nucleus"
+      }
+    ],
+    "correct_answer": "E",
+    "explanation": "Within each lateral geniculate nucleus (LGN), axons from the two eyes remain strictly segregated in separate layers: Axons from the CONTRALATERAL eye (nasal hemiretina) cross the optic chiasm and terminate in layers 1, 4, and 6. Axons from the IPSILATERAL eye (temporal hemiretina) remain uncrossed and terminate in layers 2, 3, and 5. Therefore, enucleation of the left eye will result in degeneration in layers 1, 4, and 6 of the right LGN.",
+    "high_yield_pearl": "LGN eye segregation: Contralateral eye = Layers 1, 4, 6. Ipsilateral eye = Layers 2, 3, 5.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 169,
+    "q_num": "169",
+    "category": "Visual System",
+    "source": "Lecture Slide 14 & Content Q5: Lateral Posterior Choroidal Artery LGN Infarct",
+    "question": "A 63-year-old man develops a distinctive visual deficit following a stroke. Visual field perimetry demonstrates a homonymous horizontal quadruple sectoranopia (a wedge-shaped defect centered on the horizontal meridian in both eyes). An MRI confirms a focal thalamic infarct. Which artery supplies the lateral geniculate nucleus and is occluded in this patient?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ophthalmic artery providing branches to the intraorbital optic nerve"
+      },
+      {
+        "id": "B",
+        "text": "Superior cerebellar artery supplying the dorsal midbrain tectum"
+      },
+      {
+        "id": "C",
+        "text": "Lateral posterior choroidal artery arising from the posterior cerebral artery"
+      },
+      {
+        "id": "D",
+        "text": "Medial striate artery arising from the anterior cerebral artery"
+      },
+      {
+        "id": "E",
+        "text": "Anterior communicating artery supplying the rostral hypothalamus"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "The lateral geniculate nucleus has a dual arterial blood supply: the anterior choroidal artery (from the ICA) supplies its anteromedial aspect, while the lateral posterior choroidal artery (from the PCA) supplies its posterolateral aspect. Occlusion of the lateral posterior choroidal artery produces a pathognomonic 'quadruple sectoranopia' (or wedge-shaped horizontal sectoranopia) sparing the upper and lower quadrants, perfectly reflecting the retinotopic map in the LGN.",
+    "high_yield_pearl": "LGN blood supply: Anterior choroidal artery (ICA) & Lateral posterior choroidal artery (PCA). Occlusion causes sectoranopia.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 170,
+    "q_num": "170",
+    "category": "Visual System",
+    "source": "Lecture Slide 17-21 & Content Q5: Meyer Loop Trajectory",
+    "question": "During a neurosurgical approach for temporal lobe epilepsy, the surgeon must avoid the optic radiation fibers of Meyer's loop. What is the precise anatomical course of these fibers as they travel from the lateral geniculate nucleus to the primary visual cortex?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They travel within the posterior limb of the internal capsule directly to the occipital pole"
+      },
+      {
+        "id": "B",
+        "text": "They course directly posteriorly through the parietal white matter into the cuneus"
+      },
+      {
+        "id": "C",
+        "text": "They loop anteriorly into the frontal pole before turning back through the cingulum"
+      },
+      {
+        "id": "D",
+        "text": "They pass medial to the cerebral aqueduct through the dorsal midbrain tegmentum"
+      },
+      {
+        "id": "E",
+        "text": "They sweep anteriorly over the temporal horn of the lateral ventricle into the lingual gyrus"
+      }
+    ],
+    "correct_answer": "E",
+    "explanation": "The optic radiations consist of two distinct bundles: 1) Meyer's loop (inferior retinal fibers representing the superior visual field), which loops anteriorly and anterolaterally around the temporal horn of the lateral ventricle into the temporal lobe before turning posteriorly to terminate in the lingual gyrus (below the calcarine fissure). 2) The superior/parietal bundle (Baum's loop), which courses directly posteriorly through the parietal lobe to the cuneus (above the calcarine fissure).",
+    "high_yield_pearl": "Meyer's loop: Inferior retina -> sweeps anteriorly around temporal horn of lateral ventricle -> lingual gyrus (represents superior field).",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 171,
+    "q_num": "171",
+    "category": "Visual System",
+    "source": "Case 1 & Content Q5: Anterior Temporal Lobectomy",
+    "question": "A 32-year-old woman with intractable complex partial seizures undergoes a left anterior temporal lobectomy. Following surgery, visual field testing reveals a right superior homonymous quadrantanopia ('pie in the sky'), as shown in the exhibit. Which anatomical structure was inadvertently transected during the anterior temporal resection?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Superior bundle of the left optic radiation traversing the parietal lobe"
+      },
+      {
+        "id": "B",
+        "text": "Left lingual gyrus located along the ventral aspect of the occipital lobe"
+      },
+      {
+        "id": "C",
+        "text": "Left cuneus gyrus situated immediately superior to the calcarine fissure"
+      },
+      {
+        "id": "D",
+        "text": "Meyer's loop of the left optic radiation in the temporal lobe white matter"
+      },
+      {
+        "id": "E",
+        "text": "Left optic tract immediately before it enters the lateral geniculate nucleus"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "Anterior temporal lobectomy is a standard surgical treatment for medically refractory temporal lobe epilepsy. Transection of white matter in the anterior temporal lobe frequently interrupts Meyer's loop, which sweeps anteriorly around the temporal horn of the lateral ventricle. Because Meyer's loop carries fibers from the inferior retina (which detects light from the superior visual field), damage produces a contralateral superior homonymous quadrantanopia ('pie in the sky').",
+    "high_yield_pearl": "Temporal lobe lesion / resection -> transects Meyer's loop -> Contralateral superior homonymous quadrantanopia ('pie in the sky').",
+    "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MjAiIGhlaWdodD0iMjMwIiB2aWV3Qm94PSIwIDAgNDIwIDIzMCI+PHJlY3Qgd2lkdGg9IjQyMCIgaGVpZ2h0PSIyMzAiIGZpbGw9IiNmZmZmZmYiLz48dGV4dCB4PSIyMTAiIHk9IjIwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMxMTEiPlZpc3VhbCBmaWVsZHMgKHZpZXdlZCBhcyB0aGUgcGF0aWVudCBzZWVzIHRoZW0pPC90ZXh0PjxjaXJjbGUgY3g9IjExMCIgY3k9IjExNSIgcj0iNzIiIGZpbGw9IiNmZmZmZmYiIHN0cm9rZT0iIzExMSIgc3Ryb2tlLXdpZHRoPSIyIi8+PHBhdGggZD0iTTExMCwxMTUgTDExMCw0MyBBNzIsNzIgMCAwIDEgMTgyLDExNSBaIiBmaWxsPSIjMWYyOTM3Ii8+PGxpbmUgeDE9IjM4IiB5MT0iMTE1IiB4Mj0iMTgyIiB5Mj0iMTE1IiBzdHJva2U9IiM5Y2EzYWYiIHN0cm9rZS13aWR0aD0iMSIvPjxsaW5lIHgxPSIxMTAiIHkxPSI0MyIgeDI9IjExMCIgeTI9IjE4NyIgc3Ryb2tlPSIjOWNhM2FmIiBzdHJva2Utd2lkdGg9IjEiLz48Y2lyY2xlIGN4PSIxMTAiIGN5PSIxMTUiIHI9IjcyIiBmaWxsPSJub25lIiBzdHJva2U9IiMxMTEiIHN0cm9rZS13aWR0aD0iMiIvPjx0ZXh0IHg9IjExMCIgeT0iMjA5IiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMxMTEiPkxFRlQgRVlFPC90ZXh0PjxjaXJjbGUgY3g9IjMxMCIgY3k9IjExNSIgcj0iNzIiIGZpbGw9IiNmZmZmZmYiIHN0cm9rZT0iIzExMSIgc3Ryb2tlLXdpZHRoPSIyIi8+PHBhdGggZD0iTTMxMCwxMTUgTDMxMCw0MyBBNzIsNzIgMCAwIDEgMzgyLDExNSBaIiBmaWxsPSIjMWYyOTM3Ii8+PGxpbmUgeDE9IjIzOCIgeTE9IjExNSIgeDI9IjM4MiIgeTI9IjExNSIgc3Ryb2tlPSIjOWNhM2FmIiBzdHJva2Utd2lkdGg9IjEiLz48bGluZSB4MT0iMzEwIiB5MT0iNDMiIHgyPSIzMTAiIHkyPSIxODciIHN0cm9rZT0iIzljYTNhZiIgc3Ryb2tlLXdpZHRoPSIxIi8+PGNpcmNsZSBjeD0iMzEwIiBjeT0iMTE1IiByPSI3MiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTExIiBzdHJva2Utd2lkdGg9IjIiLz48dGV4dCB4PSIzMTAiIHk9IjIwOSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMTExIj5SSUdIVCBFWUU8L3RleHQ+PC9zdmc+",
+    "image_file": "images/vf_r_sup_quad.svg"
+  },
+  {
+    "id": 172,
+    "q_num": "172",
+    "category": "Visual System",
+    "source": "Case 4 & Content Q5: Parietal Lobe Infarct & Baum's Loop",
+    "question": "A 67-year-old woman has an ischemic stroke involving the right parietal lobe. She repeatedly bumps into objects on her left side and fails to see items placed on the lower left of her dinner tray. Visual field testing reveals a left inferior homonymous quadrantanopia ('pie on the floor'), as shown in the exhibit. Which visual fiber pathway has been disrupted?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Left uncrossed temporal retinal axons running in the lateral optic chiasm"
+      },
+      {
+        "id": "B",
+        "text": "Superior optic radiation (Baum's loop) traversing the right parietal lobe"
+      },
+      {
+        "id": "C",
+        "text": "Right lingual gyrus positioned along the ventral occipital cortex"
+      },
+      {
+        "id": "D",
+        "text": "Meyer's loop sweeping through the right anterior temporal lobe white matter"
+      },
+      {
+        "id": "E",
+        "text": "Right optic tract conveying input to the ipsilateral pretectal nucleus"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "The superior fibers of the optic radiations (Baum's loop) pass directly posteriorly through the parietal lobe white matter to terminate in the cuneus (the superior bank of the calcarine sulcus). These fibers convey visual information from the superior retina, which corresponds to the inferior visual field. A lesion in the right parietal lobe interrupts these fibers, causing a contralateral inferior homonymous quadrantanopia ('pie on the floor').",
+    "high_yield_pearl": "Parietal lobe lesion -> damages superior optic radiations (Baum's loop) -> Contralateral inferior homonymous quadrantanopia ('pie on the floor').",
+    "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MjAiIGhlaWdodD0iMjMwIiB2aWV3Qm94PSIwIDAgNDIwIDIzMCI+PHJlY3Qgd2lkdGg9IjQyMCIgaGVpZ2h0PSIyMzAiIGZpbGw9IiNmZmZmZmYiLz48dGV4dCB4PSIyMTAiIHk9IjIwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMxMTEiPlZpc3VhbCBmaWVsZHMgKHZpZXdlZCBhcyB0aGUgcGF0aWVudCBzZWVzIHRoZW0pPC90ZXh0PjxjaXJjbGUgY3g9IjExMCIgY3k9IjExNSIgcj0iNzIiIGZpbGw9IiNmZmZmZmYiIHN0cm9rZT0iIzExMSIgc3Ryb2tlLXdpZHRoPSIyIi8+PHBhdGggZD0iTTExMCwxMTUgTDE4MiwxMTUgQTcyLDcyIDAgMCAxIDExMCwxODcgWiIgZmlsbD0iIzFmMjkzNyIvPjxsaW5lIHgxPSIzOCIgeTE9IjExNSIgeDI9IjE4MiIgeTI9IjExNSIgc3Ryb2tlPSIjOWNhM2FmIiBzdHJva2Utd2lkdGg9IjEiLz48bGluZSB4MT0iMTEwIiB5MT0iNDMiIHgyPSIxMTAiIHkyPSIxODciIHN0cm9rZT0iIzljYTNhZiIgc3Ryb2tlLXdpZHRoPSIxIi8+PGNpcmNsZSBjeD0iMTEwIiBjeT0iMTE1IiByPSI3MiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTExIiBzdHJva2Utd2lkdGg9IjIiLz48dGV4dCB4PSIxMTAiIHk9IjIwOSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMTExIj5MRUZUIEVZRTwvdGV4dD48Y2lyY2xlIGN4PSIzMTAiIGN5PSIxMTUiIHI9IjcyIiBmaWxsPSIjZmZmZmZmIiBzdHJva2U9IiMxMTEiIHN0cm9rZS13aWR0aD0iMiIvPjxwYXRoIGQ9Ik0zMTAsMTE1IEwzODIsMTE1IEE3Miw3MiAwIDAgMSAzMTAsMTg3IFoiIGZpbGw9IiMxZjI5MzciLz48bGluZSB4MT0iMjM4IiB5MT0iMTE1IiB4Mj0iMzgyIiB5Mj0iMTE1IiBzdHJva2U9IiM5Y2EzYWYiIHN0cm9rZS13aWR0aD0iMSIvPjxsaW5lIHgxPSIzMTAiIHkxPSI0MyIgeDI9IjMxMCIgeTI9IjE4NyIgc3Ryb2tlPSIjOWNhM2FmIiBzdHJva2Utd2lkdGg9IjEiLz48Y2lyY2xlIGN4PSIzMTAiIGN5PSIxMTUiIHI9IjcyIiBmaWxsPSJub25lIiBzdHJva2U9IiMxMTEiIHN0cm9rZS13aWR0aD0iMiIvPjx0ZXh0IHg9IjMxMCIgeT0iMjA5IiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMxMTEiPlJJR0hUIEVZRTwvdGV4dD48L3N2Zz4=",
+    "image_file": "images/vf_r_inf_quad.svg"
+  },
+  {
+    "id": 173,
+    "q_num": "173",
+    "category": "Visual System",
+    "source": "Lecture Slide 13 & Content Q4: Primary Visual Cortex Cytoarchitecture",
+    "question": "On histological examination of the primary visual cortex (Brodmann area 17), a prominent, myelinated horizontal band of nerve fibers is visible macroscopically to the naked eye. In which cortical layer does this prominent stripe of Gennari lie, and from which structure does it receive its primary afferent input?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Layer I, receiving widespread modulatory inputs from the locus coeruleus"
+      },
+      {
+        "id": "B",
+        "text": "Layer IV, receiving thalamocortical afferents from the lateral geniculate nucleus"
+      },
+      {
+        "id": "C",
+        "text": "Layer VI, providing reciprocal corticothalamic feedback to the reticular nucleus"
+      },
+      {
+        "id": "D",
+        "text": "Layer III, receiving corticocortical commissural fibers from the corpus callosum"
+      },
+      {
+        "id": "E",
+        "text": "Layer V, giving rise to long descending motor projections to the superior colliculus"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "The primary visual cortex (striate cortex, V1, area 17) is characterized macroscopically and microscopically by the 'Stria of Gennari' (line of Gennari). This prominent white band represents a dense plexus of horizontally running, heavily myelinated axon terminals located in internal granular Layer IV (specifically sublayer IVC). These fibers are the thalamocortical projections arriving directly from the lateral geniculate nucleus (LGN).",
+    "high_yield_pearl": "Stria of Gennari: Layer IV of primary visual cortex (V1, area 17), composed of myelinated thalamocortical afferents from the LGN.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 174,
+    "q_num": "174",
+    "category": "Visual System",
+    "source": "Lecture Slide 13 & Content Q4: Ocular Dominance Columns & Deprivation",
+    "question": "In classic experiments by Hubel and Wiesel, a newborn kitten had its right eyelid sutured shut during the first three months of life (monocular deprivation). When the eye was reopened in adulthood, the animal was functionally blind in that eye. Histological examination of the primary visual cortex revealed marked narrowing of right-eye columns and widening of left-eye columns in layer IV. What developmental phenomenon explains this finding?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Complete loss of lateral geniculate nucleus neurons in all six cellular layers"
+      },
+      {
+        "id": "B",
+        "text": "Activity-dependent synaptic remodeling of ocular dominance columns during a critical period"
+      },
+      {
+        "id": "C",
+        "text": "Retrograde degeneration of the right optic nerve through Wallerian degeneration"
+      },
+      {
+        "id": "D",
+        "text": "Failure of the pupil to constrict due to loss of the Edinger-Westphal nucleus"
+      },
+      {
+        "id": "E",
+        "text": "Apoptosis of all retinal ganglion cells in the deprived right retina"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Ocular dominance columns are stripes of neurons in layer IV of the primary visual cortex that respond preferentially to input from one eye. During early postnatal life (the 'critical period'), visual cortex circuitry undergoes competitive, activity-dependent synaptic remodeling. Depriving one eye of patterned visual input causes its axonal terminals in layer IV to shrink and lose territory to inputs from the active, open eye, leading to irreversible cortical blindness (amblyopia) despite an anatomically intact retina.",
+    "high_yield_pearl": "Monocular deprivation during critical period -> loss of cortical territory in ocular dominance columns (layer IV) -> cortical amblyopia.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 175,
+    "q_num": "175",
+    "category": "Visual System",
+    "source": "Lecture Slide 13 & Content Q4: Cytochrome Oxidase Blobs",
+    "question": "Staining primary visual cortex with cytochrome oxidase reveals peg-like cylindrical pillars distributed across layers II and III known as 'blobs'. Electrophysiological recordings from neurons within these blobs demonstrate which unique receptive field characteristic?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Selective responsiveness to binocular disparity and stereoscopic depth"
+      },
+      {
+        "id": "B",
+        "text": "Pure sensitivity to acoustic frequencies synchronized with saccadic eye motion"
+      },
+      {
+        "id": "C",
+        "text": "High tuning for linear edge orientation and direction of movement"
+      },
+      {
+        "id": "D",
+        "text": "Exclusive responsiveness to high-frequency vibrational and tactile stimuli"
+      },
+      {
+        "id": "E",
+        "text": "Sensitivity to color wavelength and lack of orientation selectivity"
+      }
+    ],
+    "correct_answer": "E",
+    "explanation": "In the primary visual cortex (layers II and III), staining for the mitochondrial enzyme cytochrome oxidase reveals repeating pillar-like regions known as 'blobs' separated by 'interblob' regions. Neurons inside the blobs are wavelength-sensitive (color processing) and lack orientation selectivity. In contrast, neurons in the interblob regions are strongly tuned to edge orientation, binocular disparity, and spatial form but are insensitive to color.",
+    "high_yield_pearl": "Cytochrome oxidase blobs (layers II-III of V1): process color wavelength, lack orientation selectivity. Interblobs process orientation and form.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 176,
+    "q_num": "176",
+    "category": "Visual System",
+    "source": "Lecture Slide 22-26 & Content Q2: Retinotopic Cortical Magnification",
+    "question": "Although the macula and fovea account for less than 1% of the total surface area of the retina, functional MRI studies show that their representation occupies over 50% of the primary visual cortex surface area at the occipital pole. What is the functional significance of this cortical magnification?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Facilitating rapid subconscious reflex turning of the head toward moving objects"
+      },
+      {
+        "id": "B",
+        "text": "Providing high spatial visual acuity and fine discrimination in central vision"
+      },
+      {
+        "id": "C",
+        "text": "Maximizing light sensitivity under dark-adapted, low-luminance conditions"
+      },
+      {
+        "id": "D",
+        "text": "Coordinating sympathetic pupillary dilation during emergency fight-or-flight states"
+      },
+      {
+        "id": "E",
+        "text": "Allowing simultaneous panoramic surveillance across the entire visual periphery"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Cortical magnification refers to the disproportionate allocation of cortical processing machinery in V1 to central vision. The fovea has dense cone packing, a 1:1 photoreceptor-to-bipolar-to-ganglion cell ratio, and tiny receptive fields. Dedicating over half of the primary visual cortex to central visual input provides the neural circuitry necessary for high-resolution visual acuity, reading, fine color discrimination, and facial recognition.",
+    "high_yield_pearl": "Cortical magnification: >50% of V1 dedicated to fovea/macula -> high spatial acuity and detailed central vision.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 177,
+    "q_num": "177",
+    "category": "Visual System",
+    "source": "Lecture Slide 25-26 & Content Q5: Macular Sparing in PCA Stroke",
+    "question": "A 72-year-old man with hypertension develops a sudden right homonymous hemianopia with macular sparing, as shown in the exhibit. Brain imaging confirms an ischemic stroke in the left occipital lobe. Which vascular feature is primarily responsible for the preservation of central vision (macular sparing) in this patient?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Retrograde venous flow through the superior sagittal sinus preserving tissue viability"
+      },
+      {
+        "id": "B",
+        "text": "Collateral supply from the external carotid artery via the middle meningeal artery"
+      },
+      {
+        "id": "C",
+        "text": "Dual collateral perfusion of the occipital pole by branches of the middle cerebral artery"
+      },
+      {
+        "id": "D",
+        "text": "Anastomosis between the internal carotid artery and the superior ophthalmic vein"
+      },
+      {
+        "id": "E",
+        "text": "Direct blood supply to the visual cortex from the anterior spinal artery network"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "The primary visual cortex lies along the calcarine sulcus in the occipital lobe and is supplied predominantly by the posterior cerebral artery (PCA). However, the posterior pole of the occipital cortex, which represents the macula, has a dual blood supply: it receives terminal collateral branches from both the PCA and the middle cerebral artery (MCA). When a PCA occlusion causes an occipital lobe infarct, MCA collateral flow preserves the occipital pole, resulting in homonymous hemianopia with macular sparing.",
+    "high_yield_pearl": "PCA infarct -> contralateral homonymous hemianopia with macular sparing due to collateral supply from the MCA at the occipital pole.",
+    "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MjAiIGhlaWdodD0iMjMwIiB2aWV3Qm94PSIwIDAgNDIwIDIzMCI+PHJlY3Qgd2lkdGg9IjQyMCIgaGVpZ2h0PSIyMzAiIGZpbGw9IiNmZmZmZmYiLz48dGV4dCB4PSIyMTAiIHk9IjIwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMxMTEiPlZpc3VhbCBmaWVsZHMgKHZpZXdlZCBhcyB0aGUgcGF0aWVudCBzZWVzIHRoZW0pPC90ZXh0PjxjaXJjbGUgY3g9IjExMCIgY3k9IjExNSIgcj0iNzIiIGZpbGw9IiNmZmZmZmYiIHN0cm9rZT0iIzExMSIgc3Ryb2tlLXdpZHRoPSIyIi8+PHBhdGggZD0iTTExMCwxMTUgTDExMCw0MyBBNzIsNzIgMCAwIDEgMTgyLDExNSBaIiBmaWxsPSIjMWYyOTM3Ii8+PHBhdGggZD0iTTExMCwxMTUgTDE4MiwxMTUgQTcyLDcyIDAgMCAxIDExMCwxODcgWiIgZmlsbD0iIzFmMjkzNyIvPjxjaXJjbGUgY3g9IjExMCIgY3k9IjExNSIgcj0iMTUiIGZpbGw9IiNmZmZmZmYiLz48bGluZSB4MT0iMzgiIHkxPSIxMTUiIHgyPSIxODIiIHkyPSIxMTUiIHN0cm9rZT0iIzljYTNhZiIgc3Ryb2tlLXdpZHRoPSIxIi8+PGxpbmUgeDE9IjExMCIgeTE9IjQzIiB4Mj0iMTEwIiB5Mj0iMTg3IiBzdHJva2U9IiM5Y2EzYWYiIHN0cm9rZS13aWR0aD0iMSIvPjxjaXJjbGUgY3g9IjExMCIgY3k9IjExNSIgcj0iNzIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzExMSIgc3Ryb2tlLXdpZHRoPSIyIi8+PHRleHQgeD0iMTEwIiB5PSIyMDkiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzExMSI+TEVGVCBFWUU8L3RleHQ+PGNpcmNsZSBjeD0iMzEwIiBjeT0iMTE1IiByPSI3MiIgZmlsbD0iI2ZmZmZmZiIgc3Ryb2tlPSIjMTExIiBzdHJva2Utd2lkdGg9IjIiLz48cGF0aCBkPSJNMzEwLDExNSBMMzEwLDQzIEE3Miw3MiAwIDAgMSAzODIsMTE1IFoiIGZpbGw9IiMxZjI5MzciLz48cGF0aCBkPSJNMzEwLDExNSBMMzgyLDExNSBBNzIsNzIgMCAwIDEgMzEwLDE4NyBaIiBmaWxsPSIjMWYyOTM3Ii8+PGNpcmNsZSBjeD0iMzEwIiBjeT0iMTE1IiByPSIxNSIgZmlsbD0iI2ZmZmZmZiIvPjxsaW5lIHgxPSIyMzgiIHkxPSIxMTUiIHgyPSIzODIiIHkyPSIxMTUiIHN0cm9rZT0iIzljYTNhZiIgc3Ryb2tlLXdpZHRoPSIxIi8+PGxpbmUgeDE9IjMxMCIgeTE9IjQzIiB4Mj0iMzEwIiB5Mj0iMTg3IiBzdHJva2U9IiM5Y2EzYWYiIHN0cm9rZS13aWR0aD0iMSIvPjxjaXJjbGUgY3g9IjMxMCIgY3k9IjExNSIgcj0iNzIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzExMSIgc3Ryb2tlLXdpZHRoPSIyIi8+PHRleHQgeD0iMzEwIiB5PSIyMDkiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzExMSI+UklHSFQgRVlFPC90ZXh0Pjwvc3ZnPg==",
+    "image_file": "images/vf_rhh_macular_sparing.svg"
+  },
+  {
+    "id": 178,
+    "q_num": "178",
+    "category": "Visual System",
+    "source": "Case 3 & Content Q5: Central Homonymous Scotoma / Macular Infarct",
+    "question": "A 28-year-old soldier sustains a penetrating shrapnel injury to the very tip of the occipital pole on the right side. On formal perimetry, his peripheral visual fields are completely intact in both eyes, but he has an isolated central homonymous scotoma in the left hemifield. Which anatomical principle explains why his peripheral vision was completely spared?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Retinal ganglion cells from the peripheral retina do not cross at the optic chiasm"
+      },
+      {
+        "id": "B",
+        "text": "Peripheral visual fields are represented in the anterior calcarine cortex, which was spared"
+      },
+      {
+        "id": "C",
+        "text": "Peripheral vision bypasses the striate cortex and projects directly to the cerebellum"
+      },
+      {
+        "id": "D",
+        "text": "The peripheral retina is represented exclusively in the parietal and frontal lobes"
+      },
+      {
+        "id": "E",
+        "text": "Peripheral visual fields are processed entirely by the lateral geniculate nucleus"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Retinotopy along the calcarine sulcus is arranged such that the central visual field (macula) is represented at the posterior occipital pole, whereas the peripheral visual field is represented progressively more anteriorly along the calcarine fissure. A focal lesion restricted to the tip of the occipital pole destroys the macular representation while sparing the anterior calcarine cortex, producing an isolated central homonymous scotoma with completely preserved peripheral visual fields.",
+    "high_yield_pearl": "Retinotopy: Macula = posterior occipital pole. Peripheral field = anterior calcarine cortex. Tip lesion spares periphery.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 179,
+    "q_num": "179",
+    "category": "Visual System",
+    "source": "Content Q4: Visual Object Agnosia",
+    "question": "A 65-year-old man who recently recovered from bilateral posterior watershed strokes is evaluated. He has normal visual acuity (20/20 in both eyes), full visual fields, and intact ocular motility. When shown a toothbrush, he can accurately describe its shape, white bristles, and blue handle, but cannot state what it is or how it is used. When the examiner places the toothbrush into his hand, he immediately smiles and says, 'It's a toothbrush for cleaning teeth.' What is the diagnosis and anatomical location of this deficit?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hemispatial neglect syndrome caused by a non-dominant superior parietal lobe infarct"
+      },
+      {
+        "id": "B",
+        "text": "Expressive motor aphasia resulting from an ischemic lesion in the left inferior frontal gyrus"
+      },
+      {
+        "id": "C",
+        "text": "Visual object agnosia due to damage to the ventral visual stream in the occipitotemporal cortex"
+      },
+      {
+        "id": "D",
+        "text": "Cortical blindness caused by complete destruction of bilateral primary visual cortices"
+      },
+      {
+        "id": "E",
+        "text": "Prosopagnosia caused by selective bilateral injury to the superior temporal sulcus"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Agnosia is a disorder of recognition where primary sensory perception (acuity, visual fields) is intact, but the brain cannot attach meaning or identity to sensory input. In visual object agnosia, the patient can see and describe the physical features of an object (color, shape, lines) but cannot recognize it by sight alone; however, recognition is immediate when using other sensory modalities (tactile touch or auditory sound). This occurs from damage to the ventral visual stream ('What' pathway) in the associative occipitotemporal cortex.",
+    "high_yield_pearl": "Visual agnosia: intact visual perception (acuity/fields intact) but inability to recognize objects by sight; recognizes by touch/sound (ventral stream lesion).",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 180,
+    "q_num": "180",
+    "category": "Visual System",
+    "source": "Content Q4: Pure Alexia without Agraphia (Dejerine Syndrome)",
+    "question": "A 71-year-old retired schoolteacher presents with sudden reading difficulty. On examination, he can write a complete, grammatically correct paragraph about his family spontaneously. However, when asked to read back what he just wrote five minutes later, he is completely unable to read a single word. Visual field testing reveals a right homonymous hemianopia. Brain MRI confirms an acute infarct involving the left occipital cortex and the splenium of the corpus callosum. Which syndrome does this patient exhibit?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gerstmann syndrome caused by an ischemic infarct of the left angular gyrus"
+      },
+      {
+        "id": "B",
+        "text": "Transcortical motor aphasia caused by watershed hypoperfusion in the anterior cerebral artery"
+      },
+      {
+        "id": "C",
+        "text": "Conduction aphasia caused by an embolic lesion of the left arcuate fasciculus"
+      },
+      {
+        "id": "D",
+        "text": "Pure alexia without agraphia (Dejerine syndrome) due to visual-language disconnection"
+      },
+      {
+        "id": "E",
+        "text": "Wernicke's sensory aphasia resulting from occlusion of the left superior temporal artery"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "Pure alexia without agraphia (Dejerine syndrome or alexia without agraphia) is a classic disconnection syndrome. It is caused by an infarct of the left posterior cerebral artery (PCA) that damages the left visual cortex (causing a right homonymous hemianopia) and the splenium of the corpus callosum. Visual information from the intact right visual cortex cannot cross the splenium to reach the language centers in the left hemisphere (specifically the left angular gyrus). Because language and writing circuits (Wernicke/Broca/exner) remain intact, the patient can write normally but cannot read anything, including their own handwriting.",
+    "high_yield_pearl": "Pure alexia without agraphia: Left PCA stroke (left V1 + splenium of corpus callosum). Can write, cannot read. Right homonymous hemianopia.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 181,
+    "q_num": "181",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 5-6 & Content Q2: Coloboma Embryology",
+    "question": "A 6-month-old infant is noted to have a keyhole-shaped defect in the inferior margin of the iris in his right eye. Fundoscopy reveals an extension of the defect through the inferior ciliary body, choroid, and retina. What is the fundamental embryological defect responsible for this ocular anomaly?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Incomplete canalization of the nasolacrimal duct at the inferior turbinate"
+      },
+      {
+        "id": "B",
+        "text": "Defective neural crest cell migration into the anterior chamber angle meshwork"
+      },
+      {
+        "id": "C",
+        "text": "Failure of the embryonic optic fissure to close completely during early gestation"
+      },
+      {
+        "id": "D",
+        "text": "Failure of the surface ectoderm to invaginate and form the crystalline lens vesicle"
+      },
+      {
+        "id": "E",
+        "text": "Premature involution of the hyaloid arterial system in the posterior cavity"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "An ocular coloboma results from the failure of the embryonic optic (choroidal) fissure to fuse completely during the 6th to 7th week of development. The optic fissure normally forms along the ventral aspect of the optic stalk and cup to allow the hyaloid vasculature to enter; hence, colobomas are characteristically located in the inferior or inferonasal quadrant of the eye. A coloboma can involve the iris alone ('keyhole' pupil) or extend posteriorly to involve the ciliary body, zonules, retina, choroid, or optic nerve.",
+    "high_yield_pearl": "Coloboma: failure of embryonic optic fissure to close (inferior quadrant) -> 'keyhole' pupil; can involve ciliary body, retina, or optic nerve.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 182,
+    "q_num": "182",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 5-6: CHARGE Syndrome",
+    "question": "A newborn is found to have bilateral extensive chorioretinal colobomas, a tetralogy of Fallot cardiac defect, bilateral choanal atresia, hypoplasia of the external ears with profound sensorineural hearing loss, and micropenis. Genetic testing reveals a pathogenic heterozygous mutation in the CHD7 gene. Which syndromic diagnosis does this infant have?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CHARGE syndrome involving chromodomain helicase DNA-binding protein disruption"
+      },
+      {
+        "id": "B",
+        "text": "WAGR syndrome caused by a microdeletion on the short arm of chromosome 11"
+      },
+      {
+        "id": "C",
+        "text": "Alport syndrome caused by defective type IV collagen alpha chain synthesis"
+      },
+      {
+        "id": "D",
+        "text": "Sturge-Weber syndrome resulting from somatic mosaic mutations in GNAQ"
+      },
+      {
+        "id": "E",
+        "text": "Treacher Collins syndrome resulting from abnormal first and second pharyngeal arch development"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "CHARGE syndrome is an autosomal dominant disorder caused by mutations in the CHD7 (chromodomain helicase DNA-binding protein 7) gene on chromosome 8. The acronym stands for: Coloboma (most frequently chorioretinal or iris), Heart defects (e.g., tetralogy of Fallot, VSD), Atresia choanae, Retarded growth and development, Genital hypoplasia (micropenis, cryptorchidism), and Ear abnormalities (outer ear dysmorphism, sensorineural deafness).",
+    "high_yield_pearl": "CHARGE syndrome: Coloboma, Heart defects, Atresia choanae, Retardation, Genital hypoplasia, Ear anomalies. Mutation in CHD7.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 183,
+    "q_num": "183",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 7: Aniridia & WAGR Syndrome",
+    "question": "A 14-month-old girl has near-total absence of both irises (aniridia), horizontal nystagmus, foveal hypoplasia, and early corneal pannus. Routine abdominal ultrasound reveals a solid 6-cm renal neoplasm. Further testing reveals amblyopia and intellectual disability. A contiguous 11p13 microdeletion is identified. Which pair of genes is deleted in this syndrome?",
+    "options": [
+      {
+        "id": "A",
+        "text": "VHL and RET proto-oncogenes located on chromosome 3 and 10"
+      },
+      {
+        "id": "B",
+        "text": "NF1 and NF2 tumor suppressor genes encoding neurofibromin and merlin"
+      },
+      {
+        "id": "C",
+        "text": "COL4A5 and PKHD1 genes causing fibrocystic kidney architecture"
+      },
+      {
+        "id": "D",
+        "text": "RB1 and TP53 genes located on the long arm of chromosome 13"
+      },
+      {
+        "id": "E",
+        "text": "PAX6 and WT1 genes located together on chromosome band 11p13"
+      }
+    ],
+    "correct_answer": "E",
+    "explanation": "Aniridia (complete or partial absence of the iris) is caused by mutations in the PAX6 master control ocular gene. Non-familial, sporadic aniridia is strongly associated with WAGR syndrome, a contiguous gene deletion syndrome at 11p13 that deletes both PAX6 (causing aniridia, cataracts, glaucoma, foveal hypoplasia, and nystagmus) and the adjacent WT1 tumor suppressor gene (predisposing to Wilms tumor, Genitourinary anomalies, and intellectual Retardation).",
+    "high_yield_pearl": "WAGR syndrome (11p13 deletion): Wilms tumor (WT1), Aniridia (PAX6), Genitourinary anomalies, intellectual Retardation.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 184,
+    "q_num": "184",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 8-9 & Content Q2: Congenital Glaucoma",
+    "question": "A 3-month-old infant is brought to the pediatric ophthalmology clinic because her mother noticed that both of the baby's eyes appear unusually large and 'cloudy'. The infant frequently rubs her eyes, squints tightly in normal room lighting, and tears excessively. Intraocular pressures are elevated at 32 mmHg bilaterally. Which clinical triad and surgical target characterize this condition?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Blepharospasm, epiphora, and photophobia; treated by goniotomy to open the trabecular meshwork"
+      },
+      {
+        "id": "B",
+        "text": "Nystagmus, iris coloboma, and cataract; treated by mechanical pupillary dilation and patching"
+      },
+      {
+        "id": "C",
+        "text": "Microphthalmos, leukocoria, and strabismus; treated by primary enucleation of the disorganized globe"
+      },
+      {
+        "id": "D",
+        "text": "Proptosis, lid retraction, and chemosis; treated by orbital decompression of the lateral bony wall"
+      },
+      {
+        "id": "E",
+        "text": "Ptosis, miosis, and anhidrosis; treated by surgical sympathectomy of the superior cervical ganglion"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Congenital (infantile) glaucoma presents with the classic clinical triad of epiphora (excessive tearing), photophobia (light sensitivity), and blepharospasm (eyelid squeezing/squinting). Because infant sclera and corneas are thin and distensible, high intraocular pressure causes the eye to enlarge progressively (buphthalmos) with corneal stretching and edema (clouding). The underlying defect is dysgenesis of the anterior chamber angle (Barkan's membrane obstructing outflow). Urgent surgery (goniotomy or trabeculotomy to incise the trabecular meshwork) is necessary to avoid permanent amblyopia and blindness.",
+    "high_yield_pearl": "Congenital glaucoma: Triad of blepharospasm, epiphora, photophobia + buphthalmos (enlarged globe). Urgent goniotomy/trabeculotomy.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 185,
+    "q_num": "185",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 10-11 & Content Q2: Retinopathy of Prematurity (ROP) Pathophysiology",
+    "question": "A premature infant born at 25 weeks' gestation (birth weight 720 g) receives supplemental oxygen therapy in the neonatal ICU. Three months later, screening indirect ophthalmoscopy reveals ridge-like extraretinal fibrovascular proliferation at the junction of the vascularized and avascular retina. Which biphasic mechanism drives the development of retinopathy of prematurity (ROP)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Excessive oxygen toxicity causes direct autoimmune antibody formation against rod photoreceptors"
+      },
+      {
+        "id": "B",
+        "text": "Initial hyperoxia suppresses VEGF, followed by relative hypoxia causing a pathological surge in VEGF"
+      },
+      {
+        "id": "C",
+        "text": "Maternal cytomegalovirus infection induces thrombotic occlusion of both central retinal arteries"
+      },
+      {
+        "id": "D",
+        "text": "Premature closure of the optic fissure leads to secondary vitreal traction and detachment"
+      },
+      {
+        "id": "E",
+        "text": "Sustained arterial hypercapnia causes irreversible necrosis of retinal pigment epithelial cells"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Retinopathy of prematurity (ROP) develops in two distinct phases: Phase 1 (Hyperoxia): High supplemental oxygen delivery downregulates VEGF and erythropoietin synthesis, arresting normal vessel growth toward the peripheral retina and causing vessel regression. Phase 2 (Hypoxia): As the infant matures and is weaned to room air, the metabolically active avascular peripheral retina becomes severely hypoxic. This triggers a massive compensatory surge in VEGF and HIF-1a, driving aberrant, disorganized neovascularization and fibrovascular traction that can pull the retina off (tractional retinal detachment).",
+    "high_yield_pearl": "ROP: Phase 1 (hyperoxia) downregulates VEGF -> vessel arrest. Phase 2 (hypoxia) spikes VEGF -> abnormal neovascularization & tractional RD.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 186,
+    "q_num": "186",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 10-11 & Content Q2: ROP Screening & Therapy",
+    "question": "According to established pediatric guidelines, which infant meets the criteria for mandatory screening for retinopathy of prematurity, and what is a primary therapeutic option for severe, treatment-requiring disease?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only infants with confirmed maternal toxoplasmosis; treated with oral pyrimethamine and sulfadiazine"
+      },
+      {
+        "id": "B",
+        "text": "Infants born at <= 30 weeks or weighing <= 1500 g; treated with intravitreal anti-VEGF or laser ablation"
+      },
+      {
+        "id": "C",
+        "text": "Infants born after prolonged rupture of membranes; treated with prophylactic topical tobramycin ointment"
+      },
+      {
+        "id": "D",
+        "text": "All full-term infants delivered via emergency cesarean section; treated with systemic corticosteroid drops"
+      },
+      {
+        "id": "E",
+        "text": "Infants born at 36 weeks weighing > 2500 g with jaundice; treated with therapeutic exchange transfusion"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "In the United States, screening for ROP is mandatory for all infants with a gestational age of 30 weeks or less, or a birth weight of 1500 g or less (as well as selected unstable infants between 1500-2000 g). If ROP progresses to 'type 1' (treatment-requiring) disease, the standard of care is laser photocoagulation of the peripheral avascular retina (which eliminates the ischemic tissue producing VEGF) or intravitreal injection of an anti-VEGF agent (such as bevacizumab or ranibizumab).",
+    "high_yield_pearl": "ROP screening: gestational age <=30 weeks or birth weight <=1500 g. Treatment: laser ablation of avascular retina or anti-VEGF.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 187,
+    "q_num": "187",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 3-4 & Content Q2: Persistent Fetal Vasculature (PFV)",
+    "question": "A 2-week-old full-term infant girl is evaluated for leukocoria (white pupillary reflex) in her right eye. Examination reveals mild right microphthalmos, a clear cornea, a shallow anterior chamber, and a fibrovascular stalk extending from the optic nerve head to the posterior surface of a cataractous lens. The left eye is completely normal. Retinoblastoma is excluded on imaging. Which embryologic process failed in this patient?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Myelination of the intraorbital optic nerve fibers by mature oligodendrocytes"
+      },
+      {
+        "id": "B",
+        "text": "Differentiation of the optic vesicle from the lateral wall of the diencephalon"
+      },
+      {
+        "id": "C",
+        "text": "Normal regression of the embryonic hyaloid artery and primary vitreous vascular network"
+      },
+      {
+        "id": "D",
+        "text": "Involution of the secondary vitreous during the second trimester of gestation"
+      },
+      {
+        "id": "E",
+        "text": "Closure of the neural groove during primary neurulation in the fourth week"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Persistent fetal vasculature (PFV), formerly called persistent hyperplastic primary vitreous (PHPV), is a congenital developmental disorder resulting from failure of the embryonic hyaloid vasculature and primary vitreous to regress normally. A remnant fibrovascular stalk contracts, pulling on the ciliary processes (elongated processes) and posterior lens capsule, resulting in cataract formation, leukocoria, shallow anterior chamber, and mild microphthalmos. It is typically unilateral and must be distinguished from retinoblastoma.",
+    "high_yield_pearl": "Persistent fetal vasculature (PFV): failure of hyaloid vascular system to regress -> fibrovascular retroretinal stalk, leukocoria, cataract, microphthalmos.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 188,
+    "q_num": "188",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 13-17 & Content Q2: Primary Open-Angle Glaucoma (POAG)",
+    "question": "A 62-year-old African American man presents for a routine vision exam. He has no eye pain, redness, or visual complaints. Automated perimetry reveals bilateral superior arcuate scotomas and a nasal step, with normal central acuity of 20/20. Tonometry demonstrates intraocular pressures of 27 mmHg in the right eye and 29 mmHg in the left eye. Dilated fundoscopy reveals marked optic nerve cupping with a cup-to-disc ratio of 0.8 bilaterally. What is the fundamental site of outflow resistance in this patient?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Arachnoid villi draining cerebrospinal fluid along the optic nerve sheath"
+      },
+      {
+        "id": "B",
+        "text": "Uveoscleral interstitial spaces traversing the supraciliary muscle bundles"
+      },
+      {
+        "id": "C",
+        "text": "Pupillary aperture between the anterior lens capsule and posterior iris margin"
+      },
+      {
+        "id": "D",
+        "text": "Trabecular meshwork and Schlemm canal in the iridocorneal drainage angle"
+      },
+      {
+        "id": "E",
+        "text": "Posterior vortex veins piercing the scleral tunic near the equator of the globe"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "Primary open-angle glaucoma (POAG) is characterized by insidious, asymptomatic, slowly progressive optic neuropathy with optic disc cupping and characteristic visual field loss (arcuate scotomas, nasal steps, and eventual tunnel vision). It is the most common form of glaucoma in the US, particularly prevalent in African Americans. The iridocorneal angle remains wide open on gonioscopy, but there is increased microscopic resistance to aqueous humor drainage through the trabecular meshwork and Schlemm's canal.",
+    "high_yield_pearl": "POAG: Asymptomatic, progressive optic nerve cupping (C/D > 0.5) & arcuate scotomas; resistance site = trabecular meshwork (angle remains open).",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 189,
+    "q_num": "189",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 13-17 & Content Q2: Normal-Tension Glaucoma (NTG)",
+    "question": "A 68-year-old Japanese woman has progressive bilateral peripheral visual field loss. Dilated fundoscopy shows severe optic disc cupping with an inferior disc splinter (Drance) hemorrhage and localized retinal nerve fiber layer thinning. However, repeated diurnal applanation tonometry shows intraocular pressures consistently between 14 and 16 mmHg (normal: 10-21 mmHg). Gonioscopy confirms open angles. Which condition does this patient have?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anterior ischemic optic neuropathy resulting from giant cell arteritis vasculitis"
+      },
+      {
+        "id": "B",
+        "text": "Ocular hypertension requiring no pharmacologic intervention or monitoring"
+      },
+      {
+        "id": "C",
+        "text": "Primary angle-closure glaucoma precipitated by daytime emotional distress"
+      },
+      {
+        "id": "D",
+        "text": "Compressive optic neuropathy caused by an internal carotid artery cavernous aneurysm"
+      },
+      {
+        "id": "E",
+        "text": "Normal-tension glaucoma associated with nocturnal systemic hypotension and vascular dysregulation"
+      }
+    ],
+    "correct_answer": "E",
+    "explanation": "Normal-tension glaucoma (NTG) is a subtype of open-angle glaucoma in which patients develop progressive glaucomatous optic neuropathy (cupping, optic disc splinter hemorrhages, retinal nerve fiber loss) and characteristic visual field defects despite intraocular pressures consistently within the statistically normal range (<=21 mmHg). It is common in elderly women and individuals of East Asian descent, and is strongly associated with vascular dysregulation (Raynaud's phenomenon, migraines) and nocturnal systemic hypotension.",
+    "high_yield_pearl": "Normal-tension glaucoma (NTG): Glaucomatous cupping & field defects with normal IOP (<=21 mmHg); associated with vasospasm and nocturnal hypotension.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 190,
+    "q_num": "190",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 16 & Content Q2: Pseudoexfoliation Glaucoma",
+    "question": "A 74-year-old man of Scandinavian descent is found to have an intraocular pressure of 34 mmHg in his left eye. Slit-lamp examination reveals fine, white, fibrillar 'dandruff-like' material deposited along the pupillary margin of the iris and on the anterior lens capsule in a target-like pattern. Gonioscopy shows dense, patchy brown pigmentation along the trabecular meshwork. Which surgical complication is this patient at exceptionally high risk for during future cataract extraction?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Spontaneous expulsive choroidal hemorrhage during anterior corneal trephination"
+      },
+      {
+        "id": "B",
+        "text": "Sudden occlusion of the central retinal artery from intraocular gas tamponade"
+      },
+      {
+        "id": "C",
+        "text": "Severe epithelial ingrowth resulting from persistent limbal stem cell deficiency"
+      },
+      {
+        "id": "D",
+        "text": "Zonular weakness and lens subluxation due to enzymatic breakdown of ciliary zonules"
+      },
+      {
+        "id": "E",
+        "text": "Permanent loss of corneal clarity due to acute endothelial graft rejection"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "Pseudoexfoliation syndrome (PEX) is an age-related systemic microfibrillopathy causing secondary open-angle glaucoma. Abnormal fibrillar basement-membrane material deposits throughout the anterior segment (pupillary border, anterior lens capsule, and trabecular meshwork). Clogging of the trabecular meshwork causes marked IOP elevation. Critically, these deposits weaken and lyse the zonular fibers supporting the lens, predisposing patients to lens subluxation, phacodonesis (lens wobble), and vitreous loss during cataract surgery.",
+    "high_yield_pearl": "Pseudoexfoliation glaucoma: White dandruff-like flakes on anterior lens capsule; clogs trabecular meshwork; causes zonular weakness and cataract surgery complications.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 191,
+    "q_num": "191",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 16 & Content Q2: Pigmentary Glaucoma",
+    "question": "A 28-year-old myopic man complains of transient ocular pain and blurred vision with colored halos after playing basketball. Slit-lamp examination reveals vertical brown pigment deposits on the posterior corneal endothelium (Krukenberg spindle), mid-peripheral radial iris transillumination defects, and marked homogenous dark trabecular meshwork pigmentation on gonioscopy. Which mechanism causes pigment release in this patient?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Exudation of necrotic melanoma cells from a ciliary body malignant tumor"
+      },
+      {
+        "id": "B",
+        "text": "Autoimmune destruction of uveal melanocytes by circulating autoantibodies"
+      },
+      {
+        "id": "C",
+        "text": "Failure of lysosomal degradation of pigment granules within corneal stromal keratocytes"
+      },
+      {
+        "id": "D",
+        "text": "Melanin synthesis triggered by abnormal ultraviolet light absorption by the cornea"
+      },
+      {
+        "id": "E",
+        "text": "Mechanical rubbing of the posterior iris pigment epithelium against anterior ciliary zonules"
+      }
+    ],
+    "correct_answer": "E",
+    "explanation": "Pigment dispersion syndrome and pigmentary glaucoma typically affect young, myopic (nearsighted) Caucasian males. Due to an abnormally concave iris configuration, the posterior pigmented iris surface rubs mechanically against the underlying ciliary zonule bundles during pupil movement and exercise. This liberates melanin granules into the aqueous humor, which deposit on the corneal endothelium in a vertical line (Krukenberg spindle), create radial iris transillumination defects, and obstruct the trabecular meshwork, causing elevated IOP.",
+    "high_yield_pearl": "Pigmentary glaucoma: young myopic males; posterior iris rubs against lens zonules -> Krukenberg spindle, iris transillumination defects, trabecular clogging.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 192,
+    "q_num": "192",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 16 & Case 2: Acute Angle-Closure Glaucoma Presentation",
+    "question": "A 58-year-old farsighted (hyperopic) woman develops sudden, excruciating left eye pain, severe frontal headache, nausea, and vomiting while watching a film in a dark cinema. On examination, her left eye is red, feels rock-hard to palpation (IOP 58 mmHg), and demonstrates a steamy/hazy cornea with a mid-dilated, non-reactive pupil, as illustrated in the exhibit. Which anatomical mechanism initiated this acute ophthalmic emergency?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Thrombosis of the vortex veins leading to acute suprachoroidal fluid effusion"
+      },
+      {
+        "id": "B",
+        "text": "Pupillary block causing forward bowing of the iris and complete angle closure"
+      },
+      {
+        "id": "C",
+        "text": "Rupture of an iris microaneurysm resulting in massive anterior chamber hyphema"
+      },
+      {
+        "id": "D",
+        "text": "Infarction of the ciliary ganglion interrupting parasympathetic pupillary constriction"
+      },
+      {
+        "id": "E",
+        "text": "Autoimmune scleritis causing traction on the lateral and medial rectus tendons"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Acute angle-closure glaucoma (AACG) is an ophthalmic emergency occurring when the flow of aqueous humor from the posterior chamber to the anterior chamber is blocked at the pupillary border (pupillary block). Pressure rises behind the iris, bowing the peripheral iris forward (iris bombe) and completely occluding the trabecular meshwork in the anterior chamber angle. It is typically triggered by moderate pupillary dilation (mydriasis) in dim light or by anticholinergic/sympathomimetic drugs in anatomically predisposed eyes (hyperopes with shallow anterior chambers).",
+    "high_yield_pearl": "AACG: Pupillary dilation in dim light -> pupillary block -> iris bows forward -> angle closure -> IOP spikes (>50 mmHg), steamy cornea, mid-dilated pupil.",
+    "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgNDQwIDIwMCI+PHJlY3Qgd2lkdGg9IjQ0MCIgaGVpZ2h0PSIyMDAiIGZpbGw9IiNmZGY2ZWUiLz48dGV4dCB4PSIyMjAiIHk9IjIyIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMxMTEiPkFudGVyaW9yIHNlZ21lbnQgZXhhbTogYWN1dGUgb2N1bGFyIHBhaW4gJmFtcDsgaGFsb3M8L3RleHQ+PGNsaXBQYXRoIGlkPSJjbGlwX3IiPjxlbGxpcHNlIGN4PSIxMjAiIGN5PSIxMDAiIHJ4PSI3MiIgcnk9IjM4Ii8+PC9jbGlwUGF0aD48ZWxsaXBzZSBjeD0iMTIwIiBjeT0iMTAwIiByeD0iNzIiIHJ5PSIzOCIgZmlsbD0iI2ZmZmZmZiIgc3Ryb2tlPSIjMTExIiBzdHJva2Utd2lkdGg9IjIiLz48ZyBjbGlwLXBhdGg9InVybCgjY2xpcF9yKSI+PGNpcmNsZSBjeD0iMTIwIiBjeT0iMTAwIiByPSIyNCIgZmlsbD0iIzZiOGU5ZiIgc3Ryb2tlPSIjMmY0ZjVmIiBzdHJva2Utd2lkdGg9IjEuNSIvPjxjaXJjbGUgY3g9IjEyMCIgY3k9IjEwMCIgcj0iOCIgZmlsbD0iIzAwMCIvPjwvZz48dGV4dCB4PSIxMjAiIHk9IjE2OCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMTExIj5QYXRpZW50J3MgUklHSFQgZXllIChOb3JtYWwpPC90ZXh0PjxjbGlwUGF0aCBpZD0iY2xpcF9sIj48ZWxsaXBzZSBjeD0iMzIwIiBjeT0iMTAwIiByeD0iNzIiIHJ5PSIzOCIvPjwvY2xpcFBhdGg+PGVsbGlwc2UgY3g9IjMyMCIgY3k9IjEwMCIgcng9IjcyIiByeT0iMzgiIGZpbGw9IiNmZmU0ZTQiIHN0cm9rZT0iI2MwMzkyYiIgc3Ryb2tlLXdpZHRoPSIyLjUiLz48ZyBjbGlwLXBhdGg9InVybCgjY2xpcF9sKSI+PGNpcmNsZSBjeD0iMzIwIiBjeT0iMTAwIiByPSIyNiIgZmlsbD0iI2MwMzkyYiIgb3BhY2l0eT0iMC40Ii8+PGNpcmNsZSBjeD0iMzIwIiBjeT0iMTAwIiByPSIyNCIgZmlsbD0iIzhhYTJhZCIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEuNSIvPjxjaXJjbGUgY3g9IjMyMCIgY3k9IjEwMCIgcj0iMTQiIGZpbGw9IiMxYTFhMWEiLz48ZWxsaXBzZSBjeD0iMzIwIiBjeT0iMTAwIiByeD0iMjUiIHJ5PSIyNSIgZmlsbD0iI2ZmZmZmZiIgb3BhY2l0eT0iMC40NSIvPjwvZz48dGV4dCB4PSIzMjAiIHk9IjE2OCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMTExIj5QYXRpZW50J3MgTEVGVCBleWUgKFN0ZWFteSBjb3JuZWEsIG1pZC1kaWxhdGVkIHB1cGlsKTwvdGV4dD48L3N2Zz4=",
+    "image_file": "images/eye_aacg.svg"
+  },
+  {
+    "id": 193,
+    "q_num": "193",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 18-19 & Case 2: AACG Emergency Medical Stabilization",
+    "question": "A patient with acute angle-closure glaucoma presents with an intraocular pressure of 62 mmHg in the left eye. Immediate medical therapy is initiated with intravenous acetazolamide, topical timolol, topical apraclonidine, and intravenous mannitol. Once the IOP drops below 40 mmHg, topical pilocarpine is instilled. What is the definitive bilateral treatment to prevent future attacks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Surgical cyclophotocoagulation to ablate secretory non-pigmented ciliary epithelium"
+      },
+      {
+        "id": "B",
+        "text": "Permanent surgical resection of the sympathetic chain at the superior cervical ganglion"
+      },
+      {
+        "id": "C",
+        "text": "Laser peripheral iridotomy creating a bypass pathway between anterior and posterior chambers"
+      },
+      {
+        "id": "D",
+        "text": "Immediate bilateral enucleation with placement of integrated orbital spherical implants"
+      },
+      {
+        "id": "E",
+        "text": "Transscleral diode laser ablation of the avascular peripheral sensory retina"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Definitive treatment for acute angle-closure glaucoma is laser peripheral iridotomy (LPI). LPI uses an Nd:YAG laser to create a full-thickness hole in the peripheral iris, providing an alternative bypass route for aqueous humor to flow from the posterior chamber directly into the anterior chamber, permanently eliminating pupillary block and flattening the iris. Critically, LPI must be performed on BOTH the affected eye and the anatomically predisposed fellow eye to prevent future contralateral angle-closure attacks.",
+    "high_yield_pearl": "AACG definitive treatment: Laser peripheral iridotomy (LPI) in BOTH the affected and fellow eye to permanently eliminate pupillary block.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 194,
+    "q_num": "194",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 18 & Content Q3: Prostaglandin Analogs Mechanism & Adverse Effects",
+    "question": "A 65-year-old woman with newly diagnosed open-angle glaucoma is prescribed topical latanoprost once daily at bedtime. Three months later, her IOP is well controlled, but she notes that her hazel eyes have become darker brown, and her eyelashes have grown noticeably longer, thicker, and darker. By which mechanism does this medication lower intraocular pressure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stimulation of alpha-2 adrenergic receptors coupled to inhibitory G-protein adenylate cyclase"
+      },
+      {
+        "id": "B",
+        "text": "Direct opening of trabecular meshwork endothelial channels through muscarinic M3 activation"
+      },
+      {
+        "id": "C",
+        "text": "Agonism of FP prostanoid receptors leading to increased uveoscleral outflow of aqueous humor"
+      },
+      {
+        "id": "D",
+        "text": "Blockade of beta-2 adrenergic receptors on the ciliary body epithelium to reduce fluid secretion"
+      },
+      {
+        "id": "E",
+        "text": "Inhibition of ciliary carbonic anhydrase type II preventing active bicarbonate ion transport"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Prostaglandin analogs (e.g., latanoprost, bimatoprost, travoprost) are first-line topical therapy for open-angle glaucoma. They act as selective agonists at prostanoid FP receptors in the ciliary muscle, upregulating matrix metalloproteinases to remodel the extracellular matrix between ciliary muscle bundles, thereby significantly increasing uveoscleral outflow (the unconventional drainage pathway). Characteristic adverse effects include permanent iris hyperpigmentation (increased melanin content in melanocytes) and eyelash hypertrichosis (lengthening and thickening).",
+    "high_yield_pearl": "Prostaglandin analogs (latanoprost): First-line for POAG -> increases uveoscleral outflow. Side effects: darker iris pigmentation, longer/thicker eyelashes.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 195,
+    "q_num": "195",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 18 & Content Q3: Beta-Blockers Contraindications",
+    "question": "A 68-year-old man with open-angle glaucoma is evaluated in the emergency department for severe wheezing, shortness of breath, and bradycardia (heart rate 42 bpm). His medical chart indicates that he was started on a new topical ocular medication two weeks ago. Which glaucoma medication was most likely prescribed, and what is its mechanism of action?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Topical pilocarpine, which constricts the pupil and opens the trabecular meshwork channels"
+      },
+      {
+        "id": "B",
+        "text": "Oral acetazolamide, which inhibits carbonic anhydrase to block bicarbonate and fluid production"
+      },
+      {
+        "id": "C",
+        "text": "Topical latanoprost, which increases uveoscleral outflow by relaxing the ciliary muscle body"
+      },
+      {
+        "id": "D",
+        "text": "Topical timolol, which blocks beta receptors to reduce aqueous humor secretion by the ciliary body"
+      },
+      {
+        "id": "E",
+        "text": "Topical brimonidine, which stimulates alpha-2 receptors to inhibit ciliary adenylate cyclase"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "Topical beta-blockers such as timolol (non-selective beta-1 and beta-2 antagonist) and betaxolol (beta-1 selective) lower IOP by blocking beta-2 receptors on the non-pigmented ciliary body epithelium, decreasing aqueous humor secretion. Because eye drops enter the nasolacrimal duct and are absorbed systemically across the nasal mucosa without first-pass hepatic metabolism, non-selective beta-blockers can cause bronchospasm in patients with asthma/COPD and symptomatic bradycardia or heart block.",
+    "high_yield_pearl": "Timolol: Beta-blocker -> decreases aqueous secretion by ciliary epithelium. Absorbed via nasolacrimal duct -> bronchospasm (asthma/COPD) & bradycardia.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 196,
+    "q_num": "196",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 18 & Content Q3: Alpha-2 Adrenergic Agonists",
+    "question": "A 52-year-old woman uses topical brimonidine drops for open-angle glaucoma. Her ophthalmologist explains that this agent acts on alpha-2 adrenergic receptors. What is the dual physiologic mechanism by which alpha-2 adrenergic agonists reduce intraocular pressure, and in which population are they strictly contraindicated?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decrease aqueous humor production and increase uveoscleral outflow; contraindicated in infants under 2 years"
+      },
+      {
+        "id": "B",
+        "text": "Paralyze the ciliary muscle body to open Schlemm's canal; contraindicated in elderly hyperopic patients"
+      },
+      {
+        "id": "C",
+        "text": "Ablate secretory non-pigmented ciliary epithelial cells; contraindicated in individuals with high myopia"
+      },
+      {
+        "id": "D",
+        "text": "Increase trabecular meshwork drainage and relax the scleral spur; contraindicated in pregnant women"
+      },
+      {
+        "id": "E",
+        "text": "Directly inhibit carbonic anhydrase enzymes; contraindicated in patients with severe penicillin allergy"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Alpha-2 adrenergic agonists (e.g., brimonidine, apraclonidine) have a dual mechanism of action: they decrease aqueous humor production by ciliary body epithelium (via Gi-protein-mediated reduction of intracellular cAMP) and increase uveoscleral outflow. Systemic absorption of brimonidine crosses the immature blood-brain barrier in infants, causing severe central nervous system depression, somnolence, bradycardia, hypotension, and life-threatening respiratory arrest (apnea); it is strictly contraindicated in children younger than 2 years.",
+    "high_yield_pearl": "Brimonidine (alpha-2 agonist): decreases aqueous production + increases uveoscleral outflow. Contraindicated in infants <2yo (CNS depression, apnea).",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 197,
+    "q_num": "197",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 18 & Content Q3: Carbonic Anhydrase Inhibitors",
+    "question": "A 60-year-old woman with acute ocular hypertension receives oral acetazolamide. Shortly after starting therapy, she reports tingling in her fingers and toes (paresthesias), fatigue, and an altered taste when drinking carbonated beverages. Laboratory testing reveals a hyperchloremic metabolic acidosis with hypokalemia. What is the biochemical basis for this drug's therapeutic and adverse effects?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Competitive blockade of aldosterone receptors in the renal cortical collecting tubule epithelium"
+      },
+      {
+        "id": "B",
+        "text": "Direct blockade of the sodium-potassium-2-chloride cotransporter in the thick ascending loop of Henle"
+      },
+      {
+        "id": "C",
+        "text": "Inhibition of carbonic anhydrase, blocking bicarbonate formation and fluid secretion in ciliary and renal cells"
+      },
+      {
+        "id": "D",
+        "text": "Non-selective antagonism of alpha-1 adrenergic receptors located on the renal arterial vasculature"
+      },
+      {
+        "id": "E",
+        "text": "Inhibition of the sodium-hydrogen exchanger in the proximal convoluted tubule brush border membrane"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Carbonic anhydrase inhibitors (oral acetazolamide, topical dorzolamide/brinzolamide) inhibit carbonic anhydrase (specifically CA-II and CA-IV) in the non-pigmented ciliary body epithelium. This reduces the conversion of CO2 and water into H+ and HCO3-, decreasing active bicarbonate transport into the posterior chamber and thereby diminishing aqueous humor secretion. In the kidneys, proximal tubular CA inhibition prevents HCO3- reabsorption, causing urinary bicarbonate wasting, hyperchloremic metabolic acidosis, hypokalemia, and paresthesias. They are sulfonamide derivatives (sulfa allergy cross-reactivity).",
+    "high_yield_pearl": "Acetazolamide: Carbonic anhydrase inhibitor -> blocks ciliary HCO3- transport & aqueous secretion. Adverse effects: metabolic acidosis, paresthesias, sulfa allergy.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 198,
+    "q_num": "198",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 18 & Content Q3: Muscarinic Agonists (Pilocarpine)",
+    "question": "A 50-year-old patient with elevated intraocular pressure is treated with topical pilocarpine. One hour later, the patient complains of a severe dull aching pain across his forehead and brow ('brow ache') and notes that distant road signs appear blurry, although near vision is clear. What is the pharmacologic mechanism underlying both the therapeutic effect and these adverse symptoms?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prostaglandin receptor activation inducing localized uveoscleral inflammatory remodeling"
+      },
+      {
+        "id": "B",
+        "text": "Histamine H1 receptor stimulation producing excessive lacrimal gland fluid transudation"
+      },
+      {
+        "id": "C",
+        "text": "Beta-2 adrenergic antagonism causing spasm of the inferior oblique extraocular muscle"
+      },
+      {
+        "id": "D",
+        "text": "M3 muscarinic receptor agonism causing ciliary muscle contraction and induced lenticular myopia"
+      },
+      {
+        "id": "E",
+        "text": "Alpha-1 adrenergic agonism causing pupillary dilator muscle contraction and mydriasis"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "Pilocarpine is a direct-acting muscarinic receptor agonist (primarily M3). It stimulates contraction of the ciliary muscle, which pulls the scleral spur posteriorly and stretches the trabecular meshwork open, thereby increasing conventional aqueous humor outflow. It also constricts the pupillary sphincter (miosis). Persistent ciliary muscle contraction causes sustained accommodation (inducing lenticular myopia/blurry distance vision) and a classic tension-like 'brow ache' (ciliary spasm), especially in younger patients.",
+    "high_yield_pearl": "Pilocarpine: M3 agonist -> ciliary muscle contraction -> opens trabecular meshwork. Side effects: ciliary spasm ('brow ache') and induced myopia.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 199,
+    "q_num": "199",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 20-22 & Case 1: Nuclear Sclerotic Cataract",
+    "question": "A 73-year-old retired watchmaker notes a gradual, painless decline in distance vision over the past 3 years. He complains of disabling glare from oncoming car headlights when driving at night. Surprisingly, he notes that he can now read fine print in the newspaper without his reading glasses ('second sight'). Slit-lamp examination demonstrates yellowish-brown opacification of the central lens nucleus. What is the biochemical mechanism of this condition?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Osmotic cellular swelling of lens fibers driven by sorbitol accumulation in galactosemia"
+      },
+      {
+        "id": "B",
+        "text": "Calcium phosphate hydroxyapatite crystallization within the anterior lens epithelial capsule"
+      },
+      {
+        "id": "C",
+        "text": "Infiltration of the lens cortex by neoplastic monocytes expressing CD19 and CD20 markers"
+      },
+      {
+        "id": "D",
+        "text": "Autoimmune deposition of complement factor H complexes along the equatorial lens zonules"
+      },
+      {
+        "id": "E",
+        "text": "Oxidative compaction and cross-linking of crystalline lens structural proteins with aging"
+      }
+    ],
+    "correct_answer": "E",
+    "explanation": "Age-related nuclear sclerotic cataract is the most common form of cataract. With advancing age, oxidative damage leads to cross-linking, aggregation, and compaction of crystallin proteins in the central lens nucleus, causing gradual yellowing and browning (brunescence). Increased optical density of the central nucleus increases the refractive power of the lens, shifting the eye toward myopia (the 'myopic shift'). This temporarily allows presbyopic elderly patients to read up close without reading glasses, a phenomenon termed 'second sight'.",
+    "high_yield_pearl": "Nuclear sclerotic cataract: Age-related oxidative crystallin protein compaction -> yellow-brown nucleus, night glare, 'second sight' myopic shift.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 200,
+    "q_num": "200",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 20-22 & Case 1: Posterior Subcapsular Cataract (PSC)",
+    "question": "A 42-year-old woman with severe systemic lupus erythematosus managed with high-dose oral prednisone for 4 years reports rapidly progressive visual difficulty. She is particularly troubled by extreme glare in bright sunlight and has significant trouble reading small print during the day. Slit-lamp exam reveals a plaque-like granular opacity centered on the posterior pole of the crystalline lens immediately beneath the capsule. What type of cataract does this patient have, and what is its major risk factor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Posterior subcapsular cataract, strongly associated with systemic or topical corticosteroid therapy"
+      },
+      {
+        "id": "B",
+        "text": "Anterior subcapsular cataract, strongly associated with occupational infrared heat radiation"
+      },
+      {
+        "id": "C",
+        "text": "Cortical spoke-like cataract, strongly associated with congenital rubella virus infection"
+      },
+      {
+        "id": "D",
+        "text": "Sunflower-shaped cataract, strongly associated with toxic intraocular copper accumulation in Wilson disease"
+      },
+      {
+        "id": "E",
+        "text": "Cerulean blue-dot cataract, strongly associated with autosomal dominant PAX6 gene mutations"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Posterior subcapsular cataracts (PSC) occur directly beneath the posterior lens capsule in the visual axis. Because of their central location, symptoms are pronounced in bright light: bright sunlight causes pupillary constriction (miosis), forcing all light through the central dense opacity, producing disabling daytime glare and reading difficulty. The most classic etiologies are prolonged systemic or topical corticosteroid use, diabetes mellitus, high myopia, and prior ocular radiation therapy.",
+    "high_yield_pearl": "Posterior subcapsular cataract: Plaque beneath posterior capsule in visual axis -> daytime glare & reading difficulty; classic cause = corticosteroid therapy.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 201,
+    "q_num": "201",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 20-22 & Content Q2: Galactokinase vs. GALT Deficiency",
+    "question": "A 4-week-old infant boy is found to have bilateral cataracts on routine well-child exam. He is feeding well on standard cow's milk formula, gaining weight appropriately, and has no jaundice, hepatosplenomegaly, or hypoglycemia. A urine test is positive for reducing substances but negative for glucose on dipstick. Which enzyme deficiency causes this isolated, early-onset cataract presentation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Galactose-1-phosphate uridyltransferase (GALT) deficiency causing systemic classic galactosemia"
+      },
+      {
+        "id": "B",
+        "text": "Galactokinase (GALK) deficiency leading to toxic galactitol accumulation in the lens"
+      },
+      {
+        "id": "C",
+        "text": "Glucose-6-phosphate dehydrogenase deficiency predisposing to acute hemolytic crisis"
+      },
+      {
+        "id": "D",
+        "text": "Fructokinase deficiency leading to asymptomatic benign essential fructosuria"
+      },
+      {
+        "id": "E",
+        "text": "Aldose reductase deficiency preventing conversion of glucose into sorbitol metabolites"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Galactose is metabolized by galactokinase (GALK) to galactose-1-phosphate, which is then converted by galactose-1-phosphate uridyltransferase (GALT) to glucose-1-phosphate. In GALK deficiency, galactose accumulates and is converted by aldose reductase into the sugar alcohol galactitol. Galactitol cannot cross cell membranes, accumulating in the crystalline lens and drawing water in via osmotic swelling, producing isolated bilateral cataracts ('oil drop' cataracts) WITHOUT systemic illness. In contrast, classic galactosemia (GALT deficiency) presents with cataracts PLUS life-threatening hepatosplenomegaly, jaundice, vomiting, and E. coli sepsis.",
+    "high_yield_pearl": "GALK deficiency: Mild galactosemia -> isolated bilateral cataracts (galactitol osmotic swelling). GALT deficiency = cataracts + liver failure/sepsis.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 202,
+    "q_num": "202",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 25 & Case 1: Dry Age-Related Macular Degeneration (Dry AMD)",
+    "question": "A 76-year-old woman complains of gradual, painless distortion of central vision in both eyes. When looking at a tiled bathroom wall or an Amsler grid, she notices that straight lines appear wavy and curved (metamorphopsia). Fundoscopic examination reveals numerous scattered, discrete, small, round, yellowish-white deposits beneath the retinal pigment epithelium at the macula, along with patchy geographic atrophy. What are these characteristic retinal deposits composed of, and what anatomical layer do they lie beneath?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Roth spots composed of central white fibrin thrombi surrounded by flame-shaped intraretinal hemorrhages"
+      },
+      {
+        "id": "B",
+        "text": "Hard exudates composed of precipitated serum lipoproteins located within the inner plexiform layer"
+      },
+      {
+        "id": "C",
+        "text": "Bone-spicule deposits composed of migrating melanocytes clustered around retinal arterioles"
+      },
+      {
+        "id": "D",
+        "text": "Drusen composed of extracellular lipid and protein debris located between the RPE and Bruch's membrane"
+      },
+      {
+        "id": "E",
+        "text": "Cotton-wool spots composed of swollen axoplasmic debris within the superficial nerve fiber layer"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "Dry (non-neovascular or atrophic) age-related macular degeneration (AMD) is the leading cause of permanent blindness in elderly individuals in developed countries. The hallmark lesions are Drusen: discrete extracellular accumulations of lipid, complement proteins, and cellular debris situated between the retinal pigment epithelium (RPE) and Bruch's membrane. Progressive accumulation leads to RPE detachment and geographic atrophy of the RPE and photoreceptors, causing painless central vision loss and metamorphopsia (straight lines appearing wavy on an Amsler grid).",
+    "high_yield_pearl": "Dry AMD: Drusen (lipid/protein deposits) between RPE and Bruch's membrane -> geographic atrophy -> central scotoma & metamorphopsia on Amsler grid.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 203,
+    "q_num": "203",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 25 & Case 1: Wet (Neovascular) AMD",
+    "question": "An 81-year-old man with known dry macular degeneration experiences a sudden, dramatic drop in central vision in his right eye over 48 hours. Fundoscopy reveals a grayish-green subretinal macular elevation surrounded by subretinal fluid and intraretinal hemorrhage. Optical coherence tomography (OCT) confirms choroidal neovascularization (CNV) breaking through Bruch's membrane. Which pharmacologic class is the primary first-line therapy for this condition?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Topical carbonic anhydrase inhibitor eye drops administered three times daily"
+      },
+      {
+        "id": "B",
+        "text": "Intravitreal vascular endothelial growth factor (anti-VEGF) monoclonal antibodies"
+      },
+      {
+        "id": "C",
+        "text": "Subcutaneous interferon-gamma injections to suppress extracellular angiogenesis"
+      },
+      {
+        "id": "D",
+        "text": "Intravenous broad-spectrum cephalosporin and aminoglycoside antimicrobial therapy"
+      },
+      {
+        "id": "E",
+        "text": "Oral high-dose systemic corticosteroid therapy tapered over a six-month course"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Wet (neovascular or exudative) AMD occurs when choroidal neovascularization (CNV) penetrates Bruch's membrane from the choriocapillaris into the subretinal space. These abnormal new capillaries leak serous fluid and blood, causing sudden, painless, severe central vision loss and profound metamorphopsia. Left untreated, it organizes into a permanent disciform fibrovascular scar. First-line therapy is prompt, repeated intravitreal injections of anti-VEGF agents (e.g., ranibizumab, aflibercept, bevacizumab), which bind VEGF-A, stop vascular leakage, and regress neovascularization.",
+    "high_yield_pearl": "Wet AMD: Choroidal neovascularization breaches Bruch membrane -> subretinal fluid/bleeding -> acute central vision loss. Treatment: intravitreal anti-VEGF.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 204,
+    "q_num": "204",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 26 & Case 2: Rhegmatogenous Retinal Detachment (RRD)",
+    "question": "A 56-year-old highly nearsighted (myopic) man reports seeing sudden flashes of light (photopsia) and hundreds of tiny dark 'cobwebs' (floaters) in his left eye. Six hours later, he notices a dark, dense shadow resembling a 'drawn curtain' spreading from the superior visual field toward the center of his vision. Dilated fundoscopy reveals an elevated, undulating, grayish-white folded retina with a horseshoe-shaped retinal tear. What is the fundamental cellular consequence of the neurosensory retinal separation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Irreversible demyelination of the intraorbital optic nerve fibers by reactive microglia"
+      },
+      {
+        "id": "B",
+        "text": "Immediate infarction of the retinal ganglion cells caused by central retinal vein thrombosis"
+      },
+      {
+        "id": "C",
+        "text": "Complete occlusion of the anterior chamber angle by migrating pigmented melanocytes"
+      },
+      {
+        "id": "D",
+        "text": "Hypertrophy of the corneal endothelium causing widespread bullous keratopathy"
+      },
+      {
+        "id": "E",
+        "text": "Ischemia and death of rod and cone photoreceptors due to separation from choroidal perfusion"
+      }
+    ],
+    "correct_answer": "E",
+    "explanation": "Rhegmatogenous retinal detachment (RRD) occurs when a full-thickness retinal break (tear or hole), often triggered by posterior vitreous detachment (PVD), allows liquefied vitreous to dissect beneath the neurosensory retina. Patients describe classic premonitory photopsia (traction on retina) and floaters (vitreous hemorrhage/condensation), followed by a progressive, dark 'curtain' descending across the visual field. Detachment separates the photoreceptor outer segments from the underlying retinal pigment epithelium and choroid (their sole source of oxygen and nutrition), causing rapid photoreceptor death if not reattached urgently.",
+    "high_yield_pearl": "Retinal detachment: Flashes, floaters, curtain descending. Separates neurosensory retina from RPE/choroid -> photoreceptor ischemia & necrosis.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 205,
+    "q_num": "205",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Content Q2: Diabetic Retinopathy Microvascular Pathophysiology",
+    "question": "A 54-year-old man with poorly controlled type 2 diabetes (HbA1c 10.2%) has non-proliferative diabetic retinopathy. Dilated exam reveals microaneurysms, dot-and-blot hemorrhages, hard lipid exudates, and macular edema. Which microscopic cellular event is the earliest histological hallmark of diabetic microvascular damage in the retina?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accumulation of amyloid light chain fibrils within the walls of retinal venules"
+      },
+      {
+        "id": "B",
+        "text": "Selective loss of intramural capillary pericytes leading to microaneurysm formation"
+      },
+      {
+        "id": "C",
+        "text": "Direct bacterial infection of vascular endothelial cells by opportunistic microbes"
+      },
+      {
+        "id": "D",
+        "text": "Degranulation of resident choroidal mast cells releasing vasoactive histamine"
+      },
+      {
+        "id": "E",
+        "text": "Proliferation of vascular smooth muscle cells causing diffuse intimal hypertrophy"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Chronic hyperglycemia induces sorbitol accumulation, non-enzymatic advanced glycation end-product (AGE) formation, and protein kinase C activation, leading to selective apoptosis and loss of retinal capillary pericytes (cells that normally wrap around and stabilize endothelial walls). Loss of pericyte support leads to capillary wall weakness, focal outpouchings (microaneurysms), breakdown of the blood-retina barrier, vascular leakage (hard exudates), and macular edema (the leading cause of vision loss in non-proliferative diabetic retinopathy). Later ischemia triggers VEGF-mediated proliferative retinopathy.",
+    "high_yield_pearl": "Diabetic retinopathy: Loss of capillary pericytes -> microaneurysms, vascular permeability, hard exudates, and macular edema.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 206,
+    "q_num": "206",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Content Q2 & Case 8: Retinitis Pigmentosa",
+    "question": "A 24-year-old man has difficulty driving at night (nyctalopia) and repeatedly bumps into low furniture on both sides. His father experienced similar visual deterioration at a young age. Visual field perimetry demonstrates progressive concentric peripheral visual field constriction ('tunnel vision'). Fundoscopy shows bone-spicule hyperpigmentation in the mid-periphery, waxy pallor of the optic nerve head, and marked attenuation of retinal arterioles. What will electroretinography (ERG) reveal?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diffuse continuous high-frequency spike-and-wave discharges across all leads"
+      },
+      {
+        "id": "B",
+        "text": "Selective abolition of the photopic (cone-mediated) a-wave with normal scotopic responses"
+      },
+      {
+        "id": "C",
+        "text": "Bilateral symmetrical elevation of sensory nerve action potential amplitudes"
+      },
+      {
+        "id": "D",
+        "text": "Marked reduction or extinguishment of the scotopic (rod-mediated) electrical response"
+      },
+      {
+        "id": "E",
+        "text": "Slowing of the P100 latency on pattern-reversal visual evoked potentials exclusively"
+      }
+    ],
+    "correct_answer": "D",
+    "explanation": "Retinitis pigmentosa (RP) is a genetically heterogeneous family of hereditary photoreceptor dystrophies (commonly autosomal dominant, autosomal recessive, or X-linked, often involving the rhodopsin gene). Progressive apoptosis of rod photoreceptors begins in the mid-periphery, causing early night blindness (nyctalopia) followed by concentric loss of peripheral vision ('tunnel vision'). The classic fundoscopic triad includes bone-spicule hyperpigmentation (pigment migration around vessels), waxy disc pallor, and attenuated retinal vessels. Electroretinography (ERG) characteristically demonstrates extinguished or markedly reduced scotopic (rod) responses.",
+    "high_yield_pearl": "Retinitis pigmentosa: Nyctalopia -> tunnel vision. Triad: bone-spicule deposits, waxy disc pallor, attenuated vessels. ERG: loss of scotopic (rod) response.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 207,
+    "q_num": "207",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Lecture Slide 7 & Content Q7: Preseptal vs. Orbital Cellulitis",
+    "question": "An 8-year-old boy presents with severe swelling, erythema, and tenderness of his right eye and eyelids 4 days after an acute episode of ethmoid sinusitis. Examination reveals axial proptosis of the right eye, marked limitation of extraocular movements with severe pain on attempted abduction, and diplopia. His temperature is 39.1 C (102.4 F). Which feature definitively distinguishes this orbital cellulitis from preseptal (periorbital) cellulitis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Presence of proptosis, pain with eye movements, and limitation of extraocular motility"
+      },
+      {
+        "id": "B",
+        "text": "Absence of fever, leukocytosis, or elevated inflammatory serum biomarkers"
+      },
+      {
+        "id": "C",
+        "text": "Normal visual acuity and completely symmetrical pupillary light reflexes"
+      },
+      {
+        "id": "D",
+        "text": "Presence of purulent discharge accumulating along the medial canthal tendon"
+      },
+      {
+        "id": "E",
+        "text": "Erythema and edema confined to the superficial anterior cutaneous eyelid tissues"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "The orbital septum is a fibrous sheet extending from the orbital periosteum into the eyelids, separating superficial eyelid tissues from deeper orbital contents. Preseptal cellulitis is an infection anterior to the septum; extraocular movements and the globe are unaffected (no proptosis, no ophthalmoplegia, no pain with gaze). Orbital cellulitis is an infection posterior to the septum, most commonly spreading from adjacent ethmoid sinusitis through the paper-thin lamina papyracea. Orbital cellulitis presents with proptosis, painful restriction of extraocular movements (ophthalmoplegia), and potential optic neuropathy.",
+    "high_yield_pearl": "Orbital cellulitis (post-septal, ethmoid sinus source): Proptosis + painful ophthalmoplegia + diplopia. Preseptal cellulitis lacks motility deficits.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 208,
+    "q_num": "208",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Content Q7 & Case 5: Hyperacute Bacterial Conjunctivitis (Gonococcal)",
+    "question": "A 21-year-old college student presents to urgent care with severe redness, swelling, and copious, thick, purulent discharge pouring from his left eye that re-accumulates within minutes of wiping. On examination, there is marked conjunctival chemosis and tender preauricular lymphadenopathy. A Gram stain of the ocular exudate reveals numerous polymorphonuclear leukocytes with intracellular Gram-negative diplococci. Why is this infection an immediate ophthalmologic emergency?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The organism can rapidly penetrate an intact corneal epithelium, causing perforation within 24 to 48 hours"
+      },
+      {
+        "id": "B",
+        "text": "The toxin produces irreversible liquefactive necrosis of the posterior crystalline lens"
+      },
+      {
+        "id": "C",
+        "text": "The organism causes retrograde cavernous sinus thrombosis via the superior ophthalmic vein"
+      },
+      {
+        "id": "D",
+        "text": "The infection triggers acute demyelinating optic neuritis through cross-reacting molecular mimicry"
+      },
+      {
+        "id": "E",
+        "text": "The infection leads to rapid destruction of the lacrimal gland producing permanent dry eye"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Hyperacute purulent bacterial conjunctivitis is caused by Neisseria gonorrhoeae. Unlike most ocular pathogens that require a pre-existing epithelial defect to invade, N. gonorrhoeae possesses specialized virulence factors (pili, Opa proteins) that enable it to attach to and penetrate intact corneal epithelium. This can cause rapid corneal stromal ulceration, melting, and globe perforation within 24-48 hours. Treatment is an emergency requiring systemic parenteral ceftriaxone (1 g IM/IV) plus oral azithromycin (to cover co-infection with Chlamydia), along with frequent saline eye lavage.",
+    "high_yield_pearl": "Hyperacute conjunctivitis (N. gonorrhoeae): Gram-negative intracellular diplococci -> can penetrate INTACT cornea -> rapid perforation within 24-48h. Treat: IM ceftriaxone.",
+    "image": null,
+    "image_file": null
+  },
+  {
+    "id": 209,
+    "q_num": "209",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Content Q7 & Case 6-7: Herpes Simplex Keratitis",
+    "question": "A 35-year-old woman presents with pain, redness, photophobia, and a foreign-body sensation in her left eye. Slit-lamp examination with cobalt blue illumination following fluorescein dye instillation reveals the corneal lesion shown in the exhibit: a delicate, branching dendritic ulcer with terminal end-bulbs. Which medication is strictly contraindicated because it promotes viral replication and can lead to a large geographic corneal ulcer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oral antiviral therapy with acyclovir or valacyclovir tablets"
+      },
+      {
+        "id": "B",
+        "text": "Topical cycloplegic agents such as cyclopentolate drops"
+      },
+      {
+        "id": "C",
+        "text": "Topical ophthalmic corticosteroid drops such as prednisolone acetate"
+      },
+      {
+        "id": "D",
+        "text": "Topical antiviral agents such as ganciclovir ophthalmic gel"
+      },
+      {
+        "id": "E",
+        "text": "Preservative-free artificial tear lubricating eye drops"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "Herpes simplex virus (HSV-1) keratitis results from viral reactivation from the trigeminal ganglion (V1). Slit-lamp exam with fluorescein staining reveals the pathognomonic branching dendritic ulcer with terminal bulbs. Topical corticosteroids are strictly contraindicated in active HSV epithelial keratitis: suppressing local cell-mediated immunity allows uninhibited viral replication, transforming a small dendritic ulcer into a massive 'geographic' or 'amoeboid' ulcer that causes corneal stromal melting and perforation. Treatment requires topical or oral antivirals (ganciclovir, trifluridine, acyclovir).",
+    "high_yield_pearl": "HSV keratitis: Branching dendritic ulcer with terminal bulbs. TOPICAL STEROIDS STRICTLY CONTRAINDICATED (causes massive geographic ulcer).",
+    "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMjIwIiB2aWV3Qm94PSIwIDAgNDAwIDIyMCI+PHJlY3Qgd2lkdGg9IjQwMCIgaGVpZ2h0PSIyMjAiIGZpbGw9IiMwYTE5MmYiLz48dGV4dCB4PSIyMDAiIHk9IjIyIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiNmZmZmZmYiPkNvYmFsdC1ibHVlIGlsbHVtaW5hdGlvbiB3aXRoIGZsdW9yZXNjZWluIHN0YWluaW5nPC90ZXh0PjxjaXJjbGUgY3g9IjIwMCIgY3k9IjExNSIgcj0iNzUiIGZpbGw9IiMxNzJhNDUiIHN0cm9rZT0iIzJlY2M3MSIgc3Ryb2tlLXdpZHRoPSIyIi8+PHBhdGggZD0iTSAxODAgODUgUSAxOTUgMTA1IDIwMCAxMjAgVCAyMjUgMTQ1IiBmaWxsPSJub25lIiBzdHJva2U9IiMyZWNjNzEiIHN0cm9rZS13aWR0aD0iMy41IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJNIDE5NSAxMDUgUSAxNzUgMTE1IDE2NSAxMjUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzJlY2M3MSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJNIDIwMCAxMjAgUSAyMTUgMTI1IDIzMCAxMTUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzJlY2M3MSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJNIDE4NSA5NSBRIDE3MCA5MCAxNjAgOTUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzJlY2M3MSIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxjaXJjbGUgY3g9IjE2MCIgY3k9Ijk1IiByPSIzLjUiIGZpbGw9IiMyZWNjNzEiLz48Y2lyY2xlIGN4PSIxNjUiIGN5PSIxMjUiIHI9IjQiIGZpbGw9IiMyZWNjNzEiLz48Y2lyY2xlIGN4PSIyMzAiIGN5PSIxMTUiIHI9IjQiIGZpbGw9IiMyZWNjNzEiLz48Y2lyY2xlIGN4PSIyMjUiIGN5PSIxNDUiIHI9IjQuNSIgZmlsbD0iIzJlY2M3MSIvPjxjaXJjbGUgY3g9IjE4MCIgY3k9Ijg1IiByPSIzLjUiIGZpbGw9IiMyZWNjNzEiLz48dGV4dCB4PSIyMDAiIHk9IjIwOCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjYThiMmQxIj5CcmFuY2hpbmcgZGVuZHJpdGljIHVsY2VyIHdpdGggY2hhcmFjdGVyaXN0aWMgdGVybWluYWwgYnVsYnM8L3RleHQ+PC9zdmc+",
+    "image_file": "images/dendritic_cornea.svg"
+  },
+  {
+    "id": 210,
+    "q_num": "210",
+    "category": "Infection/Inflammation of eye disorders",
+    "source": "Content Q7 & Case 6: Anterior Uveitis with Hypopyon",
+    "question": "A 29-year-old man with a history of chronic inflammatory low back pain and morning stiffness (HLA-B27 ankylosing spondylitis) presents with severe, throbbing pain, redness, and marked photophobia in his right eye. Slit-lamp examination reveals pronounced perilimbal ciliary injection ('ciliary flush'), a constricted and sluggish pupil, and floating white cells in the anterior chamber that have settled into a distinct, horizontal white fluid level (hypopyon), as shown in the exhibit. What is the diagnosis and appropriate initial pharmacotherapy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acute bacterial endophthalmitis; treated with immediate pars plana vitrectomy and intravitreal vancomycin"
+      },
+      {
+        "id": "B",
+        "text": "Fungal keratitis; treated with topical natamycin and surgical debridement of the corneal stroma"
+      },
+      {
+        "id": "C",
+        "text": "Orbital cellulitis; treated with intravenous vancomycin and ceftriaxone with surgical sinus drainage"
+      },
+      {
+        "id": "D",
+        "text": "Acute angle-closure glaucoma; treated with topical pilocarpine and intravenous acetazolamide"
+      },
+      {
+        "id": "E",
+        "text": "Anterior uveitis (iridocyclitis); treated with topical corticosteroids and topical cycloplegics"
+      }
+    ],
+    "correct_answer": "E",
+    "explanation": "Anterior uveitis (iritis or iridocyclitis) is inflammation of the iris and ciliary body, frequently associated with HLA-B27 systemic spondyloarthropathies (ankylosing spondylitis, reactive arthritis, psoriatic arthritis, IBD). Hallmark findings include severe aching eye pain, photophobia, ciliary flush (violaceous perilimbal ring of injected deep episcleral vessels), pupillary miosis (due to sphincter spasm), and leukocytes/protein flare in the anterior chamber. When white blood cells layer out dependently at the bottom of the anterior chamber, it forms a sterile hypopyon. Treatment requires topical corticosteroids (to suppress inflammation) plus topical cycloplegic/mydriatic drops (e.g., cyclopentolate, atropine) to paralyze the ciliary muscle (relieving pain) and dilate the pupil (preventing posterior synechiae).",
+    "high_yield_pearl": "Anterior uveitis (HLA-B27): Ciliary flush + constricted pupil + anterior chamber cells/hypopyon. Treat: topical steroids + cycloplegics (atropine/cyclopentolate).",
+    "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgNDQwIDIwMCI+PHJlY3Qgd2lkdGg9IjQ0MCIgaGVpZ2h0PSIyMDAiIGZpbGw9IiNmZGY2ZWUiLz48dGV4dCB4PSIyMjAiIHk9IjIyIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMxMTEiPlNsaXQtbGFtcCBleGFtOiBwZXJpbGltYmFsIGluamVjdGlvbiAmYW1wOyBhbnRlcmlvciBjaGFtYmVyIHNlZGltZW50PC90ZXh0PjxjbGlwUGF0aCBpZD0iY2xpcF9oeXBvIj48ZWxsaXBzZSBjeD0iMjIwIiBjeT0iMTAwIiByeD0iODUiIHJ5PSI0OCIvPjwvY2xpcFBhdGg+PGVsbGlwc2UgY3g9IjIyMCIgY3k9IjEwMCIgcng9Ijg1IiByeT0iNDgiIGZpbGw9IiNmZmYwZjAiIHN0cm9rZT0iI2IwM2EyZSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz48ZyBjbGlwLXBhdGg9InVybCgjY2xpcF9oeXBvKSI+PGNpcmNsZSBjeD0iMjIwIiBjeT0iMTAwIiByPSIzOCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZTc0YzNjIiBzdHJva2Utd2lkdGg9IjgiIG9wYWNpdHk9IjAuNiIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjEwMCIgcj0iMzIiIGZpbGw9IiM1ZDZkN2UiIHN0cm9rZT0iIzJjM2U1MCIgc3Ryb2tlLXdpZHRoPSIyIi8+PGNpcmNsZSBjeD0iMjIwIiBjeT0iMTAwIiByPSI2IiBmaWxsPSIjMDAwIi8+PHBhdGggZD0iTSAxOTYgMTE2IFEgMjIwIDExNCAyNDQgMTE2IEEgMzIgMzIgMCAwIDEgMTk2IDExNiBaIiBmaWxsPSIjZmRmZWZlIiBzdHJva2U9IiNkNWQ4ZGMiIHN0cm9rZS13aWR0aD0iMS41Ii8+PC9nPjx0ZXh0IHg9IjIyMCIgeT0iMTc2IiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMxMTEiPkNpbGlhcnkgZmx1c2ggKyBtaW90aWMgcHVwaWwgKyBsYXllcmVkIGh5cG9weW9uPC90ZXh0Pjwvc3ZnPg==",
+    "image_file": "images/eye_hypopyon.svg"
   }
 ]
