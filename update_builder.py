@@ -47,13 +47,27 @@ for q in raw_exam2:
         'image': q.get('image', None)
     })
 
-# Load Exam 2 Zen (Units 1-3 In-House Bank: 210 Questions)
-local_zen_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'exam2_zen_units1_3_questions.json')
-external_zen_path = '/Users/markyoussef_1/.gemini/antigravity-ide/scratch/usmle_exam2/new_bank_units1_3/units1_3_questions.json'
-exam2_zen_path = local_zen_path if os.path.exists(local_zen_path) else external_zen_path
+# Load Exam 2 Zen (Units 1-6 In-House Bank: 315 Questions)
+local_zen_u13_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'exam2_zen_units1_3_questions.json')
+external_zen_u13_path = '/Users/markyoussef_1/.gemini/antigravity-ide/scratch/usmle_exam2/new_bank_units1_3/units1_3_questions.json'
+u13_path = local_zen_u13_path if os.path.exists(local_zen_u13_path) else external_zen_u13_path
 
-with open(exam2_zen_path, 'r', encoding='utf-8') as f:
-    raw_exam2_zen = json.load(f)
+local_zen_u46_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'units4_6_questions.json')
+external_zen_u46_path = '/Users/markyoussef_1/.gemini/antigravity-ide/scratch/usmle_exam2/new_bank_units4_6/units4_6_questions.json'
+u46_path = local_zen_u46_path if os.path.exists(local_zen_u46_path) else external_zen_u46_path
+
+with open(u13_path, 'r', encoding='utf-8') as f:
+    raw_exam2_zen_u13 = json.load(f)
+
+with open(u46_path, 'r', encoding='utf-8') as f:
+    raw_exam2_zen_u46 = json.load(f)
+
+raw_exam2_zen = raw_exam2_zen_u13 + raw_exam2_zen_u46
+
+# Also save combined units1_6 JSON for reference
+combined_zen_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'exam2_zen_units1_6_questions.json')
+with open(combined_zen_path, 'w', encoding='utf-8') as f:
+    json.dump(raw_exam2_zen, f, indent=2, ensure_ascii=False)
 
 exam2_zen_questions = []
 for q in raw_exam2_zen:
@@ -96,7 +110,10 @@ exam2_categories = [
 exam2_zen_categories = [
     'Visual System',
     'Visual Reflexes',
-    'Infection/Inflammation of eye disorders'
+    'Infection/Inflammation of eye disorders',
+    'Auditory & Vestibular Systems',
+    'UMN / LMN Motor Pathways',
+    'Sleep & Sleep Disorders'
 ]
 
 inhouse_categories = [
@@ -1696,9 +1713,9 @@ html_template = """<!DOCTYPE html>
       exam2: [
         {
           id: 'exam2_zen',
-          label: 'Zen Mode (210 Qs)',
+          label: 'Zen Mode (315 Qs)',
           icon: '🧘',
-          badge: 'Units 1–3 In-House',
+          badge: 'Units 1–6 In-House',
           type: 'exam2'
         },
         {
@@ -1836,12 +1853,12 @@ html_template = """<!DOCTYPE html>
       } else if (currentTrack === 'exam2_zen' || currentTrack === 'exam2') {
         zenTray.style.display = 'flex';
         trayIcon.textContent = '🧘';
-        trayLabelText.textContent = 'Exam 2 Units 1–3:';
+        trayLabelText.textContent = 'Exam 2 Units 1–6:';
         trackTag.style.display = 'inline-block';
         trackTag.className = 'q-track-tag exam2';
         trackTag.textContent = '🧘 Exam 2 Zen';
         timerDisplay.classList.add('exam2');
-        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/></svg> Units 1–3 Topics (3)`;
+        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/></svg> Units 1–6 Topics (6)`;
       } else if (currentTrack === 'exam2_pdf_practice') {
         zenTray.style.display = 'flex';
         trayIcon.textContent = '🎯';
@@ -1901,7 +1918,7 @@ html_template = """<!DOCTYPE html>
       const toastMsg = currentTrack === 'exam2_sim'
         ? 'Exam 2: Loaded 📝 Simulation Bank (103 Qs)'
         : (currentTrack === 'exam2_zen' || currentTrack === 'exam2')
-        ? 'Exam 2: Loaded 🧘 Zen Mode Bank (210 Qs: Units 1–3)'
+        ? 'Exam 2: Loaded 🧘 Zen Mode Bank (315 Qs: Units 1–6)'
         : currentTrack === 'exam2_pdf_practice'
         ? 'Exam 2: Loaded 🎯 PDF Practice Bank (103 Qs)'
         : currentTrack === 'inhouse'
@@ -1989,6 +2006,9 @@ html_template = """<!DOCTYPE html>
       // For exam2_sim, if sim state is still empty, fallback to legacy usmle_exam2_state
       if (!saved && currentTrack === 'exam2_sim') {
         saved = localStorage.getItem('usmle_exam2_state');
+      }
+      if (!saved && (currentTrack === 'exam2_zen' || currentTrack === 'exam2')) {
+        saved = localStorage.getItem('usmle_exam2_zen_units1_3_state') || localStorage.getItem('usmle_exam2_zen_state');
       }
 
       let restoredState = null;
@@ -2871,7 +2891,7 @@ For each question:
         trackName = '🧠 Exam 2 Simulation (103 questions)';
         storagePrefix = 'usmle_exam2_sim_';
       } else if (currentTrack === 'exam2_zen' || currentTrack === 'exam2') {
-        trackName = '🧘 Exam 2 Zen Mode (210 questions)';
+        trackName = '🧘 Exam 2 Zen Mode (315 questions)';
         storagePrefix = 'usmle_exam2_zen_units1_3_';
       } else if (currentTrack === 'exam2_pdf_practice') {
         trackName = '🎯 Exam 2 PDF Practice (103 questions)';
