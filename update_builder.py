@@ -48,9 +48,9 @@ for q in raw_exam2:
     })
 
 # Load Exam 2 Zen (Units 1-3 In-House Bank: 150 Questions)
-exam2_zen_path = '/Users/markyoussef_1/.gemini/antigravity-ide/scratch/usmle_exam2/new_bank_units1_3/units1_3_questions.json'
-if not os.path.exists(exam2_zen_path):
-    exam2_zen_path = '/Users/markyoussef_1/.gemini/antigravity-ide/scratch/usmle_exam1/exam2_zen_units1_3_questions.json'
+local_zen_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'exam2_zen_units1_3_questions.json')
+external_zen_path = '/Users/markyoussef_1/.gemini/antigravity-ide/scratch/usmle_exam2/new_bank_units1_3/units1_3_questions.json'
+exam2_zen_path = local_zen_path if os.path.exists(local_zen_path) else external_zen_path
 
 with open(exam2_zen_path, 'r', encoding='utf-8') as f:
     raw_exam2_zen = json.load(f)
