@@ -1,0 +1,1802 @@
+[
+  {
+    "category": "Auditory & Vestibular",
+    "q_num": 43,
+    "stem": "A passenger in an elevator feels the sensation of upward acceleration. Which receptor primarily detects this stimulus?",
+    "options": {
+      "A": "Macula of the saccule",
+      "B": "Macula of the utricle",
+      "C": "Crista of the semicircular canal",
+      "D": "Organ of Corti in the cochlea",
+      "E": "Dorsal cochlear nucleus in the pons"
+    },
+    "correct_answer": "A",
+    "explanation": "The utricle senses horizontal linear acceleration and the saccule senses vertical linear acceleration. The semicircular canals sense rotation.",
+    "high_yield_pearl": "High-Yield Rule: Macula of the saccule",
+    "source": "USMLE Step 1 Replicate Bank: Auditory & Vestibular",
+    "id": "rep_1",
+    "index": 0
+  },
+  {
+    "category": "Auditory & Vestibular",
+    "q_num": 42,
+    "stem": "While a patient fixates on a target and turns his head to the right, his eyes smoothly move to the left. Which pathway connects the vestibular nuclei to the ocular motor nuclei for this reflex?",
+    "options": {
+      "A": "Lateral vestibulospinal tract",
+      "B": "Medial vestibulospinal tract",
+      "C": "Medial longitudinal fasciculus",
+      "D": "Lateral lemniscus",
+      "E": "Medial lemniscus"
+    },
+    "correct_answer": "C",
+    "explanation": "The vestibulo-ocular reflex runs from the superior and medial vestibular nuclei through the MLF to the CN III, IV and VI nuclei.",
+    "high_yield_pearl": "High-Yield Rule: Medial longitudinal fasciculus",
+    "source": "USMLE Step 1 Replicate Bank: Auditory & Vestibular",
+    "id": "rep_2",
+    "index": 1
+  },
+  {
+    "category": "CBIL: Sleep",
+    "q_num": 92,
+    "stem": "A sleep EEG shows sleep spindles and K-complexes. Which stage is this?",
+    "options": {
+      "A": "Stage N1",
+      "B": "Stage N3",
+      "C": "REM",
+      "D": "Stage N2",
+      "E": "Awake"
+    },
+    "correct_answer": "D",
+    "explanation": "Sleep spindles and K-complexes mark stage N2. N3 shows delta waves, and REM shows a low-voltage, high-frequency EEG.",
+    "high_yield_pearl": "High-Yield Rule: Stage N2",
+    "source": "USMLE Step 1 Replicate Bank: CBIL: Sleep",
+    "id": "rep_3",
+    "index": 2
+  },
+  {
+    "category": "Visual Reflexes",
+    "q_num": 10,
+    "stem": "A man with a right lateral brainstem infarct has ptosis, miosis and anhidrosis on the right. Which additional finding is most likely?",
+    "options": {
+      "A": "Spastic hemiparesis involving the contralateral upper and lower extremities",
+      "B": "Loss of vibration sense and proprioception on the contralateral side of the body",
+      "C": "Impaired light touch and pinprick sensation on the contralateral side of the face",
+      "D": "Loss of pain and temperature sensation on the contralateral side of the body",
+      "E": "Sensorineural hearing loss accompanied by tinnitus in the ipsilateral ear"
+    },
+    "correct_answer": "D",
+    "explanation": "The sympathetic dilation fibers descend in the lateral brainstem next to the anterolateral system. A lesion damages both, causing ipsilateral Horner syndrome and contralateral loss of pain and temperature in the body.",
+    "high_yield_pearl": "High-Yield Rule: Loss of pain and temperature sensation on the contralateral side of the body",
+    "source": "USMLE Step 1 Replicate Bank: Visual Reflexes",
+    "id": "rep_4",
+    "index": 3
+  },
+  {
+    "category": "Hypothalamus & Smell/Taste",
+    "q_num": 66,
+    "stem": "A newborn with failure to thrive later develops insatiable hunger, obsession with food and obesity (Prader-Willi syndrome). Dysfunction of which hypothalamic nucleus best explains the hunger?",
+    "options": {
+      "A": "Lateral nucleus",
+      "B": "Arcuate nucleus only",
+      "C": "Ventromedial nucleus",
+      "D": "Mammillary bodies",
+      "E": "Suprachiasmatic nucleus"
+    },
+    "correct_answer": "C",
+    "explanation": "The ventromedial nucleus is the satiety center. Its failure causes constant hunger and obesity. The lateral nucleus is the hunger center, and its loss causes starvation.",
+    "high_yield_pearl": "High-Yield Rule: Ventromedial nucleus",
+    "source": "USMLE Step 1 Replicate Bank: Hypothalamus & Smell/Taste",
+    "id": "rep_5",
+    "index": 4
+  },
+  {
+    "category": "UMN/LMN",
+    "q_num": 51,
+    "stem": "A 44-year-old man has a right occipital condyle fracture. A week later his tongue deviates to the right on protrusion with fasciculations. Which structure is injured?",
+    "options": {
+      "A": "Left hypoglossal motor nucleus in the medullary tegmentum",
+      "B": "Right corticobulbar tract within the posterior internal capsule",
+      "C": "Right hypoglossal nerve in the bony hypoglossal canal",
+      "D": "Right vagus nerve traversing the posterior jugular foramen",
+      "E": "Right glossopharyngeal nerve traversing the jugular foramen"
+    },
+    "correct_answer": "C",
+    "explanation": "The hypoglossal canal lies next to the occipital condyle. An LMN lesion makes the tongue deviate toward the weak side, with fasciculations.",
+    "high_yield_pearl": "High-Yield Rule: Right hypoglossal nerve in the bony hypoglossal canal",
+    "source": "USMLE Step 1 Replicate Bank: UMN/LMN",
+    "id": "rep_6",
+    "index": 5
+  },
+  {
+    "category": "Visual System",
+    "q_num": 2,
+    "stem": "A 30-year-old woman has a new tumor in the temporal lobe. Visual field testing shows loss of the upper right quadrant of the visual field in both eyes. Which structure is most likely damaged?",
+    "options": {
+      "A": "Left optic tract",
+      "B": "Right parietal optic radiations",
+      "C": "Left temporal optic radiations",
+      "D": "Left parietal optic radiations",
+      "E": "Central optic chiasm"
+    },
+    "correct_answer": "C",
+    "explanation": "Meyer loop carries fibers from the inferior retina (superior visual field) through the temporal lobe. A left temporal lesion gives a right upper homonymous quadrantanopia. A parietal lesion would give a lower quadrantanopia instead.",
+    "high_yield_pearl": "High-Yield Rule: Left temporal optic radiations",
+    "source": "USMLE Step 1 Replicate Bank: Visual System",
+    "id": "rep_7",
+    "index": 6
+  },
+  {
+    "category": "Basal Ganglia",
+    "q_num": 71,
+    "stem": "A 73-year-old man has a slight resting tremor of the left hand that disappears on finger-to-nose testing. He has ratchet-like rigidity and a slow, shuffling gait. Which cells have degenerated?",
+    "options": {
+      "A": "GABAergic neurons of the striatum and globus pallidus",
+      "B": "Cholinergic neurons of the basal nucleus of Meynert",
+      "C": "Dopaminergic neurons of the substantia nigra pars compacta",
+      "D": "Glutamatergic neurons of the subthalamic nucleus of Luys",
+      "E": "Inhibitory Purkinje cells of the cerebellar cortex"
+    },
+    "correct_answer": "C",
+    "explanation": "This is Parkinson disease: resting tremor, ratchet-like (cogwheel) rigidity, bradykinesia and shuffling gait. The loss is of dopaminergic cells in the substantia nigra pars compacta.",
+    "high_yield_pearl": "High-Yield Rule: Dopaminergic neurons of the substantia nigra pars compacta",
+    "source": "USMLE Step 1 Replicate Bank: Basal Ganglia",
+    "id": "rep_8",
+    "index": 7
+  },
+  {
+    "category": "Visual Reflexes",
+    "q_num": 16,
+    "stem": "A 55-year-old man has lancinating leg pains, an ataxic gait, and absent vibration sense. His small, irregular pupils do not constrict to light but constrict when he focuses on a near object. Which describes this finding?",
+    "options": {
+      "A": "Marcus Gunn pupil",
+      "B": "Argyll Robertson pupil",
+      "C": "Adie tonic pupil",
+      "D": "Horner syndrome pupil",
+      "E": "Hutchinson pupil"
+    },
+    "correct_answer": "B",
+    "explanation": "Argyll Robertson pupil (neurosyphilis/tabes dorsalis) shows light-near dissociation: no constriction to light, but constriction with accommodation.",
+    "high_yield_pearl": "High-Yield Rule: Argyll Robertson pupil",
+    "source": "USMLE Step 1 Replicate Bank: Visual Reflexes",
+    "id": "rep_9",
+    "index": 8
+  },
+  {
+    "category": "Basal Ganglia",
+    "q_num": 79,
+    "stem": "A 52-year-old man with Parkinson disease starts a new drug and develops compulsive gambling and sudden sleep attacks. Which drug is most likely responsible?",
+    "options": {
+      "A": "Carbidopa",
+      "B": "Pramipexole",
+      "C": "Entacapone",
+      "D": "Benztropine",
+      "E": "Selegiline"
+    },
+    "correct_answer": "B",
+    "explanation": "Dopamine agonists (pramipexole, ropinirole) can cause impulse control disorders and sleep attacks.",
+    "high_yield_pearl": "High-Yield Rule: Pramipexole",
+    "source": "USMLE Step 1 Replicate Bank: Basal Ganglia",
+    "id": "rep_10",
+    "index": 9
+  },
+  {
+    "category": "Basal Ganglia",
+    "q_num": 74,
+    "stem": "Which is the net effect of dopamine from the substantia nigra on the striatum?",
+    "options": {
+      "A": "Inhibits the direct pathway via D1 receptors and excites the indirect pathway via D2 receptors",
+      "B": "Excites the direct pathway via D1 receptors and inhibits the indirect pathway via D2 receptors",
+      "C": "Excites both the direct and indirect pathways through nonselective dopamine D1/D2 activation",
+      "D": "Inhibits both the direct and indirect pathways through tonic hyperpolarizing dopamine release",
+      "E": "Directly excites the subthalamic nucleus to increase pallidal inhibition of the motor thalamus"
+    },
+    "correct_answer": "B",
+    "explanation": "Dopamine excites the direct pathway through D1 and inhibits the indirect pathway through D2. Both effects facilitate movement.",
+    "high_yield_pearl": "High-Yield Rule: Excites the direct pathway via D1 receptors and inhibits the indirect pathway via D2 receptors",
+    "source": "USMLE Step 1 Replicate Bank: Basal Ganglia",
+    "id": "rep_11",
+    "index": 10
+  },
+  {
+    "category": "Visual Reflexes",
+    "q_num": 11,
+    "stem": "A 25-year-old man has an epidural hematoma after head trauma. His right pupil is dilated and unreactive to light, but eye movements are still normal. Which of the following best explains the early pupillary finding?",
+    "options": {
+      "A": "Sympathetic fibers course superficially within the cavernous sinus segment of the carotid plexus",
+      "B": "Parasympathetic fibers run superficially on the outside of CN III and are compressed first",
+      "C": "Somatic motor fibers course peripherally within the midbrain tegmentum and are infarcted early",
+      "D": "Retinofugal afferent fibers course superficially along the lateral aspect of the optic tract",
+      "E": "Trochlear nerve fibers course externally along the free tentorial edge and are stretched early"
+    },
+    "correct_answer": "B",
+    "explanation": "Parasympathetic fibers lie on the outside of CN III, so compression (uncal herniation, PComm aneurysm) gives a dilated, unreactive pupil first, while the central somatic fibers keep eye movements normal.",
+    "high_yield_pearl": "High-Yield Rule: Parasympathetic fibers run superficially on the outside of CN III and are compressed first",
+    "source": "USMLE Step 1 Replicate Bank: Visual Reflexes",
+    "id": "rep_12",
+    "index": 11
+  },
+  {
+    "category": "UMN/LMN",
+    "q_num": 56,
+    "stem": "A 27-year-old man has paralysis of both legs below T9 after aortic surgery. He has hyperactive reflexes, bilateral upgoing toes and loss of pin-prick sensation. Vibration and light touch are intact. What are the most likely findings below the lesion?",
+    "options": {
+      "A": "Bilateral flaccid paralysis with loss of vibration sense and preserved pain sensation",
+      "B": "Right spastic paralysis with loss of proprioception and preserved pain sensation",
+      "C": "Bilateral spastic paraparesis with loss of pain and temperature sensation",
+      "D": "Complete bilateral sensory and motor loss below the level of the spinal cord lesion",
+      "E": "Preserved voluntary motor power with isolated bilateral loss of proprioception"
+    },
+    "correct_answer": "C",
+    "explanation": "Anterior spinal artery occlusion damages both lateral corticospinal tracts and the anterolateral system, but spares the dorsal columns (posterior spinal artery supply).",
+    "high_yield_pearl": "High-Yield Rule: Bilateral spastic paraparesis with loss of pain and temperature sensation",
+    "source": "USMLE Step 1 Replicate Bank: UMN/LMN",
+    "id": "rep_13",
+    "index": 12
+  },
+  {
+    "category": "UMN/LMN",
+    "q_num": 57,
+    "stem": "A 30-year-old man has a stab wound causing right hemisection of the spinal cord at T8. Which pattern is expected below the lesion?",
+    "options": {
+      "A": "Left spasticity and vibration loss, with preserved pain and temperature sensation",
+      "B": "Bilateral spastic paraparesis, with bilateral loss of pain and temperature sensation",
+      "C": "Bilateral loss of vibration and proprioception, with intact voluntary motor power",
+      "D": "Right spasticity and vibration loss, with left loss of pain and temperature sensation",
+      "E": "Right flaccid paralysis and pain loss, with preserved left sensation and motor power"
+    },
+    "correct_answer": "D",
+    "explanation": "Brown-Séquard syndrome: ipsilateral UMN signs and loss of vibration/proprioception below the lesion, contralateral loss of pain and temperature, and LMN signs at the lesion level.",
+    "high_yield_pearl": "High-Yield Rule: Right spasticity and vibration loss, with left loss of pain and temperature sensation",
+    "source": "USMLE Step 1 Replicate Bank: UMN/LMN",
+    "id": "rep_14",
+    "index": 13
+  },
+  {
+    "category": "Basal Ganglia",
+    "q_num": 73,
+    "stem": "In the patient in Question 71, the tremor is in the left hand. Which side of the brain is responsible?",
+    "options": {
+      "A": "Right substantia nigra",
+      "B": "Left substantia nigra",
+      "C": "Left cerebellum",
+      "D": "Right cerebellum only",
+      "E": "Bilateral substantia nigra equally"
+    },
+    "correct_answer": "A",
+    "explanation": "The basal ganglia loop acts on the ipsilateral motor cortex, which controls the contralateral body, so a left-hand tremor comes from the right substantia nigra.",
+    "high_yield_pearl": "High-Yield Rule: Right substantia nigra",
+    "source": "USMLE Step 1 Replicate Bank: Basal Ganglia",
+    "id": "rep_15",
+    "index": 14
+  },
+  {
+    "category": "UMN/LMN",
+    "q_num": 46,
+    "stem": "A 40-year-old man has atrophy and fasciculations of the right quadriceps and an absent right patellar reflex. Which spinal cord segments mediate the reflex that is absent?",
+    "options": {
+      "A": "C5–C6",
+      "B": "S1–S2",
+      "C": "L3–L4",
+      "D": "L1–L2",
+      "E": "S3–S4"
+    },
+    "correct_answer": "C",
+    "explanation": "The patellar reflex uses L3–L4. LMN signs include atrophy, fasciculations and decreased or absent reflexes.",
+    "high_yield_pearl": "High-Yield Rule: L3–L4",
+    "source": "USMLE Step 1 Replicate Bank: UMN/LMN",
+    "id": "rep_16",
+    "index": 15
+  },
+  {
+    "category": "UMN/LMN",
+    "q_num": 49,
+    "stem": "A 45-year-old woman can wrinkle her forehead and close both eyes, but the right corner of her mouth droops when she smiles. Where is the lesion most likely located?",
+    "options": {
+      "A": "Right peripheral facial nerve distal to the stylomastoid foramen",
+      "B": "Left corticobulbar tract rostral to the pontine facial motor nucleus",
+      "C": "Right facial motor nucleus within the caudal pontine tegmentum",
+      "D": "Right corticobulbar tract rostral to the pontine facial motor nucleus",
+      "E": "Right cerebellopontine angle mass compressing cranial nerve VII"
+    },
+    "correct_answer": "B",
+    "explanation": "Sparing of the forehead and eye closure with lower-face weakness is a corticobulbar (UMN) pattern. The lesion is contralateral to the weak face, here on the left, above the facial nucleus in the caudal pons.",
+    "high_yield_pearl": "High-Yield Rule: Left corticobulbar tract rostral to the pontine facial motor nucleus",
+    "source": "USMLE Step 1 Replicate Bank: UMN/LMN",
+    "id": "rep_17",
+    "index": 16
+  },
+  {
+    "category": "CBIL: Sleep",
+    "q_num": 93,
+    "stem": "A 45-year-old woman with insomnia is prescribed a drug that blocks orexin receptors. Which drug is this?",
+    "options": {
+      "A": "Suvorexant",
+      "B": "Zolpidem",
+      "C": "Ramelteon",
+      "D": "Zaleplon",
+      "E": "Modafinil"
+    },
+    "correct_answer": "A",
+    "explanation": "Suvorexant is an orexin receptor antagonist. Ramelteon is a melatonin agonist, and zolpidem and zaleplon act at the benzodiazepine site of GABA-A.",
+    "high_yield_pearl": "High-Yield Rule: Suvorexant",
+    "source": "USMLE Step 1 Replicate Bank: CBIL: Sleep",
+    "id": "rep_18",
+    "index": 17
+  },
+  {
+    "category": "Basal Ganglia",
+    "q_num": 77,
+    "stem": "A 70-year-old man with Parkinson disease taking selegiline is started on fluoxetine for depression. He develops agitation, fever, tremor and diarrhea. What is the most likely cause?",
+    "options": {
+      "A": "Neuroleptic malignant syndrome",
+      "B": "Hepatotoxicity",
+      "C": "Cheese reaction only",
+      "D": "Serotonin syndrome",
+      "E": "Dyskinesia"
+    },
+    "correct_answer": "D",
+    "explanation": "MAO-B inhibitors (selegiline, rasagiline) combined with serotonergic drugs can cause serotonin syndrome. They also cause the tyramine (cheese) effect.",
+    "high_yield_pearl": "High-Yield Rule: Serotonin syndrome",
+    "source": "USMLE Step 1 Replicate Bank: Basal Ganglia",
+    "id": "rep_19",
+    "index": 18
+  },
+  {
+    "category": "Auditory & Vestibular",
+    "q_num": 38,
+    "stem": "An 82-year-old man has difficulty understanding high-pitched voices. Which region of the cochlea is preferentially affected in age-related hearing loss?",
+    "options": {
+      "A": "Basal turn of the cochlea",
+      "B": "Apical turn of the cochlea",
+      "C": "Middle turn of the cochlea",
+      "D": "Membranous labyrinth vestibule",
+      "E": "External osseous spiral lamina"
+    },
+    "correct_answer": "A",
+    "explanation": "Presbycusis affects high frequencies because hair cells at the base of the cochlea are lost first.",
+    "high_yield_pearl": "High-Yield Rule: Basal turn of the cochlea",
+    "source": "USMLE Step 1 Replicate Bank: Auditory & Vestibular",
+    "id": "rep_20",
+    "index": 19
+  },
+  {
+    "category": "Auditory & Vestibular",
+    "q_num": 31,
+    "stem": "A 45-year-old factory worker has episodes of vertigo lasting about an hour, a buzzing sound in his left ear and a sense of fullness. A 512-Hz tuning fork test lateralizes to the right on Weber, and Rinne is positive in both ears. What type of hearing loss does he have?",
+    "options": {
+      "A": "Right conductive hearing loss",
+      "B": "Left conductive hearing loss",
+      "C": "Right sensorineural hearing loss",
+      "D": "Left sensorineural hearing loss",
+      "E": "Normal hearing"
+    },
+    "correct_answer": "D",
+    "explanation": "Weber lateralizes to the right (the good ear) and Rinne is normal (positive), so the left ear has sensorineural loss. Together with vertigo, tinnitus and fullness, this is Meniere disease.",
+    "high_yield_pearl": "High-Yield Rule: Left sensorineural hearing loss",
+    "source": "USMLE Step 1 Replicate Bank: Auditory & Vestibular",
+    "id": "rep_21",
+    "index": 20
+  },
+  {
+    "category": "Visual Reflexes",
+    "q_num": 22,
+    "stem": "A 47-year-old man has a toothache, fever, a swollen left eye with proptosis, an absent corneal reflex and limited eye movements. A thrombosis of the cavernous sinus is suspected. Which other nerve passes through this structure?",
+    "options": {
+      "A": "CN V3",
+      "B": "CN V2",
+      "C": "CN VII",
+      "D": "CN IX",
+      "E": "CN XII"
+    },
+    "correct_answer": "B",
+    "explanation": "The cavernous sinus contains CN III, IV, V1, V2 and VI. V3 exits through the foramen ovale and does not pass through it.",
+    "high_yield_pearl": "High-Yield Rule: CN V2",
+    "source": "USMLE Step 1 Replicate Bank: Visual Reflexes",
+    "id": "rep_22",
+    "index": 21
+  },
+  {
+    "category": "Auditory & Vestibular",
+    "q_num": 33,
+    "stem": "Which of the following best explains the underlying mechanism in the patient described in Question 31?",
+    "options": {
+      "A": "Excessive accumulation and elevated hydrostatic pressure of endolymph within the membranous labyrinth",
+      "B": "Dislodgement and free-floating migration of otoconia into the posterior semicircular canal ampulla",
+      "C": "Benign Schwann cell neoplasm originating along the vestibular division of cranial nerve VIII",
+      "D": "Post-viral inflammatory demyelination selectively involving the superior vestibular nerve branch",
+      "E": "Destructive expansion of keratinized stratified squamous epithelium within the middle ear cavity"
+    },
+    "correct_answer": "A",
+    "explanation": "Meniere disease is caused by excess endolymph increasing pressure in the endolymphatic space. Treatment is sodium restriction and diuretics.",
+    "high_yield_pearl": "High-Yield Rule: Excessive accumulation and elevated hydrostatic pressure of endolymph within the membranous labyrinth",
+    "source": "USMLE Step 1 Replicate Bank: Auditory & Vestibular",
+    "id": "rep_23",
+    "index": 22
+  },
+  {
+    "category": "CBIL: ALS",
+    "q_num": 97,
+    "stem": "What is the mechanism of riluzole?",
+    "options": {
+      "A": "Free radical scavenger that decreases oxidative cellular damage",
+      "B": "Presynaptic GABA-B agonist that increases spinal motor inhibition",
+      "C": "Central alpha-2 adrenergic agonist that reduces spastic muscle tone",
+      "D": "Presynaptic glutamate release inhibitor and NMDA receptor antagonist",
+      "E": "Direct dopamine D2 receptor agonist that stimulates striatal pathways"
+    },
+    "correct_answer": "D",
+    "explanation": "Riluzole is an NMDA antagonist that reduces glutamate excitotoxicity. Edaravone is the free radical scavenger.",
+    "high_yield_pearl": "High-Yield Rule: Presynaptic glutamate release inhibitor and NMDA receptor antagonist",
+    "source": "USMLE Step 1 Replicate Bank: CBIL: ALS",
+    "id": "rep_24",
+    "index": 23
+  },
+  {
+    "category": "Basal Ganglia",
+    "q_num": 81,
+    "stem": "A 78-year-old man with tremor-predominant Parkinson disease is considered for benztropine. What is the main concern in this patient?",
+    "options": {
+      "A": "Acute fulminant hepatic necrosis",
+      "B": "Severe symptomatic orthostatic hypotension",
+      "C": "Cognitive confusion and urinary retention",
+      "D": "Hyperpyrexic serotonin syndrome crisis",
+      "E": "Erythematous livedo reticularis rash"
+    },
+    "correct_answer": "C",
+    "explanation": "Anticholinergics (benztropine, trihexyphenidyl) help tremor but cause confusion, memory impairment, urinary retention and dry mouth, especially in the elderly.",
+    "high_yield_pearl": "High-Yield Rule: Cognitive confusion and urinary retention",
+    "source": "USMLE Step 1 Replicate Bank: Basal Ganglia",
+    "id": "rep_25",
+    "index": 24
+  },
+  {
+    "category": "UMN/LMN",
+    "q_num": 50,
+    "stem": "A 19-year-old woman cannot raise her left eyebrow, close her left eye or smile on the left. Which finding most strongly favors a lower motor neuron (Bell palsy) over a stroke?",
+    "options": {
+      "A": "Drooping of the lower face on the affected side",
+      "B": "Deviation of the tongue on protrusion to the affected side",
+      "C": "Preserved voluntary smiling on the affected side",
+      "D": "Spastic hemiparesis involving the ipsilateral upper extremity",
+      "E": "Inability to wrinkle the forehead on the affected side"
+    },
+    "correct_answer": "E",
+    "explanation": "Bell palsy (LMN) weakens the upper and lower face on the same side. Stroke spares the forehead because the upper face receives bilateral corticobulbar input.",
+    "high_yield_pearl": "High-Yield Rule: Inability to wrinkle the forehead on the affected side",
+    "source": "USMLE Step 1 Replicate Bank: UMN/LMN",
+    "id": "rep_26",
+    "index": 25
+  },
+  {
+    "category": "Basal Ganglia",
+    "q_num": 84,
+    "stem": "Which pathologic process underlies the chorea in the patient in Question 83?",
+    "options": {
+      "A": "Progressive loss of dopaminergic projection neurons within the substantia nigra",
+      "B": "Degeneration of striatal GABAergic neurons in the indirect pathway disinhibiting the thalamus",
+      "C": "Apoptosis of cerebellar Purkinje neurons leading to profound intention tremor",
+      "D": "Focal ischemic cavitation within the contralateral subthalamic nucleus of Luys",
+      "E": "Toxic hepatocellular and striatal copper accumulation with impaired ceruloplasmin"
+    },
+    "correct_answer": "B",
+    "explanation": "Loss of striatal GABAergic neurons (caudate and putamen) of the indirect pathway disinhibits the thalamus and causes chorea. The ventricles enlarge (hydrocephalus ex vacuo).",
+    "high_yield_pearl": "High-Yield Rule: Degeneration of striatal GABAergic neurons in the indirect pathway disinhibiting the thalamus",
+    "source": "USMLE Step 1 Replicate Bank: Basal Ganglia",
+    "id": "rep_27",
+    "index": 26
+  },
+  {
+    "category": "Ophthalmology",
+    "q_num": 27,
+    "stem": "A 72-year-old woman has rapidly progressive visual distortion and central vision loss. Fluorescein angiography shows neovascularization with subretinal bleeding. Which treatment is most appropriate?",
+    "options": {
+      "A": "Antioxidant vitamin supplements",
+      "B": "Topical prostaglandin",
+      "C": "Intravitreal anti-VEGF therapy",
+      "D": "Oral acyclovir",
+      "E": "Topical carbonic anhydrase inhibitor"
+    },
+    "correct_answer": "C",
+    "explanation": "Wet AMD involves neovascularization with bleeding and is treated with anti-VEGF. Antioxidant vitamins are for dry AMD (drusen).",
+    "high_yield_pearl": "High-Yield Rule: Intravitreal anti-VEGF therapy",
+    "source": "USMLE Step 1 Replicate Bank: Ophthalmology",
+    "id": "rep_28",
+    "index": 27
+  },
+  {
+    "category": "Basal Ganglia",
+    "q_num": 88,
+    "stem": "A 73-year-old man has a hand tremor and 3 years of kicking his wife during sleep, with no recall of it. The sleep disorder in this patient is most strongly associated with which pathology?",
+    "options": {
+      "A": "Neuronal alpha-synuclein aggregation",
+      "B": "Trinucleotide CAG repeat expansion",
+      "C": "Hyperphosphorylated TDP-43 inclusion bodies",
+      "D": "Hepatolenticular copper accumulation",
+      "E": "Extracellular amyloid-beta deposition"
+    },
+    "correct_answer": "A",
+    "explanation": "REM sleep behavior disorder can precede Parkinson disease and Lewy body dementia by years and reflects alpha-synuclein pathology.",
+    "high_yield_pearl": "High-Yield Rule: Neuronal alpha-synuclein aggregation",
+    "source": "USMLE Step 1 Replicate Bank: Basal Ganglia",
+    "id": "rep_29",
+    "index": 28
+  },
+  {
+    "category": "Auditory & Vestibular",
+    "q_num": 34,
+    "stem": "A 35-year-old man wakes up and rolls onto his left side, and the room begins to spin for under a minute. He has no hearing loss or tinnitus. The Dix-Hallpike maneuver reproduces his symptoms with nystagmus. The curative maneuver for this condition works by doing which of the following?",
+    "options": {
+      "A": "Facilitating drainage of excess endolymphatic fluid through the endolymphatic duct",
+      "B": "Increasing reflexive contraction of the stapedius and tensor tympani middle ear muscles",
+      "C": "Relieving microvascular pulsatile compression along the root entry zone of cranial nerve VIII",
+      "D": "Augmenting central vestibular compensation circuits within the medullary vestibular nuclei",
+      "E": "Repositioning dislodged canalith otoconia out of the semicircular canal into the utricular vestibule"
+    },
+    "correct_answer": "E",
+    "explanation": "This is BPPV. The Epley maneuver moves the otoconia from the semicircular canal into the vestibule.",
+    "high_yield_pearl": "High-Yield Rule: Repositioning dislodged canalith otoconia out of the semicircular canal into the utricular vestibule",
+    "source": "USMLE Step 1 Replicate Bank: Auditory & Vestibular",
+    "id": "rep_30",
+    "index": 29
+  },
+  {
+    "category": "Visual Reflexes",
+    "q_num": 9,
+    "stem": "A 62-year-old smoker has right ptosis, a small pupil and decreased sweating on the right side of his face, plus shoulder pain. Which pathway is most likely interrupted?",
+    "options": {
+      "A": "Preganglionic sympathetic fibers ascending over the lung apex to the superior cervical ganglion",
+      "B": "Postganglionic parasympathetic pupillomotor fibers traversing the inferior branch of CN III",
+      "C": "Preganglionic parasympathetic visceral motor neurons originating in the Edinger-Westphal nucleus",
+      "D": "Postganglionic sympathetic sudomotor fibers descending along the external carotid plexus",
+      "E": "Somatosensory primary afferent fibers traversing the ophthalmic division of cranial nerve V"
+    },
+    "correct_answer": "A",
+    "explanation": "This is Horner syndrome from a Pancoast tumor. Second-order preganglionic sympathetic fibers arise in the intermediolateral column and pass over the lung apex, then reach the superior cervical ganglion.",
+    "high_yield_pearl": "High-Yield Rule: Preganglionic sympathetic fibers ascending over the lung apex to the superior cervical ganglion",
+    "source": "USMLE Step 1 Replicate Bank: Visual Reflexes",
+    "id": "rep_31",
+    "index": 30
+  },
+  {
+    "category": "UMN/LMN",
+    "q_num": 48,
+    "stem": "A 22-year-old man has a complete spinal cord transection at C2 after a diving accident. After the period of spinal shock, which of the following is expected?",
+    "options": {
+      "A": "Hyperactive patellar reflex and an intact spinal flexor withdrawal reflex",
+      "B": "Absent patellar reflex and absent spinal flexor withdrawal reflex",
+      "C": "Absent patellar reflex and hyperactive spinal flexor withdrawal reflex",
+      "D": "Normal patellar reflex and absent spinal flexor withdrawal reflex",
+      "E": "Hypoactive patellar reflex and flaccid tone with absent withdrawal reflex"
+    },
+    "correct_answer": "A",
+    "explanation": "The patellar and withdrawal reflexes use local spinal circuits and do not need the brain. After spinal shock, the patellar reflex is hyperactive because of the UMN lesion.",
+    "high_yield_pearl": "High-Yield Rule: Hyperactive patellar reflex and an intact spinal flexor withdrawal reflex",
+    "source": "USMLE Step 1 Replicate Bank: UMN/LMN",
+    "id": "rep_32",
+    "index": 31
+  },
+  {
+    "category": "UMN/LMN",
+    "q_num": 60,
+    "stem": "A 45-year-old man with a lumbar tumor has radicular leg pain, flaccid leg weakness with decreased reflexes, and saddle anesthesia. Which is the most likely site of injury?",
+    "options": {
+      "A": "Thoracolumbar anterior spinal artery territory",
+      "B": "Hemisection of the thoracic spinal cord",
+      "C": "Central canal syrinx within the cervical cord",
+      "D": "Sacral cord segments of the conus medullaris",
+      "E": "Lumbosacral nerve roots of the cauda equina"
+    },
+    "correct_answer": "E",
+    "explanation": "Cauda equina: lumbosacral roots give LMN signs, radicular pain and saddle anesthesia. A conus lesion gives bilateral UMN sacral signs and autonomic dysfunction.",
+    "high_yield_pearl": "High-Yield Rule: Lumbosacral nerve roots of the cauda equina",
+    "source": "USMLE Step 1 Replicate Bank: UMN/LMN",
+    "id": "rep_33",
+    "index": 32
+  },
+  {
+    "category": "UMN/LMN",
+    "q_num": 64,
+    "stem": "A hemiparetic stroke patient has a flexed arm and extended leg. Resistance to passive stretch is greatest at the start of the movement and increases with faster stretching. Which term describes this?",
+    "options": {
+      "A": "Rigidity",
+      "B": "Spasticity",
+      "C": "Flaccidity",
+      "D": "Fasciculations",
+      "E": "Chorea"
+    },
+    "correct_answer": "B",
+    "explanation": "Spasticity is velocity dependent, greatest at the start of passive movement, and shows flexor tone in the arm and extensor tone in the leg.",
+    "high_yield_pearl": "High-Yield Rule: Spasticity",
+    "source": "USMLE Step 1 Replicate Bank: UMN/LMN",
+    "id": "rep_34",
+    "index": 33
+  },
+  {
+    "category": "Basal Ganglia",
+    "q_num": 75,
+    "stem": "Which best explains bradykinesia in Parkinson disease?",
+    "options": {
+      "A": "Excessive excitatory thalamocortical drive by the ventral lateral thalamus",
+      "B": "Widespread apoptotic loss of striatal GABAergic medium spiny neurons",
+      "C": "Pathologic hyperactivation of the direct basal ganglia motor pathway",
+      "D": "Complete functional failure of the glutamatergic subthalamic nucleus",
+      "E": "Increased inhibitory GABAergic output of the internal globus pallidus to the thalamus"
+    },
+    "correct_answer": "E",
+    "explanation": "Dopamine loss weakens the direct pathway and strengthens the indirect pathway. GPi inhibition of the VL thalamus rises and cortical drive falls, causing bradykinesia.",
+    "high_yield_pearl": "High-Yield Rule: Increased inhibitory GABAergic output of the internal globus pallidus to the thalamus",
+    "source": "USMLE Step 1 Replicate Bank: Basal Ganglia",
+    "id": "rep_35",
+    "index": 34
+  },
+  {
+    "category": "UMN/LMN",
+    "q_num": 45,
+    "stem": "A 62-year-old man has right arm weakness with increased tone, brisk reflexes and a Babinski sign 3 weeks after a stroke. Which mechanism best explains the increased tone and reflexes?",
+    "options": {
+      "A": "Direct excitotoxic apoptosis of spinal anterior horn alpha motor neurons",
+      "B": "Selective denervation atrophy of intrafusal muscle spindle dynamic fibers",
+      "C": "Impairment of retrograde neurotrophic transport in peripheral motor nerves",
+      "D": "Autoimmune receptor blockade at the postsynaptic neuromuscular junction",
+      "E": "Loss of descending inhibitory upper motor neuron input to spinal reflex arcs"
+    },
+    "correct_answer": "E",
+    "explanation": "UMN signs (spasticity, hyperreflexia, Babinski) are release phenomena caused by loss of inhibitory input to lower motor neurons.",
+    "high_yield_pearl": "High-Yield Rule: Loss of descending inhibitory upper motor neuron input to spinal reflex arcs",
+    "source": "USMLE Step 1 Replicate Bank: UMN/LMN",
+    "id": "rep_36",
+    "index": 35
+  },
+  {
+    "category": "CBIL: ALS",
+    "q_num": 99,
+    "stem": "A 30-year-old woman with a spinal cord injury has a stiff, flexed right arm. Which drug reduces spasticity by activating alpha-2 receptors?",
+    "options": {
+      "A": "Baclofen",
+      "B": "Tizanidine",
+      "C": "Dantrolene",
+      "D": "Cyclobenzaprine",
+      "E": "Botulinum toxin"
+    },
+    "correct_answer": "B",
+    "explanation": "Tizanidine is an alpha-2 agonist that reduces norepinephrine drive on motor neurons. Baclofen is a GABA-B agonist.",
+    "high_yield_pearl": "High-Yield Rule: Tizanidine",
+    "source": "USMLE Step 1 Replicate Bank: CBIL: ALS",
+    "id": "rep_37",
+    "index": 36
+  },
+  {
+    "category": "UMN/LMN",
+    "q_num": 53,
+    "stem": "A 20-year-old man struck in the head has decreased facial sensation on the left and when he opens his mouth, his jaw deviates to the left. Which structure is injured?",
+    "options": {
+      "A": "Left trigeminal nerve root",
+      "B": "Right trigeminal nerve root",
+      "C": "Left facial nerve",
+      "D": "Right corticobulbar tract",
+      "E": "Left hypoglossal nerve"
+    },
+    "correct_answer": "A",
+    "explanation": "The left trigeminal root contains sensory and motor fibers. The unopposed right lateral pterygoid pushes the jaw toward the weak left side.",
+    "high_yield_pearl": "High-Yield Rule: Left trigeminal nerve root",
+    "source": "USMLE Step 1 Replicate Bank: UMN/LMN",
+    "id": "rep_38",
+    "index": 37
+  },
+  {
+    "category": "Basal Ganglia",
+    "q_num": 86,
+    "stem": "A 66-year-old man has sudden, violent flinging movements of the left arm and leg after a lacunar stroke. Where is the lesion?",
+    "options": {
+      "A": "Left caudate nucleus",
+      "B": "Left substantia nigra",
+      "C": "Right subthalamic nucleus",
+      "D": "Right putamen nucleus",
+      "E": "Left subthalamic nucleus"
+    },
+    "correct_answer": "C",
+    "explanation": "Hemiballismus follows a subthalamic nucleus lesion and affects the contralateral side, so left-sided flinging indicates the right STN.",
+    "high_yield_pearl": "High-Yield Rule: Right subthalamic nucleus",
+    "source": "USMLE Step 1 Replicate Bank: Basal Ganglia",
+    "id": "rep_39",
+    "index": 38
+  },
+  {
+    "category": "Visual Reflexes",
+    "q_num": 13,
+    "stem": "A patient has a lesion of the right optic nerve. Which pupillary responses are expected?",
+    "options": {
+      "A": "Right eye light: left pupil constricts; left eye light: right pupil constricts",
+      "B": "Right eye light: both pupils constrict; left eye light: neither pupil constricts",
+      "C": "Right eye light: neither pupil constricts; left eye light: neither pupil constricts",
+      "D": "Right eye light: right pupil constricts; left eye light: neither pupil constricts",
+      "E": "Right eye light: neither pupil constricts; left eye light: both pupils constrict"
+    },
+    "correct_answer": "E",
+    "explanation": "Right optic nerve lesion: the afferent limb is lost on that side. Light in the right eye produces no response in either pupil, but light in the left eye constricts both pupils.",
+    "high_yield_pearl": "High-Yield Rule: Right eye light: neither pupil constricts; left eye light: both pupils constrict",
+    "source": "USMLE Step 1 Replicate Bank: Visual Reflexes",
+    "id": "rep_40",
+    "index": 39
+  },
+  {
+    "category": "Auditory & Vestibular",
+    "q_num": 37,
+    "stem": "Which finding best distinguishes central vertigo from peripheral vertigo?",
+    "options": {
+      "A": "Intense fatigable vertigo with prominent hearing loss and tinnitus",
+      "B": "Direction-fixed horizontal nystagmus that suppresses with visual fixation",
+      "C": "Direction-changing nystagmus unsuppressed by fixation with limb ataxia and dysarthria",
+      "D": "Brief episodic vertigo triggered by head position changes fading within 60 seconds",
+      "E": "Isolated sudden-onset vertigo following an uncomplicated viral upper respiratory infection"
+    },
+    "correct_answer": "C",
+    "explanation": "Central vertigo is milder, not fatigable, and nystagmus is not suppressed by fixation, with other brainstem or cerebellar signs and no hearing loss.",
+    "high_yield_pearl": "High-Yield Rule: Direction-changing nystagmus unsuppressed by fixation with limb ataxia and dysarthria",
+    "source": "USMLE Step 1 Replicate Bank: Auditory & Vestibular",
+    "id": "rep_41",
+    "index": 40
+  },
+  {
+    "category": "Visual Reflexes",
+    "q_num": 24,
+    "stem": "A 40-year-old man has vertical diplopia when walking downstairs. Which maneuver best tests the muscle that is weak?",
+    "options": {
+      "A": "Abduct the eye and ask the patient to look up",
+      "B": "Abduct the eye and ask the patient to look down",
+      "C": "Ask the patient to look straight ahead and converge",
+      "D": "Adduct the eye and ask the patient to look up",
+      "E": "Adduct the eye and ask the patient to look down"
+    },
+    "correct_answer": "E",
+    "explanation": "The superior oblique mainly depresses the eye when adducted. Ask the patient to adduct the eye and look down.",
+    "high_yield_pearl": "High-Yield Rule: Adduct the eye and ask the patient to look down",
+    "source": "USMLE Step 1 Replicate Bank: Visual Reflexes",
+    "id": "rep_42",
+    "index": 41
+  },
+  {
+    "category": "Auditory & Vestibular",
+    "q_num": 40,
+    "stem": "A 30-year-old woman with right facial droop from Bell palsy also complains that ordinary sounds are painfully loud in her right ear. Paralysis of which muscle explains this?",
+    "options": {
+      "A": "Tensor tympani (CN V)",
+      "B": "Stapedius (CN VII)",
+      "C": "Tensor veli palatini (CN V)",
+      "D": "Masseter (CN V)",
+      "E": "Stylopharyngeus (CN IX)"
+    },
+    "correct_answer": "B",
+    "explanation": "The stapedius (CN VII) dampens stapes movement. Its paralysis in Bell palsy causes hyperacusis. The tensor tympani is supplied by CN V.",
+    "high_yield_pearl": "High-Yield Rule: Stapedius (CN VII)",
+    "source": "USMLE Step 1 Replicate Bank: Auditory & Vestibular",
+    "id": "rep_43",
+    "index": 42
+  },
+  {
+    "category": "Auditory & Vestibular",
+    "q_num": 41,
+    "stem": "Because the central auditory pathway projects bilaterally, which single lesion would cause complete deafness in the right ear?",
+    "options": {
+      "A": "Right inferior colliculus",
+      "B": "Left medial geniculate nucleus",
+      "C": "Right transverse temporal gyrus",
+      "D": "Right cochlear nuclei",
+      "E": "Right lateral lemniscus"
+    },
+    "correct_answer": "D",
+    "explanation": "Central auditory pathways are bilateral, so most lesions above the cochlear nuclei cause little hearing loss (but impair localization). Only a cochlear nucleus lesion blocks all input from one ear.",
+    "high_yield_pearl": "High-Yield Rule: Right cochlear nuclei",
+    "source": "USMLE Step 1 Replicate Bank: Auditory & Vestibular",
+    "id": "rep_44",
+    "index": 43
+  },
+  {
+    "category": "Visual Reflexes",
+    "q_num": 19,
+    "stem": "A patient has an acute infarct of the right frontal eye field. In which direction do the eyes deviate?",
+    "options": {
+      "A": "Toward the right side of the lesion",
+      "B": "Toward the left side away from the lesion",
+      "C": "Directed upward toward the superior visual field",
+      "D": "Directed downward toward the inferior visual field",
+      "E": "Centered at midline with preserved convergence"
+    },
+    "correct_answer": "A",
+    "explanation": "After a stroke, the intact opposite FEF dominates, so the eyes look toward the lesion. A right FEF infarct deviates the eyes to the right.",
+    "high_yield_pearl": "High-Yield Rule: Toward the right side of the lesion",
+    "source": "USMLE Step 1 Replicate Bank: Visual Reflexes",
+    "id": "rep_45",
+    "index": 44
+  },
+  {
+    "category": "Hypothalamus & Smell/Taste",
+    "q_num": 67,
+    "stem": "A 53-year-old woman on carbamazepine for trigeminal neuralgia has confusion, headache and hyponatremia. Which hypothalamic nuclei produce the hormone responsible?",
+    "options": {
+      "A": "Arcuate and periventricular nuclei",
+      "B": "Lateral and ventromedial nuclei",
+      "C": "Anterior and posterior nuclei",
+      "D": "Supraoptic and paraventricular nuclei",
+      "E": "Suprachiasmatic and mammillary nuclei"
+    },
+    "correct_answer": "D",
+    "explanation": "The supraoptic and paraventricular nuclei make ADH and oxytocin. Carbamazepine can cause SIADH with hyponatremia.",
+    "high_yield_pearl": "High-Yield Rule: Supraoptic and paraventricular nuclei",
+    "source": "USMLE Step 1 Replicate Bank: Hypothalamus & Smell/Taste",
+    "id": "rep_46",
+    "index": 45
+  },
+  {
+    "category": "UMN/LMN",
+    "q_num": 62,
+    "stem": "A 66-year-old man has a lacunar infarct in the left posterior limb of the internal capsule. What is the expected presentation?",
+    "options": {
+      "A": "Left hemiparesis with left lower facial weakness and hyperreflexia",
+      "B": "Fluent aphasia with dense right superior homonymous quadrantanopia",
+      "C": "Paraparesis with bilateral extensor plantar responses and sensory loss",
+      "D": "Right hemiparesis with spasticity and right lower facial weakness",
+      "E": "Contralateral hemi-sensory loss with complete preservation of motor power"
+    },
+    "correct_answer": "D",
+    "explanation": "The posterior limb of the internal capsule carries corticospinal and corticobulbar fibers, so a left lesion gives right hemiparesis, spasticity and lower facial weakness.",
+    "high_yield_pearl": "High-Yield Rule: Right hemiparesis with spasticity and right lower facial weakness",
+    "source": "USMLE Step 1 Replicate Bank: UMN/LMN",
+    "id": "rep_47",
+    "index": 46
+  },
+  {
+    "category": "UMN/LMN",
+    "q_num": 61,
+    "stem": "A 48-year-old woman has progressive leg stiffness with foot drag, increased tone, brisk Achilles reflexes, bilateral Babinski signs, normal sensation, and morning headaches with papilledema. Which area is most likely compressed?",
+    "options": {
+      "A": "Intramedullary mass compressing the cervical spinal cord dorsal columns",
+      "B": "Subcortical glioma involving the posterior limb of the internal capsule",
+      "C": "Parasagittal falcine meningioma compressing bilateral paracentral lobules",
+      "D": "Degenerative mass compressing anterior horn cells of the lumbar enlargement",
+      "E": "Ischemic lesion involving the medullary pyramids at the decussation"
+    },
+    "correct_answer": "C",
+    "explanation": "A parasagittal meningioma along the falx compresses both paracentral lobules (legs), giving bilateral leg UMN signs. Headache and papilledema indicate a mass.",
+    "high_yield_pearl": "High-Yield Rule: Parasagittal falcine meningioma compressing bilateral paracentral lobules",
+    "source": "USMLE Step 1 Replicate Bank: UMN/LMN",
+    "id": "rep_48",
+    "index": 47
+  },
+  {
+    "category": "Visual System",
+    "q_num": 8,
+    "stem": "A man has a stroke that destroys the left lateral geniculate nucleus. Which of the following findings is most likely?",
+    "options": {
+      "A": "Left homonymous hemianopia with intact pupillary light reflexes",
+      "B": "Bitemporal hemianopia with absent pupillary light reflexes",
+      "C": "Right superior quadrantanopia with impaired pupillary accommodation",
+      "D": "Left monocular blindness with an afferent pupillary defect",
+      "E": "Right homonymous hemianopia with intact pupillary light reflexes"
+    },
+    "correct_answer": "E",
+    "explanation": "An LGN lesion gives a contralateral homonymous hemianopia. The pupillary light reflex is normal because the reflex fibers leave the optic tract before the LGN and go to the pretectal area.",
+    "high_yield_pearl": "High-Yield Rule: Right homonymous hemianopia with intact pupillary light reflexes",
+    "source": "USMLE Step 1 Replicate Bank: Visual System",
+    "id": "rep_49",
+    "index": 48
+  },
+  {
+    "category": "Auditory & Vestibular",
+    "q_num": 35,
+    "stem": "A 50-year-old man has right-sided hearing loss, tinnitus, imbalance and a constant mild headache for a year. MRI shows a mass at the right cerebellopontine angle. As the mass enlarges, which additional nerve is most likely to be affected?",
+    "options": {
+      "A": "CN IX",
+      "B": "CN VII",
+      "C": "CN XI",
+      "D": "CN XII",
+      "E": "CN IV"
+    },
+    "correct_answer": "B",
+    "explanation": "This is a vestibular schwannoma at the CPA. CN VII lies next to CN VIII, so facial involvement is common, and CN V may be affected as well.",
+    "high_yield_pearl": "High-Yield Rule: CN VII",
+    "source": "USMLE Step 1 Replicate Bank: Auditory & Vestibular",
+    "id": "rep_50",
+    "index": 49
+  },
+  {
+    "category": "CBIL: ALS",
+    "q_num": 100,
+    "stem": "A patient with spasticity and liver disease should avoid which peripherally acting agent that prevents calcium release from the sarcoplasmic reticulum?",
+    "options": {
+      "A": "Baclofen",
+      "B": "Tizanidine",
+      "C": "Cyclobenzaprine",
+      "D": "Botulinum toxin",
+      "E": "Dantrolene"
+    },
+    "correct_answer": "E",
+    "explanation": "Dantrolene blocks calcium release from the sarcoplasmic reticulum and is hepatotoxic, so avoid it in liver disease.",
+    "high_yield_pearl": "High-Yield Rule: Dantrolene",
+    "source": "USMLE Step 1 Replicate Bank: CBIL: ALS",
+    "id": "rep_51",
+    "index": 50
+  },
+  {
+    "category": "UMN/LMN",
+    "q_num": 47,
+    "stem": "A 30-year-old man with a chronic spinal cord injury has rhythmic, repeated contractions of his calf when the foot is passively dorsiflexed. What explains this finding?",
+    "options": {
+      "A": "Intrinsic myofibrillar fatigue within fast-twitch gastrocnemius motor units",
+      "B": "Denervation supersensitivity of postsynaptic nicotinic acetylcholine receptors",
+      "C": "Intention tremor resulting from cerebellar dentatorubrothalamic tract dysfunction",
+      "D": "Hyperactive stretch reflex circuitry resulting from loss of descending inhibition",
+      "E": "Entrapment compression neuropathy affecting the distal tibial nerve in the tarsal tunnel"
+    },
+    "correct_answer": "D",
+    "explanation": "Clonus is repeated activation of a hyperactive stretch reflex after loss of descending inhibition, best seen at the ankle (S1–S2).",
+    "high_yield_pearl": "High-Yield Rule: Hyperactive stretch reflex circuitry resulting from loss of descending inhibition",
+    "source": "USMLE Step 1 Replicate Bank: UMN/LMN",
+    "id": "rep_52",
+    "index": 51
+  },
+  {
+    "category": "Visual System",
+    "q_num": 3,
+    "stem": "A 68-year-old man has a left posterior cerebral artery infarct and develops a right homonymous hemianopia. Fixation testing shows that central vision is preserved. Which of the following best explains this macular sparing?",
+    "options": {
+      "A": "Exclusive projection of macular visual streams to the contralateral lateral geniculate nucleus",
+      "B": "Complete bypass of primary occipital striate cortex by ascending geniculocalcarine fibers",
+      "C": "Selective decussation of central foveal photoreceptor axons at the central optic chiasm",
+      "D": "Dual collateral blood supply and large occipital pole cortical representation of the macula",
+      "E": "Collateral visual representation within tertiary sensory association areas of the parietal lobe"
+    },
+    "correct_answer": "D",
+    "explanation": "The macula has a large cortical representation and a second arterial supply, so it is typically spared by a PCA infarct. Trauma with large lesions can remove this sparing.",
+    "high_yield_pearl": "High-Yield Rule: Dual collateral blood supply and large occipital pole cortical representation of the macula",
+    "source": "USMLE Step 1 Replicate Bank: Visual System",
+    "id": "rep_53",
+    "index": 52
+  },
+  {
+    "category": "UMN/LMN",
+    "q_num": 52,
+    "stem": "A 58-year-old man has right hemiparesis and his tongue deviates to the left on protrusion. Which lesion best explains this combination?",
+    "options": {
+      "A": "Right internal capsule posterior limb",
+      "B": "Left precentral motor cortex hand area",
+      "C": "Right medial medulla oblongata",
+      "D": "Left medial medulla oblongata",
+      "E": "Right midbrain cerebral peduncle"
+    },
+    "correct_answer": "D",
+    "explanation": "A left medial medullary lesion damages the left CN XII (tongue deviates left) and the left pyramid (right hemiparesis). The tongue deviates opposite the body weakness: an alternating hemiplegia.",
+    "high_yield_pearl": "High-Yield Rule: Left medial medulla oblongata",
+    "source": "USMLE Step 1 Replicate Bank: UMN/LMN",
+    "id": "rep_54",
+    "index": 53
+  },
+  {
+    "category": "Visual Reflexes",
+    "q_num": 17,
+    "stem": "A 28-year-old woman with multiple sclerosis has double vision on left gaze. On looking left, her left eye abducts but her right eye stays at midline. Convergence is intact. Where is the lesion?",
+    "options": {
+      "A": "Left medial longitudinal fasciculus",
+      "B": "Left paramedian pontine reticular formation",
+      "C": "Right abducens motor nucleus",
+      "D": "Right oculomotor motor nucleus",
+      "E": "Right medial longitudinal fasciculus"
+    },
+    "correct_answer": "E",
+    "explanation": "Internuclear ophthalmoplegia. On left gaze the left abducens fires but the right MLF cannot carry the signal to the right oculomotor nucleus, so the right eye does not adduct. Convergence is preserved because it bypasses the MLF.",
+    "high_yield_pearl": "High-Yield Rule: Right medial longitudinal fasciculus",
+    "source": "USMLE Step 1 Replicate Bank: Visual Reflexes",
+    "id": "rep_55",
+    "index": 54
+  },
+  {
+    "category": "Auditory & Vestibular",
+    "q_num": 39,
+    "stem": "A 60-year-old man is treated for Pseudomonas pneumonia with tobramycin and furosemide. He develops bilateral tinnitus and hearing loss. Which structures are most likely injured?",
+    "options": {
+      "A": "Ossicles",
+      "B": "Tympanic membrane",
+      "C": "Semicircular canal cupula only",
+      "D": "Eustachian tube",
+      "E": "Cochlear hair cells"
+    },
+    "correct_answer": "E",
+    "explanation": "Aminoglycosides, loop diuretics, cisplatin and salicylates damage cochlear hair cells and cause sensorineural loss.",
+    "high_yield_pearl": "High-Yield Rule: Cochlear hair cells",
+    "source": "USMLE Step 1 Replicate Bank: Auditory & Vestibular",
+    "id": "rep_56",
+    "index": 55
+  },
+  {
+    "category": "UMN/LMN",
+    "q_num": 59,
+    "stem": "A 50-year-old strict vegan has paresthesias, loss of vibration sense, spastic weakness and hyperreflexia. Which tracts are involved?",
+    "options": {
+      "A": "Anterolateral spinothalamic tracts and anterior horn alpha motor neurons",
+      "B": "Posterior dorsal columns and lateral corticospinal descending motor tracts",
+      "C": "Anterior and posterior spinocerebellar ascending sensory tracts",
+      "D": "Anterior corticospinal motor tracts and medial longitudinal fasciculi",
+      "E": "Dorsolateral tracts of Lissauer and dorsal horn substantia gelatinosa"
+    },
+    "correct_answer": "B",
+    "explanation": "B12 deficiency (subacute combined degeneration) damages the dorsal columns and lateral corticospinal tracts.",
+    "high_yield_pearl": "High-Yield Rule: Posterior dorsal columns and lateral corticospinal descending motor tracts",
+    "source": "USMLE Step 1 Replicate Bank: UMN/LMN",
+    "id": "rep_57",
+    "index": 56
+  },
+  {
+    "category": "Hypothalamus & Smell/Taste",
+    "q_num": 69,
+    "stem": "A patient has loss of taste from the anterior two-thirds of the tongue (CN VII), posterior third (CN IX) and epiglottis (CN X). Where do these first-order taste fibers synapse?",
+    "options": {
+      "A": "Ventral posteromedial nucleus of the thalamus",
+      "B": "Gustatory portion of the solitary nucleus",
+      "C": "Primary gustatory cortex within the insula",
+      "D": "Primary olfactory cortex within the uncus",
+      "E": "Branchial motor neurons of the nucleus ambiguus"
+    },
+    "correct_answer": "B",
+    "explanation": "CN VII, IX and X taste fibers synapse in the solitary nucleus, then project to the VPM thalamus and the insula/postcentral gyrus.",
+    "high_yield_pearl": "High-Yield Rule: Gustatory portion of the solitary nucleus",
+    "source": "USMLE Step 1 Replicate Bank: Hypothalamus & Smell/Taste",
+    "id": "rep_58",
+    "index": 57
+  },
+  {
+    "category": "Visual Reflexes",
+    "q_num": 23,
+    "stem": "A 75-year-old man takes an alpha-1 blocker for BPH. During cataract surgery, his pupil is unusually small. Which mechanism is most likely?",
+    "options": {
+      "A": "Antagonism of alpha-1 adrenergic receptors on the pupillary dilator muscle",
+      "B": "Direct pharmacologic stimulation of parasympathetic postganglionic fibers in CN III",
+      "C": "Selective excitotoxic destruction of cholinergic neurons in the Edinger-Westphal nucleus",
+      "D": "Competitive antagonism of muscarinic M3 receptors on the pupillary sphincter muscle",
+      "E": "Direct alpha-2 adrenergic stimulation suppressing central pretectal sympathetic outflow"
+    },
+    "correct_answer": "A",
+    "explanation": "The pupillary dilator is sympathetic (norepinephrine on alpha-1 receptors). An alpha-1 blocker relaxes it, leaving the constrictor unopposed and the pupil small.",
+    "high_yield_pearl": "High-Yield Rule: Antagonism of alpha-1 adrenergic receptors on the pupillary dilator muscle",
+    "source": "USMLE Step 1 Replicate Bank: Visual Reflexes",
+    "id": "rep_59",
+    "index": 58
+  },
+  {
+    "category": "UMN/LMN",
+    "q_num": 63,
+    "stem": "A reflex hammer taps the patellar tendon and the quadriceps contracts. Which receptor initiates this reflex?",
+    "options": {
+      "A": "Muscle spindle",
+      "B": "Golgi tendon organ",
+      "C": "Pacinian corpuscle",
+      "D": "Free nerve ending",
+      "E": "Meissner corpuscle"
+    },
+    "correct_answer": "A",
+    "explanation": "The muscle spindle senses stretch and sends Ia afferents to alpha motor neurons in a two-neuron reflex arc.",
+    "high_yield_pearl": "High-Yield Rule: Muscle spindle",
+    "source": "USMLE Step 1 Replicate Bank: UMN/LMN",
+    "id": "rep_60",
+    "index": 59
+  },
+  {
+    "category": "Ophthalmology",
+    "q_num": 25,
+    "stem": "A 60-year-old woman enters a dark movie theater and develops a painful red left eye, headache, nausea and halos around lights. The eye feels hard. Which mechanism best explains the attack?",
+    "options": {
+      "A": "Excessive active secretion of aqueous humor by the bilayered ciliary body epithelium",
+      "B": "Neovascular proliferation across the anterior chamber angle inducing synechial closure",
+      "C": "Accumulation of extracellular drusen material beneath the retinal pigment epithelium",
+      "D": "Mydriasis-induced apposition of the iris against the trabecular meshwork outflow tract",
+      "E": "Cross-linking and oxidative aggregation of crystallin proteins in the crystalline lens"
+    },
+    "correct_answer": "D",
+    "explanation": "Acute angle-closure glaucoma is precipitated by pupillary dilation (dim light, drugs), which pushes the iris against the iridocorneal angle. Cholinomimetics treat it by constricting the pupil.",
+    "high_yield_pearl": "High-Yield Rule: Mydriasis-induced apposition of the iris against the trabecular meshwork outflow tract",
+    "source": "USMLE Step 1 Replicate Bank: Ophthalmology",
+    "id": "rep_61",
+    "index": 60
+  },
+  {
+    "category": "Visual System",
+    "q_num": 6,
+    "stem": "A 35-year-old man with chronic fat malabsorption reports difficulty seeing in dim light. A deficiency of vitamin A most directly impairs the synthesis of which of the following?",
+    "options": {
+      "A": "Cone opsins in the fovea only",
+      "B": "Rhodopsin in rods",
+      "C": "Melanin in the RPE",
+      "D": "Neurotransmitter in bipolar cells",
+      "E": "Aqueous humor"
+    },
+    "correct_answer": "B",
+    "explanation": "Vitamin A is needed to synthesize rhodopsin and cone opsins. Rods (rhodopsin, peripheral retina, dim light) fail first, producing night blindness.",
+    "high_yield_pearl": "High-Yield Rule: Rhodopsin in rods",
+    "source": "USMLE Step 1 Replicate Bank: Visual System",
+    "id": "rep_62",
+    "index": 61
+  },
+  {
+    "category": "Visual System",
+    "q_num": 7,
+    "stem": "A 46-year-old woman must now hold her menu at arm's length to read it. Her distance vision is normal. Which of the following is the most likely mechanism?",
+    "options": {
+      "A": "Shortened axial length of the globe focusing near images behind the retina",
+      "B": "Elongated axial length of the globe focusing distant images in front of the retina",
+      "C": "Age-related loss of crystalline lens elasticity and decreased ciliary curvature change",
+      "D": "Asymmetrical irregular curvature of the anterior corneal refracting surface",
+      "E": "Separation of the posterior vitreous humor cortex from the internal limiting membrane"
+    },
+    "correct_answer": "C",
+    "explanation": "Presbyopia is age-related stiffening of the lens, so near images focus behind the retina. Hyperopia (eye too short) and myopia (eye too long) are not age-related changes.",
+    "high_yield_pearl": "High-Yield Rule: Age-related loss of crystalline lens elasticity and decreased ciliary curvature change",
+    "source": "USMLE Step 1 Replicate Bank: Visual System",
+    "id": "rep_63",
+    "index": 62
+  },
+  {
+    "category": "Hypothalamus & Smell/Taste",
+    "q_num": 68,
+    "stem": "A 30-year-old woman has brief episodes of an unpleasant burning smell followed by lip smacking. Which structure is most likely the seizure focus?",
+    "options": {
+      "A": "Uncus of the temporal lobe",
+      "B": "Occipital pole striate cortex",
+      "C": "Postcentral gyrus sensory cortex",
+      "D": "Vermis of the cerebellum",
+      "E": "Frontal eye field motor cortex"
+    },
+    "correct_answer": "A",
+    "explanation": "Uncinate seizures arise in the uncus (primary olfactory cortex) and cause olfactory hallucinations, often unpleasant odors.",
+    "high_yield_pearl": "High-Yield Rule: Uncus of the temporal lobe",
+    "source": "USMLE Step 1 Replicate Bank: Hypothalamus & Smell/Taste",
+    "id": "rep_64",
+    "index": 63
+  },
+  {
+    "category": "Basal Ganglia",
+    "q_num": 83,
+    "stem": "A 38-year-old man has mood swings, restlessness, sudden jerking of the left arm that he disguises as purposeful, and a father who died at age 45. What is the genetic basis of this condition?",
+    "options": {
+      "A": "CAG trinucleotide repeat expansion in the HTT gene on chromosome 4",
+      "B": "ATP7B loss-of-function copper transport mutation on chromosome 13",
+      "C": "SOD1 superoxide dismutase missense mutation on chromosome 21",
+      "D": "Microdeletion of the paternal 15q11-q13 region on chromosome 15",
+      "E": "CTG trinucleotide repeat expansion in the DMPK gene on chromosome 19"
+    },
+    "correct_answer": "A",
+    "explanation": "Huntington disease: autosomal dominant CAG expansion in HTT on chromosome 4. More repeats mean earlier onset in successive generations (anticipation).",
+    "high_yield_pearl": "High-Yield Rule: CAG trinucleotide repeat expansion in the HTT gene on chromosome 4",
+    "source": "USMLE Step 1 Replicate Bank: Basal Ganglia",
+    "id": "rep_65",
+    "index": 64
+  },
+  {
+    "category": "Visual Reflexes",
+    "q_num": 20,
+    "stem": "A 19-year-old has a seizure focus in the right frontal eye field. In which direction do the eyes deviate during the seizure?",
+    "options": {
+      "A": "Toward the right",
+      "B": "Directly upward",
+      "C": "Fixed in the midline",
+      "D": "Toward the left",
+      "E": "Directly downward"
+    },
+    "correct_answer": "D",
+    "explanation": "With a seizure, the active FEF drives the eyes to the opposite side. Right FEF seizure gives leftward deviation (away from the focus).",
+    "high_yield_pearl": "High-Yield Rule: Toward the left",
+    "source": "USMLE Step 1 Replicate Bank: Visual Reflexes",
+    "id": "rep_66",
+    "index": 65
+  },
+  {
+    "category": "Basal Ganglia",
+    "q_num": 80,
+    "stem": "A 61-year-old man has levodopa-induced dyskinesia. Which drug can reduce dyskinesia?",
+    "options": {
+      "A": "Levodopa",
+      "B": "Ropinirole",
+      "C": "Benztropine",
+      "D": "Haloperidol",
+      "E": "Amantadine"
+    },
+    "correct_answer": "E",
+    "explanation": "Amantadine reduces levodopa-induced dyskinesia by increasing dopamine release, blocking reuptake and blocking NMDA receptors.",
+    "high_yield_pearl": "High-Yield Rule: Amantadine",
+    "source": "USMLE Step 1 Replicate Bank: Basal Ganglia",
+    "id": "rep_67",
+    "index": 66
+  },
+  {
+    "category": "Auditory & Vestibular",
+    "q_num": 44,
+    "stem": "In the auditory pathway, which structure receives the output of the inferior colliculus before the signal reaches the cortex?",
+    "options": {
+      "A": "Ventral posteromedial thalamic nucleus",
+      "B": "Medial geniculate nucleus",
+      "C": "Lateral geniculate nucleus",
+      "D": "Ventral posterolateral thalamic nucleus",
+      "E": "Superior olivary complex"
+    },
+    "correct_answer": "B",
+    "explanation": "The order is cochlear nuclei, superior olive, lateral lemniscus, inferior colliculus, medial geniculate nucleus, and then Heschl gyrus.",
+    "high_yield_pearl": "High-Yield Rule: Medial geniculate nucleus",
+    "source": "USMLE Step 1 Replicate Bank: Auditory & Vestibular",
+    "id": "rep_68",
+    "index": 67
+  },
+  {
+    "category": "CBIL: Sleep",
+    "q_num": 91,
+    "stem": "Which medication would best reduce cataplexy in this patient?",
+    "options": {
+      "A": "Modafinil",
+      "B": "Zolpidem",
+      "C": "Venlafaxine",
+      "D": "Haloperidol",
+      "E": "Pramipexole"
+    },
+    "correct_answer": "C",
+    "explanation": "SSRIs and SNRIs (such as venlafaxine) suppress REM sleep and reduce cataplexy, hallucinations and sleep paralysis. Modafinil treats daytime sleepiness.",
+    "high_yield_pearl": "High-Yield Rule: Venlafaxine",
+    "source": "USMLE Step 1 Replicate Bank: CBIL: Sleep",
+    "id": "rep_69",
+    "index": 68
+  },
+  {
+    "category": "Visual Reflexes",
+    "q_num": 21,
+    "stem": "A 14-year-old boy has headaches and cannot look upward. A mass is found near the third ventricle. Which of the following is the most likely mechanism?",
+    "options": {
+      "A": "Neoplastic compression of the abducens motor nucleus in the dorsal caudal pons",
+      "B": "Demyelinating plaque involving the medial longitudinal fasciculus in the pons",
+      "C": "Pineal gland germinoma compressing the dorsal midbrain pretectal area",
+      "D": "Pituitary macroadenoma compressing crossing decussating fibers in the optic chiasm",
+      "E": "Ischemic lacunar stroke involving the paramedian pontine reticular formation"
+    },
+    "correct_answer": "C",
+    "explanation": "Parinaud syndrome (upgaze palsy) comes from compression of the dorsal midbrain (pretectal area/superior colliculus), classically by a pineal tumor.",
+    "high_yield_pearl": "High-Yield Rule: Pineal gland germinoma compressing the dorsal midbrain pretectal area",
+    "source": "USMLE Step 1 Replicate Bank: Visual Reflexes",
+    "id": "rep_70",
+    "index": 69
+  },
+  {
+    "category": "Visual System",
+    "q_num": 1,
+    "stem": "A 50-year-old man is brought in by a friend after several recent car accidents. Visual field testing shows loss of vision in the temporal half of the visual field of both eyes. Which of the following fibers are most likely compressed?",
+    "options": {
+      "A": "Temporal retinal fibers from both eyes",
+      "B": "Nasal retinal fibers from both eyes",
+      "C": "Optic tract fibers on one side",
+      "D": "Optic radiations on one side",
+      "E": "Temporal retinal fibers from the right eye only"
+    },
+    "correct_answer": "B",
+    "explanation": "Bitemporal hemianopia means the crossing nasal retinal fibers are compressed at the optic chiasm, classically by a pituitary tumor lying directly beneath it.",
+    "high_yield_pearl": "High-Yield Rule: Nasal retinal fibers from both eyes",
+    "source": "USMLE Step 1 Replicate Bank: Visual System",
+    "id": "rep_71",
+    "index": 70
+  },
+  {
+    "category": "CBIL: ALS",
+    "q_num": 96,
+    "stem": "Which gene is most associated with familial ALS?",
+    "options": {
+      "A": "HTT",
+      "B": "ATP7B",
+      "C": "SOD1",
+      "D": "SNCA",
+      "E": "PMP22"
+    },
+    "correct_answer": "C",
+    "explanation": "SOD1 and C9ORF72 are the main familial ALS genes. Most cases are sporadic. TDP-43 accumulates in neurons.",
+    "high_yield_pearl": "High-Yield Rule: SOD1",
+    "source": "USMLE Step 1 Replicate Bank: CBIL: ALS",
+    "id": "rep_72",
+    "index": 71
+  },
+  {
+    "category": "UMN/LMN",
+    "q_num": 58,
+    "stem": "A 35-year-old woman has a cape-like loss of pain and temperature over both shoulders and arms, but preserved light touch. She also has weakness and atrophy of the hands. Which structures are most likely damaged?",
+    "options": {
+      "A": "Anterior white commissure decussating fibers of the spinothalamic tracts",
+      "B": "Cervical fasciculus cuneatus sensory axons within the posterior columns",
+      "C": "Lateral corticospinal descending motor tracts within the lateral funiculus",
+      "D": "Lumbosacral primary motor and sensory nerve roots of the cauda equina",
+      "E": "Dorsal root entry zone fibers traversing the tract of Lissauer"
+    },
+    "correct_answer": "A",
+    "explanation": "Syringomyelia damages the crossing anterolateral fibers (cape-like pain/temperature loss) and can extend to the anterior horn (hand atrophy). Light touch is preserved by the dorsal columns.",
+    "high_yield_pearl": "High-Yield Rule: Anterior white commissure decussating fibers of the spinothalamic tracts",
+    "source": "USMLE Step 1 Replicate Bank: UMN/LMN",
+    "id": "rep_73",
+    "index": 72
+  },
+  {
+    "category": "CBIL: Sleep",
+    "q_num": 94,
+    "stem": "A 7-year-old girl screams for several minutes nightly, is inconsolable and has no memory of it in the morning. In which stage does this occur?",
+    "options": {
+      "A": "REM sleep",
+      "B": "NREM stage N3",
+      "C": "NREM stage N2",
+      "D": "NREM stage N1",
+      "E": "Sleep onset latency"
+    },
+    "correct_answer": "B",
+    "explanation": "Night terrors are an NREM (stage N3) parasomnia with no recall. Nightmares and REM sleep behavior disorder occur in REM.",
+    "high_yield_pearl": "High-Yield Rule: NREM stage N3",
+    "source": "USMLE Step 1 Replicate Bank: CBIL: Sleep",
+    "id": "rep_74",
+    "index": 73
+  },
+  {
+    "category": "UMN/LMN",
+    "q_num": 54,
+    "stem": "A patient with a lesion of the left nucleus ambiguus is asked to say \"ah.\" Which of the following findings is expected?",
+    "options": {
+      "A": "Uvula deviation to the left with loss of the right-sided pharyngeal gag reflex",
+      "B": "Uvula deviation to the right with loss of the left-sided pharyngeal gag reflex",
+      "C": "Tongue deviation to the left with contralateral spastic hemiparesis of the body",
+      "D": "Tongue deviation to the right with contralateral spastic hemiparesis of the body",
+      "E": "Mandibular deviation to the left with loss of the ipsilateral corneal sensation"
+    },
+    "correct_answer": "B",
+    "explanation": "The nucleus ambiguus supplies CN IX and X muscles of the pharynx and larynx. The uvula is pulled toward the strong side, away from the lesion.",
+    "high_yield_pearl": "High-Yield Rule: Uvula deviation to the right with loss of the left-sided pharyngeal gag reflex",
+    "source": "USMLE Step 1 Replicate Bank: UMN/LMN",
+    "id": "rep_75",
+    "index": 74
+  },
+  {
+    "category": "CBIL: Sleep",
+    "q_num": 90,
+    "stem": "Which test would best confirm the diagnosis in Question 89?",
+    "options": {
+      "A": "Overnight diagnostic polysomnogram demonstrating prolonged REM sleep latency",
+      "B": "Contrast-enhanced brain MRI evaluating for hypothalamic structural lesions",
+      "C": "Lumbar puncture CSF analysis measuring elevated hypocretin-1 neuropeptides",
+      "D": "Serum melatonin circadian profile assay measuring evening dim-light secretion",
+      "E": "Multiple sleep latency test demonstrating mean sleep latency under 8 minutes"
+    },
+    "correct_answer": "E",
+    "explanation": "The multiple sleep latency test shows rapid sleep onset (under 8 minutes). The polysomnogram also helps document early REM entry.",
+    "high_yield_pearl": "High-Yield Rule: Multiple sleep latency test demonstrating mean sleep latency under 8 minutes",
+    "source": "USMLE Step 1 Replicate Bank: CBIL: Sleep",
+    "id": "rep_76",
+    "index": 75
+  },
+  {
+    "category": "Ophthalmology",
+    "q_num": 26,
+    "stem": "A 58-year-old man reports flashes, floaters and a curtain descending over his right eye. Which mechanism explains the photoreceptor damage?",
+    "options": {
+      "A": "Elevated intraocular pressure inducing ischemic optic nerve head cupping and axonal death",
+      "B": "Separation of the neurosensory retina from the underlying retinal pigment epithelium and choroid",
+      "C": "Progressive oxidative opacification and hydration of crystalline lens structural proteins",
+      "D": "Accumulation of lipid-rich basophilic drusen deposits between Bruch membrane and the pigment layer",
+      "E": "Autoimmune granulomatous inflammatory infiltration involving the uveal tract and ciliary body"
+    },
+    "correct_answer": "B",
+    "explanation": "In retinal detachment, the outer retina depends on the choroid for blood supply and on the RPE for photoreceptor support, so separation damages photoreceptors.",
+    "high_yield_pearl": "High-Yield Rule: Separation of the neurosensory retina from the underlying retinal pigment epithelium and choroid",
+    "source": "USMLE Step 1 Replicate Bank: Ophthalmology",
+    "id": "rep_77",
+    "index": 76
+  },
+  {
+    "category": "Basal Ganglia",
+    "q_num": 72,
+    "stem": "Autopsy of the patient in Question 71 would most likely show which of the following?",
+    "options": {
+      "A": "Severe caudate head atrophy with secondary enlargement of the lateral ventricles",
+      "B": "Intracytoplasmic neurofibrillary tangles and extracellular amyloid-beta plaques",
+      "C": "Spongiform neuronal vacuolation with extensive reactive astrocytic proliferation",
+      "D": "Eosinophilic alpha-synuclein Lewy bodies with loss of pigmented nigral neurons",
+      "E": "Ubiquitinated Bunina bodies and round inclusions within anterior horn cells"
+    },
+    "correct_answer": "D",
+    "explanation": "Parkinson disease shows Lewy bodies (alpha-synuclein) and loss of the dark neuromelanin pigment in the substantia nigra.",
+    "high_yield_pearl": "High-Yield Rule: Eosinophilic alpha-synuclein Lewy bodies with loss of pigmented nigral neurons",
+    "source": "USMLE Step 1 Replicate Bank: Basal Ganglia",
+    "id": "rep_78",
+    "index": 77
+  },
+  {
+    "category": "Basal Ganglia",
+    "q_num": 85,
+    "stem": "Which drug treats chorea in Huntington disease?",
+    "options": {
+      "A": "Levodopa",
+      "B": "Amantadine",
+      "C": "Entacapone",
+      "D": "Benztropine",
+      "E": "Tetrabenazine"
+    },
+    "correct_answer": "E",
+    "explanation": "Tetrabenazine blocks vesicular monoamine transport, depleting dopamine, and reduces chorea.",
+    "high_yield_pearl": "High-Yield Rule: Tetrabenazine",
+    "source": "USMLE Step 1 Replicate Bank: Basal Ganglia",
+    "id": "rep_79",
+    "index": 78
+  },
+  {
+    "category": "Basal Ganglia",
+    "q_num": 78,
+    "stem": "A 65-year-old man has had Parkinson disease for 8 years. His symptoms now return a few hours after each levodopa dose. Which add-on drug prolongs the effect of levodopa?",
+    "options": {
+      "A": "Entacapone",
+      "B": "Benztropine",
+      "C": "Haloperidol",
+      "D": "Pyridostigmine",
+      "E": "Sumatriptan"
+    },
+    "correct_answer": "A",
+    "explanation": "This is the wearing-off phenomenon. COMT inhibitors (entacapone, tolcapone) prolong the effect of levodopa.",
+    "high_yield_pearl": "High-Yield Rule: Entacapone",
+    "source": "USMLE Step 1 Replicate Bank: Basal Ganglia",
+    "id": "rep_80",
+    "index": 79
+  },
+  {
+    "category": "Hypothalamus & Smell/Taste",
+    "q_num": 65,
+    "stem": "A 52-year-old man develops chills and shivering on an 85°F day and has a temperature of 103°F. He also has bitemporal hemianopia. Which hypothalamic structure is most likely involved?",
+    "options": {
+      "A": "Lateral nucleus",
+      "B": "Ventromedial nucleus",
+      "C": "Suprachiasmatic nucleus",
+      "D": "Posterior nucleus",
+      "E": "Anterior nucleus"
+    },
+    "correct_answer": "E",
+    "explanation": "Anterior nucleus lesion: the posterior (heating) nucleus acts unopposed, causing fever, chills and shivering. Bitemporal hemianopia fits a lesion near the chiasm.",
+    "high_yield_pearl": "High-Yield Rule: Anterior nucleus",
+    "source": "USMLE Step 1 Replicate Bank: Hypothalamus & Smell/Taste",
+    "id": "rep_81",
+    "index": 80
+  },
+  {
+    "category": "Ophthalmology",
+    "q_num": 30,
+    "stem": "A 60-year-old man with open-angle glaucoma starts a new eye drop and notices longer, darker eyelashes. Which is the mechanism of this drug?",
+    "options": {
+      "A": "Decreases active aqueous humor secretion by the nonpigmented ciliary epithelium",
+      "B": "Increases uveoscleral outflow of aqueous humor through the ciliary muscle",
+      "C": "Induces pupillary constriction and opens the trabecular meshwork via muscarinic drive",
+      "D": "Inhibits carbonic anhydrase enzymes responsible for bicarbonate and aqueous production",
+      "E": "Antagonizes presynaptic alpha-2 adrenergic receptors to reduce sympathetic outflow"
+    },
+    "correct_answer": "B",
+    "explanation": "Prostaglandin analogs increase uveoscleral outflow and cause eyelash growth. Beta-blockers, alpha-agonists and diuretics reduce production.",
+    "high_yield_pearl": "High-Yield Rule: Increases uveoscleral outflow of aqueous humor through the ciliary muscle",
+    "source": "USMLE Step 1 Replicate Bank: Ophthalmology",
+    "id": "rep_82",
+    "index": 81
+  },
+  {
+    "category": "Ophthalmology",
+    "q_num": 28,
+    "stem": "A 25-year-old man has progressive night blindness and loss of peripheral vision. His family has a similar history, and an ERG is abnormal. Which pathologic change underlies the abnormal ERG?",
+    "options": {
+      "A": "Progressive apoptotic degeneration of rod and cone photoreceptor cells",
+      "B": "Extracellular accumulation of drusen deposits beneath the retinal epithelium",
+      "C": "Impaired trabecular meshwork drainage causing elevated ocular pressure",
+      "D": "Mechanical separation of the neurosensory layer from the choroidal vascular bed",
+      "E": "Progressive stromal edema causing loss of optical corneal transparency"
+    },
+    "correct_answer": "A",
+    "explanation": "Retinitis pigmentosa is a family of inherited photoreceptor degenerations. The ERG, a recording of phototransduction, is abnormal because photoreceptors are lost.",
+    "high_yield_pearl": "High-Yield Rule: Progressive apoptotic degeneration of rod and cone photoreceptor cells",
+    "source": "USMLE Step 1 Replicate Bank: Ophthalmology",
+    "id": "rep_83",
+    "index": 82
+  },
+  {
+    "category": "CBIL: Sleep",
+    "q_num": 89,
+    "stem": "An 18-year-old woman falls asleep in class, has vivid hallucinations as she falls asleep, cannot move for a minute on waking, and collapses when startled while remaining conscious. What is the underlying pathology?",
+    "options": {
+      "A": "Histaminergic neurons of the tuberomammillary nucleus",
+      "B": "Orexin-producing neurons of the lateral hypothalamus",
+      "C": "GABAergic neurons of the ventrolateral preoptic nucleus",
+      "D": "Melatonin-sensitive neurons of the suprachiasmatic nucleus",
+      "E": "Serotonergic neurons of the median and dorsal raphe nuclei"
+    },
+    "correct_answer": "B",
+    "explanation": "This is narcolepsy with cataplexy, sleep paralysis and hypnagogic hallucinations. It is caused by loss of orexin (hypocretin) neurons in the lateral hypothalamus (HLA-DQB1\\*0602).",
+    "high_yield_pearl": "High-Yield Rule: Orexin-producing neurons of the lateral hypothalamus",
+    "source": "USMLE Step 1 Replicate Bank: CBIL: Sleep",
+    "id": "rep_84",
+    "index": 83
+  },
+  {
+    "category": "CBIL: ALS",
+    "q_num": 98,
+    "stem": "Which of the following is typically spared in ALS?",
+    "options": {
+      "A": "Extraocular motility and urinary bladder control",
+      "B": "Tongue protrusion and pharyngeal swallowing coordination",
+      "C": "Upper extremity distal intrinsic hand motor strength",
+      "D": "Diaphragmatic contraction and intercostal ventilation",
+      "E": "Proximal shoulder abduction and neck flexion power"
+    },
+    "correct_answer": "A",
+    "explanation": "ALS spares sensation, extraocular movements, and bowel and bladder function.",
+    "high_yield_pearl": "High-Yield Rule: Extraocular motility and urinary bladder control",
+    "source": "USMLE Step 1 Replicate Bank: CBIL: ALS",
+    "id": "rep_85",
+    "index": 84
+  },
+  {
+    "category": "Visual System",
+    "q_num": 5,
+    "stem": "A 62-year-old woman has had progressive, painless loss of central vision in her right eye over the past year. The left eye is normal. The lesion is most likely located in which of the following?",
+    "options": {
+      "A": "Left optic tract",
+      "B": "Central optic chiasm",
+      "C": "Right lateral geniculate nucleus",
+      "D": "Left visual cortex",
+      "E": "Right optic nerve"
+    },
+    "correct_answer": "E",
+    "explanation": "A monocular deficit means the lesion is anterior to the chiasm, in the right optic nerve or retina. Anything behind the chiasm produces a bilateral (homonymous) defect.",
+    "high_yield_pearl": "High-Yield Rule: Right optic nerve",
+    "source": "USMLE Step 1 Replicate Bank: Visual System",
+    "id": "rep_86",
+    "index": 85
+  },
+  {
+    "category": "UMN/LMN",
+    "q_num": 55,
+    "stem": "A patient with a right spinal accessory nerve (CN XI) lesion will have which of the following deficits?",
+    "options": {
+      "A": "Weak left shoulder shrug and weak head turn to the right",
+      "B": "Weak left shoulder shrug and weak head turn to the left",
+      "C": "Weak right shoulder shrug and weak head turn to the right",
+      "D": "Bilateral shoulder shrug weakness with intact bilateral head turn",
+      "E": "Weak right shoulder shrug and weak head turn to the left"
+    },
+    "correct_answer": "E",
+    "explanation": "CN XI supplies the trapezius and sternocleidomastoid. The right SCM turns the head to the left, so a right lesion weakens the right shrug and leftward head turn.",
+    "high_yield_pearl": "High-Yield Rule: Weak right shoulder shrug and weak head turn to the left",
+    "source": "USMLE Step 1 Replicate Bank: UMN/LMN",
+    "id": "rep_87",
+    "index": 86
+  },
+  {
+    "category": "Basal Ganglia",
+    "q_num": 76,
+    "stem": "A 56-year-old man with Parkinson disease is prescribed levodopa with carbidopa. Why is carbidopa added?",
+    "options": {
+      "A": "It penetrates the central nervous system to augment striatal dopamine synthesis",
+      "B": "It selectively blocks postsynaptic D2 dopamine receptors in the limbic system",
+      "C": "It inhibits peripheral dopa decarboxylase without crossing the blood-brain barrier",
+      "D": "It selectively and irreversibly inhibits central monoamine oxidase type B",
+      "E": "It stimulates calcium-dependent vesicular dopamine release from terminal axons"
+    },
+    "correct_answer": "C",
+    "explanation": "Carbidopa does not cross the blood-brain barrier. It blocks peripheral dopa decarboxylase, so more levodopa reaches the CNS at a lower dose with less nausea.",
+    "high_yield_pearl": "High-Yield Rule: It inhibits peripheral dopa decarboxylase without crossing the blood-brain barrier",
+    "source": "USMLE Step 1 Replicate Bank: Basal Ganglia",
+    "id": "rep_88",
+    "index": 87
+  },
+  {
+    "category": "Visual Reflexes",
+    "q_num": 12,
+    "stem": "A 63-year-old man with diabetes and hypertension has sudden diplopia. His right eye is positioned down and out with ptosis. Both pupils are equal and reactive to light. Which is the most likely cause?",
+    "options": {
+      "A": "Posterior communicating artery saccular aneurysm compression",
+      "B": "Transtentorial uncal herniation mass effect compression",
+      "C": "Microvascular ischemic infarct of the oculomotor nerve",
+      "D": "Superior cervical ganglion sympathetic chain disruption",
+      "E": "Medial longitudinal fasciculus demyelinating plaque"
+    },
+    "correct_answer": "C",
+    "explanation": "An ischemic CN III infarct (diabetes, hypertension) causes ptosis and an eye down and out, with the pupil spared because the superficial parasympathetic fibers are not affected.",
+    "high_yield_pearl": "High-Yield Rule: Microvascular ischemic infarct of the oculomotor nerve",
+    "source": "USMLE Step 1 Replicate Bank: Visual Reflexes",
+    "id": "rep_89",
+    "index": 88
+  },
+  {
+    "category": "Hypothalamus & Smell/Taste",
+    "q_num": 70,
+    "stem": "Which transmitter and receptor mediate sympathetic stimulation of sweat glands?",
+    "options": {
+      "A": "Norepinephrine at alpha-1 receptors",
+      "B": "Norepinephrine at beta-2 receptors",
+      "C": "Dopamine at D1 receptors",
+      "D": "Epinephrine at beta-1 receptors",
+      "E": "Acetylcholine at muscarinic receptors"
+    },
+    "correct_answer": "E",
+    "explanation": "Sweat glands are the sympathetic exception. Postganglionic fibers release acetylcholine onto muscarinic receptors.",
+    "high_yield_pearl": "High-Yield Rule: Acetylcholine at muscarinic receptors",
+    "source": "USMLE Step 1 Replicate Bank: Hypothalamus & Smell/Taste",
+    "id": "rep_90",
+    "index": 89
+  },
+  {
+    "category": "Basal Ganglia",
+    "q_num": 87,
+    "stem": "A 20-year-old with liver disease and behavior changes has a flapping, wing-beating tremor and Kayser-Fleischer rings. What is the defect?",
+    "options": {
+      "A": "Trinucleotide repeat expansion in the HTT gene on chromosome 4",
+      "B": "Superoxide dismutase 1 missense mutation on chromosome 21",
+      "C": "Abnormal alpha-synuclein misfolding and Lewy body aggregation",
+      "D": "ATP7B copper-transporting ATPase gene mutation on chromosome 13",
+      "E": "Hereditary HFE gene missense mutation causing excessive iron absorption"
+    },
+    "correct_answer": "D",
+    "explanation": "Wilson disease: ATP7B defect on chromosome 13 causes copper accumulation (liver, basal ganglia, Kayser-Fleischer rings) and a wing-beating tremor. Treat with copper chelation.",
+    "high_yield_pearl": "High-Yield Rule: ATP7B copper-transporting ATPase gene mutation on chromosome 13",
+    "source": "USMLE Step 1 Replicate Bank: Basal Ganglia",
+    "id": "rep_91",
+    "index": 90
+  },
+  {
+    "category": "Visual Reflexes",
+    "q_num": 14,
+    "stem": "A patient has a lesion of the right oculomotor nerve. Which pupillary responses are expected?",
+    "options": {
+      "A": "Right eye light: left pupil constricts; left eye light: left pupil constricts",
+      "B": "Right eye light: both pupils constrict; left eye light: both pupils constrict",
+      "C": "Right eye light: right pupil constricts; left eye light: right pupil constricts",
+      "D": "Right eye light: neither pupil constricts; left eye light: neither pupil constricts",
+      "E": "Right eye light: both pupils constrict; left eye light: left pupil constricts"
+    },
+    "correct_answer": "A",
+    "explanation": "A right CN III lesion removes the efferent limb on the right. The right pupil does not constrict to light in either eye, while the left pupil constricts normally.",
+    "high_yield_pearl": "High-Yield Rule: Right eye light: left pupil constricts; left eye light: left pupil constricts",
+    "source": "USMLE Step 1 Replicate Bank: Visual Reflexes",
+    "id": "rep_92",
+    "index": 91
+  },
+  {
+    "category": "Visual Reflexes",
+    "q_num": 18,
+    "stem": "What is the resting eye position after an acute lesion of the left paramedian pontine reticular formation (PPRF)?",
+    "options": {
+      "A": "Conjugate deviation of both eyes toward the left",
+      "B": "Skew deviation with hypotropia of the left eye",
+      "C": "Monocular medial resting deviation of the left eye",
+      "D": "Conjugate resting deviation of both eyes downward",
+      "E": "Conjugate deviation of both eyes toward the right"
+    },
+    "correct_answer": "E",
+    "explanation": "The PPRF drives the ipsilateral lateral rectus and contralateral medial rectus. A left PPRF lesion leaves the right side unopposed, so both eyes deviate to the right.",
+    "high_yield_pearl": "High-Yield Rule: Conjugate deviation of both eyes toward the right",
+    "source": "USMLE Step 1 Replicate Bank: Visual Reflexes",
+    "id": "rep_93",
+    "index": 92
+  },
+  {
+    "category": "Ophthalmology",
+    "q_num": 29,
+    "stem": "A 6-month-old infant has a dense unilateral cataract. Why is prompt surgery recommended?",
+    "options": {
+      "A": "Progressive intumescence of the infant lens will rapidly precipitate pupillary block glaucoma",
+      "B": "Capsular micro-perforation will release lens crystallins and trigger phacolytic endophthalmitis",
+      "C": "Congenital pediatric cataracts carry an immediate high risk of malignant retinoblastoma transformation",
+      "D": "Total visual deprivation will induce rapid ischemic coagulation necrosis of the distal optic nerve",
+      "E": "Deprivation of visual input during early critical development causes permanent cortical amblyopia"
+    },
+    "correct_answer": "E",
+    "explanation": "Cortical visual circuits develop in the first year. Unbalanced input from the two eyes causes permanent deficits, including blindness.",
+    "high_yield_pearl": "High-Yield Rule: Deprivation of visual input during early critical development causes permanent cortical amblyopia",
+    "source": "USMLE Step 1 Replicate Bank: Ophthalmology",
+    "id": "rep_94",
+    "index": 93
+  },
+  {
+    "category": "Auditory & Vestibular",
+    "q_num": 32,
+    "stem": "A 40-year-old woman has slowly progressive hearing loss in her left ear. The Weber test lateralizes to the left ear, and on the left, bone conduction is louder than air conduction. Which is the most likely finding?",
+    "options": {
+      "A": "Right sensorineural hearing loss",
+      "B": "Left sensorineural hearing loss",
+      "C": "Left conductive hearing loss",
+      "D": "Right conductive hearing loss",
+      "E": "Bilateral presbycusis"
+    },
+    "correct_answer": "C",
+    "explanation": "In conductive loss, Weber lateralizes to the bad ear and Rinne is negative (bone louder than air) on that side.",
+    "high_yield_pearl": "High-Yield Rule: Left conductive hearing loss",
+    "source": "USMLE Step 1 Replicate Bank: Auditory & Vestibular",
+    "id": "rep_95",
+    "index": 94
+  },
+  {
+    "category": "Auditory & Vestibular",
+    "q_num": 36,
+    "stem": "A 28-year-old woman recovering from influenza wakes with continuous severe spinning vertigo, nausea and vomiting that last for days, along with hearing loss in her right ear. MRI is normal. What is the most likely diagnosis?",
+    "options": {
+      "A": "Benign paroxysmal positional vertigo",
+      "B": "Endolymphatic hydrops (Meniere disease)",
+      "C": "Acute isolated vestibular neuritis",
+      "D": "Acute infectious labyrinthitis",
+      "E": "Vestibular schwannoma (acoustic neuroma)"
+    },
+    "correct_answer": "D",
+    "explanation": "Labyrinthitis follows a viral infection and gives days of continuous vertigo with hearing loss. BPPV is brief and positional, and Meniere is episodic.",
+    "high_yield_pearl": "High-Yield Rule: Acute infectious labyrinthitis",
+    "source": "USMLE Step 1 Replicate Bank: Auditory & Vestibular",
+    "id": "rep_96",
+    "index": 95
+  },
+  {
+    "category": "CBIL: ALS",
+    "q_num": 95,
+    "stem": "A 57-year-old man has dysphagia, tongue atrophy, hand weakness, brisk reflexes on one side, diminished reflexes on the other, and a left extensor plantar response. Sensation is normal. What is the most likely diagnosis?",
+    "options": {
+      "A": "Myasthenia gravis",
+      "B": "Primary lateral sclerosis",
+      "C": "Progressive muscular atrophy",
+      "D": "Cervical myelopathy",
+      "E": "Amyotrophic lateral sclerosis"
+    },
+    "correct_answer": "E",
+    "explanation": "Combined UMN signs (hyperreflexia, spasticity, Babinski) and LMN signs (tongue atrophy, hyporeflexia) with intact sensation indicate ALS. Primary lateral sclerosis is UMN only, and progressive muscular atrophy is LMN only.",
+    "high_yield_pearl": "High-Yield Rule: Amyotrophic lateral sclerosis",
+    "source": "USMLE Step 1 Replicate Bank: CBIL: ALS",
+    "id": "rep_97",
+    "index": 96
+  },
+  {
+    "category": "Visual System",
+    "q_num": 4,
+    "stem": "A 24-year-old man trips over his dog repeatedly when it is on his right side. MRI shows a lesion in the left parietal white matter. Which visual field deficit is most likely?",
+    "options": {
+      "A": "Right inferior homonymous quadrantanopia",
+      "B": "Right superior homonymous quadrantanopia",
+      "C": "Left inferior homonymous quadrantanopia",
+      "D": "Bitemporal hemianopia",
+      "E": "Left homonymous hemianopia"
+    },
+    "correct_answer": "A",
+    "explanation": "Superior (parietal) radiations carry the superior retina (inferior visual field) to the cuneus. A left parietal lesion gives a right inferior homonymous quadrantanopia.",
+    "high_yield_pearl": "High-Yield Rule: Right inferior homonymous quadrantanopia",
+    "source": "USMLE Step 1 Replicate Bank: Visual System",
+    "id": "rep_98",
+    "index": 97
+  },
+  {
+    "category": "Visual Reflexes",
+    "q_num": 15,
+    "stem": "A 25-year-old man fell off a truck and has extensive bilateral occipital lobe damage with cortical blindness. Which findings are most likely?",
+    "options": {
+      "A": "Absent pupillary light reflex; intact pupillary accommodation to visual near targets",
+      "B": "Absent pupillary light reflex; absent pupillary accommodation to visual near targets",
+      "C": "Intact pupillary light reflex; intact pupillary accommodation to visual near targets",
+      "D": "Intact pupillary light reflex; absent pupillary accommodation to visual near targets",
+      "E": "Intact pupillary light reflex; paradoxical pupillary dilation to visual near targets"
+    },
+    "correct_answer": "D",
+    "explanation": "The light reflex runs retina to pretectal area to Edinger-Westphal, bypassing the cortex, so it is normal. Accommodation needs the visual cortex, so it is lost to a visual stimulus, but voluntary convergence still produces miosis.",
+    "high_yield_pearl": "High-Yield Rule: Intact pupillary light reflex; absent pupillary accommodation to visual near targets",
+    "source": "USMLE Step 1 Replicate Bank: Visual Reflexes",
+    "id": "rep_99",
+    "index": 98
+  },
+  {
+    "category": "Basal Ganglia",
+    "q_num": 82,
+    "stem": "A 35-year-old man has a resting tremor, rigidity and postural instability after starting a new medication. Which drug most likely caused this?",
+    "options": {
+      "A": "Levodopa",
+      "B": "Diazepam",
+      "C": "Sumatriptan",
+      "D": "Haloperidol",
+      "E": "Pyridostigmine"
+    },
+    "correct_answer": "D",
+    "explanation": "Dopamine D2 blockers (haloperidol, metoclopramide) cause drug-induced parkinsonism. Levodopa treats Parkinson disease rather than causing it.",
+    "high_yield_pearl": "High-Yield Rule: Haloperidol",
+    "source": "USMLE Step 1 Replicate Bank: Basal Ganglia",
+    "id": "rep_100",
+    "index": 99
+  }
+]
