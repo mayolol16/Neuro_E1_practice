@@ -286,19 +286,19 @@ A 30-year-old man has a stab wound causing right hemisection of the spinal cord 
 ## Question 15 of 100
 **Unit**: `Basal Ganglia` | **Blueprint Q#**: `Q73`
 
-In the patient in Question 71, the tremor is in the left hand. Which side of the brain is responsible?
+A 73-year-old man presents with a low-frequency resting pill-rolling tremor that is predominantly localized to his left hand and arm. Neurologic examination also reveals left-sided cogwheel rigidity and bradykinesia, consistent with early Parkinson disease. Which brain structure is primarily responsible for the pathophysiology of this patient's left-hand motor symptoms?
 
-- **(A)** Right substantia nigra ✅
-- **(B)** Left substantia nigra
-- **(C)** Left cerebellum
-- **(D)** Right cerebellum only
-- **(E)** Bilateral substantia nigra equally
+- **(A)** Right substantia nigra pars compacta ✅
+- **(B)** Left substantia nigra pars compacta
+- **(C)** Left cerebellar dentate nucleus
+- **(D)** Right cerebellar hemisphere cortex
+- **(E)** Bilateral subthalamic nuclei equally
 
 **Correct Answer**: **(A)**
 
 **Explanation**: The basal ganglia loop acts on the ipsilateral motor cortex, which controls the contralateral body, so a left-hand tremor comes from the right substantia nigra.
 
-**High-Yield Pearl**: High-Yield Rule: Right substantia nigra
+**High-Yield Pearl**: High-Yield Rule: Right substantia nigra pars compacta
 
 ---
 
@@ -438,7 +438,7 @@ A 47-year-old man has a toothache, fever, a swollen left eye with proptosis, an 
 ## Question 23 of 100
 **Unit**: `Auditory & Vestibular` | **Blueprint Q#**: `Q33`
 
-Which of the following best explains the underlying mechanism in the patient described in Question 31?
+A 45-year-old factory worker presents with recurrent, episodic vertigo lasting about an hour per episode, accompanied by low-frequency buzzing tinnitus in his left ear and a persistent sensation of aural fullness. Tuning fork examination shows bone conduction greater than air conduction in neither ear, and the Weber test lateralizes to the right ear, consistent with left-sided sensorineural hearing loss. Which of the following best explains the underlying pathophysiologic mechanism of this patient's condition?
 
 - **(A)** Excessive accumulation and elevated hydrostatic pressure of endolymph within the membranous labyrinth ✅
 - **(B)** Dislodgement and free-floating migration of otoconia into the posterior semicircular canal ampulla
@@ -514,7 +514,7 @@ A 19-year-old woman cannot raise her left eyebrow, close her left eye or smile o
 ## Question 27 of 100
 **Unit**: `Basal Ganglia` | **Blueprint Q#**: `Q84`
 
-Which pathologic process underlies the chorea in the patient in Question 83?
+A 38-year-old man presents with progressive emotional lability, restlessness, cognitive decline, and sudden, involuntary, dance-like choreiform movements of his extremities. His father died in his mid-40s of a similar progressive neurodegenerative condition. Which of the following neuropathologic processes directly underlies the chorea observed in this patient?
 
 - **(A)** Progressive loss of dopaminergic projection neurons within the substantia nigra
 - **(B)** Degeneration of striatal GABAergic neurons in the indirect pathway disinhibiting the thalamus ✅
@@ -1312,7 +1312,7 @@ In the auditory pathway, which structure receives the output of the inferior col
 ## Question 69 of 100
 **Unit**: `CBIL: Sleep` | **Blueprint Q#**: `Q91`
 
-Which medication would best reduce cataplexy in this patient?
+A 24-year-old woman with a history of narcolepsy experiences frequent, disabling episodes of sudden bilateral muscle weakness and collapse provoked by laughter (cataplexy), as well as distressing sleep paralysis and hypnagogic hallucinations. In addition to daytime scheduled naps and modafinil for somnolence, which of the following medications is most effective for suppressing REM sleep and controlling her cataplexy?
 
 - **(A)** Modafinil
 - **(B)** Zolpidem
@@ -1445,7 +1445,7 @@ A patient with a lesion of the left nucleus ambiguus is asked to say "ah." Which
 ## Question 76 of 100
 **Unit**: `CBIL: Sleep` | **Blueprint Q#**: `Q90`
 
-Which test would best confirm the diagnosis in Question 89?
+An 18-year-old college student presents with excessive daytime somnolence, falling asleep repeatedly during lectures and social conversations. She reports vivid, frightening visual hallucinations upon falling asleep, transient inability to move upon awakening in the morning, and sudden episodes of bilateral knee buckling and facial drooping provoked by laughter or surprise while remaining fully conscious. Which of the following diagnostic studies is best to definitively confirm the suspected diagnosis?
 
 - **(A)** Overnight diagnostic polysomnogram demonstrating prolonged REM sleep latency
 - **(B)** Contrast-enhanced brain MRI evaluating for hypothalamic structural lesions
@@ -1483,7 +1483,7 @@ A 58-year-old man reports flashes, floaters and a curtain descending over his ri
 ## Question 78 of 100
 **Unit**: `Basal Ganglia` | **Blueprint Q#**: `Q72`
 
-Autopsy of the patient in Question 71 would most likely show which of the following?
+A 73-year-old man with a long-standing history of a resting pill-rolling hand tremor, cogwheel rigidity, bradykinesia, and a characteristic slow, shuffling gait dies of an acute myocardial infarction. Postmortem neuropathologic examination of this patient's brain would most likely reveal which of the following microscopic and macroscopic findings?
 
 - **(A)** Severe caudate head atrophy with secondary enlargement of the lateral ventricles
 - **(B)** Intracytoplasmic neurofibrillary tangles and extracellular amyloid-beta plaques

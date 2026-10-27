@@ -245,8 +245,9 @@ REPLICATE_OVERRIDES = {
             'E': 'Antagonizes presynaptic alpha-2 adrenergic receptors to reduce sympathetic outflow'
         }
     },
-    # Q33: Balance Meniere disease pathophysiology
+    # Q33: Self-contained clinical stem & balanced Meniere disease pathophysiology
     33: {
+        'stem': 'A 45-year-old factory worker presents with recurrent, episodic vertigo lasting about an hour per episode, accompanied by low-frequency buzzing tinnitus in his left ear and a persistent sensation of aural fullness. Tuning fork examination shows bone conduction greater than air conduction in neither ear, and the Weber test lateralizes to the right ear, consistent with left-sided sensorineural hearing loss. Which of the following best explains the underlying pathophysiologic mechanism of this patient\'s condition?',
         'opts': {
             'A': 'Excessive accumulation and elevated hydrostatic pressure of endolymph within the membranous labyrinth',
             'B': 'Dislodgement and free-floating migration of otoconia into the posterior semicircular canal ampulla',
@@ -515,14 +516,26 @@ REPLICATE_OVERRIDES = {
             'E': 'Inhibitory Purkinje cells of the cerebellar cortex'
         }
     },
-    # Q72: Balance Lewy body histopathology descriptions
+    # Q72: Self-contained clinical stem & balanced Lewy body histopathology descriptions
     72: {
+        'stem': "A 73-year-old man with a long-standing history of a resting pill-rolling hand tremor, cogwheel rigidity, bradykinesia, and a characteristic slow, shuffling gait dies of an acute myocardial infarction. Postmortem neuropathologic examination of this patient's brain would most likely reveal which of the following microscopic and macroscopic findings?",
         'opts': {
             'A': 'Severe caudate head atrophy with secondary enlargement of the lateral ventricles',
             'B': 'Intracytoplasmic neurofibrillary tangles and extracellular amyloid-beta plaques',
             'C': 'Spongiform neuronal vacuolation with extensive reactive astrocytic proliferation',
             'D': 'Eosinophilic alpha-synuclein Lewy bodies with loss of pigmented nigral neurons',
             'E': 'Ubiquitinated Bunina bodies and round inclusions within anterior horn cells'
+        }
+    },
+    # Q73: Self-contained clinical stem & balanced laterality options (Question 15 in shuffled bank)
+    73: {
+        'stem': "A 73-year-old man presents with a low-frequency resting pill-rolling tremor that is predominantly localized to his left hand and arm. Neurologic examination also reveals left-sided cogwheel rigidity and bradykinesia, consistent with early Parkinson disease. Which brain structure is primarily responsible for the pathophysiology of this patient's left-hand motor symptoms?",
+        'opts': {
+            'A': 'Right substantia nigra pars compacta',
+            'B': 'Left substantia nigra pars compacta',
+            'C': 'Left cerebellar dentate nucleus',
+            'D': 'Right cerebellar hemisphere cortex',
+            'E': 'Bilateral subthalamic nuclei equally'
         }
     },
     # Q74: Balance direct and indirect dopamine modulation
@@ -575,8 +588,9 @@ REPLICATE_OVERRIDES = {
             'E': 'CTG trinucleotide repeat expansion in the DMPK gene on chromosome 19'
         }
     },
-    # Q84: Balance Huntington chorea neuropathology descriptions
+    # Q84: Self-contained clinical stem & balanced Huntington chorea neuropathology descriptions
     84: {
+        'stem': "A 38-year-old man presents with progressive emotional lability, restlessness, cognitive decline, and sudden, involuntary, dance-like choreiform movements of his extremities. His father died in his mid-40s of a similar progressive neurodegenerative condition. Which of the following neuropathologic processes directly underlies the chorea observed in this patient?",
         'opts': {
             'A': 'Progressive loss of dopaminergic projection neurons within the substantia nigra',
             'B': 'Degeneration of striatal GABAergic neurons in the indirect pathway disinhibiting the thalamus',
@@ -635,14 +649,26 @@ REPLICATE_OVERRIDES = {
             'E': 'Serotonergic neurons of the median and dorsal raphe nuclei'
         }
     },
-    # Q90: Balance narcolepsy diagnostic testing descriptions
+    # Q90: Self-contained clinical stem & balanced narcolepsy diagnostic testing descriptions
     90: {
+        'stem': "An 18-year-old college student presents with excessive daytime somnolence, falling asleep repeatedly during lectures and social conversations. She reports vivid, frightening visual hallucinations upon falling asleep, transient inability to move upon awakening in the morning, and sudden episodes of bilateral knee buckling and facial drooping provoked by laughter or surprise while remaining fully conscious. Which of the following diagnostic studies is best to definitively confirm the suspected diagnosis?",
         'opts': {
             'A': 'Overnight diagnostic polysomnogram demonstrating prolonged REM sleep latency',
             'B': 'Contrast-enhanced brain MRI evaluating for hypothalamic structural lesions',
             'C': 'Lumbar puncture CSF analysis measuring elevated hypocretin-1 neuropeptides',
             'D': 'Serum melatonin circadian profile assay measuring evening dim-light secretion',
             'E': 'Multiple sleep latency test demonstrating mean sleep latency under 8 minutes'
+        }
+    },
+    # Q91: Self-contained clinical stem & balanced cataplexy pharmacotherapy
+    91: {
+        'stem': "A 24-year-old woman with a history of narcolepsy experiences frequent, disabling episodes of sudden bilateral muscle weakness and collapse provoked by laughter (cataplexy), as well as distressing sleep paralysis and hypnagogic hallucinations. In addition to daytime scheduled naps and modafinil for somnolence, which of the following medications is most effective for suppressing REM sleep and controlling her cataplexy?",
+        'opts': {
+            'A': 'Modafinil',
+            'B': 'Zolpidem',
+            'C': 'Venlafaxine',
+            'D': 'Haloperidol',
+            'E': 'Pramipexole'
         }
     },
     # Q94: Remove parenthetical giveaway (slow-wave sleep)
