@@ -1,0 +1,1402 @@
+[
+  {
+    "q_num": 1,
+    "category": "Visual System",
+    "stem": "Which of the following best describes the response of a rod photoreceptor to light?",
+    "options": {
+      "A": "It depolarizes and fires an action potential",
+      "B": "It fires action potentials at a rate proportional to light intensity",
+      "C": "It hyperpolarizes and generates an action potential",
+      "D": "It remains at its resting potential",
+      "E": "It hyperpolarizes from its depolarized dark state without firing action potentials"
+    },
+    "correct_answer": "E",
+    "explanation": "Photoreceptors are depolarized in the dark and hyperpolarize when light strikes them. They do not generate action potentials, and they release less transmitter onto bipolar cells in the light."
+  },
+  {
+    "q_num": 2,
+    "category": "Visual System",
+    "stem": "Which retinal cells are the first neurons of the visual pathway to generate action potentials, and give rise to the axons of the optic nerve?",
+    "options": {
+      "A": "Ganglion cells",
+      "B": "Bipolar cells",
+      "C": "Rods",
+      "D": "Cones",
+      "E": "M\u00fcller glia"
+    },
+    "correct_answer": "A",
+    "explanation": "Photoreceptors (first order) and bipolar cells (second order) use graded potentials. Ganglion cells are the third-order neurons and first to fire action potentials. Their axons form the optic nerve, chiasm and tract."
+  },
+  {
+    "q_num": 3,
+    "category": "Visual System",
+    "stem": "A 28-year-old woman with a brain tumor and raised intracranial pressure has bilateral swelling of the optic discs. Which anatomic feature best explains this finding?",
+    "options": {
+      "A": "The optic nerve is a peripheral nerve wrapped in endoneurium",
+      "B": "CSF communicates directly with the aqueous humor",
+      "C": "The optic nerve is covered by meninges with a subarachnoid space continuous with the intracranial one",
+      "D": "Optic nerve axons are myelinated by Schwann cells",
+      "E": "The central retinal artery arises from the anterior cerebral artery"
+    },
+    "correct_answer": "C",
+    "explanation": "The optic nerve is part of the CNS (an outgrowth of the diencephalon), wrapped in all three meninges with its own subarachnoid space. Raised ICP is therefore transmitted to the nerve, causing papilledema."
+  },
+  {
+    "q_num": 4,
+    "category": "Visual System",
+    "stem": "The central retinal artery supplies the retina only up to the inner nuclear layer. Which retinal cells depend mainly on diffusion from the choroid?",
+    "options": {
+      "A": "Ganglion cells",
+      "B": "Nerve fiber layer axons",
+      "C": "Bipolar cells",
+      "D": "Photoreceptors",
+      "E": "Optic nerve axons"
+    },
+    "correct_answer": "D",
+    "explanation": "The central retinal artery supplies the retina up to the inner nuclear layer. Photoreceptors depend on the choroid and the retinal pigment epithelium."
+  },
+  {
+    "q_num": 5,
+    "category": "Visual System",
+    "stem": "Which cortical region analyzes information from the upper visual field?",
+    "options": {
+      "A": "Cuneus",
+      "B": "Lingual gyrus",
+      "C": "Superior parietal lobule",
+      "D": "Precuneus",
+      "E": "Angular gyrus"
+    },
+    "correct_answer": "B",
+    "explanation": "Meyer loop carries the inferior retina (upper field) to the lingual gyrus below the calcarine sulcus. The dorsal loop goes to the cuneus above it, which analyzes the lower field."
+  },
+  {
+    "q_num": 6,
+    "category": "Visual System",
+    "stem": "Which retinal fibers remain ipsilateral at the optic chiasm?",
+    "options": {
+      "A": "Temporal retinal fibers, which carry the nasal visual field",
+      "B": "Nasal retinal fibers, which carry the temporal visual field",
+      "C": "All macular fibers",
+      "D": "All fibers from the inferior retina",
+      "E": "None; all fibers cross"
+    },
+    "correct_answer": "A",
+    "explanation": "Temporal retinal fibers (nasal visual field) do not cross. Nasal retinal fibers (temporal visual field) cross at the chiasm."
+  },
+  {
+    "q_num": 7,
+    "category": "Visual System",
+    "stem": "A bright flash in the peripheral visual field causes a person's head and eyes to turn reflexively toward it. Which midbrain structure mediates this orienting response?",
+    "options": {
+      "A": "Inferior colliculus",
+      "B": "Red nucleus",
+      "C": "Substantia nigra",
+      "D": "Periaqueductal gray",
+      "E": "Superior colliculus"
+    },
+    "correct_answer": "E",
+    "explanation": "The superior colliculus mediates head and eye orienting to visual stimuli. The inferior colliculus does the same for sound."
+  },
+  {
+    "q_num": 8,
+    "category": "Visual System",
+    "stem": "After a stroke, a 70-year-old man sees objects clearly and can describe their shape and color, but cannot name a key by looking at it. He identifies it immediately when he holds it. Which is the best description of this deficit?",
+    "options": {
+      "A": "Cortical blindness",
+      "B": "Homonymous hemianopia",
+      "C": "Visual agnosia from damage to association cortex",
+      "D": "Amblyopia",
+      "E": "Central scotoma"
+    },
+    "correct_answer": "C",
+    "explanation": "In visual agnosia, perception is intact but the adjacent association cortex cannot interpret what is seen. The patient can still identify the object by touch."
+  },
+  {
+    "q_num": 9,
+    "category": "Visual Reflexes",
+    "stem": "Ptosis in Horner syndrome results from loss of sympathetic innervation to which muscle?",
+    "options": {
+      "A": "Levator palpebrae superioris",
+      "B": "Orbicularis oculi",
+      "C": "Frontalis",
+      "D": "Superior tarsal (M\u00fcller) muscle",
+      "E": "Procerus"
+    },
+    "correct_answer": "D",
+    "explanation": "The superior tarsal (M\u00fcller) muscle is sympathetic. The levator palpebrae is supplied by CN III, so oculomotor palsy produces a much more severe ptosis."
+  },
+  {
+    "q_num": 10,
+    "category": "Visual Reflexes",
+    "stem": "An acute oculomotor nerve palsy leaves the affected eye positioned down and out. Which muscles are acting unopposed?",
+    "options": {
+      "A": "Medial rectus and superior oblique",
+      "B": "Lateral rectus and superior oblique",
+      "C": "Lateral rectus and inferior oblique",
+      "D": "Superior rectus and inferior rectus",
+      "E": "Medial rectus and lateral rectus"
+    },
+    "correct_answer": "B",
+    "explanation": "Without CN III, the lateral rectus (abducens) pulls the eye out and the superior oblique (trochlear) pulls it down."
+  },
+  {
+    "q_num": 11,
+    "category": "Visual Reflexes",
+    "stem": "A child has double vision that improves when she tilts her head to the left. Which nerve is most likely affected?",
+    "options": {
+      "A": "Right trochlear nerve",
+      "B": "Left trochlear nerve",
+      "C": "Left abducens nerve",
+      "D": "Right abducens nerve",
+      "E": "Right oculomotor nerve"
+    },
+    "correct_answer": "A",
+    "explanation": "In trochlear palsy, patients tilt the head away from the affected side. A left tilt indicates a right trochlear nerve lesion."
+  },
+  {
+    "q_num": 12,
+    "category": "Visual Reflexes",
+    "stem": "A patient's left eye is deviated medially at rest and cannot be abducted. Which nerve and muscle are involved?",
+    "options": {
+      "A": "Oculomotor nerve and medial rectus",
+      "B": "Trochlear nerve and superior oblique",
+      "C": "Trigeminal nerve and lateral pterygoid",
+      "D": "Facial nerve and orbicularis oculi",
+      "E": "Abducens nerve and lateral rectus"
+    },
+    "correct_answer": "E",
+    "explanation": "The abducens nerve supplies the lateral rectus. Palsy leaves the eye deviated medially."
+  },
+  {
+    "q_num": 13,
+    "category": "Visual Reflexes",
+    "stem": "In the swinging flashlight test, both pupils constrict when light is shone in the left eye, but both pupils dilate when the light is swung to the right eye. Which of the following is the most likely cause?",
+    "options": {
+      "A": "Right oculomotor nerve lesion",
+      "B": "Left oculomotor nerve lesion",
+      "C": "Afferent defect of the right eye or optic nerve (Marcus Gunn pupil)",
+      "D": "Right Horner syndrome",
+      "E": "Argyll Robertson pupil"
+    },
+    "correct_answer": "C",
+    "explanation": "This is a relative afferent pupillary defect (Marcus Gunn pupil). When light is moved to the affected eye, the weak afferent signal makes both pupils dilate."
+  },
+  {
+    "q_num": 14,
+    "category": "Visual Reflexes",
+    "stem": "A man is blind in the right eye from optic nerve injury. His left eye follows a finger moving toward his nose. Which result is expected?",
+    "options": {
+      "A": "Accommodation is intact in both eyes",
+      "B": "Accommodation is absent only in the right eye",
+      "C": "Accommodation is absent in both eyes",
+      "D": "Only convergence occurs, without pupillary constriction",
+      "E": "The right eye dilates"
+    },
+    "correct_answer": "A",
+    "explanation": "Each eye projects to both sides of the brain. Visual input from one eye is enough to trigger accommodation in both eyes, so a unilateral CN II lesion does not impair it."
+  },
+  {
+    "q_num": 15,
+    "category": "Visual Reflexes",
+    "stem": "Which of the following is preserved in a comatose patient with intact midbrain function, because it does not need cortical input?",
+    "options": {
+      "A": "Optokinetic nystagmus",
+      "B": "Voluntary smooth pursuit",
+      "C": "Blink to visual threat",
+      "D": "Pupillary light reflex",
+      "E": "Visual accommodation to a finger"
+    },
+    "correct_answer": "D",
+    "explanation": "The pupillary light reflex goes retina, pretectal area, Edinger-Westphal nucleus, so it needs no cortex and is preserved in coma. It tests midbrain integrity."
+  },
+  {
+    "q_num": 16,
+    "category": "Visual Reflexes",
+    "stem": "Which structure carries the crossing fibers of the vertical gaze pathway in the midbrain?",
+    "options": {
+      "A": "Anterior commissure",
+      "B": "Posterior commissure",
+      "C": "Habenular commissure",
+      "D": "Optic chiasm",
+      "E": "Trapezoid body"
+    },
+    "correct_answer": "B",
+    "explanation": "FEF-driven vertical gaze fibers cross through the posterior commissure. Lesions there (pinealoma, midbrain infarct) cause vertical gaze palsy."
+  },
+  {
+    "q_num": 17,
+    "category": "Visual Reflexes",
+    "stem": "A person looks to the right. Which pathway adducts the left eye?",
+    "options": {
+      "A": "Left PPRF to left abducens nucleus to right MLF to right oculomotor nucleus",
+      "B": "Right PPRF to right abducens nucleus to right MLF to right oculomotor nucleus",
+      "C": "Right FEF to left PPRF to left abducens nucleus",
+      "D": "Left FEF to left PPRF to left abducens nucleus",
+      "E": "Left FEF to right PPRF to right abducens nucleus to left MLF to left oculomotor nucleus"
+    },
+    "correct_answer": "E",
+    "explanation": "To look right: left FEF to right PPRF to right abducens nucleus (right eye abducts), then via the left MLF to the left oculomotor nucleus (left eye adducts)."
+  },
+  {
+    "q_num": 18,
+    "category": "Visual Reflexes",
+    "stem": "A patient with a dorsal pontine infarct has a right abducens nucleus lesion that also involves the right MLF. Which finding is expected?",
+    "options": {
+      "A": "Both eyes are deviated to the left and cannot look right",
+      "B": "Left eye cannot abduct and right eye cannot adduct",
+      "C": "The right eye does not move horizontally, and the left eye can only abduct",
+      "D": "Both eyes move normally in horizontal gaze",
+      "E": "Vertical gaze is lost"
+    },
+    "correct_answer": "C",
+    "explanation": "One-and-a-half syndrome: the right eye has lost both abduction (nucleus) and adduction (MLF), and the left eye can only abduct."
+  },
+  {
+    "q_num": 19,
+    "category": "Visual Reflexes",
+    "stem": "A passenger watches telephone poles go by and his eyes reflexively follow a pole, then flick back. Which eye movement is this?",
+    "options": {
+      "A": "Saccade",
+      "B": "Optokinetic nystagmus",
+      "C": "Vestibulo-ocular reflex",
+      "D": "Vergence",
+      "E": "Voluntary smooth pursuit of a stationary object"
+    },
+    "correct_answer": "B",
+    "explanation": "Optokinetic nystagmus is a reflex that stabilizes a moving target on the fovea while the head is still. Smooth pursuit and saccades are voluntary."
+  },
+  {
+    "q_num": 20,
+    "category": "Visual Reflexes",
+    "stem": "A patient shifts his gaze between two stationary fingers using jerky movements that place each finger on the fovea. Which movement is this?",
+    "options": {
+      "A": "Saccade",
+      "B": "Smooth pursuit",
+      "C": "Vergence",
+      "D": "Optokinetic nystagmus",
+      "E": "Vestibulo-ocular reflex"
+    },
+    "correct_answer": "A",
+    "explanation": "Saccades are rapid jerky movements that position a stationary target on the fovea."
+  },
+  {
+    "q_num": 21,
+    "category": "Visual Reflexes",
+    "stem": "How would you test the inferior oblique muscle?",
+    "options": {
+      "A": "Abduct the eye and ask the patient to look down",
+      "B": "Abduct the eye and ask the patient to look up",
+      "C": "Adduct the eye and ask the patient to look down",
+      "D": "Adduct the eye and ask the patient to look up",
+      "E": "Ask the patient to look straight ahead"
+    },
+    "correct_answer": "D",
+    "explanation": "The inferior oblique elevates the adducted eye. Ask the patient to adduct the eye and look up."
+  },
+  {
+    "q_num": 22,
+    "category": "Visual Reflexes",
+    "stem": "Infections of the central face can spread to the cavernous sinus. Which feature of the ophthalmic veins makes this possible?",
+    "options": {
+      "A": "They are arteries with high pressure",
+      "B": "They drain into lymphatics",
+      "C": "They are valveless and connect with facial veins",
+      "D": "They drain directly into CSF",
+      "E": "They connect to a carotid-cavernous fistula"
+    },
+    "correct_answer": "C",
+    "explanation": "The ophthalmic and facial veins are valveless, so infection from the face and sinuses can reach the cavernous sinus."
+  },
+  {
+    "q_num": 23,
+    "category": "Visual Reflexes",
+    "stem": "Which anatomic observation best explains why light-near dissociation can occur in Argyll Robertson pupils?",
+    "options": {
+      "A": "Damage to the optic nerve",
+      "B": "Loss of the Edinger-Westphal nucleus",
+      "C": "Ciliary ganglion degeneration",
+      "D": "Oculomotor nerve compression",
+      "E": "Partial damage to the pretectal area, which contains separate constrictor neurons for light and accommodation"
+    },
+    "correct_answer": "E",
+    "explanation": "The pretectal area has separate constrictor neurons for light and for accommodation. Partial damage can remove the light response only, as in neurosyphilis or diabetes."
+  },
+  {
+    "q_num": 24,
+    "category": "Visual Reflexes",
+    "stem": "A person looks at a picture and sees balls of different colors, but they are all the same color. Which statement best explains the illusion?",
+    "options": {
+      "A": "Retinal damage",
+      "B": "The brain interprets sensory input based on experience and expectation",
+      "C": "Cone dysfunction",
+      "D": "Cortical blindness",
+      "E": "Optic nerve compression"
+    },
+    "correct_answer": "B",
+    "explanation": "The brain interprets sensory input according to experience and expectation, so we do not necessarily see what is actually present."
+  },
+  {
+    "q_num": 25,
+    "category": "Ophthalmology",
+    "stem": "Which sequence correctly describes the flow of aqueous humor?",
+    "options": {
+      "A": "Anterior chamber, then posterior chamber, then canal of Schlemm",
+      "B": "Ciliary body, then anterior chamber, then vitreous",
+      "C": "Ciliary body, then posterior chamber, then through the pupil to the anterior chamber, then trabecular meshwork and canal of Schlemm",
+      "D": "Choroid, then posterior chamber, then sclera",
+      "E": "Lens, then vitreous, then trabecular meshwork"
+    },
+    "correct_answer": "C",
+    "explanation": "Aqueous humor goes from the ciliary body to the posterior chamber, then through the pupil to the anterior chamber, and drains via the trabecular meshwork to the canal of Schlemm."
+  },
+  {
+    "q_num": 26,
+    "category": "Ophthalmology",
+    "stem": "A newborn has no visible iris, nystagmus and foveal hypoplasia. Which gene is involved, and which tumor is associated with sporadic cases?",
+    "options": {
+      "A": "RB1 and retinoblastoma",
+      "B": "PAX6 and hepatoblastoma",
+      "C": "HTT and glioma",
+      "D": "ATP7B and Wilms tumor",
+      "E": "PAX6 and Wilms tumor (WAGR)"
+    },
+    "correct_answer": "E",
+    "explanation": "Aniridia is caused by PAX6 mutations (usually autosomal dominant). Sporadic cases can be part of WAGR syndrome (Wilms tumor, Aniridia, Genitourinary anomalies, mental Retardation)."
+  },
+  {
+    "q_num": 27,
+    "category": "Ophthalmology",
+    "stem": "An infant has tearing, photophobia, blepharospasm and an enlarged, cloudy cornea. Which treatment is most appropriate?",
+    "options": {
+      "A": "Goniotomy or trabeculotomy",
+      "B": "Topical beta-blocker alone",
+      "C": "Eye patching",
+      "D": "Observation until age 5",
+      "E": "Selective laser trabeculoplasty alone"
+    },
+    "correct_answer": "A",
+    "explanation": "Congenital glaucoma (blepharospasm, tearing, photophobia) needs urgent surgery: goniotomy or trabeculotomy cuts through the trabecular meshwork."
+  },
+  {
+    "q_num": 28,
+    "category": "Ophthalmology",
+    "stem": "A 27-week premature infant is screened for retinopathy of prematurity. Which mechanism underlies the disease?",
+    "options": {
+      "A": "Excess aqueous production",
+      "B": "Lens protein denaturation",
+      "C": "Drusen deposition",
+      "D": "Damaged retinal vessels induce VEGF release, causing abnormal vessel growth at the border of the vascular and avascular retina",
+      "E": "Loss of photoreceptors"
+    },
+    "correct_answer": "D",
+    "explanation": "In retinopathy of prematurity, damaged fetal vessels release VEGF, producing abnormal vessels at the border of vascular and avascular retina. Treatment is laser or anti-VEGF."
+  },
+  {
+    "q_num": 29,
+    "category": "Ophthalmology",
+    "stem": "A 55-year-old man with long-standing diabetes has microaneurysms, cotton-wool spots and flame hemorrhages on fundoscopy. Which mechanism best explains the new vessel growth?",
+    "options": {
+      "A": "Excess aqueous humor",
+      "B": "Hyperglycemia damages capillaries, causing leakage and hypoxia that induces VEGF and fragile new vessels",
+      "C": "Retinal detachment",
+      "D": "Drusen accumulation",
+      "E": "Optic nerve edema"
+    },
+    "correct_answer": "B",
+    "explanation": "Hyperglycemia damages capillaries, causing leakage and hypoxia. Hypoxia induces VEGF and fragile new vessels."
+  },
+  {
+    "q_num": 30,
+    "category": "Ophthalmology",
+    "stem": "A 25-year-old man has a painful red eye with photophobia. Fluorescein staining shows a branching dendritic ulcer. Which treatment is most appropriate?",
+    "options": {
+      "A": "Topical steroids alone",
+      "B": "Pilocarpine",
+      "C": "Antiviral therapy",
+      "D": "Lid hygiene",
+      "E": "Warm compresses"
+    },
+    "correct_answer": "C",
+    "explanation": "A dendritic ulcer on fluorescein staining indicates herpetic keratitis, treated with antivirals. Steroids alone can worsen it."
+  },
+  {
+    "q_num": 31,
+    "category": "Auditory & Vestibular System",
+    "stem": "Which structure secretes endolymph and maintains its ionic composition in the cochlea?",
+    "options": {
+      "A": "Stria vascularis",
+      "B": "Organ of Corti",
+      "C": "Spiral ganglion",
+      "D": "Tectorial membrane",
+      "E": "Reissner membrane"
+    },
+    "correct_answer": "A",
+    "explanation": "The stria vascularis in the lateral wall of the scala media produces endolymph."
+  },
+  {
+    "q_num": 32,
+    "category": "Auditory & Vestibular System",
+    "stem": "Where are the auditory receptor hair cells located?",
+    "options": {
+      "A": "In the stria vascularis",
+      "B": "In the spiral ganglion",
+      "C": "In the vestibule",
+      "D": "In the organ of Corti, between the basilar membrane and the overlying tectorial membrane",
+      "E": "In the round window"
+    },
+    "correct_answer": "D",
+    "explanation": "The organ of Corti sits between the basilar membrane and the tectorial membrane and contains the hair cells."
+  },
+  {
+    "q_num": 33,
+    "category": "Auditory & Vestibular System",
+    "stem": "Which structure contains the first-order neuron cell bodies of the auditory pathway?",
+    "options": {
+      "A": "Cochlear nucleus",
+      "B": "Superior olivary complex",
+      "C": "Inferior colliculus",
+      "D": "Medial geniculate nucleus",
+      "E": "Spiral ganglion"
+    },
+    "correct_answer": "E",
+    "explanation": "Spiral ganglion bipolar neurons are the first-order cells. Their axons form the cochlear division of CN VIII."
+  },
+  {
+    "q_num": 34,
+    "category": "Auditory & Vestibular System",
+    "stem": "Second-order auditory axons cross via the trapezoid body to the caudal pons. Which structure first receives input from both ears?",
+    "options": {
+      "A": "Cochlear nucleus",
+      "B": "Superior olivary complex",
+      "C": "Inferior colliculus",
+      "D": "Medial geniculate nucleus",
+      "E": "Transverse temporal gyrus"
+    },
+    "correct_answer": "B",
+    "explanation": "Second-order fibers cross via the trapezoid body, and the superior olivary complex in the caudal pons is the first to receive information from both ears."
+  },
+  {
+    "q_num": 35,
+    "category": "Auditory & Vestibular System",
+    "stem": "Auditory radiations from the medial geniculate nucleus pass to Heschl gyrus through which part of the internal capsule?",
+    "options": {
+      "A": "Anterior limb",
+      "B": "Genu",
+      "C": "Sublenticular part",
+      "D": "Posterior limb",
+      "E": "Retrolenticular part"
+    },
+    "correct_answer": "C",
+    "explanation": "Auditory radiations travel through the sublenticular portion of the internal capsule to Heschl gyrus. Visual radiations pass through the retrolenticular portion."
+  },
+  {
+    "q_num": 36,
+    "category": "Auditory & Vestibular System",
+    "stem": "Angular acceleration during head rotation is transduced by hair cells of the crista ampullaris, which are deflected by which structure?",
+    "options": {
+      "A": "Cupula",
+      "B": "Otolithic membrane",
+      "C": "Tectorial membrane",
+      "D": "Basilar membrane",
+      "E": "Reissner membrane"
+    },
+    "correct_answer": "A",
+    "explanation": "The cupula is the gelatinous structure over the crista ampullaris that is deflected by endolymph during head rotation."
+  },
+  {
+    "q_num": 37,
+    "category": "Auditory & Vestibular System",
+    "stem": "Which feature allows the utricular macula to respond to gravity?",
+    "options": {
+      "A": "Contraction of hair cells",
+      "B": "Deflection of the cupula",
+      "C": "Increased density of endolymph",
+      "D": "Movement of the basilar membrane",
+      "E": "Calcium carbonate crystals (otoconia) that weigh down the overlying gelatinous membrane"
+    },
+    "correct_answer": "E",
+    "explanation": "Otoconia (calcium carbonate crystals) weigh down the otolithic membrane so gravity can shift it over the hair cells."
+  },
+  {
+    "q_num": 38,
+    "category": "Auditory & Vestibular System",
+    "stem": "A patient with a lesion near the vestibular nuclei has a tendency to fall. Which tract carries uncrossed fibers that maintain tone in antigravity extensor muscles?",
+    "options": {
+      "A": "Medial longitudinal fasciculus",
+      "B": "Medial vestibulospinal tract",
+      "C": "Lateral vestibulospinal tract",
+      "D": "Rubrospinal tract",
+      "E": "Corticospinal tract"
+    },
+    "correct_answer": "C",
+    "explanation": "The lateral vestibulospinal tract is ipsilateral and uncrossed, and drives antigravity extensors. Lesions cause falling."
+  },
+  {
+    "q_num": 39,
+    "category": "Auditory & Vestibular System",
+    "stem": "A patient has an abnormal resting head position after a brainstem lesion. Which tract projects bilaterally to neck muscles to keep the head upright?",
+    "options": {
+      "A": "Lateral vestibulospinal tract",
+      "B": "Medial vestibulospinal tract",
+      "C": "Anterior corticospinal tract",
+      "D": "Reticulospinal tract",
+      "E": "Tectospinal tract"
+    },
+    "correct_answer": "B",
+    "explanation": "The medial vestibulospinal tract projects bilaterally to neck muscles to keep the head upright."
+  },
+  {
+    "q_num": 40,
+    "category": "Auditory & Vestibular System",
+    "stem": "In a comatose patient, rotating the head causes the eyes to remain fixed in space (an intact doll's eye reflex). What does this indicate?",
+    "options": {
+      "A": "Intact frontal eye fields",
+      "B": "Intact visual cortex",
+      "C": "Intact temporal lobes",
+      "D": "Intact vestibular nuclei and MLF connections to the CN III, IV and VI nuclei, which bypass the cortex",
+      "E": "Intact basal ganglia"
+    },
+    "correct_answer": "D",
+    "explanation": "The doll's eye reflex relies on vestibular nuclei and the MLF connecting to CN III, IV and VI, bypassing the cortex. It is preserved in coma if the brainstem is intact."
+  },
+  {
+    "q_num": 41,
+    "category": "Auditory & Vestibular System",
+    "stem": "Lesion of the pathway from the vestibular nuclei through the MLF to the CN III, IV and VI nuclei results in which of the following?",
+    "options": {
+      "A": "Nystagmus",
+      "B": "Falling to one side",
+      "C": "Head tilt",
+      "D": "Hearing loss",
+      "E": "Facial weakness"
+    },
+    "correct_answer": "A",
+    "explanation": "Dysfunction of the vestibular-to-ocular pathway causes nystagmus, because it normally maintains gaze during head movement."
+  },
+  {
+    "q_num": 42,
+    "category": "Auditory & Vestibular System",
+    "stem": "Which pathway, when lesioned anywhere along its course, produces vertigo?",
+    "options": {
+      "A": "MLF to CN VI",
+      "B": "Medial vestibulospinal tract",
+      "C": "Lateral vestibulospinal tract",
+      "D": "Vestibulocerebellar fibers in the inferior cerebellar peduncle",
+      "E": "Vestibular nuclei to VPL thalamus to parietotemporal cortex"
+    },
+    "correct_answer": "E",
+    "explanation": "The perception route (vestibular nuclei to VPL thalamus to parietotemporal cortex) causes vertigo when interrupted anywhere along its course."
+  },
+  {
+    "q_num": 43,
+    "category": "Auditory & Vestibular System",
+    "stem": "A 12-year-old swimmer has severe ear pain that worsens when the pinna is pulled. Which organism is the most likely cause?",
+    "options": {
+      "A": "Streptococcus pneumoniae",
+      "B": "Haemophilus influenzae",
+      "C": "Pseudomonas aeruginosa",
+      "D": "Staphylococcus epidermidis",
+      "E": "Moraxella catarrhalis"
+    },
+    "correct_answer": "C",
+    "explanation": "Otitis externa (swimmer's ear) is most often due to Pseudomonas aeruginosa. S pneumoniae and H influenzae cause otitis media."
+  },
+  {
+    "q_num": 44,
+    "category": "Auditory & Vestibular System",
+    "stem": "Why is the hearing threshold lower when a tuning fork is held at the external ear than when it is applied to the mastoid?",
+    "options": {
+      "A": "Bone has greater impedance than skin",
+      "B": "The outer and middle ear amplify airborne sound about 600-fold",
+      "C": "Hair cells respond only to air vibration",
+      "D": "The mastoid blocks cochlear fluid motion",
+      "E": "Bone vibration stimulates the vestibular system instead"
+    },
+    "correct_answer": "B",
+    "explanation": "The outer and middle ear amplify airborne sound about 600-fold, so air conduction is more sensitive than bone conduction in a normal ear. This is why Rinne is normally AC greater than BC."
+  },
+  {
+    "q_num": 45,
+    "category": "UMN/LMN",
+    "stem": "Which statement correctly distinguishes upper from lower motor neurons?",
+    "options": {
+      "A": "UMN axons leave the CNS to synapse directly on muscle",
+      "B": "LMN cell bodies are located in the motor cortex",
+      "C": "UMN axons remain within the CNS and synapse on LMNs, whereas LMN axons leave the CNS to innervate muscle",
+      "D": "Both have axons in peripheral nerves",
+      "E": "LMNs are located only in the brainstem"
+    },
+    "correct_answer": "C",
+    "explanation": "UMN axons stay in the CNS and synapse on LMNs. LMN axons leave the CNS (cranial nerve or ventral root) to reach muscle."
+  },
+  {
+    "q_num": 46,
+    "category": "UMN/LMN",
+    "stem": "Which group of anterior horn neurons is absent from the thoracic spinal cord because no limbs are supplied at those levels?",
+    "options": {
+      "A": "Medial group controlling axial muscles",
+      "B": "Preganglionic parasympathetic neurons",
+      "C": "Intermediolateral column neurons",
+      "D": "Dorsal horn neurons",
+      "E": "Lateral group controlling limb muscles"
+    },
+    "correct_answer": "E",
+    "explanation": "The lateral group controls limb muscles and exists only at the cervical and lumbosacral enlargements. The medial group (axial muscles) is present at all levels."
+  },
+  {
+    "q_num": 47,
+    "category": "UMN/LMN",
+    "stem": "A 50-year-old man cannot clap his hands in the right rhythm after a stroke, yet his strength is normal. A lesion of which area is most likely?",
+    "options": {
+      "A": "Premotor cortex or supplementary motor area",
+      "B": "Primary motor cortex",
+      "C": "Posterior limb of the internal capsule",
+      "D": "Cerebellar vermis",
+      "E": "Anterior horn"
+    },
+    "correct_answer": "A",
+    "explanation": "Premotor cortex or supplementary motor area lesions cause apraxia: loss of learned movements without weakness. The SMA is important for bimanual tasks."
+  },
+  {
+    "q_num": 48,
+    "category": "UMN/LMN",
+    "stem": "An infarct of the lateral portion of the left precentral gyrus causes which deficit?",
+    "options": {
+      "A": "Left face and arm weakness",
+      "B": "Right leg weakness only",
+      "C": "Bilateral leg weakness",
+      "D": "Right face and arm weakness",
+      "E": "Left leg weakness only"
+    },
+    "correct_answer": "D",
+    "explanation": "The lateral precentral gyrus controls the contralateral face and arm. Leg is represented medially in the paracentral lobule."
+  },
+  {
+    "q_num": 49,
+    "category": "UMN/LMN",
+    "stem": "In which midbrain structure do corticospinal and corticobulbar fibers lie?",
+    "options": {
+      "A": "Superior colliculus",
+      "B": "Crus cerebri",
+      "C": "Periaqueductal gray",
+      "D": "Tegmentum",
+      "E": "Red nucleus"
+    },
+    "correct_answer": "B",
+    "explanation": "Corticospinal and corticobulbar fibers run in the crus cerebri (cerebral peduncle) of the midbrain."
+  },
+  {
+    "q_num": 50,
+    "category": "UMN/LMN",
+    "stem": "A patient has a lesion of the right lateral corticospinal tract at C3. What deficit is expected?",
+    "options": {
+      "A": "Left spastic weakness",
+      "B": "Right flaccid weakness",
+      "C": "Right spastic weakness below the lesion",
+      "D": "Bilateral flaccid weakness",
+      "E": "Left flaccid weakness"
+    },
+    "correct_answer": "C",
+    "explanation": "CST fibers cross at the pyramidal decussation. A lesion below it at C3 causes ipsilateral UMN signs."
+  },
+  {
+    "q_num": 51,
+    "category": "UMN/LMN",
+    "stem": "A patient after a large hemispheric stroke has flexed arms and extended legs. Where is the lesion?",
+    "options": {
+      "A": "Caudal pons",
+      "B": "Rostral medulla",
+      "C": "C5 spinal cord",
+      "D": "Cerebellar vermis",
+      "E": "Motor cortex or descending fibers above the red nucleus"
+    },
+    "correct_answer": "E",
+    "explanation": "Decorticate posturing (flexed arm, extended leg) indicates a lesion at or above the red nucleus. Decerebrate posturing (all limbs extended) indicates a brainstem lesion."
+  },
+  {
+    "q_num": 52,
+    "category": "UMN/LMN",
+    "stem": "Which brainstem structures relay the corticobulbospinal pathway to inhibit stretch reflexes?",
+    "options": {
+      "A": "Red nucleus and reticular formation",
+      "B": "Superior colliculus and pretectal area",
+      "C": "Inferior olive and pontine nuclei",
+      "D": "Substantia nigra and subthalamic nucleus",
+      "E": "Lateral vestibular nucleus and cochlear nuclei"
+    },
+    "correct_answer": "A",
+    "explanation": "The corticobulbospinal pathway acts through the red nucleus (rubrospinal tract, inhibits upper limb flexors) and the reticular formation (reticulospinal tract, inhibits lower limb extensors)."
+  },
+  {
+    "q_num": 53,
+    "category": "UMN/LMN",
+    "stem": "A lesion of the left corticobulbar fibers at the level of the rostral medulla causes which of the following?",
+    "options": {
+      "A": "Tongue deviates to the left with left facial droop",
+      "B": "Left facial droop only",
+      "C": "Right facial droop only",
+      "D": "Tongue deviates to the right with normal facial strength",
+      "E": "Jaw deviates to the left"
+    },
+    "correct_answer": "D",
+    "explanation": "CN XII receives only contralateral corticobulbar input, so a left lesion deviates the tongue to the right. Facial control branches off at the caudal pons, higher, so the face is spared."
+  },
+  {
+    "q_num": 54,
+    "category": "UMN/LMN",
+    "stem": "A 19-year-old woman has left LMN facial palsy and cannot close her left eye. Which treatment is most appropriate?",
+    "options": {
+      "A": "Surgical decompression",
+      "B": "Prednisone and eye protection with lubricant or patching",
+      "C": "Observation only",
+      "D": "Botulinum toxin",
+      "E": "Intrathecal baclofen"
+    },
+    "correct_answer": "B",
+    "explanation": "Bell palsy is treated with prednisone (about 7 days) and eye protection (lubricant or patch). Prognosis is excellent."
+  },
+  {
+    "q_num": 55,
+    "category": "UMN/LMN",
+    "stem": "A 60-year-old man has ear pain, vesicles in the ear canal, facial paralysis, vertigo and tinnitus. What is the cause?",
+    "options": {
+      "A": "HSV-1 reactivation alone",
+      "B": "Borrelia burgdorferi infection",
+      "C": "Varicella-zoster virus infection of CN VII (Ramsay Hunt syndrome)",
+      "D": "Pseudomonas infection",
+      "E": "Cholesteatoma"
+    },
+    "correct_answer": "C",
+    "explanation": "Ramsay Hunt syndrome: VZV infection of CN VII with vesicles in the ear, facial paralysis, vertigo and tinnitus."
+  },
+  {
+    "q_num": 56,
+    "category": "UMN/LMN",
+    "stem": "A patient has a weak biceps reflex. Which spinal roots are most likely involved?",
+    "options": {
+      "A": "L3\u2013L4",
+      "B": "S1\u2013S2",
+      "C": "C7\u2013C8",
+      "D": "L1\u2013L2",
+      "E": "C5\u2013C6"
+    },
+    "correct_answer": "E",
+    "explanation": "The biceps reflex uses C5\u2013C6. The triceps uses C6\u2013C8, the patella L3\u2013L4 and the Achilles S1\u2013S2."
+  },
+  {
+    "q_num": 57,
+    "category": "UMN/LMN",
+    "stem": "A child has fever followed by asymmetric flaccid paralysis, areflexia and normal sensation. Which structures are damaged?",
+    "options": {
+      "A": "Anterior horn lower motor neurons",
+      "B": "Dorsal columns",
+      "C": "Lateral corticospinal tract",
+      "D": "Dorsal root ganglia",
+      "E": "Anterolateral system"
+    },
+    "correct_answer": "A",
+    "explanation": "Poliomyelitis destroys anterior horn LMNs, giving flaccid asymmetric paralysis and areflexia with intact sensation."
+  },
+  {
+    "q_num": 58,
+    "category": "UMN/LMN",
+    "stem": "A patient has bilateral sacral sensory loss, urinary retention, fecal incontinence and sacral UMN signs after trauma. Where is the lesion?",
+    "options": {
+      "A": "Cauda equina",
+      "B": "Central cord",
+      "C": "Anterior cord",
+      "D": "Conus medullaris",
+      "E": "Brown-S\u00e9quard lesion"
+    },
+    "correct_answer": "D",
+    "explanation": "A conus medullaris lesion causes bilateral sacral deficits, bowel and bladder dysfunction and UMN signs. Cauda equina gives LMN signs and radicular pain."
+  },
+  {
+    "q_num": 59,
+    "category": "UMN/LMN",
+    "stem": "A 55-year-old man has lightning-like leg pains, a gait that worsens in the dark, a positive Romberg sign and decreased reflexes. Which structures are involved?",
+    "options": {
+      "A": "Lateral corticospinal tract",
+      "B": "Dorsal columns and dorsal roots",
+      "C": "Anterior horns",
+      "D": "Anterolateral system",
+      "E": "Spinocerebellar tract only"
+    },
+    "correct_answer": "B",
+    "explanation": "Tabes dorsalis (neurosyphilis) damages dorsal columns and dorsal roots, giving sensory ataxia, lightning pains and diminished reflexes."
+  },
+  {
+    "q_num": 60,
+    "category": "UMN/LMN",
+    "stem": "A patient has bilateral loss of vibration and proprioception, but normal strength and intact pain and temperature sensation. Which vessel is most likely occluded?",
+    "options": {
+      "A": "Anterior spinal artery",
+      "B": "Vertebral artery",
+      "C": "Posterior spinal artery",
+      "D": "Anterior cerebral artery",
+      "E": "Artery of Adamkiewicz"
+    },
+    "correct_answer": "C",
+    "explanation": "Posterior spinal artery infarcts affect the dorsal columns, so vibration and proprioception are lost while motor function and pain/temperature are spared."
+  },
+  {
+    "q_num": 61,
+    "category": "UMN/LMN",
+    "stem": "A patient has a lesion of the left abducens nucleus. Which findings are expected?",
+    "options": {
+      "A": "Right gaze palsy with right facial weakness",
+      "B": "Isolated left medial rectus weakness",
+      "C": "Bilateral facial weakness",
+      "D": "Normal horizontal gaze",
+      "E": "Left gaze palsy with left facial weakness because facial nerve fibers loop around the nucleus"
+    },
+    "correct_answer": "E",
+    "explanation": "The abducens nucleus contains interneurons for ipsilateral gaze, so its lesion causes ipsilateral gaze palsy. Facial nerve fibers loop around it (facial colliculus), so the face is also weak."
+  },
+  {
+    "q_num": 62,
+    "category": "UMN/LMN",
+    "stem": "Which lesion would produce deficits similar to destruction of an anterior horn cell body?",
+    "options": {
+      "A": "A lesion of the ventral root carrying its axon",
+      "B": "A lesion of the lateral corticospinal tract",
+      "C": "A lesion of the precentral gyrus",
+      "D": "A lesion of the posterior limb of the internal capsule",
+      "E": "A lesion of the dorsal root"
+    },
+    "correct_answer": "A",
+    "explanation": "A lesion of a motor neuron's cell body, axon or ventral root produces the same LMN picture, because the whole neuron is lost."
+  },
+  {
+    "q_num": 63,
+    "category": "UMN/LMN",
+    "stem": "Which cranial nerves mediate the afferent and efferent limbs of the gag reflex?",
+    "options": {
+      "A": "CN V afferent, CN VII efferent",
+      "B": "CN X afferent, CN IX efferent",
+      "C": "CN VII afferent, CN XII efferent",
+      "D": "CN IX afferent, CN X efferent",
+      "E": "CN XI afferent, CN X efferent"
+    },
+    "correct_answer": "D",
+    "explanation": "The gag reflex: CN IX is the afferent limb and CN X (nucleus ambiguus) the efferent limb."
+  },
+  {
+    "q_num": 64,
+    "category": "UMN/LMN",
+    "stem": "A patient has a unilateral corticobulbar lesion. Which muscles remain normal because of bilateral cortical input?",
+    "options": {
+      "A": "Lower facial muscles",
+      "B": "Muscles of mastication (CN V)",
+      "C": "Tongue",
+      "D": "Upper limb flexors",
+      "E": "Lower limb extensors"
+    },
+    "correct_answer": "B",
+    "explanation": "CN V (and CN IX, X, XI and the upper face) have bilateral corticobulbar input, so a unilateral lesion spares the muscles of mastication. The lower face and tongue have contralateral input."
+  },
+  {
+    "q_num": 65,
+    "category": "Hypothalamus & Smell/Taste",
+    "stem": "Which mechanism allows the arcuate and periventricular nuclei to regulate the anterior pituitary?",
+    "options": {
+      "A": "Their axons terminate directly in the anterior lobe",
+      "B": "Release of ADH from nerve terminals",
+      "C": "Direct neural control of pituitary acinar cells",
+      "D": "Release of hypophysiotropic hormones into the hypophyseal portal capillaries",
+      "E": "Sympathetic fibers to the pituitary"
+    },
+    "correct_answer": "D",
+    "explanation": "The arcuate and periventricular nuclei release hypophysiotropic hormones into the hypophyseal portal capillaries, which carry them to the anterior pituitary."
+  },
+  {
+    "q_num": 66,
+    "category": "Hypothalamus & Smell/Taste",
+    "stem": "A man has polyuria and intense thirst after a head injury. Which laboratory pattern is expected?",
+    "options": {
+      "A": "High serum osmolality with dilute urine from low ADH",
+      "B": "Low serum sodium with concentrated urine",
+      "C": "Normal serum osmolality and normal urine",
+      "D": "High ADH with low serum osmolality",
+      "E": "Low serum osmolality with dilute urine from excess water intake"
+    },
+    "correct_answer": "A",
+    "explanation": "Central diabetes insipidus is due to inadequate ADH, so the kidney cannot reabsorb water: high serum osmolality, dilute urine and thirst."
+  },
+  {
+    "q_num": 67,
+    "category": "Hypothalamus & Smell/Taste",
+    "stem": "Which pathway links light exposure to melatonin release?",
+    "options": {
+      "A": "Retina to LGN to occipital cortex to pineal gland",
+      "B": "Retina to pretectal area to Edinger-Westphal nucleus",
+      "C": "Retina to suprachiasmatic nucleus to a sympathetic pathway to the pineal gland",
+      "D": "Retina to ventromedial nucleus to pituitary",
+      "E": "Retina to mammillary bodies to pineal gland"
+    },
+    "correct_answer": "C",
+    "explanation": "Light reaches the suprachiasmatic nucleus, which signals through the sympathetic nervous system to the pineal gland to release melatonin."
+  },
+  {
+    "q_num": 68,
+    "category": "Hypothalamus & Smell/Taste",
+    "stem": "Which statement about the olfactory pathway is correct?",
+    "options": {
+      "A": "It relays in the VPM thalamus",
+      "B": "It decussates at the optic chiasm",
+      "C": "It terminates in the insula",
+      "D": "It has three neurons before the cortex",
+      "E": "It has no thalamic relay and remains ipsilateral"
+    },
+    "correct_answer": "E",
+    "explanation": "The olfactory pathway has only first- and second-order neurons, no thalamic relay and is ipsilateral. Receptor neurons regenerate every 1\u20132 months."
+  },
+  {
+    "q_num": 69,
+    "category": "Hypothalamus & Smell/Taste",
+    "stem": "Which brain region integrates smell, taste, touch and the sight of food into the experience of flavor?",
+    "options": {
+      "A": "Occipital cortex",
+      "B": "Orbitofrontal cortex",
+      "C": "Precentral gyrus",
+      "D": "Cingulate gyrus",
+      "E": "Hypothalamus alone"
+    },
+    "correct_answer": "B",
+    "explanation": "The orbitofrontal cortex integrates olfactory, gustatory, somatosensory and visual information about food."
+  },
+  {
+    "q_num": 70,
+    "category": "Hypothalamus & Smell/Taste",
+    "stem": "Where are the first-order cell bodies for taste from the anterior two-thirds of the tongue located?",
+    "options": {
+      "A": "Inferior ganglion of CN IX",
+      "B": "Inferior ganglion of CN X",
+      "C": "Trigeminal ganglion",
+      "D": "Geniculate ganglion",
+      "E": "Spiral ganglion"
+    },
+    "correct_answer": "D",
+    "explanation": "CN VII taste fibers have cell bodies in the geniculate ganglion. CN IX and X each have their own inferior ganglion."
+  },
+  {
+    "q_num": 71,
+    "category": "Basal Ganglia",
+    "stem": "Which pair of nuclei makes up the striatum?",
+    "options": {
+      "A": "Putamen and globus pallidus",
+      "B": "Caudate and putamen",
+      "C": "Globus pallidus and subthalamic nucleus",
+      "D": "Substantia nigra and subthalamic nucleus",
+      "E": "Thalamus and caudate"
+    },
+    "correct_answer": "B",
+    "explanation": "The caudate and putamen form the striatum, whose output is purely GABAergic and which receives glutamatergic and dopaminergic input."
+  },
+  {
+    "q_num": 72,
+    "category": "Basal Ganglia",
+    "stem": "Which basal ganglia nucleus releases glutamate (an excitatory transmitter), unlike the others?",
+    "options": {
+      "A": "Caudate",
+      "B": "Putamen",
+      "C": "Globus pallidus externa",
+      "D": "Globus pallidus interna",
+      "E": "Subthalamic nucleus"
+    },
+    "correct_answer": "E",
+    "explanation": "The subthalamic nucleus is glutamatergic. It receives GABA from GPe and sends glutamate to GPi."
+  },
+  {
+    "q_num": 73,
+    "category": "Basal Ganglia",
+    "stem": "Which projection is correct?",
+    "options": {
+      "A": "GPe to VL thalamus",
+      "B": "GPi to subthalamic nucleus",
+      "C": "GPi to VL thalamus",
+      "D": "Putamen to VL thalamus",
+      "E": "Substantia nigra to GPi"
+    },
+    "correct_answer": "C",
+    "explanation": "GPi projects to the VL thalamus, and GPe projects to the STN."
+  },
+  {
+    "q_num": 74,
+    "category": "Basal Ganglia",
+    "stem": "Which part of the substantia nigra contains the dopaminergic neurons?",
+    "options": {
+      "A": "Pars compacta",
+      "B": "Pars reticulata",
+      "C": "Both equally",
+      "D": "Neither",
+      "E": "Only the subthalamic part"
+    },
+    "correct_answer": "A",
+    "explanation": "Only the pars compacta contains dopaminergic neurons."
+  },
+  {
+    "q_num": 75,
+    "category": "Basal Ganglia",
+    "stem": "Basal ganglia output returns to the motor cortex through which thalamic nucleus?",
+    "options": {
+      "A": "Ventral posterolateral",
+      "B": "Lateral geniculate",
+      "C": "Medial geniculate",
+      "D": "Ventral lateral",
+      "E": "Ventral posteromedial"
+    },
+    "correct_answer": "D",
+    "explanation": "Basal ganglia output reaches the motor cortex via the ventral lateral thalamic nucleus."
+  },
+  {
+    "q_num": 76,
+    "category": "Basal Ganglia",
+    "stem": "Which sequence describes the direct pathway?",
+    "options": {
+      "A": "Putamen excites GPi, which inhibits the VL",
+      "B": "Putamen inhibits GPi, releasing VL from inhibition and exciting the motor cortex",
+      "C": "Putamen inhibits GPe, which inhibits the subthalamic nucleus",
+      "D": "Putamen excites GPe, which excites the VL",
+      "E": "Subthalamic nucleus excites GPi, which excites the VL"
+    },
+    "correct_answer": "B",
+    "explanation": "In the direct pathway, the putamen inhibits GPi, which releases VL from inhibition and excites the motor cortex."
+  },
+  {
+    "q_num": 77,
+    "category": "Basal Ganglia",
+    "stem": "Which sequence describes the indirect pathway?",
+    "options": {
+      "A": "Putamen excites GPi, which excites the VL",
+      "B": "Putamen inhibits GPi, which excites the VL",
+      "C": "Putamen excites GPe, which excites the subthalamic nucleus",
+      "D": "Putamen inhibits the VL directly",
+      "E": "Putamen inhibits GPe, disinhibiting the subthalamic nucleus, which excites GPi and inhibits the VL"
+    },
+    "correct_answer": "E",
+    "explanation": "In the indirect pathway, the putamen inhibits GPe, which disinhibits the STN. The STN excites GPi, which inhibits the VL and suppresses movement."
+  },
+  {
+    "q_num": 78,
+    "category": "Basal Ganglia",
+    "stem": "A schizophrenic patient on haloperidol for 5 years has lip smacking and tongue protrusion. Which mechanism is most likely?",
+    "options": {
+      "A": "Dopamine depletion in the substantia nigra",
+      "B": "Loss of striatal neurons",
+      "C": "D2 receptor hypersensitivity causing excessive inhibition of the indirect pathway",
+      "D": "Excessive STN stimulation",
+      "E": "Increased acetylcholine"
+    },
+    "correct_answer": "C",
+    "explanation": "Tardive dyskinesia follows long-term D2 blockade, which is thought to hypersensitize D2 receptors and over-inhibit the indirect pathway."
+  },
+  {
+    "q_num": 79,
+    "category": "Basal Ganglia",
+    "stem": "Deep brain stimulation of the subthalamic nucleus relieves Parkinson symptoms by doing which of the following?",
+    "options": {
+      "A": "Reducing STN excitation of GPi",
+      "B": "Increasing dopamine release",
+      "C": "Stimulating the substantia nigra",
+      "D": "Blocking D1 receptors",
+      "E": "Increasing GPi output"
+    },
+    "correct_answer": "A",
+    "explanation": "Deep brain stimulation of the STN inhibits it, reducing its excitation of GPi. Pallidotomy removes GPi directly."
+  },
+  {
+    "q_num": 80,
+    "category": "Basal Ganglia",
+    "stem": "Which nonmotor feature may precede the motor symptoms of Parkinson disease?",
+    "options": {
+      "A": "Early dementia with hallucinations preceding any movement symptoms",
+      "B": "Cerebellar ataxia",
+      "C": "Sensorineural hearing loss",
+      "D": "Reduced sense of smell",
+      "E": "Diplopia"
+    },
+    "correct_answer": "D",
+    "explanation": "Olfactory loss (and constipation, REM sleep behavior disorder, depression) can precede motor symptoms. Early dementia suggests Lewy body dementia."
+  },
+  {
+    "q_num": 81,
+    "category": "Basal Ganglia",
+    "stem": "A 68-year-old man has neck and trunk rigidity, frequent backward falls, loss of voluntary vertical gaze, and a poor response to levodopa. What is the most likely diagnosis?",
+    "options": {
+      "A": "Huntington disease",
+      "B": "Progressive supranuclear palsy",
+      "C": "ALS",
+      "D": "Narcolepsy",
+      "E": "Essential tremor"
+    },
+    "correct_answer": "B",
+    "explanation": "Progressive supranuclear palsy causes axial rigidity, falls and vertical gaze palsy, with a poor levodopa response. It mimics Parkinson disease."
+  },
+  {
+    "q_num": 82,
+    "category": "Basal Ganglia",
+    "stem": "Levodopa should be used with caution in which patient?",
+    "options": {
+      "A": "A patient with hypothyroidism",
+      "B": "A patient with iron deficiency",
+      "C": "A patient with asthma",
+      "D": "A patient with gout",
+      "E": "A patient with glaucoma"
+    },
+    "correct_answer": "E",
+    "explanation": "Levodopa can exacerbate glaucoma, in addition to causing dyskinesias, orthostatic hypotension, hallucinations and nausea."
+  },
+  {
+    "q_num": 83,
+    "category": "Basal Ganglia",
+    "stem": "A Parkinson patient is started on a COMT inhibitor, and liver tests must be monitored because of a risk of liver failure. Which drug is this?",
+    "options": {
+      "A": "Entacapone",
+      "B": "Pramipexole",
+      "C": "Tolcapone",
+      "D": "Rasagiline",
+      "E": "Amantadine"
+    },
+    "correct_answer": "C",
+    "explanation": "Tolcapone carries a risk of hepatic failure. COMT inhibitors can cause orange-brown urine."
+  },
+  {
+    "q_num": 84,
+    "category": "Basal Ganglia",
+    "stem": "Which ergot-derived dopamine agonist is rarely used because of the risk of cardiac valvular fibrosis?",
+    "options": {
+      "A": "Bromocriptine",
+      "B": "Pramipexole",
+      "C": "Ropinirole",
+      "D": "Selegiline",
+      "E": "Benztropine"
+    },
+    "correct_answer": "A",
+    "explanation": "Bromocriptine is an ergot derivative that can cause cardiac valvular fibrosis. Pramipexole and ropinirole are non-ergot agonists."
+  },
+  {
+    "q_num": 85,
+    "category": "Basal Ganglia",
+    "stem": "A man on rasagiline eats aged cheese and red wine and develops a severe headache with blood pressure of 210/120 mm Hg. What is the mechanism?",
+    "options": {
+      "A": "Serotonin syndrome",
+      "B": "Excess GABA",
+      "C": "Dopamine receptor blockade",
+      "D": "Tyramine acting as a sympathomimetic that releases norepinephrine",
+      "E": "Cholinergic crisis"
+    },
+    "correct_answer": "D",
+    "explanation": "MAO inhibitors block tyramine breakdown, so tyramine from aged cheese and wine releases norepinephrine and causes hypertensive crisis."
+  },
+  {
+    "q_num": 86,
+    "category": "Basal Ganglia",
+    "stem": "A Parkinson patient has livedo reticularis and peripheral edema. Which drug is the most likely cause?",
+    "options": {
+      "A": "Selegiline",
+      "B": "Amantadine",
+      "C": "Entacapone",
+      "D": "Benztropine",
+      "E": "Carbidopa"
+    },
+    "correct_answer": "B",
+    "explanation": "Amantadine causes livedo reticularis and peripheral edema."
+  },
+  {
+    "q_num": 87,
+    "category": "Basal Ganglia",
+    "stem": "Which statement about benztropine in Parkinson disease is correct?",
+    "options": {
+      "A": "It improves bradykinesia",
+      "B": "It reduces dyskinesias",
+      "C": "It increases dopamine synthesis",
+      "D": "It inhibits MAO-B",
+      "E": "It helps tremor but does not improve bradykinesia"
+    },
+    "correct_answer": "E",
+    "explanation": "Anticholinergics (benztropine, trihexyphenidyl) treat tremor but not bradykinesia or dyskinesias."
+  },
+  {
+    "q_num": 88,
+    "category": "Basal Ganglia",
+    "stem": "Which cellular mechanism is common to Parkinson, Huntington and ALS?",
+    "options": {
+      "A": "Excess dopamine release",
+      "B": "Mitochondrial calcium deficiency",
+      "C": "Misfolded protein aggregation with impaired ubiquitin-proteasome turnover",
+      "D": "Autoimmune demyelination",
+      "E": "Viral infection of neurons"
+    },
+    "correct_answer": "C",
+    "explanation": "Misfolded proteins accumulate and are not cleared by the ubiquitin-proteasome system, causing neuron death in neurodegenerative diseases."
+  },
+  {
+    "q_num": 89,
+    "category": "CBIL: Sleep",
+    "stem": "Which hypothalamic nucleus promotes sleep by releasing GABA onto the reticular activating system?",
+    "options": {
+      "A": "Ventrolateral preoptic nucleus",
+      "B": "Lateral hypothalamic nucleus",
+      "C": "Suprachiasmatic nucleus",
+      "D": "Arcuate nucleus",
+      "E": "Mammillary bodies"
+    },
+    "correct_answer": "A",
+    "explanation": "The VLPO releases GABA to inhibit the reticular activating system and promote sleep."
+  },
+  {
+    "q_num": 90,
+    "category": "CBIL: Sleep",
+    "stem": "Which neurons promote wakefulness by inhibiting the VLPO?",
+    "options": {
+      "A": "Suprachiasmatic neurons",
+      "B": "Pineal cells",
+      "C": "Cerebellar Purkinje cells",
+      "D": "Hippocampal pyramidal cells",
+      "E": "Orexin neurons of the lateral hypothalamus"
+    },
+    "correct_answer": "E",
+    "explanation": "Orexin (hypocretin) neurons in the lateral hypothalamus promote wakefulness by inhibiting the VLPO."
+  },
+  {
+    "q_num": 91,
+    "category": "CBIL: Sleep",
+    "stem": "Which sleep stage has the lowest heart rate, blood pressure and respiratory rate, and delta waves on EEG?",
+    "options": {
+      "A": "Stage N1",
+      "B": "Stage N3",
+      "C": "Stage N2",
+      "D": "REM",
+      "E": "Awake"
+    },
+    "correct_answer": "B",
+    "explanation": "Stage N3 shows delta waves, the lowest heart rate, blood pressure and respiration, and is the most restorative."
+  },
+  {
+    "q_num": 92,
+    "category": "CBIL: Sleep",
+    "stem": "Which stage features muscle atonia, increased oxygen use and a wake-like EEG?",
+    "options": {
+      "A": "Awake",
+      "B": "Stage N1",
+      "C": "Stage N2",
+      "D": "REM",
+      "E": "Stage N3"
+    },
+    "correct_answer": "D",
+    "explanation": "REM has atonia, dreaming, increased oxygen use, decreased homeostatic regulation and a wake-like EEG."
+  },
+  {
+    "q_num": 93,
+    "category": "CBIL: Sleep",
+    "stem": "A 54-year-old woman has an uncomfortable sensation in her legs when she lies down that is relieved by walking. Which evaluation is most appropriate?",
+    "options": {
+      "A": "Polysomnography for narcolepsy",
+      "B": "MRI of the brain",
+      "C": "Check ferritin for iron deficiency",
+      "D": "EEG",
+      "E": "Lumbar puncture"
+    },
+    "correct_answer": "C",
+    "explanation": "This is restless legs syndrome. Iron deficiency, neuropathy and kidney disease are associated, so check ferritin. Dopamine agonists, gabapentin and pregabalin treat it."
+  },
+  {
+    "q_num": 94,
+    "category": "CBIL: Sleep",
+    "stem": "What is the mechanism of zolpidem?",
+    "options": {
+      "A": "Binds GABA-A at the benzodiazepine site and facilitates chloride channel opening",
+      "B": "Melatonin receptor agonist",
+      "C": "Orexin receptor antagonist",
+      "D": "Dopamine agonist",
+      "E": "Alpha-2 agonist"
+    },
+    "correct_answer": "A",
+    "explanation": "Zolpidem and zaleplon bind GABA-A at the benzodiazepine site and facilitate chloride channel opening. Ramelteon is a melatonin agonist and suvorexant an orexin antagonist."
+  },
+  {
+    "q_num": 95,
+    "category": "CBIL: ALS",
+    "stem": "Autopsy of a patient with a progressive motor disorder shows PAS-positive eosinophilic inclusions in surviving lower motor neurons. What are they called?",
+    "options": {
+      "A": "Lewy bodies",
+      "B": "Bunina bodies",
+      "C": "Negri bodies",
+      "D": "Pick bodies",
+      "E": "Neurofibrillary tangles"
+    },
+    "correct_answer": "B",
+    "explanation": "Bunina bodies are PAS-positive eosinophilic inclusions in surviving LMNs and are an objective pathologic finding in ALS. TDP-43 also accumulates."
+  },
+  {
+    "q_num": 96,
+    "category": "CBIL: ALS",
+    "stem": "A patient with ALS has inappropriate laughing and crying. Which treatment is most appropriate?",
+    "options": {
+      "A": "Riluzole",
+      "B": "Baclofen",
+      "C": "Haloperidol",
+      "D": "Dextromethorphan-quinidine",
+      "E": "Levodopa"
+    },
+    "correct_answer": "D",
+    "explanation": "Pseudobulbar affect in ALS is managed with dextromethorphan-quinidine."
+  },
+  {
+    "q_num": 97,
+    "category": "CBIL: ALS",
+    "stem": "Which statement about ALS is correct?",
+    "options": {
+      "A": "About two-thirds of patients present with limb onset, and bulbar onset carries a worse prognosis",
+      "B": "Most cases are familial",
+      "C": "Sensory loss is an early feature",
+      "D": "Bladder dysfunction is common",
+      "E": "Extraocular muscles are the first to fail"
+    },
+    "correct_answer": "A",
+    "explanation": "About two-thirds of ALS cases begin with limb symptoms and one-third with bulbar symptoms, which have a worse prognosis. About 90% of cases are sporadic."
+  },
+  {
+    "q_num": 98,
+    "category": "CBIL: ALS",
+    "stem": "Which combination supports a diagnosis of ALS?",
+    "options": {
+      "A": "Pure LMN signs only",
+      "B": "Pure UMN signs only",
+      "C": "Progressive UMN and LMN signs in different regions without sensory loss",
+      "D": "Sensory loss with LMN signs",
+      "E": "Cerebellar signs"
+    },
+    "correct_answer": "C",
+    "explanation": "ALS combines UMN and LMN signs in different regions, progressing over time, with no sensory loss. EMG can support the diagnosis."
+  },
+  {
+    "q_num": 99,
+    "category": "CBIL: ALS",
+    "stem": "What is the rationale for edaravone in ALS?",
+    "options": {
+      "A": "NMDA receptor antagonism",
+      "B": "GABA-B agonism",
+      "C": "Alpha-2 agonism",
+      "D": "Blocking calcium release from the sarcoplasmic reticulum",
+      "E": "Scavenging free radicals, which counters oxidative damage linked to SOD1 mutations"
+    },
+    "correct_answer": "E",
+    "explanation": "Edaravone is a free radical scavenger, relevant because SOD1 mutations impair handling of oxygen radicals. Riluzole is the NMDA antagonist."
+  },
+  {
+    "q_num": 100,
+    "category": "CBIL: ALS",
+    "stem": "A patient has severe upper extremity spasticity that does not respond to oral agents. Which local therapy is appropriate, and how does it work?",
+    "options": {
+      "A": "Intrathecal baclofen, a GABA-B agonist",
+      "B": "Dantrolene, which blocks calcium release",
+      "C": "Oral tizanidine, an alpha-2 agonist",
+      "D": "Botulinum toxin, which cleaves SNARE proteins and prevents vesicle release",
+      "E": "Cyclobenzaprine, a reuptake inhibitor"
+    },
+    "correct_answer": "D",
+    "explanation": "Botulinum toxin interferes with SNARE proteins and prevents presynaptic vesicle release. It is used for severe upper extremity spasticity, while intrathecal baclofen is typically needed for severe lower extremity spasticity."
+  }
+]

@@ -309,6 +309,64 @@ exam2_deep_categories = [
     'Amyotrophic Lateral Sclerosis (ALS)'
 ]
 
+# Load Exam 2 Set 2 (9 Units: 100 Questions)
+local_set2_e2_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'exam2_set2_questions.json')
+external_set2_e2_path = '/Users/markyoussef_1/.gemini/antigravity-ide/scratch/usmle_exam2/exam2_set2_questions.json'
+set2_e2_path = local_set2_e2_path if os.path.exists(local_set2_e2_path) else external_set2_e2_path
+
+with open(set2_e2_path, 'r', encoding='utf-8') as f:
+    raw_exam2_set2 = json.load(f)
+
+exam2_set2_questions = []
+for q in raw_exam2_set2:
+    opts = []
+    correct_idx = 0
+    if isinstance(q['options'], dict):
+        for idx, (letter, text) in enumerate(sorted(q['options'].items())):
+            is_cor = (letter == q['correct_answer'])
+            if is_cor:
+                correct_idx = idx
+            opts.append({
+                'letter': letter,
+                'is_correct': is_cor,
+                'text': text
+            })
+    else:
+        for idx, opt in enumerate(q['options']):
+            is_cor = (opt.get('letter', opt.get('id')) == q['correct_answer'])
+            if is_cor:
+                correct_idx = idx
+            opts.append({
+                'letter': opt.get('letter', opt.get('id')),
+                'is_correct': is_cor,
+                'text': opt['text']
+            })
+    exam2_set2_questions.append({
+        'id': q['id'],
+        'q_num': str(q['q_num']),
+        'stem': q['stem'],
+        'category': q['category'],
+        'source': q.get('source', 'USMLE Step 1 Set 2 Bank'),
+        'options': opts,
+        'correct_idx': correct_idx,
+        'explanation': q['explanation'],
+        'high_yield_pearl': q.get('high_yield_pearl', ''),
+        'image': q.get('image', None)
+    })
+
+exam2_set2_categories = [
+    'Visual System',
+    'Visual Reflexes',
+    'Ophthalmology',
+    'Auditory & Vestibular System',
+    'UMN / LMN',
+    'Hypothalamus, Smell & Taste',
+    'Basal Ganglia',
+    'Sleep & Sleep Disorders',
+    'Amyotrophic Lateral Sclerosis (ALS)'
+]
+
+
 
 
 exam2_categories = [
@@ -384,6 +442,8 @@ exam2_inhouse2_categories_json_str = json.dumps(exam2_inhouse2_categories, ensur
 exam2_replicate_categories_json_str = json.dumps(exam2_replicate_categories, ensure_ascii=False)
 exam2_deep_json_data_str = json.dumps(exam2_deep_questions, ensure_ascii=False)
 exam2_deep_categories_json_str = json.dumps(exam2_deep_categories, ensure_ascii=False)
+exam2_set2_json_data_str = json.dumps(exam2_set2_questions, ensure_ascii=False)
+exam2_set2_categories_json_str = json.dumps(exam2_set2_categories, ensure_ascii=False)
 
 
 html_template = """<!DOCTYPE html>
@@ -1870,6 +1930,8 @@ html_template = """<!DOCTYPE html>
     const exam2ReplicateCategories = """ + exam2_replicate_categories_json_str + """;
     const rawExam2DeepQuestions = """ + exam2_deep_json_data_str + """;
     const exam2DeepCategories = """ + exam2_deep_categories_json_str + """;
+    const rawExam2Set2Questions = """ + exam2_set2_json_data_str + """;
+    const exam2Set2Categories = """ + exam2_set2_categories_json_str + """;
 
 
     // ACTIVE TRACK: 'focused_zen' (320 Qs from Study Guide), 'exam' (125 Qs), or 'zen' (320 Qs)
@@ -1974,6 +2036,13 @@ html_template = """<!DOCTYPE html>
           type: 'inhouse'
         },
         {
+          id: 'exam2_set2',
+          label: 'Set 2 (100 Qs)',
+          icon: '📑',
+          badge: 'Randomized 9 Units',
+          type: 'inhouse'
+        },
+        {
           id: 'exam2_zen',
           label: 'Zen Mode (315 Qs)',
           icon: '🧘',
@@ -1998,10 +2067,11 @@ html_template = """<!DOCTYPE html>
     };
 
     function isExam2Track(track) {
-      return track === 'exam2' || track === 'exam2_inhouse' || track === 'exam2_inhouse2' || track === 'exam2_replicate' || track === 'exam2_deep' || track === 'exam2_sim' || track === 'exam2_zen' || track === 'exam2_pdf_practice';
+      return track === 'exam2' || track === 'exam2_inhouse' || track === 'exam2_inhouse2' || track === 'exam2_replicate' || track === 'exam2_deep' || track === 'exam2_set2' || track === 'exam2_sim' || track === 'exam2_zen' || track === 'exam2_pdf_practice';
     }
 
     function getCategoriesForTrack() {
+      if (currentTrack === 'exam2_set2') return exam2Set2Categories;
       if (currentTrack === 'exam2_deep') return exam2DeepCategories;
       if (currentTrack === 'exam2_replicate') return exam2ReplicateCategories;
       if (currentTrack === 'exam2_inhouse2') return exam2InHouse2Categories;
@@ -2109,7 +2179,16 @@ html_template = """<!DOCTYPE html>
 
       timerDisplay.classList.remove('zen', 'focused-zen', 'inhouse', 'exam2');
 
-      if (currentTrack === 'exam2_deep') {
+      if (currentTrack === 'exam2_set2') {
+        zenTray.style.display = 'flex';
+        trayIcon.textContent = '📑';
+        trayLabelText.textContent = 'Set 2 Units:';
+        trackTag.style.display = 'inline-block';
+        trackTag.className = 'q-track-tag inhouse';
+        trackTag.textContent = '📑 Exam 2 Set 2';
+        timerDisplay.classList.add('inhouse');
+        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg> Set 2 Units (9)`;
+      } else if (currentTrack === 'exam2_deep') {
         zenTray.style.display = 'flex';
         trayIcon.textContent = '🔬';
         trayLabelText.textContent = 'Deep Units:';
@@ -2209,7 +2288,7 @@ html_template = """<!DOCTYPE html>
       filterIncorrectOnly = false;
 
       loadTrackState();
-      if (currentTrack === 'exam2_deep' || currentTrack === 'exam2_replicate' || currentTrack === 'exam2_inhouse2' || currentTrack === 'exam2_inhouse' || currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'exam2_pdf_practice' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
+      if (currentTrack === 'exam2_set2' || currentTrack === 'exam2_deep' || currentTrack === 'exam2_replicate' || currentTrack === 'exam2_inhouse2' || currentTrack === 'exam2_inhouse' || currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'exam2_pdf_practice' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
         renderZenTray();
       }
       applyFilter();
@@ -2217,7 +2296,9 @@ html_template = """<!DOCTYPE html>
       updateOverallStats();
       renderCurrentQuestion();
 
-      const toastMsg = currentTrack === 'exam2_deep'
+      const toastMsg = currentTrack === 'exam2_set2'
+        ? 'Exam 2: Loaded 📑 Set 2 Step 1 Bank (100 Qs - Randomized)'
+        : currentTrack === 'exam2_deep'
         ? 'Exam 2: Loaded 🔬 Deep Step 1 Bank (150 Qs - Randomized)'
         : currentTrack === 'exam2_replicate'
         ? 'Exam 2: Loaded 🔄 Replicate Step 1 Bank (100 Qs - Randomized)'
@@ -2246,7 +2327,10 @@ html_template = """<!DOCTYPE html>
       let storagePrefix = 'usmle_exam1_';
       let rawData = rawExamQuestions;
 
-      if (currentTrack === 'exam2_deep') {
+      if (currentTrack === 'exam2_set2') {
+        storagePrefix = 'usmle_exam2_set2_';
+        rawData = rawExam2Set2Questions;
+      } else if (currentTrack === 'exam2_deep') {
         storagePrefix = 'usmle_exam2_deep_';
         rawData = rawExam2DeepQuestions;
       } else if (currentTrack === 'exam2_replicate') {
@@ -2402,7 +2486,8 @@ html_template = """<!DOCTYPE html>
 
     function saveState() {
       let storagePrefix = 'usmle_exam1_';
-      if (currentTrack === 'exam2_deep') storagePrefix = 'usmle_exam2_deep_';
+      if (currentTrack === 'exam2_set2') storagePrefix = 'usmle_exam2_set2_';
+      else if (currentTrack === 'exam2_deep') storagePrefix = 'usmle_exam2_deep_';
       else if (currentTrack === 'exam2_replicate') storagePrefix = 'usmle_exam2_replicate_';
       else if (currentTrack === 'exam2_inhouse2') storagePrefix = 'usmle_exam2_inhouse2_';
       else if (currentTrack === 'exam2_inhouse') storagePrefix = 'usmle_exam2_inhouse_';
@@ -2777,7 +2862,7 @@ html_template = """<!DOCTYPE html>
 
       // Submit Button visibility
       const submitBtn = document.getElementById('submitChoiceBtn');
-      if (isAnswered || currentTrack === 'exam2_deep' || currentTrack === 'exam2_replicate' || currentTrack === 'exam2_inhouse2' || currentTrack === 'exam2_inhouse' || currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
+      if (isAnswered || currentTrack === 'exam2_set2' || currentTrack === 'exam2_deep' || currentTrack === 'exam2_replicate' || currentTrack === 'exam2_inhouse2' || currentTrack === 'exam2_inhouse' || currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
         submitBtn.style.display = 'none';
       } else {
         submitBtn.style.display = 'inline-flex';
@@ -2844,7 +2929,7 @@ html_template = """<!DOCTYPE html>
       state.selectedChoiceIndex = optIdx;
 
       // In In-House and Zen modes, instant submit and feedback on click!
-      if (currentTrack === 'exam2_deep' || currentTrack === 'exam2_replicate' || currentTrack === 'exam2_inhouse2' || currentTrack === 'exam2_inhouse' || currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'exam2_pdf_practice' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
+      if (currentTrack === 'exam2_set2' || currentTrack === 'exam2_deep' || currentTrack === 'exam2_replicate' || currentTrack === 'exam2_inhouse2' || currentTrack === 'exam2_inhouse' || currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'exam2_pdf_practice' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
         submitAnswer();
       } else {
         renderCurrentQuestion();
@@ -2877,7 +2962,7 @@ html_template = """<!DOCTYPE html>
       renderCurrentQuestion();
       renderSidebarCategories();
       updateOverallStats();
-      if (currentTrack === 'exam2_deep' || currentTrack === 'exam2_replicate' || currentTrack === 'exam2_inhouse2' || currentTrack === 'exam2_inhouse' || currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'exam2_pdf_practice' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
+      if (currentTrack === 'exam2_set2' || currentTrack === 'exam2_deep' || currentTrack === 'exam2_replicate' || currentTrack === 'exam2_inhouse2' || currentTrack === 'exam2_inhouse' || currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'exam2_pdf_practice' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
         renderZenTray();
       }
       saveState();
@@ -3103,7 +3188,9 @@ html_template = """<!DOCTYPE html>
       document.getElementById('reportIncorrectCount').textContent = totalIncorrect.toString();
 
       const reportTitle = isExam2Track(currentTrack)
-        ? (currentTrack === 'exam2_deep'
+        ? (currentTrack === 'exam2_set2'
+            ? '📑 Exam 2 Set 2 (100 Qs) Score Report'
+            : currentTrack === 'exam2_deep'
             ? '🔬 Exam 2 Deep (150 Qs) Score Report'
             : currentTrack === 'exam2_replicate'
             ? '🔄 Exam 2 Replicate (100 Qs) Score Report'
@@ -3225,7 +3312,10 @@ For each question:
     function resetCurrentTrack() {
       let trackName = 'Exam 1 (125 questions)';
       let storagePrefix = 'usmle_exam1_';
-      if (currentTrack === 'exam2_deep') {
+      if (currentTrack === 'exam2_set2') {
+        trackName = '📑 Exam 2 Set 2 (100 questions)';
+        storagePrefix = 'usmle_exam2_set2_';
+      } else if (currentTrack === 'exam2_deep') {
         trackName = '🔬 Exam 2 Deep (150 questions)';
         storagePrefix = 'usmle_exam2_deep_';
       } else if (currentTrack === 'exam2_replicate') {
@@ -3325,7 +3415,7 @@ For each question:
       if (currentIndex > 0) {
         setTimeout(() => {
           const trackLabel = isExam2Track(currentTrack)
-            ? (currentTrack === 'exam2_deep' ? 'Exam 2 Deep' : currentTrack === 'exam2_replicate' ? 'Exam 2 Replicate' : currentTrack === 'exam2_inhouse2' ? 'Exam 2 In-House 2' : currentTrack === 'exam2_inhouse' ? 'Exam 2 In-House' : currentTrack === 'exam2_sim' ? 'Exam 2 Sim' : 'Exam 2 Zen')
+            ? (currentTrack === 'exam2_set2' ? 'Exam 2 Set 2' : currentTrack === 'exam2_deep' ? 'Exam 2 Deep' : currentTrack === 'exam2_replicate' ? 'Exam 2 Replicate' : currentTrack === 'exam2_inhouse2' ? 'Exam 2 In-House 2' : currentTrack === 'exam2_inhouse' ? 'Exam 2 In-House' : currentTrack === 'exam2_sim' ? 'Exam 2 Sim' : 'Exam 2 Zen')
             : currentTrack === 'focused_zen'
             ? 'Focused Zen'
             : currentTrack === 'zen'
