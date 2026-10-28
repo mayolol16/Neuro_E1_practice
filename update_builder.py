@@ -309,7 +309,7 @@ exam2_deep_categories = [
     'Amyotrophic Lateral Sclerosis (ALS)'
 ]
 
-# Load Exam 2 Set 2 (9 Units: 100 Questions)
+# Load Exam 2 Set 2 (9 Units: 250 Questions)
 local_set2_e2_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'exam2_set2_questions.json')
 external_set2_e2_path = '/Users/markyoussef_1/.gemini/antigravity-ide/scratch/usmle_exam2/exam2_set2_questions.json'
 set2_e2_path = local_set2_e2_path if os.path.exists(local_set2_e2_path) else external_set2_e2_path
@@ -2037,7 +2037,7 @@ html_template = """<!DOCTYPE html>
         },
         {
           id: 'exam2_set2',
-          label: 'Set 2 (100 Qs)',
+          label: 'Set 2 (250 Qs)',
           icon: '📑',
           badge: 'Randomized 9 Units',
           type: 'inhouse'
@@ -2297,7 +2297,7 @@ html_template = """<!DOCTYPE html>
       renderCurrentQuestion();
 
       const toastMsg = currentTrack === 'exam2_set2'
-        ? 'Exam 2: Loaded 📑 Set 2 Step 1 Bank (100 Qs - Randomized)'
+        ? 'Exam 2: Loaded 📑 Set 2 Step 1 Bank (250 Qs - Randomized)'
         : currentTrack === 'exam2_deep'
         ? 'Exam 2: Loaded 🔬 Deep Step 1 Bank (150 Qs - Randomized)'
         : currentTrack === 'exam2_replicate'
@@ -3189,7 +3189,7 @@ html_template = """<!DOCTYPE html>
 
       const reportTitle = isExam2Track(currentTrack)
         ? (currentTrack === 'exam2_set2'
-            ? '📑 Exam 2 Set 2 (100 Qs) Score Report'
+            ? '📑 Exam 2 Set 2 (250 Qs) Score Report'
             : currentTrack === 'exam2_deep'
             ? '🔬 Exam 2 Deep (150 Qs) Score Report'
             : currentTrack === 'exam2_replicate'
@@ -3313,7 +3313,7 @@ For each question:
       let trackName = 'Exam 1 (125 questions)';
       let storagePrefix = 'usmle_exam1_';
       if (currentTrack === 'exam2_set2') {
-        trackName = '📑 Exam 2 Set 2 (100 questions)';
+        trackName = '📑 Exam 2 Set 2 (250 questions)';
         storagePrefix = 'usmle_exam2_set2_';
       } else if (currentTrack === 'exam2_deep') {
         trackName = '🔬 Exam 2 Deep (150 questions)';
