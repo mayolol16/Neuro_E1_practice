@@ -1647,9 +1647,678 @@ html_template = """<!DOCTYPE html>
         box-shadow: var(--shadow-lg);
       }
     }
+
+    /* ========================================================= */
+    /* SAFE VAULT & AUTHENTICATION SCREENS                       */
+    /* ========================================================= */
+    .safe-vault-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 999999;
+      background: radial-gradient(ellipse at center, #1e2430 0%, #101319 55%, #05070a 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .safe-vault-overlay.unlocked {
+      opacity: 0;
+      pointer-events: none;
+      transform: scale(1.08);
+    }
+
+    /* Vault Background Environment */
+    .vault-bg-grid {
+      position: absolute;
+      inset: 0;
+      background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+      background-size: 40px 40px;
+      pointer-events: none;
+    }
+
+    .vault-door-container {
+      position: relative;
+      width: min(92vw, 540px);
+      background: linear-gradient(145deg, #2a313d, #181d24);
+      border-radius: 28px;
+      padding: 32px 28px;
+      box-shadow: 
+        0 30px 80px rgba(0, 0, 0, 0.85),
+        inset 0 2px 4px rgba(255, 255, 255, 0.15),
+        inset 0 -3px 8px rgba(0, 0, 0, 0.6),
+        0 0 0 8px #13171e,
+        0 0 0 12px #2f3744;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      z-index: 2;
+    }
+
+    /* Vault Rivets */
+    .vault-rivets {
+      position: absolute;
+      inset: 10px;
+      border: 2px dashed rgba(255, 255, 255, 0.08);
+      border-radius: 20px;
+      pointer-events: none;
+    }
+
+    /* Vault Combination Wheel */
+    .vault-wheel-wrap {
+      width: 120px;
+      height: 120px;
+      position: relative;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .vault-wheel {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 35% 35%, #5a6578, #2a303c 70%, #1a1e26);
+      box-shadow: 
+        0 8px 24px rgba(0, 0, 0, 0.7),
+        inset 0 2px 4px rgba(255, 255, 255, 0.3),
+        inset 0 -3px 6px rgba(0, 0, 0, 0.8);
+      border: 3px solid #717d91;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 1.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+      position: relative;
+    }
+
+    .vault-wheel-spoke {
+      position: absolute;
+      background: linear-gradient(to right, #414a58, #94a3b8, #414a58);
+      border-radius: 4px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    }
+    .spoke-h { width: 130px; height: 10px; }
+    .spoke-v { width: 10px; height: 130px; }
+
+    .vault-wheel-hub {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 35% 35%, #cbd5e1, #64748b 80%, #334155);
+      border: 2px solid #94a3b8;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+      z-index: 3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #0f172a;
+      font-size: 18px;
+    }
+
+    .vault-wheel.spinning {
+      transform: rotate(720deg);
+    }
+
+    /* Terminal HUD Card */
+    .vault-terminal {
+      width: 100%;
+      background: rgba(15, 20, 27, 0.85);
+      border: 1px solid rgba(56, 189, 248, 0.25);
+      border-radius: 18px;
+      padding: 22px 24px;
+      box-shadow: inset 0 0 20px rgba(56, 189, 248, 0.05);
+      text-align: center;
+    }
+
+    .terminal-status-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
+    .terminal-led {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #06b6d4;
+      box-shadow: 0 0 10px #06b6d4, 0 0 20px #06b6d4;
+      animation: pulseLed 2s infinite ease-in-out;
+    }
+
+    @keyframes pulseLed {
+      0%, 100% { opacity: 0.5; transform: scale(0.9); }
+      50% { opacity: 1; transform: scale(1.15); }
+    }
+
+    .terminal-led.error {
+      background: #ef4444;
+      box-shadow: 0 0 10px #ef4444;
+    }
+
+    .terminal-led.success {
+      background: #10b981;
+      box-shadow: 0 0 10px #10b981;
+    }
+
+    .terminal-title {
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: #e2e8f0;
+      text-transform: uppercase;
+    }
+
+    .terminal-subtitle {
+      font-size: 12px;
+      color: #94a3b8;
+      margin-bottom: 18px;
+    }
+
+    .vault-input-group {
+      margin-bottom: 14px;
+      text-align: left;
+    }
+
+    .vault-input-group label {
+      display: block;
+      font-size: 11px;
+      font-weight: 600;
+      color: #64748b;
+      letter-spacing: 1px;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+    }
+
+    .vault-input {
+      width: 100%;
+      background: #090d14;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 10px;
+      padding: 12px 14px;
+      color: #f8fafc;
+      font-size: 14px;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      box-sizing: border-box;
+    }
+
+    .vault-input:focus {
+      border-color: #38bdf8;
+      box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.25);
+    }
+
+    .vault-msg {
+      font-size: 12px;
+      padding: 8px 12px;
+      border-radius: 8px;
+      margin-bottom: 14px;
+      display: none;
+      line-height: 1.4;
+    }
+
+    .vault-msg.error {
+      display: block;
+      background: rgba(239, 68, 68, 0.15);
+      border: 1px solid rgba(239, 68, 68, 0.4);
+      color: #fca5a5;
+    }
+
+    .vault-msg.success {
+      display: block;
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid rgba(16, 185, 129, 0.4);
+      color: #6ee7b7;
+    }
+
+    .vault-unlock-btn {
+      width: 100%;
+      background: linear-gradient(135deg, #0284c7, #0369a1);
+      color: #ffffff;
+      border: none;
+      border-radius: 10px;
+      padding: 14px;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: all 0.2s;
+      box-shadow: 0 4px 14px rgba(2, 132, 199, 0.35);
+    }
+
+    .vault-unlock-btn:hover {
+      background: linear-gradient(135deg, #0369a1, #0284c7);
+      transform: translateY(-1px);
+      box-shadow: 0 6px 18px rgba(2, 132, 199, 0.45);
+    }
+
+    .vault-unlock-btn:active {
+      transform: translateY(0);
+    }
+
+    /* ========================================================= */
+    /* CLOWN TROLL TAKEOVER SCREEN                               */
+    /* ========================================================= */
+    .clown-takeover-screen {
+      position: fixed;
+      inset: 0;
+      z-index: 1000000;
+      background: repeating-linear-gradient(45deg, #b91c1c, #b91c1c 40px, #f59e0b 40px, #f59e0b 80px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      box-sizing: border-box;
+      animation: circusShift 8s infinite linear;
+    }
+
+    @keyframes circusShift {
+      0% { background-position: 0 0; }
+      100% { background-position: 160px 160px; }
+    }
+
+    .clown-card {
+      background: rgba(15, 23, 42, 0.95);
+      border: 4px solid #facc15;
+      border-radius: 28px;
+      max-width: 520px;
+      width: 100%;
+      padding: 36px 28px;
+      text-align: center;
+      box-shadow: 0 30px 70px rgba(0,0,0,0.85), 0 0 50px rgba(234, 179, 8, 0.5);
+      position: relative;
+      animation: clownWiggle 1.5s infinite ease-in-out;
+    }
+
+    @keyframes clownWiggle {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      25% { transform: translateY(-8px) rotate(-2deg); }
+      75% { transform: translateY(8px) rotate(2deg); }
+    }
+
+    .clown-avatar {
+      font-size: 82px;
+      line-height: 1;
+      margin-bottom: 14px;
+      display: inline-block;
+      animation: spinBounce 2s infinite ease-in-out;
+    }
+
+    @keyframes spinBounce {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.25) rotate(15deg); }
+    }
+
+    .clown-title {
+      font-size: 26px;
+      font-weight: 900;
+      color: #facc15;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 8px;
+      text-shadow: 0 2px 10px rgba(250, 204, 21, 0.5);
+    }
+
+    .clown-badge {
+      display: inline-block;
+      background: #ef4444;
+      color: #fff;
+      font-weight: 700;
+      font-size: 13px;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 18px;
+      letter-spacing: 1px;
+    }
+
+    .clown-desc {
+      color: #e2e8f0;
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+
+    .clown-btn {
+      background: linear-gradient(135deg, #eab308, #ca8a04);
+      color: #0f172a;
+      border: none;
+      border-radius: 12px;
+      padding: 14px 28px;
+      font-size: 15px;
+      font-weight: 800;
+      cursor: pointer;
+      box-shadow: 0 6px 20px rgba(234, 179, 8, 0.4);
+      transition: transform 0.2s;
+    }
+
+    .clown-btn:hover {
+      transform: scale(1.05);
+    }
+
+    /* ========================================================= */
+    /* JACOB DEBT SETTLEMENT SCREEN                              */
+    /* ========================================================= */
+    .jacob-debt-screen {
+      position: fixed;
+      inset: 0;
+      z-index: 1000000;
+      background: radial-gradient(circle at center, #062b19 0%, #03140c 70%, #010805 100%);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .debt-contract-card {
+      background: #0b1a13;
+      border: 3px double #10b981;
+      border-radius: 24px;
+      max-width: 520px;
+      width: 100%;
+      padding: 36px 30px;
+      text-align: center;
+      box-shadow: 0 30px 80px rgba(0,0,0,0.9), 0 0 60px rgba(16, 185, 129, 0.25);
+      position: relative;
+    }
+
+    .debt-seal {
+      width: 68px;
+      height: 68px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 35% 35%, #34d399, #059669);
+      border: 2px solid #a7f3d0;
+      margin: 0 auto 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      box-shadow: 0 6px 18px rgba(16, 185, 129, 0.4);
+    }
+
+    .debt-title {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      color: #6ee7b7;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .debt-balance-highlight {
+      font-size: 36px;
+      font-weight: 900;
+      color: #facc15;
+      margin: 12px 0 16px;
+      text-shadow: 0 2px 14px rgba(250, 204, 21, 0.4);
+    }
+
+    .debt-terms-box {
+      background: rgba(6, 78, 59, 0.35);
+      border: 1px solid rgba(52, 211, 153, 0.25);
+      border-radius: 12px;
+      padding: 16px;
+      font-size: 13px;
+      color: #d1fae5;
+      text-align: left;
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+
+    .debt-actions {
+      display: flex;
+      gap: 12px;
+    }
+
+    .debt-btn-accept {
+      flex: 1;
+      background: linear-gradient(135deg, #10b981, #059669);
+      color: #ffffff;
+      border: none;
+      border-radius: 12px;
+      padding: 14px 16px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 6px 20px rgba(16, 185, 129, 0.35);
+      transition: all 0.2s;
+    }
+
+    .debt-btn-accept:hover {
+      background: linear-gradient(135deg, #059669, #10b981);
+      transform: translateY(-2px);
+    }
+
+    .debt-btn-decline {
+      background: #1e293b;
+      color: #94a3b8;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 14px 18px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    /* ========================================================= */
+    /* GOLDEN PALACE SCREEN                                      */
+    /* ========================================================= */
+    .golden-palace-screen {
+      position: fixed;
+      inset: 0;
+      z-index: 1000000;
+      background: radial-gradient(circle at center, #634306 0%, #301f03 60%, #120b01 100%);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+
+    .palace-rays {
+      position: absolute;
+      width: 140vmax;
+      height: 140vmax;
+      background: conic-gradient(from 0deg, transparent 0deg 15deg, rgba(250, 204, 21, 0.08) 15deg 30deg, transparent 30deg 45deg, rgba(250, 204, 21, 0.08) 45deg 60deg, transparent 60deg 75deg, rgba(250, 204, 21, 0.08) 75deg 90deg, transparent 90deg 105deg, rgba(250, 204, 21, 0.08) 105deg 120deg, transparent 120deg 135deg, rgba(250, 204, 21, 0.08) 135deg 150deg, transparent 150deg 165deg, rgba(250, 204, 21, 0.08) 165deg 180deg, transparent 180deg 195deg, rgba(250, 204, 21, 0.08) 195deg 210deg, transparent 210deg 225deg, rgba(250, 204, 21, 0.08) 225deg 240deg, transparent 240deg 255deg, rgba(250, 204, 21, 0.08) 255deg 270deg, transparent 270deg 285deg, rgba(250, 204, 21, 0.08) 285deg 300deg, transparent 300deg 315deg, rgba(250, 204, 21, 0.08) 315deg 330deg, transparent 330deg 345deg, rgba(250, 204, 21, 0.08) 345deg 360deg);
+      animation: rotateRays 40s infinite linear;
+      pointer-events: none;
+    }
+
+    @keyframes rotateRays {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .palace-card {
+      background: rgba(26, 17, 3, 0.9);
+      border: 3px solid #eab308;
+      border-radius: 30px;
+      max-width: 560px;
+      width: 100%;
+      padding: 42px 34px;
+      text-align: center;
+      box-shadow: 0 30px 90px rgba(0,0,0,0.95), 0 0 80px rgba(234, 179, 8, 0.45);
+      position: relative;
+      z-index: 2;
+    }
+
+    .palace-crown {
+      font-size: 78px;
+      line-height: 1;
+      margin-bottom: 14px;
+      display: inline-block;
+      filter: drop-shadow(0 6px 16px rgba(250, 204, 21, 0.6));
+      animation: crownFloat 3s infinite ease-in-out;
+    }
+
+    @keyframes crownFloat {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    .palace-title {
+      font-size: 28px;
+      font-weight: 900;
+      letter-spacing: 3px;
+      background: linear-gradient(135deg, #fef08a, #eab308, #ca8a04);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+    }
+
+    .palace-subtitle {
+      font-size: 15px;
+      font-weight: 700;
+      color: #fef08a;
+      letter-spacing: 1.5px;
+      margin-bottom: 18px;
+      text-transform: uppercase;
+    }
+
+    .palace-desc {
+      color: #fef9c3;
+      font-size: 14px;
+      line-height: 1.7;
+      margin-bottom: 28px;
+    }
+
+    .palace-btn {
+      background: linear-gradient(135deg, #facc15, #ca8a04);
+      color: #1a1202;
+      border: none;
+      border-radius: 14px;
+      padding: 16px 28px;
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      cursor: pointer;
+      box-shadow: 0 6px 24px rgba(234, 179, 8, 0.5);
+      transition: all 0.2s;
+    }
+
+    .palace-btn:hover {
+      transform: scale(1.04);
+      box-shadow: 0 8px 30px rgba(234, 179, 8, 0.65);
+    }
+
   </style>
 </head>
 <body data-theme="dark">
+
+  <!-- Safe Vault Authentication Overlay -->
+  <div id="safeVaultOverlay" class="safe-vault-overlay">
+    <div class="vault-bg-grid"></div>
+    <div class="vault-door-container" id="vaultDoorContainer">
+      <div class="vault-rivets"></div>
+      
+      <!-- Vault Combination Wheel -->
+      <div class="vault-wheel-wrap">
+        <div class="vault-wheel" id="vaultWheel">
+          <div class="vault-wheel-spoke spoke-h"></div>
+          <div class="vault-wheel-spoke spoke-v"></div>
+          <div class="vault-wheel-hub">🔒</div>
+        </div>
+      </div>
+
+      <!-- Vault Terminal Card -->
+      <div class="vault-terminal" id="vaultTerminalCard">
+        <div class="terminal-status-row">
+          <div class="terminal-led" id="terminalLed"></div>
+          <div class="terminal-title">SECURITY VAULT</div>
+        </div>
+        <div class="terminal-subtitle">Authorized Operatives Verification</div>
+
+        <form id="vaultLoginForm" onsubmit="event.preventDefault(); handleSafeUnlock();">
+          <div class="vault-input-group">
+            <label for="safeNameInput">Operative Name</label>
+            <input type="text" id="safeNameInput" class="vault-input" placeholder="Enter your name..." autocomplete="name" required />
+          </div>
+
+          <div class="vault-input-group">
+            <label for="safePasswordInput">Passcode (Optional)</label>
+            <input type="password" id="safePasswordInput" class="vault-input" placeholder="Enter passcode..." autocomplete="current-password" />
+          </div>
+
+          <div id="safeStatusMsg" class="vault-msg"></div>
+
+          <button type="submit" class="vault-unlock-btn" id="safeUnlockBtn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            <span>AUTHENTICATE &amp; UNLOCK</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Clown Troll Takeover Screen (Will / William) -->
+  <div id="clownTakeoverScreen" class="clown-takeover-screen">
+    <div class="clown-card">
+      <div class="clown-avatar">🤡</div>
+      <div class="clown-title">WILL / WILLIAM DETECTED</div>
+      <div class="clown-badge">🎪 CIRCUS TENT ACCESS ONLY 🎪</div>
+      <div class="clown-desc">
+        HONK HONK! 🎺 Access to medical knowledge has been quarantined!<br>
+        You have been sentenced to the 3-ring circus playing nonstop clown music.
+      </div>
+      <button class="clown-btn" onclick="exitClownTakeover()">
+        🎪 Honk Horn &amp; Retreat to Safe
+      </button>
+    </div>
+  </div>
+
+  <!-- Jacob Dollar Debt Screen -->
+  <div id="jacobDebtScreen" class="jacob-debt-screen">
+    <div class="debt-contract-card" id="debtContractCard">
+      <div class="debt-seal">💵</div>
+      <div class="debt-title">Debt Settlement Agreement</div>
+      <div class="debt-balance-highlight">YOU OWE MARK $1.00</div>
+      <div class="debt-terms-box">
+        <strong>LEGAL DEBT NOTICE:</strong><br>
+        1. Debtor (Jacob) unconditionally confirms an unpaid balance of <strong>$1.00 USD</strong> owed to Mark.<br>
+        2. Unlocking Exam 2 requires legally binding consent to remit this dollar upon demand.<br>
+        3. Do you accept these financial terms?
+      </div>
+      <div class="debt-actions">
+        <button class="debt-btn-accept" onclick="acceptJacobTerms()">
+          ✅ I Accept Terms (I Owe You $1.00)
+        </button>
+        <button class="debt-btn-decline" id="declineDebtBtn" onmouseenter="dodgeDeclineBtn()" onclick="dodgeDeclineBtn()">
+          ❌ Decline
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Golden Palace Screen (Marlon) -->
+  <div id="goldenPalaceScreen" class="golden-palace-screen">
+    <div class="palace-rays"></div>
+    <div class="palace-card">
+      <div class="palace-crown">👑</div>
+      <div class="palace-title">The Golden Palace</div>
+      <div class="palace-subtitle">Imperial Clearance Granted • Marlon</div>
+      <div class="palace-desc">
+        The golden gates swing open in your honor. Full sovereign access to the complete Neurological Question Bank has been unlocked.
+      </div>
+      <button class="palace-btn" id="enterPalaceBtn" onclick="enterFromPalace()">
+        👑 ENTER THE THRONE ROOM (TO EXAM)
+      </button>
+    </div>
+  </div>
+
 
   <!-- Header -->
   <header class="exam-header">
@@ -1695,7 +2364,11 @@ html_template = """<!DOCTYPE html>
         <span id="randomizeBtnText">Shuffled Choices: ON</span>
       </button>
 
-      <button class="btn btn-icon" onclick="toggleTheme()" title="Toggle Dark/Light Mode">
+            <button class="btn btn-icon" onclick="lockVault()" title="Lock Vault (Open Safe Login)">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+      </button>
+
+<button class="btn btn-icon" onclick="toggleTheme()" title="Toggle Dark/Light Mode">
         <svg id="themeIcon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
       </button>
 
@@ -3476,7 +4149,422 @@ For each question:
     });
 
     // Bootstrapping
+    
+    /* ========================================================= */
+    /* VAULT AUDIO SYNTHESIZER & AUTHENTICATION LOGIC           */
+    /* ========================================================= */
+    const VaultAudio = {
+      ctx: null,
+      clownTimer: null,
+      init() {
+        if (!this.ctx) {
+          const AC = window.AudioContext || window.webkitAudioContext;
+          if (AC) this.ctx = new AC();
+        }
+        if (this.ctx && this.ctx.state === 'suspended') {
+          this.ctx.resume();
+        }
+      },
+      playClick() {
+        this.init();
+        if (!this.ctx) return;
+        const now = this.ctx.currentTime;
+        const osc = this.ctx.createOscillator();
+        const gain = this.ctx.createGain();
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(600, now);
+        osc.frequency.exponentialRampToValueAtTime(120, now + 0.04);
+        gain.gain.setValueAtTime(0.25, now);
+        gain.gain.exponentialRampToValueAtTime(0.01, now + 0.04);
+        osc.connect(gain);
+        gain.connect(this.ctx.destination);
+        osc.start(now);
+        osc.stop(now + 0.04);
+      },
+      playUnlockSequence() {
+        this.init();
+        if (!this.ctx) return;
+        const now = this.ctx.currentTime;
+        [0, 0.07, 0.14, 0.21, 0.28].forEach((t, i) => {
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = 'sawtooth';
+          osc.frequency.setValueAtTime(320 + i * 90, now + t);
+          gain.gain.setValueAtTime(0.2, now + t);
+          gain.gain.exponentialRampToValueAtTime(0.01, now + t + 0.05);
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.start(now + t);
+          osc.stop(now + t + 0.05);
+        });
+        // Heavy bass vault clunk
+        const bass = this.ctx.createOscillator();
+        const bassGain = this.ctx.createGain();
+        bass.type = 'sine';
+        bass.frequency.setValueAtTime(110, now + 0.38);
+        bass.frequency.exponentialRampToValueAtTime(30, now + 0.85);
+        bassGain.gain.setValueAtTime(0.5, now + 0.38);
+        bassGain.gain.exponentialRampToValueAtTime(0.01, now + 0.85);
+        bass.connect(bassGain);
+        bassGain.connect(this.ctx.destination);
+        bass.start(now + 0.38);
+        bass.stop(now + 0.85);
+      },
+      playBuzzer() {
+        this.init();
+        if (!this.ctx) return;
+        const now = this.ctx.currentTime;
+        const osc = this.ctx.createOscillator();
+        const gain = this.ctx.createGain();
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(130, now);
+        osc.frequency.setValueAtTime(95, now + 0.16);
+        gain.gain.setValueAtTime(0.4, now);
+        gain.gain.linearRampToValueAtTime(0.01, now + 0.35);
+        osc.connect(gain);
+        gain.connect(this.ctx.destination);
+        osc.start(now);
+        osc.stop(now + 0.35);
+      },
+      playKaChing() {
+        this.init();
+        if (!this.ctx) return;
+        const now = this.ctx.currentTime;
+        // High dual bell chime
+        const bell1 = this.ctx.createOscillator();
+        const g1 = this.ctx.createGain();
+        bell1.type = 'sine';
+        bell1.frequency.setValueAtTime(987.77, now);
+        g1.gain.setValueAtTime(0.4, now);
+        g1.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+        bell1.connect(g1);
+        g1.connect(this.ctx.destination);
+        bell1.start(now);
+        bell1.stop(now + 0.35);
+
+        const bell2 = this.ctx.createOscillator();
+        const g2 = this.ctx.createGain();
+        bell2.type = 'sine';
+        bell2.frequency.setValueAtTime(1318.51, now + 0.1);
+        g2.gain.setValueAtTime(0.5, now + 0.1);
+        g2.gain.exponentialRampToValueAtTime(0.001, now + 0.75);
+        bell2.connect(g2);
+        g2.connect(this.ctx.destination);
+        bell2.start(now + 0.1);
+        bell2.stop(now + 0.75);
+      },
+      playFanfare() {
+        this.init();
+        if (!this.ctx) return;
+        const now = this.ctx.currentTime;
+        const notes = [
+          { f: 261.63, t: 0, d: 0.18 },
+          { f: 329.63, t: 0.2, d: 0.18 },
+          { f: 392.00, t: 0.4, d: 0.22 },
+          { f: 523.25, t: 0.65, d: 0.9 }
+        ];
+        notes.forEach(n => {
+          [-3, 0, 3].forEach(det => {
+            const osc = this.ctx.createOscillator();
+            const gain = this.ctx.createGain();
+            osc.type = 'sawtooth';
+            osc.frequency.setValueAtTime(n.f, now + n.t);
+            osc.detune.setValueAtTime(det, now + n.t);
+            gain.gain.setValueAtTime(0.18, now + n.t);
+            gain.gain.exponentialRampToValueAtTime(0.01, now + n.t + n.d);
+            osc.connect(gain);
+            gain.connect(this.ctx.destination);
+            osc.start(now + n.t);
+            osc.stop(now + n.t + n.d);
+          });
+        });
+      },
+      startClownMusic() {
+        this.init();
+        if (!this.ctx) return;
+        this.stopClownMusic();
+
+        // Entry of the Gladiators / circus march melody
+        const melody = [
+          { f: 587.33, d: 0.13 },
+          { f: 554.37, d: 0.13 },
+          { f: 587.33, d: 0.13 },
+          { f: 622.25, d: 0.13 },
+          { f: 659.25, d: 0.26 },
+          { f: 587.33, d: 0.13 },
+          { f: 523.25, d: 0.26 },
+          { f: 493.88, d: 0.13 },
+          { f: 440.00, d: 0.26 },
+          { f: 415.30, d: 0.13 },
+          { f: 440.00, d: 0.13 },
+          { f: 466.16, d: 0.13 },
+          { f: 493.88, d: 0.26 },
+          { f: 587.33, d: 0.26 },
+          { f: 523.25, d: 0.38 }
+        ];
+
+        let step = 0;
+        const playStep = () => {
+          if (!this.clownTimer) return;
+          const note = melody[step % melody.length];
+          const now = this.ctx.currentTime;
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = 'square';
+          osc.frequency.setValueAtTime(note.f, now);
+          gain.gain.setValueAtTime(0.16, now);
+          gain.gain.exponentialRampToValueAtTime(0.01, now + note.d * 0.88);
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.start(now);
+          osc.stop(now + note.d);
+
+          step++;
+          this.clownTimer = setTimeout(playStep, note.d * 1000);
+        };
+
+        this.clownTimer = setTimeout(playStep, 20);
+      },
+      stopClownMusic() {
+        if (this.clownTimer) {
+          clearTimeout(this.clownTimer);
+          this.clownTimer = null;
+        }
+      }
+    };
+
+    let palaceCountdownTimer = null;
+
+    function handleSafeUnlock() {
+      const nameInput = document.getElementById('safeNameInput');
+      const pwdInput = document.getElementById('safePasswordInput');
+      const name = (nameInput ? nameInput.value : '').trim().toLowerCase();
+      const pwd = (pwdInput ? pwdInput.value : '').trim().toLowerCase();
+
+      if (!name) {
+        showSafeStatus('Please enter your name.', 'error');
+        return;
+      }
+
+      // Check Condition 1: will or william -> Clown Troll
+      if (name === 'will' || name === 'william' || pwd === 'will' || pwd === 'william') {
+        triggerClownTakeover();
+        return;
+      }
+
+      // Check Condition 2: jacob -> You owe me a dollar terms
+      if (name === 'jacob' || pwd === 'jacob') {
+        triggerJacobDebt();
+        return;
+      }
+
+      // Check Condition 3: password is marlon OR name is marlon -> Golden Palace
+      if (pwd === 'marlon' || name === 'marlon') {
+        triggerGoldenPalace();
+        return;
+      }
+
+      // Check Condition 4: nick or alex -> Direct Entry
+      if (name === 'nick' || name === 'alex' || pwd === 'nick' || pwd === 'alex') {
+        triggerDirectUnlock(name || pwd);
+        return;
+      }
+
+      // Any other name -> Access Denied
+      VaultAudio.playBuzzer();
+      const led = document.getElementById('terminalLed');
+      if (led) {
+        led.className = 'terminal-led error';
+        setTimeout(() => { if (led) led.className = 'terminal-led'; }, 1500);
+      }
+      showSafeStatus(`Access Denied: Operative '${name}' not recognized. Authorized: marlon, jacob, nick, alex.`, 'error');
+      
+      const card = document.getElementById('vaultTerminalCard');
+      if (card) {
+        card.style.animation = 'none';
+        card.offsetHeight; // trigger reflow
+        card.style.animation = 'clownWiggle 0.4s ease-in-out';
+      }
+    }
+
+    function showSafeStatus(text, type) {
+      const msg = document.getElementById('safeStatusMsg');
+      if (!msg) return;
+      msg.textContent = text;
+      msg.className = 'vault-msg ' + (type || 'error');
+    }
+
+    /* Condition 1: Clown Troll */
+    function triggerClownTakeover() {
+      const overlay = document.getElementById('safeVaultOverlay');
+      const clown = document.getElementById('clownTakeoverScreen');
+      if (overlay) overlay.style.display = 'none';
+      if (clown) clown.style.display = 'flex';
+      VaultAudio.startClownMusic();
+    }
+
+    function exitClownTakeover() {
+      VaultAudio.stopClownMusic();
+      const clown = document.getElementById('clownTakeoverScreen');
+      const overlay = document.getElementById('safeVaultOverlay');
+      if (clown) clown.style.display = 'none';
+      if (overlay) {
+        overlay.style.display = 'flex';
+        showSafeStatus('Will/William, please try again with an authorized operative identity.', 'error');
+      }
+    }
+
+    /* Condition 2: Jacob Debt */
+    function triggerJacobDebt() {
+      const overlay = document.getElementById('safeVaultOverlay');
+      const debt = document.getElementById('jacobDebtScreen');
+      if (overlay) overlay.style.display = 'none';
+      if (debt) debt.style.display = 'flex';
+    }
+
+    function acceptJacobTerms() {
+      VaultAudio.playKaChing();
+      const debtCard = document.getElementById('debtContractCard');
+      if (debtCard) {
+        debtCard.innerHTML = `
+          <div class="debt-seal">✅</div>
+          <div class="debt-title" style="color: #6ee7b7;">Terms Accepted!</div>
+          <div class="debt-balance-highlight" style="font-size: 24px; color: #a7f3d0;">$1.00 Debt Confirmed to Mark</div>
+          <div class="debt-terms-box" style="text-align: center;">
+            Thank you, Jacob. Payment agreement officially registered in the vault ledger.<br>
+            <strong>Unlocking Neuro Exam 2...</strong>
+          </div>
+        `;
+      }
+      setTimeout(() => {
+        const debt = document.getElementById('jacobDebtScreen');
+        if (debt) debt.style.display = 'none';
+        executeUnlockExam('jacob');
+      }, 1600);
+    }
+
+    function dodgeDeclineBtn() {
+      const btn = document.getElementById('declineDebtBtn');
+      if (!btn) return;
+      VaultAudio.playClick();
+      const x = (Math.random() - 0.5) * 120;
+      const y = (Math.random() - 0.5) * 80;
+      btn.style.transform = `translate(${x}px, ${y}px)`;
+      btn.textContent = "Can't Decline!";
+      setTimeout(() => {
+        btn.textContent = "❌ Decline";
+      }, 1200);
+    }
+
+    /* Condition 3: Golden Palace (Marlon) */
+    function triggerGoldenPalace() {
+      const overlay = document.getElementById('safeVaultOverlay');
+      const palace = document.getElementById('goldenPalaceScreen');
+      if (overlay) overlay.style.display = 'none';
+      if (palace) palace.style.display = 'flex';
+      VaultAudio.playFanfare();
+
+      let seconds = 3;
+      const btn = document.getElementById('enterPalaceBtn');
+      if (btn) btn.textContent = `👑 ENTER THE THRONE ROOM (${seconds}s)`;
+
+      if (palaceCountdownTimer) clearInterval(palaceCountdownTimer);
+      palaceCountdownTimer = setInterval(() => {
+        seconds--;
+        if (btn) btn.textContent = `👑 ENTER THE THRONE ROOM (${seconds}s)`;
+        if (seconds <= 0) {
+          clearInterval(palaceCountdownTimer);
+          enterFromPalace();
+        }
+      }, 1000);
+    }
+
+    function enterFromPalace() {
+      if (palaceCountdownTimer) clearInterval(palaceCountdownTimer);
+      const palace = document.getElementById('goldenPalaceScreen');
+      if (palace) palace.style.display = 'none';
+      executeUnlockExam('marlon');
+    }
+
+    /* Condition 4: Direct Unlock (Nick / Alex) */
+    function triggerDirectUnlock(name) {
+      const led = document.getElementById('terminalLed');
+      if (led) led.className = 'terminal-led success';
+      showSafeStatus(`Clearance Confirmed. Welcome, ${name.toUpperCase()}!`, 'success');
+      
+      const wheel = document.getElementById('vaultWheel');
+      if (wheel) wheel.className = 'vault-wheel spinning';
+      
+      VaultAudio.playUnlockSequence();
+      
+      setTimeout(() => {
+        executeUnlockExam(name);
+      }, 1100);
+    }
+
+    /* Final execution of unlock */
+    function executeUnlockExam(userName) {
+      sessionStorage.setItem('usmle_vault_unlocked', 'true');
+      sessionStorage.setItem('usmle_vault_user', userName || 'operative');
+
+      const wheel = document.getElementById('vaultWheel');
+      if (wheel) wheel.className = 'vault-wheel spinning';
+
+      const overlay = document.getElementById('safeVaultOverlay');
+      if (overlay) {
+        overlay.classList.add('unlocked');
+        setTimeout(() => {
+          overlay.style.display = 'none';
+        }, 600);
+      }
+
+      showToast(`🔓 Vault Unlocked. Welcome, ${(userName || '').toUpperCase()}!`);
+    }
+
+    function lockVault() {
+      sessionStorage.removeItem('usmle_vault_unlocked');
+      const overlay = document.getElementById('safeVaultOverlay');
+      if (overlay) {
+        overlay.classList.remove('unlocked');
+        overlay.style.display = 'flex';
+      }
+      const wheel = document.getElementById('vaultWheel');
+      if (wheel) wheel.className = 'vault-wheel';
+      const nameInput = document.getElementById('safeNameInput');
+      if (nameInput) nameInput.value = '';
+      const pwdInput = document.getElementById('safePasswordInput');
+      if (pwdInput) pwdInput.value = '';
+      showSafeStatus('', '');
+      showToast('🔒 Vault Locked.');
+    }
+
+    function checkVaultAccessOnLoad() {
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.has('name')) {
+        const testName = urlParams.get('name');
+        const nameInput = document.getElementById('safeNameInput');
+        if (nameInput) nameInput.value = testName;
+        if (urlParams.has('pwd')) {
+          const pwdInput = document.getElementById('safePasswordInput');
+          if (pwdInput) pwdInput.value = urlParams.get('pwd');
+        }
+        handleSafeUnlock();
+        return;
+      }
+      const isUnlocked = sessionStorage.getItem('usmle_vault_unlocked') === 'true';
+      const overlay = document.getElementById('safeVaultOverlay');
+      if (overlay) {
+        if (isUnlocked) {
+          overlay.style.display = 'none';
+        } else {
+          overlay.style.display = 'flex';
+          overlay.classList.remove('unlocked');
+        }
+      }
+    }
+
     window.addEventListener('DOMContentLoaded', () => {
+      checkVaultAccessOnLoad();
       const savedTheme = localStorage.getItem('usmle_exam_theme');
       if (savedTheme) {
         document.body.setAttribute('data-theme', savedTheme);
