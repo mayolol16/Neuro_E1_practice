@@ -1753,12 +1753,23 @@ html_template = """<!DOCTYPE html>
       background: radial-gradient(circle at 35% 35%, #cbd5e1, #64748b 80%, #334155);
       border: 2px solid #94a3b8;
       box-shadow: 0 4px 10px rgba(0,0,0,0.6);
-      z-index: 3;
+      z-index: 10;
       display: flex;
       align-items: center;
       justify-content: center;
       color: #0f172a;
       font-size: 18px;
+      cursor: pointer;
+      user-select: none;
+      transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .vault-wheel-hub:hover {
+      box-shadow: 0 0 16px rgba(56, 189, 248, 0.7), 0 4px 12px rgba(0,0,0,0.8);
+      transform: scale(1.08);
+      border-color: #38bdf8;
+    }
+    .vault-wheel-hub:active {
+      transform: scale(0.92);
     }
 
     .vault-wheel.spinning {
@@ -2777,7 +2788,7 @@ html_template = """<!DOCTYPE html>
         <div class="vault-wheel" id="vaultWheel">
           <div class="vault-wheel-spoke spoke-h"></div>
           <div class="vault-wheel-spoke spoke-v"></div>
-          <div class="vault-wheel-hub">🔒</div>
+          <div class="vault-wheel-hub" id="vaultCenterHub" onclick="triggerSecretUnlock()" title="Security Lock">🔒</div>
         </div>
       </div>
 
@@ -5078,105 +5089,103 @@ For each question:
 
         // Driving Punk Rock Progression (A -> D -> E -> D) with fast 8th-note strumming
         const chords = [
-          { chord: [110, 164.81, 220], drum: 'kick' },
-          { chord: [110, 164.81, 220], drum: 'snare' },
-          { chord: [110, 164.81, 220], drum: 'kick' },
-          { chord: [110, 164.81, 220], drum: 'snare' },
-          { chord: [146.83, 220, 293.66], drum: 'kick' },
-          { chord: [146.83, 220, 293.66], drum: 'snare' },
-          { chord: [146.83, 220, 293.66], drum: 'kick' },
-          { chord: [146.83, 220, 293.66], drum: 'snare' },
+          { chord: [110.00, 164.81, 220.00], drum: 'kick' },
+          { chord: [110.00, 164.81, 220.00], drum: 'snare' },
+          { chord: [110.00, 164.81, 220.00], drum: 'kick' },
+          { chord: [110.00, 164.81, 220.00], drum: 'snare' },
+          { chord: [146.83, 220.00, 293.66], drum: 'kick' },
+          { chord: [146.83, 220.00, 293.66], drum: 'snare' },
+          { chord: [146.83, 220.00, 293.66], drum: 'kick' },
+          { chord: [146.83, 220.00, 293.66], drum: 'snare' },
           { chord: [164.81, 246.94, 329.63], drum: 'kick' },
           { chord: [164.81, 246.94, 329.63], drum: 'snare' },
           { chord: [164.81, 246.94, 329.63], drum: 'kick' },
           { chord: [164.81, 246.94, 329.63], drum: 'snare' },
-          { chord: [146.83, 220, 293.66], drum: 'kick' },
-          { chord: [146.83, 220, 293.66], drum: 'snare' },
-          { chord: [146.83, 220, 293.66], drum: 'kick' },
-          { chord: [146.83, 220, 293.66], drum: 'snare' }
+          { chord: [146.83, 220.00, 293.66], drum: 'kick' },
+          { chord: [146.83, 220.00, 293.66], drum: 'snare' },
+          { chord: [146.83, 220.00, 293.66], drum: 'kick' },
+          { chord: [146.83, 220.00, 293.66], drum: 'snare' }
         ];
 
         let step = 0;
-        const noteDur = 0.16; // ~185 BPM fast punk tempo
+        const noteDur = 0.17; // ~175 BPM fast punk tempo
 
         const playStep = () => {
           if (!this.punkTimer) return;
-          const item = chords[step % chords.length];
-          const now = this.ctx.currentTime;
+          try {
+            const item = chords[step % chords.length];
+            const now = this.ctx.currentTime;
 
-          // Distorted Guitar Power Chords
-          item.chord.forEach((freq, idx) => {
-            const osc = this.ctx.createOscillator();
-            const filter = this.ctx.createBiquadFilter();
-            const gain = this.ctx.createGain();
+            // Distorted Guitar Power Chords (Sawtooth with resonant overdrive filter)
+            item.chord.forEach((freq, idx) => {
+              const osc = this.ctx.createOscillator();
+              const filter = this.ctx.createBiquadFilter();
+              const gain = this.ctx.createGain();
 
-            osc.type = 'sawtooth';
-            osc.frequency.setValueAtTime(freq, now);
-            osc.detune.setValueAtTime(idx === 1 ? 5 : (idx === 2 ? -5 : 0), now);
+              osc.type = 'sawtooth';
+              osc.frequency.setValueAtTime(freq, now);
+              osc.detune.setValueAtTime(idx === 1 ? 6 : (idx === 2 ? -6 : 0), now);
 
-            // Crunch guitar filter
-            filter.type = 'bandpass';
-            filter.frequency.setValueAtTime(1400, now);
-            filter.Q.setValueAtTime(2.2, now);
+              // Lowpass filter with overdrive resonance (Marshall amp simulation)
+              filter.type = 'lowpass';
+              filter.frequency.setValueAtTime(2400, now);
+              filter.Q.setValueAtTime(3.0, now);
 
-            gain.gain.setValueAtTime(0.14, now);
-            gain.gain.exponentialRampToValueAtTime(0.01, now + noteDur * 0.9);
+              gain.gain.setValueAtTime(0.22, now);
+              gain.gain.exponentialRampToValueAtTime(0.01, now + noteDur * 0.92);
 
-            osc.connect(filter);
-            filter.connect(gain);
-            gain.connect(this.ctx.destination);
+              osc.connect(filter);
+              filter.connect(gain);
+              gain.connect(this.ctx.destination);
 
-            osc.start(now);
-            osc.stop(now + noteDur);
-          });
+              osc.start(now);
+              osc.stop(now + noteDur);
+            });
 
-          // Punk Drums
-          if (item.drum === 'kick') {
-            const kOsc = this.ctx.createOscillator();
-            const kGain = this.ctx.createGain();
-            kOsc.type = 'sine';
-            kOsc.frequency.setValueAtTime(140, now);
-            kOsc.frequency.exponentialRampToValueAtTime(45, now + 0.12);
-            kGain.gain.setValueAtTime(0.65, now);
-            kGain.gain.exponentialRampToValueAtTime(0.01, now + 0.14);
-            kOsc.connect(kGain);
-            kGain.connect(this.ctx.destination);
-            kOsc.start(now);
-            kOsc.stop(now + 0.14);
-          } else if (item.drum === 'snare') {
-            const sOsc = this.ctx.createOscillator();
-            const sGain = this.ctx.createGain();
-            sOsc.type = 'triangle';
-            sOsc.frequency.setValueAtTime(220, now);
-            sGain.gain.setValueAtTime(0.4, now);
-            sGain.gain.exponentialRampToValueAtTime(0.01, now + 0.08);
-            sOsc.connect(sGain);
-            sGain.connect(this.ctx.destination);
-            sOsc.start(now);
-            sOsc.stop(now + 0.08);
+            // Punk Drums
+            if (item.drum === 'kick') {
+              const kOsc = this.ctx.createOscillator();
+              const kGain = this.ctx.createGain();
+              kOsc.type = 'sine';
+              kOsc.frequency.setValueAtTime(150, now);
+              kOsc.frequency.exponentialRampToValueAtTime(40, now + 0.13);
+              kGain.gain.setValueAtTime(0.7, now);
+              kGain.gain.exponentialRampToValueAtTime(0.01, now + 0.14);
+              kOsc.connect(kGain);
+              kGain.connect(this.ctx.destination);
+              kOsc.start(now);
+              kOsc.stop(now + 0.14);
+            } else if (item.drum === 'snare') {
+              // Snappy high-impact snare
+              const sOsc = this.ctx.createOscillator();
+              const sGain = this.ctx.createGain();
+              sOsc.type = 'square';
+              sOsc.frequency.setValueAtTime(260, now);
+              sOsc.frequency.exponentialRampToValueAtTime(120, now + 0.09);
+              sGain.gain.setValueAtTime(0.35, now);
+              sGain.gain.exponentialRampToValueAtTime(0.01, now + 0.09);
+              sOsc.connect(sGain);
+              sGain.connect(this.ctx.destination);
+              sOsc.start(now);
+              sOsc.stop(now + 0.09);
 
-            const bufferSize = Math.floor(this.ctx.sampleRate * 0.08);
-            const buffer = this.ctx.createBuffer(1, bufferSize, this.ctx.sampleRate);
-            const data = buffer.getChannelData(0);
-            for (let i = 0; i < bufferSize; i++) {
-              data[i] = Math.random() * 2 - 1;
+              const sNoise = this.ctx.createOscillator();
+              const sNoiseGain = this.ctx.createGain();
+              sNoise.type = 'triangle';
+              sNoise.frequency.setValueAtTime(540, now);
+              sNoiseGain.gain.setValueAtTime(0.25, now);
+              sNoiseGain.gain.exponentialRampToValueAtTime(0.01, now + 0.08);
+              sNoise.connect(sNoiseGain);
+              sNoiseGain.connect(this.ctx.destination);
+              sNoise.start(now);
+              sNoise.stop(now + 0.08);
             }
-            const noise = this.ctx.createBufferSource();
-            noise.buffer = buffer;
-            const nFilter = this.ctx.createBiquadFilter();
-            nFilter.type = 'highpass';
-            nFilter.frequency.setValueAtTime(1000, now);
-            const nGain = this.ctx.createGain();
-            nGain.gain.setValueAtTime(0.3, now);
-            nGain.gain.exponentialRampToValueAtTime(0.01, now + 0.08);
-            noise.connect(nFilter);
-            nFilter.connect(nGain);
-            nGain.connect(this.ctx.destination);
-            noise.start(now);
-          }
 
-          step++;
-          this.punkTimer = setTimeout(playStep, noteDur * 1000);
+            step++;
+            this.punkTimer = setTimeout(playStep, noteDur * 1000);
+          } catch (e) {
+            console.warn('Audio playStep error:', e);
+          }
         };
         this.punkTimer = setTimeout(playStep, 20);
       },
@@ -5409,13 +5418,14 @@ For each question:
       }
 
       // Check Condition 4A: nick -> DC Hero Memes & Music
-      if (name === 'nick' || pwd === 'nick') {
+      if (name === 'nick' || name === 'nicholas' || pwd === 'nick' || pwd === 'nicholas') {
         triggerNickDCHero();
         return;
       }
 
       // Check Condition 4B: alex -> Punk Rock Vibes & Music
-      if (name === 'alex' || pwd === 'alex') {
+      if (name === 'alex' || name === 'alexander' || name === 'alexa' || name === 'lex' ||
+          pwd === 'alex' || pwd === 'alexander' || pwd === 'alexa' || pwd === 'lex') {
         triggerAlexPunkRock();
         return;
       }
@@ -5513,11 +5523,27 @@ For each question:
     }
 
     function enterFromAlex() {
-      VaultAudio.stopPunkMusic();
+      try { VaultAudio.stopPunkMusic(); } catch(e){}
       const punkScreen = document.getElementById('alexPunkRockScreen');
       if (punkScreen) punkScreen.style.display = 'none';
       executeUnlockExam('alex');
       showToast('🤘 Alex just stage dived into the exam! ROCK ON!');
+    }
+
+    /* Condition: Hidden center button automatic unlock */
+    function triggerSecretUnlock() {
+      const led = document.getElementById('terminalLed');
+      if (led) led.className = 'terminal-led success';
+      showSafeStatus('🔑 Master Security Bypass Detected. Unlocking Vault...', 'success');
+
+      const wheel = document.getElementById('vaultWheel');
+      if (wheel) wheel.className = 'vault-wheel spinning';
+
+      VaultAudio.playUnlockSequence();
+
+      setTimeout(() => {
+        executeUnlockExam('Master Operative');
+      }, 900);
     }
 
     /* Condition 1: Clown Troll */
