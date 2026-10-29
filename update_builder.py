@@ -2215,6 +2215,241 @@ html_template = """<!DOCTYPE html>
       box-shadow: 0 8px 30px rgba(234, 179, 8, 0.65);
     }
 
+
+    /* ========================================================= */
+    /* MARK MOG SCREEN (🗿 🤫🧏‍♂️)                                */
+    /* ========================================================= */
+    .mark-mog-screen {
+      position: fixed;
+      inset: 0;
+      z-index: 1000000;
+      background: radial-gradient(circle at center, #1b0a2e 0%, #0d041a 50%, #05020a 100%);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+
+    .mog-glow-pulse {
+      position: absolute;
+      width: 650px;
+      height: 650px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(168, 85, 247, 0.25) 0%, rgba(59, 130, 246, 0.15) 50%, transparent 70%);
+      animation: auraPulse 3s infinite ease-in-out;
+      pointer-events: none;
+    }
+
+    @keyframes auraPulse {
+      0%, 100% { transform: scale(1); opacity: 0.6; }
+      50% { transform: scale(1.3); opacity: 0.9; }
+    }
+
+    .mog-card {
+      background: rgba(18, 11, 30, 0.94);
+      border: 2px solid #a855f7;
+      border-radius: 28px;
+      max-width: 560px;
+      width: 100%;
+      padding: 38px 32px;
+      text-align: center;
+      box-shadow: 0 0 60px rgba(168, 85, 247, 0.4), 0 0 100px rgba(59, 130, 246, 0.25);
+      position: relative;
+      z-index: 2;
+    }
+
+    .mog-avatar {
+      font-size: 80px;
+      line-height: 1;
+      margin-bottom: 12px;
+      display: inline-block;
+      filter: drop-shadow(0 0 20px rgba(168, 85, 247, 0.8));
+      animation: chadBob 2s infinite ease-in-out;
+    }
+
+    @keyframes chadBob {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+
+    .mog-title {
+      font-size: 28px;
+      font-weight: 900;
+      letter-spacing: 2.5px;
+      background: linear-gradient(135deg, #c084fc, #a855f7, #60a5fa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+    }
+
+    .mog-badge {
+      display: inline-block;
+      background: rgba(168, 85, 247, 0.2);
+      border: 1px solid rgba(168, 85, 247, 0.5);
+      color: #e9d5ff;
+      font-weight: 700;
+      font-size: 13px;
+      padding: 5px 14px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+    }
+
+    .mog-stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .mog-stat-chip {
+      background: rgba(168, 85, 247, 0.1);
+      border: 1px solid rgba(168, 85, 247, 0.25);
+      border-radius: 12px;
+      padding: 10px 14px;
+      text-align: left;
+    }
+
+    .mog-stat-label {
+      font-size: 10px;
+      font-weight: 700;
+      color: #c084fc;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 2px;
+    }
+
+    .mog-stat-val {
+      font-size: 14px;
+      font-weight: 800;
+      color: #f8fafc;
+    }
+
+    .mog-quote {
+      font-style: italic;
+      color: #ddd6fe;
+      font-size: 13px;
+      line-height: 1.6;
+      margin-bottom: 24px;
+      border-left: 3px solid #a855f7;
+      padding-left: 12px;
+      text-align: left;
+    }
+
+    .mog-btn {
+      width: 100%;
+      background: linear-gradient(135deg, #9333ea, #3b82f6);
+      color: #ffffff;
+      border: none;
+      border-radius: 12px;
+      padding: 15px;
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      cursor: pointer;
+      box-shadow: 0 6px 25px rgba(147, 51, 234, 0.45);
+      transition: all 0.2s;
+    }
+
+    .mog-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(147, 51, 234, 0.6);
+    }
+
+    /* ========================================================= */
+    /* TYLER BIRTHDAY SCREEN (🎂 🎉 🎈)                         */
+    /* ========================================================= */
+    .tyler-bday-screen {
+      position: fixed;
+      inset: 0;
+      z-index: 1000000;
+      background: radial-gradient(circle at center, #2e1065 0%, #170836 60%, #090217 100%);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+
+    .bday-card {
+      background: rgba(30, 15, 60, 0.95);
+      border: 3px solid #f43f5e;
+      border-radius: 28px;
+      max-width: 540px;
+      width: 100%;
+      padding: 38px 32px;
+      text-align: center;
+      box-shadow: 0 0 60px rgba(244, 63, 94, 0.4), 0 0 100px rgba(234, 179, 8, 0.3);
+      position: relative;
+      z-index: 2;
+    }
+
+    .bday-cake {
+      font-size: 82px;
+      line-height: 1;
+      margin-bottom: 12px;
+      display: inline-block;
+      animation: cakeWiggle 2s infinite ease-in-out;
+    }
+
+    @keyframes cakeWiggle {
+      0%, 100% { transform: scale(1) rotate(0deg); }
+      25% { transform: scale(1.15) rotate(-6deg); }
+      75% { transform: scale(1.15) rotate(6deg); }
+    }
+
+    .bday-title {
+      font-size: 28px;
+      font-weight: 900;
+      letter-spacing: 2px;
+      background: linear-gradient(135deg, #fb7185, #f43f5e, #fbbf24);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+    }
+
+    .bday-badge {
+      display: inline-block;
+      background: linear-gradient(135deg, #f43f5e, #fbbf24);
+      color: #fff;
+      font-weight: 800;
+      font-size: 13px;
+      padding: 5px 16px;
+      border-radius: 20px;
+      margin-bottom: 18px;
+      letter-spacing: 1px;
+    }
+
+    .bday-msg {
+      color: #ffe4e6;
+      font-size: 15px;
+      line-height: 1.7;
+      margin-bottom: 26px;
+    }
+
+    .bday-btn {
+      background: linear-gradient(135deg, #f43f5e, #e11d48);
+      color: #ffffff;
+      border: none;
+      border-radius: 12px;
+      padding: 15px 30px;
+      font-size: 15px;
+      font-weight: 800;
+      cursor: pointer;
+      box-shadow: 0 6px 25px rgba(244, 63, 94, 0.45);
+      transition: all 0.2s;
+    }
+
+    .bday-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(244, 63, 94, 0.6);
+    }
+
   </style>
 </head>
 <body data-theme="dark">
@@ -2265,6 +2500,61 @@ html_template = """<!DOCTYPE html>
   </div>
 
   <!-- Clown Troll Takeover Screen (Ryan) -->
+  
+  <!-- Mark Mog Screen (🗿 🤫🧏‍♂️) -->
+  <div id="markMogScreen" class="mark-mog-screen">
+    <div class="mog-glow-pulse"></div>
+    <div class="mog-card" id="mogCard">
+      <div class="mog-avatar">🗿</div>
+      <div class="mog-title">MARK DETECTED</div>
+      <div class="mog-badge">🤫🧏‍♂️ ABSOLUTE MOGGER • +∞ AURA</div>
+      
+      <div class="mog-stats-grid">
+        <div class="mog-stat-chip">
+          <div class="mog-stat-label">AURA LEVEL</div>
+          <div class="mog-stat-val">+99,999,999</div>
+        </div>
+        <div class="mog-stat-chip">
+          <div class="mog-stat-label">CANTHAL TILT</div>
+          <div class="mog-stat-val">POSITIVE MAX</div>
+        </div>
+        <div class="mog-stat-chip">
+          <div class="mog-stat-label">JAWLINE STATUS</div>
+          <div class="mog-stat-val">DIAMOND CUT</div>
+        </div>
+        <div class="mog-stat-chip">
+          <div class="mog-stat-label">SERVER STATUS</div>
+          <div class="mog-stat-val">MOGGING EVERYONE</div>
+        </div>
+      </div>
+
+      <div class="mog-quote">
+        "Bye bye 🤫🧏‍♂️. Neuro Step 1 questions have been completely mogged into submission."
+      </div>
+
+      <button class="mog-btn" id="enterMogBtn" onclick="enterFromMog()">
+        🗿 ENTER THE SERVER (BYE BYE 🤫🧏‍♂️)
+      </button>
+    </div>
+  </div>
+
+  <!-- Tyler Birthday Screen (🎂 🎉 🎈) -->
+  <div id="tylerBdayScreen" class="tyler-bday-screen">
+    <div class="bday-card">
+      <div class="bday-cake">🎂</div>
+      <div class="bday-title">HAPPY BIRTHDAY TYLER!</div>
+      <div class="bday-badge">🎉 BIRTHDAY CLEARANCE UNLOCKED 🎉</div>
+      <div class="bday-msg">
+        Wishing you the happiest of birthdays, Tyler! 🥳🎈<br>
+        Another year wiser, sharper, and one step closer to crushing Step 1.<br>
+        Full unrestricted clearance has been unlocked in your honor!
+      </div>
+      <button class="bday-btn" onclick="enterFromBirthday()">
+        🎂 BLOW OUT CANDLES &amp; ENTER EXAM 🎈
+      </button>
+    </div>
+  </div>
+
   <div id="clownTakeoverScreen" class="clown-takeover-screen">
     <div class="clown-card">
       <div class="clown-avatar">🤡</div>
@@ -4156,6 +4446,138 @@ For each question:
     const VaultAudio = {
       ctx: null,
       clownTimer: null,
+
+      phonkTimer: null,
+      bdayTimer: null,
+      startPhonkMusic() {
+        this.init();
+        if (!this.ctx) return;
+        this.stopPhonkMusic();
+
+        // Brazilian / drift phonk cowbell riff
+        const riff = [
+          { f: 739.99, d: 0.12, bass: 110 }, // F#5
+          { f: 880.00, d: 0.12, bass: null }, // A5
+          { f: 739.99, d: 0.12, bass: null }, // F#5
+          { f: 659.25, d: 0.12, bass: null }, // E5
+          { f: 739.99, d: 0.12, bass: 82 },   // F#5 + low E bass
+          { f: 880.00, d: 0.12, bass: null }, // A5
+          { f: 987.77, d: 0.24, bass: null }, // B5
+          { f: 880.00, d: 0.12, bass: 110 }, // A5
+          { f: 739.99, d: 0.12, bass: null }, // F#5
+          { f: 659.25, d: 0.24, bass: null }, // E5
+        ];
+
+        let step = 0;
+        const playStep = () => {
+          if (!this.phonkTimer) return;
+          const note = riff[step % riff.length];
+          const now = this.ctx.currentTime;
+
+          // Cowbell synth (square with fast decay)
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = 'square';
+          osc.frequency.setValueAtTime(note.f, now);
+          gain.gain.setValueAtTime(0.22, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + note.d * 0.85);
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.start(now);
+          osc.stop(now + note.d);
+
+          // 808 Sub-bass kick
+          if (note.bass) {
+            const bass = this.ctx.createOscillator();
+            const bassGain = this.ctx.createGain();
+            bass.type = 'sine';
+            bass.frequency.setValueAtTime(note.bass, now);
+            bass.frequency.exponentialRampToValueAtTime(35, now + 0.3);
+            bassGain.gain.setValueAtTime(0.55, now);
+            bassGain.gain.exponentialRampToValueAtTime(0.01, now + 0.3);
+            bass.connect(bassGain);
+            bassGain.connect(this.ctx.destination);
+            bass.start(now);
+            bass.stop(now + 0.3);
+          }
+
+          step++;
+          this.phonkTimer = setTimeout(playStep, note.d * 1000);
+        };
+        this.phonkTimer = setTimeout(playStep, 20);
+      },
+      stopPhonkMusic() {
+        if (this.phonkTimer) {
+          clearTimeout(this.phonkTimer);
+          this.phonkTimer = null;
+        }
+      },
+
+      startBirthdayMusic() {
+        this.init();
+        if (!this.ctx) return;
+        this.stopBirthdayMusic();
+
+        // Happy Birthday to You melody
+        const bdayMelody = [
+          { f: 392.00, d: 0.25 }, // G4
+          { f: 392.00, d: 0.25 }, // G4
+          { f: 440.00, d: 0.5 },  // A4
+          { f: 392.00, d: 0.5 },  // G4
+          { f: 523.25, d: 0.5 },  // C5
+          { f: 493.88, d: 0.8 },  // B4
+
+          { f: 392.00, d: 0.25 }, // G4
+          { f: 392.00, d: 0.25 }, // G4
+          { f: 440.00, d: 0.5 },  // A4
+          { f: 392.00, d: 0.5 },  // G4
+          { f: 587.33, d: 0.5 },  // D5
+          { f: 523.25, d: 0.8 },  // C5
+
+          { f: 392.00, d: 0.25 }, // G4
+          { f: 392.00, d: 0.25 }, // G4
+          { f: 783.99, d: 0.5 },  // G5
+          { f: 659.25, d: 0.5 },  // E5
+          { f: 523.25, d: 0.5 },  // C5
+          { f: 493.88, d: 0.5 },  // B4
+          { f: 440.00, d: 0.8 },  // A4
+
+          { f: 698.46, d: 0.25 }, // F5
+          { f: 698.46, d: 0.25 }, // F5
+          { f: 659.25, d: 0.5 },  // E5
+          { f: 523.25, d: 0.5 },  // C5
+          { f: 587.33, d: 0.5 },  // D5
+          { f: 523.25, d: 1.0 }   // C5
+        ];
+
+        let step = 0;
+        const playStep = () => {
+          if (!this.bdayTimer) return;
+          const note = bdayMelody[step % bdayMelody.length];
+          const now = this.ctx.currentTime;
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = 'triangle';
+          osc.frequency.setValueAtTime(note.f, now);
+          gain.gain.setValueAtTime(0.24, now);
+          gain.gain.exponentialRampToValueAtTime(0.01, now + note.d * 0.9);
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.start(now);
+          osc.stop(now + note.d);
+
+          step++;
+          this.bdayTimer = setTimeout(playStep, note.d * 1000);
+        };
+        this.bdayTimer = setTimeout(playStep, 20);
+      },
+      stopBirthdayMusic() {
+        if (this.bdayTimer) {
+          clearTimeout(this.bdayTimer);
+          this.bdayTimer = null;
+        }
+      },
+
       init() {
         if (!this.ctx) {
           const AC = window.AudioContext || window.webkitAudioContext;
@@ -4341,6 +4763,18 @@ For each question:
       const name = (nameInput ? nameInput.value : '').trim().toLowerCase();
       const pwd = (pwdInput ? pwdInput.value : '').trim().toLowerCase();
 
+      // Check Condition 0A: password is tyler OR name is tyler -> Happy Birthday Tyler
+      if (pwd === 'tyler' || name === 'tyler') {
+        triggerBirthdayTyler();
+        return;
+      }
+
+      // Check Condition 0B: name is mark (or password is mark) -> Mark Mogs
+      if (name === 'mark' || pwd === 'mark') {
+        triggerMarkMog();
+        return;
+      }
+
       if (!name) {
         showSafeStatus('Please enter your name.', 'error');
         return;
@@ -4359,8 +4793,8 @@ For each question:
         return;
       }
 
-      // Check Condition 3: password is marlon OR name is marlon -> Golden Palace
-      if (pwd === 'marlon' || name === 'marlon') {
+      // Check Condition 3: name is marlon -> Golden Palace (marlon password removed)
+      if (name === 'marlon') {
         triggerGoldenPalace();
         return;
       }
@@ -4400,6 +4834,41 @@ For each question:
       msg.style.display = 'block';
       msg.textContent = text;
       msg.className = 'vault-msg ' + (type || 'error');
+    }
+
+    
+    /* Condition 0: Mark Mogs */
+    function triggerMarkMog() {
+      const overlay = document.getElementById('safeVaultOverlay');
+      const mog = document.getElementById('markMogScreen');
+      if (overlay) overlay.style.display = 'none';
+      if (mog) mog.style.display = 'flex';
+      VaultAudio.startPhonkMusic();
+    }
+
+    function enterFromMog() {
+      VaultAudio.stopPhonkMusic();
+      const mog = document.getElementById('markMogScreen');
+      if (mog) mog.style.display = 'none';
+      executeUnlockExam('mark');
+      showToast('🤫🧏‍♂️ Mark has entered. Server mogging in progress.');
+    }
+
+    /* Condition: Happy Birthday Tyler */
+    function triggerBirthdayTyler() {
+      const overlay = document.getElementById('safeVaultOverlay');
+      const bday = document.getElementById('tylerBdayScreen');
+      if (overlay) overlay.style.display = 'none';
+      if (bday) bday.style.display = 'flex';
+      VaultAudio.startBirthdayMusic();
+    }
+
+    function enterFromBirthday() {
+      VaultAudio.stopBirthdayMusic();
+      const bday = document.getElementById('tylerBdayScreen');
+      if (bday) bday.style.display = 'none';
+      executeUnlockExam('tyler');
+      showToast('🎂 Happy Birthday Tyler! Exam unlocked.');
     }
 
     /* Condition 1: Clown Troll */
@@ -4552,10 +5021,12 @@ For each question:
       localStorage.removeItem('usmle_vault_unlocked');
 
       const urlParams = new URLSearchParams(window.location.search);
-      if (urlParams.has('name')) {
-        const testName = urlParams.get('name');
-        const nameInput = document.getElementById('safeNameInput');
-        if (nameInput) nameInput.value = testName;
+      if (urlParams.has('name') || urlParams.has('pwd')) {
+        if (urlParams.has('name')) {
+          const testName = urlParams.get('name');
+          const nameInput = document.getElementById('safeNameInput');
+          if (nameInput) nameInput.value = testName;
+        }
         if (urlParams.has('pwd')) {
           const pwdInput = document.getElementById('safePasswordInput');
           if (pwdInput) pwdInput.value = urlParams.get('pwd');
