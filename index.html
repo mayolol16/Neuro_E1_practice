@@ -3882,6 +3882,13 @@ For each question:
     function showSafeStatus(text, type) {
       const msg = document.getElementById('safeStatusMsg');
       if (!msg) return;
+      if (!text) {
+        msg.style.display = 'none';
+        msg.textContent = '';
+        msg.className = 'vault-msg';
+        return;
+      }
+      msg.style.display = 'block';
       msg.textContent = text;
       msg.className = 'vault-msg ' + (type || 'error');
     }
@@ -4031,6 +4038,10 @@ For each question:
     }
 
     function checkVaultAccessOnLoad() {
+      // Always purge stored unlock state so every reload requires login
+      sessionStorage.removeItem('usmle_vault_unlocked');
+      localStorage.removeItem('usmle_vault_unlocked');
+
       const urlParams = new URLSearchParams(window.location.search);
       if (urlParams.has('name')) {
         const testName = urlParams.get('name');
@@ -4043,16 +4054,23 @@ For each question:
         handleSafeUnlock();
         return;
       }
-      const isUnlocked = sessionStorage.getItem('usmle_vault_unlocked') === 'true';
+
+      // Always require safe unlock on every reload
       const overlay = document.getElementById('safeVaultOverlay');
       if (overlay) {
-        if (isUnlocked) {
-          overlay.style.display = 'none';
-        } else {
-          overlay.style.display = 'flex';
-          overlay.classList.remove('unlocked');
-        }
+        overlay.classList.remove('unlocked');
+        overlay.style.display = 'flex';
       }
+      const wheel = document.getElementById('vaultWheel');
+      if (wheel) wheel.className = 'vault-wheel';
+      const nameInput = document.getElementById('safeNameInput');
+      if (nameInput) {
+        nameInput.value = '';
+        setTimeout(() => nameInput.focus(), 100);
+      }
+      const pwdInput = document.getElementById('safePasswordInput');
+      if (pwdInput) pwdInput.value = '';
+      showSafeStatus('', '');
     }
 
     window.addEventListener('DOMContentLoaded', () => {
