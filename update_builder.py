@@ -2450,6 +2450,318 @@ html_template = """<!DOCTYPE html>
       box-shadow: 0 8px 30px rgba(244, 63, 94, 0.6);
     }
 
+    /* ========================================================= */
+    /* NICK DC HERO SCREEN (🦇 🦸‍♂️ ⚡)                           */
+    /* ========================================================= */
+    .nick-dc-screen {
+      position: fixed;
+      inset: 0;
+      z-index: 1000000;
+      background: radial-gradient(circle at 50% 25%, #0f172a 0%, #070d18 55%, #020408 100%);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+
+    .dc-spotlight {
+      position: absolute;
+      width: 700px;
+      height: 700px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(250, 204, 21, 0.18) 0%, rgba(56, 189, 248, 0.12) 45%, transparent 70%);
+      animation: batSignalPulse 4s infinite ease-in-out;
+      pointer-events: none;
+    }
+
+    @keyframes batSignalPulse {
+      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.7; }
+      50% { transform: scale(1.25) translate(15px, -15px); opacity: 0.95; }
+    }
+
+    .dc-card {
+      background: rgba(10, 16, 28, 0.96);
+      border: 2px solid #eab308;
+      border-radius: 28px;
+      max-width: 580px;
+      width: 100%;
+      padding: 34px 30px;
+      text-align: center;
+      box-shadow: 0 0 55px rgba(234, 179, 8, 0.28), 0 0 95px rgba(56, 189, 248, 0.22);
+      position: relative;
+      z-index: 2;
+    }
+
+    .dc-emblem {
+      font-size: 78px;
+      line-height: 1;
+      margin-bottom: 10px;
+      display: inline-block;
+      filter: drop-shadow(0 0 25px rgba(234, 179, 8, 0.9));
+      animation: batHover 2.5s infinite ease-in-out;
+    }
+
+    @keyframes batHover {
+      0%, 100% { transform: translateY(0) scale(1); }
+      50% { transform: translateY(-8px) scale(1.08); }
+    }
+
+    .dc-title {
+      font-size: 27px;
+      font-weight: 900;
+      letter-spacing: 2px;
+      background: linear-gradient(135deg, #fef08a, #facc15, #38bdf8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+    }
+
+    .dc-badge {
+      display: inline-block;
+      background: rgba(234, 179, 8, 0.15);
+      border: 1px solid rgba(234, 179, 8, 0.55);
+      color: #fef08a;
+      font-weight: 700;
+      font-size: 12px;
+      padding: 5px 14px;
+      border-radius: 20px;
+      margin-bottom: 16px;
+      letter-spacing: 1px;
+    }
+
+    .dc-stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .dc-stat-chip {
+      background: rgba(30, 41, 59, 0.7);
+      border: 1px solid rgba(234, 179, 8, 0.25);
+      border-radius: 12px;
+      padding: 9px 12px;
+      text-align: left;
+    }
+
+    .dc-stat-label {
+      font-size: 10px;
+      font-weight: 700;
+      color: #facc15;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 2px;
+    }
+
+    .dc-stat-val {
+      font-size: 13px;
+      font-weight: 800;
+      color: #f8fafc;
+    }
+
+    .dc-memes-box {
+      margin-bottom: 22px;
+      text-align: left;
+    }
+
+    .dc-quote {
+      font-style: italic;
+      color: #cbd5e1;
+      font-size: 12.5px;
+      line-height: 1.5;
+      border-left: 3px solid #eab308;
+      padding-left: 10px;
+      position: relative;
+    }
+
+    .dc-author {
+      display: block;
+      font-style: normal;
+      font-size: 11px;
+      font-weight: 700;
+      color: #facc15;
+      margin-top: 2px;
+    }
+
+    .dc-hero-btn {
+      width: 100%;
+      background: linear-gradient(135deg, #ca8a04, #eab308, #0284c7);
+      color: #0b0f19;
+      border: none;
+      border-radius: 12px;
+      padding: 15px;
+      font-size: 15px;
+      font-weight: 900;
+      letter-spacing: 1px;
+      cursor: pointer;
+      box-shadow: 0 6px 25px rgba(234, 179, 8, 0.45);
+      transition: all 0.2s;
+    }
+
+    .dc-hero-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(234, 179, 8, 0.65);
+    }
+
+    /* ========================================================= */
+    /* ALEX PUNK ROCK SCREEN (🎸 ⚡ 🤘)                           */
+    /* ========================================================= */
+    .alex-punk-screen {
+      position: fixed;
+      inset: 0;
+      z-index: 1000000;
+      background: radial-gradient(circle at center, #260216 0%, #12010b 55%, #050003 100%);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+
+    .punk-strobe-pulse {
+      position: absolute;
+      width: 650px;
+      height: 650px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(255, 0, 85, 0.28) 0%, rgba(57, 255, 20, 0.16) 45%, transparent 70%);
+      animation: punkPulse 2s infinite alternate ease-in-out;
+      pointer-events: none;
+    }
+
+    @keyframes punkPulse {
+      0% { transform: scale(0.95); opacity: 0.6; }
+      100% { transform: scale(1.3); opacity: 0.95; }
+    }
+
+    .punk-card {
+      background: rgba(20, 4, 14, 0.96);
+      border: 3px solid #ff0055;
+      border-radius: 24px;
+      max-width: 580px;
+      width: 100%;
+      padding: 34px 30px;
+      text-align: center;
+      box-shadow: 0 0 55px rgba(255, 0, 85, 0.42), 0 0 95px rgba(57, 255, 20, 0.25);
+      position: relative;
+      z-index: 2;
+      transform: rotate(-0.5deg);
+    }
+
+    .punk-guitar {
+      font-size: 78px;
+      line-height: 1;
+      margin-bottom: 10px;
+      display: inline-block;
+      filter: drop-shadow(0 0 25px rgba(255, 0, 85, 0.9));
+      animation: guitarRock 1.2s infinite ease-in-out;
+    }
+
+    @keyframes guitarRock {
+      0%, 100% { transform: rotate(-5deg) scale(1); }
+      50% { transform: rotate(5deg) scale(1.12); }
+    }
+
+    .punk-title {
+      font-size: 26px;
+      font-weight: 900;
+      letter-spacing: 2px;
+      background: linear-gradient(135deg, #ff0055, #ff3366, #39ff14, #00ffff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+    }
+
+    .punk-badge {
+      display: inline-block;
+      background: rgba(255, 0, 85, 0.2);
+      border: 1px solid rgba(255, 0, 85, 0.6);
+      color: #ff3366;
+      font-weight: 800;
+      font-size: 12px;
+      padding: 5px 14px;
+      border-radius: 20px;
+      margin-bottom: 16px;
+      letter-spacing: 1px;
+    }
+
+    .punk-stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .punk-stat-chip {
+      background: rgba(35, 8, 24, 0.85);
+      border: 1px solid rgba(255, 0, 85, 0.3);
+      border-radius: 12px;
+      padding: 9px 12px;
+      text-align: left;
+    }
+
+    .punk-stat-label {
+      font-size: 10px;
+      font-weight: 800;
+      color: #39ff14;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 2px;
+    }
+
+    .punk-stat-val {
+      font-size: 13px;
+      font-weight: 800;
+      color: #f8fafc;
+    }
+
+    .punk-memes-box {
+      margin-bottom: 22px;
+      text-align: left;
+    }
+
+    .punk-quote {
+      font-style: italic;
+      color: #fce7f3;
+      font-size: 12.5px;
+      line-height: 1.5;
+      border-left: 3px solid #ff0055;
+      padding-left: 10px;
+    }
+
+    .punk-author {
+      display: block;
+      font-style: normal;
+      font-size: 11px;
+      font-weight: 800;
+      color: #39ff14;
+      margin-top: 2px;
+    }
+
+    .punk-btn {
+      width: 100%;
+      background: linear-gradient(135deg, #ff0055, #e11d48, #39ff14);
+      color: #ffffff;
+      border: none;
+      border-radius: 12px;
+      padding: 15px;
+      font-size: 15px;
+      font-weight: 900;
+      letter-spacing: 1px;
+      cursor: pointer;
+      box-shadow: 0 6px 25px rgba(255, 0, 85, 0.5);
+      transition: all 0.2s;
+    }
+
+    .punk-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(255, 0, 85, 0.7);
+    }
+
   </style>
 </head>
 <body data-theme="dark">
@@ -2551,6 +2863,102 @@ html_template = """<!DOCTYPE html>
       </div>
       <button class="bday-btn" onclick="enterFromBirthday()">
         🎂 BLOW OUT CANDLES &amp; ENTER EXAM 🎈
+      </button>
+    </div>
+  </div>
+
+  <!-- Nick DC Hero Screen (🦇 🦸‍♂️ ⚡) -->
+  <div id="nickDCHeroScreen" class="nick-dc-screen">
+    <div class="dc-spotlight"></div>
+    <div class="dc-card" id="dcCard">
+      <div class="dc-emblem">🦇</div>
+      <div class="dc-title">I'M BATMAN. (IT'S NICK)</div>
+      <div class="dc-badge">🦇 GOTHAM'S HIGH-YIELD GUARDIAN • JUSTICE LEAGUE CLEARANCE</div>
+      
+      <div class="dc-stats-grid">
+        <div class="dc-stat-chip">
+          <div class="dc-stat-label">HERO IDENTITY</div>
+          <div class="dc-stat-val">THE DARK KNIGHT (NICK)</div>
+        </div>
+        <div class="dc-stat-chip">
+          <div class="dc-stat-label">SECRET GADGETS</div>
+          <div class="dc-stat-val">BATARANG + FIRST AID</div>
+        </div>
+        <div class="dc-stat-chip">
+          <div class="dc-stat-label">BAT-SIGNAL STATUS</div>
+          <div class="dc-stat-val">BEAMING HIGH-YIELD FACTS</div>
+        </div>
+        <div class="dc-stat-chip">
+          <div class="dc-stat-label">GOTHAM STATUS</div>
+          <div class="dc-stat-val">100% PROTECTED BY NICK</div>
+        </div>
+      </div>
+
+      <div class="dc-memes-box">
+        <div class="dc-quote">
+          "It's not who I am underneath, but what questions I get right that defines me."
+          <span class="dc-author">— Nick Wayne</span>
+        </div>
+        <div class="dc-quote" style="margin-top: 8px;">
+          "Tell me, Step 1... do you bleed points? You will."
+          <span class="dc-author">— Nick v Step 1</span>
+        </div>
+        <div class="dc-quote" style="margin-top: 8px;">
+          "Why do we fall, Master Nick? So we can learn to pick ourselves up and score a 260."
+          <span class="dc-author">— Alfred Pennyworth</span>
+        </div>
+      </div>
+
+      <button class="dc-hero-btn" onclick="enterFromNick()">
+        🦇 ENTER THE BATCAVE &amp; CONQUER THE EXAM ⚡
+      </button>
+    </div>
+  </div>
+
+  <!-- Alex Punk Rock Screen (🎸 ⚡ 🤘) -->
+  <div id="alexPunkRockScreen" class="alex-punk-screen">
+    <div class="punk-strobe-pulse"></div>
+    <div class="punk-card" id="punkCard">
+      <div class="punk-guitar">🎸⚡</div>
+      <div class="punk-title">NEVER MIND THE EXAM, HERE'S ALEX!</div>
+      <div class="punk-badge">⚡ 100% PUNK ROCK ANARCHY • HIGH VOLTAGE 🤘</div>
+      
+      <div class="punk-stats-grid">
+        <div class="punk-stat-chip">
+          <div class="punk-stat-label">ATTITUDE</div>
+          <div class="punk-stat-val">100% MAXIMUM OVERDRIVE</div>
+        </div>
+        <div class="punk-stat-chip">
+          <div class="punk-stat-label">AMPLIFIER</div>
+          <div class="punk-stat-val">CRANKED TO 11</div>
+        </div>
+        <div class="punk-stat-chip">
+          <div class="punk-stat-label">GUITAR RIFF</div>
+          <div class="punk-stat-val">DISTORTED POWER CHORDS</div>
+        </div>
+        <div class="punk-stat-chip">
+          <div class="punk-stat-label">STAGE DIVE</div>
+          <div class="punk-stat-val">STRAIGHT INTO QUESTION BANK</div>
+        </div>
+      </div>
+
+      <div class="punk-memes-box">
+        <div class="punk-quote">
+          "1, 2, 3, 4! Blitzkrieg Bop straight through the Central Nervous System!"
+          <span class="punk-author">— The Ramones (Alex Edition)</span>
+        </div>
+        <div class="punk-quote" style="margin-top: 8px;">
+          "All the small things... like 250 high-yield neuro questions."
+          <span class="punk-author">— Blink-Alex</span>
+        </div>
+        <div class="punk-quote" style="margin-top: 8px;">
+          "Wake me up when Step 1 ends!"
+          <span class="punk-author">— Green Day</span>
+        </div>
+      </div>
+
+      <button class="punk-btn" onclick="enterFromAlex()">
+        🎸 SMASH THE STAGE &amp; ROCK THE EXAM 🤘⚡
       </button>
     </div>
   </div>
@@ -4578,6 +4986,207 @@ For each question:
         }
       },
 
+      dcTimer: null,
+      punkTimer: null,
+
+      startDCHeroMusic() {
+        this.init();
+        if (!this.ctx) return;
+        this.stopDCHeroMusic();
+
+        // Hans Zimmer Dark Knight / DC Hero motif
+        const sequence = [
+          { freq: 73.42, d: 0.26, drum: true },   // D2 (DUN)
+          { freq: 87.31, d: 0.42, drum: false },  // F2 (DUN)
+          { freq: 0,     d: 0.20, drum: false },  // pause
+          { freq: 73.42, d: 0.26, drum: true },   // D2 (DUN)
+          { freq: 87.31, d: 0.42, drum: false },  // F2 (DUN)
+          { freq: 0,     d: 0.20, drum: false },  // pause
+          { freq: 73.42, d: 0.20, drum: true },   // D2
+          { freq: 87.31, d: 0.20, drum: false },  // F2
+          { freq: 103.83,d: 0.26, drum: true },   // G#2
+          { freq: 110.00,d: 0.75, drum: true },   // A2 (Heroic hold)
+          { freq: 0,     d: 0.30, drum: false }   // pause
+        ];
+
+        let step = 0;
+        const playStep = () => {
+          if (!this.dcTimer) return;
+          const item = sequence[step % sequence.length];
+          const now = this.ctx.currentTime;
+
+          // Thunder / Kettle Drum hit
+          if (item.drum) {
+            const drumOsc = this.ctx.createOscillator();
+            const drumGain = this.ctx.createGain();
+            drumOsc.type = 'sine';
+            drumOsc.frequency.setValueAtTime(110, now);
+            drumOsc.frequency.exponentialRampToValueAtTime(30, now + 0.35);
+            drumGain.gain.setValueAtTime(0.7, now);
+            drumGain.gain.exponentialRampToValueAtTime(0.001, now + 0.4);
+            drumOsc.connect(drumGain);
+            drumGain.connect(this.ctx.destination);
+            drumOsc.start(now);
+            drumOsc.stop(now + 0.4);
+          }
+
+          // Heroic Brass Saw Horns
+          if (item.freq > 0) {
+            [-4, 0, 4].forEach(det => {
+              const osc = this.ctx.createOscillator();
+              const filter = this.ctx.createBiquadFilter();
+              const gain = this.ctx.createGain();
+
+              osc.type = 'sawtooth';
+              osc.frequency.setValueAtTime(item.freq, now);
+              osc.detune.setValueAtTime(det, now);
+
+              filter.type = 'lowpass';
+              filter.frequency.setValueAtTime(450, now);
+              filter.frequency.exponentialRampToValueAtTime(1600, now + 0.1);
+              filter.frequency.exponentialRampToValueAtTime(500, now + item.d);
+              filter.Q.setValueAtTime(3.5, now);
+
+              gain.gain.setValueAtTime(0.18, now);
+              gain.gain.exponentialRampToValueAtTime(0.01, now + item.d * 0.95);
+
+              osc.connect(filter);
+              filter.connect(gain);
+              gain.connect(this.ctx.destination);
+
+              osc.start(now);
+              osc.stop(now + item.d);
+            });
+          }
+
+          step++;
+          this.dcTimer = setTimeout(playStep, item.d * 1000);
+        };
+        this.dcTimer = setTimeout(playStep, 20);
+      },
+      stopDCHeroMusic() {
+        if (this.dcTimer) {
+          clearTimeout(this.dcTimer);
+          this.dcTimer = null;
+        }
+      },
+
+      startPunkMusic() {
+        this.init();
+        if (!this.ctx) return;
+        this.stopPunkMusic();
+
+        // Driving Punk Rock Progression (A -> D -> E -> D) with fast 8th-note strumming
+        const chords = [
+          { chord: [110, 164.81, 220], drum: 'kick' },
+          { chord: [110, 164.81, 220], drum: 'snare' },
+          { chord: [110, 164.81, 220], drum: 'kick' },
+          { chord: [110, 164.81, 220], drum: 'snare' },
+          { chord: [146.83, 220, 293.66], drum: 'kick' },
+          { chord: [146.83, 220, 293.66], drum: 'snare' },
+          { chord: [146.83, 220, 293.66], drum: 'kick' },
+          { chord: [146.83, 220, 293.66], drum: 'snare' },
+          { chord: [164.81, 246.94, 329.63], drum: 'kick' },
+          { chord: [164.81, 246.94, 329.63], drum: 'snare' },
+          { chord: [164.81, 246.94, 329.63], drum: 'kick' },
+          { chord: [164.81, 246.94, 329.63], drum: 'snare' },
+          { chord: [146.83, 220, 293.66], drum: 'kick' },
+          { chord: [146.83, 220, 293.66], drum: 'snare' },
+          { chord: [146.83, 220, 293.66], drum: 'kick' },
+          { chord: [146.83, 220, 293.66], drum: 'snare' }
+        ];
+
+        let step = 0;
+        const noteDur = 0.16; // ~185 BPM fast punk tempo
+
+        const playStep = () => {
+          if (!this.punkTimer) return;
+          const item = chords[step % chords.length];
+          const now = this.ctx.currentTime;
+
+          // Distorted Guitar Power Chords
+          item.chord.forEach((freq, idx) => {
+            const osc = this.ctx.createOscillator();
+            const filter = this.ctx.createBiquadFilter();
+            const gain = this.ctx.createGain();
+
+            osc.type = 'sawtooth';
+            osc.frequency.setValueAtTime(freq, now);
+            osc.detune.setValueAtTime(idx === 1 ? 5 : (idx === 2 ? -5 : 0), now);
+
+            // Crunch guitar filter
+            filter.type = 'bandpass';
+            filter.frequency.setValueAtTime(1400, now);
+            filter.Q.setValueAtTime(2.2, now);
+
+            gain.gain.setValueAtTime(0.14, now);
+            gain.gain.exponentialRampToValueAtTime(0.01, now + noteDur * 0.9);
+
+            osc.connect(filter);
+            filter.connect(gain);
+            gain.connect(this.ctx.destination);
+
+            osc.start(now);
+            osc.stop(now + noteDur);
+          });
+
+          // Punk Drums
+          if (item.drum === 'kick') {
+            const kOsc = this.ctx.createOscillator();
+            const kGain = this.ctx.createGain();
+            kOsc.type = 'sine';
+            kOsc.frequency.setValueAtTime(140, now);
+            kOsc.frequency.exponentialRampToValueAtTime(45, now + 0.12);
+            kGain.gain.setValueAtTime(0.65, now);
+            kGain.gain.exponentialRampToValueAtTime(0.01, now + 0.14);
+            kOsc.connect(kGain);
+            kGain.connect(this.ctx.destination);
+            kOsc.start(now);
+            kOsc.stop(now + 0.14);
+          } else if (item.drum === 'snare') {
+            const sOsc = this.ctx.createOscillator();
+            const sGain = this.ctx.createGain();
+            sOsc.type = 'triangle';
+            sOsc.frequency.setValueAtTime(220, now);
+            sGain.gain.setValueAtTime(0.4, now);
+            sGain.gain.exponentialRampToValueAtTime(0.01, now + 0.08);
+            sOsc.connect(sGain);
+            sGain.connect(this.ctx.destination);
+            sOsc.start(now);
+            sOsc.stop(now + 0.08);
+
+            const bufferSize = Math.floor(this.ctx.sampleRate * 0.08);
+            const buffer = this.ctx.createBuffer(1, bufferSize, this.ctx.sampleRate);
+            const data = buffer.getChannelData(0);
+            for (let i = 0; i < bufferSize; i++) {
+              data[i] = Math.random() * 2 - 1;
+            }
+            const noise = this.ctx.createBufferSource();
+            noise.buffer = buffer;
+            const nFilter = this.ctx.createBiquadFilter();
+            nFilter.type = 'highpass';
+            nFilter.frequency.setValueAtTime(1000, now);
+            const nGain = this.ctx.createGain();
+            nGain.gain.setValueAtTime(0.3, now);
+            nGain.gain.exponentialRampToValueAtTime(0.01, now + 0.08);
+            noise.connect(nFilter);
+            nFilter.connect(nGain);
+            nGain.connect(this.ctx.destination);
+            noise.start(now);
+          }
+
+          step++;
+          this.punkTimer = setTimeout(playStep, noteDur * 1000);
+        };
+        this.punkTimer = setTimeout(playStep, 20);
+      },
+      stopPunkMusic() {
+        if (this.punkTimer) {
+          clearTimeout(this.punkTimer);
+          this.punkTimer = null;
+        }
+      },
+
       init() {
         if (!this.ctx) {
           const AC = window.AudioContext || window.webkitAudioContext;
@@ -4799,9 +5408,15 @@ For each question:
         return;
       }
 
-      // Check Condition 4: nick or alex -> Direct Entry
-      if (name === 'nick' || name === 'alex' || pwd === 'nick' || pwd === 'alex') {
-        triggerDirectUnlock(name || pwd);
+      // Check Condition 4A: nick -> DC Hero Memes & Music
+      if (name === 'nick' || pwd === 'nick') {
+        triggerNickDCHero();
+        return;
+      }
+
+      // Check Condition 4B: alex -> Punk Rock Vibes & Music
+      if (name === 'alex' || pwd === 'alex') {
+        triggerAlexPunkRock();
         return;
       }
 
@@ -4869,6 +5484,40 @@ For each question:
       if (bday) bday.style.display = 'none';
       executeUnlockExam('tyler');
       showToast('🎂 Happy Birthday Tyler! Exam unlocked.');
+    }
+
+    /* Condition 4A: Nick DC Hero */
+    function triggerNickDCHero() {
+      const overlay = document.getElementById('safeVaultOverlay');
+      const dcScreen = document.getElementById('nickDCHeroScreen');
+      if (overlay) overlay.style.display = 'none';
+      if (dcScreen) dcScreen.style.display = 'flex';
+      VaultAudio.startDCHeroMusic();
+    }
+
+    function enterFromNick() {
+      VaultAudio.stopDCHeroMusic();
+      const dcScreen = document.getElementById('nickDCHeroScreen');
+      if (dcScreen) dcScreen.style.display = 'none';
+      executeUnlockExam('nick');
+      showToast('🦇 Gotham is safe. The Dark Knight Nick has arrived!');
+    }
+
+    /* Condition 4B: Alex Punk Rock */
+    function triggerAlexPunkRock() {
+      const overlay = document.getElementById('safeVaultOverlay');
+      const punkScreen = document.getElementById('alexPunkRockScreen');
+      if (overlay) overlay.style.display = 'none';
+      if (punkScreen) punkScreen.style.display = 'flex';
+      VaultAudio.startPunkMusic();
+    }
+
+    function enterFromAlex() {
+      VaultAudio.stopPunkMusic();
+      const punkScreen = document.getElementById('alexPunkRockScreen');
+      if (punkScreen) punkScreen.style.display = 'none';
+      executeUnlockExam('alex');
+      showToast('🤘 Alex just stage dived into the exam! ROCK ON!');
     }
 
     /* Condition 1: Clown Troll */
