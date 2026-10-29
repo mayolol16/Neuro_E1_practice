@@ -2264,11 +2264,11 @@ html_template = """<!DOCTYPE html>
     </div>
   </div>
 
-  <!-- Clown Troll Takeover Screen (Will / William) -->
+  <!-- Clown Troll Takeover Screen (Ryan) -->
   <div id="clownTakeoverScreen" class="clown-takeover-screen">
     <div class="clown-card">
       <div class="clown-avatar">🤡</div>
-      <div class="clown-title">WILL / WILLIAM DETECTED</div>
+      <div class="clown-title">RYAN DETECTED</div>
       <div class="clown-badge">🎪 CIRCUS TENT ACCESS ONLY 🎪</div>
       <div class="clown-desc">
         HONK HONK! 🎺 Access to medical knowledge has been quarantined!<br>
@@ -4346,8 +4346,9 @@ For each question:
         return;
       }
 
-      // Check Condition 1: will or william -> Clown Troll
-      if (name === 'will' || name === 'william' || pwd === 'will' || pwd === 'william') {
+      // Check Condition 1: ryan -> Clown Troll (will/william commented out)
+      // if (name === 'will' || name === 'william' || pwd === 'will' || pwd === 'william') { triggerClownTakeover(); return; }
+      if (name === 'ryan' || pwd === 'ryan') {
         triggerClownTakeover();
         return;
       }
