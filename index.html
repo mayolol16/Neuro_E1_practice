@@ -1732,7 +1732,7 @@
           <div class="terminal-led" id="terminalLed"></div>
           <div class="terminal-title">SECURITY VAULT</div>
         </div>
-        <div class="terminal-subtitle">Authorized Operatives Verification</div>
+        <div class="terminal-subtitle">Restricted Access • Clearance Required</div>
 
         <form id="vaultLoginForm" onsubmit="event.preventDefault(); handleSafeUnlock();">
           <div class="vault-input-group">
@@ -3869,7 +3869,7 @@ For each question:
         led.className = 'terminal-led error';
         setTimeout(() => { if (led) led.className = 'terminal-led'; }, 1500);
       }
-      showSafeStatus(`Access Denied: Operative '${name}' not recognized. Authorized: marlon, jacob, nick, alex.`, 'error');
+      showSafeStatus('Access Denied: Unrecognized operative name.', 'error');
       
       const card = document.getElementById('vaultTerminalCard');
       if (card) {
@@ -3902,7 +3902,7 @@ For each question:
       if (clown) clown.style.display = 'none';
       if (overlay) {
         overlay.style.display = 'flex';
-        showSafeStatus('Will/William, please try again with an authorized operative identity.', 'error');
+        showSafeStatus('Access Denied: Please enter a valid operative name.', 'error');
       }
     }
 
