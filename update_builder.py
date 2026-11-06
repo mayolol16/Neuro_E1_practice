@@ -2834,48 +2834,6 @@ html_template = """<!DOCTYPE html>
 </head>
 <body data-theme="dark">
 
-  <!-- Safe Vault Authentication Overlay (Removed) -->
-  <!--
-  <div id="safeVaultOverlay" class="safe-vault-overlay">
-    <div class="vault-bg-grid"></div>
-    <div class="vault-door-container" id="vaultDoorContainer">
-      <div class="vault-rivets"></div>
-      
-      <!-- Vault Combination Wheel -->
-      <div class="vault-wheel-wrap">
-        <div class="vault-wheel" id="vaultWheel">
-          <div class="vault-wheel-spoke spoke-h"></div>
-          <div class="vault-wheel-spoke spoke-v"></div>
-          <div class="vault-wheel-hub" id="vaultCenterHub" onclick="triggerSecretUnlock()" title="Security Lock">🔒</div>
-        </div>
-      </div>
-
-      <!-- Vault Terminal Card -->
-      <div class="vault-terminal" id="vaultTerminalCard">
-        <div class="terminal-status-row">
-          <div class="terminal-led" id="terminalLed"></div>
-          <div class="terminal-title">SECURITY VAULT</div>
-        </div>
-        <div class="terminal-subtitle">Restricted Access • Clearance Required</div>
-
-        <form id="vaultLoginForm" onsubmit="event.preventDefault(); handleSafeUnlock();">
-          <div class="vault-input-group">
-            <label for="safeNameInput">Operative Name</label>
-            <input type="text" id="safeNameInput" class="vault-input" placeholder="Enter your name..." autocomplete="name" required />
-          </div>
-
-          <div id="safeStatusMsg" class="vault-msg"></div>
-
-          <button type="submit" class="vault-unlock-btn" id="safeUnlockBtn">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-            <span>AUTHENTICATE &amp; UNLOCK</span>
-          </button>
-        </form>
-      </div>
-    </div>
-  </div>
-  -->
-
   <!-- Clown Troll Takeover Screen (Ryan) -->
   
   <!-- Mark Mog Screen (🗿 🤫🧏‍♂️) -->
