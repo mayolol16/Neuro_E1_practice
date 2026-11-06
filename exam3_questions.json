@@ -2382,7 +2382,7 @@
   {
     "id": "exam3_q66",
     "q_num": "66",
-    "stem": "You are seeing Mr. Williams today in the clinic. You note a tremor, which he says is new. Which of the following pathologies is matched CORRECTLY with the tremor type below:",
+    "stem": "You are seeing a patient (Mr. Williams) today in the clinic who presents for evaluation of a newly noticed tremor. In evaluating the clinical differential diagnosis of tremor subtypes (resting, postural/action, kinetic/intention, and enhanced physiologic), which of the following pathologies is matched CORRECTLY with the tremor type below:",
     "category": "Cerebellum",
     "source": "USMLE Step 1 Exam 3 Practice Bank",
     "options": [
@@ -2408,7 +2408,7 @@
       }
     ],
     "correct_idx": 3,
-    "explanation": "Parkinson disease is characterized by a resting tremor, essential tremor by a tremor that typically occurs while trying to sustain a posture coupled with an action tremor, and cerebellar dysfunction by a kinetic tremor and is usually associated with hypotonia and past pointing. Normal individuals can have a physiologic tremor that typically manifests as a mild, high- frequency (10–12 Hz), postural or action tremor typically affecting the upper extremities. This tremor is usually of no clinical consequence and often is only appreciated with an accelerometer or under stress. An enhanced physiologic tremor can be seen in up to 10% of the population, and it tends to occur in association with anxiety, fatigue, a metabolic disturbance (e.g., hyperthyroidism, electrolyte abnormalities), drugs (e.g., valproate, lithium), or toxins (e.g., caffeine, smoking, alcohol).",
+    "explanation": "Parkinson disease is characterized by a resting tremor (pill-rolling, 4–6 Hz, worsens at rest, improves with voluntary movement). Essential tremor is a postural and action tremor (6–12 Hz, occurs while holding posture or moving, often familial, improves with alcohol, treated with propranolol/primidone). Cerebellar dysfunction produces an intention/kinetic tremor (coarse tremor that worsens as the limb nears a target, associated with dysmetria and hypotonia). Enhanced physiologic tremor is a high-frequency (10–12 Hz) postural/action tremor that occurs in response to stress, anxiety, caffeine ingestion, fatigue, thyrotoxicosis, or beta-agonists.",
     "high_yield_pearl": "High-Yield Rule: Cerebellum",
     "image": null
   },
