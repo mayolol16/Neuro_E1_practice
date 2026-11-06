@@ -505,6 +505,26 @@ exam2_set2_categories_json_str = json.dumps(exam2_set2_categories, ensure_ascii=
 exam2_set3_json_data_str = json.dumps(exam2_set3_questions, ensure_ascii=False)
 exam2_set3_categories_json_str = json.dumps(exam2_set3_categories, ensure_ascii=False)
 
+# Load Exam 3 (9 Topics: 118 Questions from Ex3-USMLEPracANS.pdf)
+exam3_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'exam3_questions.json')
+with open(exam3_path, 'r', encoding='utf-8') as f:
+    exam3_questions = json.load(f)
+
+exam3_categories = [
+    'Demyelinating Diseases',
+    'Cerebellum',
+    'Tumors',
+    'Infections',
+    'CBIL: Epilepsy',
+    'Blood Supply',
+    'Cerebrovascular Disease',
+    'Brainstem Stroke',
+    'Dementia'
+]
+
+exam3_json_data_str = json.dumps(exam3_questions, ensure_ascii=False)
+exam3_categories_json_str = json.dumps(exam3_categories, ensure_ascii=False)
+
 
 html_template = """<!DOCTYPE html>
 <html lang="en">
@@ -638,6 +658,43 @@ html_template = """<!DOCTYPE html>
       color: #ffffff;
       font-weight: 800;
       box-shadow: 0 2px 10px rgba(139, 92, 246, 0.45);
+    }
+
+    .exam-tab-btn.active-exam3 {
+      background: linear-gradient(135deg, #059669, #10b981, #06b6d4);
+      color: #ffffff;
+      font-weight: 800;
+      box-shadow: 0 2px 10px rgba(16, 185, 129, 0.45);
+    }
+
+    .track-btn.exam3-active {
+      background: linear-gradient(135deg, #059669, #06b6d4);
+      color: #ffffff;
+      border-color: #06b6d4;
+      box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35);
+    }
+
+    .tag.exam3, .q-track-tag.exam3 {
+      background: rgba(16, 185, 129, 0.15);
+      color: #34d399;
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+
+    .cat-chip.exam3-cat, .cat-item.exam3-cat {
+      background: rgba(16, 185, 129, 0.08);
+      border-color: rgba(16, 185, 129, 0.25);
+      color: #6ee7b7;
+    }
+    .cat-chip.exam3-cat.active, .cat-item.exam3-cat.active {
+      background: #059669;
+      color: #ffffff;
+      border-color: #10b981;
+      box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+    }
+
+    .timer-display.exam3 {
+      border-color: rgba(16, 185, 129, 0.4);
+      color: #34d399;
     }
 
     .switcher-separator {
@@ -2806,10 +2863,12 @@ html_template = """<!DOCTYPE html>
             <input type="text" id="safeNameInput" class="vault-input" placeholder="Enter your name..." autocomplete="name" required />
           </div>
 
+          <!-- Passcode input commented out for now
           <div class="vault-input-group">
             <label for="safePasswordInput">Passcode (Optional)</label>
             <input type="password" id="safePasswordInput" class="vault-input" placeholder="Enter passcode..." autocomplete="current-password" />
           </div>
+          -->
 
           <div id="safeStatusMsg" class="vault-msg"></div>
 
@@ -3046,6 +3105,10 @@ html_template = """<!DOCTYPE html>
         <button id="exam2TabBtn" class="exam-tab-btn" onclick="selectExam('exam2')">
           <span>🧠</span>
           <span>Exam 2</span>
+        </button>
+        <button id="exam3TabBtn" class="exam-tab-btn" onclick="selectExam('exam3')">
+          <span>⚡</span>
+          <span>Exam 3</span>
         </button>
       </div>
 
@@ -3376,6 +3439,8 @@ html_template = """<!DOCTYPE html>
     const exam2Set2Categories = """ + exam2_set2_categories_json_str + """;
     const rawExam2Set3Questions = """ + exam2_set3_json_data_str + """;
     const exam2Set3Categories = """ + exam2_set3_categories_json_str + """;
+    const rawExam3Questions = """ + exam3_json_data_str + """;
+    const exam3Categories = """ + exam3_categories_json_str + """;
 
 
     // ACTIVE TRACK: 'focused_zen' (320 Qs from Study Guide), 'exam' (125 Qs), or 'zen' (320 Qs)
@@ -3514,14 +3579,28 @@ html_template = """<!DOCTYPE html>
           badge: '9 Sections',
           type: 'exam2'
         }
+      ],
+      exam3: [
+        {
+          id: 'exam3_practice',
+          label: 'Practice Exam 3 (118 Qs)',
+          icon: '⚡',
+          badge: '9 Topics • Official',
+          type: 'exam3'
+        }
       ]
     };
+
+    function isExam3Track(track) {
+      return track === 'exam3' || track === 'exam3_practice';
+    }
 
     function isExam2Track(track) {
       return track === 'exam2' || track === 'exam2_inhouse' || track === 'exam2_inhouse2' || track === 'exam2_replicate' || track === 'exam2_deep' || track === 'exam2_set3' || track === 'exam2_set2' || track === 'exam2_sim' || track === 'exam2_zen' || track === 'exam2_pdf_practice';
     }
 
     function getCategoriesForTrack() {
+      if (isExam3Track(currentTrack)) return exam3Categories;
       if (currentTrack === 'exam2_set3') return exam2Set3Categories;
       if (currentTrack === 'exam2_set2') return exam2Set2Categories;
       if (currentTrack === 'exam2_deep') return exam2DeepCategories;
@@ -3540,20 +3619,18 @@ html_template = """<!DOCTYPE html>
 
       const e1Tab = document.getElementById('exam1TabBtn');
       const e2Tab = document.getElementById('exam2TabBtn');
-      if (e1Tab && e2Tab) {
-        if (currentExam === 'exam1') {
-          e1Tab.className = 'exam-tab-btn active-exam1';
-          e2Tab.className = 'exam-tab-btn';
-        } else {
-          e1Tab.className = 'exam-tab-btn';
-          e2Tab.className = 'exam-tab-btn active-exam2';
-        }
-      }
+      const e3Tab = document.getElementById('exam3TabBtn');
+      if (e1Tab) e1Tab.className = 'exam-tab-btn' + (currentExam === 'exam1' ? ' active-exam1' : '');
+      if (e2Tab) e2Tab.className = 'exam-tab-btn' + (currentExam === 'exam2' ? ' active-exam2' : '');
+      if (e3Tab) e3Tab.className = 'exam-tab-btn' + (currentExam === 'exam3' ? ' active-exam3' : '');
 
       renderBankSwitcher();
 
       // Pick active bank for this exam
-      if (currentExam === 'exam2') {
+      if (currentExam === 'exam3') {
+        const savedBank = localStorage.getItem('usmle_exam3_active_bank') || 'exam3_practice';
+        switchTrack(savedBank);
+      } else if (currentExam === 'exam2') {
         const savedBank = localStorage.getItem('usmle_exam2_active_bank') || 'exam2_zen';
         switchTrack(savedBank);
       } else {
@@ -3579,6 +3656,7 @@ html_template = """<!DOCTYPE html>
           else if (b.type === 'focused_zen') activeClass = ' focused-zen-active';
           else if (b.type === 'zen') activeClass = ' zen-active';
           else if (b.type === 'exam2') activeClass = ' exam2-active';
+          else if (b.type === 'exam3') activeClass = ' exam3-active';
         }
         btn.className = 'track-btn' + activeClass;
         btn.onclick = () => switchTrack(b.id);
@@ -3594,7 +3672,10 @@ html_template = """<!DOCTYPE html>
     function switchTrack(newTrack) {
       saveState();
 
-      if (isExam2Track(newTrack)) {
+      if (isExam3Track(newTrack)) {
+        currentExam = 'exam3';
+        localStorage.setItem('usmle_exam3_active_bank', newTrack);
+      } else if (isExam2Track(newTrack)) {
         currentExam = 'exam2';
         localStorage.setItem('usmle_exam2_active_bank', newTrack);
       } else {
@@ -3609,15 +3690,10 @@ html_template = """<!DOCTYPE html>
       // Highlight level 1 tabs
       const e1Tab = document.getElementById('exam1TabBtn');
       const e2Tab = document.getElementById('exam2TabBtn');
-      if (e1Tab && e2Tab) {
-        if (currentExam === 'exam1') {
-          e1Tab.className = 'exam-tab-btn active-exam1';
-          e2Tab.className = 'exam-tab-btn';
-        } else {
-          e1Tab.className = 'exam-tab-btn';
-          e2Tab.className = 'exam-tab-btn active-exam2';
-        }
-      }
+      const e3Tab = document.getElementById('exam3TabBtn');
+      if (e1Tab) e1Tab.className = 'exam-tab-btn' + (currentExam === 'exam1' ? ' active-exam1' : '');
+      if (e2Tab) e2Tab.className = 'exam-tab-btn' + (currentExam === 'exam2' ? ' active-exam2' : '');
+      if (e3Tab) e3Tab.className = 'exam-tab-btn' + (currentExam === 'exam3' ? ' active-exam3' : '');
 
       // Re-render level 2 bank pills with new active state
       renderBankSwitcher();
@@ -3629,9 +3705,18 @@ html_template = """<!DOCTYPE html>
       const sidebarTitle = document.getElementById('sidebarTitle');
       const timerDisplay = document.getElementById('timerDisplay');
 
-      timerDisplay.classList.remove('zen', 'focused-zen', 'inhouse', 'exam2');
+      timerDisplay.classList.remove('zen', 'focused-zen', 'inhouse', 'exam2', 'exam3');
 
-      if (currentTrack === 'exam2_set3') {
+      if (isExam3Track(currentTrack)) {
+        zenTray.style.display = 'flex';
+        trayIcon.textContent = '⚡';
+        trayLabelText.textContent = 'Exam 3 Topics:';
+        trackTag.style.display = 'inline-block';
+        trackTag.className = 'q-track-tag exam3';
+        trackTag.textContent = '⚡ Practice Exam 3';
+        timerDisplay.classList.add('exam3');
+        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg> Exam 3 Topics (9)`;
+      } else if (currentTrack === 'exam2_set3') {
         zenTray.style.display = 'flex';
         trayIcon.textContent = '📚';
         trayLabelText.textContent = 'Set 3 Units:';
@@ -3749,7 +3834,7 @@ html_template = """<!DOCTYPE html>
       filterIncorrectOnly = false;
 
       loadTrackState();
-      if (currentTrack === 'exam2_set3' || currentTrack === 'exam2_set2' || currentTrack === 'exam2_deep' || currentTrack === 'exam2_replicate' || currentTrack === 'exam2_inhouse2' || currentTrack === 'exam2_inhouse' || currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'exam2_pdf_practice' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
+      if (isExam3Track(currentTrack) || currentTrack === 'exam2_set3' || currentTrack === 'exam2_set2' || currentTrack === 'exam2_deep' || currentTrack === 'exam2_replicate' || currentTrack === 'exam2_inhouse2' || currentTrack === 'exam2_inhouse' || currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'exam2_pdf_practice' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
         renderZenTray();
       }
       applyFilter();
@@ -3757,7 +3842,9 @@ html_template = """<!DOCTYPE html>
       updateOverallStats();
       renderCurrentQuestion();
 
-      const toastMsg = currentTrack === 'exam2_set3'
+      const toastMsg = isExam3Track(currentTrack)
+        ? 'Exam 3: Loaded ⚡ Practice Exam 3 (118 Qs - 9 Topics)'
+        : currentTrack === 'exam2_set3'
         ? 'Exam 2: Loaded 📚 Set 3 Step 1 Bank (150 Qs - Randomized)'
         : currentTrack === 'exam2_set2'
         ? 'Exam 2: Loaded 📑 Set 2 Step 1 Bank (100 Qs - Randomized)' 
@@ -3790,7 +3877,10 @@ html_template = """<!DOCTYPE html>
       let storagePrefix = 'usmle_exam1_';
       let rawData = rawExamQuestions;
 
-      if (currentTrack === 'exam2_set3') {
+      if (isExam3Track(currentTrack)) {
+        storagePrefix = 'usmle_exam3_practice_';
+        rawData = rawExam3Questions;
+      } else if (currentTrack === 'exam2_set3') {
         storagePrefix = 'usmle_exam2_set3_';
         rawData = rawExam2Set3Questions;
       } else if (currentTrack === 'exam2_set2') {
@@ -3952,7 +4042,8 @@ html_template = """<!DOCTYPE html>
 
     function saveState() {
       let storagePrefix = 'usmle_exam1_';
-      if (currentTrack === 'exam2_set3') storagePrefix = 'usmle_exam2_set3_';
+      if (isExam3Track(currentTrack)) storagePrefix = 'usmle_exam3_practice_';
+      else if (currentTrack === 'exam2_set3') storagePrefix = 'usmle_exam2_set3_';
       else if (currentTrack === 'exam2_set2') storagePrefix = 'usmle_exam2_set2_';
       else if (currentTrack === 'exam2_deep') storagePrefix = 'usmle_exam2_deep_';
       else if (currentTrack === 'exam2_replicate') storagePrefix = 'usmle_exam2_replicate_';
@@ -4329,7 +4420,7 @@ html_template = """<!DOCTYPE html>
 
       // Submit Button visibility
       const submitBtn = document.getElementById('submitChoiceBtn');
-      if (isAnswered || currentTrack === 'exam2_set3' || currentTrack === 'exam2_set2' || currentTrack === 'exam2_deep' || currentTrack === 'exam2_replicate' || currentTrack === 'exam2_inhouse2' || currentTrack === 'exam2_inhouse' || currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
+      if (isAnswered || isExam3Track(currentTrack) || currentTrack === 'exam2_set3' || currentTrack === 'exam2_set2' || currentTrack === 'exam2_deep' || currentTrack === 'exam2_replicate' || currentTrack === 'exam2_inhouse2' || currentTrack === 'exam2_inhouse' || currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
         submitBtn.style.display = 'none';
       } else {
         submitBtn.style.display = 'inline-flex';
@@ -4396,7 +4487,7 @@ html_template = """<!DOCTYPE html>
       state.selectedChoiceIndex = optIdx;
 
       // In In-House and Zen modes, instant submit and feedback on click!
-      if (currentTrack === 'exam2_set3' || currentTrack === 'exam2_set2' || currentTrack === 'exam2_deep' || currentTrack === 'exam2_replicate' || currentTrack === 'exam2_inhouse2' || currentTrack === 'exam2_inhouse' || currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'exam2_pdf_practice' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
+      if (isExam3Track(currentTrack) || currentTrack === 'exam2_set3' || currentTrack === 'exam2_set2' || currentTrack === 'exam2_deep' || currentTrack === 'exam2_replicate' || currentTrack === 'exam2_inhouse2' || currentTrack === 'exam2_inhouse' || currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'exam2_pdf_practice' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
         submitAnswer();
       } else {
         renderCurrentQuestion();
@@ -4429,7 +4520,7 @@ html_template = """<!DOCTYPE html>
       renderCurrentQuestion();
       renderSidebarCategories();
       updateOverallStats();
-      if (currentTrack === 'exam2_set3' || currentTrack === 'exam2_set2' || currentTrack === 'exam2_deep' || currentTrack === 'exam2_replicate' || currentTrack === 'exam2_inhouse2' || currentTrack === 'exam2_inhouse' || currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'exam2_pdf_practice' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
+      if (isExam3Track(currentTrack) || currentTrack === 'exam2_set3' || currentTrack === 'exam2_set2' || currentTrack === 'exam2_deep' || currentTrack === 'exam2_replicate' || currentTrack === 'exam2_inhouse2' || currentTrack === 'exam2_inhouse' || currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'exam2_pdf_practice' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
         renderZenTray();
       }
       saveState();
@@ -4533,7 +4624,7 @@ html_template = """<!DOCTYPE html>
 
         const item = document.createElement('div');
         const isActive = activeCategoryFilter === cat;
-        const catClass = isExam2Track(currentTrack) ? 'exam2-cat' : currentTrack === 'inhouse' ? 'inhouse-cat' : currentTrack === 'focused_zen' ? 'focused-zen-cat' : currentTrack === 'zen' ? 'zen-cat' : '';
+        const catClass = isExam3Track(currentTrack) ? 'exam3-cat' : isExam2Track(currentTrack) ? 'exam2-cat' : currentTrack === 'inhouse' ? 'inhouse-cat' : currentTrack === 'focused_zen' ? 'focused-zen-cat' : currentTrack === 'zen' ? 'zen-cat' : '';
         item.className = `cat-item ${isActive ? 'active' : ''} ${catClass}`;
         item.onclick = () => filterCategory(isActive ? null : cat);
 
@@ -4588,7 +4679,9 @@ html_template = """<!DOCTYPE html>
     function openItemGrid() {
       const container = document.getElementById('gridItemsContainer');
       container.innerHTML = '';
-      const trackName = currentTrack === 'exam2'
+      const trackName = isExam3Track(currentTrack)
+        ? '⚡ Exam 3 Practice (118 Qs)'
+        : currentTrack === 'exam2'
         ? '🧠 Exam 2 (103 Qs)'
         : currentTrack === 'inhouse'
         ? '🏠 In-House Course'
@@ -4654,7 +4747,9 @@ html_template = """<!DOCTYPE html>
       document.getElementById('reportCorrectCount').textContent = totalCorrect.toString();
       document.getElementById('reportIncorrectCount').textContent = totalIncorrect.toString();
 
-      const reportTitle = isExam2Track(currentTrack)
+      const reportTitle = isExam3Track(currentTrack)
+        ? '⚡ Exam 3 Practice (118 Qs) Score Report'
+        : isExam2Track(currentTrack)
         ? (currentTrack === 'exam2_set3'
             ? '📚 Exam 2 Set 3 (150 Qs) Score Report'
             : currentTrack === 'exam2_set2'
@@ -4682,7 +4777,8 @@ html_template = """<!DOCTYPE html>
       const breakdown = document.getElementById('reportCategoryBreakdown');
       breakdown.innerHTML = '';
 
-      subjectCategories.forEach((cat) => {
+      const catsToUse = getCategoriesForTrack();
+      catsToUse.forEach((cat) => {
         const catQuestions = questions.filter(q => q.category === cat);
         const total = catQuestions.length;
         if (total === 0) return;
@@ -4781,7 +4877,10 @@ For each question:
     function resetCurrentTrack() {
       let trackName = 'Exam 1 (125 questions)';
       let storagePrefix = 'usmle_exam1_';
-      if (currentTrack === 'exam2_set3') {
+      if (isExam3Track(currentTrack)) {
+        trackName = '⚡ Exam 3 Practice (118 questions)';
+        storagePrefix = 'usmle_exam3_practice_';
+      } else if (currentTrack === 'exam2_set3') {
         trackName = '📚 Exam 2 Set 3 (150 questions)';
         storagePrefix = 'usmle_exam2_set3_';
       } else if (currentTrack === 'exam2_set2') {
@@ -5377,18 +5476,28 @@ For each question:
 
     function handleSafeUnlock() {
       const nameInput = document.getElementById('safeNameInput');
-      const pwdInput = document.getElementById('safePasswordInput');
+      // Passwords commented out for now:
+      // const pwdInput = document.getElementById('safePasswordInput');
       const name = (nameInput ? nameInput.value : '').trim().toLowerCase();
-      const pwd = (pwdInput ? pwdInput.value : '').trim().toLowerCase();
+      // const pwd = (pwdInput ? pwdInput.value : '').trim().toLowerCase();
 
-      // Check Condition 0A: password is tyler OR name is tyler -> Happy Birthday Tyler
-      if (pwd === 'tyler' || name === 'tyler') {
+      /* Passwords commented out for now:
+      if (pwd === 'tyler') { triggerBirthdayTyler(); return; }
+      if (pwd === 'mark') { triggerMarkMog(); return; }
+      if (pwd === 'ryan') { triggerClownTakeover(); return; }
+      if (pwd === 'jacob') { triggerJacobDebt(); return; }
+      if (pwd === 'nick' || pwd === 'nicholas') { triggerNickDCHero(); return; }
+      if (pwd === 'alex' || pwd === 'alexander' || pwd === 'alexa' || pwd === 'lex') { triggerAlexPunkRock(); return; }
+      */
+
+      // Check Condition 0A: name is tyler -> Happy Birthday Tyler
+      if (name === 'tyler') {
         triggerBirthdayTyler();
         return;
       }
 
-      // Check Condition 0B: name is mark (or password is mark) -> Mark Mogs
-      if (name === 'mark' || pwd === 'mark') {
+      // Check Condition 0B: name is mark -> Mark Mogs
+      if (name === 'mark') {
         triggerMarkMog();
         return;
       }
@@ -5399,33 +5508,32 @@ For each question:
       }
 
       // Check Condition 1: ryan -> Clown Troll (will/william commented out)
-      // if (name === 'will' || name === 'william' || pwd === 'will' || pwd === 'william') { triggerClownTakeover(); return; }
-      if (name === 'ryan' || pwd === 'ryan') {
+      // if (name === 'will' || name === 'william') { triggerClownTakeover(); return; }
+      if (name === 'ryan') {
         triggerClownTakeover();
         return;
       }
 
       // Check Condition 2: jacob -> You owe me a dollar terms
-      if (name === 'jacob' || pwd === 'jacob') {
+      if (name === 'jacob') {
         triggerJacobDebt();
         return;
       }
 
-      // Check Condition 3: name is marlon -> Golden Palace (marlon password removed)
+      // Check Condition 3: name is marlon -> Golden Palace
       if (name === 'marlon') {
         triggerGoldenPalace();
         return;
       }
 
       // Check Condition 4A: nick -> DC Hero Memes & Music
-      if (name === 'nick' || name === 'nicholas' || pwd === 'nick' || pwd === 'nicholas') {
+      if (name === 'nick' || name === 'nicholas') {
         triggerNickDCHero();
         return;
       }
 
       // Check Condition 4B: alex -> Punk Rock Vibes & Music
-      if (name === 'alex' || name === 'alexander' || name === 'alexa' || name === 'lex' ||
-          pwd === 'alex' || pwd === 'alexander' || pwd === 'alexa' || pwd === 'lex') {
+      if (name === 'alex' || name === 'alexander' || name === 'alexa' || name === 'lex') {
         triggerAlexPunkRock();
         return;
       }
@@ -5702,10 +5810,12 @@ For each question:
           const nameInput = document.getElementById('safeNameInput');
           if (nameInput) nameInput.value = testName;
         }
+        /* Password query param commented out for now
         if (urlParams.has('pwd')) {
           const pwdInput = document.getElementById('safePasswordInput');
           if (pwdInput) pwdInput.value = urlParams.get('pwd');
         }
+        */
         handleSafeUnlock();
         return;
       }
@@ -5746,7 +5856,7 @@ For each question:
       const savedExam = urlExam || localStorage.getItem('usmle_active_exam') || 'exam1';
       let targetTrack = urlTrack || localStorage.getItem('usmle_active_track');
       if (!targetTrack) {
-        targetTrack = (savedExam === 'exam2') ? 'exam2_zen' : 'inhouse';
+        targetTrack = (savedExam === 'exam3') ? 'exam3_practice' : (savedExam === 'exam2') ? 'exam2_zen' : 'inhouse';
       }
 
       currentExam = savedExam;
@@ -5757,7 +5867,9 @@ For each question:
 
       if (currentIndex > 0) {
         setTimeout(() => {
-          const trackLabel = isExam2Track(currentTrack)
+          const trackLabel = isExam3Track(currentTrack)
+            ? 'Exam 3 Practice'
+            : isExam2Track(currentTrack)
             ? (currentTrack === 'exam2_set3' ? 'Exam 2 Set 3' : currentTrack === 'exam2_set2' ? 'Exam 2 Set 2' : currentTrack === 'exam2_deep' ? 'Exam 2 Deep' : currentTrack === 'exam2_replicate' ? 'Exam 2 Replicate' : currentTrack === 'exam2_inhouse2' ? 'Exam 2 In-House 2' : currentTrack === 'exam2_inhouse' ? 'Exam 2 In-House' : currentTrack === 'exam2_sim' ? 'Exam 2 Sim' : 'Exam 2 Zen')
             : currentTrack === 'focused_zen'
             ? 'Focused Zen'
