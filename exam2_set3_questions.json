@@ -254,7 +254,7 @@
   {
     "category": "UMN / LMN",
     "q_num": 96,
-    "stem": "In Brown-S\u00e9quard syndrome (spinal cord hemisection), which neurologic finding is characteristically identified specifically at the exact level of the cord lesion?",
+    "stem": "In Brown-Séquard syndrome (spinal cord hemisection), which neurologic finding is characteristically identified specifically at the exact level of the cord lesion?",
     "options": {
       "A": "Contralateral spastic paralysis with hyperreflexia",
       "B": "Bilateral loss of vibration and joint position sense",
@@ -472,15 +472,15 @@
     "q_num": 4,
     "stem": "A 24-year-old man repeatedly trips over objects located on his right side. Brain MRI reveals an isolated lesion within the deep white matter of the left parietal lobe. Which visual deficit and pathway involvement best fit this presentation?",
     "options": {
-      "A": "Right homonymous hemianopia \u2013 visual calcarine cortex",
-      "B": "Right homonymous superior quadrantanopia \u2013 temporal Meyer loop",
-      "C": "Left homonymous inferior quadrantanopia \u2013 parietal dorsal loop",
-      "D": "Bitemporal heteronymous hemianopia \u2013 decussating optic chiasm",
-      "E": "Right homonymous inferior quadrantanopia \u2013 parietal dorsal loop"
+      "A": "Right homonymous hemianopia – visual calcarine cortex",
+      "B": "Right homonymous superior quadrantanopia – temporal Meyer loop",
+      "C": "Left homonymous inferior quadrantanopia – parietal dorsal loop",
+      "D": "Bitemporal heteronymous hemianopia – decussating optic chiasm",
+      "E": "Right homonymous inferior quadrantanopia – parietal dorsal loop"
     },
     "correct_answer": "E",
     "explanation": "The superior optic radiations (dorsal loop) run through the parietal lobe and serve the lower visual field (\"pie on the floor\"). A left parietal lesion gives a right inferior quadrantanopia.",
-    "high_yield_pearl": "High-Yield Rule: Right homonymous inferior quadrantanopia \u2013 parietal dorsal loop",
+    "high_yield_pearl": "High-Yield Rule: Right homonymous inferior quadrantanopia – parietal dorsal loop",
     "source": "USMLE Step 1 Set 3: Visual System",
     "id": "set3_27",
     "index": 26
@@ -1190,7 +1190,7 @@
   {
     "category": "UMN / LMN",
     "q_num": 75,
-    "stem": "A penetrating stab wound causes hemisection of the left spinal cord at the T8 level (Brown-S\u00e9quard syndrome). Which clinical deficits are observed below the level of the lesion?",
+    "stem": "A penetrating stab wound causes hemisection of the left spinal cord at the T8 level (Brown-Séquard syndrome). Which clinical deficits are observed below the level of the lesion?",
     "options": {
       "A": "Ipsilateral pinprick deficit and contralateral spastic paralysis",
       "B": "Contralateral position loss and ipsilateral temperature deficit",
@@ -1442,7 +1442,7 @@
   {
     "category": "Basal Ganglia",
     "q_num": 107,
-    "stem": "What is the expected gross finding in the midbrain of this patient?",
+    "stem": "In a patient with Parkinson disease presenting with resting tremor, rigidity, bradykinesia, and loss of dopaminergic neurons, what is the expected gross finding in the midbrain?",
     "options": {
       "A": "Depigmentation of the substantia nigra",
       "B": "Enlarged lateral ventricles",
@@ -1676,7 +1676,7 @@
   {
     "category": "UMN / LMN",
     "q_num": 74,
-    "stem": "A trauma patient has early bowel and bladder dysfunction, bilateral sacral sensory loss and mixed sacral deficits after a T12\u2013L1 injury. Which syndrome is this?",
+    "stem": "A trauma patient has early bowel and bladder dysfunction, bilateral sacral sensory loss and mixed sacral deficits after a T12–L1 injury. Which syndrome is this?",
     "options": {
       "A": "Cauda equina",
       "B": "Anterior cord",
@@ -1840,7 +1840,7 @@
     "q_num": 69,
     "stem": "Which statement correctly describes the patellar reflex arc?",
     "options": {
-      "A": "Group Ia afferents synapse directly on alpha motor neurons in L3\u2013L4",
+      "A": "Group Ia afferents synapse directly on alpha motor neurons in L3–L4",
       "B": "A polysynaptic arc through the brainstem",
       "C": "Afferents ascend to the motor cortex before the efferent response",
       "D": "Mediated by Golgi tendon organs",
@@ -1848,7 +1848,7 @@
     },
     "correct_answer": "A",
     "explanation": "The stretch reflex is a two-neuron local circuit (Ia afferent to alpha motor neuron) and needs no brain input.",
-    "high_yield_pearl": "High-Yield Rule: Group Ia afferents synapse directly on alpha motor neurons in L3\u2013L4",
+    "high_yield_pearl": "High-Yield Rule: Group Ia afferents synapse directly on alpha motor neurons in L3–L4",
     "source": "USMLE Step 1 Set 3: UMN / LMN",
     "id": "set3_103",
     "index": 102
@@ -2270,7 +2270,7 @@
   {
     "category": "Hypothalamus, Smell & Taste",
     "q_num": 98,
-    "stem": "A 52-year-old man has chills, shivering and a fever of 103\u00b0F on a warm day. He also has bitemporal hemianopia. Which hypothalamic structure is lesioned?",
+    "stem": "A 52-year-old man has chills, shivering and a fever of 103°F on a warm day. He also has bitemporal hemianopia. Which hypothalamic structure is lesioned?",
     "options": {
       "A": "Anterior nucleus",
       "B": "Posterior nucleus",
@@ -2308,15 +2308,15 @@
     "q_num": 72,
     "stem": "A patient has a diminished biceps reflex and weak elbow flexion. Which spinal roots are involved?",
     "options": {
-      "A": "C3\u2013C4",
-      "B": "C5\u2013C6",
-      "C": "C7\u2013C8",
+      "A": "C3–C4",
+      "B": "C5–C6",
+      "C": "C7–C8",
       "D": "T1",
-      "E": "L3\u2013L4"
+      "E": "L3–L4"
     },
     "correct_answer": "B",
-    "explanation": "Biceps C5\u2013C6 (triceps C6\u2013C8).",
-    "high_yield_pearl": "High-Yield Rule: C5\u2013C6",
+    "explanation": "Biceps C5–C6 (triceps C6–C8).",
+    "high_yield_pearl": "High-Yield Rule: C5–C6",
     "source": "USMLE Step 1 Set 3: UMN / LMN",
     "id": "set3_129",
     "index": 128
@@ -2650,15 +2650,15 @@
     "q_num": 71,
     "stem": "A 40-year-old man with low back pain has an absent right Achilles reflex and weak plantarflexion. Which roots mediate the Achilles reflex?",
     "options": {
-      "A": "L1\u2013L2",
-      "B": "L3\u2013L4",
+      "A": "L1–L2",
+      "B": "L3–L4",
       "C": "L5",
-      "D": "S3\u2013S4",
-      "E": "S1\u2013S2"
+      "D": "S3–S4",
+      "E": "S1–S2"
     },
     "correct_answer": "E",
-    "explanation": "Achilles S1\u2013S2. Others: patellar L3\u2013L4, cremasteric L1\u2013L2, anal wink S3\u2013S4.",
-    "high_yield_pearl": "High-Yield Rule: S1\u2013S2",
+    "explanation": "Achilles S1–S2. Others: patellar L3–L4, cremasteric L1–L2, anal wink S3–S4.",
+    "high_yield_pearl": "High-Yield Rule: S1–S2",
     "source": "USMLE Step 1 Set 3: UMN / LMN",
     "id": "set3_148",
     "index": 147
