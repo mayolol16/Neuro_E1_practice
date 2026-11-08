@@ -3566,7 +3566,7 @@ html_template = """<!DOCTYPE html>
           id: 'exam3_c_u1_6',
           label: 'Units 1–6 (c_u1-6)',
           icon: '📖',
-          badge: '203 Qs • Curriculum',
+          badge: '203 Qs • Randomized',
           type: 'exam3'
         }
       ]
@@ -3834,7 +3834,7 @@ html_template = """<!DOCTYPE html>
       renderCurrentQuestion();
 
       const toastMsg = currentTrack === 'exam3_c_u1_6'
-        ? 'Exam 3: Loaded 📖 Curriculum Units 1–6 (203 Qs - Balanced)'
+        ? 'Exam 3: Loaded 📖 Curriculum Units 1–6 (203 Qs - Randomized)'
         : isExam3Track(currentTrack)
         ? 'Exam 3: Loaded ⚡ Practice Exam 3 (118 Qs - 9 Topics)'
         : currentTrack === 'exam2_set3'
