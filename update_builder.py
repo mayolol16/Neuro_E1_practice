@@ -542,6 +542,23 @@ exam3_c_u1_6_categories = [
 exam3_c_u1_6_json_data_str = json.dumps(exam3_c_u1_6_questions, ensure_ascii=False)
 exam3_c_u1_6_categories_json_str = json.dumps(exam3_c_u1_6_categories, ensure_ascii=False)
 
+# Exam 3 Higher-Order Units 1-6 (g_H_u1-6: 120 Questions)
+exam3_g_h_u1_6_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'exam3_g_h_u1_6_questions.json')
+with open(exam3_g_h_u1_6_path, 'r', encoding='utf-8') as f:
+    exam3_g_h_u1_6_questions = json.load(f)
+
+exam3_g_h_u1_6_categories = [
+    'Unit 01: Demyelinating Diseases',
+    'Unit 02: Cerebellum',
+    'Unit 03: Tumors',
+    'Unit 04: Infections',
+    'Unit 05: Epilepsy',
+    'Unit 06: Blood Supply'
+]
+
+exam3_g_h_u1_6_json_data_str = json.dumps(exam3_g_h_u1_6_questions, ensure_ascii=False)
+exam3_g_h_u1_6_categories_json_str = json.dumps(exam3_g_h_u1_6_categories, ensure_ascii=False)
+
 
 html_template = """<!DOCTYPE html>
 <html lang="en">
@@ -3415,6 +3432,8 @@ html_template = """<!DOCTYPE html>
     const exam3Categories = """ + exam3_categories_json_str + """;
     const rawExam3CU16Questions = """ + exam3_c_u1_6_json_data_str + """;
     const exam3CU16Categories = """ + exam3_c_u1_6_categories_json_str + """;
+    const rawExam3GHU16Questions = """ + exam3_g_h_u1_6_json_data_str + """;
+    const exam3GHU16Categories = """ + exam3_g_h_u1_6_categories_json_str + """;
 
 
     // ACTIVE TRACK: 'focused_zen' (320 Qs from Study Guide), 'exam' (125 Qs), or 'zen' (320 Qs)
@@ -3568,12 +3587,19 @@ html_template = """<!DOCTYPE html>
           icon: '📖',
           badge: '203 Qs • Randomized',
           type: 'exam3'
+        },
+        {
+          id: 'exam3_g_h_u1_6',
+          label: 'Units 1–6 (g_H_u1-6)',
+          icon: '🎯',
+          badge: '120 Qs • Higher-Order',
+          type: 'exam3'
         }
       ]
     };
 
     function isExam3Track(track) {
-      return track === 'exam3' || track === 'exam3_practice' || track === 'exam3_c_u1_6';
+      return track === 'exam3' || track === 'exam3_practice' || track === 'exam3_c_u1_6' || track === 'exam3_g_h_u1_6';
     }
 
     function isExam2Track(track) {
@@ -3581,6 +3607,7 @@ html_template = """<!DOCTYPE html>
     }
 
     function getCategoriesForTrack() {
+      if (currentTrack === 'exam3_g_h_u1_6') return exam3GHU16Categories;
       if (currentTrack === 'exam3_c_u1_6') return exam3CU16Categories;
       if (isExam3Track(currentTrack)) return exam3Categories;
       if (currentTrack === 'exam2_set3') return exam2Set3Categories;
@@ -3689,7 +3716,16 @@ html_template = """<!DOCTYPE html>
 
       timerDisplay.classList.remove('zen', 'focused-zen', 'inhouse', 'exam2', 'exam3');
 
-      if (currentTrack === 'exam3_c_u1_6') {
+      if (currentTrack === 'exam3_g_h_u1_6') {
+        zenTray.style.display = 'flex';
+        trayIcon.textContent = '🎯';
+        trayLabelText.textContent = 'Curriculum Units:';
+        trackTag.style.display = 'inline-block';
+        trackTag.className = 'q-track-tag exam3';
+        trackTag.textContent = '🎯 Units 1–6 (g_H_u1-6)';
+        timerDisplay.classList.add('exam3');
+        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> Higher-Order Units (6)`;
+      } else if (currentTrack === 'exam3_c_u1_6') {
         zenTray.style.display = 'flex';
         trayIcon.textContent = '📖';
         trayLabelText.textContent = 'Curriculum Units:';
@@ -3833,7 +3869,9 @@ html_template = """<!DOCTYPE html>
       updateOverallStats();
       renderCurrentQuestion();
 
-      const toastMsg = currentTrack === 'exam3_c_u1_6'
+      const toastMsg = currentTrack === 'exam3_g_h_u1_6'
+        ? 'Exam 3: Loaded 🎯 Higher-Order Units 1–6 (120 Qs - Apply+)'
+        : currentTrack === 'exam3_c_u1_6'
         ? 'Exam 3: Loaded 📖 Curriculum Units 1–6 (203 Qs - Randomized)'
         : isExam3Track(currentTrack)
         ? 'Exam 3: Loaded ⚡ Practice Exam 3 (118 Qs - 9 Topics)'
@@ -3870,8 +3908,10 @@ html_template = """<!DOCTYPE html>
       let storagePrefix = 'usmle_exam1_';
       let rawData = rawExamQuestions;
 
-      if (currentTrack === 'exam3_c_u1_6') {
-        storagePrefix = 'usmle_exam3_c_u1_6_';
+      if (currentTrack === 'exam3_g_h_u1_6') {
+        storagePrefix = 'usmle_exam3_g_h_u1_6_';
+        rawData = rawExam3GHU16Questions;
+      } else if (currentTrack === 'exam3_c_u1_6') {
         rawData = rawExam3CU16Questions;
       } else if (isExam3Track(currentTrack)) {
         storagePrefix = 'usmle_exam3_practice_';
@@ -4038,7 +4078,8 @@ html_template = """<!DOCTYPE html>
 
     function saveState() {
       let storagePrefix = 'usmle_exam1_';
-      if (currentTrack === 'exam3_c_u1_6') storagePrefix = 'usmle_exam3_c_u1_6_';
+      if (currentTrack === 'exam3_g_h_u1_6') storagePrefix = 'usmle_exam3_g_h_u1_6_';
+      else if (currentTrack === 'exam3_c_u1_6') storagePrefix = 'usmle_exam3_c_u1_6_';
       else if (isExam3Track(currentTrack)) storagePrefix = 'usmle_exam3_practice_';
       else if (currentTrack === 'exam2_set3') storagePrefix = 'usmle_exam2_set3_';
       else if (currentTrack === 'exam2_set2') storagePrefix = 'usmle_exam2_set2_';
@@ -4676,7 +4717,9 @@ html_template = """<!DOCTYPE html>
     function openItemGrid() {
       const container = document.getElementById('gridItemsContainer');
       container.innerHTML = '';
-      const trackName = currentTrack === 'exam3_c_u1_6'
+      const trackName = currentTrack === 'exam3_g_h_u1_6'
+        ? '🎯 Higher-Order Units 1–6 (120 Qs)'
+        : currentTrack === 'exam3_c_u1_6'
         ? '📖 Curriculum Units 1–6 (203 Qs)'
         : isExam3Track(currentTrack)
         ? '⚡ Exam 3 Practice (118 Qs)'
@@ -4746,7 +4789,9 @@ html_template = """<!DOCTYPE html>
       document.getElementById('reportCorrectCount').textContent = totalCorrect.toString();
       document.getElementById('reportIncorrectCount').textContent = totalIncorrect.toString();
 
-      const reportTitle = currentTrack === 'exam3_c_u1_6'
+      const reportTitle = currentTrack === 'exam3_g_h_u1_6'
+        ? '🎯 Exam 3 Higher-Order Units 1–6 (120 Qs) Score Report'
+        : currentTrack === 'exam3_c_u1_6'
         ? '📖 Exam 3 Curriculum Units 1–6 (203 Qs) Score Report'
         : isExam3Track(currentTrack)
         ? '⚡ Exam 3 Practice (118 Qs) Score Report'
@@ -4878,7 +4923,10 @@ For each question:
     function resetCurrentTrack() {
       let trackName = 'Exam 1 (125 questions)';
       let storagePrefix = 'usmle_exam1_';
-      if (currentTrack === 'exam3_c_u1_6') {
+      if (currentTrack === 'exam3_g_h_u1_6') {
+        trackName = '🎯 Exam 3 Units 1–6 (120 questions)';
+        storagePrefix = 'usmle_exam3_g_h_u1_6_';
+      } else if (currentTrack === 'exam3_c_u1_6') {
         trackName = '📖 Exam 3 Units 1–6 (203 questions)';
         storagePrefix = 'usmle_exam3_c_u1_6_';
       } else if (isExam3Track(currentTrack)) {
@@ -5836,7 +5884,9 @@ For each question:
 
       if (currentIndex > 0) {
         setTimeout(() => {
-          const trackLabel = currentTrack === 'exam3_c_u1_6'
+          const trackLabel = currentTrack === 'exam3_g_h_u1_6'
+            ? 'Exam 3 Higher-Order Units 1–6'
+            : currentTrack === 'exam3_c_u1_6'
             ? 'Exam 3 Units 1–6'
             : isExam3Track(currentTrack)
             ? 'Exam 3 Practice'
