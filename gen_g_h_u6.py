@@ -348,3 +348,4 @@ if __name__ == "__main__":
     for q in u6_questions:
         check_q(q)
     print("gen_g_h_u6.py: All 20 questions passed validation!")
+

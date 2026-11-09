@@ -139,6 +139,15 @@
       box-shadow: 0 2px 10px rgba(16, 185, 129, 0.45);
     }
 
+    @keyframes unlockPulse {
+      0% { transform: scale(0.9); box-shadow: 0 0 0 rgba(16, 185, 129, 0.7); }
+      50% { transform: scale(1.08); box-shadow: 0 0 16px rgba(16, 185, 129, 0.9); }
+      100% { transform: scale(1); box-shadow: 0 0 0 rgba(16, 185, 129, 0); }
+    }
+    .unlocked-pulse {
+      animation: unlockPulse 0.8s ease-out;
+    }
+
     .track-btn.exam3-active {
       background: linear-gradient(135deg, #059669, #06b6d4);
       color: #ffffff;
@@ -2531,7 +2540,7 @@
           <span>🧠</span>
           <span>Exam 2</span>
         </button>
-        <button id="exam3TabBtn" class="exam-tab-btn" onclick="selectExam('exam3')">
+        <button id="exam3TabBtn" class="exam-tab-btn" style="display: none;" onclick="selectExam('exam3')">
           <span>⚡</span>
           <span>Exam 3</span>
         </button>
@@ -3060,7 +3069,81 @@
       return subjectCategories;
     }
 
+    /* ========================================================= */
+    /* EXAM 3 HIDDEN ACCESS & "mark" KEYSTROKE DETECTION        */
+    /* ========================================================= */
+    function isExam3Unlocked() {
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.has('mark') || urlParams.get('unlock') === 'mark' || urlParams.get('name') === 'mark') {
+        return true;
+      }
+      return sessionStorage.getItem('usmle_exam3_unlocked') === 'true';
+    }
+
+    function unlockExam3(skipSwitch = false) {
+      sessionStorage.setItem('usmle_exam3_unlocked', 'true');
+      const e3Tab = document.getElementById('exam3TabBtn');
+      if (e3Tab) {
+        e3Tab.style.display = 'inline-flex';
+        e3Tab.classList.add('unlocked-pulse');
+        setTimeout(() => e3Tab.classList.remove('unlocked-pulse'), 1200);
+      }
+      if (!skipSwitch) {
+        selectExam('exam3');
+      }
+      showToast('⚡ Exam 3 Unlocked! Welcome Mark.');
+      try {
+        if (typeof VaultAudio !== 'undefined' && VaultAudio.init) {
+          VaultAudio.init();
+          if (VaultAudio.ctx) {
+            const osc = VaultAudio.ctx.createOscillator();
+            const gain = VaultAudio.ctx.createGain();
+            osc.type = 'triangle';
+            osc.frequency.setValueAtTime(523.25, VaultAudio.ctx.currentTime); // C5
+            osc.frequency.exponentialRampToValueAtTime(659.25, VaultAudio.ctx.currentTime + 0.1); // E5
+            osc.frequency.exponentialRampToValueAtTime(783.99, VaultAudio.ctx.currentTime + 0.2); // G5
+            osc.frequency.exponentialRampToValueAtTime(1046.50, VaultAudio.ctx.currentTime + 0.3); // C6
+            gain.gain.setValueAtTime(0.15, VaultAudio.ctx.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.001, VaultAudio.ctx.currentTime + 0.5);
+            osc.connect(gain);
+            gain.connect(VaultAudio.ctx.destination);
+            osc.start();
+            osc.stop(VaultAudio.ctx.currentTime + 0.5);
+          }
+        }
+      } catch (err) {}
+    }
+
+    function hideExam3() {
+      sessionStorage.removeItem('usmle_exam3_unlocked');
+      localStorage.removeItem('usmle_exam3_unlocked');
+      const e3Tab = document.getElementById('exam3TabBtn');
+      if (e3Tab) {
+        e3Tab.style.display = 'none';
+      }
+      if (currentExam === 'exam3') {
+        selectExam('exam1');
+      }
+      showToast('🔒 Exam 3 Hidden.');
+    }
+
+    function toggleExam3() {
+      if (isExam3Unlocked()) {
+        hideExam3();
+      } else {
+        unlockExam3();
+      }
+    }
+
+    window.unlockExam3 = unlockExam3;
+    window.hideExam3 = hideExam3;
+    window.toggleExam3 = toggleExam3;
+
     function selectExam(examId) {
+      if (examId === 'exam3' && !isExam3Unlocked()) {
+        showToast('🔒 Exam 3 is hidden.');
+        return;
+      }
       currentExam = examId;
       localStorage.setItem('usmle_active_exam', currentExam);
 
@@ -3117,6 +3200,10 @@
     }
 
     function switchTrack(newTrack) {
+      if (isExam3Track(newTrack) && !isExam3Unlocked()) {
+        showToast('🔒 Exam 3 is hidden.');
+        return;
+      }
       saveState();
 
       if (isExam3Track(newTrack)) {
@@ -4423,8 +4510,25 @@ For each question:
       }
     }
 
-    // Keyboard Shortcuts
+    // Keyboard Shortcuts & Secret Keystroke Detection for "mark"
+    let secretKeyBuffer = '';
     window.addEventListener('keydown', (e) => {
+      // Secret keystroke detection for "mark"
+      if (e.key && !e.ctrlKey && !e.metaKey && !e.altKey) {
+        if (e.key.length === 1) {
+          secretKeyBuffer = (secretKeyBuffer + e.key.toLowerCase()).slice(-20);
+          if (secretKeyBuffer.endsWith('mark')) {
+            secretKeyBuffer = '';
+            toggleExam3();
+          } else if (secretKeyBuffer.endsWith('hidemark') || secretKeyBuffer.endsWith('lock3')) {
+            secretKeyBuffer = '';
+            hideExam3();
+          }
+        } else if (e.key === 'Backspace') {
+          secretKeyBuffer = secretKeyBuffer.slice(0, -1);
+        }
+      }
+
       if (document.getElementById('geminiModal').classList.contains('show')) return;
       if (document.getElementById('gridModal').classList.contains('show')) return;
       if (document.getElementById('scoreModal').classList.contains('show')) return;
@@ -4444,7 +4548,7 @@ For each question:
           selectChoice(optIdx);
         }
       }
-    });
+    }, true);
 
     // Bootstrapping
     
@@ -5073,8 +5177,9 @@ For each question:
       VaultAudio.stopPhonkMusic();
       const mog = document.getElementById('markMogScreen');
       if (mog) mog.style.display = 'none';
+      unlockExam3();
       executeUnlockExam('mark');
-      showToast('🤫🧏‍♂️ Mark has entered. Server mogging in progress.');
+      showToast('🤫🧏‍♂️ Mark has entered. Exam 3 Unlocked.');
     }
 
     /* Condition: Happy Birthday Tyler */
@@ -5303,13 +5408,30 @@ For each question:
       setupAutoHighlighting();
       startTimer();
 
+      // Check if Exam 3 should be displayed
+      const e3Tab = document.getElementById('exam3TabBtn');
+      if (e3Tab) {
+        if (isExam3Unlocked()) {
+          e3Tab.style.display = 'inline-flex';
+        } else {
+          e3Tab.style.display = 'none';
+        }
+      }
+
       // Restore active exam & track
       const urlParams = new URLSearchParams(window.location.search);
       const urlExam = urlParams.get('exam');
       const urlTrack = urlParams.get('track');
 
-      const savedExam = urlExam || localStorage.getItem('usmle_active_exam') || 'exam1';
+      let savedExam = urlExam || localStorage.getItem('usmle_active_exam') || 'exam1';
       let targetTrack = urlTrack || localStorage.getItem('usmle_active_track');
+
+      // If exam3 is requested but NOT unlocked, force fallback to exam1
+      if ((savedExam === 'exam3' || isExam3Track(targetTrack)) && !isExam3Unlocked()) {
+        savedExam = 'exam1';
+        targetTrack = 'inhouse';
+      }
+
       if (!targetTrack) {
         targetTrack = (savedExam === 'exam3') ? 'exam3_practice' : (savedExam === 'exam2') ? 'exam2_zen' : 'inhouse';
       }
