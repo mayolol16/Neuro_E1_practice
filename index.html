@@ -3428,54 +3428,60 @@
       showToast(toastMsg);
     }
 
+    // Centralized storage prefix resolver ensuring 100% consistency across all tracks
+    function getStoragePrefix(track = currentTrack) {
+      if (track === 'exam3_g_h_u1_6') return 'usmle_exam3_g_h_u1_6_';
+      if (track === 'exam3_c_u1_6') return 'usmle_exam3_c_u1_6_';
+      if (isExam3Track(track)) return 'usmle_exam3_practice_';
+      if (track === 'exam2_set3') return 'usmle_exam2_set3_';
+      if (track === 'exam2_set2') return 'usmle_exam2_set2_';
+      if (track === 'exam2_deep') return 'usmle_exam2_deep_';
+      if (track === 'exam2_replicate') return 'usmle_exam2_replicate_';
+      if (track === 'exam2_inhouse2') return 'usmle_exam2_inhouse2_';
+      if (track === 'exam2_inhouse') return 'usmle_exam2_inhouse_';
+      if (track === 'exam2_sim') return 'usmle_exam2_sim_';
+      if (track === 'exam2_zen' || track === 'exam2') return 'usmle_exam2_zen_units1_3_';
+      if (track === 'exam2_pdf_practice') return 'usmle_exam2_pdf_';
+      if (track === 'inhouse') return 'usmle_inhouse_';
+      if (track === 'focused_zen') return 'usmle_focused_zen_';
+      if (track === 'zen') return 'usmle_zen_';
+      return 'usmle_exam1_';
+    }
+
     // Load track-specific questions and state
     function loadTrackState() {
-      let storagePrefix = 'usmle_exam1_';
+      const storagePrefix = getStoragePrefix(currentTrack);
       let rawData = rawExamQuestions;
 
       if (currentTrack === 'exam3_g_h_u1_6') {
-        storagePrefix = 'usmle_exam3_g_h_u1_6_';
         rawData = rawExam3GHU16Questions;
       } else if (currentTrack === 'exam3_c_u1_6') {
         rawData = rawExam3CU16Questions;
       } else if (isExam3Track(currentTrack)) {
-        storagePrefix = 'usmle_exam3_practice_';
         rawData = rawExam3Questions;
       } else if (currentTrack === 'exam2_set3') {
-        storagePrefix = 'usmle_exam2_set3_';
         rawData = rawExam2Set3Questions;
       } else if (currentTrack === 'exam2_set2') {
-        storagePrefix = 'usmle_exam2_set2_';
         rawData = rawExam2Set2Questions;
       } else if (currentTrack === 'exam2_deep') {
-        storagePrefix = 'usmle_exam2_deep_';
         rawData = rawExam2DeepQuestions;
       } else if (currentTrack === 'exam2_replicate') {
-        storagePrefix = 'usmle_exam2_replicate_';
         rawData = rawExam2ReplicateQuestions;
       } else if (currentTrack === 'exam2_inhouse2') {
-        storagePrefix = 'usmle_exam2_inhouse2_';
         rawData = rawExam2InHouse2Questions;
       } else if (currentTrack === 'exam2_inhouse') {
-        storagePrefix = 'usmle_exam2_inhouse_';
         rawData = rawExam2InHouseQuestions;
       } else if (currentTrack === 'exam2_sim') {
-        storagePrefix = 'usmle_exam2_sim_';
         rawData = rawExam2Questions;
       } else if (currentTrack === 'exam2_zen' || currentTrack === 'exam2') {
-        storagePrefix = 'usmle_exam2_zen_units1_3_';
         rawData = rawExam2ZenQuestions;
       } else if (currentTrack === 'exam2_pdf_practice') {
-        storagePrefix = 'usmle_exam2_pdf_';
         rawData = rawExam2Questions;
       } else if (currentTrack === 'inhouse') {
-        storagePrefix = 'usmle_inhouse_';
         rawData = rawInHouseQuestions;
       } else if (currentTrack === 'focused_zen') {
-        storagePrefix = 'usmle_focused_zen_';
         rawData = rawFocusedZenQuestions;
       } else if (currentTrack === 'zen') {
-        storagePrefix = 'usmle_zen_';
         rawData = rawZenQuestions;
       }
 
@@ -3525,32 +3531,128 @@
       } catch (e) {}
 
       userState = {};
-      let saved = localStorage.getItem(storagePrefix + 'state');
-      // For exam2_sim, if sim state is still empty, fallback to legacy usmle_exam2_state
-      if (!saved && currentTrack === 'exam2_sim') {
-        saved = localStorage.getItem('usmle_exam2_state');
-      }
-      if (!saved && (currentTrack === 'exam2_zen' || currentTrack === 'exam2')) {
-        saved = localStorage.getItem('usmle_exam2_zen_units1_3_state') || localStorage.getItem('usmle_exam2_zen_state');
+      let restoredState = {};
+
+      // 1. Primary state load
+      try {
+        let saved = localStorage.getItem(storagePrefix + 'state');
+        if (!saved && currentTrack === 'exam2_sim') {
+          saved = localStorage.getItem('usmle_exam2_state');
+        }
+        if (!saved && (currentTrack === 'exam2_zen' || currentTrack === 'exam2')) {
+          saved = localStorage.getItem('usmle_exam2_zen_units1_3_state') || localStorage.getItem('usmle_exam2_zen_state');
+        }
+        if (saved) {
+          const parsed = JSON.parse(saved);
+          if (parsed && typeof parsed === 'object') Object.assign(restoredState, parsed);
+        }
+      } catch (e) {}
+
+      // 2. Backup state load (if primary is missing or has null answers)
+      try {
+        const backupRaw = localStorage.getItem(storagePrefix + 'backup_state');
+        if (backupRaw) {
+          const parsedBackup = JSON.parse(backupRaw);
+          if (parsedBackup && typeof parsedBackup === 'object') {
+            for (const k in parsedBackup) {
+              const bItem = parsedBackup[k];
+              if (bItem && bItem.selectedChoiceIndex !== null) {
+                if (!restoredState[k] || restoredState[k].selectedChoiceIndex === null) {
+                  restoredState[k] = bItem;
+                }
+              }
+            }
+          }
+        }
+      } catch (e) {}
+
+      // 3. Fallback recovery for exam3_c_u1_6 in case answers were saved into legacy keys
+      if (currentTrack === 'exam3_c_u1_6') {
+        ['usmle_exam1_state', 'usmle_exam3_state', 'usmle_exam3_practice_state', 'usmle_c_u1_6_state'].forEach(key => {
+          try {
+            const raw = localStorage.getItem(key);
+            if (raw) {
+              const p = JSON.parse(raw);
+              if (p && typeof p === 'object') {
+                for (const k in p) {
+                  if ((k.startsWith('exam3_c_u1_6_') || k.startsWith('c_u1_6_')) && p[k] && p[k].selectedChoiceIndex !== null) {
+                    if (!restoredState[k] || restoredState[k].selectedChoiceIndex === null) {
+                      restoredState[k] = p[k];
+                    }
+                  }
+                }
+              }
+            }
+          } catch(e) {}
+        });
       }
 
-      let restoredState = null;
-      if (saved) {
-        try { restoredState = JSON.parse(saved); } catch (e) {}
+      // Index answered items by clean stem text snippet for cross-mapping if IDs ever change
+      const stemToRestored = new Map();
+      for (const k in restoredState) {
+        const item = restoredState[k];
+        if (item && item.selectedChoiceIndex !== null) {
+          if (item.stemHtml) {
+            const tmp = document.createElement('div');
+            tmp.innerHTML = item.stemHtml;
+            const plain = (tmp.textContent || tmp.innerText || '').trim().toLowerCase().replace(/\s+/g, ' ').slice(0, 80);
+            if (plain.length > 15 && !stemToRestored.has(plain)) {
+              stemToRestored.set(plain, item);
+            }
+          }
+        }
       }
 
       questions.forEach((q) => {
-        const s = restoredState ? (restoredState[q.id] || restoredState[String(q.id)]) : null;
+        let s = restoredState ? (restoredState[q.id] || restoredState[String(q.id)]) : null;
+
+        // If not found or choice is null, check fallback matching
+        if (!s || s.selectedChoiceIndex === null) {
+          if (q.orig_unit && q.orig_q_num) {
+            const altKey1 = `exam3_c_u1_6_u${q.orig_unit}_q${q.orig_q_num}`;
+            const altKey2 = `u${q.orig_unit}_q${q.orig_q_num}`;
+            const altKey3 = `c_u1_6_u${q.orig_unit}_q${q.orig_q_num}`;
+            const alt = restoredState[altKey1] || restoredState[altKey2] || restoredState[altKey3];
+            if (alt && alt.selectedChoiceIndex !== null) {
+              s = alt;
+            }
+          }
+          if ((!s || s.selectedChoiceIndex === null) && q.stem) {
+            const cleanStem = q.stem.trim().toLowerCase().replace(/\s+/g, ' ').slice(0, 80);
+            if (stemToRestored.has(cleanStem)) {
+              s = stemToRestored.get(cleanStem);
+            }
+          }
+        }
+
         if (s) {
           const validOptionTexts = new Set(q.options.map(o => (o.text || '').trim()));
           const hasOptionMismatch = !s.shuffledOptions || 
                                     s.shuffledOptions.length !== q.options.length ||
                                     !s.shuffledOptions.every(o => o && validOptionTexts.has((o.text || '').trim()));
 
-          let chosenIdx = hasOptionMismatch ? null : s.selectedChoiceIndex;
-          let restoredIsCorrect = hasOptionMismatch ? null : s.isCorrect;
-          if (chosenIdx !== null && s.shuffledOptions && s.shuffledOptions[chosenIdx]) {
-            restoredIsCorrect = (s.shuffledOptions[chosenIdx].is_correct === true);
+          let chosenIdx = null;
+          let restoredIsCorrect = null;
+          let restoredShuffled = null;
+
+          if (!hasOptionMismatch && s.shuffledOptions && s.shuffledOptions[s.selectedChoiceIndex]) {
+            chosenIdx = s.selectedChoiceIndex;
+            restoredIsCorrect = s.isCorrect;
+            restoredShuffled = s.shuffledOptions;
+          } else if (s.shuffledOptions && s.selectedChoiceIndex !== null && s.shuffledOptions[s.selectedChoiceIndex]) {
+            // Options were shuffled in a different order: match chosen option by text
+            const chosenText = (s.shuffledOptions[s.selectedChoiceIndex].text || '').trim();
+            const newShuffled = randomizeChoices ? shuffleArray(q.options) : [...q.options];
+            const matchedIdx = newShuffled.findIndex(o => (o.text || '').trim() === chosenText);
+            if (matchedIdx !== -1) {
+              chosenIdx = matchedIdx;
+              restoredIsCorrect = newShuffled[matchedIdx].is_correct === true;
+              restoredShuffled = newShuffled;
+            }
+          }
+
+          if (chosenIdx !== null && restoredShuffled && restoredShuffled[chosenIdx]) {
+            restoredIsCorrect = (restoredShuffled[chosenIdx].is_correct === true);
           }
 
           let stemHtml = null;
@@ -3570,7 +3672,7 @@
             isCorrect: restoredIsCorrect,
             flagged: s.flagged || false,
             struckChoices: new Set(hasOptionMismatch ? [] : (s.struckChoices || [])),
-            shuffledOptions: hasOptionMismatch ? (randomizeChoices ? shuffleArray(q.options) : [...q.options]) : s.shuffledOptions,
+            shuffledOptions: restoredShuffled || (randomizeChoices ? shuffleArray(q.options) : [...q.options]),
             stemHtml: stemHtml
           };
         } else {
@@ -3602,43 +3704,50 @@
     }
 
     function saveState() {
-      let storagePrefix = 'usmle_exam1_';
-      if (currentTrack === 'exam3_g_h_u1_6') storagePrefix = 'usmle_exam3_g_h_u1_6_';
-      else if (currentTrack === 'exam3_c_u1_6') storagePrefix = 'usmle_exam3_c_u1_6_';
-      else if (isExam3Track(currentTrack)) storagePrefix = 'usmle_exam3_practice_';
-      else if (currentTrack === 'exam2_set3') storagePrefix = 'usmle_exam2_set3_';
-      else if (currentTrack === 'exam2_set2') storagePrefix = 'usmle_exam2_set2_';
-      else if (currentTrack === 'exam2_deep') storagePrefix = 'usmle_exam2_deep_';
-      else if (currentTrack === 'exam2_replicate') storagePrefix = 'usmle_exam2_replicate_';
-      else if (currentTrack === 'exam2_inhouse2') storagePrefix = 'usmle_exam2_inhouse2_';
-      else if (currentTrack === 'exam2_inhouse') storagePrefix = 'usmle_exam2_inhouse_';
-      else if (currentTrack === 'exam2_sim') storagePrefix = 'usmle_exam2_sim_';
-      else if (currentTrack === 'exam2_zen' || currentTrack === 'exam2') storagePrefix = 'usmle_exam2_zen_units1_3_';
-      else if (currentTrack === 'exam2_pdf_practice') storagePrefix = 'usmle_exam2_pdf_';
-      else if (currentTrack === 'inhouse') storagePrefix = 'usmle_inhouse_';
-      else if (currentTrack === 'focused_zen') storagePrefix = 'usmle_focused_zen_';
-      else if (currentTrack === 'zen') storagePrefix = 'usmle_zen_';
+      const storagePrefix = getStoragePrefix(currentTrack);
 
-      const serializable = {};
+      // Load existing state to perform non-destructive merge
+      let mergedState = {};
+      try {
+        const rawExisting = localStorage.getItem(storagePrefix + 'state');
+        if (rawExisting) {
+          const parsed = JSON.parse(rawExisting);
+          if (parsed && typeof parsed === 'object') mergedState = parsed;
+        }
+      } catch (e) {}
+
+      // Non-destructive update: never wipe existing answered questions with null
       for (const qId in userState) {
         const s = userState[qId];
-        serializable[qId] = {
-          selectedChoiceIndex: s.selectedChoiceIndex,
-          isCorrect: s.isCorrect,
-          flagged: s.flagged,
-          struckChoices: Array.from(s.struckChoices),
-          shuffledOptions: s.shuffledOptions,
-          stemHtml: s.stemHtml
-        };
+        if (s.selectedChoiceIndex !== null || s.flagged || (s.struckChoices && s.struckChoices.size > 0) || s.stemHtml) {
+          mergedState[qId] = {
+            selectedChoiceIndex: s.selectedChoiceIndex,
+            isCorrect: s.isCorrect,
+            flagged: s.flagged,
+            struckChoices: Array.from(s.struckChoices),
+            shuffledOptions: s.shuffledOptions,
+            stemHtml: s.stemHtml
+          };
+        } else if (!mergedState[qId]) {
+          mergedState[qId] = {
+            selectedChoiceIndex: null,
+            isCorrect: null,
+            flagged: false,
+            struckChoices: [],
+            shuffledOptions: s.shuffledOptions,
+            stemHtml: null
+          };
+        }
       }
 
-      localStorage.setItem(storagePrefix + 'state', JSON.stringify(serializable));
+      localStorage.setItem(storagePrefix + 'state', JSON.stringify(mergedState));
+      localStorage.setItem(storagePrefix + 'backup_state', JSON.stringify(mergedState));
       localStorage.setItem(storagePrefix + 'current_index', currentIndex);
       localStorage.setItem(storagePrefix + 'timer_seconds', timerSeconds);
 
       // Mirror exam2_sim to legacy usmle_exam2_state for seamless compatibility
       if (currentTrack === 'exam2_sim') {
-        localStorage.setItem('usmle_exam2_state', JSON.stringify(serializable));
+        localStorage.setItem('usmle_exam2_state', JSON.stringify(mergedState));
         localStorage.setItem('usmle_exam2_current_index', currentIndex);
       }
     }
@@ -4447,58 +4556,48 @@ For each question:
 
     function resetCurrentTrack() {
       let trackName = 'Exam 1 (125 questions)';
-      let storagePrefix = 'usmle_exam1_';
+      const storagePrefix = getStoragePrefix(currentTrack);
       if (currentTrack === 'exam3_g_h_u1_6') {
         trackName = '🎯 Exam 3 Units 1–6 (120 questions)';
-        storagePrefix = 'usmle_exam3_g_h_u1_6_';
       } else if (currentTrack === 'exam3_c_u1_6') {
         trackName = '📖 Exam 3 Units 1–6 (203 questions)';
-        storagePrefix = 'usmle_exam3_c_u1_6_';
       } else if (isExam3Track(currentTrack)) {
         trackName = '⚡ Exam 3 Practice (118 questions)';
-        storagePrefix = 'usmle_exam3_practice_';
       } else if (currentTrack === 'exam2_set3') {
         trackName = '📚 Exam 2 Set 3 (150 questions)';
-        storagePrefix = 'usmle_exam2_set3_';
       } else if (currentTrack === 'exam2_set2') {
         trackName = '📑 Exam 2 Set 2 (100 questions)';
-        storagePrefix = 'usmle_exam2_set2_';
       } else if (currentTrack === 'exam2_deep') {
         trackName = '🔬 Exam 2 Deep (150 questions)';
-        storagePrefix = 'usmle_exam2_deep_';
       } else if (currentTrack === 'exam2_replicate') {
         trackName = '🔄 Exam 2 Replicate (100 questions)';
-        storagePrefix = 'usmle_exam2_replicate_';
       } else if (currentTrack === 'exam2_inhouse2') {
         trackName = '🏠 Exam 2 In House 2 (275 questions)';
-        storagePrefix = 'usmle_exam2_inhouse2_';
       } else if (currentTrack === 'exam2_inhouse') {
         trackName = '🏠 Exam 2 In House (181 questions)';
-        storagePrefix = 'usmle_exam2_inhouse_';
       } else if (currentTrack === 'exam2_sim') {
         trackName = '🧠 Exam 2 Simulation (103 questions)';
-        storagePrefix = 'usmle_exam2_sim_';
       } else if (currentTrack === 'exam2_zen' || currentTrack === 'exam2') {
         trackName = '🧘 Exam 2 Zen Mode (315 questions)';
-        storagePrefix = 'usmle_exam2_zen_units1_3_';
       } else if (currentTrack === 'exam2_pdf_practice') {
         trackName = '🎯 Exam 2 PDF Practice (103 questions)';
-        storagePrefix = 'usmle_exam2_pdf_';
       } else if (currentTrack === 'inhouse') {
         trackName = '🏠 In-House Course Track (385 questions)';
-        storagePrefix = 'usmle_inhouse_';
       } else if (currentTrack === 'focused_zen') {
         trackName = '🎯 Focused Zen Mode (320 questions)';
-        storagePrefix = 'usmle_focused_zen_';
       } else if (currentTrack === 'zen') {
         trackName = '🧘 General Zen Mode (320 questions)';
-        storagePrefix = 'usmle_zen_';
       }
 
       if (confirm(`Are you sure you want to reset all answers, highlights, and score history for ${trackName}? This cannot be undone.`)) {
         localStorage.removeItem(storagePrefix + 'state');
+        localStorage.removeItem(storagePrefix + 'backup_state');
         localStorage.removeItem(storagePrefix + 'current_index');
         localStorage.removeItem(storagePrefix + 'timer_seconds');
+        if (currentTrack === 'exam2_sim') {
+          localStorage.removeItem('usmle_exam2_state');
+          localStorage.removeItem('usmle_exam2_current_index');
+        }
 
         loadTrackState();
         if (isExam2Track(currentTrack) || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') renderZenTray();
