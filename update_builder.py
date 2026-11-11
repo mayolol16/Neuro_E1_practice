@@ -576,6 +576,24 @@ exam3_c_u2_1_6_categories = [
 exam3_c_u2_1_6_json_data_str = json.dumps(exam3_c_u2_1_6_questions, ensure_ascii=False)
 exam3_c_u2_1_6_categories_json_str = json.dumps(exam3_c_u2_1_6_categories, ensure_ascii=False)
 
+# Exam 3 In House c (In House c: 100 Questions)
+exam3_inhouse_c_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'exam3_inhouse_c_questions.json')
+with open(exam3_inhouse_c_path, 'r', encoding='utf-8') as f:
+    exam3_inhouse_c_questions = json.load(f)
+
+exam3_inhouse_c_categories = [
+    'Demyelinating Disease',
+    'Cerebellum',
+    'Tumors',
+    'Opportunistic Infection',
+    'Stroke (Blood Supply, Cerebrovascular, Brainstem)',
+    'Dementia',
+    'CBIL Epilepsy',
+]
+
+exam3_inhouse_c_json_data_str = json.dumps(exam3_inhouse_c_questions, ensure_ascii=False)
+exam3_inhouse_c_categories_json_str = json.dumps(exam3_inhouse_c_categories, ensure_ascii=False)
+
 # Exam 3 Higher-Order Units 1-6 (g_H_u1-6: 120 Questions)
 exam3_g_h_u1_6_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'exam3_g_h_u1_6_questions.json')
 with open(exam3_g_h_u1_6_path, 'r', encoding='utf-8') as f:
@@ -3479,6 +3497,8 @@ html_template = """<!DOCTYPE html>
     const exam3CH16Categories = """ + exam3_c_h1_6_categories_json_str + """;
     const rawExam3CU216Questions = """ + exam3_c_u2_1_6_json_data_str + """;
     const exam3CU216Categories = """ + exam3_c_u2_1_6_categories_json_str + """;
+    const rawExam3InHouseCQuestions = """ + exam3_inhouse_c_json_data_str + """;
+    const exam3InHouseCCategories = """ + exam3_inhouse_c_categories_json_str + """;
     const rawExam3GHU16Questions = """ + exam3_g_h_u1_6_json_data_str + """;
     const exam3GHU16Categories = """ + exam3_g_h_u1_6_categories_json_str + """;
 
@@ -3655,12 +3675,19 @@ html_template = """<!DOCTYPE html>
           icon: '🎯',
           badge: '120 Qs • Higher-Order',
           type: 'exam3'
+        },
+        {
+          id: 'exam3_inhouse_c',
+          label: 'In House c',
+          icon: '🏠',
+          badge: '100 Qs • Blueprint',
+          type: 'exam3'
         }
       ]
     };
 
     function isExam3Track(track) {
-      return track === 'exam3' || track === 'exam3_practice' || track === 'exam3_c_u1_6' || track === 'exam3_c_h1_6' || track === 'exam3_c_u2_1_6' || track === 'exam3_g_h_u1_6';
+      return track === 'exam3' || track === 'exam3_practice' || track === 'exam3_c_u1_6' || track === 'exam3_c_h1_6' || track === 'exam3_c_u2_1_6' || track === 'exam3_g_h_u1_6' || track === 'exam3_inhouse_c';
     }
 
     function isExam2Track(track) {
@@ -3668,6 +3695,7 @@ html_template = """<!DOCTYPE html>
     }
 
     function getCategoriesForTrack() {
+      if (currentTrack === 'exam3_inhouse_c') return exam3InHouseCCategories;
       if (currentTrack === 'exam3_c_u2_1_6') return exam3CU216Categories;
       if (currentTrack === 'exam3_c_h1_6') return exam3CH16Categories;
       if (currentTrack === 'exam3_g_h_u1_6') return exam3GHU16Categories;
@@ -3857,7 +3885,16 @@ html_template = """<!DOCTYPE html>
 
       timerDisplay.classList.remove('zen', 'focused-zen', 'inhouse', 'exam2', 'exam3');
 
-      if (currentTrack === 'exam3_c_u2_1_6') {
+      if (currentTrack === 'exam3_inhouse_c') {
+        zenTray.style.display = 'flex';
+        trayIcon.textContent = '🏠';
+        trayLabelText.textContent = 'Blueprint Topics:';
+        trackTag.style.display = 'inline-block';
+        trackTag.className = 'q-track-tag exam3';
+        trackTag.textContent = '🏠 In House c (100 Qs)';
+        timerDisplay.classList.add('exam3');
+        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> In House c Topics (7)`;
+      } else if (currentTrack === 'exam3_c_u2_1_6') {
         zenTray.style.display = 'flex';
         trayIcon.textContent = '📚';
         trayLabelText.textContent = 'Curriculum Units:';
@@ -4028,7 +4065,9 @@ html_template = """<!DOCTYPE html>
       updateOverallStats();
       renderCurrentQuestion();
 
-      const toastMsg = currentTrack === 'exam3_c_u2_1_6'
+      const toastMsg = currentTrack === 'exam3_inhouse_c'
+        ? 'Exam 3: Loaded 🏠 In House c (100 Qs - Blueprint Randomized)'
+        : currentTrack === 'exam3_c_u2_1_6'
         ? 'Exam 3: Loaded 📚 Set 2 Units 1–6 (202 Qs - Randomized)'
         : currentTrack === 'exam3_c_h1_6'
         ? 'Exam 3: Loaded 🧠 Higher-Order c_H1-6 (180 Qs - Units 1–6)'
@@ -4068,6 +4107,7 @@ html_template = """<!DOCTYPE html>
 
     // Centralized storage prefix resolver ensuring 100% consistency across all tracks
     function getStoragePrefix(track = currentTrack) {
+      if (track === 'exam3_inhouse_c') return 'usmle_exam3_inhouse_c_';
       if (track === 'exam3_c_u2_1_6') return 'usmle_exam3_c_u2_1_6_';
       if (track === 'exam3_c_h1_6') return 'usmle_exam3_c_h1_6_';
       if (track === 'exam3_g_h_u1_6') return 'usmle_exam3_g_h_u1_6_';
@@ -4093,7 +4133,9 @@ html_template = """<!DOCTYPE html>
       const storagePrefix = getStoragePrefix(currentTrack);
       let rawData = rawExamQuestions;
 
-      if (currentTrack === 'exam3_c_u2_1_6') {
+      if (currentTrack === 'exam3_inhouse_c') {
+        rawData = rawExam3InHouseCQuestions;
+      } else if (currentTrack === 'exam3_c_u2_1_6') {
         rawData = rawExam3CU216Questions;
       } else if (currentTrack === 'exam3_c_h1_6') {
         rawData = rawExam3CH16Questions;
@@ -5000,7 +5042,9 @@ html_template = """<!DOCTYPE html>
     function openItemGrid() {
       const container = document.getElementById('gridItemsContainer');
       container.innerHTML = '';
-      const trackName = currentTrack === 'exam3_c_u2_1_6'
+      const trackName = currentTrack === 'exam3_inhouse_c'
+        ? '🏠 In House c (100 Qs)'
+        : currentTrack === 'exam3_c_u2_1_6'
         ? '📚 Set 2 Units 1–6 (202 Qs)'
         : currentTrack === 'exam3_c_h1_6'
         ? '🧠 Higher-Order c_H1-6 (180 Qs)'
@@ -5076,7 +5120,9 @@ html_template = """<!DOCTYPE html>
       document.getElementById('reportCorrectCount').textContent = totalCorrect.toString();
       document.getElementById('reportIncorrectCount').textContent = totalIncorrect.toString();
 
-      const reportTitle = currentTrack === 'exam3_c_u2_1_6'
+      const reportTitle = currentTrack === 'exam3_inhouse_c'
+        ? '🏠 Exam 3 In House c (100 Qs) Score Report'
+        : currentTrack === 'exam3_c_u2_1_6'
         ? '📚 Exam 3 Set 2 Units 1–6 (202 Qs) Score Report'
         : currentTrack === 'exam3_c_h1_6'
         ? '🧠 Exam 3 Higher-Order c_H1-6 (180 Qs) Score Report'
@@ -5214,7 +5260,9 @@ For each question:
     function resetCurrentTrack() {
       let trackName = 'Exam 1 (125 questions)';
       const storagePrefix = getStoragePrefix(currentTrack);
-      if (currentTrack === 'exam3_c_u2_1_6') {
+      if (currentTrack === 'exam3_inhouse_c') {
+        trackName = '🏠 Exam 3 In House c (100 questions)';
+      } else if (currentTrack === 'exam3_c_u2_1_6') {
         trackName = '📚 Exam 3 c_u2_1-6 (202 questions)';
       } else if (currentTrack === 'exam3_c_h1_6') {
         trackName = '🧠 Exam 3 c_H1-6 (180 questions)';
@@ -6204,7 +6252,9 @@ For each question:
 
       if (currentIndex > 0) {
         setTimeout(() => {
-          const trackLabel = currentTrack === 'exam3_c_u2_1_6'
+          const trackLabel = currentTrack === 'exam3_inhouse_c'
+            ? 'Exam 3 In House c'
+            : currentTrack === 'exam3_c_u2_1_6'
             ? 'Exam 3 Set 2 Units 1–6'
             : currentTrack === 'exam3_c_h1_6'
             ? 'Exam 3 Higher-Order c_H1-6'
