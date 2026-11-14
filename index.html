@@ -1247,6 +1247,238 @@
       flex: 1;
     }
 
+    /* ========================================================= */
+    /* WEAKNESS ASSESSMENT & AI QUESTION GENERATOR MODAL         */
+    /* ========================================================= */
+    .modal-box.modal-lg {
+      max-width: 860px;
+      width: 95vw;
+    }
+
+    .weakness-scope-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 16px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--border-color);
+      flex-wrap: wrap;
+    }
+
+    .weakness-scope-pills {
+      display: inline-flex;
+      background: rgba(0, 0, 0, 0.25);
+      border: 1px solid var(--border-color);
+      border-radius: 999px;
+      padding: 3px;
+      gap: 3px;
+    }
+
+    .weakness-scope-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-family: inherit;
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+
+    .weakness-scope-btn.active {
+      background: var(--accent);
+      color: #0f172a;
+      box-shadow: 0 2px 8px var(--accent-glow);
+    }
+
+    .weakness-metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .weakness-metric-card {
+      background: rgba(0, 0, 0, 0.2);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 14px;
+      text-align: center;
+    }
+
+    .weakness-metric-val {
+      font-size: 1.8rem;
+      font-weight: 800;
+      font-family: var(--font-mono);
+      line-height: 1.2;
+    }
+
+    .weakness-metric-label {
+      font-size: 0.72rem;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-top: 4px;
+    }
+
+    .weakness-section-title {
+      font-size: 0.88rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--text-muted);
+      margin: 18px 0 10px 0;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .weakness-topic-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .weakness-topic-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 12px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .weakness-topic-info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+      flex: 1;
+    }
+
+    .weakness-severity-pill {
+      font-size: 0.68rem;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 999px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      white-space: nowrap;
+    }
+
+    .weakness-severity-pill.critical {
+      background: rgba(239, 68, 68, 0.2);
+      color: #f87171;
+      border: 1px solid rgba(239, 68, 68, 0.4);
+    }
+
+    .weakness-severity-pill.moderate {
+      background: rgba(245, 158, 11, 0.2);
+      color: #fbbf24;
+      border: 1px solid rgba(245, 158, 11, 0.4);
+    }
+
+    .weakness-severity-pill.minor {
+      background: rgba(59, 130, 246, 0.2);
+      color: #60a5fa;
+      border: 1px solid rgba(59, 130, 246, 0.4);
+    }
+
+    .missed-questions-accordion {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 24px;
+      max-height: 380px;
+      overflow-y: auto;
+      padding-right: 4px;
+    }
+
+    .missed-q-item {
+      background: rgba(0, 0, 0, 0.25);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .missed-q-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      font-size: 0.8rem;
+      font-weight: 700;
+    }
+
+    .missed-q-choices {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin: 6px 0;
+    }
+    @media (max-width: 650px) {
+      .missed-q-choices {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .choice-badge-box {
+      padding: 8px 10px;
+      border-radius: var(--radius-sm);
+      font-size: 0.78rem;
+      line-height: 1.4;
+    }
+
+    .choice-badge-box.user-choice {
+      background: rgba(239, 68, 68, 0.12);
+      border: 1px solid rgba(239, 68, 68, 0.35);
+      color: #fca5a5;
+    }
+
+    .choice-badge-box.correct-choice {
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(16, 185, 129, 0.35);
+      color: #6ee7b7;
+    }
+
+    .missed-q-explanation {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      background: rgba(255, 255, 255, 0.03);
+      padding: 10px;
+      border-radius: var(--radius-sm);
+      border-left: 3px solid var(--accent);
+    }
+
+    .ai-generator-panel {
+      background: rgba(168, 85, 247, 0.08);
+      border: 1px solid rgba(168, 85, 247, 0.3);
+      border-radius: var(--radius-md);
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .ai-options-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
     /* Lightbox Modal */
     .lightbox-img {
       max-width: 90vw;
@@ -2763,10 +2995,10 @@
     </div>
 
     <div class="header-right">
-      <!-- Gemini Questions Generator Button -->
-      <button class="btn btn-purple" onclick="openGeminiModal()" title="Generate new USMLE practice questions tailored to your incorrect concepts in Gemini">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        <span>Ask Gemini</span>
+      <!-- Weakness Assessment & AI Questions Generator Button -->
+      <button class="btn btn-purple" onclick="openWeaknessAssessmentModal()" id="assessWeaknessHeaderBtn" title="Assess weaknesses across your incorrect questions and generate targeted practice questions">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a9 9 0 0 1 9 9c0 3.1-1.6 5.8-4 7.4V20a2 2 0 0 1-2 2h-6a2 2 0 0 1-2-2v-1.6C4.6 16.8 3 14.1 3 11a9 9 0 0 1 9-9z"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>
+        <span>Assess Weaknesses & AI Qs</span>
       </button>
 
       <button class="btn" onclick="toggleRandomizeOptions()" id="randomizeToggleBtn" title="Answer choices are dynamically shuffled">
@@ -3000,43 +3232,114 @@
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
             <span>Reset Track Progress</span>
           </button>
-          <button class="btn btn-purple" onclick="closeScoreReportDirect(); openGeminiModal();">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-            <span>Generate Gemini Practice Questions</span>
+          <button class="btn btn-purple" onclick="closeScoreReportDirect(); openWeaknessAssessmentModal();">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a9 9 0 0 1 9 9c0 3.1-1.6 5.8-4 7.4V20a2 2 0 0 1-2 2h-6a2 2 0 0 1-2-2v-1.6C4.6 16.8 3 14.1 3 11a9 9 0 0 1 9-9z"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>
+            <span>Assess Weaknesses & Generate Questions</span>
           </button>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Gemini Prompt Modal -->
-  <div class="modal-backdrop" id="geminiModal" onclick="closeGeminiModal(event)">
-    <div class="modal-box" onclick="event.stopPropagation()">
+  <!-- Weakness Assessment & AI Question Generator Modal -->
+  <div class="modal-backdrop" id="weaknessModal" onclick="closeWeaknessModal(event)">
+    <div class="modal-box modal-lg" onclick="event.stopPropagation()">
       <div class="modal-header">
         <div style="display: flex; align-items: center; gap: 8px;">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-          <h3>Ask Gemini For Tailored USMLE Questions</h3>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="2"><path d="M12 2a9 9 0 0 1 9 9c0 3.1-1.6 5.8-4 7.4V20a2 2 0 0 1-2 2h-6a2 2 0 0 1-2-2v-1.6C4.6 16.8 3 14.1 3 11a9 9 0 0 1 9-9z"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>
+          <h3 id="weaknessModalTitle">Exam 3 Weakness Assessment & Question Generator</h3>
         </div>
-        <button class="btn btn-icon" onclick="closeGeminiModalDirect()">
+        <button class="btn btn-icon" onclick="closeWeaknessModalDirect()" title="Close">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
         </button>
       </div>
+
       <div class="modal-content">
-        <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 12px; line-height: 1.5;">
-          Antigravity has automatically analyzed the specific questions and curricular topics you answered incorrectly and formulated an optimized medical board prompt for Google Gemini to generate high-yield clinical questions targeting your weak areas.
-        </p>
+        <!-- Scope Switcher Bar -->
+        <div class="weakness-scope-bar">
+          <div style="font-size: 0.82rem; font-weight: 700; color: var(--text-muted); display: flex; align-items: center; gap: 6px;">
+            <span>Diagnostic Scope:</span>
+          </div>
+          <div class="weakness-scope-pills" id="weaknessScopePills">
+            <button class="weakness-scope-btn active" id="scopeBtnCurrent" onclick="setWeaknessScope('current')">
+              Current Bank
+            </button>
+            <button class="weakness-scope-btn" id="scopeBtnAllE3" onclick="setWeaknessScope('all_exam3')">
+              All Exam 3 Banks Combined
+            </button>
+          </div>
+        </div>
 
-        <textarea id="geminiPromptTextarea" class="gemini-prompt-box" rows="10" readonly style="width: 100%; resize: vertical;"></textarea>
+        <!-- Diagnostic Metrics Overview -->
+        <div class="weakness-metrics-grid" id="weaknessMetricsGrid">
+          <!-- Dynamically populated metrics: Total Missed, Accuracy %, Top Weak Area, etc. -->
+        </div>
 
-        <div style="display: flex; justify-content: flex-end; gap: 10px;">
-          <button class="btn" onclick="copyGeminiPrompt()">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
-            <span>Copy Prompt</span>
+        <!-- Curricular Topic Weakness Breakdown -->
+        <div class="weakness-section-title">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          <span>Curricular Weakness Areas & Knowledge Gaps</span>
+        </div>
+        <div class="weakness-topic-list" id="weaknessTopicList">
+          <!-- Dynamically populated topic breakdown with severity pills -->
+        </div>
+
+        <!-- Detailed Missed Questions Review -->
+        <div class="weakness-section-title" style="justify-content: space-between;">
+          <div style="display: flex; align-items: center; gap: 6px;">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+            <span id="missedQuestionsHeading">Review Missed Questions (0)</span>
+          </div>
+          <button class="btn btn-sm" id="drillMissedBtn" onclick="drillMissedInExam()" style="font-size: 0.72rem; padding: 3px 8px;">
+            🎯 Drill Missed Qs in Exam Mode
           </button>
-          <button class="btn btn-purple" onclick="launchGeminiTab()">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-            <span>Copy & Launch Gemini</span>
-          </button>
+        </div>
+        <div class="missed-questions-accordion" id="missedQuestionsAccordion">
+          <!-- Detailed breakdown of each missed question -->
+        </div>
+
+        <!-- AI Targeted Question Generator -->
+        <div class="weakness-section-title">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <span>Generate Targeted Practice Questions</span>
+        </div>
+        <div class="ai-generator-panel">
+          <div class="ai-options-row">
+            <div style="display: flex; align-items: center; gap: 8px; font-size: 0.8rem; color: var(--text-muted);">
+              <span>Questions to Generate:</span>
+              <select id="genQCountSelect" onchange="regenerateAIPrompt()" style="background: rgba(0,0,0,0.4); border: 1px solid var(--border-color); color: var(--text-main); border-radius: var(--radius-sm); padding: 3px 8px; font-size: 0.8rem;">
+                <option value="3">3 Clinical Questions</option>
+                <option value="5" selected>5 Clinical Questions</option>
+                <option value="10">10 Clinical Questions</option>
+                <option value="20">20-Q Block (Comprehensive)</option>
+              </select>
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px; font-size: 0.8rem; color: var(--text-muted);">
+              <span>Difficulty:</span>
+              <select id="genDifficultySelect" onchange="regenerateAIPrompt()" style="background: rgba(0,0,0,0.4); border: 1px solid var(--border-color); color: var(--text-main); border-radius: var(--radius-sm); padding: 3px 8px; font-size: 0.8rem;">
+                <option value="step1_standard" selected>USMLE Step 1 Standard</option>
+                <option value="higher_order">Higher-Order (Analyze & Apply)</option>
+              </select>
+            </div>
+          </div>
+
+          <textarea id="weaknessPromptTextarea" class="gemini-prompt-box" rows="8" readonly style="width: 100%; resize: vertical; font-size: 0.78rem; line-height: 1.45;"></textarea>
+          <textarea id="geminiPromptTextarea" style="display: none;"></textarea>
+
+          <div style="display: flex; justify-content: flex-end; gap: 10px; flex-wrap: wrap;">
+            <button class="btn" onclick="copyWeaknessPrompt()">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              <span>Copy AI Prompt</span>
+            </button>
+            <button class="btn btn-purple" onclick="launchGeminiWithWeaknessPrompt()">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              <span>Copy & Launch Google Gemini</span>
+            </button>
+            <button class="btn btn-accent" onclick="launchChatGPTWithWeaknessPrompt()">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+              <span>Copy & Launch ChatGPT</span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -4960,62 +5263,434 @@
       document.getElementById('scoreModal').classList.remove('show');
     }
 
-    // Gemini Modal
-    function openGeminiModal() {
-      const q = questions[currentIndex];
-      const state = userState[q.id];
-      const wrongList = questions
-        .filter(item => userState[item.id] && userState[item.id].isCorrect === false)
-        .map(item => `• Category: ${item.category} | Stem: "${item.stem.slice(0, 100)}..."`)
-        .slice(0, 5);
+    /* ========================================================= */
+    /* WEAKNESS ASSESSMENT & AI QUESTION GENERATION ENGINE       */
+    /* ========================================================= */
+    let weaknessScope = 'current'; // 'current' or 'all_exam3'
 
-      let conceptsStr = '';
-      if (wrongList.length > 0) {
-        conceptsStr = `Here are specific topics/questions I missed on my exam:\n${wrongList.join('\n')}\n\n`;
+    const EXAM3_BANKS_METADATA = [
+      { id: 'exam3_practice', name: 'Practice Exam 3 (118 Qs)', prefix: 'usmle_exam3_practice_', getData: () => rawExam3Questions },
+      { id: 'exam3_c_u1_6', name: 'Units 1–6 (c_u1-6, 203 Qs)', prefix: 'usmle_exam3_c_u1_6_', getData: () => rawExam3CU16Questions },
+      { id: 'exam3_c_h1_6', name: 'Units 1–6 (c_H1-6, 180 Qs)', prefix: 'usmle_exam3_c_h1_6_', getData: () => rawExam3CH16Questions },
+      { id: 'exam3_c_u2_1_6', name: 'Units 1–6 (c_u2_1-6, 202 Qs)', prefix: 'usmle_exam3_c_u2_1_6_', getData: () => rawExam3CU216Questions },
+      { id: 'exam3_g_h_u1_6', name: 'Units 1–6 (g_H_u1-6, 120 Qs)', prefix: 'usmle_exam3_g_h_u1_6_', getData: () => rawExam3GHU16Questions },
+      { id: 'exam3_inhouse_c', name: 'In House c (100 Qs)', prefix: 'usmle_exam3_inhouse_c_', getData: () => rawExam3InHouseCQuestions },
+      { id: 'exam3_inhouse_c2', name: 'In House c2 (100 Qs)', prefix: 'usmle_exam3_inhouse_c2_', getData: () => rawExam3InHouseC2Questions },
+    ];
+
+    function getWrongQuestionsForTrack(trackId, prefix, bankQuestions) {
+      const wrongList = [];
+      let state = {};
+      if (currentTrack === trackId) {
+        state = userState;
       } else {
-        conceptsStr = `Current focus category: ${q.category}.\nQuestion Stem Concept: "${q.stem.slice(0, 120)}..."\n\n`;
+        try {
+          const raw = localStorage.getItem(prefix + 'state');
+          if (raw) state = JSON.parse(raw);
+        } catch (e) {}
       }
 
-      currentGeneratedPrompt = `You are an expert medical educator specializing in USMLE Step 1 preparation.
+      bankQuestions.forEach((q, qIndex) => {
+        const s = state[q.id];
+        if (s && s.isCorrect === false) {
+          let userChoiceText = 'None recorded';
+          let correctChoiceText = 'Correct option';
+          const opts = s.shuffledOptions || q.options || [];
 
-${conceptsStr}Please generate 3 brand-new, high-yield USMLE Step 1 style clinical vignette multiple choice questions targeting these exact concepts.
+          if (s.selectedChoiceIndex !== null && opts[s.selectedChoiceIndex]) {
+            userChoiceText = opts[s.selectedChoiceIndex].text;
+          }
+          const correctOpt = opts.find(o => o.is_correct);
+          if (correctOpt) {
+            correctChoiceText = correctOpt.text;
+          }
 
-For each question:
-1. Provide a realistic clinical vignette with patient age, history, physical exam, and pertinent laboratory/imaging findings.
-2. Provide 5 distinct answer choices (A, B, C, D, E).
-3. Include the correct answer with a thorough educational explanation.
-4. Detail why each incorrect distractor is wrong.
-5. Provide a memorable high-yield board tip / memory aid.`;
+          wrongList.push({
+            trackId,
+            qIndex,
+            id: q.id,
+            qNum: q.q_num || (qIndex + 1),
+            category: q.category || 'General Neuroscience',
+            stem: q.stem,
+            userChoice: userChoiceText,
+            correctChoice: correctChoiceText,
+            explanation: q.explanation || '',
+            pearl: q.high_yield_pearl || ''
+          });
+        }
+      });
+      return wrongList;
+    }
 
-      document.getElementById('geminiPromptTextarea').value = currentGeneratedPrompt;
-      document.getElementById('geminiModal').classList.add('show');
+    function collectWeaknessData() {
+      let isE3 = isExam3Track(currentTrack);
+      let scopePills = document.getElementById('weaknessScopePills');
+      if (scopePills) {
+        scopePills.style.display = isE3 ? 'inline-flex' : 'none';
+      }
+
+      let wrongItems = [];
+      let totalAnswered = 0;
+      let totalQuestionsCount = 0;
+
+      if (isE3 && weaknessScope === 'all_exam3') {
+        EXAM3_BANKS_METADATA.forEach(b => {
+          const data = b.getData();
+          totalQuestionsCount += data.length;
+          let state = {};
+          if (currentTrack === b.id) {
+            state = userState;
+          } else {
+            try {
+              const raw = localStorage.getItem(b.prefix + 'state');
+              if (raw) state = JSON.parse(raw);
+            } catch (e) {}
+          }
+          Object.values(state).forEach(s => {
+            if (s && s.isCorrect !== null) totalAnswered++;
+          });
+          wrongItems = wrongItems.concat(getWrongQuestionsForTrack(b.id, b.prefix, data));
+        });
+      } else {
+        totalQuestionsCount = questions.length;
+        Object.values(userState).forEach(s => {
+          if (s && s.isCorrect !== null) totalAnswered++;
+        });
+        const prefix = getStoragePrefix(currentTrack);
+        wrongItems = getWrongQuestionsForTrack(currentTrack, prefix, questions);
+      }
+
+      // Group by category
+      const catBreakdown = {};
+      wrongItems.forEach(item => {
+        if (!catBreakdown[item.category]) {
+          catBreakdown[item.category] = { count: 0, items: [] };
+        }
+        catBreakdown[item.category].count++;
+        catBreakdown[item.category].items.push(item);
+      });
+
+      const sortedCats = Object.entries(catBreakdown).sort((a, b) => b[1].count - a[1].count);
+
+      return {
+        isE3,
+        scope: weaknessScope,
+        wrongItems,
+        totalAnswered,
+        totalQuestionsCount,
+        categoryBreakdown: sortedCats
+      };
+    }
+
+    function openWeaknessAssessmentModal() {
+      if (isExam3Track(currentTrack) && weaknessScope !== 'all_exam3') {
+        weaknessScope = 'current';
+      }
+      renderWeaknessAssessment();
+      const modal = document.getElementById('weaknessModal');
+      if (modal) modal.classList.add('show');
+    }
+
+    function openGeminiModal() {
+      openWeaknessAssessmentModal();
+    }
+
+    function closeWeaknessModal(e) {
+      if (e.target.id === 'weaknessModal') closeWeaknessModalDirect();
+    }
+
+    function closeWeaknessModalDirect() {
+      const modal = document.getElementById('weaknessModal');
+      if (modal) modal.classList.remove('show');
     }
 
     function closeGeminiModal(e) {
-      if (e.target.id === 'geminiModal') closeGeminiModalDirect();
+      closeWeaknessModal(e);
     }
 
     function closeGeminiModalDirect() {
-      document.getElementById('geminiModal').classList.remove('show');
+      closeWeaknessModalDirect();
     }
 
-    function copyGeminiPrompt() {
-      const textarea = document.getElementById('geminiPromptTextarea');
+    function setWeaknessScope(scope) {
+      weaknessScope = scope;
+      const btnCur = document.getElementById('scopeBtnCurrent');
+      const btnAll = document.getElementById('scopeBtnAllE3');
+      if (btnCur) btnCur.className = 'weakness-scope-btn' + (scope === 'current' ? ' active' : '');
+      if (btnAll) btnAll.className = 'weakness-scope-btn' + (scope === 'all_exam3' ? ' active' : '');
+      renderWeaknessAssessment();
+    }
+
+    function renderWeaknessAssessment() {
+      const data = collectWeaknessData();
+      const modalTitle = document.getElementById('weaknessModalTitle');
+      if (modalTitle) {
+        modalTitle.textContent = isExam3Track(currentTrack)
+          ? (weaknessScope === 'all_exam3' ? '🧠 Exam 3 (All Banks Combined) Weakness Assessment & AI Generator' : `🧠 Exam 3 (${getCurrentTrackDisplayName()}) Weakness Assessment`)
+          : `🧠 ${getCurrentTrackDisplayName()} Weakness Assessment & AI Generator`;
+      }
+
+      const btnCur = document.getElementById('scopeBtnCurrent');
+      if (btnCur) {
+        const curWrong = getWrongQuestionsForTrack(currentTrack, getStoragePrefix(currentTrack), questions).length;
+        btnCur.textContent = `Current Bank: ${getCurrentTrackShortName()} (${curWrong} Missed)`;
+      }
+
+      // 1. Diagnostic Metrics
+      const metricsGrid = document.getElementById('weaknessMetricsGrid');
+      const totalWrong = data.wrongItems.length;
+      const errorRate = data.totalAnswered > 0 ? ((totalWrong / data.totalAnswered) * 100).toFixed(1) : 0;
+      const topWeakArea = data.categoryBreakdown.length > 0 ? data.categoryBreakdown[0][0] : 'None (Mastery Demonstrated)';
+      const topWeakCount = data.categoryBreakdown.length > 0 ? data.categoryBreakdown[0][1].count : 0;
+
+      if (metricsGrid) {
+        metricsGrid.innerHTML = `
+          <div class="weakness-metric-card">
+            <div class="weakness-metric-val" style="color: var(--error);">${totalWrong}</div>
+            <div class="weakness-metric-label">Questions Got Wrong</div>
+          </div>
+          <div class="weakness-metric-card">
+            <div class="weakness-metric-val" style="color: var(--accent);">${data.totalAnswered}</div>
+            <div class="weakness-metric-label">Total Answered (Error Rate: ${errorRate}%)</div>
+          </div>
+          <div class="weakness-metric-card">
+            <div class="weakness-metric-val" style="color: #fbbf24; font-size: 1.15rem; word-break: break-word;">${topWeakArea}</div>
+            <div class="weakness-metric-label">Primary Knowledge Vulnerability (${topWeakCount} Missed)</div>
+          </div>
+        `;
+      }
+
+      // 2. Curricular Topic Breakdown
+      const topicList = document.getElementById('weaknessTopicList');
+      if (topicList) {
+        if (data.categoryBreakdown.length === 0) {
+          topicList.innerHTML = `
+            <div style="padding: 16px; background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: var(--radius-md); text-align: center; color: #6ee7b7;">
+              🎉 No incorrect questions recorded yet in this scope! As you complete questions, any missed concepts will automatically appear here with full diagnostic breakdowns and AI question generators.
+            </div>
+          `;
+        } else {
+          topicList.innerHTML = data.categoryBreakdown.map(([cat, info]) => {
+            let sevClass = 'minor';
+            let sevText = 'Minor Gap';
+            if (info.count >= 3) { sevClass = 'critical'; sevText = 'Critical Review'; }
+            else if (info.count === 2) { sevClass = 'moderate'; sevText = 'Moderate Review'; }
+
+            const pct = totalWrong > 0 ? ((info.count / totalWrong) * 100).toFixed(0) : 0;
+
+            return `
+              <div class="weakness-topic-card">
+                <div class="weakness-topic-info">
+                  <span class="weakness-severity-pill ${sevClass}">${sevText}</span>
+                  <div style="min-width: 0;">
+                    <div style="font-weight: 700; font-size: 0.85rem; color: var(--text-main);">${cat}</div>
+                    <div style="font-size: 0.72rem; color: var(--text-dim); margin-top: 2px;">
+                      ${info.count} of ${totalWrong} errors (${pct}% of all mistakes)
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-sm" onclick="drillTopicWeakness('${cat.replace(/'/g, "\'")}')" style="font-size: 0.72rem; padding: 4px 10px; white-space: nowrap;">
+                  🎯 Drill ${info.count} Qs
+                </button>
+              </div>
+            `;
+          }).join('');
+        }
+      }
+
+      // 3. Detailed Missed Questions Review Accordion
+      const accordion = document.getElementById('missedQuestionsAccordion');
+      const heading = document.getElementById('missedQuestionsHeading');
+      if (heading) {
+        heading.textContent = `Review Missed Questions (${data.wrongItems.length})`;
+      }
+
+      if (accordion) {
+        if (data.wrongItems.length === 0) {
+          accordion.innerHTML = `
+            <div style="padding: 14px; text-align: center; color: var(--text-muted); font-size: 0.82rem;">
+              No questions to review in this section yet.
+            </div>
+          `;
+        } else {
+          accordion.innerHTML = data.wrongItems.map((item, idx) => `
+            <div class="missed-q-item">
+              <div class="missed-q-header">
+                <span style="color: var(--accent);">Q${item.qNum} • ${item.category}</span>
+                <span style="font-size: 0.7rem; color: var(--text-dim);">${item.trackId}</span>
+              </div>
+              <div style="font-size: 0.82rem; line-height: 1.45; color: var(--text-main);">
+                ${item.stem}
+              </div>
+              <div class="missed-q-choices">
+                <div class="choice-badge-box user-choice">
+                  <div style="font-weight: 700; margin-bottom: 2px;">❌ Your Selection:</div>
+                  <div>${item.userChoice}</div>
+                </div>
+                <div class="choice-badge-box correct-choice">
+                  <div style="font-weight: 700; margin-bottom: 2px;">✅ Correct Answer:</div>
+                  <div>${item.correctChoice}</div>
+                </div>
+              </div>
+              ${item.explanation ? `
+                <div class="missed-q-explanation">
+                  <strong>💡 High-Yield Educational Concept:</strong> ${item.explanation}
+                  ${item.pearl ? `<div style="margin-top: 6px; color: #fbbf24;"><strong>🌟 Board Pearl:</strong> ${item.pearl}</div>` : ''}
+                </div>
+              ` : ''}
+            </div>
+          `).join('');
+        }
+      }
+
+      regenerateAIPrompt();
+    }
+
+    function getCurrentTrackDisplayName() {
+      const b = EXAM_BANKS[currentExam]?.find(item => item.id === currentTrack);
+      return b ? b.label : currentTrack;
+    }
+
+    function getCurrentTrackShortName() {
+      const b = EXAM_BANKS[currentExam]?.find(item => item.id === currentTrack);
+      return b ? b.label.split('(')[0].trim() : currentTrack;
+    }
+
+    function regenerateAIPrompt() {
+      const data = collectWeaknessData();
+      const qCount = document.getElementById('genQCountSelect') ? document.getElementById('genQCountSelect').value : '5';
+      const difficulty = document.getElementById('genDifficultySelect') ? document.getElementById('genDifficultySelect').value : 'step1_standard';
+
+      let prompt = `You are an elite academic medical educator and senior USMLE Step 1 question writer.\n\nI am preparing for USMLE Step 1 (Neuroscience & Neurology / Exam 3). I need you to assess my diagnostic weaknesses and generate ${qCount} brand-new, high-yield practice clinical vignette multiple-choice questions targeting my exact knowledge gaps.\n\n`;
+
+      if (data.wrongItems.length > 0) {
+        prompt += `### DIAGNOSTIC WEAKNESS PROFILE & MISSED QUESTIONS:\n`;
+        prompt += `• Total Missed Questions Analyzed: ${data.wrongItems.length}\n`;
+        prompt += `• Priority Weakness Categories:\n`;
+        data.categoryBreakdown.forEach(([cat, info]) => {
+          prompt += `  - ${cat}: ${info.count} questions missed\n`;
+        });
+        prompt += `\n### DETAILED BREAKDOWN OF QUESTIONS MISSED:\n`;
+        data.wrongItems.forEach((q, i) => {
+          prompt += `Question ${i + 1} (${q.category}):\n`;
+          prompt += `• Clinical Stem: "${q.stem.slice(0, 180)}..."\n`;
+          prompt += `• My Incorrect Selection: "${q.userChoice}"\n`;
+          prompt += `• Correct Answer: "${q.correctChoice}"\n`;
+          if (q.explanation) {
+            prompt += `• Key Pathology Concept: ${q.explanation.slice(0, 160)}...\n`;
+          }
+          prompt += `\n`;
+        });
+      } else {
+        prompt += `Current Focus Curricular Areas for Exam 3:\n`;
+        prompt += `• Demyelinating Diseases (Multiple Sclerosis, Osmotic Demyelination, PML)\n`;
+        prompt += `• Cerebellum & Ataxias (Vermis vs Hemisphere localization, Friedrich ataxia)\n`;
+        prompt += `• Brainstem Strokes (Wallenberg/PICA, AICA, Medial Medullary, Weber, Benedikt)\n`;
+        prompt += `• Cerebrovascular Diseases (MCA, ACA, PCA, Berry Aneurysms, Subarachnoid Hemorrhage)\n`;
+        prompt += `• Neuroinfections (Bacterial/Viral/Fungal Meningitis, Encephalitis, Brain Abscess)\n`;
+        prompt += `• Dementia & Movement Disorders (Alzheimer, Lewy Body, FTD, Parkinson, Huntington)\n\n`;
+      }
+
+      prompt += `### INSTRUCTIONS FOR GENERATING THE ${qCount} TARGETED QUESTIONS:
+1. Difficulty Level: ${difficulty === 'higher_order' ? 'Higher-Order Clinical Vignettes (requires multi-step physiological deduction, mechanism integration, or pharmacologic reasoning)' : 'Standard USMLE Step 1 Clinical Vignette'}.
+2. Clinical Stem: Realistic patient presentation with age, sex, chief complaint, pertinent physical exam findings, and relevant diagnostic labs/imaging descriptions.
+3. 5 Options (A, B, C, D, E): Plausible distractors that test the specific misconceptions revealed above (e.g. vascular territory traps, brainstem stroke localizations).
+4. Explanations:
+   - Clear statement of the correct option and the underlying pathophysiology.
+   - Distinct, detailed explanation for WHY each incorrect distractor is wrong.
+   - High-Yield Memory Pearl / Educational Takeaway for rapid board review.`;
+
+      const textarea = document.getElementById('weaknessPromptTextarea');
+      if (textarea) {
+        textarea.value = prompt;
+      }
+      currentGeneratedPrompt = prompt;
+
+      const legacyTextarea = document.getElementById('geminiPromptTextarea');
+      if (legacyTextarea) {
+        legacyTextarea.value = prompt;
+      }
+    }
+
+    function copyWeaknessPrompt() {
+      const textarea = document.getElementById('weaknessPromptTextarea');
+      if (!textarea) return;
       textarea.select();
       navigator.clipboard.writeText(textarea.value).then(() => {
-        showToast('Prompt copied to clipboard!');
+        showToast('📋 AI Prompt copied to clipboard!');
       }).catch(() => {
         document.execCommand('copy');
-        showToast('Prompt copied to clipboard!');
+        showToast('📋 AI Prompt copied to clipboard!');
       });
     }
 
-    function launchGeminiTab() {
-      copyGeminiPrompt();
+    function copyGeminiPrompt() {
+      copyWeaknessPrompt();
+    }
+
+    function launchGeminiWithWeaknessPrompt() {
+      copyWeaknessPrompt();
       setTimeout(() => {
         window.open('https://gemini.google.com/app', '_blank');
       }, 200);
     }
+
+    function launchGeminiTab() {
+      launchGeminiWithWeaknessPrompt();
+    }
+
+    function launchChatGPTWithWeaknessPrompt() {
+      copyWeaknessPrompt();
+      setTimeout(() => {
+        window.open('https://chatgpt.com', '_blank');
+      }, 200);
+    }
+
+    function drillMissedInExam() {
+      closeWeaknessModalDirect();
+      const wrongCount = questions.filter(q => userState[q.id] && userState[q.id].isCorrect === false).length;
+      if (wrongCount === 0) {
+        showToast('Great job! 0 incorrect questions in the current bank.');
+        return;
+      }
+      filterIncorrectOnly = true;
+      activeCategoryFilter = null;
+      filterFlaggedOnly = false;
+      applyFilter();
+      renderSidebarCategories();
+      updateOverallStats();
+      if (filteredIndices.length > 0) {
+        currentIndex = filteredIndices[0];
+      }
+      renderCurrentQuestion();
+      showToast(`🎯 Filtered to review your ${wrongCount} missed questions. (Answers preserved)`);
+    }
+
+    function drillTopicWeakness(category) {
+      closeWeaknessModalDirect();
+      activeCategoryFilter = category;
+      filterIncorrectOnly = true;
+      filterFlaggedOnly = false;
+      applyFilter();
+      renderSidebarCategories();
+      updateOverallStats();
+      if (filteredIndices.length > 0) {
+        currentIndex = filteredIndices[0];
+      }
+      renderCurrentQuestion();
+      showToast(`🎯 Reviewing missed questions for: ${category}`);
+    }
+
+    window.openWeaknessAssessmentModal = openWeaknessAssessmentModal;
+    window.closeWeaknessModal = closeWeaknessModal;
+    window.closeWeaknessModalDirect = closeWeaknessModalDirect;
+    window.setWeaknessScope = setWeaknessScope;
+    window.drillMissedInExam = drillMissedInExam;
+    window.drillTopicWeakness = drillTopicWeakness;
+    window.regenerateAIPrompt = regenerateAIPrompt;
+    window.copyWeaknessPrompt = copyWeaknessPrompt;
+    window.launchGeminiWithWeaknessPrompt = launchGeminiWithWeaknessPrompt;
+    window.launchChatGPTWithWeaknessPrompt = launchChatGPTWithWeaknessPrompt;
 
     function resetCurrentTrack() {
       let trackName = 'Exam 1 (125 questions)';
@@ -5099,7 +5774,8 @@ For each question:
         }
       }
 
-      if (document.getElementById('geminiModal').classList.contains('show')) return;
+      if (document.getElementById('weaknessModal') && document.getElementById('weaknessModal').classList.contains('show')) return;
+      if (document.getElementById('geminiModal') && document.getElementById('geminiModal').classList.contains('show')) return;
       if (document.getElementById('gridModal').classList.contains('show')) return;
       if (document.getElementById('scoreModal').classList.contains('show')) return;
       if (document.getElementById('imageModal').classList.contains('show')) return;
