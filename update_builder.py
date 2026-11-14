@@ -723,22 +723,23 @@ html_template = """<!DOCTYPE html>
       background: rgba(15, 23, 42, 0.7);
       border: 1.5px solid rgba(255, 255, 255, 0.12);
       border-radius: 999px;
-      padding: 3px;
-      gap: 3px;
+      padding: 2px;
+      gap: 2px;
       box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.4);
+      flex-shrink: 0;
     }
 
     .exam-tab-btn {
       display: flex;
       align-items: center;
-      gap: 7px;
+      gap: 5px;
       background: transparent;
       border: none;
       color: var(--text-muted);
       font-family: inherit;
-      font-size: 0.82rem;
+      font-size: 0.8rem;
       font-weight: 700;
-      padding: 5px 14px;
+      padding: 4px 10px;
       border-radius: 999px;
       cursor: pointer;
       transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
@@ -817,7 +818,101 @@ html_template = """<!DOCTYPE html>
       margin: 0 2px;
     }
 
-    /* Track switcher tabs */
+    /* ========================================================= */
+    /* EXAM BANK SLIDER & SCRUBBER                               */
+    /* ========================================================= */
+    .bank-slider-container {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      min-width: 0;
+      flex: 1;
+      max-width: 620px;
+      position: relative;
+    }
+
+    .bank-slider-arrow {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: rgba(15, 23, 42, 0.7);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      flex-shrink: 0;
+      padding: 0;
+      transition: all 0.2s ease;
+      z-index: 5;
+    }
+
+    .bank-slider-arrow:hover:not(:disabled) {
+      background: var(--accent);
+      color: #0f172a;
+      border-color: var(--accent);
+      transform: scale(1.08);
+    }
+
+    .bank-slider-arrow:disabled {
+      cursor: default;
+      opacity: 0.25;
+      pointer-events: none;
+    }
+
+    .bank-slider-viewport-wrap {
+      position: relative;
+      min-width: 0;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      border-radius: 999px;
+    }
+
+    /* Gradient edge fades */
+    .bank-slider-viewport-wrap::before,
+    .bank-slider-viewport-wrap::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 16px;
+      pointer-events: none;
+      z-index: 4;
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+    .bank-slider-viewport-wrap.can-scroll-left::before {
+      left: 0;
+      opacity: 1;
+      background: linear-gradient(90deg, var(--bg-secondary) 0%, rgba(0,0,0,0) 100%);
+    }
+    .bank-slider-viewport-wrap.can-scroll-right::after {
+      right: 0;
+      opacity: 1;
+      background: linear-gradient(270deg, var(--bg-secondary) 0%, rgba(0,0,0,0) 100%);
+    }
+
+    .bank-slider-viewport {
+      display: flex;
+      align-items: center;
+      overflow-x: auto;
+      overflow-y: hidden;
+      scroll-behavior: smooth;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+      border-radius: 999px;
+      padding: 2px 0;
+      user-select: none;
+      width: 100%;
+    }
+    .bank-slider-viewport::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Track switcher tabs inside slider */
     .track-switcher {
       display: inline-flex;
       background: rgba(0, 0, 0, 0.25);
@@ -825,6 +920,75 @@ html_template = """<!DOCTYPE html>
       border-radius: 999px;
       padding: 3px;
       gap: 3px;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    /* Bank Scrubber Slider */
+    .bank-scrubber-box {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 3px 8px;
+      background: rgba(0, 0, 0, 0.25);
+      border: 1px solid var(--border-color);
+      border-radius: 999px;
+      flex-shrink: 0;
+    }
+
+    .bank-scrubber-box svg {
+      color: var(--accent);
+      flex-shrink: 0;
+    }
+
+    .bank-scrubber-box input[type="range"] {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 65px;
+      height: 5px;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 999px;
+      outline: none;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .bank-scrubber-box input[type="range"]:hover {
+      background: rgba(255, 255, 255, 0.25);
+    }
+
+    .bank-scrubber-box input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      background: var(--accent);
+      cursor: pointer;
+      box-shadow: 0 0 6px var(--accent-glow);
+      transition: transform 0.15s ease;
+    }
+
+    .bank-scrubber-box input[type="range"]::-webkit-slider-thumb:hover {
+      transform: scale(1.25);
+    }
+
+    .bank-scrubber-box input[type="range"]::-moz-range-thumb {
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      background: var(--accent);
+      cursor: pointer;
+      border: none;
+      box-shadow: 0 0 6px var(--accent-glow);
+    }
+
+    .bank-scrubber-badge {
+      font-size: 0.68rem;
+      font-weight: 700;
+      font-family: var(--font-mono);
+      color: var(--accent);
+      white-space: nowrap;
     }
 
     .track-btn {
@@ -842,6 +1006,7 @@ html_template = """<!DOCTYPE html>
       cursor: pointer;
       transition: all 0.2s ease;
       white-space: nowrap;
+      flex-shrink: 0;
     }
 
     .track-btn:hover {
@@ -897,12 +1062,30 @@ html_template = """<!DOCTYPE html>
       padding: 0 16px;
       flex-shrink: 0;
       z-index: 20;
+      gap: 12px;
+      overflow: hidden;
     }
 
-    .header-left, .header-center, .header-right {
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+      flex: 1;
+      overflow: hidden;
+    }
+
+    .header-center {
       display: flex;
       align-items: center;
       gap: 12px;
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
     }
 
     .logo-badge {
@@ -913,6 +1096,7 @@ html_template = """<!DOCTYPE html>
       font-size: 0.95rem;
       letter-spacing: -0.01em;
       color: var(--accent);
+      flex-shrink: 0;
     }
 
     .logo-badge svg {
@@ -3180,8 +3364,28 @@ html_template = """<!DOCTYPE html>
 
       <div class="switcher-separator"></div>
 
-      <div class="track-switcher" id="bankSwitcherContainer">
-        <!-- Dynamically rendered based on active Exam -->
+      <!-- Exam Banks Slider Container -->
+      <div class="bank-slider-container" id="bankSliderContainer">
+        <button class="bank-slider-arrow prev" id="bankSlidePrev" title="Slide banks left" onclick="slideBanks(-1)" aria-label="Slide Left">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <div class="bank-slider-viewport-wrap" id="bankSliderViewportWrap">
+          <div class="bank-slider-viewport" id="bankSliderViewport">
+            <div class="track-switcher" id="bankSwitcherContainer">
+              <!-- Dynamically rendered based on active Exam -->
+            </div>
+          </div>
+        </div>
+        <button class="bank-slider-arrow next" id="bankSlideNext" title="Slide banks right" onclick="slideBanks(1)" aria-label="Slide Right">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+
+        <!-- Interactive Range Scrubber Slider -->
+        <div class="bank-scrubber-box" id="bankScrubberBox" title="Slide or drag to select an exam bank">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/><circle cx="8" cy="6" r="2" fill="currentColor"/><circle cx="16" cy="12" r="2" fill="currentColor"/><circle cx="10" cy="18" r="2" fill="currentColor"/></svg>
+          <input type="range" id="bankRangeSlider" min="0" max="6" value="0" step="1" oninput="onBankRangeSlide(this.value)" aria-label="Exam Bank Slider">
+          <span class="bank-scrubber-badge" id="bankScrubberBadge">1/7</span>
+        </div>
       </div>
 
       <div class="timer-box focused-zen" id="timerDisplay">
@@ -3194,27 +3398,21 @@ html_template = """<!DOCTYPE html>
       <!-- Gemini Questions Generator Button -->
       <button class="btn btn-purple" onclick="openGeminiModal()" title="Generate new USMLE practice questions tailored to your incorrect concepts in Gemini">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        <span>Ask Gemini For Similar Qs</span>
+        <span>Ask Gemini</span>
       </button>
 
       <button class="btn" onclick="toggleRandomizeOptions()" id="randomizeToggleBtn" title="Answer choices are dynamically shuffled">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/><line x1="4" y1="4" x2="9" y2="9"/></svg>
-        <span id="randomizeBtnText">Shuffled Choices: ON</span>
+        <span id="randomizeBtnText">Shuffle: ON</span>
       </button>
 
-      <!-- Lock vault button removed
-      <button class="btn btn-icon" onclick="lockVault()" title="Lock Vault (Open Safe Login)">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-      </button>
-      -->
-
-<button class="btn btn-icon" onclick="toggleTheme()" title="Toggle Dark/Light Mode">
+      <button class="btn btn-icon" onclick="toggleTheme()" title="Toggle Dark/Light Mode">
         <svg id="themeIcon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
       </button>
 
       <button class="btn btn-accent" onclick="showScoreReport()">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-        <span>Performance Report</span>
+        <span>Score Report</span>
       </button>
     </div>
   </header>
@@ -3742,11 +3940,12 @@ html_template = """<!DOCTYPE html>
     }
 
     /* ========================================================= */
-    /* EXAM 3 HIDDEN ACCESS & "mark" KEYSTROKE DETECTION        */
+    /* EXAM 3 HIDDEN ACCESS & "mike" KEYSTROKE DETECTION         */
     /* ========================================================= */
     function isExam3Unlocked() {
       const urlParams = new URLSearchParams(window.location.search);
-      if (urlParams.has('mark') || urlParams.get('unlock') === 'mark' || urlParams.get('name') === 'mark') {
+      if (urlParams.has('mike') || urlParams.get('unlock') === 'mike' || urlParams.get('name') === 'mike' ||
+          urlParams.has('mark') || urlParams.get('unlock') === 'mark' || urlParams.get('name') === 'mark') {
         return true;
       }
       return sessionStorage.getItem('usmle_exam3_unlocked') === 'true';
@@ -3764,7 +3963,7 @@ html_template = """<!DOCTYPE html>
       if (!skipSwitch && currentExam !== 'exam3') {
         selectExam('exam3');
       }
-      showToast('⚡ Exam 3 Full Question Banks Unlocked! Welcome Mark.');
+      showToast('⚡ Exam 3 Full Question Banks Unlocked! Welcome Mike.');
       try {
         if (typeof VaultAudio !== 'undefined' && VaultAudio.init) {
           VaultAudio.init();
@@ -3842,6 +4041,143 @@ html_template = """<!DOCTYPE html>
       }
     }
 
+    /* ========================================================= */
+    /* EXAM BANK SLIDER & SCRUBBER LOGIC                         */
+    /* ========================================================= */
+    function getVisibleBanks() {
+      let banks = EXAM_BANKS[currentExam] || EXAM_BANKS.exam1;
+      if (currentExam === 'exam3' && !isExam3Unlocked()) {
+        banks = banks.filter(b => b.id === 'exam3_practice');
+      }
+      return banks;
+    }
+
+    function slideBanks(direction) {
+      const viewport = document.getElementById('bankSliderViewport');
+      if (!viewport) return;
+      const amount = Math.max(160, Math.floor(viewport.clientWidth * 0.7));
+      viewport.scrollBy({ left: direction * amount, behavior: 'smooth' });
+      setTimeout(updateSliderArrows, 320);
+    }
+
+    function updateSliderArrows() {
+      const viewport = document.getElementById('bankSliderViewport');
+      const wrap = document.getElementById('bankSliderViewportWrap');
+      const prevBtn = document.getElementById('bankSlidePrev');
+      const nextBtn = document.getElementById('bankSlideNext');
+      if (!viewport || !prevBtn || !nextBtn) return;
+
+      const maxScroll = Math.max(0, viewport.scrollWidth - viewport.clientWidth);
+      if (maxScroll <= 4) {
+        prevBtn.style.display = 'none';
+        nextBtn.style.display = 'none';
+        if (wrap) {
+          wrap.classList.remove('can-scroll-left', 'can-scroll-right');
+        }
+      } else {
+        prevBtn.style.display = 'flex';
+        nextBtn.style.display = 'flex';
+        const atLeft = viewport.scrollLeft <= 4;
+        const atRight = viewport.scrollLeft >= maxScroll - 4;
+        prevBtn.disabled = atLeft;
+        nextBtn.disabled = atRight;
+        prevBtn.style.opacity = atLeft ? '0.25' : '1';
+        nextBtn.style.opacity = atRight ? '0.25' : '1';
+
+        if (wrap) {
+          wrap.classList.toggle('can-scroll-left', !atLeft);
+          wrap.classList.toggle('can-scroll-right', !atRight);
+        }
+      }
+    }
+
+    function onBankRangeSlide(val) {
+      const idx = parseInt(val, 10);
+      const banks = getVisibleBanks();
+      if (banks && banks[idx]) {
+        switchTrack(banks[idx].id);
+      }
+    }
+
+    function updateBankScrubber() {
+      const range = document.getElementById('bankRangeSlider');
+      const badge = document.getElementById('bankScrubberBadge');
+      const box = document.getElementById('bankScrubberBox');
+      if (!range || !badge || !box) return;
+
+      const banks = getVisibleBanks();
+      if (!banks || banks.length <= 1) {
+        box.style.display = 'none';
+        return;
+      }
+      box.style.display = 'inline-flex';
+      range.min = 0;
+      range.max = banks.length - 1;
+      const curIdx = banks.findIndex(b => b.id === currentTrack || (b.id === 'exam2_zen' && currentTrack === 'exam2'));
+      const activeIdx = curIdx >= 0 ? curIdx : 0;
+      range.value = activeIdx;
+      badge.textContent = `${activeIdx + 1}/${banks.length}`;
+    }
+
+    function centerActiveBankPill() {
+      setTimeout(() => {
+        const activeBtn = document.getElementById('trackBtn_' + currentTrack) ||
+                          (currentTrack === 'exam2' ? document.getElementById('trackBtn_exam2_zen') : null);
+        if (activeBtn) {
+          activeBtn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+        }
+        updateSliderArrows();
+        updateBankScrubber();
+      }, 50);
+    }
+
+    function initBankSliderEvents() {
+      const viewport = document.getElementById('bankSliderViewport');
+      if (!viewport || viewport.dataset.initialized) return;
+      viewport.dataset.initialized = 'true';
+
+      viewport.addEventListener('wheel', (e) => {
+        if (Math.abs(e.deltaX) > 0) return;
+        if (Math.abs(e.deltaY) > 0) {
+          e.preventDefault();
+          viewport.scrollLeft += e.deltaY * 0.75;
+          updateSliderArrows();
+        }
+      }, { passive: false });
+
+      let isDown = false;
+      let startX = 0;
+      let scrollLeftStart = 0;
+
+      viewport.addEventListener('mousedown', (e) => {
+        if (e.target.closest('.track-btn')) return;
+        isDown = true;
+        startX = e.pageX - viewport.offsetLeft;
+        scrollLeftStart = viewport.scrollLeft;
+      });
+
+      window.addEventListener('mouseup', () => { isDown = false; });
+      window.addEventListener('mouseleave', () => { isDown = false; });
+
+      viewport.addEventListener('mousemove', (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - viewport.offsetLeft;
+        const walk = (x - startX) * 1.5;
+        viewport.scrollLeft = scrollLeftStart - walk;
+        updateSliderArrows();
+      });
+
+      viewport.addEventListener('scroll', updateSliderArrows, { passive: true });
+      window.addEventListener('resize', () => {
+        updateSliderArrows();
+        centerActiveBankPill();
+      });
+    }
+
+    window.slideBanks = slideBanks;
+    window.onBankRangeSlide = onBankRangeSlide;
+
     function renderBankSwitcher() {
       const container = document.getElementById('bankSwitcherContainer');
       if (!container) return;
@@ -3873,11 +4209,15 @@ html_template = """<!DOCTYPE html>
         `;
         container.appendChild(btn);
       });
+
+      updateBankScrubber();
+      centerActiveBankPill();
+      updateSliderArrows();
     }
 
     function switchTrack(newTrack) {
       if (isExam3Track(newTrack) && newTrack !== 'exam3_practice' && !isExam3Unlocked()) {
-        showToast('🔒 This bank requires unlock. Type mark to unlock.');
+        showToast('🔒 This bank requires unlock. Type mike to unlock.');
         return;
       }
       saveState();
@@ -3904,6 +4244,8 @@ html_template = """<!DOCTYPE html>
       if (e1Tab) e1Tab.className = 'exam-tab-btn' + (currentExam === 'exam1' ? ' active-exam1' : '');
       if (e2Tab) e2Tab.className = 'exam-tab-btn' + (currentExam === 'exam2' ? ' active-exam2' : '');
       if (e3Tab) e3Tab.className = 'exam-tab-btn' + (currentExam === 'exam3' ? ' active-exam3' : '');
+
+      centerActiveBankPill();
 
       // Re-render level 2 bank pills with new active state
       renderBankSwitcher();
@@ -4966,7 +5308,7 @@ html_template = """<!DOCTYPE html>
     function toggleRandomizeOptions() {
       randomizeChoices = !randomizeChoices;
       const btn = document.getElementById('randomizeBtnText');
-      btn.textContent = `Shuffled Choices: ${randomizeChoices ? 'ON' : 'OFF'}`;
+      btn.textContent = `Shuffle: ${randomizeChoices ? 'ON' : 'OFF'}`;
 
       questions.forEach((q) => {
         const state = userState[q.id];
@@ -5370,17 +5712,17 @@ For each question:
       }
     }
 
-    // Keyboard Shortcuts & Secret Keystroke Detection for "mark"
+    // Keyboard Shortcuts & Secret Keystroke Detection for "mike"
     let secretKeyBuffer = '';
     window.addEventListener('keydown', (e) => {
-      // Secret keystroke detection for "mark"
+      // Secret keystroke detection for "mike" (or "mark")
       if (e.key && !e.ctrlKey && !e.metaKey && !e.altKey) {
         if (e.key.length === 1) {
           secretKeyBuffer = (secretKeyBuffer + e.key.toLowerCase()).slice(-20);
-          if (secretKeyBuffer.endsWith('mark')) {
+          if (secretKeyBuffer.endsWith('mike') || secretKeyBuffer.endsWith('mark')) {
             secretKeyBuffer = '';
             toggleExam3();
-          } else if (secretKeyBuffer.endsWith('hidemark') || secretKeyBuffer.endsWith('lock3')) {
+          } else if (secretKeyBuffer.endsWith('hidemike') || secretKeyBuffer.endsWith('hidemark') || secretKeyBuffer.endsWith('lock3')) {
             secretKeyBuffer = '';
             hideExam3();
           }
@@ -5950,8 +6292,8 @@ For each question:
         return;
       }
 
-      // Check Condition 0B: name is mark -> Mark Mogs
-      if (name === 'mark') {
+      // Check Condition 0B: name is mike or mark -> Mog screen
+      if (name === 'mike' || name === 'mark') {
         triggerMarkMog();
         return;
       }
@@ -6038,8 +6380,8 @@ For each question:
       const mog = document.getElementById('markMogScreen');
       if (mog) mog.style.display = 'none';
       unlockExam3();
-      executeUnlockExam('mark');
-      showToast('🤫🧏‍♂️ Mark has entered. Exam 3 Unlocked.');
+      executeUnlockExam('mike');
+      showToast('🤫🧏‍♂️ Mike has entered. Exam 3 Unlocked.');
     }
 
     /* Condition: Happy Birthday Tyler */
@@ -6267,6 +6609,7 @@ For each question:
 
       setupAutoHighlighting();
       startTimer();
+      initBankSliderEvents();
 
       // Ensure Exam 3 tab is always displayed (Practice Exam 3 available with no password)
       const e3Tab = document.getElementById('exam3TabBtn');
