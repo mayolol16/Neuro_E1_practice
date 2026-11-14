@@ -1,0 +1,4002 @@
+[
+  {
+    "id": "exam3_inhouse_c2_q1",
+    "q_num": "1",
+    "orig_q_num": 43,
+    "orig_section": "Stroke — Blood Supply (Q43–51)",
+    "stem": "A 62-year-old man suddenly develops weakness and decreased sensation of the left leg and foot. His arm and face are spared. He is also incontinent of urine and appears apathetic. Which of the following vessels is most likely occluded?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Middle cerebral artery superior branch"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Anterior cerebral artery medial trunk"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Posterior cerebral artery calcarine"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Lenticulostriate deep perforators"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Anterior choroidal deep branch"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "The anterior cerebral artery supplies the medial frontal and parietal lobes, including the leg and foot motor and sensory cortex (paracentral lobule) and the micturition area. Occlusion causes contralateral leg weakness and sensory loss, incontinence and abulia.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q2",
+    "q_num": "2",
+    "orig_q_num": 42,
+    "orig_section": "Opportunistic Infection (Q33–42)",
+    "stem": "A 63-year-old man survived herpes simplex encephalitis involving the left temporal lobe, with a permanent deficit. Which of the following sets of deficits is most likely?",
+    "category": "Opportunistic Infection",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Contralateral inferior quadrantanopia and visual neglect"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Bitemporal hemianopia and bilateral anosmia deficit"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Contralateral homonymous hemianopia and dense hemiparesis"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Contralateral hemiballismus and choreiform movements"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Superior quadrantanopia, olfactory hallucinations, amnesia"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Temporal lobe damage affects Meyer loop (contralateral superior quadrantanopia), the uncus and olfactory cortex (anosmia, olfactory hallucinations) and the hippocampus (anterograde amnesia). A left temporal lesion causes a right superior quadrantanopia. Bilateral involvement can cause Klüver-Bucy syndrome.",
+    "high_yield_pearl": "High-Yield Rule: Opportunistic Infection",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q3",
+    "q_num": "3",
+    "orig_q_num": 92,
+    "orig_section": "CBIL Epilepsy (Q83–100)",
+    "stem": "A 24-year-old woman has her second unprovoked generalized tonic-clonic seizure in 6 months. Examination, electrolytes, toxicology screen, head CT and EEG are normal. She feels well. Which of the following is the most appropriate recommendation?",
+    "category": "CBIL Epilepsy",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Observation without long-term medication"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Inpatient continuous video-EEG study"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Autonomic evaluation with tilt-table"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Initiate antiseizure drug therapy now"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Positron emission tomography scanning"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "After a second unprovoked seizure, the likelihood of a third is 80–90%, so treatment is recommended. After a single unprovoked seizure most neurologists do not treat.",
+    "high_yield_pearl": "High-Yield Rule: CBIL Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q4",
+    "q_num": "4",
+    "orig_q_num": 10,
+    "orig_section": "Demyelinating Disease (Q1–10)",
+    "stem": "A 51-year-old woman with highly aggressive multiple sclerosis was started on immunosuppressive therapy. Two years later she develops progressive visual loss, cognitive decline and unsteady gait. MRI shows non-enhancing, bilateral T2-hyperintense lesions in the parieto-occipital white matter without mass effect. CSF is positive for JC virus DNA. Which of the following cell types is directly infected by this virus?",
+    "category": "Demyelinating Disease",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Protoplasmic astrocytes"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Perivascular microglia"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Pyramidal neurons"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Peripheral Schwann cells"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Central oligodendrocytes"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "JC virus infects oligodendrocytes, causing progressive multifocal leukoencephalopathy with demyelination, lipid-laden macrophages and reactive astrocytes. It occurs in immunosuppressed patients (HIV, immunosuppressive drugs). MRI shows non-enhancing white matter lesions without mass effect.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q5",
+    "q_num": "5",
+    "orig_q_num": 66,
+    "orig_section": "Stroke — Brainstem (Q62–72)",
+    "stem": "A 62-year-old man with hypertension and atrial fibrillation has sudden vertigo and hearing loss in the left ear. He has complete left facial weakness, including the forehead, loss of pain and temperature on the left face and the right body, left ptosis and miosis, and left limb ataxia. Strength is normal. Which of the following arteries is most likely occluded?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Vertebral artery; nucleus ambiguus"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Paramedian basilar; pontine pyramid"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Anterior spinal; hypoglossal nucleus"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Posterior cerebral; crus cerebri"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "AICA; facial motor nerve nucleus"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "AICA occlusion causes a lateral caudal pontine syndrome: facial nerve (whole-face palsy), cochlear and vestibular involvement, spinal trigeminal tract, anterolateral system, sympathetic fibers and cerebellar peduncles.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q6",
+    "q_num": "6",
+    "orig_q_num": 51,
+    "orig_section": "Stroke — Blood Supply (Q43–51)",
+    "stem": "A 70-year-old man undergoes open repair of a thoracoabdominal aortic aneurysm. Afterward he has bilateral leg weakness, loss of pain and temperature sensation below the umbilicus, and urinary retention. Vibration and proprioception are preserved. Which of the following vascular territories is most likely infarcted?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Posterior spinal arteries"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Vertebral arterial trunks"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Anterior spinal cord artery"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Basilar trunk perforators"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Posterior inferior cerebellar"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "The anterior spinal artery supplies the anterior two-thirds of the cord, with the artery of Adamkiewicz (T9–T12) as a critical feeder. Infarction causes motor loss and loss of pain and temperature, with sparing of the dorsal columns.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q7",
+    "q_num": "7",
+    "orig_q_num": 2,
+    "orig_section": "Demyelinating Disease (Q1–10)",
+    "stem": "A 27-year-old woman has horizontal diplopia. When she looks to the right, her left eye fails to adduct while the right eye abducts with nystagmus. Gaze to the left is normal, and both eyes adduct normally during convergence. MRI shows periventricular white matter lesions. Which of the following structures is most likely damaged?",
+    "category": "Demyelinating Disease",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Left medial longitudinal fasciculus"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Right medial longitudinal fasciculus"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Left abducens motor nerve nucleus"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Right paramedian pontine reticular center"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Left oculomotor somatic motor nerve"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "In internuclear ophthalmoplegia the eye on the side of the lesion fails to adduct, with abducting nystagmus in the other eye. The MLF carries signals from the contralateral abducens interneurons to the ipsilateral oculomotor nucleus. Intact convergence separates this from an oculomotor nerve palsy. Bilateral INO in a young adult is classic for MS.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q8",
+    "q_num": "8",
+    "orig_q_num": 71,
+    "orig_section": "Stroke — Brainstem (Q62–72)",
+    "stem": "A 69-year-old woman suddenly has numbness of the entire left face and body, including loss of light touch, pain and temperature. Strength is normal. She has no cranial nerve palsies, ataxia, visual loss or cognitive deficits. Which of the following is the most likely lesion?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Claude syndrome; midbrain tegmentum; PCA"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Weber syndrome; crus cerebri; PCA"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Wallenberg syndrome; lateral medulla; PICA"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Benedikt syndrome; red nucleus; PCA"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Foville syndrome; caudal pons; basilar"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "A pure sensory loss of all modalities on the contralateral face and body without motor, cranial nerve or cognitive findings localizes to the thalamus (VPL and VPM), from occlusion of penetrating PCA branches. Thalamic pain syndrome can develop later.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q9",
+    "q_num": "9",
+    "orig_q_num": 16,
+    "orig_section": "Cerebellum (Q11–18)",
+    "stem": "A 58-year-old strict vegan has paresthesias in both feet, an unsteady gait, mild leg spasticity and macrocytic anemia. Examination shows loss of vibration and proprioception in the legs with a positive Romberg sign. Which of the following sets of spinal tracts is primarily degenerating?",
+    "category": "Cerebellum",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Dorsal columns and anterior horn cells"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Spinothalamic tracts and dorsal columns"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Dorsal columns, corticospinal and spinocerebellar tracts"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Anterior spinal cord motor horn and funiculi"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Fasciculus gracilis and cuneatus columns only"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "B12 deficiency causes subacute combined degeneration of the dorsal columns (vibration and proprioception loss), lateral corticospinal tracts (spasticity) and spinocerebellar tracts (ataxia). Macrocytic anemia and a vegan diet are the clues.",
+    "high_yield_pearl": "High-Yield Rule: Cerebellum",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q10",
+    "q_num": "10",
+    "orig_q_num": 79,
+    "orig_section": "Dementia (Q73–82)",
+    "stem": "A 72-year-old man has 8 months of difficulty walking, as if his feet are stuck to the floor. He then develops urinary urgency with incontinence and forgetfulness. MRI shows enlarged ventricles out of proportion to sulcal atrophy. Lumbar puncture shows a normal opening pressure. Which of the following is the best next step to predict response to surgical treatment?",
+    "category": "Dementia",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Alzheimer disease dementia"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Dementia with Lewy bodies"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Behavioral frontotemporal"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Normal pressure hydrocephalus"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Creutzfeldt-Jakob disease"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "The triad of gait disturbance first, urinary incontinence and dementia with ventriculomegaly is normal pressure hydrocephalus, from impaired CSF resorption by arachnoid granulations. Gait improvement after high-volume lumbar puncture predicts shunt response.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q11",
+    "q_num": "11",
+    "orig_q_num": 74,
+    "orig_section": "Dementia (Q73–82)",
+    "stem": "A 52-year-old man with Down syndrome develops progressive memory loss and disorientation. Which of the following best explains his early-onset dementia?",
+    "category": "Dementia",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Donepezil; NMDA receptor antagonist"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Memantine; acetylcholinesterase block"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Donepezil; cholinesterase inhibition"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Memantine; dopamine receptor agonism"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Galantamine; selective serotonin block"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "The APP gene is on chromosome 21, so trisomy 21 increases β-amyloid production, and most people with Down syndrome develop plaques and Alzheimer disease by their 50s. Presenilin-1 is on chromosome 14, and ApoE ε4 on chromosome 19 is a risk factor for sporadic disease.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q12",
+    "q_num": "12",
+    "orig_q_num": 11,
+    "orig_section": "Cerebellum (Q11–18)",
+    "stem": "A 65-year-old woman with a 15-year history of alcohol use disorder has had progressive gait difficulty for 5 months. She walks with a wide-based gait, cannot tandem walk, and sways from side to side when sitting unsupported. Finger-to-nose and heel-to-shin tests are normal. Vibration and proprioception are intact. There is no nystagmus or vertigo. Which of the following structures is most likely affected?",
+    "category": "Cerebellum",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Flocculonodular lobe cortex"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Left cerebellar hemisphere"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Anterior cerebellar vermis"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Spinal dorsal column pathway"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Medullary vestibular nuclei"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Truncal ataxia with normal limb testing and intact sensation localizes to the vermis (spinocerebellum). Chronic alcohol use classically causes vermian degeneration. Flocculonodular lesions cause nystagmus and vertigo, hemisphere lesions cause limb ataxia, and dorsal column disease causes sensory ataxia.",
+    "high_yield_pearl": "High-Yield Rule: Cerebellum",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q13",
+    "q_num": "13",
+    "orig_q_num": 56,
+    "orig_section": "Stroke — Cerebrovascular Disease (Q52–61)",
+    "stem": "A 70-year-old man has an acute middle cerebral artery infarct. The neurologist explains that neurons in the surrounding penumbra can still die. Which of the following sequences best describes the mechanism of excitotoxic injury?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Na+/K+ ATPase increase, hyperpolarization, Ca2+ efflux"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Chloride influx, hyperpolarization, reduced oxygen use"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "ATP loss, Na+/K+ failure, glutamate surge, Ca2+ influx"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "ATP increase, glutamate reuptake, calcium sequestration"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Potassium influx, hyperpolarization, GABA neuroprotection"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "In ischemia, ATP depletion causes Na+/K+ ATPase failure and depolarization. Glutamate is released, and calcium enters through NMDA and AMPA receptors, activating proteases and lipases and generating free radicals, which leads to cell death.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q14",
+    "q_num": "14",
+    "orig_q_num": 57,
+    "orig_section": "Stroke — Cerebrovascular Disease (Q52–61)",
+    "stem": "A 41-year-old woman had a cosmetic ultrasound procedure on her neck 2 weeks ago. She now has a constant throbbing headache and an episode of painless vision loss in the left eye. She presents with nonfluent speech, right-sided weakness, left ptosis and a smaller left pupil. Which of the following is the most likely diagnosis?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Internal carotid arterial dissection"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Septic cavernous venous thrombosis"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Atrial fibrillation cardioembolism"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Vertebral artery traumatic dissection"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Ruptured intracranial berry aneurysm"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Carotid dissection after neck trauma or manipulation causes headache, retinal ischemia (ophthalmic artery), MCA-territory deficits and an ipsilateral Horner syndrome, because sympathetic fibers travel along the carotid. MRI or angiography shows carotid occlusion.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q15",
+    "q_num": "15",
+    "orig_q_num": 73,
+    "orig_section": "Dementia (Q73–82)",
+    "stem": "A 78-year-old retired engineer has a year of worsening memory. He forgets recent conversations, has gotten lost in his own neighborhood and has trouble dressing himself. He becomes defensive when asked about it. Examination and metabolic workup are normal. Which of the following sets of findings is most likely at autopsy?",
+    "category": "Dementia",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Intracellular alpha-synuclein Lewy bodies"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Intracellular tau inclusions in Pick bodies"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Extracellular beta-amyloid and tau tangles"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Spongiform neuronal vacuolar degeneration"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Polyglutamine huntingtin nuclear aggregates"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Insidious memory loss, visuospatial disorientation and loss of insight indicate Alzheimer disease. Pathology shows extracellular β-amyloid (neuritic) plaques and intracellular neurofibrillary tangles of hyperphosphorylated tau, with early hippocampal atrophy and ex vacuo ventricular enlargement. A is Lewy body dementia, B is frontotemporal degeneration, C is CJD, D is vascular dementia.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q16",
+    "q_num": "16",
+    "orig_q_num": 46,
+    "orig_section": "Stroke — Blood Supply (Q43–51)",
+    "stem": "A 58-year-old man has a left-hemisphere stroke. He speaks fluently and understands commands, but he cannot repeat sentences spoken to him. Which of the following structures is most likely injured?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Inferior frontal Broca motor area"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Superior temporal Wernicke center"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Arcuate superior longitudinal tract"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Frontal eye field cortical center"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Primary motor facial strip cortex"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Conduction aphasia is a fluent aphasia with intact comprehension but impaired repetition, caused by a lesion of the arcuate (superior longitudinal) fasciculus that connects Wernicke and Broca areas.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q17",
+    "q_num": "17",
+    "orig_q_num": 49,
+    "orig_section": "Stroke — Blood Supply (Q43–51)",
+    "stem": "A 75-year-old man with 25 years of poorly controlled hypertension has sudden weakness of the right arm, leg and lower face. Sensation, vision and cognition are normal. Diffusion-weighted MRI shows a small infarct in the posterior limb of the left internal capsule. Which of the following is the most likely vessel and mechanism?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Lenticulostriate penetrating branches; lipohyalinosis"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Anterior cerebral cortical trunk; cardiogenic embolus"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Pontine paramedian penetrating branch; artery dissection"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Posterior cerebral cortical branch; systemic vasculitis"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Internal carotid petrous segment; venous thrombosis"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "The lenticulostriate arteries are long, narrow penetrating branches of the MCA that supply the internal capsule and basal ganglia. Chronic hypertension and diabetes cause lipohyalinosis and lacunar infarcts. A pure motor deficit fits the posterior limb of the internal capsule.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q18",
+    "q_num": "18",
+    "orig_q_num": 93,
+    "orig_section": "CBIL Epilepsy (Q83–100)",
+    "stem": "A 53-year-old man with no prior neurologic history has a first generalized tonic-clonic seizure. Which of the following is the most common category of underlying cause that should be sought in an adult with new-onset seizures?",
+    "category": "CBIL Epilepsy",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Genetic channelopathy"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Prior febrile seizures"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Acquired structural lesion"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Cortical malformation"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Inborn metabolic error"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "In adults, new-onset seizures are most often due to structural causes: tumors, trauma, infections and stroke. In children, congenital, infectious, traumatic and genetic causes predominate. Imaging is essential.",
+    "high_yield_pearl": "High-Yield Rule: CBIL Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q19",
+    "q_num": "19",
+    "orig_q_num": 77,
+    "orig_section": "Dementia (Q73–82)",
+    "stem": "A 49-year-old woman has changed over a year. She makes inappropriate sexual comments, quit her job abruptly, lost interest in her hobbies and now compulsively hoards and eats candy. She performs well on a 3-word recall task. Which of the following findings is most likely?",
+    "category": "Dementia",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Amyloid-beta plaques in neocortex"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Prion protein scrapie conversions"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Tau or TDP-43 cortical inclusions"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Alpha-synuclein glial cytoplasmic"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Huntingtin striatal polyglutamine"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Early personality change, disinhibition, apathy, hyperorality and preserved memory indicate behavioral variant frontotemporal degeneration, with frontal and anterior temporal atrophy and tau (Pick bodies) or TDP-43 inclusions.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q20",
+    "q_num": "20",
+    "orig_q_num": 38,
+    "orig_section": "Opportunistic Infection (Q33–42)",
+    "stem": "A 36-year-old man with HIV is hospitalized with cryptococcal meningitis and improves on antifungal therapy. Three weeks after antiretroviral therapy is started, he develops recurrent fever, worsening headache and neurologic decline. His CD4 count has risen from 20 to 140/µL, his viral load has fallen, and CSF culture is negative. Which of the following best explains his deterioration?",
+    "category": "Opportunistic Infection",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Opportunistic superinfection; switch broad antimicrobials"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Antifungal drug toxicity; stop amphotericin immediately"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Immune reconstitution syndrome; continue ART and steroids"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Antiretroviral treatment failure; switch second-line ART"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Toxoplasma relapse; add pyrimethamine and leucovorin"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Immune reconstitution inflammatory syndrome follows recovery of immune function after starting antiretroviral therapy, causing an exaggerated inflammatory response to a previously acquired infection (Cryptococcus, TB, MAC, and also PML). Cultures are negative and it is usually self-limited. Severe cases are treated with steroids.",
+    "high_yield_pearl": "High-Yield Rule: Opportunistic Infection",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q21",
+    "q_num": "21",
+    "orig_q_num": 31,
+    "orig_section": "Tumors (Q19–32)",
+    "stem": "A 28-year-old man has headaches and gait ataxia. MRI shows an enhancing mural nodule within a cerebellar cyst. Ophthalmoscopy shows a retinal angioma. His father died of kidney cancer. In addition to genetic testing, which of the following is the most appropriate evaluation?",
+    "category": "Tumors",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Echocardiography for cardiac rhabdomyoma"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Dermatologic exam for facial angiofibromas"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Formal audiometry for acoustic neuroma"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Slit-lamp examination for iris Lisch nodules"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Abdominal imaging and plasma metanephrines"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "A cerebellar hemangioblastoma with a retinal angioma indicates von Hippel-Lindau disease (VHL gene, chromosome 3p). Associated tumors are clear cell renal cell carcinoma and pheochromocytoma, so abdominal imaging and metanephrines are appropriate screening.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q22",
+    "q_num": "22",
+    "orig_q_num": 22,
+    "orig_section": "Tumors (Q19–32)",
+    "stem": "A 6-year-old girl has headaches and vomiting. MRI shows a mass arising from the floor of the fourth ventricle with obstructive hydrocephalus. The tumor is resected. Which of the following features is most likely on histology?",
+    "category": "Tumors",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Perivascular pseudorosettes"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Homer Wright neuro rosettes"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Eosinophilic Rosenthal fibers"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Fried-egg cells with networks"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Laminated psammoma calcifieds"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Ependymomas arise from the ependyma (the fourth ventricle in children) and show perivascular pseudorosettes. Homer Wright rosettes point to medulloblastoma, and Rosenthal fibers to pilocytic astrocytoma.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q23",
+    "q_num": "23",
+    "orig_q_num": 33,
+    "orig_section": "Opportunistic Infection (Q33–42)",
+    "stem": "A 45-year-old man with HIV infection who has not taken antiretroviral therapy (CD4 count 60/µL) owns several cats. He has 5 days of headache, low-grade fever, confusion and mild left hemiparesis. MRI shows multiple ring-enhancing lesions in the basal ganglia. Which of the following is the most likely cause?",
+    "category": "Opportunistic Infection",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Primary central nervous system lymphoma"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Progressive multifocal leukoencephalopathy"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Cerebral Toxoplasma gondii reactivation"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Cryptococcus neoformans fungal meningitis"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Cytomegalovirus ventriculoencephalitis"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Toxoplasmosis is the most common cause of brain mass lesions in AIDS, from reactivation of latent cysts when CD4 falls below 100/µL. It produces multiple ring-enhancing lesions, typically in the basal ganglia. Cat exposure and undercooked meat are the usual sources.",
+    "high_yield_pearl": "High-Yield Rule: Opportunistic Infection",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q24",
+    "q_num": "24",
+    "orig_q_num": 97,
+    "orig_section": "CBIL Epilepsy (Q83–100)",
+    "stem": "A 5-year-old boy suddenly loses all muscle tone and drops to the floor for about 2 seconds, with a brief lapse in awareness. He has had several facial injuries from these falls. Which of the following seizure types is most likely?",
+    "category": "CBIL Epilepsy",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Tonic seizure"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Myoclonic jerk"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Absence spell"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Atonic seizure"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Focal aware spell"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "A sudden brief loss of tone with a drop to the floor is an atonic (“drop”) seizure, a generalized seizure type. Tonic seizures involve stiffening, and myoclonic seizures involve jerks.",
+    "high_yield_pearl": "High-Yield Rule: CBIL Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q25",
+    "q_num": "25",
+    "orig_q_num": 81,
+    "orig_section": "Dementia (Q73–82)",
+    "stem": "A 70-year-old man with hypertension, diabetes and a previous stroke has a stepwise decline in cognition over 3 years, with residual right hemiparesis. MRI shows multiple lacunar infarcts and confluent white matter hyperintensities. Which of the following is the most appropriate management?",
+    "category": "Dementia",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Surgical ventriculoperitoneal shunt"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Cholinesterase inhibitor donepezil"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Anti-amyloid monoclonal antibody"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Intravenous aqueous penicillin G"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "VMAT2 inhibitor tetrabenazine"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Stepwise decline with focal deficits and lacunar infarcts is vascular dementia, the second most common dementia. Management is supportive and aimed at controlling hypertension, dyslipidemia and diabetes.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q26",
+    "q_num": "26",
+    "orig_q_num": 50,
+    "orig_section": "Stroke — Blood Supply (Q43–51)",
+    "stem": "A 66-year-old man has severe prolonged hypotension during cardiac surgery. Afterward he has weakness of the proximal arms and thighs bilaterally. Brain MRI shows bilateral cortical infarcts along the superior frontoparietal convexities. Which of the following best explains the pattern of infarction?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Bilateral internal capsule lacunar infarcts"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Embolic occlusion of the proximal MCA trunk"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Anterior spinal artery territory cord ischemia"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Borderzone hypoperfusion between ACA and MCA"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Bilateral calcarine PCA branch thromboemboli"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Prolonged hypotension infarcts watershed (border-zone) regions between arterial territories, here between the ACA and MCA, causing proximal limb (“man-in-a-barrel”) weakness. Watershed infarcts make up 5–10% of ischemic strokes.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q27",
+    "q_num": "27",
+    "orig_q_num": 84,
+    "orig_section": "CBIL Epilepsy (Q83–100)",
+    "stem": "A 25-year-old woman experiences focal muscular contractions that begin in her right arm and sequentially spread to her hand and face, followed by generalization to a bilateral tonic-clonic convulsion. Which of the following best explains why the contractions spread from the arm to the hand to the face?",
+    "category": "CBIL Epilepsy",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Rapid spread across the anterior corpus callosum"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Synchronization within the centromedian thalamus"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Polysynaptic activation of the cerebellar cortex"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Direct propagation through the striatum and pallidum"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Sequential cortical recruitment along motor homunculus"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "The march of motor symptoms follows sequential activation of the adjacent precentral gyrus according to the motor homunculus (arm, hand, face), here in the left hemisphere.",
+    "high_yield_pearl": "High-Yield Rule: CBIL Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q28",
+    "q_num": "28",
+    "orig_q_num": 27,
+    "orig_section": "Tumors (Q19–32)",
+    "stem": "A 45-year-old woman has progressive left hearing loss, tinnitus and vertigo, with mild numbness of the left face. MRI shows an enhancing mass at the left cerebellopontine angle extending into the internal acoustic meatus. Which of the following histologic findings is most likely?",
+    "category": "Tumors",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Antoni A/B areas, Verocay bodies and S100 positivity"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Meningothelial whorls with calcified psammoma bodies"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Glial pseudopalisading necrosis and vascular atypia"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "True ependymal rosettes and perivascular collarettes"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Small round blue cells forming Homer Wright rosettes"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Vestibular schwannoma arises from Schwann cells at the cerebellopontine angle. It is biphasic, with cellular Antoni A areas (palisading nuclei forming Verocay bodies) and loose Antoni B areas, and it is S100 positive. Compression of CN V explains the facial numbness.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q29",
+    "q_num": "29",
+    "orig_q_num": 88,
+    "orig_section": "CBIL Epilepsy (Q83–100)",
+    "stem": "A 45-year-old man has taken an antiseizure drug for 6 years. His gums are overgrown, he has coarse facial features and increased facial hair, and he has numbness in his feet. A blood count shows megaloblastic anemia. Which of the following drugs is he most likely taking?",
+    "category": "CBIL Epilepsy",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Ethosuximide"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Lamotrigine"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Phenytoin"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Valproic acid"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Carbamazepine"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Phenytoin blocks voltage-gated sodium channels. Adverse effects include gingival hyperplasia, hirsutism, coarsened facial features, peripheral neuropathy, megaloblastic anemia, DRESS, a lupus-like syndrome and teratogenicity.",
+    "high_yield_pearl": "High-Yield Rule: CBIL Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q30",
+    "q_num": "30",
+    "orig_q_num": 34,
+    "orig_section": "Opportunistic Infection (Q33–42)",
+    "stem": "A 41-year-old man with AIDS (CD4 count 28/µL) has subacute confusion and a seizure. MRI shows a single enhancing periventricular mass. Toxoplasma IgG is negative. CSF PCR is positive for EBV DNA. Which of the following is the most likely diagnosis?",
+    "category": "Opportunistic Infection",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Toxoplasma gondii; start pyrimethamine and sulfadiazine"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Primary CNS lymphoma; initiate high-dose methotrexate"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Progressive multifocal leukoencephalopathy; start ART"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Cryptococcal meningoencephalitis; amphotericin therapy"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Cytomegalovirus radiculitis; intravenous ganciclovir"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Primary CNS lymphoma occurs at CD4 below 50/µL, is EBV-associated, and typically shows a single periventricular enhancing mass with EBV DNA in the CSF. Negative toxoplasma serology supports it. Treatment is methotrexate, antiretroviral therapy and radiation, with poor survival.",
+    "high_yield_pearl": "High-Yield Rule: Opportunistic Infection",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q31",
+    "q_num": "31",
+    "orig_q_num": 9,
+    "orig_section": "Demyelinating Disease (Q1–10)",
+    "stem": "A 33-year-old man who was diagnosed with Guillain-Barré syndrome is improving 3 months later. His wife asks why recovery after his peripheral demyelinating illness is usually good while recovery from the central demyelinating disease in her sister (multiple sclerosis) is poor. Which of the following is the best explanation?",
+    "category": "Demyelinating Disease",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Peripheral myelin lacks immunogenic targets"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Each Schwann cell myelinates multiple axons"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Peripheral microglia clear debris rapidly"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Schwann cells remyelinate while central repair fails"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Peripheral neurons resist humoral antibodies"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Peripheral myelin is made by Schwann cells, which can proliferate and remyelinate, so recovery is usually good (about 80% have minimal sequelae). Oligodendrocytes have limited repair capacity. B is reversed: one oligodendrocyte myelinates many axons, but a Schwann cell myelinates one segment of one axon.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q32",
+    "q_num": "32",
+    "orig_q_num": 48,
+    "orig_section": "Stroke — Blood Supply (Q43–51)",
+    "stem": "A 42-year-old woman has right eye pain and a drooping right eyelid. Her right pupil is 6 mm and the left is 3 mm. Light in the right eye produces constriction of the left pupil but not the right; light in the left eye produces constriction of the left pupil only. Extraocular movements are normal. CT angiography shows an aneurysm. Which of the following is the most likely location, and why are pupillary signs the earliest finding?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Anterior communicating; compression of the optic chiasm"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Posterior communicating; superficial pupillary fibers on CN III"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Ophthalmic artery; compression of the intraorbital nerve"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Middle cerebral bifurcation; compression of abducens nerve"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Posterior inferior cerebellar; compression of vagus nerve"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "An aneurysm of the posterior communicating artery (or posterior cerebral artery) compresses the oculomotor nerve. Parasympathetic pupil fibers lie on the nerve surface and are affected first. The result is a dilated pupil with loss of the direct response in the affected eye, while the consensual response from the other eye is preserved.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q33",
+    "q_num": "33",
+    "orig_q_num": 60,
+    "orig_section": "Stroke — Cerebrovascular Disease (Q52–61)",
+    "stem": "A 25-year-old woman, 4 days after an uncomplicated vaginal delivery, has 3 days of headache and vomiting and then has a seizure. BP is normal. Funduscopy shows bilateral papilledema. CT shows hyperdensity along the superior sagittal sinus and a small right parietal hemorrhage. Which of the following best explains the hemorrhage?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Rupture of saccular berry aneurysm"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Venous sinus thrombosis congestion"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Chronic hypertensive lipohyalinosis"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Paradoxical cardiogenic thromboembolus"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Traumatic tear of cortical bridging vein"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Superior sagittal sinus thrombosis in the postpartum hypercoagulable state raises venous pressure, causing venous infarction, hemorrhage, raised intracranial pressure and seizures. Dense or hyperattenuating sinus on CT supports the diagnosis.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q34",
+    "q_num": "34",
+    "orig_q_num": 64,
+    "orig_section": "Stroke — Brainstem (Q62–72)",
+    "stem": "A 57-year-old man with hypertension suddenly has vertigo, vomiting and hoarseness. He has nystagmus and falls to the left when walking. He has left limb ataxia, difficulty swallowing and a uvula deviating to the right. He has loss of pain and temperature on the left face and the right body, and left ptosis with a small left pupil. Strength is normal. Which of the following arteries is most likely occluded?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Nucleus ambiguus; CN IX and X"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Spinal trigeminal nucleus; CN V"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Solitary sensory nucleus; CN VII"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Facial motor nerve nucleus; CN VII"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Hypoglossal motor nucleus; CN XII"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "This is lateral medullary (Wallenberg) syndrome. PICA (or the vertebral artery) supplies the vestibular nuclei, inferior cerebellar peduncle, nucleus ambiguus, spinal trigeminal tract, anterolateral system and sympathetic fibers. Strength is spared because the corticospinal tract lies medially.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q35",
+    "q_num": "35",
+    "orig_q_num": 75,
+    "orig_section": "Dementia (Q73–82)",
+    "stem": "A 66-year-old woman with Alzheimer disease is started on donepezil. Her family worries because it is chemically related to pesticides. Which of the following best describes the drug’s mechanism and its expected adverse effects, given the cholinergic deficit from degeneration of the nucleus basalis of Meynert?",
+    "category": "Dementia",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Extra copy of APP gene on chromosome 21"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Homozygous inheritance of APOE epsilon-4"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Germline mutation in presenilin 1 gene"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Germline mutation in presenilin 2 gene"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Tandem duplication of MAPT tau gene"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Donepezil reversibly inhibits acetylcholinesterase, raising acetylcholine to compensate for the loss of basal forebrain (nucleus basalis of Meynert) cholinergic neurons. Adverse effects are cholinergic: nausea, diarrhea and abdominal cramps. Memantine is the NMDA antagonist.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q36",
+    "q_num": "36",
+    "orig_q_num": 45,
+    "orig_section": "Stroke — Blood Supply (Q43–51)",
+    "stem": "A right-handed man suddenly loses sensation over the right upper limb. When asked a question, he speaks fluently but uses made-up words and unrelated phrases, and he does not follow verbal commands. Which of the following best characterizes his speech findings?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Fluent speech, impaired comprehension, poor repetition"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Nonfluent speech, intact comprehension, poor repetition"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Fluent speech, intact comprehension, poor repetition"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Nonfluent speech, poor comprehension, poor repetition"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Fluent speech, intact comprehension, intact repetition"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Wernicke aphasia is fluent, with impaired comprehension and repetition, from the superior posterior temporal lobe (inferior division of the MCA). The right arm sensory loss reflects adjacent parietal involvement.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q37",
+    "q_num": "37",
+    "orig_q_num": 99,
+    "orig_section": "CBIL Epilepsy (Q83–100)",
+    "stem": "A 23-year-old woman is newly diagnosed with epilepsy. Which of the following would NOT be included in the initial counseling conversation?",
+    "category": "CBIL Epilepsy",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Mandatory driving restrictions"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Workplace and operating safety"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Avoiding heavy alcohol intake"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Calcium and vitamin D bone health"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Epilepsy surgery in refractory cases"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Initial counseling covers driving, workplace safety, alcohol and bone health (calcium and vitamin D). Epilepsy surgery is reserved for patients whose seizures are refractory after at least two adequate drug trials, so it is not part of the initial conversation.",
+    "high_yield_pearl": "High-Yield Rule: CBIL Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q38",
+    "q_num": "38",
+    "orig_q_num": 53,
+    "orig_section": "Stroke — Cerebrovascular Disease (Q52–61)",
+    "stem": "A 68-year-old man is brought in 45 minutes after sudden left arm and leg weakness, left facial droop and slurred speech. BP is 170/95 mm Hg and fingerstick glucose is 110 mg/dL. Which of the following is the most appropriate next step?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Noncontrast computed tomography of head"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Magnetic resonance imaging with contrast"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Urgent diagnostic lumbar puncture tap"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Intravenous thrombolytic without scans"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Emergent surgical carotid endarterectomy"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Noncontrast head CT is the first step to exclude hemorrhage before thrombolysis, and it is fast. IV thrombolysis is considered within 4.5 hours of last known well once hemorrhage is excluded.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q39",
+    "q_num": "39",
+    "orig_q_num": 86,
+    "orig_section": "CBIL Epilepsy (Q83–100)",
+    "stem": "A 6-year-old girl with childhood absence epilepsy characterized by 10- to 20-second blank staring spells with eyelid fluttering, 3-Hz generalized spike-and-wave discharges on EEG, and no postictal confusion is started on ethosuximide. Which of the following is its mechanism of action?",
+    "category": "CBIL Epilepsy",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Thalamic T-type calcium channel blockade"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Voltage-gated sodium channel inactivation"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "GABA-A receptor chloride conductance boost"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Irreversible GABA transaminase inhibition"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Postsynaptic glutamate NMDA receptor block"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Ethosuximide blocks T-type calcium channels in thalamic neurons, which suppresses the thalamocortical oscillations of absence seizures. Its adverse effects include Stevens-Johnson syndrome and abdominal discomfort.",
+    "high_yield_pearl": "High-Yield Rule: CBIL Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q40",
+    "q_num": "40",
+    "orig_q_num": 13,
+    "orig_section": "Cerebellum (Q11–18)",
+    "stem": "A 66-year-old woman has brief episodes of severe vertigo and nausea when she tilts her head to the left or turns over in bed. Hearing is normal and she has no other symptoms. Placing her head back with the left ear down reproduces her vertigo with rotatory nystagmus. Which of the following is the most appropriate management?",
+    "category": "Cerebellum",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Urgent brain MRI with gadolinium"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Diagnostic lumbar puncture analysis"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Daily vestibular suppressant drug"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Canalith repositioning maneuver"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Tympanostomy tube placement surgery"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Positional vertigo with a positive Dix-Hallpike test and normal hearing is benign paroxysmal positional vertigo, caused by displaced otoliths in a semicircular canal. It is a peripheral vestibular disorder, treated with the Epley maneuver. Imaging and long-term suppressants are not needed.",
+    "high_yield_pearl": "High-Yield Rule: Cerebellum",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q41",
+    "q_num": "41",
+    "orig_q_num": 37,
+    "orig_section": "Opportunistic Infection (Q33–42)",
+    "stem": "A 38-year-old man with AIDS (CD4 count 30/µL) has 5 days of severe low back pain, bilateral flaccid leg weakness, urinary retention and fecal incontinence. CSF shows a neutrophilic pleocytosis, elevated protein and low glucose. Which of the following is the most likely diagnosis?",
+    "category": "Opportunistic Infection",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "HIV vacuolar myelopathy"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Toxoplasma myelitis"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "CMV polyradiculitis"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Guillain-Barré syndrome"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Tabes dorsalis"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "CMV polyradiculitis occurs at CD4 below 50/µL, with lumbosacral radicular pain, flaccid paraparesis and sphincter dysfunction. The neutrophilic pleocytosis with low glucose in the CSF distinguishes it from Guillain-Barré.",
+    "high_yield_pearl": "High-Yield Rule: Opportunistic Infection",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q42",
+    "q_num": "42",
+    "orig_q_num": 24,
+    "orig_section": "Tumors (Q19–32)",
+    "stem": "A 29-year-old man has a generalized seizure. His wife says he has had 2 months of headaches and personality change. CT shows a calcified right frontal lesion. A stereotactic biopsy is performed. Which of the following findings is most likely?",
+    "category": "Tumors",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Pseudopalisading necrosis zones"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Perivascular pseudorosettes"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Eosinophilic Rosenthal fibers"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Fried-egg cells with networks"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Cellular palisading Verocay"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Oligodendroglioma is a calcified frontal tumor presenting with seizures, with fried-egg cells (perinuclear clearing) and a chicken-wire capillary pattern. It is associated with 1p/19q codeletion.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q43",
+    "q_num": "43",
+    "orig_q_num": 40,
+    "orig_section": "Opportunistic Infection (Q33–42)",
+    "stem": "A 63-year-old man has 3 days of headache, fever (40 °C), confusion and word-finding difficulty. He has a cold sore on his upper lip and had a focal seizure of the right arm. CSF shows a lymphocytic pleocytosis with a normal opening pressure and negative Gram stain. MRI shows left temporal lobe hyperintensity with hemorrhage. Which of the following is the most appropriate next step in management?",
+    "category": "Opportunistic Infection",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Await CSF viral PCR before initiating therapy"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Initiate intravenous acyclovir immediately"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Administer amphotericin B and flucytosine"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Initiate pyrimethamine and sulfadiazine"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Administer high-dose pulse methylprednisolone"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Fever, behavior or language change, seizures and a hemorrhagic temporal lobe lesion indicate HSV-1 encephalitis. IV acyclovir must start immediately, before PCR confirmation. Pathology shows perivascular lymphocytes and Cowdry type A inclusions.",
+    "high_yield_pearl": "High-Yield Rule: Opportunistic Infection",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q44",
+    "q_num": "44",
+    "orig_q_num": 41,
+    "orig_section": "Opportunistic Infection (Q33–42)",
+    "stem": "A 44-year-old man with HIV, controlled on antiretroviral therapy that includes stavudine, has burning pain and numbness in both feet. Examination shows stocking-distribution sensory loss and reduced ankle reflexes. His CD4 count is normal. Which of the following is the most likely cause?",
+    "category": "Opportunistic Infection",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "HIV vacuolar myelopathy"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "CMV lumbosacral radiculitis"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "NRTI-induced toxic neuropathy"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Guillain-Barré polyneuropathy"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Subacute combined degeneration"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Distal symmetric polyneuropathy is the most common neuropathy in HIV, giving painful sensory loss in a stocking distribution. It is not due to direct infection, and nucleoside analogs such as stavudine, ddI and ddC contribute. Treatment is supportive.",
+    "high_yield_pearl": "High-Yield Rule: Opportunistic Infection",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q45",
+    "q_num": "45",
+    "orig_q_num": 19,
+    "orig_section": "Tumors (Q19–32)",
+    "stem": "A 53-year-old man has a new-onset generalized tonic-clonic seizure. After recovery he is oriented, with no focal deficits. MRI with contrast shows a large ring-enhancing right frontal mass with surrounding edema and mild midline shift. The mass is resected. Which of the following histologic findings is most likely?",
+    "category": "Tumors",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Meningothelial whorls with psammoma bodies"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Perinuclear halos with chicken-wire vessels"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Small blue cells with Homer Wright rosettes"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Pseudopalisading necrosis with proliferation"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Biphasic spindle cells with Verocay bodies"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Glioblastoma (WHO grade IV) shows hypercellularity, atypia, mitoses, pseudopalisading necrosis and microvascular proliferation, and it appears as a ring-enhancing lesion. A is meningioma, B is oligodendroglioma, C is medulloblastoma, E is schwannoma.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q46",
+    "q_num": "46",
+    "orig_q_num": 67,
+    "orig_section": "Stroke — Brainstem (Q62–72)",
+    "stem": "A 64-year-old man has sudden difficulty chewing and unsteadiness. On jaw opening his jaw deviates to the left. He has loss of light touch on the left face, loss of pain and temperature on the right body, left ptosis with a small left pupil, and left limb ataxia. Eye movements are full and strength is normal. Which of the following is the most likely lesion and artery?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Left mid pons; basilar artery pontine branches"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Left rostral midbrain; posterior cerebral artery"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Left rostral medulla; posterior inferior cerebellar artery"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Right mid pons; basilar artery pontine branches"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Left caudal pons; anterior inferior cerebellar artery"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "CN V is the marker for the mid pons. Jaw deviation toward the lesion, ipsilateral facial touch loss, contralateral body pain and temperature loss, Horner syndrome and ipsilateral ataxia fit a left mid pontine lesion in the territory of the basilar artery.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q47",
+    "q_num": "47",
+    "orig_q_num": 62,
+    "orig_section": "Stroke — Brainstem (Q62–72)",
+    "stem": "A 70-year-old woman with poorly controlled diabetes wakes with double vision. Her right eye is deviated down and out, with a dilated pupil and ptosis. She has left arm and leg weakness with hyperreflexia and a Babinski sign, a left lower facial droop with forehead sparing, and tongue deviation to the left. Which of the following is the most likely lesion and artery?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Right rostral midbrain; posterior cerebral artery"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Left rostral midbrain; posterior cerebral artery"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Right caudal pons; paramedian branches of the basilar artery"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Right rostral medulla; anterior spinal artery"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Left lateral medulla; posterior inferior cerebellar artery"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "This is Weber syndrome, a right rostral midbrain lesion (cerebral peduncle) with ipsilateral CN III palsy and contralateral hemiparesis. Corticobulbar involvement causes the left lower face droop and tongue deviation to the weak side. Supply is from PCA branches.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q48",
+    "q_num": "48",
+    "orig_q_num": 61,
+    "orig_section": "Stroke — Cerebrovascular Disease (Q52–61)",
+    "stem": "A 16-year-old boy had a facial furuncle drained 3 days ago. He now has severe headache, fever and diplopia. Examination shows right periorbital edema, chemosis, ptosis, weakness of the right eye in all directions, an absent right corneal reflex and bilateral papilledema. Which of the following describes the most likely route of spread?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Arterial embolization through carotid system"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Direct bony erosion through cribriform plate"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Retrograde venous flow via ophthalmic veins"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Spread through petromastoid middle ear spaces"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Retrograde axonal transport along trigeminal"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Facial veins are valveless and drain through the ophthalmic veins into the cavernous sinus (“danger triangle”). The sinus contains CN III, IV, VI, V1, V2, the internal carotid artery and sympathetic fibers, explaining the ophthalmoplegia and the absent corneal reflex.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q49",
+    "q_num": "49",
+    "orig_q_num": 8,
+    "orig_section": "Demyelinating Disease (Q1–10)",
+    "stem": "A 24-year-old woman with multiple sclerosis notices that her vision becomes blurry when she exercises or takes a hot shower, and it clears within an hour of resting. Flexing her neck sends an electric shock down her spine. Which of the following best explains the transient worsening with heat?",
+    "category": "Demyelinating Disease",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Temperature-dependent axonal conduction block"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Rapid formation of a new perivenular plaque"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Neuromuscular fatigue from receptor block"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Transient cerebral watershed hypoperfusion"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Osmotic demyelination of pontine tegmentum"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Demyelinated axons have a reduced safety margin for conduction, and a rise in body temperature produces conduction block (Uhthoff phenomenon). This is a pseudo-relapse that resolves with cooling, not a new plaque. Lhermitte sign reflects cervical dorsal column demyelination.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q50",
+    "q_num": "50",
+    "orig_q_num": 35,
+    "orig_section": "Opportunistic Infection (Q33–42)",
+    "stem": "A 35-year-old man with HIV (CD4 count 40/µL) has had 2 weeks of headache and fever. He has no meningismus. Lumbar puncture shows an opening pressure of 34 cm H2O and 12 lymphocytes/µL. Which of the following findings is most likely on CSF staining?",
+    "category": "Opportunistic Infection",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Avascular necrosis without inflammation"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Ring-enhancing abscess with tachyzoites"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Soap-bubble gelatinous Virchow-Robin cysts"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Enlarged oligodendrocytes with inclusions"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Perivascular atypical large B lymphocytes"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Cryptococcal meningoencephalitis presents subacutely with headache and fever at CD4 below 100/µL, often without meningismus. CSF shows raised opening pressure and few cells. India ink shows encapsulated budding yeast, and cryptococcal antigen is positive.",
+    "high_yield_pearl": "High-Yield Rule: Opportunistic Infection",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q51",
+    "q_num": "51",
+    "orig_q_num": 100,
+    "orig_section": "CBIL Epilepsy (Q83–100)",
+    "stem": "A 44-year-old man has a first generalized tonic-clonic seizure 2 days after abruptly stopping heavy daily alcohol use. Examination, electrolytes and head CT are normal. Which of the following is the most appropriate management?",
+    "category": "CBIL Epilepsy",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Initiate lifelong antiseizure drug therapy"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Manage the acute alcohol withdrawal cause"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Refer for surgical resective evaluation"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Implant an adjunctive vagus nerve unit"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Initiate a 4-to-1 fat ketogenic regimen"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "A first seizure provoked by alcohol withdrawal is treated by managing the precipitating cause. Long-term antiseizure therapy is not started after a single provoked seizure. Contrast this with Question 92 (second unprovoked seizure).",
+    "high_yield_pearl": "High-Yield Rule: CBIL Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q52",
+    "q_num": "52",
+    "orig_q_num": 47,
+    "orig_section": "Stroke — Blood Supply (Q43–51)",
+    "stem": "A woman wakes up with trouble seeing to her left. Examination shows a left homonymous hemianopia with sparing of central vision. Which of the following is the most likely occluded vessel, and why is central vision spared?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Left PCA; collateral perfusion from the anterior cerebral"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Right MCA; macular representation in the parietal lobe"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Right choroidal; macular fibers in the lateral geniculate"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Left MCA; macular representation in the temporal lobe"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Right PCA; collateral MCA supply at the occipital pole"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Posterior cerebral artery occlusion causes a contralateral homonymous hemianopia. A left hemianopia means a right occipital lesion. Macular sparing occurs because the occipital pole has dual supply from the MCA.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q53",
+    "q_num": "53",
+    "orig_q_num": 3,
+    "orig_section": "Demyelinating Disease (Q1–10)",
+    "stem": "A 34-year-old man was diagnosed with multiple sclerosis 12 years ago. For the first 8 years he had discrete relapses with full recovery. Over the past 3 years he has had steadily worsening gait and bladder control without clear relapses or recovery between episodes. MRI shows new lesions and cerebral atrophy. Which of the following best describes his disease course?",
+    "category": "Demyelinating Disease",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Clinically isolated syndrome"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Relapsing-remitting multiple sclerosis"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Primary progressive multiple sclerosis"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Secondary progressive multiple sclerosis"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Neuromyelitis optica spectrum disorder"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Relapsing-remitting disease followed by steady progression, usually more than 10 years after diagnosis, is secondary progressive MS. Primary progressive MS is progressive from the start. Acute relapses are treated with high-dose IV steroids.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q54",
+    "q_num": "54",
+    "orig_q_num": 52,
+    "orig_section": "Stroke — Cerebrovascular Disease (Q52–61)",
+    "stem": "A 56-year-old male truck driver and smoker has twice had 10 minutes of right facial numbness that resolved completely. He had a provoked pulmonary embolism after trauma in the past. BP is 179/89 mm Hg. MRI shows no infarct, and CT angiography of the head and neck is normal. Echocardiography with saline contrast shows a right-to-left shunt. Which of the following is the most likely mechanism?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Atherosclerosis of internal carotid"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Lipohyalinosis of penetrating vessel"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Cardioembolism from atrial fibrillation"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Internal carotid arterial dissection"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Paradoxical venous embolus via PFO"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "A young patient with TIA, a right-to-left shunt and risk factors for deep vein thrombosis (prior PE, long-distance driving) most likely had a paradoxical embolus through a PFO. A TIA is a medical emergency, with about 5% risk of stroke in 2 days.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q55",
+    "q_num": "55",
+    "orig_q_num": 17,
+    "orig_section": "Cerebellum (Q11–18)",
+    "stem": "A 60-year-old man has an infarct of the right cerebellar hemisphere and develops dysmetria and intention tremor of the right arm and leg. Which of the following best explains why a cerebellar hemisphere lesion affects the limbs on the same side?",
+    "category": "Cerebellum",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Cerebellar efferents project ipsilaterally to motor neurons"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Efferents cross in superior peduncle and recross in medulla"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "The lateral corticospinal tract descends uncrossed in cord"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Cerebellar output exits via middle peduncle to motor cortex"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "The lateral vestibulospinal tract carries voluntary output"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Cerebellar output leaves through the superior cerebellar peduncle and crosses to the contralateral ventrolateral thalamus and motor cortex. The corticospinal tract then crosses again in the medulla, so the cerebellar hemisphere ends up controlling the limbs on its own side.",
+    "high_yield_pearl": "High-Yield Rule: Cerebellum",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q56",
+    "q_num": "56",
+    "orig_q_num": 39,
+    "orig_section": "Opportunistic Infection (Q33–42)",
+    "stem": "A 52-year-old man with HIV for 15 years reports slowed thinking, trouble concentrating, mild forgetfulness and clumsiness with fine hand movements. MRI shows nonspecific subcortical white matter hyperintensities. CSF is unremarkable, and no opportunistic infection is found. Which of the following best describes his cognitive pattern?",
+    "category": "Opportunistic Infection",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Cortical dementia with severe fluent aphasia"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Subcortical dementia with psychomotor slowing"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Rapidly progressive dementia with startle jerks"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Pure episodic amnesia with hippocampal atrophy"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Frontotemporal dementia with sweet food cravings"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "HIV-associated neurocognitive disorder is a subcortical pattern: slowed processing, poor attention, mild memory loss and psychomotor decline. MRI shows nonspecific subcortical white matter changes. It is a diagnosis of exclusion.",
+    "high_yield_pearl": "High-Yield Rule: Opportunistic Infection",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q57",
+    "q_num": "57",
+    "orig_q_num": 59,
+    "orig_section": "Stroke — Cerebrovascular Disease (Q52–61)",
+    "stem": "A 77-year-old man with a 120 pack-year smoking history and heavy alcohol use has left facial droop, dysarthria and left-sided weakness for 10 hours. BP is 210/120 mm Hg. CT shows an acute hemorrhage in the right basal ganglia. Which of the following best explains the bleed?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Saccular aneurysm rupture on anterior communicating artery"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Cortical lobar hemorrhage from cerebral amyloid angiopathy"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Venous sinus congestion with hemorrhagic venous infarction"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Charcot-Bouchard microaneurysm rupture in lenticulostriates"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Arteriovenous malformation rupture in parietal cortex"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Hypertensive intracerebral hemorrhage occurs in deep structures (basal ganglia, thalamus, pons, cerebellum) from chronic hypertension damaging long penetrating arteries (lipohyalinosis and Charcot-Bouchard microaneurysms). Lobar hemorrhages suggest amyloid angiopathy or vascular malformation.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q58",
+    "q_num": "58",
+    "orig_q_num": 69,
+    "orig_section": "Stroke — Brainstem (Q62–72)",
+    "stem": "A 68-year-old man with atrial fibrillation collapses. Over hours it becomes clear that he is awake, follows commands, and has no movement of his arms, legs, face or jaw. He cannot speak or swallow. He can blink and move his eyes up and down. Which of the following best explains his preserved consciousness and vertical eye movements?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Ipsilateral abducens motor nerve palsy"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Contralateral dorsal column sensory loss"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Ipsilateral jaw deviation on mouth opening"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Contralateral pain and temperature loss"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Ipsilateral tongue deviation with atrophy"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Locked-in syndrome results from bilateral ventral pontine infarction (basilar artery) that interrupts the corticospinal and corticobulbar tracts but spares the reticular activating system and the midbrain pathways for vertical gaze and blinking.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q59",
+    "q_num": "59",
+    "orig_q_num": 23,
+    "orig_section": "Tumors (Q19–32)",
+    "stem": "A 60-year-old woman has had 2 months of headache, social withdrawal and apathy. MRI shows a well-circumscribed, dural-based right frontal mass with a dural tail. The patient had no symptoms for years while it grew. Which of the following histologic findings is most likely, and which statement best explains the delayed onset of symptoms?",
+    "category": "Tumors",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Pseudopalisading necrosis; rapid growth with edema"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Perinuclear halos; bilateral callosal infiltration"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Arachnoid cap whorls; compression without invasion"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Antoni A and B areas; origin from nerve root sheaths"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Homer Wright rosettes; widespread CSF dissemination"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Meningiomas arise from arachnoid cap cells, producing whorls and psammoma bodies, and show a dural tail. They grow slowly and compress rather than invade, so the brain accommodates until the tumor reaches a size that produces symptoms.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q60",
+    "q_num": "60",
+    "orig_q_num": 63,
+    "orig_section": "Stroke — Brainstem (Q62–72)",
+    "stem": "A 76-year-old woman with atrial fibrillation stopped her warfarin 1 month ago. She develops double vision and tremor of the left limbs. Her right eye is deviated down and out, with an 8 mm nonreactive pupil. She has loss of touch on the left body and loss of touch and pinprick on the left face, with an intention tremor and dysmetria of the left arm and leg. Strength is normal. Which of the following structures best explains the left limb ataxia?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Weber midbrain syndrome; PCA branches"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Benedikt midbrain syndrome; PCA branches"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Foville caudal pontine syndrome; AICA"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Wallenberg lateral medullary syndrome; PICA"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Dejerine medial medullary syndrome; ASA"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "This is Benedikt syndrome: CN III, medial lemniscus and ventral trigeminothalamic tract involvement in the right rostral midbrain tegmentum. Limb ataxia on the left is due to the superior cerebellar peduncle fibers after decussation. PCA supplies this level.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q61",
+    "q_num": "61",
+    "orig_q_num": 25,
+    "orig_section": "Tumors (Q19–32)",
+    "stem": "An 8-year-old girl suddenly cannot see out of her left eye. When light is shone in the left eye, neither pupil constricts; when light is shone in the right eye, both constrict. Examination also shows multiple tan skin macules, axillary freckling and iris nodules. MRI shows a mass in the left optic nerve. Which of the following best identifies the lesion and the underlying genetic defect?",
+    "category": "Tumors",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Optic nerve schwannoma; NF2 gene on chromosome 22"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Optic pathway glioma; NF1 gene on chromosome 17"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Retinal hemangioblastoma; VHL gene on chromosome 3"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Optic retrobulbar neuritis; HLA-DRB1 association"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Retinal astrocytic hamartoma; TSC1 on chromosome 9"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "The pupillary pattern is a left afferent defect from a left optic nerve lesion. Café-au-lait macules, axillary freckling and Lisch nodules indicate NF1, in which optic nerve gliomas occur. The NF1 gene is on chromosome 17 and encodes neurofibromin, a Ras GTPase-activating protein.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q62",
+    "q_num": "62",
+    "orig_q_num": 6,
+    "orig_section": "Demyelinating Disease (Q1–10)",
+    "stem": "A 33-year-old man who presented with 4 days of progressive symmetric leg weakness and hyporeflexia 4 weeks after a diarrheal illness develops shortness of breath, and his bedside forced vital capacity is falling. Which of the following is the most appropriate next step in management?",
+    "category": "Demyelinating Disease",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "High-dose IV methylprednisolone and outpatient follow-up"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Monitored unit admission, serial FVC, and IVIG or PEX"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Oral antibiotic therapy targeting preceding Campylobacter"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Defer all immunomodulatory therapy until lumbar puncture"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Intravenous edrophonium testing followed by pyridostigmine"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Respiratory muscle failure is the most dangerous complication, so serial FVC (and autonomic monitoring) in a monitored unit is essential. Disease-modifying treatment is IVIG or plasma exchange. Steroids are not indicated. Edrophonium is used for myasthenia gravis.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q63",
+    "q_num": "63",
+    "orig_q_num": 7,
+    "orig_section": "Demyelinating Disease (Q1–10)",
+    "stem": "A 10-year-old girl has burning leg pain at night and has been tripping frequently. Her father has had similar problems. Examination shows high-arched feet with hammer toes, atrophy of the distal leg muscles, weak ankle dorsiflexion with a steppage gait, and decreased vibration sense below the ankles. Peroneal motor nerve conduction velocity is markedly reduced. Which of the following is the most likely genetic abnormality?",
+    "category": "Demyelinating Disease",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Dystrophin gene deletion"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "GAA repeat expansion in FXN"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Tandem duplication of PMP22"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "CAG repeat expansion in HTT"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Homozygous deletion of SMN1"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Charcot-Marie-Tooth disease type 1A is caused by PMP22 duplication (autosomal dominant). Features are pes cavus, hammer toes, length-dependent distal weakness and slowed conduction from demyelination. A is Duchenne, B is Friedreich ataxia, D is Huntington disease, E is spinal muscular atrophy.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q64",
+    "q_num": "64",
+    "orig_q_num": 68,
+    "orig_section": "Stroke — Brainstem (Q62–72)",
+    "stem": "A 61-year-old man with long-standing hypertension has sudden horizontal diplopia. His left eye is turned medially and cannot abduct. He has right arm and leg weakness with a Babinski sign, a right lower facial droop with forehead sparing, tongue deviation to the right, and loss of light touch on the right body. Which of the following best explains the eye finding and its arterial supply?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Claude syndrome; red nucleus and SCP"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Weber syndrome; crus cerebri and CN III"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Benedikt syndrome; red nucleus and lemniscus"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Millard-Gubler syndrome; basis and CN VII"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Dejerine syndrome; pyramid and CN XII"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "An abducens (CN VI) lesion with contralateral hemiparesis (corticospinal tract), a UMN lower face droop with forehead sparing, and medial lemniscus loss is an alternating syndrome of the medial caudal pons, supplied by paramedian basilar branches.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q65",
+    "q_num": "65",
+    "orig_q_num": 83,
+    "orig_section": "CBIL Epilepsy (Q83–100)",
+    "stem": "A 25-year-old woman is eating pizza when she has a strange sensation followed by tightening of her right arm that spreads to her hand and face. Her friends then see her whole body stiffen, she cries out, and she shakes all over for 2 minutes. She is incontinent of urine and has blood-tinged saliva. She is confused for 15 to 20 minutes afterward. Which of the following is the best classification of this event?",
+    "category": "CBIL Epilepsy",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Absence seizure with 3-Hz spike-wave"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Primary generalized tonic-clonic convulsion"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Focal motor seizure evolving to bilateral"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Convulsive vasovagal syncopal collapse"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Focal non-motor impaired awareness seizure"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "A focal motor aura (spread of tightening in the right arm, hand and face) with preserved awareness is a focal aware onset seizure. Subsequent stiffening and shaking, incontinence, tongue biting and a postictal state show evolution to a bilateral tonic-clonic seizure.",
+    "high_yield_pearl": "High-Yield Rule: CBIL Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q66",
+    "q_num": "66",
+    "orig_q_num": 20,
+    "orig_section": "Tumors (Q19–32)",
+    "stem": "A 2-year-old boy has had 3 weeks of daily vomiting and increasing clumsiness. His mother notes he is hitting his head and crying. He is afebrile. He walks with a wide-based gait, but finger-to-nose testing is normal. Fundoscopy shows bilateral papilledema. Which of the following is the most appropriate next step in management?",
+    "category": "Tumors",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Lumbar puncture to exclude meningitis"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Empiric IV antibiotics"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Outpatient vestibular rehabilitation"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Electroencephalography"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Urgent MRI of the brain with contrast"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Vomiting, papilledema and truncal ataxia without limb ataxia indicate a midline cerebellar (vermian) lesion with obstructive hydrocephalus, most likely medulloblastoma. Lumbar puncture is contraindicated with raised intracranial pressure because of the risk of herniation. The next step is urgent MRI.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q67",
+    "q_num": "67",
+    "orig_q_num": 80,
+    "orig_section": "Dementia (Q73–82)",
+    "stem": "A 50-year-old man who drinks two pints of vodka daily is found confused on the street. He is inattentive and disoriented, has bilateral horizontal nystagmus and walks with a slow, wide-based gait. Which of the following is the most appropriate treatment now, and which structure is damaged in the chronic amnestic syndrome that follows if the disorder is untreated?",
+    "category": "Dementia",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Alpha-synuclein cortical Lewy bodies"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Hyperphosphorylated tau Pick bodies"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Neuritic plaques and neurofibrils"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Spongiform change without inflammation"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Caudate striatal neuronal dropout"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Confusion, ophthalmoplegia (nystagmus) and ataxia indicate Wernicke encephalopathy from thiamine deficiency. Give IV thiamine before or with glucose. Untreated, it can progress to Korsakoff syndrome (anterograde amnesia and confabulation) from mammillary body damage within the Papez circuit.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q68",
+    "q_num": "68",
+    "orig_q_num": 44,
+    "orig_section": "Stroke — Blood Supply (Q43–51)",
+    "stem": "A 70-year-old right-handed man suddenly develops weakness of the right arm and lower face. He speaks only a few effortful words, but he follows commands correctly and has difficulty repeating phrases. Which of the following correctly pairs his deficit with the lesion?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Wernicke sensory aphasia; superior temporal gyrus"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Conduction aphasia; subcortical arcuate fasciculus"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Global aphasia; entire dominant perisylvian cortex"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Broca motor aphasia; inferior frontal gyrus of MCA"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Transcortical motor aphasia; anterior watershed zone"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Nonfluent speech with intact comprehension and impaired repetition is Broca aphasia, from the posterior inferior frontal gyrus (superior division of the left MCA). Arm and lower face weakness fits the same territory.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q69",
+    "q_num": "69",
+    "orig_q_num": 91,
+    "orig_section": "CBIL Epilepsy (Q83–100)",
+    "stem": "A 14-year-old boy with generalized tonic-clonic and myoclonic seizures takes valproic acid. He now has severe abdominal pain with vomiting and a markedly elevated serum lipase. Which of the following best pairs the drug’s mechanism of action with this adverse effect?",
+    "category": "CBIL Epilepsy",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Na+ and T-Ca2+ channel block; pancreatitis"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Sodium channel blockade; gingival hyperplasia"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "T-type calcium block; Stevens-Johnson rash"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "GABA-A potentiation; respiratory arrest"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Sodium channel block; agranulocytosis"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Valproic acid blocks sodium and T-type calcium channels and increases GABA (through inhibition of GABA transaminase). Its serious adverse effects are hepatotoxicity, pancreatitis and neural tube defects.",
+    "high_yield_pearl": "High-Yield Rule: CBIL Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q70",
+    "q_num": "70",
+    "orig_q_num": 21,
+    "orig_section": "Tumors (Q19–32)",
+    "stem": "A 9-year-old boy has 2 months of morning headaches and vomiting, an ataxic gait and right-sided limb dysmetria. MRI shows a cystic right cerebellar hemisphere mass with an enhancing mural nodule. Which of the following histologic findings is most likely in the resected tumor?",
+    "category": "Tumors",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Perivascular ependymal pseudorosettes"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Rosenthal fibers and GFAP positivity"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Homer Wright neuroblastic rosettes"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Pseudopalisading necrosis with atypia"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Calcified concentric psammoma bodies"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Pilocytic astrocytoma (WHO grade I) occurs in children, is typically cystic with a mural nodule, and shows a biphasic pattern with Rosenthal fibers and GFAP positivity. Prognosis is excellent.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q71",
+    "q_num": "71",
+    "orig_q_num": 1,
+    "orig_section": "Demyelinating Disease (Q1–10)",
+    "stem": "A 28-year-old woman has 3 days of right eye pain that worsens with eye movement, along with blurred vision in that eye. One year ago she had 2 weeks of left leg weakness that resolved without treatment. On the swinging-flashlight test, both pupils dilate when the light is moved from the left eye to the right eye. Brain MRI shows multiple ovoid, periventricular T2-hyperintense lesions. Lumbar puncture is performed. Which of the following CSF findings is most likely?",
+    "category": "Demyelinating Disease",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Albuminocytologic CSF dissociation"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Intrathecal oligoclonal IgG bands"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Elevated CSF 14-3-3 brain protein"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Grossly bloody CSF xanthochromia"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Encapsulated budding yeast forms"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "The relative afferent pupillary defect on the right indicates optic neuritis. A prior self-resolving left leg episode plus ovoid periventricular lesions shows dissemination in time and space, so this is multiple sclerosis. CSF shows oligoclonal IgG bands and a raised IgG index. A is Guillain-Barré, C is CJD, D is subarachnoid hemorrhage, E is cryptococcal meningitis.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q72",
+    "q_num": "72",
+    "orig_q_num": 96,
+    "orig_section": "CBIL Epilepsy (Q83–100)",
+    "stem": "A 28-year-old man has episodes that begin with a rising epigastric sensation and an unpleasant burning smell. He then stares, smacks his lips and does not respond for 90 seconds, followed by confusion. MRI shows right hippocampal atrophy. Which of the following is the best description of his seizures?",
+    "category": "CBIL Epilepsy",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Focal impaired awareness seizures in mesial temporal lobe"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Childhood absence seizures with 3-Hz spike-wave bursts"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Focal aware motor seizures arising from precentral gyrus"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Generalized myoclonic jerks upon morning awakening"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Sudden atonic drop attacks with abrupt loss of tone"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "An epigastric rising sensation with olfactory hallucination (uncinate fits), staring, lip smacking (automatisms), impaired awareness and postictal confusion indicate a focal impaired awareness seizure from the mesial temporal lobe (uncus and hippocampus).",
+    "high_yield_pearl": "High-Yield Rule: CBIL Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q73",
+    "q_num": "73",
+    "orig_q_num": 58,
+    "orig_section": "Stroke — Cerebrovascular Disease (Q52–61)",
+    "stem": "A 59-year-old man had a thunderclap headache and confusion. CT showed diffuse subarachnoid blood, and angiography showed a saccular aneurysm at a branch of the anterior cerebral artery, which was coiled. On hospital day 7 he becomes less alert and develops left leg weakness. Repeat CT shows no new hemorrhage. Which of the following is the most likely complication, and which agent reduces poor outcomes?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Aneurysmal rebleeding; aspirin"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Obstructive hydrocephalus; tPA"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Cerebral vasogenic edema; mannitol"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Venous sinus thrombosis; heparin"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Delayed cerebral vasospasm; nimodipine"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Delayed cerebral vasospasm occurs 4 to 14 days after subarachnoid hemorrhage. Nimodipine reduces poor outcomes. Hydrocephalus can also occur, but the new focal deficit without new blood points to vasospasm.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q74",
+    "q_num": "74",
+    "orig_q_num": 94,
+    "orig_section": "CBIL Epilepsy (Q83–100)",
+    "stem": "A 20-year-old man collapses at a party. Which of the following features best supports a seizure rather than syncope?",
+    "category": "CBIL Epilepsy",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Lightheadedness, diaphoresis, and pallor"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Immediate return of orientation in seconds"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Consistent onset after rapid upright stance"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "A few brief synchronous jerks under 10 sec"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Prolonged confusion with lateral tongue bite"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Prolonged postictal confusion, lateral tongue biting and incontinence favor a seizure. Prodromal lightheadedness and pallor, quick recovery, orthostatic triggers and brief jerks under 10 seconds favor syncope.",
+    "high_yield_pearl": "High-Yield Rule: CBIL Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q75",
+    "q_num": "75",
+    "orig_q_num": 54,
+    "orig_section": "Stroke — Cerebrovascular Disease (Q52–61)",
+    "stem": "A 72-year-old woman arrives 2 hours after the onset of a left-sided ischemic stroke. CT shows no hemorrhage. Which of the following findings would preclude IV thrombolysis?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Blood pressure of 170/95 mm Hg"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Therapeutic INR of 2.4 on warfarin"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Patient age of seventy-two years"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Transient ischemic attack 2 years ago"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Baseline NIHSS stroke score of 12"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Contraindications to IV thrombolysis include active hemorrhage, major surgery or head trauma within 3 months, prior intracerebral hemorrhage, BP above 185/110 mm Hg that cannot be lowered, and INR above 1.7. An INR of 2.4 on warfarin precludes it.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q76",
+    "q_num": "76",
+    "orig_q_num": 90,
+    "orig_section": "CBIL Epilepsy (Q83–100)",
+    "stem": "A 19-year-old woman is started on an antiseizure drug at a high initial dose without the usual slow titration. Two weeks later she has fever, a painful rash and mucosal erosions with skin sloughing. Which of the following drugs is most likely responsible?",
+    "category": "CBIL Epilepsy",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Valproic acid"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Lamotrigine"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Phenytoin"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Carbamazepine"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Ethosuximide"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Lamotrigine blocks sodium channels. A life-threatening rash (Stevens-Johnson syndrome or toxic epidermal necrolysis) is the key adverse effect and is reduced by slow dose titration.",
+    "high_yield_pearl": "High-Yield Rule: CBIL Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q77",
+    "q_num": "77",
+    "orig_q_num": 26,
+    "orig_section": "Tumors (Q19–32)",
+    "stem": "A 24-year-old man has progressive bilateral hearing loss, tinnitus and unsteady gait. His father had similar symptoms and several brain tumors. MRI shows bilateral enhancing masses at the cerebellopontine angles extending into the internal auditory canals, plus a meningioma. Which of the following proteins is most likely deficient?",
+    "category": "Tumors",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Neurofibromin, a Ras GTPase-activating protein"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Hamartin-tuberin complex, an mTOR regulator"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "VHL protein, an oxygen-dependent HIF degrader"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Frataxin, an iron-binding mitochondrial chaperone"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Merlin, a membrane-cytoskeletal tumor suppressor"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Bilateral vestibular schwannomas and meningiomas indicate NF2, caused by loss of merlin (schwannomin), a tumor suppressor on chromosome 22. It is autosomal dominant, and about half of cases are new mutations.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q78",
+    "q_num": "78",
+    "orig_q_num": 72,
+    "orig_section": "Stroke — Brainstem (Q62–72)",
+    "stem": "A 74-year-old woman has sudden left arm weakness and a left lower facial droop. Her eyes are deviated to the right and she cannot look to the left past the midline. Which of the following best explains the gaze deviation?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Medullary pyramid and medial lemniscus"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Posterior limb of internal capsule"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Ventral posterolateral and medial thalamus"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Primary somatosensory postcentral gyrus"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Midbrain red nucleus and tegmentum"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Each frontal eye field drives gaze to the opposite side. A right frontal eye field infarct leaves the left field unopposed, so the eyes deviate toward the lesion (right). In pontine (PPRF) lesions the eyes deviate away from the lesion.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q79",
+    "q_num": "79",
+    "orig_q_num": 85,
+    "orig_section": "CBIL Epilepsy (Q83–100)",
+    "stem": "A 6-year-old girl is noted by her teacher to stare blankly and flutter her eyelids for 10 to 20 seconds, then resume her work as if nothing happened. She has no confusion afterward. Hyperventilation reproduces an episode. Which of the following EEG findings is most likely?",
+    "category": "CBIL Epilepsy",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Hypsarrhythmia with chaotic waves"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Generalized 3-Hz spike-and-wave"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Periodic sharp-wave complexes"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Anterior temporal sharp spikes"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Frontally dominant triphasic waves"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Typical absence seizures are brief staring spells with abrupt onset and offset, no postictal state and provocation by hyperventilation. EEG shows generalized 3-Hz spike-and-wave discharges. Hypsarrhythmia is infantile spasms, and periodic sharp wave complexes are CJD.",
+    "high_yield_pearl": "High-Yield Rule: CBIL Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q80",
+    "q_num": "80",
+    "orig_q_num": 78,
+    "orig_section": "Dementia (Q73–82)",
+    "stem": "A previously healthy 63-year-old woman has confusion, gait ataxia and jerking of both arms that progressed in a week. One month later she cannot walk or feed herself, and she dies 6 months after onset. MRI shows cortical ribboning and hyperintensity of the caudate, putamen and thalamus. Which of the following best explains the pathogenesis?",
+    "category": "Dementia",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Visual hallucinations and neuroleptic sensitivity"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Magnetic apraxic gait and urinary incontinence"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Choreiform movements and caudate nucleus atrophy"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Rest tremor, rigidity, and prominent micrographia"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Early language impairment and frontal disinhibition"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Rapidly progressive dementia with myoclonus and ataxia, cortical ribboning and basal ganglia hyperintensity is Creutzfeldt-Jakob disease. Normal prion protein converts to protease-resistant β-sheet PrPsc, causing spongiform change. CSF 14-3-3 protein and periodic sharp wave complexes on EEG support the diagnosis.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q81",
+    "q_num": "81",
+    "orig_q_num": 65,
+    "orig_section": "Stroke — Brainstem (Q62–72)",
+    "stem": "A 63-year-old woman suddenly has left tongue weakness with the tongue deviating to the left on protrusion, with atrophy and fasciculations. She has right arm and leg weakness with a Babinski sign and loss of vibration and proprioception on the right. Her face is symmetric. She has no vertigo or Horner syndrome. Which of the following arteries is most likely occluded?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "PICA; nucleus ambiguus and STT"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "AICA; facial motor nucleus and STT"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "ASA; medullary pyramid and lemniscus"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "PCA; red nucleus and cerebral peduncle"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Basilar; abducens and corticospinal"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "The medial medullary syndrome combines an ipsilateral hypoglossal palsy (tongue toward the lesion) with contralateral hemiparesis and medial lemniscus loss. The anterior spinal artery (or paramedian vertebral branches) supplies this area. Vestibular signs and Horner syndrome are absent because lateral structures are spared.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q82",
+    "q_num": "82",
+    "orig_q_num": 30,
+    "orig_section": "Tumors (Q19–32)",
+    "stem": "A newborn has a port-wine stain over the right forehead and upper eyelid. Over the first year she develops focal seizures and glaucoma of the right eye. Which of the following neuroimaging findings and mechanisms are most likely?",
+    "category": "Tumors",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Subependymal nodules; germline TSC2 mutation"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Leptomeningeal angioma; mosaic GNAQ mutation"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Cerebellar hemangioblastoma; germline VHL loss"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Plexiform neurofibroma; germline NF1 mutation"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Vestibular schwannomas; germline NF2 mutation"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Sturge-Weber syndrome consists of a port-wine stain in the trigeminal distribution, a leptomeningeal angioma, seizures and glaucoma. Imaging shows tram-track gyral calcification. It is caused by a somatic mosaic GNAQ mutation and is not inherited.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q83",
+    "q_num": "83",
+    "orig_q_num": 28,
+    "orig_section": "Tumors (Q19–32)",
+    "stem": "A 20-year-old woman has facial angiofibromas, a leathery patch on her lower back and periungual fibromas. She has had epilepsy since early childhood. CT of the abdomen shows bilateral renal angiomyolipomas. Which of the following best describes the molecular mechanism of her disorder?",
+    "category": "Tumors",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Loss of Ras GTPase-activating protein function"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Mitochondrial iron accumulation from frataxin"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Loss of tuberin function causing unopposed mTOR"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Somatic activating GNAQ mosaic point variant"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Impaired VHL-mediated degradation of active HIF"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Tuberous sclerosis results from loss of TSC1 (hamartin, chromosome 9) or TSC2 (tuberin, chromosome 16). The hamartin–tuberin complex normally inhibits mTOR, so loss causes unchecked growth and hamartomas. Skin findings include angiofibromas, shagreen patches and ungual fibromas.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q84",
+    "q_num": "84",
+    "orig_q_num": 89,
+    "orig_section": "CBIL Epilepsy (Q83–100)",
+    "stem": "A 52-year-old man with focal seizures has had fever and a sore throat for 2 days, 3 weeks after starting a new antiseizure drug that blocks voltage-gated sodium channels. His absolute neutrophil count is 400/µL. Which of the following drugs is most likely responsible?",
+    "category": "CBIL Epilepsy",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Ethosuximide"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Lamotrigine"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Phenytoin"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Valproic acid"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Carbamazepine"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Carbamazepine blocks voltage-gated sodium channels. Adverse effects include agranulocytosis and aplastic anemia, Stevens-Johnson syndrome, hyponatremia (SIADH) and birth defects.",
+    "high_yield_pearl": "High-Yield Rule: CBIL Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q85",
+    "q_num": "85",
+    "orig_q_num": 98,
+    "orig_section": "CBIL Epilepsy (Q83–100)",
+    "stem": "A medical student reviews the EEG of a patient with epilepsy, which shows spike discharges. Which of the following best describes the underlying pathophysiology of seizures?",
+    "category": "CBIL Epilepsy",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Synchronous hypoactivity of cortical interneurons"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Excessive GABA-mediated recurrent inhibition"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Hypersynchronous discharge from excess excitation"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Demyelination causing slowed axonal conduction"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Dopamine depletion in the substantia nigra pars"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Seizures arise from abnormal, hypersynchronous neuronal firing caused by an imbalance favoring excitation (glutamate) over inhibition (GABA).",
+    "high_yield_pearl": "High-Yield Rule: CBIL Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q86",
+    "q_num": "86",
+    "orig_q_num": 5,
+    "orig_section": "Demyelinating Disease (Q1–10)",
+    "stem": "A 33-year-old man has 4 days of progressive leg weakness and tingling. Four weeks ago he had fever and diarrhea after eating undercooked chicken. Strength is 4/5 at the knees and 3/5 at the ankles bilaterally. Patellar and ankle reflexes are absent. Nerve conduction studies show slowed conduction velocities. Which of the following best explains the pathogenesis of his condition?",
+    "category": "Demyelinating Disease",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Direct viral destruction of anterior horn motor cells"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Antibodies to presynaptic voltage-gated Ca2+ channels"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Autoantibodies to astrocyte end-foot aquaporin-4 channels"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "T-cell mediated destruction of CNS oligodendrocytes"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Molecular mimicry against peripheral Schwann gangliosides"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "This is acute inflammatory demyelinating polyradiculoneuropathy (Guillain-Barré) after Campylobacter jejuni. Molecular mimicry causes antibodies and T cells to attack Schwann cell and myelin antigens (including gangliosides). Findings are ascending weakness, areflexia, demyelinating conduction studies and albuminocytologic dissociation.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q87",
+    "q_num": "87",
+    "orig_q_num": 55,
+    "orig_section": "Stroke — Cerebrovascular Disease (Q52–61)",
+    "stem": "A 62-year-old woman went to bed at 12:00 a.m. and awoke at 6:40 a.m. with a left facial droop. She now arrives at 2:00 p.m. with left hemiparesis and hemineglect. CT angiography shows a right M1 occlusion. CT perfusion shows a core of 25 mL with a large penumbra and a mismatch ratio of 2.5. Which of the following is the most appropriate treatment?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Aspirin and permissive hypertension only"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Intravenous alteplase infusion monotherapy"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Dual antiplatelet therapy and close watch"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Endovascular mechanical thrombectomy"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Emergent decompressive hemicraniectomy"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Thrombectomy is indicated for large vessel occlusion (ICA or proximal MCA) with salvageable penumbra, up to 24 hours after last known well in selected patients. At 14 hours she is beyond the standard thrombolysis window. Thrombectomy has a number needed to treat of about 2.6 for reducing disability.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q88",
+    "q_num": "88",
+    "orig_q_num": 76,
+    "orig_section": "Dementia (Q73–82)",
+    "stem": "A 64-year-old man, a former amateur boxer, has for 2 years thrown punches in his sleep while dreaming. He has had fluctuating confusion, well-formed visual hallucinations of a ballerina and small animals, a shuffling gait and a mild right-hand tremor. Which of the following proteins is the main component of the characteristic neuronal inclusions?",
+    "category": "Dementia",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Alzheimer disease dementia"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Behavioral variant FTD"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Dementia with Lewy bodies"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Normal pressure hydrocephalus"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Subcortical vascular dementia"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "REM sleep behavior disorder, fluctuating cognition, well-formed visual hallucinations and parkinsonism define dementia with Lewy bodies. The inclusions are composed of α-synuclein, distributed through the cortex (in Parkinson disease they are confined to the substantia nigra).",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q89",
+    "q_num": "89",
+    "orig_q_num": 12,
+    "orig_section": "Cerebellum (Q11–18)",
+    "stem": "A 45-year-old woman has difficulty controlling her left arm. Her hand shakes as it approaches her fork and she often misses her mouth. Finger-to-nose testing shows overshoot and a tremor that worsens near the target on the left. She cannot rapidly flip her left hand back and forth. Her speech is slurred. Strength and sensation are normal, and there is no tremor at rest. Which of the following is the most likely site of the lesion?",
+    "category": "Cerebellum",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Right cerebellar hemisphere"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Left cerebellar hemisphere"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Cerebellar vermis"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Flocculonodular lobe"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Left dorsal column"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Intention (kinetic) tremor, dysmetria, dysdiadochokinesia and dysarthria are limb ataxia from the cerebellar hemisphere (cerebrocerebellum). The signs are ipsilateral because of the double crossing of the cerebrocerebellar circuit. There is no resting tremor.",
+    "high_yield_pearl": "High-Yield Rule: Cerebellum",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q90",
+    "q_num": "90",
+    "orig_q_num": 70,
+    "orig_section": "Stroke — Brainstem (Q62–72)",
+    "stem": "An 80-year-old woman suddenly ignores her left side. Her left arm is not in her blouse sleeve, she leaves food on the left side of her plate, and she draws all the clock numbers on the right side. She is unaware of any problem. She ignores the left-sided stimulus when both sides of the body are touched simultaneously. Which of the following is the most likely lesion, and which associated visual deficit may be present?",
+    "category": "Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Occlusion of posterior cerebral artery"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Bilateral internal carotid occlusion"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Basilar artery trunk thrombotic occlusion"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Anterior spinal artery cord infarction"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Bilateral vertebral artery dissection"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Neglect, anosognosia and extinction to double simultaneous stimulation localize to the right posterior parietal lobe (MCA territory). Optic radiation fibers beneath it can produce a left inferior quadrantanopia or a hemianopia.",
+    "high_yield_pearl": "High-Yield Rule: Stroke (Blood Supply, Cerebrovascular, Brainstem)",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q91",
+    "q_num": "91",
+    "orig_q_num": 87,
+    "orig_section": "CBIL Epilepsy (Q83–100)",
+    "stem": "A 19-year-old woman has morning myoclonic jerks and a generalized tonic-clonic seizure after a night without sleep. EEG shows generalized polyspike-and-wave discharges. She is started on valproic acid and plans to become pregnant. Which of the following adverse effects is most important to counsel her about?",
+    "category": "CBIL Epilepsy",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Gingival hyperplasia"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Bone marrow aplasia"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Coarse hirsutism"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Fetal neural defects"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Symptomatic SIADH"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Juvenile myoclonic epilepsy (morning myoclonus, generalized tonic-clonic seizures, polyspike-and-wave on EEG). Valproic acid is teratogenic, causing neural tube defects. Other adverse effects are hepatotoxicity and pancreatitis. Gingival hyperplasia and hirsutism are phenytoin effects, and agranulocytosis and hyponatremia are carbamazepine effects.",
+    "high_yield_pearl": "High-Yield Rule: CBIL Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q92",
+    "q_num": "92",
+    "orig_q_num": 14,
+    "orig_section": "Cerebellum (Q11–18)",
+    "stem": "A 55-year-old man from Eastern Europe has a 6-month history of unsteady gait, bladder problems and sharp, paroxysmal leg pains. He keeps his feet wide apart when walking. Vibration sense is impaired in his feet, Romberg sign is positive, and deep tendon reflexes are absent in the legs. Heel-to-shin testing and rapid alternating movements are normal. A treponemal antibody test is positive. Which of the following structures best explains his gait disorder and absent reflexes?",
+    "category": "Cerebellum",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Dorsal roots and dorsal columns"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Anterior cerebellar vermis"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Lateral corticospinal tracts"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Anterior horn motor neurons"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Lateral spinothalamic tracts"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Tabes dorsalis (tertiary neurosyphilis) damages large-diameter dorsal root fibers and dorsal columns. This causes sensory ataxia with a positive Romberg sign, impaired vibration sense, absent reflexes (loss of the afferent limb) and lightning pains. Normal heel-to-shin testing argues against a cerebellar cause. Treatment is penicillin.",
+    "high_yield_pearl": "High-Yield Rule: Cerebellum",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q93",
+    "q_num": "93",
+    "orig_q_num": 18,
+    "orig_section": "Cerebellum (Q11–18)",
+    "stem": "A 3-year-old boy has been vomiting and falling frequently. Examination shows horizontal nystagmus and severe truncal instability with a wide-based gait. Finger-to-nose and heel-to-shin testing are normal. MRI shows a mass involving the cerebellar nodulus. Which of the following functional divisions is damaged, and what is its principal connection?",
+    "category": "Cerebellum",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Vestibulocerebellum, connected to the vestibular nuclei via the inferior cerebellar peduncle"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Spinocerebellum, receiving the dorsal spinocerebellar tract"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Cerebrocerebellum, projecting from the dentate nucleus via the superior cerebellar peduncle"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Cerebrocerebellum, receiving pontine nuclei input via the middle cerebellar peduncle"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Spinocerebellum, projecting from the interposed nuclei"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "The flocculus and nodulus form the vestibulocerebellum, which controls balance and eye movements through connections with the vestibular nuclei via the inferior cerebellar peduncle. Lesions cause nystagmus, vertigo and truncal ataxia with normal limb coordination. Medulloblastoma often arises here.",
+    "high_yield_pearl": "High-Yield Rule: Cerebellum",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q94",
+    "q_num": "94",
+    "orig_q_num": 29,
+    "orig_section": "Tumors (Q19–32)",
+    "stem": "A 3-month-old infant has focal seizures. Examination shows three hypopigmented, ash-leaf macules on the trunk. Echocardiography shows a cardiac mass consistent with a rhabdomyoma. Which of the following brain MRI findings is most likely?",
+    "category": "Tumors",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Bilateral cerebellopontine angle schwannomas"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Vascular cerebellar cystic hemangioblastoma"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Gyral tram-track calcification and angioma"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Cortical tubers and subependymal glial nodules"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Optic pathway glioma and plexiform neurofibroma"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Tuberous sclerosis produces cortical tubers (disorganized lamination), calcified subependymal nodules and subependymal giant cell astrocytomas, along with cardiac rhabdomyomas and renal angiomyolipomas. Ash-leaf macules may be the earliest sign.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q95",
+    "q_num": "95",
+    "orig_q_num": 32,
+    "orig_section": "Tumors (Q19–32)",
+    "stem": "A 4-year-old boy has morning vomiting, truncal ataxia and a wide-based gait. MRI shows a midline vermian mass filling the fourth ventricle, with hydrocephalus. Which of the following histologic features and complications are most likely?",
+    "category": "Tumors",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Perivascular pseudorosettes; lack of CSF seeding"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Eosinophilic Rosenthal fibers; benign WHO grade I"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Homer Wright rosettes; risk of spinal drop metastases"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Concentric psammoma bodies; local dural invasion"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Antoni A and B cellular areas; sensorineural loss"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Medulloblastoma arises in the vermis and fourth ventricle in children. It is a small round blue cell tumor with Homer Wright rosettes, and it seeds the subarachnoid space (drop metastases).",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q96",
+    "q_num": "96",
+    "orig_q_num": 36,
+    "orig_section": "Opportunistic Infection (Q33–42)",
+    "stem": "A 42-year-old man with AIDS (CD4 count 45/µL) has 6 weeks of progressive right hemiparesis, aphasia and visual field loss. MRI shows non-enhancing subcortical white matter lesions without mass effect. Which of the following is the most likely pathogen, and what is the best confirmatory test?",
+    "category": "Opportunistic Infection",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Toxoplasma gondii cyst reactivation"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "JC virus demyelinating encephalitis"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Cytomegalovirus ventriculoencephalitis"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Cryptococcus neoformans cryptococcoma"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Herpes simplex virus type 1 encephalitis"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Progressive multifocal leukoencephalopathy is caused by JC virus infection of oligodendrocytes, giving non-enhancing white matter lesions without mass effect. The confirmatory test is CSF PCR for JC virus DNA. Treatment is restoring immunity with antiretroviral therapy, with a risk of IRIS.",
+    "high_yield_pearl": "High-Yield Rule: Opportunistic Infection",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q97",
+    "q_num": "97",
+    "orig_q_num": 95,
+    "orig_section": "CBIL Epilepsy (Q83–100)",
+    "stem": "A 30-year-old man is still having generalized convulsions when paramedics arrive 8 minutes after onset. Which of the following best defines his condition?",
+    "category": "CBIL Epilepsy",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Two discrete seizures within 24 hours with recovery"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Continuous seizure >5 min or no return to baseline"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Any witnessed convulsive seizure lasting >30 sec"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "A single brief seizure accompanied by tongue bite"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Continuous abnormal EEG discharge lasting >1 hour"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Status epilepticus is continuous seizure activity lasting more than 5 minutes, or recurrent seizures without return to baseline consciousness. It is a medical emergency.",
+    "high_yield_pearl": "High-Yield Rule: CBIL Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q98",
+    "q_num": "98",
+    "orig_q_num": 4,
+    "orig_section": "Demyelinating Disease (Q1–10)",
+    "stem": "A 35-year-old woman has bilateral vision loss over 4 days, followed by weakness and numbness of both legs and urinary retention. Spinal MRI shows a T2-hyperintense cord lesion spanning five vertebral segments. Brain MRI is normal. Which of the following autoantibodies is most likely to be present?",
+    "category": "Demyelinating Disease",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Antibodies to myelin basic protein"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Antibodies to GM1 ganglioside"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Autoantibodies to aquaporin-4"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Antibodies to acetylcholine receptors"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Autoantibodies to neuronal Hu antigen"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Optic neuritis plus a longitudinally extensive transverse myelitis (three or more segments) with a normal brain MRI is neuromyelitis optica, caused by aquaporin-4 (NMO-IgG) antibodies against astrocyte foot processes. Acute attacks are treated with steroids or plasma exchange.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q99",
+    "q_num": "99",
+    "orig_q_num": 15,
+    "orig_section": "Cerebellum (Q11–18)",
+    "stem": "A 14-year-old boy has progressive gait ataxia, scoliosis and high-arched feet. Examination shows absent ankle reflexes, loss of vibration sense in the legs and a positive Babinski sign. Echocardiography shows hypertrophic cardiomyopathy. Which of the following is the most likely molecular abnormality?",
+    "category": "Cerebellum",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "CAG repeat expansion in HTT gene"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "CTG repeat expansion in DMPK gene"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Exon deletion in dystrophin gene"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Tandem duplication of PMP22 gene"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "GAA repeat expansion in FXN gene"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Friedreich ataxia is autosomal recessive, with a GAA repeat expansion in FXN causing frataxin deficiency and mitochondrial iron overload. Degeneration of dorsal columns, spinocerebellar and corticospinal tracts gives ataxia, areflexia and a Babinski sign, with scoliosis, pes cavus and hypertrophic cardiomyopathy.",
+    "high_yield_pearl": "High-Yield Rule: Cerebellum",
+    "image": null
+  },
+  {
+    "id": "exam3_inhouse_c2_q100",
+    "q_num": "100",
+    "orig_q_num": 82,
+    "orig_section": "Dementia (Q73–82)",
+    "stem": "A 42-year-old man has 2 years of irritability, depression, forgetfulness and writhing, dance-like movements. His father had similar symptoms and died in his fifties. MRI shows atrophy of the caudate nuclei. Which of the following is the most likely genetic defect?",
+    "category": "Dementia",
+    "source": "Neuro Exam 3 In House c2 (100 Qs)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "GAA repeat expansion in FXN gene"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "CTG repeat expansion in DMPK gene"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "CGG repeat expansion in FMR1 gene"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "CAG repeat expansion in HTT gene"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Hexanucleotide expansion in C9orf72"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Huntington disease is autosomal dominant with a CAG repeat expansion in the huntingtin gene on chromosome 4, causing chorea, depression, dementia and atrophy of the caudate and putamen.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  }
+]
