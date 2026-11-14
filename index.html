@@ -2540,7 +2540,7 @@
           <span>🧠</span>
           <span>Exam 2</span>
         </button>
-        <button id="exam3TabBtn" class="exam-tab-btn" style="display: none;" onclick="selectExam('exam3')">
+        <button id="exam3TabBtn" class="exam-tab-btn" onclick="selectExam('exam3')">
           <span>⚡</span>
           <span>Exam 3</span>
         </button>
@@ -3128,10 +3128,11 @@
         e3Tab.classList.add('unlocked-pulse');
         setTimeout(() => e3Tab.classList.remove('unlocked-pulse'), 1200);
       }
-      if (!skipSwitch) {
+      renderBankSwitcher();
+      if (!skipSwitch && currentExam !== 'exam3') {
         selectExam('exam3');
       }
-      showToast('⚡ Exam 3 Unlocked! Welcome Mark.');
+      showToast('⚡ Exam 3 Full Question Banks Unlocked! Welcome Mark.');
       try {
         if (typeof VaultAudio !== 'undefined' && VaultAudio.init) {
           VaultAudio.init();
@@ -3159,12 +3160,13 @@
       localStorage.removeItem('usmle_exam3_unlocked');
       const e3Tab = document.getElementById('exam3TabBtn');
       if (e3Tab) {
-        e3Tab.style.display = 'none';
+        e3Tab.style.display = 'inline-flex';
       }
-      if (currentExam === 'exam3') {
-        selectExam('exam1');
+      renderBankSwitcher();
+      if (isExam3Track(currentTrack) && currentTrack !== 'exam3_practice') {
+        switchTrack('exam3_practice');
       }
-      showToast('🔒 Exam 3 Hidden.');
+      showToast('🔒 Exam 3 Extra Banks Hidden.');
     }
 
     function toggleExam3() {
@@ -3180,10 +3182,6 @@
     window.toggleExam3 = toggleExam3;
 
     function selectExam(examId) {
-      if (examId === 'exam3' && !isExam3Unlocked()) {
-        showToast('🔒 Exam 3 is hidden.');
-        return;
-      }
       currentExam = examId;
       localStorage.setItem('usmle_active_exam', currentExam);
 
@@ -3198,7 +3196,10 @@
 
       // Pick active bank for this exam
       if (currentExam === 'exam3') {
-        const savedBank = localStorage.getItem('usmle_exam3_active_bank') || 'exam3_practice';
+        let savedBank = localStorage.getItem('usmle_exam3_active_bank') || 'exam3_practice';
+        if (!isExam3Unlocked() && savedBank !== 'exam3_practice') {
+          savedBank = 'exam3_practice';
+        }
         switchTrack(savedBank);
       } else if (currentExam === 'exam2') {
         const savedBank = localStorage.getItem('usmle_exam2_active_bank') || 'exam2_zen';
@@ -3214,7 +3215,10 @@
       if (!container) return;
       container.innerHTML = '';
 
-      const banks = EXAM_BANKS[currentExam] || EXAM_BANKS.exam1;
+      let banks = EXAM_BANKS[currentExam] || EXAM_BANKS.exam1;
+      if (currentExam === 'exam3' && !isExam3Unlocked()) {
+        banks = banks.filter(b => b.id === 'exam3_practice');
+      }
       banks.forEach(b => {
         const btn = document.createElement('button');
         btn.id = 'trackBtn_' + b.id;
@@ -3240,8 +3244,8 @@
     }
 
     function switchTrack(newTrack) {
-      if (isExam3Track(newTrack) && !isExam3Unlocked()) {
-        showToast('🔒 Exam 3 is hidden.');
+      if (isExam3Track(newTrack) && newTrack !== 'exam3_practice' && !isExam3Unlocked()) {
+        showToast('🔒 This bank requires unlock. Type mark to unlock.');
         return;
       }
       saveState();
@@ -5632,14 +5636,10 @@ For each question:
       setupAutoHighlighting();
       startTimer();
 
-      // Check if Exam 3 should be displayed
+      // Ensure Exam 3 tab is always displayed (Practice Exam 3 available with no password)
       const e3Tab = document.getElementById('exam3TabBtn');
       if (e3Tab) {
-        if (isExam3Unlocked()) {
-          e3Tab.style.display = 'inline-flex';
-        } else {
-          e3Tab.style.display = 'none';
-        }
+        e3Tab.style.display = 'inline-flex';
       }
 
       // Restore active exam & track
@@ -5650,10 +5650,9 @@ For each question:
       let savedExam = urlExam || localStorage.getItem('usmle_active_exam') || 'exam1';
       let targetTrack = urlTrack || localStorage.getItem('usmle_active_track');
 
-      // If exam3 is requested but NOT unlocked, force fallback to exam1
-      if ((savedExam === 'exam3' || isExam3Track(targetTrack)) && !isExam3Unlocked()) {
-        savedExam = 'exam1';
-        targetTrack = 'inhouse';
+      // If a locked exam3 track is requested but NOT unlocked, fallback to exam3_practice
+      if (isExam3Track(targetTrack) && targetTrack !== 'exam3_practice' && !isExam3Unlocked()) {
+        targetTrack = 'exam3_practice';
       }
 
       if (!targetTrack) {
