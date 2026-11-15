@@ -601,6 +601,24 @@ exam3_inhouse_c_categories = [
 exam3_inhouse_c_json_data_str = json.dumps(exam3_inhouse_c_questions, ensure_ascii=False)
 exam3_inhouse_c_categories_json_str = json.dumps(exam3_inhouse_c_categories, ensure_ascii=False)
 
+# Exam 3 In House Like G (in_house_like_G: 150 Questions)
+exam3_in_house_like_g_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'exam3_in_house_like_g_questions.json')
+with open(exam3_in_house_like_g_path, 'r', encoding='utf-8') as f:
+    exam3_in_house_like_g_questions = json.load(f)
+
+exam3_in_house_like_g_categories = [
+    'Demyelinating Disease',
+    'Cerebellum',
+    'Tumors',
+    'Opportunistic Infection',
+    'Stroke (Blood Supply, Cerebrovascular, Brainstem)',
+    'Dementia',
+    'CBIL Epilepsy',
+]
+
+exam3_in_house_like_g_json_data_str = json.dumps(exam3_in_house_like_g_questions, ensure_ascii=False)
+exam3_in_house_like_g_categories_json_str = json.dumps(exam3_in_house_like_g_categories, ensure_ascii=False)
+
 # Exam 3 In House c2 (In House c2: 100 Questions)
 exam3_inhouse_c2_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'exam3_inhouse_c2_questions.json')
 with open(exam3_inhouse_c2_path, 'r', encoding='utf-8') as f:
@@ -4028,6 +4046,8 @@ html_template = """<!DOCTYPE html>
     const exam3InHouseCCategories = """ + exam3_inhouse_c_categories_json_str + """;
     const rawExam3InHouseC2Questions = """ + exam3_inhouse_c2_json_data_str + """;
     const exam3InHouseC2Categories = """ + exam3_inhouse_c2_categories_json_str + """;
+    const rawExam3InHouseLikeGQuestions = """ + exam3_in_house_like_g_json_data_str + """;
+    const exam3InHouseLikeGCategories = """ + exam3_in_house_like_g_categories_json_str + """;
     const rawExam3GHU16Questions = """ + exam3_g_h_u1_6_json_data_str + """;
     const exam3GHU16Categories = """ + exam3_g_h_u1_6_categories_json_str + """;
 
@@ -4232,12 +4252,19 @@ html_template = """<!DOCTYPE html>
           icon: '🏠',
           badge: '100 Qs • Blueprint Set 2',
           type: 'exam3'
+        },
+        {
+          id: 'exam3_in_house_like_g',
+          label: 'in_house_like_G',
+          icon: '🏛️',
+          badge: '150 Qs • In House Like G',
+          type: 'exam3'
         }
       ]
     };
 
     function isExam3Track(track) {
-      return track === 'exam3' || track === 'exam3_practice' || track === 'exam3_redo' || track === 'redo' || track === 'exam3_high_yield' || track === 'high_yield' || track === 'exam3_c_u1_6' || track === 'exam3_c_h1_6' || track === 'exam3_c_u2_1_6' || track === 'exam3_g_h_u1_6' || track === 'exam3_inhouse_c' || track === 'exam3_inhouse_c2';
+      return track === 'exam3' || track === 'exam3_practice' || track === 'exam3_redo' || track === 'redo' || track === 'exam3_high_yield' || track === 'high_yield' || track === 'exam3_c_u1_6' || track === 'exam3_c_h1_6' || track === 'exam3_c_u2_1_6' || track === 'exam3_g_h_u1_6' || track === 'exam3_inhouse_c' || track === 'exam3_inhouse_c2' || track === 'exam3_in_house_like_g';
     }
 
     function isExam3BaseTrack(track) {
@@ -4249,6 +4276,7 @@ html_template = """<!DOCTYPE html>
     }
 
     function getCategoriesForTrack() {
+      if (currentTrack === 'exam3_in_house_like_g') return exam3InHouseLikeGCategories;
       if (currentTrack === 'exam3_inhouse_c2') return exam3InHouseC2Categories;
       if (currentTrack === 'exam3_inhouse_c') return exam3InHouseCCategories;
       if (currentTrack === 'exam3_c_u2_1_6') return exam3CU216Categories;
@@ -4590,7 +4618,16 @@ html_template = """<!DOCTYPE html>
 
       timerDisplay.classList.remove('zen', 'focused-zen', 'inhouse', 'exam2', 'exam3');
 
-      if (currentTrack === 'exam3_inhouse_c2') {
+      if (currentTrack === 'exam3_in_house_like_g') {
+        zenTray.style.display = 'flex';
+        trayIcon.textContent = '🏛️';
+        trayLabelText.textContent = 'In House Topics:';
+        trackTag.style.display = 'inline-block';
+        trackTag.className = 'q-track-tag exam3';
+        trackTag.textContent = '🏛️ in_house_like_G (150 Qs)';
+        timerDisplay.classList.add('exam3');
+        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> in_house_like_G Topics (7)`;
+      } else if (currentTrack === 'exam3_inhouse_c2') {
         zenTray.style.display = 'flex';
         trayIcon.textContent = '🏠';
         trayLabelText.textContent = 'Blueprint Topics:';
@@ -4797,7 +4834,9 @@ html_template = """<!DOCTYPE html>
       updateOverallStats();
       renderCurrentQuestion();
 
-      const toastMsg = currentTrack === 'exam3_inhouse_c2'
+      const toastMsg = currentTrack === 'exam3_in_house_like_g'
+        ? 'Exam 3: Loaded 🏛️ in_house_like_G (150 Qs - Case-Based)'
+        : currentTrack === 'exam3_inhouse_c2'
         ? 'Exam 3: Loaded 🏠 In House c2 (100 Qs - Blueprint Set 2)'
         : currentTrack === 'exam3_inhouse_c'
         ? 'Exam 3: Loaded 🏠 In House c (100 Qs - Blueprint Randomized)'
@@ -4847,6 +4886,7 @@ html_template = """<!DOCTYPE html>
     function getStoragePrefix(track = currentTrack) {
       if (track === 'exam3_redo' || track === 'redo') return 'usmle_exam3_redo_';
       if (track === 'exam3_high_yield' || track === 'high_yield') return 'usmle_exam3_high_yield_';
+      if (track === 'exam3_in_house_like_g') return 'usmle_exam3_in_house_like_g_';
       if (track === 'exam3_inhouse_c2') return 'usmle_exam3_inhouse_c2_';
       if (track === 'exam3_inhouse_c') return 'usmle_exam3_inhouse_c_';
       if (track === 'exam3_c_u2_1_6') return 'usmle_exam3_c_u2_1_6_';
@@ -4878,6 +4918,8 @@ html_template = """<!DOCTYPE html>
         rawData = rawExam3HighYieldQuestions;
       } else if (currentTrack === 'exam3_redo' || currentTrack === 'redo') {
         rawData = rawExam3Questions;
+      } else if (currentTrack === 'exam3_in_house_like_g') {
+        rawData = rawExam3InHouseLikeGQuestions;
       } else if (currentTrack === 'exam3_inhouse_c2') {
         rawData = rawExam3InHouseC2Questions;
       } else if (currentTrack === 'exam3_inhouse_c') {
@@ -5789,7 +5831,9 @@ html_template = """<!DOCTYPE html>
     function openItemGrid() {
       const container = document.getElementById('gridItemsContainer');
       container.innerHTML = '';
-      const trackName = currentTrack === 'exam3_inhouse_c2'
+      const trackName = currentTrack === 'exam3_in_house_like_g'
+        ? '🏛️ in_house_like_G (150 Qs)'
+        : currentTrack === 'exam3_inhouse_c2'
         ? '🏠 In House c2 (100 Qs)'
         : currentTrack === 'exam3_inhouse_c'
         ? '🏠 In House c (100 Qs)'
@@ -5873,7 +5917,9 @@ html_template = """<!DOCTYPE html>
       document.getElementById('reportCorrectCount').textContent = totalCorrect.toString();
       document.getElementById('reportIncorrectCount').textContent = totalIncorrect.toString();
 
-      const reportTitle = currentTrack === 'exam3_inhouse_c2'
+      const reportTitle = currentTrack === 'exam3_in_house_like_g'
+        ? '🏛️ Exam 3 in_house_like_G (150 Qs) Score Report'
+        : currentTrack === 'exam3_inhouse_c2'
         ? '🏠 Exam 3 In House c2 (100 Qs) Score Report'
         : currentTrack === 'exam3_inhouse_c'
         ? '🏠 Exam 3 In House c (100 Qs) Score Report'
@@ -5974,6 +6020,7 @@ html_template = """<!DOCTYPE html>
       { id: 'exam3_g_h_u1_6', name: 'Units 1–6 (g_H_u1-6, 120 Qs)', prefix: 'usmle_exam3_g_h_u1_6_', getData: () => rawExam3GHU16Questions },
       { id: 'exam3_inhouse_c', name: 'In House c (100 Qs)', prefix: 'usmle_exam3_inhouse_c_', getData: () => rawExam3InHouseCQuestions },
       { id: 'exam3_inhouse_c2', name: 'In House c2 (100 Qs)', prefix: 'usmle_exam3_inhouse_c2_', getData: () => rawExam3InHouseC2Questions },
+      { id: 'exam3_in_house_like_g', name: 'in_house_like_G (150 Qs)', prefix: 'usmle_exam3_in_house_like_g_', getData: () => rawExam3InHouseLikeGQuestions },
     ];
 
     function getWrongQuestionsForTrack(trackId, prefix, bankQuestions) {
@@ -6393,7 +6440,9 @@ html_template = """<!DOCTYPE html>
     function resetCurrentTrack() {
       let trackName = 'Exam 1 (125 questions)';
       const storagePrefix = getStoragePrefix(currentTrack);
-      if (currentTrack === 'exam3_inhouse_c2') {
+      if (currentTrack === 'exam3_in_house_like_g') {
+        trackName = '🏛️ Exam 3 in_house_like_G (150 questions)';
+      } else if (currentTrack === 'exam3_inhouse_c2') {
         trackName = '🏠 Exam 3 In House c2 (100 questions)';
       } else if (currentTrack === 'exam3_inhouse_c') {
         trackName = '🏠 Exam 3 In House c (100 questions)';
@@ -7388,7 +7437,9 @@ html_template = """<!DOCTYPE html>
 
       if (currentIndex > 0) {
         setTimeout(() => {
-          const trackLabel = currentTrack === 'exam3_inhouse_c2'
+          const trackLabel = currentTrack === 'exam3_in_house_like_g'
+            ? 'Exam 3 in_house_like_G (150 Qs)'
+            : currentTrack === 'exam3_inhouse_c2'
             ? 'Exam 3 In House c2'
             : currentTrack === 'exam3_inhouse_c'
             ? 'Exam 3 In House c'
