@@ -183,6 +183,31 @@ class CDPClient {
     assert(catCheck['Dementia'] === 15, `Dementia should be 15, got ${catCheck['Dementia']}`);
     assert(catCheck['CBIL Epilepsy'] === 27, `CBIL Epilepsy should be 27, got ${catCheck['CBIL Epilepsy']}`);
 
+    console.log('--- TEST 3b: Verify exact course content alignment (No PSEN1, Q110 is Patient H.M., 0 parens in options) ---');
+    const contentCheck = await client.eval(`(() => {
+      const hasPsen1 = questions.some(q => JSON.stringify(q).toLowerCase().includes('psen1'));
+      const q110 = questions[109];
+      const parensCount = questions.reduce((acc, q) => {
+        return acc + q.options.filter(opt => opt.text.includes('(') || opt.text.includes(')')).length;
+      }, 0);
+      const maxSpread = questions.reduce((max, q) => {
+        const lens = q.options.map(o => o.text.length);
+        const spread = Math.max(...lens) - Math.min(...lens);
+        return Math.max(max, spread);
+      }, 0);
+      return {
+        hasPsen1,
+        q110Stem: q110 ? q110.stem.substring(0, 50) : null,
+        parensCount,
+        maxSpread
+      };
+    })()`);
+    console.log('Content check:', contentCheck);
+    assert(!contentCheck.hasPsen1, 'There must be NO PSEN1 question anywhere in the bank');
+    assert(contentCheck.q110Stem.includes('Patient H.M.'), `Q110 must be Patient H.M., got: ${contentCheck.q110Stem}`);
+    assert(contentCheck.parensCount === 0, `There must be 0 parentheses in options, found: ${contentCheck.parensCount}`);
+    assert(contentCheck.maxSpread <= 6, `Max option length spread must be <= 6, got: ${contentCheck.maxSpread}`);
+
     console.log('--- TEST 4: Interact and Answer Question 1 ---');
     await client.eval(`selectChoice(questions[0].options[questions[0].correct_idx].letter); submitAnswer();`);
     await new Promise((r) => setTimeout(r, 300));
