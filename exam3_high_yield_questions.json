@@ -9,27 +9,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Neutrophilic pleocytosis with low glucose"
+        "text": "Neutrophilic pleocytosis with marked hypoglycorrhachia"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Elevated albumin with normal IgG"
+        "text": "Albuminocytologic dissociation with normal IgG index"
       },
       {
         "letter": "C",
         "is_correct": true,
-        "text": "Elevated IgG and myelin basic protein with oligoclonal bands on electrophoresis"
+        "text": "Elevated IgG index and oligoclonal bands on electrophoresis"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Xanthochromia with erythrocytes"
+        "text": "Xanthochromia with persistent non-clearing erythrocytes"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Elevated lactate with positive cryptococcal antigen"
+        "text": "Elevated opening pressure with positive cryptococcal antigen"
       }
     ],
     "correct_idx": 2,
@@ -47,27 +47,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "A single ring-enhancing mass"
+        "text": "Solitary ring-enhancing supratentorial mass with vasogenic edema"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Symmetric basal ganglia hyperintensity"
+        "text": "Symmetrical T2/FLAIR hyperintensity within bilateral basal ganglia"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "A longitudinally extensive cord lesion with normal brain imaging"
+        "text": "Longitudinally extensive spinal cord lesion with normal cranial MRI"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Cortical ribboning"
+        "text": "Extensive cortical ribboning involving cerebral cortex and basal ganglia"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "Plaques scattered through the white matter, including along the lateral ventricles"
+        "text": "Multiple demyelinating plaques in periventricular white matter"
       }
     ],
     "correct_idx": 4,
@@ -85,7 +85,7 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "An afferent defect of the right optic nerve (Marcus Gunn pupil)"
+        "text": "An afferent defect of the right optic nerve"
       },
       {
         "letter": "B",
@@ -100,12 +100,12 @@
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Right Horner syndrome"
+        "text": "An interruption of the right sympathetic pathway"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "A left optic tract lesion"
+        "text": "A retrochiasmal lesion of the left optic tract"
       }
     ],
     "correct_idx": 0,
@@ -237,27 +237,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "The bacteria directly invade the peripheral nerves"
+        "text": "Direct bacterial invasion and replication in peripheral nerve roots"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "A bacterial toxin destroys the anterior horn cells"
+        "text": "Elaboration of a bacterial exotoxin destroying anterior horn cells"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "The organism persists in the CSF"
+        "text": "Persistent dormant bacterial replication within the subarachnoid space"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Dehydration caused an electrolyte-related neuropathy"
+        "text": "Severe systemic dehydration producing metabolic axonal disruption"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "Antibodies and T cells directed at Campylobacter epitopes cross-react with Schwann cell and myelin antigens"
+        "text": "Molecular mimicry of bacterial epitopes triggering anti-myelin antibodies"
       }
     ],
     "correct_idx": 4,
@@ -268,7 +268,7 @@
   {
     "id": "exam3_hy_q8",
     "q_num": "8",
-    "stem": "For the patient in the previous question, nerve conduction studies are ordered. Which of the following is the best choice of region to test first and the expected result?",
+    "stem": "A 33-year-old man presents with progressive ascending leg weakness, tingling, and absent deep tendon reflexes four weeks after an episode of chills and diarrhea after eating undercooked chicken. Nerve conduction studies are ordered. Which of the following is the best choice of region to test first and the expected result?",
     "category": "Demyelinating Diseases",
     "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
     "options": [
@@ -280,12 +280,12 @@
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Face first; normal conduction"
+        "text": "Face first; normal conduction velocities and amplitudes"
       },
       {
         "letter": "C",
         "is_correct": true,
-        "text": "Legs first (ascending weakness); slowed conduction indicating demyelination"
+        "text": "Legs first; slowed conduction indicating demyelination"
       },
       {
         "letter": "D",
@@ -313,27 +313,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "It replaces the missing myelin proteins"
+        "text": "It replaces deficient peripheral myelin proteins"
       },
       {
         "letter": "B",
         "is_correct": true,
-        "text": "It removes circulating antibodies, complement and cytokines"
+        "text": "It clears circulating antibodies, complement, and cytokines"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "It directly remyelinates peripheral axons"
+        "text": "It directly stimulates remyelination of peripheral axons"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "It kills Campylobacter in the bloodstream"
+        "text": "It eliminates persistent Campylobacter from the bloodstream"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "It blocks acetylcholine receptors"
+        "text": "It competitively blocks postsynaptic acetylcholine receptors"
       }
     ],
     "correct_idx": 1,
@@ -356,7 +356,7 @@
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Sepsis"
+        "text": "Severe sepsis"
       },
       {
         "letter": "C",
@@ -366,7 +366,7 @@
       {
         "letter": "D",
         "is_correct": true,
-        "text": "Dysautonomia, which occurs in about two-thirds of patients"
+        "text": "Dysautonomia"
       },
       {
         "letter": "E",
@@ -394,22 +394,22 @@
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Guillain-Barré syndrome; antibodies to gangliosides"
+        "text": "Guillain-Barré syndrome; anti-ganglioside antibodies"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Spinal muscular atrophy; SMN1 deletion"
+        "text": "Spinal muscular atrophy; survival motor neuron 1 deletion"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Subacute combined degeneration; vitamin B12 deficiency"
+        "text": "Subacute combined degeneration; cobalamin deficiency"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "Charcot-Marie-Tooth disease; autosomal dominant mutation in peripheral myelin protein 22"
+        "text": "Charcot-Marie-Tooth disease; peripheral myelin protein 22 mutation"
       }
     ],
     "correct_idx": 4,
@@ -427,27 +427,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "It is caused by aquaporin-4 antibodies, typically has more severe symptoms, and preferentially affects the optic nerves and spinal cord"
+        "text": "Presence of autoantibodies targeting aquaporin-4 water channels"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "It is caused by antibodies to gangliosides"
+        "text": "Presence of circulating antibodies targeting peripheral gangliosides"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "It spares the optic nerves"
+        "text": "Selective sparing of the optic apparatus with purely motor deficits"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "It is a peripheral demyelinating disease"
+        "text": "Demyelination restricted entirely to peripheral Schwann cell sheaths"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "It is caused by JC virus infection of oligodendrocytes"
+        "text": "Reactivation of latent JC virus within central oligodendrocytes"
       }
     ],
     "correct_idx": 0,
@@ -541,27 +541,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Dermatomal root involvement"
+        "text": "Progressive dermatomal nerve root compression"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Upper motor neuron degeneration"
+        "text": "Degeneration of descending upper motor neuron tracts"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Anterior horn cell loss at L4–S1 only"
+        "text": "Selective loss of anterior horn cells at L4–S1"
       },
       {
         "letter": "D",
         "is_correct": true,
-        "text": "A length-dependent process affecting the longest peripheral nerves first"
+        "text": "Length-dependent degeneration of the longest axons"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Neuromuscular junction failure"
+        "text": "Postsynaptic neuromuscular junction receptor failure"
       }
     ],
     "correct_idx": 3,
@@ -579,27 +579,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Resting tremor and rigidity"
+        "text": "Resting tremor and lead-pipe rigidity"
       },
       {
         "letter": "B",
         "is_correct": true,
-        "text": "Falling, vertigo, nausea and nystagmus"
+        "text": "Vertigo, truncal ataxia, and nystagmus"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Intention tremor of the arm with dysmetria"
+        "text": "Intention tremor and limb dysmetria"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Hemiparesis"
+        "text": "Contralateral spastic hemiparesis"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Aphasia"
+        "text": "Expressive non-fluent aphasia"
       }
     ],
     "correct_idx": 1,
@@ -655,27 +655,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "Accessory (lateral) cuneate nucleus in the caudal medulla, giving the cuneocerebellar tract"
+        "text": "Accessory cuneate nucleus in the caudal medulla (cuneocerebellar tract)"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Nucleus dorsalis of Clarke, giving the dorsal spinocerebellar tract"
+        "text": "Dorsal nucleus of Clarke in the spinal cord (dorsal spinocerebellar tract)"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Nucleus gracilis, giving the medial lemniscus"
+        "text": "Nucleus gracilis in the caudal medulla (medial lemniscus)"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Ventral posterolateral nucleus of the thalamus"
+        "text": "Ventral posterolateral nucleus in the thalamus (thalamocortical tract)"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Inferior olivary nucleus"
+        "text": "Inferior olivary nucleus in the rostral medulla (olivocerebellar tract)"
       }
     ],
     "correct_idx": 0,
@@ -731,27 +731,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Left cerebellar hemisphere infarction"
+        "text": "Infarction of the left cerebellar hemisphere"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Right vermis infarction"
+        "text": "Ischemic injury to the cerebellar vermis"
       },
       {
         "letter": "C",
         "is_correct": true,
-        "text": "Interruption of frontopontine fibers of the cortico-ponto-cerebellar pathway in the left crus cerebri"
+        "text": "Interruption of descending frontopontine fibers"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Dorsal column damage"
+        "text": "Demyelination of the ascending dorsal columns"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Right inferior cerebellar peduncle damage"
+        "text": "Occlusion of the right inferior cerebellar peduncle"
       }
     ],
     "correct_idx": 2,
@@ -807,27 +807,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Intention tremor"
+        "text": "Intention tremor on finger-to-nose testing"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Scanning speech"
+        "text": "Scanning dysarthric speech pattern"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Truncal sway when sitting"
+        "text": "Truncal ataxia when seated unsupported"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Nystagmus"
+        "text": "Direction-changing horizontal nystagmus"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "Loss of proprioception, a positive Romberg sign and no vertigo"
+        "text": "Positive Romberg sign with eyes closed"
       }
     ],
     "correct_idx": 4,
@@ -845,27 +845,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "Displaced otoliths in the semicircular canals"
+        "text": "Displaced otoliths in semicircular canals"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Endolymphatic hydrops"
+        "text": "Endolymphatic hydrops of membranous labyrinth"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "A vestibular schwannoma"
+        "text": "Schwannoma arising from cranial nerve VIII"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Vertebrobasilar ischemia"
+        "text": "Transient vertebrobasilar hypoperfusion"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Cerebellar vermis atrophy"
+        "text": "Atrophy of the anterior cerebellar vermis"
       }
     ],
     "correct_idx": 0,
@@ -883,27 +883,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Vitamin B12 replacement"
+        "text": "Intravenous cyanocobalamin replacement"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Corticosteroids"
+        "text": "High-dose intravenous corticosteroids"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Plasma exchange"
+        "text": "Therapeutic plasma exchange"
       },
       {
         "letter": "D",
         "is_correct": true,
-        "text": "Penicillin and testing of sexual contacts"
+        "text": "Intravenous penicillin G therapy"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Supportive care only"
+        "text": "Supportive care and physical therapy"
       }
     ],
     "correct_idx": 3,
@@ -921,12 +921,12 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Lysosome; basal ganglia"
+        "text": "Lysosome; basal ganglia and substantia nigra"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Peroxisome; cerebellar hemispheres"
+        "text": "Peroxisome; lateral cerebellar hemispheres"
       },
       {
         "letter": "C",
@@ -936,12 +936,12 @@
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Golgi apparatus; motor cortex"
+        "text": "Golgi apparatus; motor cortex and corticospinal tracts"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Nucleus; thalamus"
+        "text": "Nucleus; ventral anterior and lateral thalamus"
       }
     ],
     "correct_idx": 2,
@@ -964,22 +964,22 @@
       {
         "letter": "B",
         "is_correct": true,
-        "text": "Cerebellar lesion, causing intention (kinetic) tremor"
+        "text": "Cerebellar lesion"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Essential tremor at rest"
+        "text": "Essential tremor"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Hypothyroidism"
+        "text": "Hyperthyroidism"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Anxiety"
+        "text": "Physiologic tremor"
       }
     ],
     "correct_idx": 1,
@@ -1035,27 +1035,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "A ring-enhancing lesion with surrounding edema, mass effect, and narrowing of the sulci and ventricles"
+        "text": "Ring-enhancing mass with central necrosis and marked vasogenic edema"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "A cystic lesion with a mural nodule in the cerebellum"
+        "text": "Cystic cerebellar lesion with an intensely enhancing mural nodule"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "A dural-based mass with a dural tail"
+        "text": "Extra-axial dural-based mass demonstrating a prominent dural tail"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "A lesion in the cerebellopontine angle"
+        "text": "Cerebellopontine angle mass widening the internal acoustic meatus"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Multiple subependymal calcified nodules"
+        "text": "Multiple subependymal calcified nodules lining the lateral ventricles"
       }
     ],
     "correct_idx": 0,
@@ -1111,27 +1111,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Glioblastoma, WHO grade IV, adults"
+        "text": "Glioblastoma; pseudopalisading necrosis and vascular proliferation"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Oligodendroglioma, WHO grade II, supratentorial"
+        "text": "Oligodendroglioma; fried-egg cells with chicken-wire capillaries"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Ependymoma, WHO grade III, spinal cord"
+        "text": "Ependymoma; true ependymal rosettes and perivascular pseudorosettes"
       },
       {
         "letter": "D",
         "is_correct": true,
-        "text": "Pilocytic astrocytoma, WHO grade I, ages 8–13, with a biphasic pattern and Rosenthal fibers"
+        "text": "Pilocytic astrocytoma; biphasic pattern with Rosenthal fibers"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Meningioma, WHO grade I, dura"
+        "text": "Meningioma; whorled arachnoid pattern with psammoma bodies"
       }
     ],
     "correct_idx": 3,
@@ -1149,27 +1149,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "The left cerebellar hemisphere"
+        "text": "Left cerebellar hemisphere"
       },
       {
         "letter": "B",
         "is_correct": true,
-        "text": "The cerebellar vermis or nodulus, with compression of the fourth ventricle causing obstructive hydrocephalus"
+        "text": "Cerebellar vermis"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "The frontal eye field"
+        "text": "Frontal eye field"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "The dorsal columns"
+        "text": "Cervical dorsal columns"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "The occipital lobe"
+        "text": "Occipital calcarine cortex"
       }
     ],
     "correct_idx": 1,
@@ -1180,34 +1180,34 @@
   {
     "id": "exam3_hy_q32",
     "q_num": "32",
-    "stem": "Why should a lumbar puncture be avoided in the child in the previous question?",
+    "stem": "A 2-year-old child presents with a 1-month history of irritability, daily vomiting, a wobbly wide-based gait, and bilateral papilledema, raising concern for a posterior fossa mass with elevated intracranial pressure. Why should a lumbar puncture be avoided in this patient?",
     "category": "Tumors",
     "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
     "options": [
       {
         "letter": "A",
         "is_correct": false,
-        "text": "It may cause meningitis"
+        "text": "It introduces an unacceptable risk of iatrogenic bacterial meningitis"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "CSF protein would be uninterpretable"
+        "text": "It produces non-diagnostic CSF due to uninterpretable protein elevations"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "It is always painful"
+        "text": "It is contraindicated due to extreme pediatric procedural distress"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "It would not yield CSF"
+        "text": "It results in technical failure to aspirate adequate CSF volumes"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "With raised intracranial pressure and papilledema, withdrawal of lumbar CSF can cause herniation of the brain through the foramen magnum"
+        "text": "It precipitates tonsillar herniation through the foramen magnum"
       }
     ],
     "correct_idx": 4,
@@ -1263,27 +1263,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "The tumor grows slowly and the brain accommodates displacement until the mass is large"
+        "text": "Slow indolent tumor growth allowing progressive brain accommodation"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "The tumor invades the brain rapidly"
+        "text": "Rapid parenchymal infiltration without initial mass displacement"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "The tumor bled recently"
+        "text": "Acute intratumoral hemorrhage causing sudden mass expansion"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "The tumor is metastatic"
+        "text": "Hematogenous dissemination with multiple micro-metastases"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "The tumor obstructs CSF flow early"
+        "text": "Early obstruction of cerebral aqueduct CSF outflow pathways"
       }
     ],
     "correct_idx": 0,
@@ -1301,27 +1301,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Cerebellar tumor of children, WHO grade I"
+        "text": "Infratentorial pediatric tumor; cystic with Rosenthal fibers"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Fourth ventricle tumor with pseudorosettes"
+        "text": "Intraventricular pediatric tumor; perivascular pseudorosettes"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Dural-based tumor with whorls"
+        "text": "Extra-axial adult tumor; dural tail with psammoma bodies"
       },
       {
         "letter": "D",
         "is_correct": true,
-        "text": "Supratentorial tumor of adults aged 35–44 years, WHO grade II, with a chicken-wire capillary pattern"
+        "text": "Supratentorial adult tumor; fried-egg cells with chicken-wire capillaries"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Tumor of the cerebellopontine angle with Antoni A areas"
+        "text": "Cerebellopontine angle tumor; biphasic Antoni A and B architecture"
       }
     ],
     "correct_idx": 3,
@@ -1377,27 +1377,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Schwannomas arise from fibroblasts"
+        "text": "Schwannomas arise from fibroblasts; neurofibromas arise from perineurial cells"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Neurofibromas are encapsulated"
+        "text": "Schwannomas lack a capsule; neurofibromas possess a thick fibrous capsule"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Schwannomas always occur in the brain"
+        "text": "Schwannomas occur strictly intracranially; neurofibromas occur only peripherally"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Neurofibromas are metastatic"
+        "text": "Schwannomas metastasize widely; neurofibromas are entirely indolent"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "Schwannomas displace adjacent nerve fibers, while neurofibromas infiltrate through the nerve"
+        "text": "Schwannomas displace adjacent axons; neurofibromas infiltrate through the nerve"
       }
     ],
     "correct_idx": 4,
@@ -1415,27 +1415,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "Merlin normally suppresses cell growth in crowded environments, so its loss allows uninhibited Schwann cell growth"
+        "text": "Loss of merlin impairs contact inhibition, allowing unregulated Schwann cell growth"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Merlin inhibits mTOR, so its loss increases cell size"
+        "text": "Loss of merlin overactivates mTOR, leading to cell enlargement without hyperplasia"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Merlin is a Ras GTPase-activating protein"
+        "text": "Loss of merlin disables Ras-GAP activity, stimulating constitutive MAPK signaling"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Merlin degrades HIF"
+        "text": "Loss of merlin blocks ubiquitin ligase, causing uncontrolled hypoxia factor buildup"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Merlin stores iron in mitochondria"
+        "text": "Loss of merlin disrupts iron homeostasis, leading to oxidative mitochondrial damage"
       }
     ],
     "correct_idx": 0,
@@ -1453,27 +1453,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Resting tremor, rigidity"
+        "text": "Resting pill-rolling tremor and cogwheel rigidity"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Aphasia, hemiparesis"
+        "text": "Non-fluent expressive aphasia and right hemiparesis"
       },
       {
         "letter": "C",
         "is_correct": true,
-        "text": "Vertigo, hearing loss, tinnitus, ear fullness and nausea from a vestibular schwannoma"
+        "text": "Sensorineural hearing loss, tinnitus, and vertigo"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Bitemporal hemianopia"
+        "text": "Bitemporal hemianopia and pituitary insufficiency"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Anosmia"
+        "text": "Bilateral anosmia and Foster Kennedy syndrome"
       }
     ],
     "correct_idx": 2,
@@ -1491,7 +1491,7 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "One café-au-lait macule"
+        "text": "One isolated café-au-lait macule"
       },
       {
         "letter": "B",
@@ -1501,17 +1501,17 @@
       {
         "letter": "C",
         "is_correct": false,
-        "text": "A single schwannoma"
+        "text": "A single isolated cutaneous schwannoma"
       },
       {
         "letter": "D",
         "is_correct": true,
-        "text": "Two or more neurofibromas of any type, or one plexiform neurofibroma"
+        "text": "Two or more neurofibromas of any type"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "One Lisch nodule"
+        "text": "One isolated Lisch nodule"
       }
     ],
     "correct_idx": 3,
@@ -1529,27 +1529,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "It is typically a schwannoma"
+        "text": "Cutaneous schwannoma"
       },
       {
         "letter": "B",
         "is_correct": true,
-        "text": "It is a plexiform neurofibroma, virtually pathognomonic for NF1"
+        "text": "Plexiform neurofibroma"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "It is a hemangioblastoma"
+        "text": "Capillary hemangioblastoma"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "It is a meningioma"
+        "text": "Transitional meningioma"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "It is found in NF2"
+        "text": "Subependymoma"
       }
     ],
     "correct_idx": 1,
@@ -1643,27 +1643,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "TSC1 and TSC2, tumor suppressors encoding hamartin and tuberin that normally inhibit mTOR"
+        "text": "TSC1 and TSC2, encoding hamartin and tuberin (inhibit mTOR)"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "NF1, encoding a Ras GTPase-activating protein"
+        "text": "NF1, encoding neurofibromin (inactivates Ras GTPase)"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "VHL, encoding a protein that degrades HIF"
+        "text": "VHL, encoding pVHL (degrades hypoxia-inducible factor)"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "GNAQ, somatic mutation"
+        "text": "GNAQ, encoding Gαq (activates phospholipase C)"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "FXN, encoding frataxin"
+        "text": "FXN, encoding frataxin (regulates mitochondrial iron)"
       }
     ],
     "correct_idx": 0,
@@ -1719,27 +1719,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "A calcified tumor of the choroid plexus"
+        "text": "Calcified benign neoplasm arising from the choroid plexus epithelium"
       },
       {
         "letter": "B",
         "is_correct": true,
-        "text": "An enlarged gyrus with disorganized lamination and no clear separation of gray and white matter"
+        "text": "Enlarged gyrus with disorganized cortical lamination and dysplastic neurons"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "A cystic lesion with a mural nodule"
+        "text": "Cerebellar cyst with an intensely contrast-enhancing mural nodule"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "A cluster of whorled arachnoid cells"
+        "text": "Extra-axial collection of concentric whorled arachnoid cap cells"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "A heterotopic nodule of normal neurons"
+        "text": "Heterotopic cluster of mature histologically normal cortical neurons"
       }
     ],
     "correct_idx": 1,
@@ -1757,27 +1757,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Subependymal hamartomas; TSC1"
+        "text": "Subependymal subcortical hamartomas; germline TSC1 mutation"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Hemangioblastomas; VHL"
+        "text": "Cerebellar capillary hemangioblastomas; germline VHL mutation"
       },
       {
         "letter": "C",
         "is_correct": true,
-        "text": "Leptomeningeal (arachnoid-pia) angiomas with cortical calcification; somatic GNAQ mutation on chromosome 9"
+        "text": "Leptomeningeal vascular angiomas; somatic mosaic GNAQ mutation"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Neurofibromas; NF1"
+        "text": "Cutaneous peripheral neurofibromas; germline NF1 mutation"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Schwannomas; NF2"
+        "text": "Bilateral acoustic schwannomas; germline NF2 mutation"
       }
     ],
     "correct_idx": 2,
@@ -1795,27 +1795,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Composed of whorled meningothelial cells; NF2"
+        "text": "Whorled arachnoid cap cells; NF2 gene on chromosome 22q"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Composed of astrocytes with Rosenthal fibers; NF1"
+        "text": "Piloid astrocytes with Rosenthal fibers; NF1 gene on chromosome 17q"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Composed of ganglion cells; TSC2"
+        "text": "Dysplastic ganglion cells; TSC2 gene on chromosome 16p"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Composed of Schwann cells; NF2"
+        "text": "Spindle-shaped Schwann cells; NF2 gene on chromosome 22q"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "Composed of endothelial cells, pericytes and stromal cells; VHL gene on chromosome 3p25.3"
+        "text": "Foamy stromal cells with vascular meshwork; VHL gene on chromosome 3p"
       }
     ],
     "correct_idx": 4,
@@ -1833,27 +1833,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Neutrophilic abscess with a capsule"
+        "text": "Neutrophilic abscess with fibrous pseudocapsule"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Granulomas with caseous necrosis"
+        "text": "Caseating granulomas with Langhans giant cells"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Demyelination with lipid-laden macrophages"
+        "text": "Extensive demyelination with foamy macrophages"
       },
       {
         "letter": "D",
         "is_correct": true,
-        "text": "Perivascular lymphocytic infiltrates, neuronophagia and microglial nodules"
+        "text": "Perivascular lymphocytic cuffs with microglial nodules"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Spongiform vacuolation without inflammation"
+        "text": "Spongiform vacuolation without inflammatory infiltrate"
       }
     ],
     "correct_idx": 3,
@@ -1909,27 +1909,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "Oocysts from cat feces or cysts in undercooked meat, followed by reactivation"
+        "text": "Ingestion of cat oocysts or undercooked meat cysts"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Bird droppings inhaled"
+        "text": "Inhalation of aerosolized avian environmental droppings"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "A tsetse fly bite"
+        "text": "Direct inoculation via infected tsetse fly bite"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Freshwater exposure through the nose"
+        "text": "Cribriform mucosal invasion from freshwater swimming"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "A raccoon bite"
+        "text": "Percutaneous inoculation from infected raccoon saliva"
       }
     ],
     "correct_idx": 0,
@@ -1947,27 +1947,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Marked neutrophilic pleocytosis and gram-positive diplococci"
+        "text": "Marked neutrophilic pleocytosis with Gram-positive diplococci"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Multiple ring-enhancing lesions on MRI"
+        "text": "Multiple contrast-enhancing ring lesions throughout basal ganglia"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Non-enhancing white matter lesions"
+        "text": "Non-enhancing confluent white matter lesions without mass effect"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Hemorrhagic temporal lobe lesion"
+        "text": "Asymmetric hemorrhagic necrosis of the inferomedial temporal lobe"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "Mildly elevated opening pressure in most patients, mild mononuclear pleocytosis, India ink positivity, and no contrast enhancement on MRI"
+        "text": "Mononuclear pleocytosis with positive India ink cryptococcal capsule"
       }
     ],
     "correct_idx": 4,
@@ -1985,27 +1985,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Bilateral optic neuritis"
+        "text": "Bilateral retrobulbar optic neuritis"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Bilateral occipital infarcts"
+        "text": "Bilateral calcarine cortex infarctions"
       },
       {
         "letter": "C",
         "is_correct": true,
-        "text": "Bilateral demyelination of the optic radiations"
+        "text": "Bilateral demyelination of optic radiations"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Retinal detachment"
+        "text": "Bilateral rhegmatogenous retinal detachments"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Pituitary compression of the chiasm"
+        "text": "Chiasmal compression by pituitary enlargement"
       }
     ],
     "correct_idx": 2,
@@ -2023,27 +2023,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Multiple lesions in the basal ganglia"
+        "text": "Multiple basal ganglia lesions with positive Toxoplasma IgG"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "CD4 above 200/µL"
+        "text": "Peripheral absolute CD4+ lymphocyte count greater than 200/µL"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Response to antibiotics"
+        "text": "Rapid radiographic resolution following pyrimethamine-sulfadiazine"
       },
       {
         "letter": "D",
         "is_correct": true,
-        "text": "CD4 below 50/µL, a solitary lesion, EBV association, and elevated CSF protein, LDH and β2-microglobulin"
+        "text": "Solitary periventricular lesion with positive CSF EBV PCR"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Exposure to cats"
+        "text": "Extensive direct environmental exposure to domestic feline feces"
       }
     ],
     "correct_idx": 3,
@@ -2061,7 +2061,7 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Toxoplasma gondii"
+        "text": "Toxoplasma gondii encephalitis"
       },
       {
         "letter": "B",
@@ -2071,17 +2071,17 @@
       {
         "letter": "C",
         "is_correct": false,
-        "text": "JC virus"
+        "text": "JC virus leukoencephalopathy"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Cryptococcus"
+        "text": "Cryptococcus neoformans meningitis"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "HSV-1"
+        "text": "Herpes simplex type 1 encephalitis"
       }
     ],
     "correct_idx": 1,
@@ -2099,27 +2099,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "Immune reconstitution inflammatory syndrome, an exaggerated inflammatory response to a previously acquired infection"
+        "text": "Immune reconstitution inflammatory syndrome"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Antibiotic failure"
+        "text": "Treatment-refractory tuberculous meningitis"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Drug-induced meningitis"
+        "text": "Medication-induced aseptic meningitis"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Primary CNS lymphoma"
+        "text": "Primary central nervous system lymphoma"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "HIV dementia"
+        "text": "HIV-associated neurocognitive disorder"
       }
     ],
     "correct_idx": 0,
@@ -2137,27 +2137,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Hematogenous spread to the cerebellum"
+        "text": "Hematogenous arterial embolization to cerebellar hemispheres"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Spread through the cribriform plate from the sinuses"
+        "text": "Trans-cribriform mucosal extension from infected ethmoid sinuses"
       },
       {
         "letter": "C",
         "is_correct": true,
-        "text": "Migration along the trigeminal or olfactory nerve to the temporal and frontal lobes"
+        "text": "Retrograde axonal transport via trigeminal or olfactory nerves"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Spread through the vagus nerve"
+        "text": "Ascending trans-synaptic migration along the vagus nerve"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Spread through the optic nerve"
+        "text": "Direct retrograde extension along intraorbital optic nerve sheaths"
       }
     ],
     "correct_idx": 2,
@@ -2168,34 +2168,34 @@
   {
     "id": "exam3_hy_q58",
     "q_num": "58",
-    "stem": "Brain biopsy of the patient in the previous question is most likely to show which of the following?",
+    "stem": "A 63-year-old man presents with fever, acute confusion, and temporal lobe seizures whose CSF PCR is positive for HSV-1. Brain biopsy of this patient is most likely to show which of the following?",
     "category": "Infections",
     "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
     "options": [
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Negri bodies"
+        "text": "Intracellular Negri bodies within cerebellar Purkinje cells"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Lipid-laden macrophages"
+        "text": "Foamy lipid-laden macrophages clearing myelin degradation products"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "India ink-positive yeast"
+        "text": "Narrow-based budding yeast cells demonstrating thick capsules"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Ring-enhancing abscess"
+        "text": "Central liquefactive necrosis surrounded by a vascularized capsule"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "Perivascular lymphocytic infiltrates with Cowdry type A intranuclear inclusions"
+        "text": "Perivascular lymphocytic infiltrates with Cowdry type A inclusions"
       }
     ],
     "correct_idx": 4,
@@ -2213,27 +2213,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Spread of herpes simplex from the lip"
+        "text": "Direct mucocutaneous inoculation from active labial lesions"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Contact with a contaminated surface"
+        "text": "Fomite contact transmission on non-intact epithelial surfaces"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Reactivation of Epstein-Barr virus"
+        "text": "Malignant transformation driven by latent Epstein-Barr virus"
       },
       {
         "letter": "D",
         "is_correct": true,
-        "text": "Reactivation of varicella zoster virus dormant in a dorsal root ganglion, traveling along the sensory nerve"
+        "text": "Reactivation of latent varicella-zoster virus in dorsal root ganglia"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "A bacterial skin infection"
+        "text": "Hematogenous dissemination of superantigen-producing bacteria"
       }
     ],
     "correct_idx": 3,
@@ -2289,27 +2289,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "Lower motor neuron injury of the anterior horn of the spinal cord"
+        "text": "Anterior horn lower motor neuron degeneration"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Peripheral demyelination"
+        "text": "Autoimmune peripheral nerve demyelination"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Cortical infarction"
+        "text": "Middle cerebral artery cortical infarction"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Neuromuscular junction blockade"
+        "text": "Postsynaptic neuromuscular junction blockade"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Cerebellar involvement"
+        "text": "Anterior cerebellar vermis Purkinje loss"
       }
     ],
     "correct_idx": 0,
@@ -2403,27 +2403,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "The leg area lies on the lateral hemisphere supplied by the middle cerebral artery"
+        "text": "Leg representation lies on the lateral convexity supplied by the MCA"
       },
       {
         "letter": "B",
         "is_correct": true,
-        "text": "The leg area lies in the paracentral lobule on the medial surface, supplied by the anterior cerebral artery, while the arm and face areas lie laterally and are supplied by the middle cerebral artery"
+        "text": "Leg representation lies in the medial paracentral lobule supplied by the ACA"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "The leg area is supplied by the posterior cerebral artery"
+        "text": "Leg representation lies in the posterior calcarine cortex supplied by the PCA"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "The leg area is supplied by the vertebral artery"
+        "text": "Leg representation lies in the anterior medulla supplied by the vertebral artery"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "The leg area is supplied by the lenticulostriate arteries"
+        "text": "Leg representation lies in the posterior limb supplied by lenticulostriates"
       }
     ],
     "correct_idx": 1,
@@ -2441,27 +2441,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Primary motor cortex and Broca area"
+        "text": "Lateral precentral gyrus, Broca area, and frontal operculum"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Occipital pole and thalamus"
+        "text": "Striate cortex of the occipital pole and lateral geniculate nucleus"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Medial frontal lobe and corpus callosum"
+        "text": "Medial frontal cortex, corpus callosum, and anterior cingulate gyrus"
       },
       {
         "letter": "D",
         "is_correct": true,
-        "text": "Hippocampus, amygdala, Meyer loop, choroid plexus and the inferior portion of the posterior limb of the internal capsule"
+        "text": "Posterior limb of internal capsule, hippocampus, and Meyer loop"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Cerebellar vermis and pons"
+        "text": "Inferior cerebellar vermis, flocculonodular lobe, and caudal pons"
       }
     ],
     "correct_idx": 3,
@@ -2517,27 +2517,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "Internal carotid artery (ophthalmic artery)"
+        "text": "Ophthalmic artery branch of the internal carotid artery"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Middle cerebral artery"
+        "text": "Cortical branches of the middle cerebral artery"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Posterior cerebral artery"
+        "text": "Calcarine branch of the posterior cerebral artery"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Anterior cerebral artery"
+        "text": "Callosomarginal branch of the anterior cerebral artery"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Basilar artery"
+        "text": "Superior cerebellar branch of the basilar artery"
       }
     ],
     "correct_idx": 0,
@@ -2555,27 +2555,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Right Meyer loop"
+        "text": "Right Meyer loop in the anterior temporal lobe"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Left parietal optic radiations"
+        "text": "Left parietal optic radiations along lateral ventricle"
       },
       {
         "letter": "C",
         "is_correct": true,
-        "text": "Left Meyer loop in the temporal lobe"
+        "text": "Left Meyer loop in the anterior temporal lobe"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Left cuneus"
+        "text": "Left cuneus above the calcarine fissure"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Optic chiasm"
+        "text": "Central decussation of the optic chiasm"
       }
     ],
     "correct_idx": 2,
@@ -2598,22 +2598,22 @@
       {
         "letter": "B",
         "is_correct": true,
-        "text": "Left middle cerebral artery (inferior division); superior posterior temporal lobe"
+        "text": "Left middle cerebral artery inferior division; superior temporal lobe"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Left posterior cerebral artery; occipital lobe"
+        "text": "Left posterior cerebral artery; calcarine cortex"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Right middle cerebral artery; posterior parietal lobe"
+        "text": "Right middle cerebral artery; supramarginal gyrus"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Left lenticulostriate artery; internal capsule"
+        "text": "Left lenticulostriate artery; posterior limb"
       }
     ],
     "correct_idx": 1,
@@ -2631,27 +2631,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Left Wernicke area; inferior division of the MCA"
+        "text": "Left superior temporal gyrus (Wernicke area); MCA inferior division"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Right frontal eye field; MCA"
+        "text": "Right frontal eye field; MCA superior division"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Left arcuate fasciculus; MCA"
+        "text": "Left arcuate fasciculus; MCA cortical branches"
       },
       {
         "letter": "D",
         "is_correct": true,
-        "text": "Left posterior inferior frontal gyrus (Broca area); MCA"
+        "text": "Left posterior inferior frontal gyrus (Broca area); MCA superior division"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Left angular gyrus; PCA"
+        "text": "Left angular gyrus; PCA parieto-occipital branches"
       }
     ],
     "correct_idx": 3,
@@ -2669,27 +2669,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "Medial frontal lobe near Broca area, in the ACA/MCA watershed"
+        "text": "Medial frontal cortex near Broca area (ACA/MCA watershed)"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Superior temporal gyrus"
+        "text": "Superior temporal gyrus (middle cerebral artery territory)"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Arcuate fasciculus"
+        "text": "Arcuate fasciculus (deep subcortical MCA territory)"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Occipital lobe"
+        "text": "Cuneus and lingual gyri (posterior cerebral artery territory)"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Thalamus"
+        "text": "Ventral posterolateral nucleus (thalamoperforating territory)"
       }
     ],
     "correct_idx": 0,
@@ -2707,27 +2707,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Broca area"
+        "text": "Inferior frontal gyrus (anterior watershed zone)"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Arcuate fasciculus"
+        "text": "Arcuate fasciculus (deep subcortical white matter)"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Medial frontal lobe"
+        "text": "Paracentral lobule (anterior cerebral artery territory)"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Frontal eye field"
+        "text": "Frontal eye field (middle cerebral artery territory)"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "A region adjacent to Wernicke area in the MCA/PCA watershed"
+        "text": "Parietotemporal junction (MCA/PCA watershed zone)"
       }
     ],
     "correct_idx": 4,
@@ -2745,27 +2745,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Conduction aphasia"
+        "text": "Conduction aphasia; disruption of arcuate fasciculus"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Anomic aphasia"
+        "text": "Anomic aphasia; angular gyrus dysfunction"
       },
       {
         "letter": "C",
         "is_correct": true,
-        "text": "Global aphasia, from extensive left MCA territory infarction involving Broca area, Wernicke area and the arcuate fasciculus"
+        "text": "Global aphasia; extensive left perisylvian MCA infarction"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Transcortical motor aphasia"
+        "text": "Transcortical motor aphasia; anterior watershed infarction"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Dysarthria"
+        "text": "Spastic dysarthria; bilateral corticobulbar lesion"
       }
     ],
     "correct_idx": 2,
@@ -2783,27 +2783,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Both are disorders of muscle coordination"
+        "text": "Aphasia reflects motor coordination failure; dysarthria reflects cognitive deficits"
       },
       {
         "letter": "B",
         "is_correct": true,
-        "text": "Aphasia is a cognitive language disorder affecting spoken, written and sign language, while dysarthria is a mechanical disorder of the muscles of speech"
+        "text": "Aphasia is a multimodal language defect; dysarthria is a neuromuscular speech defect"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Dysarthria involves impaired comprehension"
+        "text": "Aphasia selectively impairs reading; dysarthria selectively impairs comprehension"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Aphasia is caused only by cerebellar lesions"
+        "text": "Aphasia arises from cerebellar damage; dysarthria arises from cortical lesions"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Dysarthria affects only writing"
+        "text": "Aphasia spares spoken output; dysarthria spares articulation and phonation"
       }
     ],
     "correct_idx": 1,
@@ -2821,12 +2821,12 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Midbrain: basilar artery only; pons: PCA; medulla: AICA"
+        "text": "Midbrain: basilar artery; pons: PCA; medulla: AICA"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Midbrain: PICA; pons: ASA; medulla: SCA"
+        "text": "Midbrain: PICA; pons: anterior spinal artery; medulla: SCA"
       },
       {
         "letter": "C",
@@ -2836,12 +2836,12 @@
       {
         "letter": "D",
         "is_correct": true,
-        "text": "Midbrain: PCA; rostral pons: SCA and basilar; caudal pons: AICA; medulla: PICA, vertebral and anterior spinal arteries"
+        "text": "Midbrain: PCA; rostral pons: SCA; caudal pons: AICA; medulla: PICA"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "All levels: posterior communicating artery"
+        "text": "Midbrain: PCoA; pons: PCoA; medulla: PCoA"
       }
     ],
     "correct_idx": 3,
@@ -2859,27 +2859,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "Superficial veins drain to the superior sagittal sinus, deep veins drain to the straight sinus through the great cerebral vein, and the sinuses empty into the internal jugular vein"
+        "text": "Superficial veins drain to superior sagittal sinus, and deep veins drain to straight sinus"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Deep veins drain directly to the internal carotid artery"
+        "text": "Deep cerebral veins drain to internal carotids, and superficial veins drain to cavernous sinus"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Superficial veins drain to the straight sinus"
+        "text": "Superficial veins drain to straight sinus, and deep veins drain to transverse sinus"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Dural sinuses drain to the vertebral veins only"
+        "text": "Dural sinuses drain to vertebral veins, and superficial veins drain to jugular veins"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "The sagittal sinus drains into the cavernous sinus"
+        "text": "Superior sagittal sinus drains to cavernous sinus, and straight sinus drains to petrosal sinuses"
       }
     ],
     "correct_idx": 0,
@@ -2897,27 +2897,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Berry aneurysms occur in the cerebellum; hypertensive bleeds occur in the cortex"
+        "text": "Saccular aneurysms occur in cerebellar fissures; hypertensive bleeds occur in cortex"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Berry aneurysms occur at vein junctions; hypertensive bleeds occur at the pituitary"
+        "text": "Saccular aneurysms occur at venous junctions; hypertensive bleeds occur in pituitary"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Berry aneurysms occur in the spinal cord"
+        "text": "Saccular aneurysms occur in spinal arteries; hypertensive bleeds occur in chiasm"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Berry aneurysms occur in the optic nerve; hypertensive bleeds occur in the hippocampus"
+        "text": "Saccular aneurysms occur in optic nerves; hypertensive bleeds occur in hippocampus"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "Berry aneurysms occur at branch points around the circle of Willis; hypertensive bleeds occur in the basal ganglia, thalamus, pons and cerebellum"
+        "text": "Saccular aneurysms occur at circle of Willis; hypertensive bleeds occur in basal ganglia"
       }
     ],
     "correct_idx": 4,
@@ -2935,27 +2935,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "It is benign and needs only routine follow-up"
+        "text": "It is an entirely benign event requiring only routine outpatient follow-up"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "It has no risk of stroke"
+        "text": "It carries zero subsequent risk of recurrent focal cerebral ischemia"
       },
       {
         "letter": "C",
         "is_correct": true,
-        "text": "It is a medical emergency, with about 5% risk of stroke within 2 days and about 11% within 90 days"
+        "text": "It is a medical emergency with up to 10% risk of stroke within 90 days"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "It always causes a visible infarct on CT"
+        "text": "It invariably produces definitive acute parenchymal infarction on CT"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "It occurs only in the elderly"
+        "text": "It is restricted entirely to elderly patients with severe carotid stenosis"
       }
     ],
     "correct_idx": 2,
@@ -2973,27 +2973,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Smooth muscle death, then fat loss"
+        "text": "Intimal smooth muscle necrosis followed by extracellular lipid dissolution"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Fibrosis, then fat deposition"
+        "text": "Fibrous cap formation followed by primary subendothelial lipid entrapment"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Thrombus, then macrophages"
+        "text": "Occlusive luminal thrombosis followed by late macrophage recruitment"
       },
       {
         "letter": "D",
         "is_correct": true,
-        "text": "Fat deposition in the intima, macrophage cytokine release causing inflammation, smooth muscle proliferation and connective tissue deposition, and plaque growth"
+        "text": "Intimal lipid entry, inflammatory macrophage signaling, and smooth muscle hyperplasia"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Calcification, then inflammation"
+        "text": "Medial dystrophic calcification followed by diffuse adventitial inflammation"
       }
     ],
     "correct_idx": 3,
@@ -3011,27 +3011,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Atheroma; carotid arteries; smoking only"
+        "text": "Atheroma; common carotid bifurcation; heavy tobacco smoking"
       },
       {
         "letter": "B",
         "is_correct": true,
-        "text": "Lipohyalinosis; lenticulostriate, thalamic perforator and basilar branch vessels; hypertension, diabetes and aging"
+        "text": "Lipohyalinosis; deep penetrating arterioles; chronic hypertension"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Embolism; middle cerebral artery; atrial fibrillation"
+        "text": "Thromboembolism; distal middle cerebral artery; atrial fibrillation"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Dissection; vertebral artery; neck trauma"
+        "text": "Arterial dissection; extracranial vertebral artery; cervical trauma"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Vasculitis; small veins; infection"
+        "text": "Immune vasculitis; superficial cortical venules; chronic viral infection"
       }
     ],
     "correct_idx": 1,
@@ -3049,27 +3049,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "The kidney and the liver"
+        "text": "Renal arteries and hepatic portal vein"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "The lungs and the spleen"
+        "text": "Pulmonary capillaries and splenic sinusoids"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "The venous system only"
+        "text": "Deep venous plexus of the lower extremities"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "The skin and muscles"
+        "text": "Cutaneous arterioles and muscular venules"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "The heart and the internal carotid artery"
+        "text": "Left cardiac chambers and internal carotid bifurcation"
       }
     ],
     "correct_idx": 4,
@@ -3087,27 +3087,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "Separation of the intima and media with an expanding intramural hematoma"
+        "text": "Intimal tearing with intramural hematoma dissecting the vessel wall"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Rupture of a berry aneurysm"
+        "text": "Rupture of a thin-walled berry aneurysm into the subarachnoid space"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Inflammation of the vessel wall"
+        "text": "Transmural granulomatous inflammation destroying internal elastic lamina"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Thickening of arterioles by lipohyalinosis"
+        "text": "Concentric hyaline arteriolosclerosis narrowing deep penetrating vessels"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Obstruction by a cardiac embolus"
+        "text": "Luminal impaction of a calcified thromboembolus from the mitral valve"
       }
     ],
     "correct_idx": 0,
@@ -3125,27 +3125,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Fever and neutrophils in the CSF"
+        "text": "High fever and neutrophilic pleocytosis on CSF analysis"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Low CSF glucose"
+        "text": "Marked CSF hypoglycorrhachia with elevated opening pressure"
       },
       {
         "letter": "C",
         "is_correct": true,
-        "text": "No fever, red blood cells in the CSF, and blood in the sulcal spaces on CT"
+        "text": "Non-clearing bloody CSF and hyperdensity in basal cisterns on CT"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Papilledema"
+        "text": "Isolated bilateral papilledema without headache or nuchal rigidity"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "A rash"
+        "text": "Diffuse petechial skin eruption with low leukocyte counts"
       }
     ],
     "correct_idx": 2,
@@ -3163,27 +3163,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Observation only"
+        "text": "Expectant observation with serial noncontrast CT scans"
       },
       {
         "letter": "B",
         "is_correct": true,
-        "text": "Clipping or coiling, with blood pressure control"
+        "text": "Surgical clipping or endovascular coiling with blood pressure control"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Thrombolysis"
+        "text": "Intravenous recombinant tissue plasminogen activator infusion"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Radiation"
+        "text": "Fractionated stereotactic whole-brain radiation therapy"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Carotid endarterectomy"
+        "text": "Emergent surgical carotid endarterectomy"
       }
     ],
     "correct_idx": 1,
@@ -3201,27 +3201,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Blood flow is highly sensitive to oxygen levels"
+        "text": "Flow varies linearly with mean arterial pressure across all ranges"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Blood flow decreases with high CO2"
+        "text": "Flow exhibits prominent vasoconstrictive sensitivity to hypoxemia"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Blood flow changes linearly with blood pressure"
+        "text": "Flow decreases markedly in response to local hypercapnia"
       },
       {
         "letter": "D",
         "is_correct": true,
-        "text": "Blood flow is constant over a restricted range of arterial pressure, insensitive to oxygen, and very sensitive to CO2 (high CO2 lowers pH and causes vasodilation)"
+        "text": "Flow is tightly regulated by local PaCO2 and arterial pressure range"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Blood flow is unaffected by CO2"
+        "text": "Flow is completely insensitive to changes in cerebral arterial pH"
       }
     ],
     "correct_idx": 3,
@@ -3239,27 +3239,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "MRI spine, then EEG"
+        "text": "Immediate lumbar puncture, followed by spine MRI"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Lumbar puncture, then CT"
+        "text": "Electroencephalography, followed by contrast MRI"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Angiography, then CT"
+        "text": "Conventional catheter angiography, followed by MRI"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "EEG, then CT"
+        "text": "Transesophageal echocardiography, followed by CT"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "Noncontrast CT to distinguish ischemic from hemorrhagic stroke, then CT angiography to find the occlusion, then CT perfusion to assess viable tissue"
+        "text": "Noncontrast CT to rule out hemorrhage, followed by vascular imaging"
       }
     ],
     "correct_idx": 4,
@@ -3277,27 +3277,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "Hippocampus, cerebellum and cortex"
+        "text": "Hippocampus, cerebellar Purkinje cells, and neocortex"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Brainstem only"
+        "text": "Dorsal vagal motor nucleus and pontine reticular formation"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Basal ganglia only"
+        "text": "Caudate nucleus head and internal globus pallidus"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Spinal cord"
+        "text": "Thoracic intermediate column and anterior horn cells"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Thalamus and hypothalamus"
+        "text": "Mammillary bodies and hypothalamic neurosecretory nuclei"
       }
     ],
     "correct_idx": 0,
@@ -3315,27 +3315,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Decompressive craniectomy"
+        "text": "Emergent decompressive hemicraniectomy"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Immediate thrombolysis only"
+        "text": "Intravenous recombinant tPA administration"
       },
       {
         "letter": "C",
         "is_correct": true,
-        "text": "Aggressive control of vascular risk factors: glycemic control, antiplatelet therapy, statin, and cessation of smoking and drug use"
+        "text": "Intensive vascular risk factor and medical management"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Repeat cardiac monitoring only"
+        "text": "Continuous prolonged ambulatory EEG monitoring"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Stopping all medications"
+        "text": "Discontinuation of all antiplatelet medications"
       }
     ],
     "correct_idx": 2,
@@ -3353,27 +3353,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Absent pupillary reflex only"
+        "text": "Persistent bilateral absence of pupillary light reflexes only"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Flat EEG only"
+        "text": "Isoelectric flat electroencephalographic recording only"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Absence of motor response only"
+        "text": "Complete flaccid quadriplegia without motor response only"
       },
       {
         "letter": "D",
         "is_correct": true,
-        "text": "Lack of brain function, lack of cranial nerve function and loss of all brainstem reflexes"
+        "text": "Irreversible coma, absent brainstem reflexes, and positive apnea test"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Apnea only"
+        "text": "Persistent central hyperventilation on mechanical support only"
       }
     ],
     "correct_idx": 3,
@@ -3384,34 +3384,34 @@
   {
     "id": "exam3_hy_q90",
     "q_num": "90",
-    "stem": "In the patient in the previous question, infusion of cold water into each ear produces no eye movement. Which of the following brainstem levels does this test assess, and what does the result suggest?",
+    "stem": "A 20-year-old comatose man is being evaluated for brain death following severe closed head trauma. Infusion of cold water into each ear produces no eye movement. Which of the following brainstem levels does this test assess, and what does the result suggest?",
     "category": "Cerebrovascular Disease",
     "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
     "options": [
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Midbrain only; reversible"
+        "text": "Midbrain level; indicative of reversible metabolic coma"
       },
       {
         "letter": "B",
         "is_correct": true,
-        "text": "Rostral medulla to caudal pons (vestibulo-ocular pathway); likely irreversible bilateral brainstem damage at this level"
+        "text": "Pontomedullary vestibulo-ocular pathway; indicative of irreversible damage"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Cerebral cortex; reversible"
+        "text": "Primary cerebral cortex; indicative of preserved brainstem reflexes"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Spinal cord; reversible"
+        "text": "Cervical spinal cord; indicative of reversible spinal shock"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Cerebellum only; unrelated to prognosis"
+        "text": "Anterior cerebellar vermis; unrelated to brainstem viability"
       }
     ],
     "correct_idx": 1,
@@ -3429,27 +3429,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Midbrain: gag; pons: pupillary; medulla: corneal"
+        "text": "Midbrain: gag reflex; pons: pupillary reflex; medulla: corneal reflex"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Midbrain: corneal; pons: gag; medulla: pupillary"
+        "text": "Midbrain: corneal reflex; pons: gag reflex; medulla: pupillary reflex"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Midbrain: oculocephalic; pons: gag; medulla: corneal"
+        "text": "Midbrain: oculocephalic reflex; pons: gag reflex; medulla: corneal reflex"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Midbrain: caloric; pons: cough; medulla: pupillary"
+        "text": "Midbrain: caloric reflex; pons: cough reflex; medulla: pupillary reflex"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "Midbrain: pupillary light reflex; pons: corneal reflex; medulla: oculocephalic reflex"
+        "text": "Midbrain: pupillary reflex; pons: corneal reflex; medulla: gag reflex"
       }
     ],
     "correct_idx": 4,
@@ -3505,27 +3505,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Pure motor hemiparesis of face, arm and leg"
+        "text": "Pure motor hemiparesis involving contralateral face, arm, and leg"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Pure sensory loss of face and body"
+        "text": "Pure hemisensory loss involving contralateral face, arm, and leg"
       },
       {
         "letter": "C",
         "is_correct": true,
-        "text": "Aphasia, sustained eye deviation or a visual field cut without cranial nerve palsies"
+        "text": "Cortical signs such as aphasia, neglect, or visual field deficits"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Cranial nerve palsies with crossed findings"
+        "text": "Alternating hemiplegia with ipsilateral cranial nerve palsy"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Cerebellar ataxia without cognitive deficits"
+        "text": "Isolated appendicular ataxia without cognitive or visual signs"
       }
     ],
     "correct_idx": 2,
@@ -3543,27 +3543,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Left facial nerve palsy"
+        "text": "Ipsilateral peripheral seventh cranial nerve palsy"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Right facial nerve palsy"
+        "text": "Contralateral peripheral seventh cranial nerve palsy"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Bell palsy"
+        "text": "Idiopathic Bell palsy involving stylomastoid foramen"
       },
       {
         "letter": "D",
         "is_correct": true,
-        "text": "An upper motor neuron lesion of the left corticobulbar pathway"
+        "text": "Contralateral corticobulbar upper motor neuron lesion"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Right brainstem facial nucleus lesion"
+        "text": "Ipsilateral pontine facial motor nucleus degeneration"
       }
     ],
     "correct_idx": 3,
@@ -3581,27 +3581,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Distal infarcts cause hemiparesis of the entire contralateral body"
+        "text": "Distal MCA infarcts cause uniform hemiparesis affecting face, arm, and leg equally"
       },
       {
         "letter": "B",
         "is_correct": true,
-        "text": "Proximal infarcts involve the lenticulostriate branches and internal capsule, causing weakness of the entire contralateral body, while distal infarcts affect the face and arm sparing the leg"
+        "text": "Proximal MCA infarcts involve lenticulostriates causing equal face/arm/leg weakness"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Proximal infarcts spare the face"
+        "text": "Proximal MCA infarcts selectively spare facial and branchial motor representations"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Both cause the same deficits"
+        "text": "Both proximal and distal MCA occlusions yield identical motor deficit distributions"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Distal infarcts cause leg weakness only"
+        "text": "Distal MCA infarcts produce isolated contralateral lower extremity paralysis"
       }
     ],
     "correct_idx": 1,
@@ -3657,27 +3657,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Left frontal lobe; ACA"
+        "text": "Left frontal lobe; anterior cerebral artery"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Left parietal lobe; MCA"
+        "text": "Left parietal lobe; middle cerebral artery"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Right occipital lobe; PCA"
+        "text": "Right occipital lobe; posterior cerebral artery"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Right frontal lobe; ACA"
+        "text": "Right frontal lobe; anterior cerebral artery"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "Right posterior parietal lobe; MCA"
+        "text": "Right parietal lobe; middle cerebral artery"
       }
     ],
     "correct_idx": 4,
@@ -3695,12 +3695,12 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Right rostral midbrain; PCA"
+        "text": "Right rostral midbrain; posterior cerebral artery"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Left caudal pons; basilar artery"
+        "text": "Left caudal pons; basilar paramedian branches"
       },
       {
         "letter": "C",
@@ -3710,12 +3710,12 @@
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Right rostral medulla; ASA"
+        "text": "Right rostral medulla; anterior spinal artery"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Left rostral medulla; PICA"
+        "text": "Left rostral medulla; posterior inferior cerebellar artery"
       }
     ],
     "correct_idx": 2,
@@ -3733,27 +3733,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "Right CN III, medial lemniscus, ventral trigeminothalamic tract and superior cerebellar peduncle in the right midbrain"
+        "text": "Ipsilateral CN III palsy and contralateral hemiplegia (Weber syndrome)"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Left CN III, corticospinal tract and medial lemniscus"
+        "text": "Ipsilateral CN VI palsy and contralateral hemiplegia (Millard-Gubler)"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Right CN VI and facial nucleus"
+        "text": "Ipsilateral CN XII palsy and contralateral hemiplegia (Dejerine)"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Right CN XII and pyramid"
+        "text": "Ipsilateral ataxia, Horner syndrome, and crossed sensory loss (Wallenberg)"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Left CN V and spinal trigeminal tract"
+        "text": "Ipsilateral facial weakness, gaze palsy, and contralateral hemiplegia (Foville)"
       }
     ],
     "correct_idx": 0,
@@ -3771,17 +3771,17 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Left red nucleus only"
+        "text": "Left red nucleus and oculomotor nerve fibers"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Right corticospinal tract"
+        "text": "Right corticospinal and corticobulbar tracts"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Left medial lemniscus"
+        "text": "Left medial lemniscus and spinothalamic tract"
       },
       {
         "letter": "D",
@@ -3791,7 +3791,7 @@
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Left cerebellar hemisphere"
+        "text": "Left dentate nucleus and cerebellar cortex"
       }
     ],
     "correct_idx": 3,
@@ -3809,27 +3809,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "Right mid pons, including trigeminal motor nucleus, chief sensory nucleus and cerebellar peduncle fibers"
+        "text": "Right middle pons involving CN V nuclei and cerebellar peduncle fibers"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Left mid pons"
+        "text": "Left middle pons involving abducens and corticospinal pathways"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Right rostral midbrain"
+        "text": "Right rostral midbrain involving oculomotor and red nucleus fibers"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Right rostral medulla"
+        "text": "Right rostral medulla involving hypoglossal and corticospinal tracts"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Left caudal pons"
+        "text": "Left caudal pons involving facial colliculus and medial lemniscus"
       }
     ],
     "correct_idx": 0,
@@ -3847,27 +3847,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Right medial midbrain"
+        "text": "Right medial midbrain ischemia involving oculomotor fibers"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Left lateral medulla"
+        "text": "Left lateral medulla ischemia involving the spinothalamic tract"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Right caudal pons"
+        "text": "Right caudal pons ischemia involving the facial motor nucleus"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Left mid pons"
+        "text": "Left middle pons ischemia involving the corticospinal tract"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "Right mid pons: motor and chief sensory nuclei of V, anterolateral system and sympathetic fibers, with sparing of the cerebellar peduncles"
+        "text": "Right middle pons ischemia involving CN V, spinothalamic, and sympathetic fibers"
       }
     ],
     "correct_idx": 4,
@@ -3885,27 +3885,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Right rostral midbrain"
+        "text": "Right rostral midbrain (oculomotor nerve, cerebral peduncle)"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Left rostral medulla"
+        "text": "Left rostral medulla (hypoglossal nerve, pyramid)"
       },
       {
         "letter": "C",
         "is_correct": true,
-        "text": "Left medial caudal pons (abducens, corticospinal and corticobulbar tracts, medial lemniscus)"
+        "text": "Left caudal medial pons (abducens nerve, corticospinal tract)"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Right lateral caudal pons"
+        "text": "Right caudal lateral pons (vestibular nuclei, spinal V tract)"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Left lateral medulla"
+        "text": "Left lateral medulla (nucleus ambiguus, inferior peduncle)"
       }
     ],
     "correct_idx": 2,
@@ -3923,7 +3923,7 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Right lateral medulla; PICA"
+        "text": "Right lateral medulla; posterior inferior cerebellar artery"
       },
       {
         "letter": "B",
@@ -3933,17 +3933,17 @@
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Left lateral caudal pons; AICA"
+        "text": "Left lateral caudal pons; anterior inferior cerebellar artery"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Right medial pons; basilar paramedian branches"
+        "text": "Right medial caudal pons; basilar paramedian branches"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Right midbrain; PCA"
+        "text": "Right rostral midbrain; posterior cerebral artery"
       }
     ],
     "correct_idx": 1,
@@ -3961,27 +3961,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Left superior cerebellar peduncle; SCA"
+        "text": "Left superior cerebellar peduncle; superior cerebellar artery"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Left middle cerebellar peduncle; AICA"
+        "text": "Left middle cerebellar peduncle; anterior inferior cerebellar artery"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Right inferior cerebellar peduncle; PICA"
+        "text": "Right inferior cerebellar peduncle; posterior inferior cerebellar artery"
       },
       {
         "letter": "D",
         "is_correct": true,
-        "text": "Left inferior cerebellar peduncle; PICA"
+        "text": "Left inferior cerebellar peduncle; posterior inferior cerebellar artery"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Left cerebellar hemisphere; vertebral artery"
+        "text": "Left cerebellar hemisphere; anterior spinal artery"
       }
     ],
     "correct_idx": 3,
@@ -3999,27 +3999,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "Right rostral medulla (medial), involving corticospinal tract, hypoglossal nerve and medial lemniscus; anterior spinal artery"
+        "text": "Right medial medulla (corticospinal tract, CN XII, medial lemniscus); ASA"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Left rostral medulla (lateral); PICA"
+        "text": "Left lateral medulla (spinothalamic tract, CN IX/X, inferior peduncle); PICA"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Right caudal pons; basilar artery"
+        "text": "Right caudal pons (corticospinal tract, CN VI, PPRF); basilar artery"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Left rostral midbrain; PCA"
+        "text": "Left rostral midbrain (corticospinal tract, CN III, red nucleus); PCA"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Right mid pons; AICA"
+        "text": "Right middle pons (corticospinal tract, CN V, cerebellar peduncle); AICA"
       }
     ],
     "correct_idx": 0,
@@ -4037,27 +4037,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Bilateral internal capsule; lenticulostriate arteries"
+        "text": "Bilateral internal capsules; lenticulostriate arteries"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Bilateral medial medulla; ASA"
+        "text": "Bilateral medial medulla; anterior spinal artery"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Bilateral thalamus; PCA"
+        "text": "Bilateral thalamic nuclei; posterior cerebral artery"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Bilateral cerebral peduncles; PCA"
+        "text": "Bilateral cerebral peduncles; posterior cerebral artery"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "Bilateral basal pons (corticospinal and corticobulbar tracts); basilar artery"
+        "text": "Bilateral ventral pons; basilar artery"
       }
     ],
     "correct_idx": 4,
@@ -4075,27 +4075,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Right thalamus; because sensory loss would be present"
+        "text": "Right thalamus; sensory loss would be present in thalamic lacunes"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Left medial medulla; because the tongue would be affected"
+        "text": "Left medial medulla; hypoglossal nerve involvement would be present"
       },
       {
         "letter": "C",
         "is_correct": true,
-        "text": "Left posterior limb of the internal capsule (lenticulostriate lacune); because brainstem lesions produce crossed cranial nerve findings"
+        "text": "Left posterior limb of internal capsule; brainstem lesions cause crossed findings"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Left cerebellum; because ataxia would be present"
+        "text": "Left cerebellar hemisphere; prominent appendicular ataxia would be present"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Left occipital lobe; because vision would be affected"
+        "text": "Left occipital lobe; contralateral homonymous hemianopia would be present"
       }
     ],
     "correct_idx": 2,
@@ -4151,27 +4151,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "He cannot learn motor skills"
+        "text": "He loses ability to learn new motor skills and procedures"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "He loses procedural memory only"
+        "text": "He selectively loses previously acquired procedural memories"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "He loses working memory only"
+        "text": "He selectively loses short-term working memory capacity"
       },
       {
         "letter": "D",
         "is_correct": true,
-        "text": "He can learn to ride a bicycle (procedural memory intact), but he will not remember having learned it"
+        "text": "He can learn new procedural skills but cannot form new declarative memories"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "He loses all memory types equally"
+        "text": "He loses all memory modalities and cognitive abilities equally"
       }
     ],
     "correct_idx": 3,
@@ -4189,27 +4189,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "Loss of fear and aggression, hypo-emotionality, hyperorality and hypersexuality (Klüver-Bucy syndrome)"
+        "text": "Hyperorality, hypersexuality, and psychic blindness"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Anterograde amnesia only"
+        "text": "Anterograde amnesia with preserved social comportment"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Wernicke aphasia"
+        "text": "Fluent paraphasic speech with impaired comprehension"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Hemiballismus"
+        "text": "Violent unilateral choreiform flinging movements"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Visual agnosia"
+        "text": "Inability to recognize familiar objects visually"
       }
     ],
     "correct_idx": 0,
@@ -4227,27 +4227,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Controls balance"
+        "text": "Coordinates vestibulospinal reflexes for postural stability"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Controls memory consolidation"
+        "text": "Consolidates declarative memories into long-term neocortical storage"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Controls language"
+        "text": "Synthesizes syntactic and grammatical components of expressive speech"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Regulates sleep"
+        "text": "Generates slow-wave sleep rhythms via thalamocortical oscillations"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "Mediates response to rewarding stimuli through dopamine, reinforcing rewarding behaviors and contributing to addiction"
+        "text": "Mediates mesolimbic dopamine reward processing and reinforcement"
       }
     ],
     "correct_idx": 4,
@@ -4265,27 +4265,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Hippocampus, amygdala, thalamus, mammillary body"
+        "text": "Hippocampus -> amygdala -> dorsal thalamus -> mammillary body"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Fornix, hippocampus, cingulate gyrus, thalamus"
+        "text": "Fornix -> hippocampus -> cingulate cortex -> thalamic nuclei"
       },
       {
         "letter": "C",
         "is_correct": true,
-        "text": "Hippocampus, fornix, mammillary body, anterior thalamic nucleus, cingulate gyrus, entorhinal cortex, hippocampus"
+        "text": "Hippocampus -> fornix -> mammillary body -> anterior thalamus -> cingulate"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Amygdala, hypothalamus, cingulate gyrus, hippocampus"
+        "text": "Amygdala -> hypothalamus -> cingulate cortex -> dentate gyrus"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Thalamus, caudate, putamen, hippocampus"
+        "text": "Thalamus -> caudate nucleus -> putamen -> parahippocampal gyrus"
       }
     ],
     "correct_idx": 2,
@@ -4303,27 +4303,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Dementia, incontinence, gait disorder; ventriculomegaly"
+        "text": "Gait apraxia, urinary incontinence, dementia; ventricular dilation"
       },
       {
         "letter": "B",
         "is_correct": true,
-        "text": "Confusion, ophthalmoplegia, ataxia; hemorrhage of the mammillary bodies"
+        "text": "Encephalopathy, oculomotor dysfunction, ataxia; mammillary hemorrhage"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Chorea, depression, dementia; caudate atrophy"
+        "text": "Chorea, behavioral change, cognitive decline; caudate head atrophy"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Myoclonus, ataxia, dementia; cortical ribboning"
+        "text": "Rapidly progressive dementia, startle myoclonus; 14-3-3 protein"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Hallucinations, parkinsonism, fluctuation; occipital hypometabolism"
+        "text": "Fluctuating cognition, visual hallucinations; cortical Lewy bodies"
       }
     ],
     "correct_idx": 1,
@@ -4341,27 +4341,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Amyloid forms intracellular tangles and tau forms extracellular plaques"
+        "text": "Intracellular amyloid neurofibrillary tangles and extracellular tau plaques"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Both are cleared normally"
+        "text": "Normal amyloid clearance with selective microglial phagocytic deficiency"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Both aggregate only in the cerebellum"
+        "text": "Selective cerebellar amyloid deposition and neocortical tau clearance"
       },
       {
         "letter": "D",
         "is_correct": true,
-        "text": "Improper cleavage of amyloid precursor protein by secretases produces long β-amyloid fragments that aggregate into extracellular plaques, and hyperphosphorylated tau forms intracellular neurofibrillary tangles"
+        "text": "Extracellular beta-amyloid senile plaques and intracellular hyperphosphorylated tau"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Tau is cleaved by secretases"
+        "text": "Alpha-secretase cleavage generating neurotoxic amyloid beta oligomers"
       }
     ],
     "correct_idx": 3,
@@ -4379,27 +4379,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "Hydrocephalus ex vacuo from loss of cortical tissue; nucleus basalis of Meynert"
+        "text": "Hydrocephalus ex vacuo; nucleus basalis of Meynert"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Obstruction of CSF flow; caudate"
+        "text": "Obstructive non-communicating hydrocephalus; caudate nucleus"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Impaired CSF resorption; substantia nigra"
+        "text": "Impaired arachnoid granulation resorption; substantia nigra"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Overproduction of CSF; locus coeruleus"
+        "text": "Excessive choroid plexus CSF production; locus coeruleus"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Hemorrhage; red nucleus"
+        "text": "Recurrent deep parenchymal hemorrhage; red nucleus"
       }
     ],
     "correct_idx": 0,
@@ -4417,27 +4417,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Neurofibrillary tangles in the hippocampus"
+        "text": "Intraneuronal neurofibrillary tangles within the entorhinal cortex"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Spongiform change"
+        "text": "Extensive spongiform neuropil vacuolation throughout cerebral cortex"
       },
       {
         "letter": "C",
         "is_correct": true,
-        "text": "Lewy bodies containing α-synuclein, diffusely in the cortex and in the substantia nigra"
+        "text": "Cytoplasmic alpha-synuclein Lewy bodies in cortex and substantia nigra"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Pick bodies in the frontal lobe"
+        "text": "Round argentophilic tau-positive Pick bodies in frontotemporal lobes"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Multiple lacunar infarcts"
+        "text": "Multiple cystic cavitary lacunes within the internal capsule"
       }
     ],
     "correct_idx": 2,
@@ -4455,27 +4455,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Memory loss first and hippocampal atrophy"
+        "text": "Amnestic syndrome with early selective hippocampal neurodegeneration"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Hallucinations first with parkinsonism"
+        "text": "Early visual hallucinations paired with spontaneous parkinsonian signs"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Myoclonus with ataxia"
+        "text": "Startle myoclonus paired with rapid subacute cerebellar ataxia"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Gait disorder with urinary incontinence"
+        "text": "Magnetic shuffling gait paired with early urge urinary incontinence"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "Behavioral variant from frontal lobe damage, and primary progressive aphasia from Broca area (speech) or Wernicke area (comprehension) involvement, with tau or TDP-43 inclusions"
+        "text": "Behavioral variant and primary progressive aphasias with tau or TDP-43"
       }
     ],
     "correct_idx": 4,
@@ -4493,27 +4493,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Hippocampal atrophy on MRI; neuritic plaques"
+        "text": "Medial temporal atrophy, diffuse neuritic plaques, and amyloid PET uptake"
       },
       {
         "letter": "B",
         "is_correct": true,
-        "text": "MRI cortical ribboning with caudate, putamen and thalamic hyperintensity; periodic sharp waves on EEG; 14-3-3 in the CSF"
+        "text": "Cortical ribboning on MRI, periodic sharp waves on EEG, and CSF 14-3-3"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Enlarged ventricles with normal sulci"
+        "text": "Ventriculomegaly out of proportion to sulcal enlargement on cranial MRI"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Frontal atrophy with tau inclusions"
+        "text": "Asymmetric frontotemporal lobar atrophy with knife-edge gyral thinning"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Multiple lacunes"
+        "text": "Multiple punctate subcortical lacunar infarctions on T2-weighted MRI"
       }
     ],
     "correct_idx": 1,
@@ -4531,27 +4531,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Alzheimer disease; donepezil"
+        "text": "Alzheimer disease; central acetylcholinesterase inhibitors"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Vascular dementia; antiplatelet therapy"
+        "text": "Multi-infarct vascular dementia; aggressive antiplatelet therapy"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Lewy body dementia; antipsychotics"
+        "text": "Dementia with Lewy bodies; low-dose typical antipsychotics"
       },
       {
         "letter": "D",
         "is_correct": true,
-        "text": "Normal pressure hydrocephalus from impaired CSF resorption by the arachnoid granulations; shunting"
+        "text": "Normal pressure hydrocephalus; ventriculoperitoneal shunting"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "CJD; supportive care"
+        "text": "Sporadic Creutzfeldt-Jakob disease; compassionate supportive care"
       }
     ],
     "correct_idx": 3,
@@ -4569,27 +4569,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "Stepwise progression with focal neurologic deficits from multiple infarcts"
+        "text": "Stepwise cognitive deterioration associated with focal vascular lesions"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Insidious memory loss as the first feature"
+        "text": "Insidious progressive short-term episodic memory loss"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Hippocampal atrophy only"
+        "text": "Isolated bilateral anterior hippocampal volume loss"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Amyloid plaques"
+        "text": "Extracellular accumulation of fibrillar amyloid plaques"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Response to cholinesterase inhibitors"
+        "text": "Marked clinical responsiveness to central cholinesterase inhibitors"
       }
     ],
     "correct_idx": 0,
@@ -4645,27 +4645,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Autosomal recessive; GAA repeat"
+        "text": "Autosomal recessive GAA trinucleotide expansion; frataxin deficiency"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "X-linked; CGG repeat"
+        "text": "X-linked dominant CGG trinucleotide expansion; FMR1 gene silencing"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Mitochondrial; point mutation"
+        "text": "Maternal mitochondrial DNA point mutation; heteroplasmic inheritance"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Sporadic; prion"
+        "text": "Sporadic infectious proteinaceous prion conversion; conformational change"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "Autosomal dominant CAG repeats in the huntingtin gene, with caudate and putamen atrophy, dopamine excess relative to acetylcholine, and tetrabenazine treatment"
+        "text": "Autosomal dominant CAG repeat expansion; huntingtin gene on chromosome 4"
       }
     ],
     "correct_idx": 4,
@@ -4721,7 +4721,7 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Focal aware seizure"
+        "text": "Focal aware motor seizure with retained consciousness"
       },
       {
         "letter": "B",
@@ -4731,17 +4731,17 @@
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Absence seizure"
+        "text": "Generalized typical absence seizure without aura"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Atonic seizure"
+        "text": "Generalized atonic seizure with sudden drop attack"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Tonic seizure"
+        "text": "Generalized tonic seizure with sustained stiffening"
       }
     ],
     "correct_idx": 1,
@@ -4949,27 +4949,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Both begin in both hemispheres"
+        "text": "Both seizure types originate simultaneously from bilateral cerebral hemispheres"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Focal seizures always cause loss of consciousness"
+        "text": "Focal seizures invariably cause complete immediate loss of consciousness"
       },
       {
         "letter": "C",
         "is_correct": true,
-        "text": "Focal seizures begin in one area of one hemisphere and can spread (secondary generalization), while generalized seizures begin in both hemispheres"
+        "text": "Focal seizures begin in one hemisphere, whereas generalized involve both hemispheres"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Generalized seizures begin in one area"
+        "text": "Generalized seizures originate from a discrete circumscribed cortical focus"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "They cannot be distinguished"
+        "text": "Focal and generalized seizures display identical electroencephalographic patterns"
       }
     ],
     "correct_idx": 2,
@@ -4987,27 +4987,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "Seizure lasting more than 5 minutes, or recurring seizures without regaining consciousness"
+        "text": "Continuous seizure activity >=5 minutes or recurrent seizures without recovery"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Any seizure with incontinence"
+        "text": "Any generalized seizure accompanied by urinary or fecal incontinence"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "A seizure lasting 30 seconds"
+        "text": "A single self-limited convulsive seizure lasting less than 60 seconds"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Two seizures a week apart"
+        "text": "Two separate unprovoked seizures occurring at least one week apart"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "A seizure with aura"
+        "text": "Any focal seizure preceded by an epigastric or experiential aura"
       }
     ],
     "correct_idx": 0,
@@ -5025,27 +5025,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Aura, headache, fever, rash"
+        "text": "Experiential aura, throbbing headache, fever, and maculopapular rash"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Fever, nuchal rigidity, rash, headache"
+        "text": "High fever, nuchal rigidity, petechial rash, and holocephalic headache"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Pain, vomiting, diarrhea, fever"
+        "text": "Severe epigastric pain, projectile vomiting, diarrhea, and fever"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Palpitations, pallor, sweating, nausea"
+        "text": "Episodic palpitations, facial pallor, diaphoresis, and presyncope"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "Prodrome, loss of consciousness, physical event, postictal state"
+        "text": "Premonitory symptoms, abrupt consciousness loss, ictal event, postictal state"
       }
     ],
     "correct_idx": 4,
@@ -5063,27 +5063,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Adults: congenital defects; children: stroke"
+        "text": "Adults: congenital malformations; children: ischemic stroke"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Adults: genetic; children: tumors"
+        "text": "Adults: genetic channelopathies; children: malignant primary tumors"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Adults: infection only; children: stroke"
+        "text": "Adults: bacterial infections only; children: embolic stroke"
       },
       {
         "letter": "D",
         "is_correct": true,
-        "text": "Adults: tumors, trauma, infections and stroke; children: infections, trauma and congenital defects"
+        "text": "Adults: cerebrovascular, tumors, trauma; children: infection, trauma, congenital"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Adults and children: metabolic only"
+        "text": "Adults: metabolic derangements only; children: metabolic derangements only"
       }
     ],
     "correct_idx": 3,
@@ -5139,27 +5139,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Start two antiseizure drugs"
+        "text": "Immediate initiation of dual antiseizure drug combination therapy"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Epilepsy surgery"
+        "text": "Urgent surgical evaluation for anterior temporal lobectomy"
       },
       {
         "letter": "C",
         "is_correct": true,
-        "text": "Treat any identifiable underlying cause; most neurologists will not treat after a single unprovoked episode"
+        "text": "Identification and treatment of underlying causes without maintenance AEDs"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Lifelong restriction of all activity"
+        "text": "Lifelong driving and occupational prohibition regardless of EEG"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Hospital admission for 1 week"
+        "text": "Mandatory continuous inpatient video-EEG monitoring for one week"
       }
     ],
     "correct_idx": 2,
@@ -5177,27 +5177,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "Start antiseizure treatment, because the likelihood of a third seizure is 80–90%"
+        "text": "Initiate maintenance antiseizure monotherapy"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "No treatment"
+        "text": "Reassurance and observation without treatment"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Tilt-table testing only"
+        "text": "Tilt-table autonomic testing"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "PET scan only"
+        "text": "Brain fluorodeoxyglucose-PET scan"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Repeat EEG only"
+        "text": "Repeat outpatient non-contrast head CT"
       }
     ],
     "correct_idx": 0,
@@ -5215,27 +5215,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Lifelong antiseizure drugs"
+        "text": "Lifelong maintenance antiseizure polytherapy"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Epilepsy surgery"
+        "text": "Resective epilepsy surgical evaluation"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Vagus nerve stimulation"
+        "text": "Implantation of a vagus nerve stimulator"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Dietary therapy"
+        "text": "Initiation of a strict ketogenic dietary regimen"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "Treat the underlying cause (meningitis), since this is a provoked seizure"
+        "text": "Acute treatment of the underlying systemic etiology"
       }
     ],
     "correct_idx": 4,
@@ -5253,27 +5253,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Ethosuximide; T-type calcium channel blockade; abdominal pain"
+        "text": "Ethosuximide; T-type calcium channel inhibition; gastrointestinal distress"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Lamotrigine; sodium channel blockade; rash only"
+        "text": "Lamotrigine; sodium channel inhibition; isolated skin eruption"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Valproic acid; GABA enhancement only; weight loss"
+        "text": "Valproate; GABA transaminase inhibition; weight loss and alopecia"
       },
       {
         "letter": "D",
         "is_correct": true,
-        "text": "Carbamazepine; sodium channel blockade; agranulocytosis, aplastic anemia and Stevens-Johnson syndrome"
+        "text": "Carbamazepine; sodium channel inhibition; aplastic anemia and SIADH"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Phenytoin; GABA-A potentiation; sedation"
+        "text": "Phenytoin; GABAA receptor allosteric potentiation; sedation"
       }
     ],
     "correct_idx": 3,
@@ -5329,27 +5329,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Blocks only T-type calcium channels"
+        "text": "Selective inhibition of low-threshold T-type thalamic calcium channels"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Blocks only sodium channels"
+        "text": "Selective fast inactivation of voltage-gated neuronal sodium channels"
       },
       {
         "letter": "C",
         "is_correct": true,
-        "text": "Blocks sodium channels and T-type calcium channels and inhibits GABA degradation to raise GABA levels"
+        "text": "Inactivation of sodium and T-type calcium channels and enhancement of GABA"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Enhances GABA-A receptor chloride opening only"
+        "text": "Allosteric potentiation of postsynaptic GABAA chloride conductance"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Blocks NMDA receptors"
+        "text": "Non-competitive antagonism of postsynaptic ionotropic NMDA receptors"
       }
     ],
     "correct_idx": 2,
@@ -5367,27 +5367,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "Hepatotoxicity, pancreatitis and neural tube defects"
+        "text": "Hepatotoxicity, acute pancreatitis, and teratogenic neural tube defects"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Agranulocytosis and aplastic anemia"
+        "text": "Agranulocytosis, aplastic anemia, and syndrome of inappropriate ADH"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Gingival hyperplasia and hirsutism"
+        "text": "Gingival hyperplasia, hirsutism, and megaloblastic anemia"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Stevens-Johnson syndrome only"
+        "text": "Isolated morbilliform cutaneous eruption without systemic signs"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Visual field loss"
+        "text": "Irreversible concentric peripheral visual field constriction"
       }
     ],
     "correct_idx": 0,
@@ -5443,27 +5443,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Sodium channel blockade; agranulocytosis"
+        "text": "Voltage-gated sodium channel blockade; agranulocytosis"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "GABA enhancement; sedation"
+        "text": "GABAA receptor chloride current potentiation; sedation"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Blocks NMDA receptors; psychosis"
+        "text": "Postsynaptic NMDA glutamate receptor blockade; psychosis"
       },
       {
         "letter": "D",
         "is_correct": true,
-        "text": "T-type calcium channel blockade in thalamic neurons; Stevens-Johnson syndrome"
+        "text": "Thalamic T-type calcium channel blockade; Stevens-Johnson syndrome"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "GABA transaminase inhibition; hepatotoxicity"
+        "text": "GABA transaminase enzyme inhibition; fulminant hepatotoxicity"
       }
     ],
     "correct_idx": 3,
@@ -5481,27 +5481,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Occipital lobe"
+        "text": "Calcarine cortex of the occipital lobe"
       },
       {
         "letter": "B",
         "is_correct": true,
-        "text": "Uncus of the temporal lobe (olfactory cortex)"
+        "text": "Medial temporal lobe uncus"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Precentral gyrus"
+        "text": "Precentral gyrus of the frontal lobe"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Cerebellum"
+        "text": "Lateral hemisphere of the cerebellum"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Thalamus"
+        "text": "Dorsomedial nucleus of the thalamus"
       }
     ],
     "correct_idx": 1,
@@ -5519,27 +5519,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "A genetic channelopathy"
+        "text": "Neuronal channelopathy (voltage-gated potassium channel mutation)"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "A metabolic derangement"
+        "text": "Systemic metabolic disturbance (acute profound hypoglycemia)"
       },
       {
         "letter": "C",
         "is_correct": true,
-        "text": "A structural cause, namely an oligodendroglioma"
+        "text": "Focal intracranial structural lesion (oligodendroglioma)"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "A febrile seizure"
+        "text": "Benign genetic syndrome (familial febrile convulsions)"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Drug withdrawal"
+        "text": "Substance withdrawal syndrome (acute sedative cessation)"
       }
     ],
     "correct_idx": 2,
@@ -5557,27 +5557,27 @@
       {
         "letter": "A",
         "is_correct": true,
-        "text": "Generalized 3-Hz spike-and-wave EEG, brief episodes and no postictal state"
+        "text": "Generalized 3-Hz spike-and-wave bursts with no postictal confusion"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Focal temporal spikes and a long postictal state"
+        "text": "Unilateral anterior temporal sharp waves with prolonged postictal confusion"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Hypsarrhythmia"
+        "text": "Chaotic, high-voltage, disorganized hypsarrhythmia on background"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Periodic sharp waves"
+        "text": "Periodic synchronous triphasic sharp-wave discharges at 1–2 Hz"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Normal EEG and long postictal confusion"
+        "text": "Continuous generalized polymorphic delta slowing without spikes"
       }
     ],
     "correct_idx": 0,
@@ -5595,27 +5595,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Spread through the thalamus"
+        "text": "Trans-synaptic synchronization through the dorsal thalamic nuclei"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Spread through the cerebellum"
+        "text": "Trans-hemispheric propagation through the anterior commissure"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Spread through the spinal cord"
+        "text": "Descending propagation through the intermediate spinal gray column"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Spread through the basal ganglia"
+        "text": "Subcortical recruitment through the putamen and globus pallidus"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "Spread along the precentral gyrus in the order of the motor homunculus"
+        "text": "Contiguous somatotopic spread along the precentral motor strip"
       }
     ],
     "correct_idx": 4,
@@ -5633,27 +5633,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Rapid recovery within seconds"
+        "text": "Immediate complete recovery of orientation within 5 to 10 seconds"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Brief jerks only"
+        "text": "Isolated brief non-rhythmic myoclonic jerks at sleep onset"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "A trigger of prolonged standing"
+        "text": "Onset triggered predictably by prolonged upright quiet standing"
       },
       {
         "letter": "D",
         "is_correct": true,
-        "text": "Bloody saliva from lateral tongue biting, urinary incontinence and postictal confusion lasting 15 to 20 minutes"
+        "text": "Lateral tongue laceration, incontinence, and postictal confusion"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Pallor with sweating"
+        "text": "Marked facial pallor, diaphoresis, and cold clammy extremities"
       }
     ],
     "correct_idx": 3,
@@ -5671,27 +5671,27 @@
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Start several drugs at once at maximum dose"
+        "text": "Initiate multiple antiseizure drugs simultaneously at maximum target doses"
       },
       {
         "letter": "B",
         "is_correct": true,
-        "text": "Start one drug at the lowest dose, titrate until seizures are controlled, the maximum dose is reached or side effects are intolerable, then add a second drug if needed, aiming to eliminate seizures with the fewest side effects"
+        "text": "Initiate monotherapy at low dose, titrating to efficacy or tolerability"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Always start with surgery"
+        "text": "Mandate surgical resection prior to any pharmacological trials"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Treat only with diet"
+        "text": "Rely exclusively on dietary ketosis before initiating medications"
       },
       {
         "letter": "E",
         "is_correct": false,
-        "text": "Never change the first drug"
+        "text": "Maintain initial monotherapy at subtherapeutic doses regardless of control"
       }
     ],
     "correct_idx": 1,
