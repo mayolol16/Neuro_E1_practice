@@ -4144,39 +4144,39 @@
   {
     "id": "exam3_in_house_like_g_q110",
     "q_num": "110",
-    "stem": "A 45-year-old woman with a family history of early-onset dementia in her mother and maternal grandfather presents with progressive memory impairment and executive dysfunction. Genetic analysis confirms a missense mutation in the presenilin-1 (PSEN1) gene on chromosome 14. Which of the following enzymatic complexes is altered by this pathogenic mutation, leading to accelerated production of neurotoxic amyloid-beta 42 peptides?",
+    "stem": "A 76-year-old man with moderate Alzheimer disease maintained on donepezil demonstrates progressive functional decline over the past year. His physician decides to add an additional pharmacotherapeutic agent approved for moderate-to-severe Alzheimer disease. The physician explains that this medication exerts its neuroprotective effect by acting as an uncompetitive antagonist at N-methyl-D-aspartate (NMDA) receptors, thereby mitigating pathological glutamate-mediated neurotoxic calcium influx. Which of the following pharmacotherapeutic agents was added to this patient's regimen?",
     "category": "Dementia",
     "source": "in_house_like_G (150 Questions)",
     "options": [
       {
         "letter": "A",
         "is_correct": false,
-        "text": "Alpha-secretase shedding non-amyloidogenic peptide"
+        "text": "Rivastigmine pseudo-irreversible carbamate inhibitor"
       },
       {
         "letter": "B",
         "is_correct": false,
-        "text": "Beta-secretase aspartyl protease cleavage complex"
+        "text": "Galantamine allosteric nicotinic receptor modulator"
       },
       {
         "letter": "C",
         "is_correct": false,
-        "text": "Neprilysin zinc-dependent metalloprotease enzyme"
+        "text": "Pramipexole non-ergot selective dopamine D2 agonist"
       },
       {
         "letter": "D",
         "is_correct": false,
-        "text": "Insulin-degrading enzyme clearance protein complex"
+        "text": "Donepezil reversible piperidine cholinesterase drug"
       },
       {
         "letter": "E",
         "is_correct": true,
-        "text": "Gamma-secretase transmembrane intramembrane protease"
+        "text": "Memantine uncompetitive NMDA glutamate antagonist"
       }
     ],
     "correct_idx": 4,
-    "explanation": "Early-onset familial Alzheimer disease (<60 years) is caused by autosomal dominant mutations in amyloid precursor protein (APP on chr 21), presenilin-1 (PSEN1 on chr 14, most common cause), or presenilin-2 (PSEN2 on chr 1). Presenilins form the catalytic core of the gamma-secretase complex. Mutations in PSEN1 alter gamma-secretase cleavage of APP, favoring the generation of longer, highly fibrillogenic, and neurotoxic Abeta42 peptides.",
-    "high_yield_pearl": "High-Yield Clinical Pearl: Early-onset familial AD is caused by mutations in APP (chr 21), PSEN1 (chr 14, gamma-secretase), or PSEN2 (chr 1). Late-onset AD is associated with the ApoE epsilon-4 allele.",
+    "explanation": "According to the pharmacotherapy of Alzheimer disease (Dr. Cohan's Dementia Content ANS Slide 10), there are two main classes of approved medications: 1) Cholinesterase inhibitors (donepezil, rivastigmine, galantamine), which increase acetylcholine availability by inhibiting acetylcholinesterase, used for mild-to-moderate AD; and 2) Memantine, an uncompetitive NMDA receptor antagonist that blocks pathological tonic levels of glutamate from causing neurotoxic calcium influx and excitotoxicity without interfering with physiological neurotransmission, approved for moderate-to-severe AD.",
+    "high_yield_pearl": "High-Yield Clinical Pearl: Memantine is an NMDA receptor antagonist that blocks pathological glutamate excitotoxicity in moderate-to-severe Alzheimer disease; donepezil, rivastigmine, and galantamine are cholinesterase inhibitors.",
     "image": null
   },
   {
