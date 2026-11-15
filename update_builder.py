@@ -525,6 +525,13 @@ exam3_categories = [
 exam3_json_data_str = json.dumps(exam3_questions, ensure_ascii=False)
 exam3_categories_json_str = json.dumps(exam3_categories, ensure_ascii=False)
 
+# Exam 3 High-Yield (150 Questions)
+exam3_high_yield_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'exam3_high_yield_questions.json')
+with open(exam3_high_yield_path, 'r', encoding='utf-8') as f:
+    exam3_high_yield_questions = json.load(f)
+
+exam3_high_yield_json_data_str = json.dumps(exam3_high_yield_questions, ensure_ascii=False)
+
 # Exam 3 Curriculum Units 1-6 (c_u1-6: 203 Questions)
 exam3_c_u1_6_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'exam3_c_u1_6_questions.json')
 with open(exam3_c_u1_6_path, 'r', encoding='utf-8') as f:
@@ -4009,6 +4016,7 @@ html_template = """<!DOCTYPE html>
     const rawExam2Set3Questions = """ + exam2_set3_json_data_str + """;
     const exam2Set3Categories = """ + exam2_set3_categories_json_str + """;
     const rawExam3Questions = """ + exam3_json_data_str + """;
+    const rawExam3HighYieldQuestions = """ + exam3_high_yield_json_data_str + """;
     const exam3Categories = """ + exam3_categories_json_str + """;
     const rawExam3CU16Questions = """ + exam3_c_u1_6_json_data_str + """;
     const exam3CU16Categories = """ + exam3_c_u1_6_categories_json_str + """;
@@ -4170,6 +4178,20 @@ html_template = """<!DOCTYPE html>
           type: 'exam3'
         },
         {
+          id: 'exam3_redo',
+          label: 'Redo (118 Qs)',
+          icon: '🔄',
+          badge: '118 Qs • Fresh Redo',
+          type: 'exam3'
+        },
+        {
+          id: 'exam3_high_yield',
+          label: 'High-Yield (150 Qs)',
+          icon: '⭐',
+          badge: '150 Qs • Blueprint',
+          type: 'exam3'
+        },
+        {
           id: 'exam3_c_u1_6',
           label: 'Units 1–6 (c_u1-6)',
           icon: '📖',
@@ -4215,7 +4237,11 @@ html_template = """<!DOCTYPE html>
     };
 
     function isExam3Track(track) {
-      return track === 'exam3' || track === 'exam3_practice' || track === 'exam3_c_u1_6' || track === 'exam3_c_h1_6' || track === 'exam3_c_u2_1_6' || track === 'exam3_g_h_u1_6' || track === 'exam3_inhouse_c' || track === 'exam3_inhouse_c2';
+      return track === 'exam3' || track === 'exam3_practice' || track === 'exam3_redo' || track === 'redo' || track === 'exam3_high_yield' || track === 'high_yield' || track === 'exam3_c_u1_6' || track === 'exam3_c_h1_6' || track === 'exam3_c_u2_1_6' || track === 'exam3_g_h_u1_6' || track === 'exam3_inhouse_c' || track === 'exam3_inhouse_c2';
+    }
+
+    function isExam3BaseTrack(track) {
+      return track === 'exam3_practice' || track === 'exam3_redo' || track === 'redo' || track === 'exam3_high_yield' || track === 'high_yield';
     }
 
     function isExam2Track(track) {
@@ -4297,7 +4323,7 @@ html_template = """<!DOCTYPE html>
         e3Tab.style.display = 'inline-flex';
       }
       renderBankSwitcher();
-      if (isExam3Track(currentTrack) && currentTrack !== 'exam3_practice') {
+      if (isExam3Track(currentTrack) && !isExam3BaseTrack(currentTrack)) {
         switchTrack('exam3_practice');
       }
       showToast('🔒 Exam 3 Extra Banks Hidden.');
@@ -4331,7 +4357,7 @@ html_template = """<!DOCTYPE html>
       // Pick active bank for this exam
       if (currentExam === 'exam3') {
         let savedBank = localStorage.getItem('usmle_exam3_active_bank') || 'exam3_practice';
-        if (!isExam3Unlocked() && savedBank !== 'exam3_practice') {
+        if (!isExam3Unlocked() && !isExam3BaseTrack(savedBank)) {
           savedBank = 'exam3_practice';
         }
         switchTrack(savedBank);
@@ -4350,7 +4376,7 @@ html_template = """<!DOCTYPE html>
     function getVisibleBanks() {
       let banks = EXAM_BANKS[currentExam] || EXAM_BANKS.exam1;
       if (currentExam === 'exam3' && !isExam3Unlocked()) {
-        banks = banks.filter(b => b.id === 'exam3_practice');
+        banks = banks.filter(b => isExam3BaseTrack(b.id));
       }
       return banks;
     }
@@ -4488,7 +4514,7 @@ html_template = """<!DOCTYPE html>
 
       let banks = EXAM_BANKS[currentExam] || EXAM_BANKS.exam1;
       if (currentExam === 'exam3' && !isExam3Unlocked()) {
-        banks = banks.filter(b => b.id === 'exam3_practice');
+        banks = banks.filter(b => isExam3BaseTrack(b.id));
       }
       banks.forEach(b => {
         const btn = document.createElement('button');
@@ -4519,7 +4545,9 @@ html_template = """<!DOCTYPE html>
     }
 
     function switchTrack(newTrack) {
-      if (isExam3Track(newTrack) && newTrack !== 'exam3_practice' && !isExam3Unlocked()) {
+      if (newTrack === 'redo') newTrack = 'exam3_redo';
+      if (newTrack === 'high_yield') newTrack = 'exam3_high_yield';
+      if (isExam3Track(newTrack) && !isExam3BaseTrack(newTrack) && !isExam3Unlocked()) {
         showToast('🔒 This bank requires unlock. Type mike to unlock.');
         return;
       }
@@ -4616,6 +4644,24 @@ html_template = """<!DOCTYPE html>
         trackTag.textContent = '📖 Units 1–6 (c_u1-6)';
         timerDisplay.classList.add('exam3');
         sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> Curriculum Units (6)`;
+      } else if (currentTrack === 'exam3_high_yield' || currentTrack === 'high_yield') {
+        zenTray.style.display = 'flex';
+        trayIcon.textContent = '⭐';
+        trayLabelText.textContent = 'Exam 3 Topics:';
+        trackTag.style.display = 'inline-block';
+        trackTag.className = 'q-track-tag exam3';
+        trackTag.textContent = '⭐ High-Yield (150 Qs)';
+        timerDisplay.classList.add('exam3');
+        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg> High-Yield Topics (9)`;
+      } else if (currentTrack === 'exam3_redo' || currentTrack === 'redo') {
+        zenTray.style.display = 'flex';
+        trayIcon.textContent = '🔄';
+        trayLabelText.textContent = 'Exam 3 Topics:';
+        trackTag.style.display = 'inline-block';
+        trackTag.className = 'q-track-tag exam3';
+        trackTag.textContent = '🔄 Redo Practice (118 Qs)';
+        timerDisplay.classList.add('exam3');
+        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg> Practice Redo Topics (9)`;
       } else if (isExam3Track(currentTrack)) {
         zenTray.style.display = 'flex';
         trayIcon.textContent = '⚡';
@@ -4763,6 +4809,10 @@ html_template = """<!DOCTYPE html>
         ? 'Exam 3: Loaded 🎯 Higher-Order Units 1–6 (120 Qs - Apply+)'
         : currentTrack === 'exam3_c_u1_6'
         ? 'Exam 3: Loaded 📖 Curriculum Units 1–6 (203 Qs - Randomized)'
+        : (currentTrack === 'exam3_high_yield' || currentTrack === 'high_yield')
+        ? 'Exam 3: Loaded ⭐ High-Yield Practice (150 Qs - 9 Topics)'
+        : (currentTrack === 'exam3_redo' || currentTrack === 'redo')
+        ? 'Exam 3: Loaded 🔄 Redo Practice (118 Qs - Fresh State)'
         : isExam3Track(currentTrack)
         ? 'Exam 3: Loaded ⚡ Practice Exam 3 (118 Qs - 9 Topics)'
         : currentTrack === 'exam2_set3'
@@ -4795,6 +4845,8 @@ html_template = """<!DOCTYPE html>
 
     // Centralized storage prefix resolver ensuring 100% consistency across all tracks
     function getStoragePrefix(track = currentTrack) {
+      if (track === 'exam3_redo' || track === 'redo') return 'usmle_exam3_redo_';
+      if (track === 'exam3_high_yield' || track === 'high_yield') return 'usmle_exam3_high_yield_';
       if (track === 'exam3_inhouse_c2') return 'usmle_exam3_inhouse_c2_';
       if (track === 'exam3_inhouse_c') return 'usmle_exam3_inhouse_c_';
       if (track === 'exam3_c_u2_1_6') return 'usmle_exam3_c_u2_1_6_';
@@ -4822,7 +4874,11 @@ html_template = """<!DOCTYPE html>
       const storagePrefix = getStoragePrefix(currentTrack);
       let rawData = rawExamQuestions;
 
-      if (currentTrack === 'exam3_inhouse_c2') {
+      if (currentTrack === 'exam3_high_yield' || currentTrack === 'high_yield') {
+        rawData = rawExam3HighYieldQuestions;
+      } else if (currentTrack === 'exam3_redo' || currentTrack === 'redo') {
+        rawData = rawExam3Questions;
+      } else if (currentTrack === 'exam3_inhouse_c2') {
         rawData = rawExam3InHouseC2Questions;
       } else if (currentTrack === 'exam3_inhouse_c') {
         rawData = rawExam3InHouseCQuestions;
@@ -5745,6 +5801,10 @@ html_template = """<!DOCTYPE html>
         ? '🎯 Higher-Order Units 1–6 (120 Qs)'
         : currentTrack === 'exam3_c_u1_6'
         ? '📖 Curriculum Units 1–6 (203 Qs)'
+        : (currentTrack === 'exam3_high_yield' || currentTrack === 'high_yield')
+        ? '⭐ High-Yield (150 Qs)'
+        : (currentTrack === 'exam3_redo' || currentTrack === 'redo')
+        ? '🔄 Redo Practice (118 Qs)'
         : isExam3Track(currentTrack)
         ? '⚡ Exam 3 Practice (118 Qs)'
         : currentTrack === 'exam2'
@@ -5825,6 +5885,10 @@ html_template = """<!DOCTYPE html>
         ? '🎯 Exam 3 Higher-Order Units 1–6 (120 Qs) Score Report'
         : currentTrack === 'exam3_c_u1_6'
         ? '📖 Exam 3 Curriculum Units 1–6 (203 Qs) Score Report'
+        : (currentTrack === 'exam3_high_yield' || currentTrack === 'high_yield')
+        ? '⭐ Exam 3 High-Yield (150 Qs) Score Report'
+        : (currentTrack === 'exam3_redo' || currentTrack === 'redo')
+        ? '🔄 Exam 3 Redo Practice (118 Qs) Score Report'
         : isExam3Track(currentTrack)
         ? '⚡ Exam 3 Practice (118 Qs) Score Report'
         : isExam2Track(currentTrack)
@@ -5902,6 +5966,8 @@ html_template = """<!DOCTYPE html>
 
     const EXAM3_BANKS_METADATA = [
       { id: 'exam3_practice', name: 'Practice Exam 3 (118 Qs)', prefix: 'usmle_exam3_practice_', getData: () => rawExam3Questions },
+      { id: 'exam3_redo', name: 'Redo Practice (118 Qs)', prefix: 'usmle_exam3_redo_', getData: () => rawExam3Questions },
+      { id: 'exam3_high_yield', name: 'High-Yield (150 Qs)', prefix: 'usmle_exam3_high_yield_', getData: () => rawExam3HighYieldQuestions },
       { id: 'exam3_c_u1_6', name: 'Units 1–6 (c_u1-6, 203 Qs)', prefix: 'usmle_exam3_c_u1_6_', getData: () => rawExam3CU16Questions },
       { id: 'exam3_c_h1_6', name: 'Units 1–6 (c_H1-6, 180 Qs)', prefix: 'usmle_exam3_c_h1_6_', getData: () => rawExam3CH16Questions },
       { id: 'exam3_c_u2_1_6', name: 'Units 1–6 (c_u2_1-6, 202 Qs)', prefix: 'usmle_exam3_c_u2_1_6_', getData: () => rawExam3CU216Questions },
@@ -6339,6 +6405,10 @@ html_template = """<!DOCTYPE html>
         trackName = '🎯 Exam 3 Units 1–6 (120 questions)';
       } else if (currentTrack === 'exam3_c_u1_6') {
         trackName = '📖 Exam 3 Units 1–6 (203 questions)';
+      } else if (currentTrack === 'exam3_high_yield' || currentTrack === 'high_yield') {
+        trackName = '⭐ Exam 3 High-Yield (150 questions)';
+      } else if (currentTrack === 'exam3_redo' || currentTrack === 'redo') {
+        trackName = '🔄 Exam 3 Redo Practice (118 questions)';
       } else if (isExam3Track(currentTrack)) {
         trackName = '⚡ Exam 3 Practice (118 questions)';
       } else if (currentTrack === 'exam2_set3') {
@@ -7302,7 +7372,7 @@ html_template = """<!DOCTYPE html>
       let targetTrack = urlTrack || localStorage.getItem('usmle_active_track');
 
       // If a locked exam3 track is requested but NOT unlocked, fallback to exam3_practice
-      if (isExam3Track(targetTrack) && targetTrack !== 'exam3_practice' && !isExam3Unlocked()) {
+      if (isExam3Track(targetTrack) && !isExam3BaseTrack(targetTrack) && !isExam3Unlocked()) {
         targetTrack = 'exam3_practice';
       }
 
@@ -7330,6 +7400,10 @@ html_template = """<!DOCTYPE html>
             ? 'Exam 3 Higher-Order Units 1–6'
             : currentTrack === 'exam3_c_u1_6'
             ? 'Exam 3 Units 1–6'
+            : (currentTrack === 'exam3_high_yield' || currentTrack === 'high_yield')
+            ? 'Exam 3 High-Yield (150 Qs)'
+            : (currentTrack === 'exam3_redo' || currentTrack === 'redo')
+            ? 'Exam 3 Redo Practice (118 Qs)'
             : isExam3Track(currentTrack)
             ? 'Exam 3 Practice'
             : isExam2Track(currentTrack)

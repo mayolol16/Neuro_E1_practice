@@ -1,0 +1,5702 @@
+[
+  {
+    "id": "exam3_hy_q1",
+    "q_num": "1",
+    "stem": "A 30-year-old woman with suspected multiple sclerosis undergoes lumbar puncture. Which of the following CSF changes is most likely?",
+    "category": "Demyelinating Diseases",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Neutrophilic pleocytosis with low glucose"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Elevated albumin with normal IgG"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Elevated IgG and myelin basic protein with oligoclonal bands on electrophoresis"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Xanthochromia with erythrocytes"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Elevated lactate with positive cryptococcal antigen"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "MS CSF shows increased IgG, myelin basic protein and oligoclonal bands on electrophoresis.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Diseases",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q2",
+    "q_num": "2",
+    "stem": "A 29-year-old woman has numbness and weakness on her left side. Which of the following brain MRI findings best supports multiple sclerosis?",
+    "category": "Demyelinating Diseases",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "A single ring-enhancing mass"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Symmetric basal ganglia hyperintensity"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "A longitudinally extensive cord lesion with normal brain imaging"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Cortical ribboning"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Plaques scattered through the white matter, including along the lateral ventricles"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "MS lesions are ovoid T2-hyperintense plaques in the white matter bordering the lateral ventricles and scattered throughout. A longitudinally extensive cord lesion with a normal brain suggests NMO.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Diseases",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q3",
+    "q_num": "3",
+    "stem": "A 31-year-old woman has 3 weeks of mild left-sided weakness, increased tone and brisk reflexes. When the pupillary light reflex is tested, her right pupil constricts more when the left eye is illuminated than when the right eye is illuminated. Which of the following best explains the pupillary finding?",
+    "category": "Demyelinating Diseases",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "An afferent defect of the right optic nerve (Marcus Gunn pupil)"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "An efferent defect of the right oculomotor nerve"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "An efferent defect of the left oculomotor nerve"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Right Horner syndrome"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "A left optic tract lesion"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "A relative afferent defect (Marcus Gunn) of the right optic nerve gives a weaker response from the right eye (direct and consensual) with a normal response from the left. Think MS or optic neuritis.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Diseases",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q4",
+    "q_num": "4",
+    "stem": "A 26-year-old woman with multiple sclerosis has double vision on lateral gaze. On looking to either side, the adducting eye does not move past the midline, but convergence is normal. Which structure is demyelinated?",
+    "category": "Demyelinating Diseases",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Paramedian pontine reticular formation"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Abducens nucleus"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Oculomotor nucleus"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Medial longitudinal fasciculus"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Frontal eye field"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Internuclear ophthalmoplegia is a lesion of the MLF, with preserved convergence. Bilateral involvement in a young adult is classic for MS.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Diseases",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q5",
+    "q_num": "5",
+    "stem": "A 28-year-old woman returns for a 6-month visit. She has new right arm weakness with spasticity. The blurry vision from last year persists, the right-sided sensory loss has improved, and her left-sided weakness has partly recovered. MRI shows periventricular and scattered white matter hyperintensities. Which of the following is the most likely disorder and subtype?",
+    "category": "Demyelinating Diseases",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Primary progressive multiple sclerosis"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Relapsing-remitting multiple sclerosis"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Secondary progressive multiple sclerosis"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Clinically isolated syndrome"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Neuromyelitis optica"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Relapsing episodes with partial recovery, new lesions and periventricular plaques indicate relapsing-remitting MS.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Diseases",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q6",
+    "q_num": "6",
+    "stem": "A neurologist explains the difference between multiple sclerosis and Guillain-Barré syndrome to a student. Which of the following correctly pairs each disease with its primary cellular target?",
+    "category": "Demyelinating Diseases",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Multiple sclerosis: oligodendrocytes; Guillain-Barré: Schwann cells"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Multiple sclerosis: Schwann cells; Guillain-Barré: oligodendrocytes"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Multiple sclerosis: astrocytes; Guillain-Barré: oligodendrocytes"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Multiple sclerosis: neurons; Guillain-Barré: Schwann cells"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Multiple sclerosis: microglia; Guillain-Barré: neurons"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "MS targets oligodendrocytes (CNS myelin), and Guillain-Barré targets Schwann cells (peripheral myelin). Schwann cells regenerate, so GBS prognosis is better.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Diseases",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q7",
+    "q_num": "7",
+    "stem": "A 33-year-old man has progressive leg weakness and tingling. Four weeks ago he had chills and diarrhea after eating undercooked chicken. Reflexes are absent at the knees and ankles. Why is the earlier illness important for this diagnosis?",
+    "category": "Demyelinating Diseases",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "The bacteria directly invade the peripheral nerves"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "A bacterial toxin destroys the anterior horn cells"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "The organism persists in the CSF"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Dehydration caused an electrolyte-related neuropathy"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Antibodies and T cells directed at Campylobacter epitopes cross-react with Schwann cell and myelin antigens"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Molecular mimicry: antibodies and T cells against Campylobacter jejuni epitopes cross-react with Schwann cell and myelin antigens.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Diseases",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q8",
+    "q_num": "8",
+    "stem": "For the patient in the previous question, nerve conduction studies are ordered. Which of the following is the best choice of region to test first and the expected result?",
+    "category": "Demyelinating Diseases",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Arms first; axonal loss with preserved velocities"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Face first; normal conduction"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Legs first (ascending weakness); slowed conduction indicating demyelination"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Legs first; absent sensory potentials with normal velocities"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Arms first; decremental response on repetitive stimulation"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Weakness ascends, so the legs are tested first. Conduction studies show slowed velocities consistent with demyelination.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Diseases",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q9",
+    "q_num": "9",
+    "stem": "A 33-year-old man with Guillain-Barré syndrome is treated with plasma exchange. Which of the following best explains its benefit?",
+    "category": "Demyelinating Diseases",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "It replaces the missing myelin proteins"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "It removes circulating antibodies, complement and cytokines"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "It directly remyelinates peripheral axons"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "It kills Campylobacter in the bloodstream"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "It blocks acetylcholine receptors"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Plasma exchange removes circulating antibodies, complement and cytokines. IVIG is the alternative and suppresses the autoimmune response. Steroids are not indicated.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Diseases",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q10",
+    "q_num": "10",
+    "stem": "On day 5 of hospitalization for Guillain-Barré syndrome, a 40-year-old man has labile blood pressure and episodes of tachycardia. His oxygen saturation and cardiac enzymes are normal. Which of the following is the most likely explanation?",
+    "category": "Demyelinating Diseases",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Pheochromocytoma"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Sepsis"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Pulmonary embolism"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Dysautonomia, which occurs in about two-thirds of patients"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Myocardial infarction"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Dysautonomia occurs in about two-thirds of Guillain-Barré patients and causes labile blood pressure and arrhythmias.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Diseases",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q11",
+    "q_num": "11",
+    "stem": "A 10-year-old girl, brought by her adoptive father, has burning leg pain at night, frequent tripping, high-arched feet with hammer toes, and decreased muscle bulk in the legs. Vibration sense is reduced below the ankles, and peroneal motor conduction velocity is reduced. Which of the following is the most likely diagnosis and cause?",
+    "category": "Demyelinating Diseases",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Friedreich ataxia; frataxin deficiency"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Guillain-Barré syndrome; antibodies to gangliosides"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Spinal muscular atrophy; SMN1 deletion"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Subacute combined degeneration; vitamin B12 deficiency"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Charcot-Marie-Tooth disease; autosomal dominant mutation in peripheral myelin protein 22"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Charcot-Marie-Tooth disease (hereditary motor and sensory neuropathy) is usually an autosomal dominant mutation of PMP22. Findings are pes cavus, hammer toes, distal atrophy and reduced conduction velocity from demyelination.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Diseases",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q12",
+    "q_num": "12",
+    "stem": "A 35-year-old woman has optic neuritis in one eye and then transverse myelitis. Which of the following statements best differentiates her disorder from multiple sclerosis?",
+    "category": "Demyelinating Diseases",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "It is caused by aquaporin-4 antibodies, typically has more severe symptoms, and preferentially affects the optic nerves and spinal cord"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "It is caused by antibodies to gangliosides"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "It spares the optic nerves"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "It is a peripheral demyelinating disease"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "It is caused by JC virus infection of oligodendrocytes"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "NMO is caused by aquaporin-4 antibodies, is typically more severe, and affects the optic nerves and spinal cord. Acute attacks respond to steroids or plasma exchange.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Diseases",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q13",
+    "q_num": "13",
+    "stem": "A 32-year-old woman with relapsing-remitting multiple sclerosis has a new exacerbation with right leg weakness. Which of the following is the most appropriate treatment of the acute exacerbation?",
+    "category": "Demyelinating Diseases",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Interferon-β"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Glatiramer acetate"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "High-dose corticosteroids"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Natalizumab"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Ocrelizumab"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "High-dose corticosteroids treat acute exacerbations. Interferon-β, glatiramer, natalizumab and ocrelizumab are disease-modifying therapies, not acute treatments.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Diseases",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q14",
+    "q_num": "14",
+    "stem": "A 55-year-old man has 2 years of progressive spastic weakness of both legs and worsening gait. He has never had a discrete relapse or remission. MRI shows spinal cord and periventricular lesions. Which of the following is the most likely disease course?",
+    "category": "Demyelinating Diseases",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Relapsing-remitting"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Primary progressive"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Secondary progressive"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Clinically isolated syndrome"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Acute disseminated course"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Progressive from onset without relapses is primary progressive MS.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Diseases",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q15",
+    "q_num": "15",
+    "stem": "A 12-year-old boy with Charcot-Marie-Tooth disease has foot drop and distal leg atrophy, with only mild hand weakness. Which of the following best explains why the legs are affected before the arms?",
+    "category": "Demyelinating Diseases",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Dermatomal root involvement"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Upper motor neuron degeneration"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Anterior horn cell loss at L4–S1 only"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "A length-dependent process affecting the longest peripheral nerves first"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Neuromuscular junction failure"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "CMT is a length-dependent process, so the longest nerves (to the feet) are involved first.",
+    "high_yield_pearl": "High-Yield Rule: Demyelinating Diseases",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q16",
+    "q_num": "16",
+    "stem": "A 7-year-old boy has a tumor involving the flocculus and nodulus. Which of the following deficits is most likely?",
+    "category": "Cerebellum",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Resting tremor and rigidity"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Falling, vertigo, nausea and nystagmus"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Intention tremor of the arm with dysmetria"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Hemiparesis"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Aphasia"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "The flocculonodular lobe (vestibulocerebellum) controls the vestibular system. Lesions cause falling, vertigo, nausea and nystagmus.",
+    "high_yield_pearl": "High-Yield Rule: Cerebellum",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q17",
+    "q_num": "17",
+    "stem": "A patient has a lesion of the nucleus dorsalis (Clarke column) at T10. Which of the following pathways is interrupted?",
+    "category": "Cerebellum",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Fasciculus gracilis"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Spinothalamic tract"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Lateral corticospinal tract"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Dorsal spinocerebellar tract"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Cuneocerebellar tract"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Clarke nucleus (T1–L2) gives rise to the dorsal spinocerebellar tract carrying lower limb unconscious proprioception.",
+    "high_yield_pearl": "High-Yield Rule: Cerebellum",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q18",
+    "q_num": "18",
+    "stem": "Which of the following describes the second-order neuron for unconscious proprioception from the upper limb?",
+    "category": "Cerebellum",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Accessory (lateral) cuneate nucleus in the caudal medulla, giving the cuneocerebellar tract"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Nucleus dorsalis of Clarke, giving the dorsal spinocerebellar tract"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Nucleus gracilis, giving the medial lemniscus"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Ventral posterolateral nucleus of the thalamus"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Inferior olivary nucleus"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Upper limb fibers ascend in the fasciculus cuneatus to the accessory (lateral) cuneate nucleus in the caudal medulla, which gives the cuneocerebellar tract.",
+    "high_yield_pearl": "High-Yield Rule: Cerebellum",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q19",
+    "q_num": "19",
+    "stem": "Which of the following cerebellar peduncles carries the output from the dentate nucleus to the thalamus?",
+    "category": "Cerebellum",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Inferior cerebellar peduncle"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Middle cerebellar peduncle"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Pontine crossing fibers"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Restiform body"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Superior cerebellar peduncle"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "The superior cerebellar peduncle is the main output pathway (dentate to contralateral thalamus). The middle and inferior peduncles are mainly input pathways.",
+    "high_yield_pearl": "High-Yield Rule: Cerebellum",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q20",
+    "q_num": "20",
+    "stem": "A patient has sudden weakness of the entire right side with a right lower facial droop, hyperreflexia and a Babinski sign. He also has an intention tremor, dysmetria and dysdiadochokinesia on the right. MRI shows an infarct in the left crus cerebri. Which of the following best explains the right-sided ataxia?",
+    "category": "Cerebellum",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Left cerebellar hemisphere infarction"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Right vermis infarction"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Interruption of frontopontine fibers of the cortico-ponto-cerebellar pathway in the left crus cerebri"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Dorsal column damage"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Right inferior cerebellar peduncle damage"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "The crus cerebri carries corticospinal, corticobulbar and frontopontine fibers. Interrupting frontopontine fibers disrupts the cortico-ponto-cerebellar pathway, producing limb ataxia. Fibers of CN III also pass nearby.",
+    "high_yield_pearl": "High-Yield Rule: Cerebellum",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q21",
+    "q_num": "21",
+    "stem": "A 5-year-old boy with a congenital malformation has absence of the cerebellar vermis. Which of the following is the most likely clinical finding?",
+    "category": "Cerebellum",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Intention tremor of the limbs only"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Truncal ataxia with a wide-based gait"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Loss of vibration sense"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Vertigo with hearing loss"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Hemiparesis"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "The vermis controls the trunk, so its absence causes truncal ataxia and a wide-based gait (Dandy-Walker malformation).",
+    "high_yield_pearl": "High-Yield Rule: Cerebellum",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q22",
+    "q_num": "22",
+    "stem": "A patient has a wide-based gait. Which of the following findings best distinguishes sensory ataxia from cerebellar ataxia?",
+    "category": "Cerebellum",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Intention tremor"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Scanning speech"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Truncal sway when sitting"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Nystagmus"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Loss of proprioception, a positive Romberg sign and no vertigo"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Sensory ataxia has loss of proprioception, a positive Romberg sign and no vertigo. Cerebellar ataxia has limb ataxia, dysarthria and nystagmus.",
+    "high_yield_pearl": "High-Yield Rule: Cerebellum",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q23",
+    "q_num": "23",
+    "stem": "A 66-year-old woman has episodic vertigo and rotatory nystagmus when her head is back and her left ear is down. Hearing is normal. Which of the following is the underlying cause?",
+    "category": "Cerebellum",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Displaced otoliths in the semicircular canals"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Endolymphatic hydrops"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "A vestibular schwannoma"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Vertebrobasilar ischemia"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Cerebellar vermis atrophy"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Benign paroxysmal positional vertigo is caused by displaced otoliths in the semicircular canals. The Dix-Hallpike maneuver diagnoses it and the Epley maneuver treats it.",
+    "high_yield_pearl": "High-Yield Rule: Cerebellum",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q24",
+    "q_num": "24",
+    "stem": "A 55-year-old immigrant has sensory ataxia, absent reflexes in the legs and lightning pains. Fluorescent treponemal antibody and CSF-VDRL tests are positive. Which of the following is the most appropriate management?",
+    "category": "Cerebellum",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Vitamin B12 replacement"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Corticosteroids"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Plasma exchange"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Penicillin and testing of sexual contacts"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Supportive care only"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Tabes dorsalis is treated with penicillin, and contacts should be tested.",
+    "high_yield_pearl": "High-Yield Rule: Cerebellum",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q25",
+    "q_num": "25",
+    "stem": "A 15-year-old boy has progressive truncal and limb ataxia, loss of vibration sense and absent ankle reflexes. Which of the following correctly lists the organelle affected and the central nervous system structures involved?",
+    "category": "Cerebellum",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Lysosome; basal ganglia"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Peroxisome; cerebellar hemispheres"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Mitochondria; dorsal columns and spinocerebellar tracts"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Golgi apparatus; motor cortex"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Nucleus; thalamus"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Friedreich ataxia (frataxin, GAA repeats in FXN) affects mitochondria and involves the dorsal columns and spinocerebellar tracts.",
+    "high_yield_pearl": "High-Yield Rule: Cerebellum",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q26",
+    "q_num": "26",
+    "stem": "A patient has a tremor of the left hand only when reaching for a cup. The tremor is absent at rest. Which of the following is the most likely cause?",
+    "category": "Cerebellum",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Parkinson disease"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Cerebellar lesion, causing intention (kinetic) tremor"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Essential tremor at rest"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Hypothyroidism"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Anxiety"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "A tremor that occurs only with movement is an intention (kinetic) tremor, a sign of cerebellar disease. A resting tremor suggests parkinsonism.",
+    "high_yield_pearl": "High-Yield Rule: Cerebellum",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q27",
+    "q_num": "27",
+    "stem": "A patient with a cerebellar infarct has slurred, indistinct speech. Comprehension, word choice and the amount of speech are normal. Which of the following terms best describes this?",
+    "category": "Cerebellum",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Broca aphasia"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Wernicke aphasia"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Conduction aphasia"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Anomia"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Dysarthria"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Slurred or indistinct speech with intact comprehension and language use is dysarthria, a mechanical speech disorder. Aphasia is a language disorder.",
+    "high_yield_pearl": "High-Yield Rule: Cerebellum",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q28",
+    "q_num": "28",
+    "stem": "A 53-year-old man has a new generalized seizure, and a biopsy shows glioblastoma. Which of the following MRI findings is most likely?",
+    "category": "Tumors",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "A ring-enhancing lesion with surrounding edema, mass effect, and narrowing of the sulci and ventricles"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "A cystic lesion with a mural nodule in the cerebellum"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "A dural-based mass with a dural tail"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "A lesion in the cerebellopontine angle"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Multiple subependymal calcified nodules"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Glioblastoma appears as a ring-enhancing lesion with edema, mass effect, midline shift and narrowing of sulci and ventricles.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q29",
+    "q_num": "29",
+    "stem": "A 35-year-old man has new-onset seizures. MRI shows a non-enhancing supratentorial mass. Biopsy shows a hypercellular tumor with nuclear atypia and GFAP positivity, but no necrosis, microvascular proliferation or mitotic activity. Which of the following is the WHO grade?",
+    "category": "Tumors",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Grade I"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Grade I with Rosenthal fibers"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Grade II"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Grade III"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Grade IV"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "An infiltrating (diffuse) astrocytoma with atypia but no necrosis, mitoses or microvascular proliferation is WHO grade II.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q30",
+    "q_num": "30",
+    "stem": "A 10-year-old child has cerebellar deficits, and MRI shows a tumor in the cerebellum. Which of the following best describes the most likely tumor?",
+    "category": "Tumors",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Glioblastoma, WHO grade IV, adults"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Oligodendroglioma, WHO grade II, supratentorial"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Ependymoma, WHO grade III, spinal cord"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Pilocytic astrocytoma, WHO grade I, ages 8–13, with a biphasic pattern and Rosenthal fibers"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Meningioma, WHO grade I, dura"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Pilocytic astrocytoma: age 8–13, cerebellum, WHO grade I, biphasic, Rosenthal fibers, GFAP positive.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q31",
+    "q_num": "31",
+    "stem": "A 2-year-old child has had a month of constant crying and head-pointing, then daily vomiting and a wobbly gait. He has bilateral papilledema and a wide-based gait, but normal finger-to-nose testing. Which of the following structures best explains his findings?",
+    "category": "Tumors",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "The left cerebellar hemisphere"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "The cerebellar vermis or nodulus, with compression of the fourth ventricle causing obstructive hydrocephalus"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "The frontal eye field"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "The dorsal columns"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "The occipital lobe"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Truncal ataxia without limb ataxia points to the vermis or nodulus. Compression of the fourth ventricle causes obstructive hydrocephalus. This is medulloblastoma.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q32",
+    "q_num": "32",
+    "stem": "Why should a lumbar puncture be avoided in the child in the previous question?",
+    "category": "Tumors",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "It may cause meningitis"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "CSF protein would be uninterpretable"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "It is always painful"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "It would not yield CSF"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "With raised intracranial pressure and papilledema, withdrawal of lumbar CSF can cause herniation of the brain through the foramen magnum"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Papilledema indicates raised intracranial pressure. Lumbar puncture can cause herniation through the foramen magnum.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q33",
+    "q_num": "33",
+    "stem": "A 9-year-old boy has 2 months of headache and lethargy. T2 MRI shows a mass in the left lateral ventricle, with enlargement of the ventricle and shift of the septum pellucidum. Which of the following histologic features is most likely?",
+    "category": "Tumors",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Homer Wright rosettes"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Rosenthal fibers"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Perivascular pseudorosettes"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Psammoma bodies"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Fried-egg cells"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Ependymomas have perivascular pseudorosettes and ependymal rosettes.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q34",
+    "q_num": "34",
+    "stem": "A 60-year-old woman has 2 months of headache, social withdrawal and impaired recall. MRI shows a large right frontal mass with a dural tail, and resection shows cellular whorls and psammoma bodies. Which of the following best explains why symptoms began only 2 months ago?",
+    "category": "Tumors",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "The tumor grows slowly and the brain accommodates displacement until the mass is large"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "The tumor invades the brain rapidly"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "The tumor bled recently"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "The tumor is metastatic"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "The tumor obstructs CSF flow early"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Meningiomas are slow-growing, and the brain accommodates displacement until the tumor is large.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q35",
+    "q_num": "35",
+    "stem": "A 38-year-old man has seizures. Which of the following correctly describes oligodendroglioma?",
+    "category": "Tumors",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Cerebellar tumor of children, WHO grade I"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Fourth ventricle tumor with pseudorosettes"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Dural-based tumor with whorls"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Supratentorial tumor of adults aged 35–44 years, WHO grade II, with a chicken-wire capillary pattern"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Tumor of the cerebellopontine angle with Antoni A areas"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Oligodendroglioma: ages 35–44, supratentorial, WHO grade II, fried-egg cells and chicken-wire capillaries.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q36",
+    "q_num": "36",
+    "stem": "A 6-year-old child has temporal lobe seizures. Resection of a hemispheric grade I tumor shows binucleated ganglion cells with peripheral Nissl substance, glial cells and calcifications. Which of the following is the most likely diagnosis?",
+    "category": "Tumors",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Pilocytic astrocytoma"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Ganglioglioma"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Medulloblastoma"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Ependymoma"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Meningioma"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Ganglioglioma is a grade I hemispheric tumor of children presenting with seizures, with binucleated ganglion cells, glia and calcifications.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q37",
+    "q_num": "37",
+    "stem": "A surgeon explains why a schwannoma can be removed while sparing the nerve, but a neurofibroma usually cannot. Which of the following best explains this?",
+    "category": "Tumors",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Schwannomas arise from fibroblasts"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Neurofibromas are encapsulated"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Schwannomas always occur in the brain"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Neurofibromas are metastatic"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Schwannomas displace adjacent nerve fibers, while neurofibromas infiltrate through the nerve"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Schwannomas displace nerve fibers and can be shelled out. Neurofibromas infiltrate the nerve and cannot be removed without sacrificing it.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q38",
+    "q_num": "38",
+    "stem": "Neurofibromatosis type 2 is caused by defects in the gene encoding merlin. Which of the following best describes how this leads to schwannomas?",
+    "category": "Tumors",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Merlin normally suppresses cell growth in crowded environments, so its loss allows uninhibited Schwann cell growth"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Merlin inhibits mTOR, so its loss increases cell size"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Merlin is a Ras GTPase-activating protein"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Merlin degrades HIF"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Merlin stores iron in mitochondria"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Merlin is a cell adhesion molecule that suppresses growth in crowded cell environments, so its loss allows uninhibited Schwann cell growth.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q39",
+    "q_num": "39",
+    "stem": "A 48-year-old woman has vertigo, hearing loss, tinnitus, a feeling of ear fullness and nausea. MRI shows a tumor at the cerebellopontine angle along cranial nerve VIII. Which of the following best describes the symptoms of this tumor?",
+    "category": "Tumors",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Resting tremor, rigidity"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Aphasia, hemiparesis"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Vertigo, hearing loss, tinnitus, ear fullness and nausea from a vestibular schwannoma"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Bitemporal hemianopia"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Anosmia"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Vestibular schwannoma (CN VIII, cerebellopontine angle) causes vertigo, hearing loss, tinnitus, ear fullness and nausea.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q40",
+    "q_num": "40",
+    "stem": "A clinician diagnoses neurofibromatosis type 1 when at least two criteria are met. Which of the following single findings counts as one criterion?",
+    "category": "Tumors",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "One café-au-lait macule"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Bilateral vestibular schwannomas"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "A single schwannoma"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Two or more neurofibromas of any type, or one plexiform neurofibroma"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "One Lisch nodule"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Two or more neurofibromas of any type, or one plexiform neurofibroma, is a criterion. Diagnosis requires two or more criteria.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q41",
+    "q_num": "41",
+    "stem": "A 12-year-old with neurofibromatosis type 1 has a tortuous mass along a nerve that feels like a bag of worms. Which of the following is true about this lesion?",
+    "category": "Tumors",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "It is typically a schwannoma"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "It is a plexiform neurofibroma, virtually pathognomonic for NF1"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "It is a hemangioblastoma"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "It is a meningioma"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "It is found in NF2"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "A plexiform neurofibroma (“bag of worms”) is virtually pathognomonic for NF1.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q42",
+    "q_num": "42",
+    "stem": "A child with neurofibromatosis type 1 has pigmented nodules on the iris. Which of the following describes Lisch nodules?",
+    "category": "Tumors",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Hemangiomas of the retina"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Calcified astrocytomas"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Neurofibromas of the iris"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Angiofibromas of the eyelid"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Melanocytic hamartomas of the iris"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Lisch nodules are melanocytic hamartomas of the iris seen in NF1.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q43",
+    "q_num": "43",
+    "stem": "A 22-year-old has bilateral vestibular schwannomas and cataracts. Which of the following is the most likely disorder, and which chromosome carries the gene?",
+    "category": "Tumors",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "NF1; chromosome 17"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Tuberous sclerosis; chromosome 9"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "NF2; chromosome 22"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Von Hippel-Lindau disease; chromosome 3"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Sturge-Weber syndrome; chromosome 9"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Bilateral vestibular schwannomas and cataracts indicate NF2 (merlin, chromosome 22). NF1 is chromosome 17 (neurofibromin).",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q44",
+    "q_num": "44",
+    "stem": "A 20-year-old woman with bilateral flank pain and hematuria has facial angiofibromas, a leathery back patch, periungual fibromas and bilateral renal angiomyolipomas. She has had epilepsy since childhood. Which of the following correctly describes the genes involved?",
+    "category": "Tumors",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "TSC1 and TSC2, tumor suppressors encoding hamartin and tuberin that normally inhibit mTOR"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "NF1, encoding a Ras GTPase-activating protein"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "VHL, encoding a protein that degrades HIF"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "GNAQ, somatic mutation"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "FXN, encoding frataxin"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Tuberous sclerosis: TSC1 (chromosome 9, hamartin) and TSC2 (chromosome 16, tuberin), whose complex inhibits mTOR.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q45",
+    "q_num": "45",
+    "stem": "MRI in a patient with tuberous sclerosis shows periventricular calcified nodules that resemble candle gutterings. One of these enlarges and obstructs the foramen of Monro. Which of the following is the most likely tumor?",
+    "category": "Tumors",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Medulloblastoma"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Pilocytic astrocytoma"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Ependymoma"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Subependymal giant cell astrocytoma"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Meningioma"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Subependymal nodules (“candle gutterings”) can enlarge into a subependymal giant cell astrocytoma.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q46",
+    "q_num": "46",
+    "stem": "Which of the following best defines a cortical tuber in tuberous sclerosis?",
+    "category": "Tumors",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "A calcified tumor of the choroid plexus"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "An enlarged gyrus with disorganized lamination and no clear separation of gray and white matter"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "A cystic lesion with a mural nodule"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "A cluster of whorled arachnoid cells"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "A heterotopic nodule of normal neurons"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "A tuber is an enlarged gyrus with disorganized neurons and glia, lacking separation of gray and white matter.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q47",
+    "q_num": "47",
+    "stem": "An infant with a port-wine stain and seizures is diagnosed with Sturge-Weber syndrome. Which of the following best describes the histology and genetics?",
+    "category": "Tumors",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Subependymal hamartomas; TSC1"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Hemangioblastomas; VHL"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Leptomeningeal (arachnoid-pia) angiomas with cortical calcification; somatic GNAQ mutation on chromosome 9"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Neurofibromas; NF1"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Schwannomas; NF2"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Sturge-Weber: leptomeningeal angiomas, cortical calcification (tram-track), somatic GNAQ mutation on chromosome 9.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q48",
+    "q_num": "48",
+    "stem": "A 28-year-old man with von Hippel-Lindau disease has a cerebellar hemangioblastoma. Which of the following best describes this tumor and the gene?",
+    "category": "Tumors",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Composed of whorled meningothelial cells; NF2"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Composed of astrocytes with Rosenthal fibers; NF1"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Composed of ganglion cells; TSC2"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Composed of Schwann cells; NF2"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Composed of endothelial cells, pericytes and stromal cells; VHL gene on chromosome 3p25.3"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "VHL hemangioblastomas are made of endothelial cells, pericytes and stromal cells. The gene is on chromosome 3p25.3.",
+    "high_yield_pearl": "High-Yield Rule: Tumors",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q49",
+    "q_num": "49",
+    "stem": "A 45-year-old man has fever, headache and confusion. Brain biopsy shows a viral encephalitis. Which of the following pathologic changes is typical?",
+    "category": "Infections",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Neutrophilic abscess with a capsule"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Granulomas with caseous necrosis"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Demyelination with lipid-laden macrophages"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Perivascular lymphocytic infiltrates, neuronophagia and microglial nodules"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Spongiform vacuolation without inflammation"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Viral encephalitis shows perivascular lymphocytic infiltration, neuronophagia, microglial nodules and vasogenic edema.",
+    "high_yield_pearl": "High-Yield Rule: Infections",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q50",
+    "q_num": "50",
+    "stem": "A 38-year-old man with HIV has a slowly progressive, painless gait disturbance with neurogenic bladder and spastic paraparesis. Examination shows dorsal column dysfunction, and MRI of the thoracic cord shows no compression. Which of the following is the most likely diagnosis?",
+    "category": "Infections",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "CMV polyradiculitis"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "HIV-associated vacuolar myelopathy"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Toxoplasma myelitis"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Guillain-Barré syndrome"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Progressive multifocal leukoencephalopathy"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "HIV vacuolar myelopathy affects the thoracic cord and causes slowly progressive painless gait disturbance, neurogenic bladder, spastic paraparesis and dorsal column dysfunction. Syphilis, TB, HTLV-1 and B12 deficiency are in the differential.",
+    "high_yield_pearl": "High-Yield Rule: Infections",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q51",
+    "q_num": "51",
+    "stem": "A 50-year-old man who owns a cat hotel has HIV, headache, low-grade fever and slowed thinking. MRI shows multiple ring-enhancing lesions. Which of the following is the most likely route of acquisition of the responsible organism?",
+    "category": "Infections",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Oocysts from cat feces or cysts in undercooked meat, followed by reactivation"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Bird droppings inhaled"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "A tsetse fly bite"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Freshwater exposure through the nose"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "A raccoon bite"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Toxoplasma gondii is acquired from cat feces oocysts or undercooked meat, and reactivates at CD4 below 100/µL.",
+    "high_yield_pearl": "High-Yield Rule: Infections",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q52",
+    "q_num": "52",
+    "stem": "A 35-year-old man with AIDS and CD4 count 40/µL has meningoencephalitis. Which of the following is the most likely set of findings?",
+    "category": "Infections",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Marked neutrophilic pleocytosis and gram-positive diplococci"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Multiple ring-enhancing lesions on MRI"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Non-enhancing white matter lesions"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Hemorrhagic temporal lobe lesion"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Mildly elevated opening pressure in most patients, mild mononuclear pleocytosis, India ink positivity, and no contrast enhancement on MRI"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Cryptococcal meningoencephalitis: raised opening pressure in about 70%, mild mononuclear pleocytosis, India ink and antigen positivity, and no enhancement on MRI.",
+    "high_yield_pearl": "High-Yield Rule: Infections",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q53",
+    "q_num": "53",
+    "stem": "A 51-year-old woman with aggressive multiple sclerosis is placed on immunosuppression. Two years later she develops bilateral blindness, cognitive decline and unsteadiness. CSF is positive for JC virus DNA. MRI shows demyelination extending through the posterior parietal and occipital lobes of both hemispheres. Which of the following best explains her blindness?",
+    "category": "Infections",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Bilateral optic neuritis"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Bilateral occipital infarcts"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Bilateral demyelination of the optic radiations"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Retinal detachment"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Pituitary compression of the chiasm"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Demyelination extending through the posterior parietal and occipital white matter damages the optic radiations bilaterally, causing bilateral blindness. PML occurs with any immunosuppression.",
+    "high_yield_pearl": "High-Yield Rule: Infections",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q54",
+    "q_num": "54",
+    "stem": "Which of the following findings best favors primary CNS lymphoma over toxoplasmosis in a patient with AIDS?",
+    "category": "Infections",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Multiple lesions in the basal ganglia"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "CD4 above 200/µL"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Response to antibiotics"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "CD4 below 50/µL, a solitary lesion, EBV association, and elevated CSF protein, LDH and β2-microglobulin"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Exposure to cats"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "PCNSL: CD4 below 50/µL, solitary lesion, EBV, and elevated CSF protein, LDH and β2-microglobulin.",
+    "high_yield_pearl": "High-Yield Rule: Infections",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q55",
+    "q_num": "55",
+    "stem": "A 40-year-old man with AIDS (CD4 count 30/µL) has retinitis, rapidly progressive dementia and multiple cranial neuropathies. MRI shows periventricular enhancement. Which of the following is the most likely cause?",
+    "category": "Infections",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Toxoplasma gondii"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Cytomegalovirus ventriculoencephalitis"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "JC virus"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Cryptococcus"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "HSV-1"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "CMV (CD4 below 50/µL) causes retinitis, ventriculoencephalitis with rapidly progressive dementia and cranial neuropathies, and polyradiculitis.",
+    "high_yield_pearl": "High-Yield Rule: Infections",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q56",
+    "q_num": "56",
+    "stem": "A patient with HIV and tuberculous meningitis improves, then worsens clinically after antiretroviral therapy is started, with fever and neurologic deterioration. CD4 count has risen. Which of the following is the most appropriate description of this syndrome?",
+    "category": "Infections",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Immune reconstitution inflammatory syndrome, an exaggerated inflammatory response to a previously acquired infection"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Antibiotic failure"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Drug-induced meningitis"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Primary CNS lymphoma"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "HIV dementia"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "IRIS follows immune recovery and is an exaggerated inflammatory response to a previously acquired infection (Cryptococcus, TB, MAC). Severe cases are treated with steroids.",
+    "high_yield_pearl": "High-Yield Rule: Infections",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q57",
+    "q_num": "57",
+    "stem": "A 63-year-old man with fever and confusion has CSF PCR positive for HSV-1. Which of the following describes the likely route of CNS entry?",
+    "category": "Infections",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Hematogenous spread to the cerebellum"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Spread through the cribriform plate from the sinuses"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Migration along the trigeminal or olfactory nerve to the temporal and frontal lobes"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Spread through the vagus nerve"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Spread through the optic nerve"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "HSV-1 enters the CNS by migrating along the trigeminal or olfactory nerve.",
+    "high_yield_pearl": "High-Yield Rule: Infections",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q58",
+    "q_num": "58",
+    "stem": "Brain biopsy of the patient in the previous question is most likely to show which of the following?",
+    "category": "Infections",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Negri bodies"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Lipid-laden macrophages"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "India ink-positive yeast"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Ring-enhancing abscess"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Perivascular lymphocytic infiltrates with Cowdry type A intranuclear inclusions"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "HSV encephalitis shows perivascular lymphocytic infiltration and Cowdry type A inclusion bodies in neurons and glia, with a hemorrhagic temporal lesion.",
+    "high_yield_pearl": "High-Yield Rule: Infections",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q59",
+    "q_num": "59",
+    "stem": "A 60-year-old man has a painful vesicular rash along a band on the left side of his chest. Which of the following best explains the rash?",
+    "category": "Infections",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Spread of herpes simplex from the lip"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Contact with a contaminated surface"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Reactivation of Epstein-Barr virus"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Reactivation of varicella zoster virus dormant in a dorsal root ganglion, traveling along the sensory nerve"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "A bacterial skin infection"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "VZV remains dormant in dorsal root ganglia and reactivates, traveling along the sensory nerve to cause a dermatomal vesicular rash.",
+    "high_yield_pearl": "High-Yield Rule: Infections",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q60",
+    "q_num": "60",
+    "stem": "A 10-year-old girl was bitten by a raccoon and died 2 months later after developing agitation and hydrophobia. Which of the following would be seen in her neurons?",
+    "category": "Infections",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Cowdry type A inclusions"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Negri bodies"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Lewy bodies"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Neurofibrillary tangles"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Verocay bodies"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Rabies causes Negri bodies in neurons. The virus travels along peripheral nerves to the CNS.",
+    "high_yield_pearl": "High-Yield Rule: Infections",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q61",
+    "q_num": "61",
+    "stem": "A 55-year-old man with fever, headache and acute flaccid paralysis of one limb has west Nile virus infection. Which of the following best explains the paralysis?",
+    "category": "Infections",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Lower motor neuron injury of the anterior horn of the spinal cord"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Peripheral demyelination"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Cortical infarction"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Neuromuscular junction blockade"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Cerebellar involvement"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "West Nile virus injures anterior horn cells (lower motor neurons), causing flaccid paralysis.",
+    "high_yield_pearl": "High-Yield Rule: Infections",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q62",
+    "q_num": "62",
+    "stem": "A 15-year-old boy develops a rapidly fatal meningoencephalitis after swimming in a freshwater lake. CSF shows motile amoebae. Which of the following is the most likely organism?",
+    "category": "Infections",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Toxoplasma gondii"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Trypanosoma brucei"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Naegleria fowleri"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Listeria monocytogenes"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Cryptococcus neoformans"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Naegleria fowleri causes rapidly fatal meningoencephalitis after freshwater exposure, with amoebae in the CSF.",
+    "high_yield_pearl": "High-Yield Rule: Infections",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q63",
+    "q_num": "63",
+    "stem": "A newborn has meningitis. Which of the following characteristics identifies Listeria monocytogenes in culture?",
+    "category": "Infections",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "A thick polysaccharide capsule on India ink"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Acid-fast staining"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Gram-negative rods"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Intranuclear inclusions"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Tumbling motility"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Listeria shows tumbling motility in culture and affects neonates, the elderly and immunocompromised patients.",
+    "high_yield_pearl": "High-Yield Rule: Infections",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q64",
+    "q_num": "64",
+    "stem": "A man has sudden weakness and sensory loss of the left leg and foot only. Which of the following best explains why the leg area is supplied differently from the arm and face areas?",
+    "category": "Blood Supply",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "The leg area lies on the lateral hemisphere supplied by the middle cerebral artery"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "The leg area lies in the paracentral lobule on the medial surface, supplied by the anterior cerebral artery, while the arm and face areas lie laterally and are supplied by the middle cerebral artery"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "The leg area is supplied by the posterior cerebral artery"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "The leg area is supplied by the vertebral artery"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "The leg area is supplied by the lenticulostriate arteries"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "The leg and foot area lies in the paracentral lobule on the medial surface (ACA). The arm, trunk and face areas lie on the lateral surface (MCA).",
+    "high_yield_pearl": "High-Yield Rule: Blood Supply",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q65",
+    "q_num": "65",
+    "stem": "Which of the following sets of structures is supplied by the anterior choroidal artery?",
+    "category": "Blood Supply",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Primary motor cortex and Broca area"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Occipital pole and thalamus"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Medial frontal lobe and corpus callosum"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Hippocampus, amygdala, Meyer loop, choroid plexus and the inferior portion of the posterior limb of the internal capsule"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Cerebellar vermis and pons"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "The anterior choroidal artery supplies the hippocampus, amygdala, Meyer loop, choroid plexus, LGN and the inferior posterior limb of the internal capsule.",
+    "high_yield_pearl": "High-Yield Rule: Blood Supply",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q66",
+    "q_num": "66",
+    "stem": "On a lateral-view cerebral angiogram, which of the following helps identify the anterior cerebral artery?",
+    "category": "Blood Supply",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "It runs through the sylvian fissure"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "It ascends over the convexity laterally"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "It supplies the insula"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "It arises from the vertebral artery"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "It curves around the corpus callosum"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "On the lateral view, the ACA is identified by its curve around the corpus callosum.",
+    "high_yield_pearl": "High-Yield Rule: Blood Supply",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q67",
+    "q_num": "67",
+    "stem": "A patient with a 20-year history of diabetes has sudden painless loss of vision in the right eye. There is no direct or consensual pconstriction when light is shone in the right eye, and the left eye responds normally. Which of the following vessels gives rise to the artery involved?",
+    "category": "Blood Supply",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Internal carotid artery (ophthalmic artery)"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Middle cerebral artery"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Posterior cerebral artery"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Anterior cerebral artery"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Basilar artery"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "The ophthalmic artery is a branch of the ICA. Occlusion (retinal artery) causes monocular blindness with an afferent pupillary defect (no direct or consensual response from the affected eye).",
+    "high_yield_pearl": "High-Yield Rule: Blood Supply",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q68",
+    "q_num": "68",
+    "stem": "A woman keeps bumping her head on kitchen cabinet doors. Examination shows a right upper homonymous quadrantanopia. Which of the following structures is most likely damaged?",
+    "category": "Blood Supply",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Right Meyer loop"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Left parietal optic radiations"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Left Meyer loop in the temporal lobe"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Left cuneus"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Optic chiasm"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "A right upper homonymous quadrantanopia (“pie in the sky”) is a left temporal Meyer loop lesion (MCA or PCA territory). Parietal radiations carry the inferior field.",
+    "high_yield_pearl": "High-Yield Rule: Blood Supply",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q69",
+    "q_num": "69",
+    "stem": "A man suddenly loses sensation over the right neck, upper limb and abdomen. His speech is fluent but contains fabricated words, and he cannot follow verbal commands. Which of the following is the most likely lesion and vessel?",
+    "category": "Blood Supply",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Left anterior cerebral artery; paracentral lobule"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Left middle cerebral artery (inferior division); superior posterior temporal lobe"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Left posterior cerebral artery; occipital lobe"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Right middle cerebral artery; posterior parietal lobe"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Left lenticulostriate artery; internal capsule"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Wernicke aphasia and right sensory loss: inferior division of the left MCA affecting the superior posterior temporal lobe and adjacent parietal cortex.",
+    "high_yield_pearl": "High-Yield Rule: Blood Supply",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q70",
+    "q_num": "70",
+    "stem": "A woman has sudden right upper limb weakness with hyperreflexia and increased tone. She tries to answer questions but produces no words, yet follows verbal commands. Which of the following is the most likely lesion and vessel?",
+    "category": "Blood Supply",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Left Wernicke area; inferior division of the MCA"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Right frontal eye field; MCA"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Left arcuate fasciculus; MCA"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Left posterior inferior frontal gyrus (Broca area); MCA"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Left angular gyrus; PCA"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Right arm weakness with no speech but intact comprehension is Broca aphasia: the posterior inferior frontal gyrus, MCA.",
+    "high_yield_pearl": "High-Yield Rule: Blood Supply",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q71",
+    "q_num": "71",
+    "stem": "A patient after a stroke has nonfluent speech, intact comprehension and intact repetition. Which of the following is the most likely location?",
+    "category": "Blood Supply",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Medial frontal lobe near Broca area, in the ACA/MCA watershed"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Superior temporal gyrus"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Arcuate fasciculus"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Occipital lobe"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Thalamus"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Transcortical motor aphasia (nonfluent, comprehension and repetition intact) involves the medial frontal lobe near Broca area, in the ACA/MCA watershed.",
+    "high_yield_pearl": "High-Yield Rule: Blood Supply",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q72",
+    "q_num": "72",
+    "stem": "A patient after a stroke has fluent speech with impaired comprehension but intact repetition. Which of the following is the most likely location?",
+    "category": "Blood Supply",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Broca area"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Arcuate fasciculus"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Medial frontal lobe"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Frontal eye field"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "A region adjacent to Wernicke area in the MCA/PCA watershed"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Transcortical sensory aphasia (fluent, impaired comprehension, intact repetition) involves cortex adjacent to Wernicke area, in the MCA/PCA watershed.",
+    "high_yield_pearl": "High-Yield Rule: Blood Supply",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q73",
+    "q_num": "73",
+    "stem": "A patient after a large perisylvian infarct cannot name objects, speak fluently, comprehend, repeat or read. Which of the following is the most likely diagnosis?",
+    "category": "Blood Supply",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Conduction aphasia"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Anomic aphasia"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Global aphasia, from extensive left MCA territory infarction involving Broca area, Wernicke area and the arcuate fasciculus"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Transcortical motor aphasia"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Dysarthria"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Global aphasia (nonfluent, poor comprehension and repetition) results from an extensive MCA infarct involving Broca area, Wernicke area and the arcuate fasciculus.",
+    "high_yield_pearl": "High-Yield Rule: Blood Supply",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q74",
+    "q_num": "74",
+    "stem": "A student confuses aphasia with dysarthria. Which of the following statements is correct?",
+    "category": "Blood Supply",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Both are disorders of muscle coordination"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Aphasia is a cognitive language disorder affecting spoken, written and sign language, while dysarthria is a mechanical disorder of the muscles of speech"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Dysarthria involves impaired comprehension"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Aphasia is caused only by cerebellar lesions"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Dysarthria affects only writing"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Aphasia is a cognitive language disorder across spoken, written and sign language. Dysarthria is a mechanical disorder of the muscles of speech, including from cerebellar lesions.",
+    "high_yield_pearl": "High-Yield Rule: Blood Supply",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q75",
+    "q_num": "75",
+    "stem": "Which of the following correctly matches the brainstem level with its blood supply?",
+    "category": "Blood Supply",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Midbrain: basilar artery only; pons: PCA; medulla: AICA"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Midbrain: PICA; pons: ASA; medulla: SCA"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Midbrain: AICA; pons: PICA; medulla: PCA"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Midbrain: PCA; rostral pons: SCA and basilar; caudal pons: AICA; medulla: PICA, vertebral and anterior spinal arteries"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "All levels: posterior communicating artery"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Midbrain: PCA. Rostral pons: SCA (long circumferential) and basilar. Caudal pons: AICA. Medulla: PICA, vertebral and anterior spinal arteries.",
+    "high_yield_pearl": "High-Yield Rule: Blood Supply",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q76",
+    "q_num": "76",
+    "stem": "Which of the following correctly describes venous drainage of the brain?",
+    "category": "Blood Supply",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Superficial veins drain to the superior sagittal sinus, deep veins drain to the straight sinus through the great cerebral vein, and the sinuses empty into the internal jugular vein"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Deep veins drain directly to the internal carotid artery"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Superficial veins drain to the straight sinus"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Dural sinuses drain to the vertebral veins only"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "The sagittal sinus drains into the cavernous sinus"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Superficial veins drain to the superior sagittal sinus, deep veins drain to the straight sinus (great cerebral vein of Galen), and the sinuses empty into the internal jugular vein.",
+    "high_yield_pearl": "High-Yield Rule: Blood Supply",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q77",
+    "q_num": "77",
+    "stem": "Which of the following correctly describes berry aneurysms and the sites prone to hypertensive hemorrhage?",
+    "category": "Blood Supply",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Berry aneurysms occur in the cerebellum; hypertensive bleeds occur in the cortex"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Berry aneurysms occur at vein junctions; hypertensive bleeds occur at the pituitary"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Berry aneurysms occur in the spinal cord"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Berry aneurysms occur in the optic nerve; hypertensive bleeds occur in the hippocampus"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Berry aneurysms occur at branch points around the circle of Willis; hypertensive bleeds occur in the basal ganglia, thalamus, pons and cerebellum"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Berry aneurysms form at branch points around the circle of Willis. Hypertension damages long, narrow vessels, causing hemorrhages in the basal ganglia, thalamus, pons and cerebellum.",
+    "high_yield_pearl": "High-Yield Rule: Blood Supply",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q78",
+    "q_num": "78",
+    "stem": "A 56-year-old man has two 10-minute episodes of right facial numbness that fully resolved. Which of the following statements about this condition is correct?",
+    "category": "Cerebrovascular Disease",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "It is benign and needs only routine follow-up"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "It has no risk of stroke"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "It is a medical emergency, with about 5% risk of stroke within 2 days and about 11% within 90 days"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "It always causes a visible infarct on CT"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "It occurs only in the elderly"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "A TIA is a medical emergency. About 5% have a stroke within 2 days and about 11% within 90 days.",
+    "high_yield_pearl": "High-Yield Rule: Cerebrovascular Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q79",
+    "q_num": "79",
+    "stem": "Which of the following best describes the sequence of events in atherosclerotic plaque formation?",
+    "category": "Cerebrovascular Disease",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Smooth muscle death, then fat loss"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Fibrosis, then fat deposition"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Thrombus, then macrophages"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Fat deposition in the intima, macrophage cytokine release causing inflammation, smooth muscle proliferation and connective tissue deposition, and plaque growth"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Calcification, then inflammation"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Plaque formation: fat in the intima, macrophage cytokines causing inflammation, smooth muscle proliferation and connective tissue deposition, and plaque growth.",
+    "high_yield_pearl": "High-Yield Rule: Cerebrovascular Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q80",
+    "q_num": "80",
+    "stem": "A 75-year-old man with long-standing hypertension has a lacunar infarct. Which of the following correctly pairs the pathologic process with the vessels affected and risk factors?",
+    "category": "Cerebrovascular Disease",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Atheroma; carotid arteries; smoking only"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Lipohyalinosis; lenticulostriate, thalamic perforator and basilar branch vessels; hypertension, diabetes and aging"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Embolism; middle cerebral artery; atrial fibrillation"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Dissection; vertebral artery; neck trauma"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Vasculitis; small veins; infection"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Lipohyalinosis (endothelial damage and wall thickening) affects lenticulostriate, thalamic perforator and basilar branch vessels. Risks are hypertension, diabetes and aging.",
+    "high_yield_pearl": "High-Yield Rule: Cerebrovascular Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q81",
+    "q_num": "81",
+    "stem": "A 70-year-old man with atrial fibrillation has a cortical infarct. Which of the following are the most common sources of embolic stroke?",
+    "category": "Cerebrovascular Disease",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "The kidney and the liver"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "The lungs and the spleen"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "The venous system only"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "The skin and muscles"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "The heart and the internal carotid artery"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Emboli come most commonly from the heart (atrial fibrillation) and the internal carotid artery. Treatment is anticoagulation and control of atrial fibrillation.",
+    "high_yield_pearl": "High-Yield Rule: Cerebrovascular Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q82",
+    "q_num": "82",
+    "stem": "A 41-year-old woman develops a stroke 2 weeks after a neck procedure. Which of the following correctly describes arterial dissection?",
+    "category": "Cerebrovascular Disease",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Separation of the intima and media with an expanding intramural hematoma"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Rupture of a berry aneurysm"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Inflammation of the vessel wall"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Thickening of arterioles by lipohyalinosis"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Obstruction by a cardiac embolus"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Arterial dissection is a separation of the intima and media with an expanding intramural hematoma, associated with trauma and hypertension.",
+    "high_yield_pearl": "High-Yield Rule: Cerebrovascular Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q83",
+    "q_num": "83",
+    "stem": "A patient has headache, stiff neck and nausea. Which of the following findings best distinguishes subarachnoid hemorrhage from meningitis?",
+    "category": "Cerebrovascular Disease",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Fever and neutrophils in the CSF"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Low CSF glucose"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "No fever, red blood cells in the CSF, and blood in the sulcal spaces on CT"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Papilledema"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "A rash"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "SAH is afebrile, with red blood cells in the CSF and blood in the subarachnoid space on CT. Meningitis has fever and meningeal inflammation.",
+    "high_yield_pearl": "High-Yield Rule: Cerebrovascular Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q84",
+    "q_num": "84",
+    "stem": "A 59-year-old man has a ruptured saccular aneurysm of the anterior cerebral artery. Which of the following is the most appropriate treatment of the aneurysm?",
+    "category": "Cerebrovascular Disease",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Observation only"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Clipping or coiling, with blood pressure control"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Thrombolysis"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Radiation"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Carotid endarterectomy"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Aneurysms are treated by clipping or coiling, with blood pressure control. Complications are vasospasm (nimodipine) and hydrocephalus.",
+    "high_yield_pearl": "High-Yield Rule: Cerebrovascular Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q85",
+    "q_num": "85",
+    "stem": "A neurology student reviews cerebral blood flow. Which of the following statements is correct?",
+    "category": "Cerebrovascular Disease",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Blood flow is highly sensitive to oxygen levels"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Blood flow decreases with high CO2"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Blood flow changes linearly with blood pressure"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Blood flow is constant over a restricted range of arterial pressure, insensitive to oxygen, and very sensitive to CO2 (high CO2 lowers pH and causes vasodilation)"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Blood flow is unaffected by CO2"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Cerebral blood flow is constant over a range of pressures, insensitive to oxygen and very sensitive to CO2.",
+    "high_yield_pearl": "High-Yield Rule: Cerebrovascular Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q86",
+    "q_num": "86",
+    "stem": "A patient is brought in by EMS with symptoms of stroke. Which of the following correctly lists the initial imaging sequence?",
+    "category": "Cerebrovascular Disease",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "MRI spine, then EEG"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Lumbar puncture, then CT"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Angiography, then CT"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "EEG, then CT"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Noncontrast CT to distinguish ischemic from hemorrhagic stroke, then CT angiography to find the occlusion, then CT perfusion to assess viable tissue"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Noncontrast CT separates ischemic from hemorrhagic stroke, CTA locates the occlusion, and CT perfusion shows viable tissue. Then decide on thrombolysis or thrombectomy.",
+    "high_yield_pearl": "High-Yield Rule: Cerebrovascular Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q87",
+    "q_num": "87",
+    "stem": "A researcher asks which brain regions have neurons most sensitive to ischemia. Which of the following is correct?",
+    "category": "Cerebrovascular Disease",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Hippocampus, cerebellum and cortex"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Brainstem only"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Basal ganglia only"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Spinal cord"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Thalamus and hypothalamus"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "The hippocampus, cerebellum and cortex have neurons most sensitive to ischemia.",
+    "high_yield_pearl": "High-Yield Rule: Cerebrovascular Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q88",
+    "q_num": "88",
+    "stem": "A 42-year-old man with a prior right MCA stroke, tobacco and cannabis use, LDL 65 mg/dL and HbA1c 8.9% returns with new vision loss. Workup finds intracranial atherosclerosis. Which of the following is the most important management priority?",
+    "category": "Cerebrovascular Disease",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Decompressive craniectomy"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Immediate thrombolysis only"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Aggressive control of vascular risk factors: glycemic control, antiplatelet therapy, statin, and cessation of smoking and drug use"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Repeat cardiac monitoring only"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Stopping all medications"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Recurrent stroke from intracranial atherosclerosis with poorly controlled risk factors requires aggressive control of glucose, antiplatelet therapy, statin, and cessation of smoking and drug use.",
+    "high_yield_pearl": "High-Yield Rule: Cerebrovascular Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q89",
+    "q_num": "89",
+    "stem": "A 20-year-old man is in a coma after head trauma. Which of the following correctly lists the requirements for a diagnosis of brain death?",
+    "category": "Cerebrovascular Disease",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Absent pupillary reflex only"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Flat EEG only"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Absence of motor response only"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Lack of brain function, lack of cranial nerve function and loss of all brainstem reflexes"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Apnea only"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Brain death requires lack of brain function, lack of cranial nerve function and loss of all brainstem reflexes.",
+    "high_yield_pearl": "High-Yield Rule: Cerebrovascular Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q90",
+    "q_num": "90",
+    "stem": "In the patient in the previous question, infusion of cold water into each ear produces no eye movement. Which of the following brainstem levels does this test assess, and what does the result suggest?",
+    "category": "Cerebrovascular Disease",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Midbrain only; reversible"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Rostral medulla to caudal pons (vestibulo-ocular pathway); likely irreversible bilateral brainstem damage at this level"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Cerebral cortex; reversible"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Spinal cord; reversible"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Cerebellum only; unrelated to prognosis"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "The caloric test assesses the vestibulo-ocular pathway from the rostral medulla to the caudal pons. Absence suggests irreversible brainstem damage at that level.",
+    "high_yield_pearl": "High-Yield Rule: Cerebrovascular Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q91",
+    "q_num": "91",
+    "stem": "Which of the following correctly matches brainstem level to the reflex used to assess it?",
+    "category": "Cerebrovascular Disease",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Midbrain: gag; pons: pupillary; medulla: corneal"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Midbrain: corneal; pons: gag; medulla: pupillary"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Midbrain: oculocephalic; pons: gag; medulla: corneal"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Midbrain: caloric; pons: cough; medulla: pupillary"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Midbrain: pupillary light reflex; pons: corneal reflex; medulla: oculocephalic reflex"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Midbrain: pupillary light reflex. Pons: corneal reflex. Medulla: oculocephalic (vestibulo-ocular) reflex or caloric test.",
+    "high_yield_pearl": "High-Yield Rule: Cerebrovascular Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q92",
+    "q_num": "92",
+    "stem": "A 16-year-old with a facial furuncle has cavernous sinus thrombosis. Which of the following cranial nerves lie within the cavernous sinus?",
+    "category": "Cerebrovascular Disease",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "III, IV, V1, V2 and VI"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "I, II and VII"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "IX, X and XI"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "V3 and VII"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "VIII and XII"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "The cavernous sinus contains the ICA, CN III, IV, V1, V2 and VI, and sympathetic fibers.",
+    "high_yield_pearl": "High-Yield Rule: Cerebrovascular Disease",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q93",
+    "q_num": "93",
+    "stem": "A patient has a sudden stroke. Which of the following findings favors a cortical rather than a subcortical location?",
+    "category": "Brainstem Stroke",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Pure motor hemiparesis of face, arm and leg"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Pure sensory loss of face and body"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Aphasia, sustained eye deviation or a visual field cut without cranial nerve palsies"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Cranial nerve palsies with crossed findings"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Cerebellar ataxia without cognitive deficits"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Cortical strokes cause aphasia, sustained eye deviation, visual field cuts, cognitive deficits and face/arm without leg (or leg alone) deficits, without cranial nerve palsies other than lower face.",
+    "high_yield_pearl": "High-Yield Rule: Brainstem Stroke",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q94",
+    "q_num": "94",
+    "stem": "A patient has right lower facial droop with forehead sparing and no other cranial nerve findings. Which of the following is the best interpretation?",
+    "category": "Brainstem Stroke",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Left facial nerve palsy"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Right facial nerve palsy"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Bell palsy"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "An upper motor neuron lesion of the left corticobulbar pathway"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Right brainstem facial nucleus lesion"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Lower facial weakness with forehead sparing is an upper motor neuron (corticobulbar) lesion on the opposite side. A CN VII lesion paralyzes the whole face on the same side.",
+    "high_yield_pearl": "High-Yield Rule: Brainstem Stroke",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q95",
+    "q_num": "95",
+    "stem": "Which of the following best differentiates a proximal from a distal middle cerebral artery infarct?",
+    "category": "Brainstem Stroke",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Distal infarcts cause hemiparesis of the entire contralateral body"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Proximal infarcts involve the lenticulostriate branches and internal capsule, causing weakness of the entire contralateral body, while distal infarcts affect the face and arm sparing the leg"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Proximal infarcts spare the face"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Both cause the same deficits"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Distal infarcts cause leg weakness only"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Proximal MCA infarcts involve lenticulostriate branches and the internal capsule (whole contralateral body). Distal infarcts affect the face and arm and spare the leg.",
+    "high_yield_pearl": "High-Yield Rule: Brainstem Stroke",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q96",
+    "q_num": "96",
+    "stem": "A patient has an infarct of the right frontal eye field. Which of the following is the most likely eye finding?",
+    "category": "Brainstem Stroke",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Sustained gaze to the right"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Sustained gaze to the left"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Vertical gaze palsy"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Adduction failure"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Convergence failure"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Each frontal eye field drives gaze to the opposite side, so a right infarct causes sustained gaze to the right (toward the lesion).",
+    "high_yield_pearl": "High-Yield Rule: Brainstem Stroke",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q97",
+    "q_num": "97",
+    "stem": "An 80-year-old woman ignores her left side, draws all the clock numbers on the right and is unaware of the problem. Which of the following is the most likely lesion and vessel?",
+    "category": "Brainstem Stroke",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Left frontal lobe; ACA"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Left parietal lobe; MCA"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Right occipital lobe; PCA"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Right frontal lobe; ACA"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Right posterior parietal lobe; MCA"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Neglect and anosognosia: right posterior parietal lobe, MCA.",
+    "high_yield_pearl": "High-Yield Rule: Brainstem Stroke",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q98",
+    "q_num": "98",
+    "stem": "A patient has right arm and leg weakness with hyperreflexia, a Babinski sign, right mouth droop with forehead sparing and tongue deviation to the right. His left eye is down and out, with a dilated pupil, no direct or consensual response and inability to look up or down. Sensation is intact. Which of the following is the most likely lesion and vessel?",
+    "category": "Brainstem Stroke",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Right rostral midbrain; PCA"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Left caudal pons; basilar artery"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Left rostral midbrain; posterior cerebral artery"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Right rostral medulla; ASA"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Left rostral medulla; PICA"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Weber syndrome: left rostral midbrain (CN III ipsilateral, corticospinal and corticobulbar fibers contralateral), PCA. The tongue deviation is from corticobulbar (UMN) involvement, not CN XII.",
+    "high_yield_pearl": "High-Yield Rule: Brainstem Stroke",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q99",
+    "q_num": "99",
+    "stem": "A 76-year-old woman with atrial fibrillation stopped warfarin. She now has a right eye down and out with a dilated pupil, loss of touch on the left body, loss of touch and pinprick on the left face, and left limb intention tremor. Which of the following sets of structures is involved?",
+    "category": "Brainstem Stroke",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Right CN III, medial lemniscus, ventral trigeminothalamic tract and superior cerebellar peduncle in the right midbrain"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Left CN III, corticospinal tract and medial lemniscus"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Right CN VI and facial nucleus"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Right CN XII and pyramid"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Left CN V and spinal trigeminal tract"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Benedikt syndrome: right CN III, medial lemniscus, ventral trigeminothalamic tract and superior cerebellar peduncle fibers in the right midbrain, from PCA.",
+    "high_yield_pearl": "High-Yield Rule: Brainstem Stroke",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q100",
+    "q_num": "100",
+    "stem": "A 66-year-old man has double vision with the right eye down and out and a dilated pupil, left limb ataxia, and mild slowness and stiffness of the left arm. Strength and sensation are normal, and the face and tongue are symmetric. Which of the following structures best explain the left-sided findings?",
+    "category": "Brainstem Stroke",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Left red nucleus only"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Right corticospinal tract"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Left medial lemniscus"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Right superior cerebellar peduncle and substantia nigra"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Left cerebellar hemisphere"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "The right superior cerebellar peduncle (after decussation) and substantia nigra explain the left ataxia and parkinsonian stiffness. The red nucleus alone supplies only the upper limb.",
+    "high_yield_pearl": "High-Yield Rule: Brainstem Stroke",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q101",
+    "q_num": "101",
+    "stem": "A patient has sudden jaw deviation to the right, loss of touch on the right face, and right arm and leg dysmetria with tremor. Strength and sensation elsewhere are intact. Which of the following is the most likely lesion?",
+    "category": "Brainstem Stroke",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Right mid pons, including trigeminal motor nucleus, chief sensory nucleus and cerebellar peduncle fibers"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Left mid pons"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Right rostral midbrain"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Right rostral medulla"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Left caudal pons"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "CN V marks the mid pons. Jaw deviation, ipsilateral facial touch loss and ipsilateral ataxia (peduncle fibers) localize to the right mid pons (basilar).",
+    "high_yield_pearl": "High-Yield Rule: Brainstem Stroke",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q102",
+    "q_num": "102",
+    "stem": "A 59-year-old woman has sudden facial numbness and trouble chewing. Her jaw deviates to the right. She has loss of light touch on the right face, loss of pain and temperature on the left body, and right ptosis and miosis with decreased facial sweating. Coordination is normal. Which of the following explains the findings?",
+    "category": "Brainstem Stroke",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Right medial midbrain"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Left lateral medulla"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Right caudal pons"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Left mid pons"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Right mid pons: motor and chief sensory nuclei of V, anterolateral system and sympathetic fibers, with sparing of the cerebellar peduncles"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "The same mid pontine lesion without ataxia: motor and chief sensory nuclei of V, anterolateral system and sympathetic fibers, with the cerebellar peduncles spared.",
+    "high_yield_pearl": "High-Yield Rule: Brainstem Stroke",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q103",
+    "q_num": "103",
+    "stem": "A 61-year-old man has horizontal diplopia, with the left eye turned medially and unable to abduct. He has right arm and leg weakness, right lower face droop with forehead sparing, and loss of right-sided touch. Which of the following is the most likely location?",
+    "category": "Brainstem Stroke",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Right rostral midbrain"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Left rostral medulla"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Left medial caudal pons (abducens, corticospinal and corticobulbar tracts, medial lemniscus)"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Right lateral caudal pons"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Left lateral medulla"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "CN VI with contralateral weakness and a UMN lower face droop is an alternating syndrome of the left medial caudal pons (basilar paramedian branches).",
+    "high_yield_pearl": "High-Yield Rule: Brainstem Stroke",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q104",
+    "q_num": "104",
+    "stem": "A 55-year-old woman has complete right facial paralysis including the forehead, loss of pain and temperature on the right face and left body, and right ptosis and miosis. Coordination and strength are normal. Which of the following is the most likely lesion and vessel?",
+    "category": "Brainstem Stroke",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Right lateral medulla; PICA"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Right lateral caudal pons; anterior inferior cerebellar artery"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Left lateral caudal pons; AICA"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Right medial pons; basilar paramedian branches"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Right midbrain; PCA"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Whole-face palsy, ipsilateral face and contralateral body pain and temperature loss, and Horner syndrome localize to the right lateral caudal pons (AICA). Coordination is normal because the peduncles are spared.",
+    "high_yield_pearl": "High-Yield Rule: Brainstem Stroke",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q105",
+    "q_num": "105",
+    "stem": "A 57-year-old man with hypertension suddenly has vertigo, vomiting and hoarseness. He has nystagmus, truncal ataxia and left limb ataxia, and the uvula deviates to the right. He has loss of pain and temperature in the left face and right body, with small left pupil and ptosis. Which of the following structures explains the left limb ataxia, and which vessel is involved?",
+    "category": "Brainstem Stroke",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Left superior cerebellar peduncle; SCA"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Left middle cerebellar peduncle; AICA"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Right inferior cerebellar peduncle; PICA"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Left inferior cerebellar peduncle; PICA"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Left cerebellar hemisphere; vertebral artery"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Wallenberg syndrome: left inferior cerebellar peduncle damage causes left limb ataxia (PICA or vertebral artery).",
+    "high_yield_pearl": "High-Yield Rule: Brainstem Stroke",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q106",
+    "q_num": "106",
+    "stem": "A 63-year-old man has weakness of the left arm and leg with hyperreflexia, tongue deviation to the right, and loss of vibration and proprioception in the left limbs. Pinprick is intact and the face moves normally. Which of the following is the most likely lesion and vessel?",
+    "category": "Brainstem Stroke",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Right rostral medulla (medial), involving corticospinal tract, hypoglossal nerve and medial lemniscus; anterior spinal artery"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Left rostral medulla (lateral); PICA"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Right caudal pons; basilar artery"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Left rostral midbrain; PCA"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Right mid pons; AICA"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Right medial rostral medulla: right corticospinal tract (left weakness), right CN XII (tongue to the right) and right medial lemniscus (left vibration and proprioception loss). Supply is the anterior spinal artery.",
+    "high_yield_pearl": "High-Yield Rule: Brainstem Stroke",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q107",
+    "q_num": "107",
+    "stem": "A 68-year-old man with atrial fibrillation is awake and alert, quadriplegic, unable to speak or swallow, and can communicate only by blinking and moving his eyes vertically. Which of the following is the most likely lesion and vessel?",
+    "category": "Brainstem Stroke",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Bilateral internal capsule; lenticulostriate arteries"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Bilateral medial medulla; ASA"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Bilateral thalamus; PCA"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Bilateral cerebral peduncles; PCA"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Bilateral basal pons (corticospinal and corticobulbar tracts); basilar artery"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Locked-in syndrome results from bilateral basal pontine infarction of the corticospinal and corticobulbar tracts (basilar artery), sparing consciousness and vertical gaze.",
+    "high_yield_pearl": "High-Yield Rule: Brainstem Stroke",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q108",
+    "q_num": "108",
+    "stem": "A 72-year-old man has right arm, leg and lower face weakness with hyperreflexia and a Babinski sign. He has no sensory loss, cranial nerve palsy other than lower face, ataxia, or cognitive or visual deficits. Which of the following is the most likely location, and why is this not a brainstem lesion?",
+    "category": "Brainstem Stroke",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Right thalamus; because sensory loss would be present"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Left medial medulla; because the tongue would be affected"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Left posterior limb of the internal capsule (lenticulostriate lacune); because brainstem lesions produce crossed cranial nerve findings"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Left cerebellum; because ataxia would be present"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Left occipital lobe; because vision would be affected"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Pure motor hemiparesis of the face, arm and leg without crossed or cranial nerve findings is a lacunar infarct of the posterior limb of the internal capsule (lenticulostriate arteries).",
+    "high_yield_pearl": "High-Yield Rule: Brainstem Stroke",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q109",
+    "q_num": "109",
+    "stem": "An 82-year-old woman with a urinary tract infection develops confusion over 2 days. She is inattentive, her alertness fluctuates, and her speech is disorganized. Which of the following best describes her condition compared with dementia?",
+    "category": "Dementia",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Insidious onset, normal attention, irreversible"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Abrupt onset, reduced attention, fluctuating consciousness, usually reversible"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Insidious onset, fluctuating consciousness, irreversible"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Abrupt onset, normal attention, irreversible"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Chronic course lasting years with stable consciousness"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Delirium: abrupt onset, reduced attention, fluctuating consciousness, disorganized speech, usually reversible. Dementia: insidious, normal attention, irreversible.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q110",
+    "q_num": "110",
+    "stem": "Patient H.M. had bilateral medial temporal lobe resection. Which of the following is the most accurate prediction after surgery?",
+    "category": "Dementia",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "He cannot learn motor skills"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "He loses procedural memory only"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "He loses working memory only"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "He can learn to ride a bicycle (procedural memory intact), but he will not remember having learned it"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "He loses all memory types equally"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "H.M. lost new episodic and semantic memory but kept procedural and working memory. He could learn a bicycle but not remember learning it.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q111",
+    "q_num": "111",
+    "stem": "A man has bilateral amygdala damage after herpes encephalitis. Which of the following findings is most likely?",
+    "category": "Dementia",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Loss of fear and aggression, hypo-emotionality, hyperorality and hypersexuality (Klüver-Bucy syndrome)"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Anterograde amnesia only"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Wernicke aphasia"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Hemiballismus"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Visual agnosia"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Bilateral amygdala damage causes Klüver-Bucy syndrome: loss of fear and aggression, hypo-emotionality, hyperorality and hypersexuality.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q112",
+    "q_num": "112",
+    "stem": "A researcher studies the nucleus accumbens. Which of the following best describes its role?",
+    "category": "Dementia",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Controls balance"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Controls memory consolidation"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Controls language"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Regulates sleep"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Mediates response to rewarding stimuli through dopamine, reinforcing rewarding behaviors and contributing to addiction"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "The nucleus accumbens mediates reward through dopamine and reinforces rewarding behaviors, which is central to addiction.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q113",
+    "q_num": "113",
+    "stem": "Which of the following correctly lists the progression of activity through the Papez circuit?",
+    "category": "Dementia",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Hippocampus, amygdala, thalamus, mammillary body"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Fornix, hippocampus, cingulate gyrus, thalamus"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Hippocampus, fornix, mammillary body, anterior thalamic nucleus, cingulate gyrus, entorhinal cortex, hippocampus"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Amygdala, hypothalamus, cingulate gyrus, hippocampus"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Thalamus, caudate, putamen, hippocampus"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Papez circuit: hippocampus, fornix, mammillary body, anterior thalamic nucleus, cingulate gyrus, entorhinal cortex, back to the hippocampus.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q114",
+    "q_num": "114",
+    "stem": "A 50-year-old man who drinks two pints of vodka daily is confused, with bilateral horizontal nystagmus and an unsteady, wide-based gait. Which of the following correctly states the classic triad and the MRI finding?",
+    "category": "Dementia",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Dementia, incontinence, gait disorder; ventriculomegaly"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Confusion, ophthalmoplegia, ataxia; hemorrhage of the mammillary bodies"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Chorea, depression, dementia; caudate atrophy"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Myoclonus, ataxia, dementia; cortical ribboning"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Hallucinations, parkinsonism, fluctuation; occipital hypometabolism"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Wernicke encephalopathy (thiamine deficiency): confusion, ophthalmoplegia, ataxia. MRI shows hemorrhage of the mammillary bodies. Give IV thiamine before glucose. Untreated, Korsakoff syndrome (anterograde amnesia, confabulation) can follow.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q115",
+    "q_num": "115",
+    "stem": "Which of the following best describes how amyloid and tau are involved in Alzheimer disease?",
+    "category": "Dementia",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Amyloid forms intracellular tangles and tau forms extracellular plaques"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Both are cleared normally"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Both aggregate only in the cerebellum"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Improper cleavage of amyloid precursor protein by secretases produces long β-amyloid fragments that aggregate into extracellular plaques, and hyperphosphorylated tau forms intracellular neurofibrillary tangles"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Tau is cleaved by secretases"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Improper cleavage of APP by secretases yields long β-amyloid fragments that form extracellular plaques, while hyperphosphorylated tau forms intracellular tangles.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q116",
+    "q_num": "116",
+    "stem": "MRI of a patient with Alzheimer disease shows cortical atrophy with enlarged lateral ventricles. Which of the following explains the ventricular enlargement, and which cholinergic structure degenerates?",
+    "category": "Dementia",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Hydrocephalus ex vacuo from loss of cortical tissue; nucleus basalis of Meynert"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Obstruction of CSF flow; caudate"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Impaired CSF resorption; substantia nigra"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Overproduction of CSF; locus coeruleus"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Hemorrhage; red nucleus"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Cortical atrophy causes hydrocephalus ex vacuo. Cholinergic loss follows degeneration of the nucleus basalis of Meynert, which is why cholinesterase inhibitors are used.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q117",
+    "q_num": "117",
+    "stem": "A 64-year-old man has REM sleep behavior disorder, visual hallucinations and fluctuating cognition. Which of the following would be found at autopsy?",
+    "category": "Dementia",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Neurofibrillary tangles in the hippocampus"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Spongiform change"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Lewy bodies containing α-synuclein, diffusely in the cortex and in the substantia nigra"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Pick bodies in the frontal lobe"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Multiple lacunar infarcts"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Lewy body dementia: Lewy bodies of α-synuclein (with neuromelanin) in the cortex and substantia nigra. Memory is spared early.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q118",
+    "q_num": "118",
+    "stem": "Which of the following correctly describes frontotemporal lobar degeneration subtypes?",
+    "category": "Dementia",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Memory loss first and hippocampal atrophy"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Hallucinations first with parkinsonism"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Myoclonus with ataxia"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Gait disorder with urinary incontinence"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Behavioral variant from frontal lobe damage, and primary progressive aphasia from Broca area (speech) or Wernicke area (comprehension) involvement, with tau or TDP-43 inclusions"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Behavioral variant arises from frontal damage. Primary progressive aphasia arises from Broca area (speech) or Wernicke area (comprehension) involvement. Pathology is tau or TDP-43.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q119",
+    "q_num": "119",
+    "stem": "A 63-year-old woman has rapidly progressive confusion, ataxia and myoclonus. Which of the following sets of findings is most likely?",
+    "category": "Dementia",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Hippocampal atrophy on MRI; neuritic plaques"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "MRI cortical ribboning with caudate, putamen and thalamic hyperintensity; periodic sharp waves on EEG; 14-3-3 in the CSF"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Enlarged ventricles with normal sulci"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Frontal atrophy with tau inclusions"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Multiple lacunes"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "CJD: rapid decline, myoclonus and ataxia, with cortical ribboning and basal ganglia and thalamic hyperintensity, periodic sharp waves on EEG and 14-3-3 in CSF.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q120",
+    "q_num": "120",
+    "stem": "A 72-year-old man has a magnetic gait, urinary incontinence and cognitive decline, with enlarged ventricles. Which of the following is the best description of the disorder and its treatment?",
+    "category": "Dementia",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Alzheimer disease; donepezil"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Vascular dementia; antiplatelet therapy"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Lewy body dementia; antipsychotics"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Normal pressure hydrocephalus from impaired CSF resorption by the arachnoid granulations; shunting"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "CJD; supportive care"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Normal pressure hydrocephalus: gait disorder, dementia and urinary incontinence from impaired CSF resorption by arachnoid granulations. Treat with shunting.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q121",
+    "q_num": "121",
+    "stem": "Which of the following best differentiates vascular dementia from Alzheimer disease?",
+    "category": "Dementia",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Stepwise progression with focal neurologic deficits from multiple infarcts"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Insidious memory loss as the first feature"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Hippocampal atrophy only"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Amyloid plaques"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Response to cholinesterase inhibitors"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Vascular dementia has stepwise progression and focal deficits from multiple infarcts. Memory impairment tends to occur later. AD has insidious memory loss.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q122",
+    "q_num": "122",
+    "stem": "According to your course notes, which MMSE score range indicates mild cognitive impairment?",
+    "category": "Dementia",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "30–27"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "10–6"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "26–21"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "5–0"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Above 28"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Per your course notes, an MMSE of 26–21 indicates mild cognitive impairment.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q123",
+    "q_num": "123",
+    "stem": "A 42-year-old man has chorea, depression and dementia. His father had similar symptoms. Which of the following correctly describes this disease?",
+    "category": "Dementia",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Autosomal recessive; GAA repeat"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "X-linked; CGG repeat"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Mitochondrial; point mutation"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Sporadic; prion"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Autosomal dominant CAG repeats in the huntingtin gene, with caudate and putamen atrophy, dopamine excess relative to acetylcholine, and tetrabenazine treatment"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Huntington disease: autosomal dominant CAG repeats in huntingtin, caudate and putamen atrophy, dopamine excess relative to acetylcholine, treated with tetrabenazine.",
+    "high_yield_pearl": "High-Yield Rule: Dementia",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q124",
+    "q_num": "124",
+    "stem": "A 25-year-old woman has a strange sensation followed by involuntary contraction of her right arm. She remains fully aware and can answer questions throughout. Which of the following is the best description?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Absence seizure"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Tonic-clonic seizure"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Atonic seizure"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Focal aware seizure"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Myoclonic seizure"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Focal aware seizure: focal symptoms with preserved awareness.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q125",
+    "q_num": "125",
+    "stem": "A 28-year-old man has a warning sensation, then stares, picks at his clothes and smacks his lips, and does not respond. Which of the following is the best description?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Focal aware seizure"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Focal impaired awareness seizure with automatisms"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Absence seizure"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Atonic seizure"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Tonic seizure"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Focal impaired awareness seizure: aura plus impaired awareness with automatisms.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q126",
+    "q_num": "126",
+    "stem": "A 20-year-old woman in class suddenly stiffens for about 20 seconds, then is sleepy and confused. Which of the following is the best description?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Myoclonic seizure"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Atonic seizure"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Tonic seizure"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Absence seizure"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Focal aware seizure"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Tonic seizure: stiffening of the body, then postictal drowsiness and confusion.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q127",
+    "q_num": "127",
+    "stem": "A 35-year-old man at work cries out, falls stiff, and then has rhythmic jerking of all limbs for about 1 minute. He is incontinent and sleepy afterward. Which of the following is the best description?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Tonic-clonic seizure"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Absence seizure"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Myoclonic seizure"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Atonic seizure"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Syncope"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Tonic-clonic seizure: alternating stiffening and jerking, incontinence and postictal confusion.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q128",
+    "q_num": "128",
+    "stem": "A 10-year-old girl has sudden, brief, shock-like jerks of both shoulders and arms for about 4 seconds, with several episodes a day. Which of the following is the best description?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Absence seizure"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Tonic seizure"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Atonic seizure"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Focal aware seizure"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Myoclonic seizure"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Myoclonic seizure: brief repetitive jerks of the arms or legs.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q129",
+    "q_num": "129",
+    "stem": "A 30-year-old woman who was talking suddenly falls to the ground motionless. She does not respond and is confused afterward. Which of the following is the best description?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Myoclonic seizure"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Tonic-clonic seizure"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Absence seizure"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Atonic seizure"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Focal aware seizure"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Atonic (drop) seizure: sudden loss of tone and falling.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q130",
+    "q_num": "130",
+    "stem": "A 6-year-old boy does not respond when called on in class. He stares to the side, blinks several times for about 20 seconds, and then resumes talking. Which of the following is the best description?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Atonic seizure"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Absence seizure"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Tonic seizure"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Myoclonic seizure"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Focal impaired awareness seizure"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Absence seizure: blank stare with blinking, no postictal period.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q131",
+    "q_num": "131",
+    "stem": "A student asks how focal and generalized seizures differ. Which of the following is correct?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Both begin in both hemispheres"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Focal seizures always cause loss of consciousness"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Focal seizures begin in one area of one hemisphere and can spread (secondary generalization), while generalized seizures begin in both hemispheres"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Generalized seizures begin in one area"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "They cannot be distinguished"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Focal seizures start in one area of one hemisphere and can secondarily generalize. Generalized seizures start in both hemispheres.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q132",
+    "q_num": "132",
+    "stem": "A 30-year-old man is brought in after convulsing for 12 minutes with no return of awareness. Which of the following defines his condition?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Seizure lasting more than 5 minutes, or recurring seizures without regaining consciousness"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Any seizure with incontinence"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "A seizure lasting 30 seconds"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Two seizures a week apart"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "A seizure with aura"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Status epilepticus is a seizure lasting more than 5 minutes or recurring seizures without regaining consciousness.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q133",
+    "q_num": "133",
+    "stem": "A patient has a transient loss of consciousness. Which of the following lists the four components of a seizure that help distinguish it from syncope and narcolepsy?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Aura, headache, fever, rash"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Fever, nuchal rigidity, rash, headache"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Pain, vomiting, diarrhea, fever"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Palpitations, pallor, sweating, nausea"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Prodrome, loss of consciousness, physical event, postictal state"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "The four components are prodrome, loss of consciousness, physical event and postictal state. Their time course helps separate seizure from syncope and narcolepsy.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q134",
+    "q_num": "134",
+    "stem": "Which of the following correctly lists the most common causes of seizures in adults and in children?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Adults: congenital defects; children: stroke"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Adults: genetic; children: tumors"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Adults: infection only; children: stroke"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Adults: tumors, trauma, infections and stroke; children: infections, trauma and congenital defects"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Adults and children: metabolic only"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Adult seizures are most often from tumors, trauma, infections and stroke. Childhood seizures are from infections, trauma and congenital defects.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q135",
+    "q_num": "135",
+    "stem": "A 24-year-old woman has her second episode of loss of consciousness with convulsive movements. Which of the following tests best detects abnormal cortical electrical activity?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Urine toxicology"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Electroencephalogram"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Serum electrolytes"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Head CT"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Tilt-table test"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "EEG detects abnormal cortical electrical activity.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q136",
+    "q_num": "136",
+    "stem": "A 25-year-old woman has a single seizure, and no identifiable cause is found. Which of the following is the most appropriate approach?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Start two antiseizure drugs"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Epilepsy surgery"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Treat any identifiable underlying cause; most neurologists will not treat after a single unprovoked episode"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Lifelong restriction of all activity"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Hospital admission for 1 week"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "After a single unprovoked seizure most neurologists do not treat, but any identifiable cause should be treated.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q137",
+    "q_num": "137",
+    "stem": "A 24-year-old woman has her second unprovoked seizure. Evaluation is unremarkable. Which of the following is the best recommendation?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Start antiseizure treatment, because the likelihood of a third seizure is 80–90%"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "No treatment"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Tilt-table testing only"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "PET scan only"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Repeat EEG only"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "After a second unprovoked seizure the risk of a third is 80–90%, so treatment is recommended.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q138",
+    "q_num": "138",
+    "stem": "A 40-year-old man has a seizure with fever, neck stiffness and altered mental status, and meningitis is confirmed. Which of the following is the most appropriate approach?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Lifelong antiseizure drugs"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Epilepsy surgery"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Vagus nerve stimulation"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Dietary therapy"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Treat the underlying cause (meningitis), since this is a provoked seizure"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "A seizure from meningitis, alcohol withdrawal, electrolyte disturbance or fever is provoked, so treat the cause.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q139",
+    "q_num": "139",
+    "stem": "A 52-year-old man with focal seizures has fever, a sore throat and an absolute neutrophil count of 400/µL after starting a new antiseizure drug. Which of the following drugs, with its mechanism and adverse effects, best fits?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Ethosuximide; T-type calcium channel blockade; abdominal pain"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Lamotrigine; sodium channel blockade; rash only"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Valproic acid; GABA enhancement only; weight loss"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Carbamazepine; sodium channel blockade; agranulocytosis, aplastic anemia and Stevens-Johnson syndrome"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Phenytoin; GABA-A potentiation; sedation"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Carbamazepine blocks sodium channels. Adverse effects include agranulocytosis, aplastic anemia, Stevens-Johnson syndrome and birth defects.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q140",
+    "q_num": "140",
+    "stem": "A 45-year-old man on long-term antiseizure therapy has gingival hyperplasia, hirsutism, peripheral neuropathy and megaloblastic anemia. Which of the following drugs and mechanisms is most likely?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Valproic acid; GABA transaminase inhibition"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Phenytoin; voltage-gated sodium channel blockade"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Ethosuximide; T-type calcium channel blockade"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Lamotrigine; calcium channel blockade"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Carbamazepine; GABA enhancement"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Phenytoin blocks sodium channels. Adverse effects: peripheral neuropathy, gingival hyperplasia, hirsutism, megaloblastic anemia, DRESS, lupus-like syndrome and birth defects.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q141",
+    "q_num": "141",
+    "stem": "Which of the following best describes the mechanism of action of valproic acid?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Blocks only T-type calcium channels"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Blocks only sodium channels"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "Blocks sodium channels and T-type calcium channels and inhibits GABA degradation to raise GABA levels"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Enhances GABA-A receptor chloride opening only"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Blocks NMDA receptors"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Valproic acid blocks sodium and T-type calcium channels and inhibits GABA degradation.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q142",
+    "q_num": "142",
+    "stem": "A woman of childbearing age takes valproic acid. Which of the following sets of adverse effects should she be counseled about?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Hepatotoxicity, pancreatitis and neural tube defects"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Agranulocytosis and aplastic anemia"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Gingival hyperplasia and hirsutism"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Stevens-Johnson syndrome only"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Visual field loss"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Valproic acid causes hepatotoxicity, pancreatitis and neural tube defects.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q143",
+    "q_num": "143",
+    "stem": "A patient starts a sodium channel-blocking antiseizure drug that must be titrated slowly because of the risk of a life-threatening skin reaction. Which of the following is the drug and the reaction?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Phenytoin; hirsutism"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Valproic acid; pancreatitis"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Carbamazepine; hyponatremia"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Ethosuximide; weight gain"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Lamotrigine; Stevens-Johnson syndrome"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Lamotrigine blocks sodium channels and requires slow titration to reduce the risk of Stevens-Johnson syndrome.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q144",
+    "q_num": "144",
+    "stem": "A 7-year-old child with absence seizures takes ethosuximide. Which of the following correctly states its mechanism and a serious adverse effect?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Sodium channel blockade; agranulocytosis"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "GABA enhancement; sedation"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Blocks NMDA receptors; psychosis"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "T-type calcium channel blockade in thalamic neurons; Stevens-Johnson syndrome"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "GABA transaminase inhibition; hepatotoxicity"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Ethosuximide blocks T-type calcium channels in thalamic neurons. A serious adverse effect is Stevens-Johnson syndrome.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q145",
+    "q_num": "145",
+    "stem": "A survivor of herpes simplex encephalitis has episodes of a burning smell followed by staring and lip smacking. Which of the following is the most likely origin of these seizures?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Occipital lobe"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Uncus of the temporal lobe (olfactory cortex)"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Precentral gyrus"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Cerebellum"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Thalamus"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Uncinate seizures arise from the uncus and olfactory cortex of the temporal lobe, a common site of damage after HSV-1 encephalitis.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q146",
+    "q_num": "146",
+    "stem": "A 29-year-old man collapses with a generalized seizure after 2 months of headaches and personality change. Biopsy shows fried-egg cells with a chicken-wire capillary pattern. Which of the following best describes the cause of his seizures?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "A genetic channelopathy"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "A metabolic derangement"
+      },
+      {
+        "letter": "C",
+        "is_correct": true,
+        "text": "A structural cause, namely an oligodendroglioma"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "A febrile seizure"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Drug withdrawal"
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "The cause is structural (a tumor), the leading adult cause of new seizures, here an oligodendroglioma.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q147",
+    "q_num": "147",
+    "stem": "A 6-year-old girl has staring spells that are reproduced by hyperventilation. Which of the following describes the expected findings?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": true,
+        "text": "Generalized 3-Hz spike-and-wave EEG, brief episodes and no postictal state"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Focal temporal spikes and a long postictal state"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Hypsarrhythmia"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Periodic sharp waves"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Normal EEG and long postictal confusion"
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Absence seizures show generalized 3-Hz spike-and-wave discharges, are provoked by hyperventilation, and have no postictal state.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q148",
+    "q_num": "148",
+    "stem": "In a focal motor seizure with Jacksonian march, which of the following best explains the order of spread of contractions?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Spread through the thalamus"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Spread through the cerebellum"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Spread through the spinal cord"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Spread through the basal ganglia"
+      },
+      {
+        "letter": "E",
+        "is_correct": true,
+        "text": "Spread along the precentral gyrus in the order of the motor homunculus"
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "Jacksonian march follows the motor homunculus along the precentral gyrus.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q149",
+    "q_num": "149",
+    "stem": "A man has a witnessed collapse. Which of the following best supports seizure rather than syncope or narcolepsy?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Rapid recovery within seconds"
+      },
+      {
+        "letter": "B",
+        "is_correct": false,
+        "text": "Brief jerks only"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "A trigger of prolonged standing"
+      },
+      {
+        "letter": "D",
+        "is_correct": true,
+        "text": "Bloody saliva from lateral tongue biting, urinary incontinence and postictal confusion lasting 15 to 20 minutes"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Pallor with sweating"
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Lateral tongue biting (bloody saliva), incontinence and prolonged postictal confusion support a seizure. Syncope features quick recovery and a prodrome of pallor.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  },
+  {
+    "id": "exam3_hy_q150",
+    "q_num": "150",
+    "stem": "Which of the following best describes the general principles of treating epilepsy?",
+    "category": "CBIL: Epilepsy",
+    "source": "Neuro E3 Practice Exam 2 High-Yield USMLE Step 1 Style (150 Questions)",
+    "options": [
+      {
+        "letter": "A",
+        "is_correct": false,
+        "text": "Start several drugs at once at maximum dose"
+      },
+      {
+        "letter": "B",
+        "is_correct": true,
+        "text": "Start one drug at the lowest dose, titrate until seizures are controlled, the maximum dose is reached or side effects are intolerable, then add a second drug if needed, aiming to eliminate seizures with the fewest side effects"
+      },
+      {
+        "letter": "C",
+        "is_correct": false,
+        "text": "Always start with surgery"
+      },
+      {
+        "letter": "D",
+        "is_correct": false,
+        "text": "Treat only with diet"
+      },
+      {
+        "letter": "E",
+        "is_correct": false,
+        "text": "Never change the first drug"
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Treatment aims to eliminate seizures with the fewest side effects and the lowest number and dose of drugs. Start with one drug at the lowest dose and titrate, then add a second if needed.",
+    "high_yield_pearl": "High-Yield Rule: CBIL: Epilepsy",
+    "image": null
+  }
+]
