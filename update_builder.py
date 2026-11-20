@@ -637,6 +637,33 @@ exam3_step1_150_categories = [
 exam3_step1_150_json_data_str = json.dumps(exam3_step1_150_questions, ensure_ascii=False)
 exam3_step1_150_categories_json_str = json.dumps(exam3_step1_150_categories, ensure_ascii=False)
 
+# Load Exam 4 Psychiatry Practice (50 Questions, 16 Topics)
+exam4_psych_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'exam4_psych_questions.json')
+with open(exam4_psych_path, 'r', encoding='utf-8') as f:
+    exam4_psych_questions = json.load(f)
+
+exam4_psych_categories = [
+    'Mental status exam',
+    'Schizophrenia and Psychosis',
+    'Antipsychotics',
+    'Substance use',
+    'Anxiety & Trauma',
+    'OCD & Defense Mechanisms',
+    'Depressive Disorders',
+    'Suicide and Eating Disorders',
+    'Perinatal Psych and Somatic Symptom Disorders',
+    'LGBTQIA Mental Health',
+    'Bipolar Disorders and Mood Stabilizers',
+    'Disruptive Disorders and Forensic Psychiatry',
+    'Personality Disorder',
+    'ADHD',
+    'Psychotherapy',
+    'Autism'
+]
+
+exam4_psych_json_data_str = json.dumps(exam4_psych_questions, ensure_ascii=False)
+exam4_psych_categories_json_str = json.dumps(exam4_psych_categories, ensure_ascii=False)
+
 # Exam 3 In House c2 (In House c2: 100 Questions)
 exam3_inhouse_c2_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'exam3_inhouse_c2_questions.json')
 with open(exam3_inhouse_c2_path, 'r', encoding='utf-8') as f:
@@ -813,6 +840,43 @@ html_template = """<!DOCTYPE html>
       color: #ffffff;
       font-weight: 800;
       box-shadow: 0 2px 10px rgba(16, 185, 129, 0.45);
+    }
+
+    .exam-tab-btn.active-exam4 {
+      background: linear-gradient(135deg, #e11d48, #f43f5e, #fb7185);
+      color: #ffffff;
+      font-weight: 800;
+      box-shadow: 0 2px 10px rgba(244, 63, 94, 0.45);
+    }
+
+    .track-btn.exam4-active {
+      background: linear-gradient(135deg, #e11d48, #f43f5e);
+      color: #ffffff;
+      border-color: #fb7185;
+      box-shadow: 0 4px 14px rgba(244, 63, 94, 0.35);
+    }
+
+    .tag.exam4, .q-track-tag.exam4 {
+      background: rgba(244, 63, 94, 0.15);
+      color: #fda4af;
+      border: 1px solid rgba(244, 63, 94, 0.3);
+    }
+
+    .cat-chip.exam4-cat, .cat-item.exam4-cat {
+      background: rgba(244, 63, 94, 0.08);
+      border-color: rgba(244, 63, 94, 0.25);
+      color: #fecdd3;
+    }
+    .cat-chip.exam4-cat.active, .cat-item.exam4-cat.active {
+      background: #e11d48;
+      color: #ffffff;
+      border-color: #f43f5e;
+      box-shadow: 0 4px 12px rgba(244, 63, 94, 0.4);
+    }
+
+    .timer-display.exam4 {
+      border-color: rgba(244, 63, 94, 0.4);
+      color: #fda4af;
     }
 
     @keyframes unlockPulse {
@@ -3635,6 +3699,10 @@ html_template = """<!DOCTYPE html>
           <span>⚡</span>
           <span>Exam 3</span>
         </button>
+        <button id="exam4TabBtn" class="exam-tab-btn" onclick="selectExam('exam4')">
+          <span>🛋️</span>
+          <span>Exam 4 (Psych)</span>
+        </button>
       </div>
 
       <div class="switcher-separator"></div>
@@ -4070,6 +4138,8 @@ html_template = """<!DOCTYPE html>
     const exam3Step1150Categories = """ + exam3_step1_150_categories_json_str + """;
     const rawExam3GHU16Questions = """ + exam3_g_h_u1_6_json_data_str + """;
     const exam3GHU16Categories = """ + exam3_g_h_u1_6_categories_json_str + """;
+    const rawExam4PsychQuestions = """ + exam4_psych_json_data_str + """;
+    const exam4PsychCategories = """ + exam4_psych_categories_json_str + """;
 
 
     // ACTIVE TRACK: 'focused_zen' (320 Qs from Study Guide), 'exam' (125 Qs), or 'zen' (320 Qs)
@@ -4287,8 +4357,21 @@ html_template = """<!DOCTYPE html>
           badge: '150 Qs • Step 1–Style',
           type: 'exam3'
         }
+      ],
+      exam4: [
+        {
+          id: 'exam4_psych_practice',
+          label: 'Psych Practice (50 Qs)',
+          icon: '🛋️',
+          badge: '16 Topics • Official',
+          type: 'exam4'
+        }
       ]
     };
+
+    function isExam4Track(track) {
+      return track === 'exam4' || track === 'exam4_psych_practice' || (track && track.startsWith('exam4_'));
+    }
 
     function isExam3Track(track) {
       return track === 'exam3' || track === 'exam3_practice' || track === 'exam3_redo' || track === 'redo' || track === 'exam3_high_yield' || track === 'high_yield' || track === 'exam3_c_u1_6' || track === 'exam3_c_h1_6' || track === 'exam3_c_u2_1_6' || track === 'exam3_g_h_u1_6' || track === 'exam3_inhouse_c' || track === 'exam3_inhouse_c2' || track === 'exam3_in_house_like_g' || track === 'exam3_step1_150';
@@ -4303,6 +4386,7 @@ html_template = """<!DOCTYPE html>
     }
 
     function getCategoriesForTrack() {
+      if (isExam4Track(currentTrack)) return exam4PsychCategories;
       if (currentTrack === 'exam3_step1_150') return exam3Step1150Categories;
       if (currentTrack === 'exam3_in_house_like_g') return exam3InHouseLikeGCategories;
       if (currentTrack === 'exam3_inhouse_c2') return exam3InHouseC2Categories;
@@ -4328,12 +4412,7 @@ html_template = """<!DOCTYPE html>
     /* EXAM 3 HIDDEN ACCESS & "mike" KEYSTROKE DETECTION         */
     /* ========================================================= */
     function isExam3Unlocked() {
-      const urlParams = new URLSearchParams(window.location.search);
-      if (urlParams.has('mike') || urlParams.get('unlock') === 'mike' || urlParams.get('name') === 'mike' ||
-          urlParams.has('mark') || urlParams.get('unlock') === 'mark' || urlParams.get('name') === 'mark') {
-        return true;
-      }
-      return sessionStorage.getItem('usmle_exam3_unlocked') === 'true';
+      return true; // Permanently unlocked per user request (no password or keystroke required)
     }
 
     function unlockExam3(skipSwitch = false) {
@@ -4404,18 +4483,20 @@ html_template = """<!DOCTYPE html>
       const e1Tab = document.getElementById('exam1TabBtn');
       const e2Tab = document.getElementById('exam2TabBtn');
       const e3Tab = document.getElementById('exam3TabBtn');
+      const e4Tab = document.getElementById('exam4TabBtn');
       if (e1Tab) e1Tab.className = 'exam-tab-btn' + (currentExam === 'exam1' ? ' active-exam1' : '');
       if (e2Tab) e2Tab.className = 'exam-tab-btn' + (currentExam === 'exam2' ? ' active-exam2' : '');
       if (e3Tab) e3Tab.className = 'exam-tab-btn' + (currentExam === 'exam3' ? ' active-exam3' : '');
+      if (e4Tab) e4Tab.className = 'exam-tab-btn' + (currentExam === 'exam4' ? ' active-exam4' : '');
 
       renderBankSwitcher();
 
       // Pick active bank for this exam
-      if (currentExam === 'exam3') {
+      if (currentExam === 'exam4') {
+        const savedBank = localStorage.getItem('usmle_exam4_active_bank') || 'exam4_psych_practice';
+        switchTrack(savedBank);
+      } else if (currentExam === 'exam3') {
         let savedBank = localStorage.getItem('usmle_exam3_active_bank') || 'exam3_practice';
-        if (!isExam3Unlocked() && !isExam3BaseTrack(savedBank)) {
-          savedBank = 'exam3_practice';
-        }
         switchTrack(savedBank);
       } else if (currentExam === 'exam2') {
         const savedBank = localStorage.getItem('usmle_exam2_active_bank') || 'exam2_zen';
@@ -4431,9 +4512,6 @@ html_template = """<!DOCTYPE html>
     /* ========================================================= */
     function getVisibleBanks() {
       let banks = EXAM_BANKS[currentExam] || EXAM_BANKS.exam1;
-      if (currentExam === 'exam3' && !isExam3Unlocked()) {
-        banks = banks.filter(b => isExam3BaseTrack(b.id));
-      }
       return banks;
     }
 
@@ -4584,6 +4662,7 @@ html_template = """<!DOCTYPE html>
           else if (b.type === 'zen') activeClass = ' zen-active';
           else if (b.type === 'exam2') activeClass = ' exam2-active';
           else if (b.type === 'exam3') activeClass = ' exam3-active';
+          else if (b.type === 'exam4') activeClass = ' exam4-active';
         }
         btn.className = 'track-btn' + activeClass;
         btn.onclick = () => switchTrack(b.id);
@@ -4609,7 +4688,10 @@ html_template = """<!DOCTYPE html>
       }
       saveState();
 
-      if (isExam3Track(newTrack)) {
+      if (isExam4Track(newTrack)) {
+        currentExam = 'exam4';
+        localStorage.setItem('usmle_exam4_active_bank', newTrack);
+      } else if (isExam3Track(newTrack)) {
         currentExam = 'exam3';
         localStorage.setItem('usmle_exam3_active_bank', newTrack);
       } else if (isExam2Track(newTrack)) {
@@ -4628,9 +4710,11 @@ html_template = """<!DOCTYPE html>
       const e1Tab = document.getElementById('exam1TabBtn');
       const e2Tab = document.getElementById('exam2TabBtn');
       const e3Tab = document.getElementById('exam3TabBtn');
+      const e4Tab = document.getElementById('exam4TabBtn');
       if (e1Tab) e1Tab.className = 'exam-tab-btn' + (currentExam === 'exam1' ? ' active-exam1' : '');
       if (e2Tab) e2Tab.className = 'exam-tab-btn' + (currentExam === 'exam2' ? ' active-exam2' : '');
       if (e3Tab) e3Tab.className = 'exam-tab-btn' + (currentExam === 'exam3' ? ' active-exam3' : '');
+      if (e4Tab) e4Tab.className = 'exam-tab-btn' + (currentExam === 'exam4' ? ' active-exam4' : '');
 
       centerActiveBankPill();
 
@@ -4644,9 +4728,18 @@ html_template = """<!DOCTYPE html>
       const sidebarTitle = document.getElementById('sidebarTitle');
       const timerDisplay = document.getElementById('timerDisplay');
 
-      timerDisplay.classList.remove('zen', 'focused-zen', 'inhouse', 'exam2', 'exam3');
+      timerDisplay.classList.remove('zen', 'focused-zen', 'inhouse', 'exam2', 'exam3', 'exam4');
 
-      if (currentTrack === 'exam3_step1_150') {
+      if (isExam4Track(currentTrack)) {
+        zenTray.style.display = 'flex';
+        trayIcon.textContent = '🛋️';
+        trayLabelText.textContent = 'Psych Topics:';
+        trackTag.style.display = 'inline-block';
+        trackTag.className = 'q-track-tag exam4';
+        trackTag.textContent = '🛋️ Psych Practice (50 Qs)';
+        timerDisplay.classList.add('exam4');
+        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/></svg> Psych Topics (16)`;
+      } else if (currentTrack === 'exam3_step1_150') {
         zenTray.style.display = 'flex';
         trayIcon.textContent = '⚡';
         trayLabelText.textContent = 'Step 1 Topics:';
@@ -4863,7 +4956,7 @@ html_template = """<!DOCTYPE html>
       filterIncorrectOnly = false;
 
       loadTrackState();
-      if (isExam3Track(currentTrack) || currentTrack === 'exam2_set3' || currentTrack === 'exam2_set2' || currentTrack === 'exam2_deep' || currentTrack === 'exam2_replicate' || currentTrack === 'exam2_inhouse2' || currentTrack === 'exam2_inhouse' || currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'exam2_pdf_practice' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
+      if (isExam4Track(currentTrack) || isExam3Track(currentTrack) || currentTrack === 'exam2_set3' || currentTrack === 'exam2_set2' || currentTrack === 'exam2_deep' || currentTrack === 'exam2_replicate' || currentTrack === 'exam2_inhouse2' || currentTrack === 'exam2_inhouse' || currentTrack === 'exam2_zen' || currentTrack === 'exam2' || currentTrack === 'exam2_pdf_practice' || currentTrack === 'inhouse' || currentTrack === 'focused_zen' || currentTrack === 'zen') {
         renderZenTray();
       }
       applyFilter();
@@ -4871,7 +4964,9 @@ html_template = """<!DOCTYPE html>
       updateOverallStats();
       renderCurrentQuestion();
 
-      const toastMsg = currentTrack === 'exam3_step1_150'
+      const toastMsg = isExam4Track(currentTrack)
+        ? 'Exam 4: Loaded 🛋️ Psychiatry Practice (50 Qs - 16 Topics)'
+        : currentTrack === 'exam3_step1_150' '
         ? 'Exam 3: Loaded ⚡ Step 1–Style (150 Qs - High-Yield USMLE)'
         : currentTrack === 'exam3_in_house_like_g'
         ? 'Exam 3: Loaded 🏛️ in_house_like_G (150 Qs - Case-Based)'
@@ -4923,6 +5018,7 @@ html_template = """<!DOCTYPE html>
 
     // Centralized storage prefix resolver ensuring 100% consistency across all tracks
     function getStoragePrefix(track = currentTrack) {
+      if (isExam4Track(track)) return 'usmle_exam4_psych_';
       if (track === 'exam3_redo' || track === 'redo') return 'usmle_exam3_redo_';
       if (track === 'exam3_high_yield' || track === 'high_yield') return 'usmle_exam3_high_yield_';
       if (track === 'exam3_step1_150') return 'usmle_exam3_step1_150_';
@@ -4954,7 +5050,9 @@ html_template = """<!DOCTYPE html>
       const storagePrefix = getStoragePrefix(currentTrack);
       let rawData = rawExamQuestions;
 
-      if (currentTrack === 'exam3_step1_150') {
+      if (isExam4Track(currentTrack)) {
+        rawData = rawExam4PsychQuestions;
+      } else if (currentTrack === 'exam3_step1_150') {
         rawData = rawExam3Step1150Questions;
       } else if (currentTrack === 'exam3_high_yield' || currentTrack === 'high_yield') {
         rawData = rawExam3HighYieldQuestions;
@@ -5961,7 +6059,9 @@ html_template = """<!DOCTYPE html>
       document.getElementById('reportCorrectCount').textContent = totalCorrect.toString();
       document.getElementById('reportIncorrectCount').textContent = totalIncorrect.toString();
 
-      const reportTitle = currentTrack === 'exam3_step1_150'
+      const reportTitle = isExam4Track(currentTrack)
+        ? '🛋️ Exam 4 Psychiatry Practice (50 Qs) Score Report'
+        : currentTrack === 'exam3_step1_150' '
         ? '⚡ Exam 3 Step 1–Style (150 Qs) Score Report'
         : currentTrack === 'exam3_in_house_like_g'
         ? '🏛️ Exam 3 in_house_like_G (150 Qs) Score Report'
@@ -7475,7 +7575,7 @@ html_template = """<!DOCTYPE html>
       }
 
       if (!targetTrack) {
-        targetTrack = (savedExam === 'exam3') ? 'exam3_practice' : (savedExam === 'exam2') ? 'exam2_zen' : 'inhouse';
+        targetTrack = (savedExam === 'exam4') ? 'exam4_psych_practice' : (savedExam === 'exam3') ? 'exam3_practice' : (savedExam === 'exam2') ? 'exam2_zen' : 'inhouse';
       }
 
       currentExam = savedExam;
@@ -7486,7 +7586,9 @@ html_template = """<!DOCTYPE html>
 
       if (currentIndex > 0) {
         setTimeout(() => {
-          const trackLabel = currentTrack === 'exam3_step1_150'
+          const trackLabel = isExam4Track(currentTrack)
+            ? 'Exam 4 Psych Practice (50 Qs)'
+            : currentTrack === 'exam3_step1_150' '
             ? 'Exam 3 Step 1–Style (150 Qs)'
             : currentTrack === 'exam3_in_house_like_g'
             ? 'Exam 3 in_house_like_G (150 Qs)'
