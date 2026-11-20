@@ -1,0 +1,1737 @@
+[
+  {
+    "id": "exam4_psych_q1",
+    "q_num": "1",
+    "stem": "A 29-year-old woman presents with low mood and increased anxiety beginning one month after being laid off from her job. She reports occasional difficulty sleeping and frequent worries about her financial situation. She has stopped attending social gatherings and has difficulty concentrating during job interviews. She denies anhedonia, changes in appetite, feelings of worthlessness, and suicidal ideation. She has no history of manic or hypomanic episodes. Which of the following is the most likely diagnosis?",
+    "category": "Depressive Disorders",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Major depressive disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Generalized anxiety disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Adjustment disorder",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Persistent depressive disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "E",
+        "text": "Acute stress disorder",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Adjustment disorder involves emotional or behavioral symptoms developing within three months of an identifiable stressor, causing clinically significant distress or impairment without meeting criteria for another psychiatric disorder. Her symptoms began after job loss and do not meet criteria for major depressive disorder or generalized anxiety disorder.",
+    "high_yield_pearl": "Adjustment disorder involves emotional or behavioral symptoms within 3 months of an identifiable stressor that cause significant distress or impairment but do not meet criteria for major depressive disorder.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q2",
+    "q_num": "2",
+    "stem": "A 32-year-old woman presents 3 weeks after delivery with persistent low mood, anhedonia, guilt, and difficulty bonding with her infant. She sleeps poorly even when her partner cares for the baby and has difficulty completing household tasks. She denies hallucinations and suicidal or infanticidal thoughts. Symptoms interfere with daily functioning. Which is the most appropriate next step?",
+    "category": "Perinatal Psych and Somatic Symptom Disorders",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Explain that symptoms are expected postpartum and need no follow-up",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Offer treatment with an antidepressant and supportive psychotherapy",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Initiate emergent involuntary psychiatric inpatient hospitalization",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Delay clinical evaluation until symptoms have persisted for 1 month",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "This patient meets criteria for a major depressive episode and warrants treatment. Use of an antidepressant is indicated and can be offered, alongside a discussion of risks/benefits.",
+    "high_yield_pearl": "Postpartum depression typically begins within 4 weeks of delivery (DSM-5 peripartum onset) and meets full MDD criteria; first-line therapy is psychotherapy and SSRIs/antidepressants.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q3",
+    "q_num": "3",
+    "stem": "A 22-year-old man is brought to a psychiatric clinic by his sister because he has become increasingly isolated over the past 4 months. He believes that strangers are transmitting messages into his apartment and frequently hears voices discussing his behavior. During the interview, his answers are difficult to follow because he repeatedly shifts between unrelated topics. He has stopped working and rarely leaves home. He has difficulty enjoying things he used to, has trouble focusing, and has limited emotional expression. Which diagnosis is most likely?",
+    "category": "Schizophrenia and Psychosis",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Major depressive disorder with psychotic features",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Schizoaffective disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Schizophrenia",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Schizophreniform",
+        "is_correct": true
+      },
+      {
+        "letter": "E",
+        "text": "Brief psychotic disorder",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "This patient presents with delusions, auditory hallucinations, disorganized speech, negative symptoms (anhedonia and diminished emotional expression), and significant functional impairment, consistent with a schizophrenia-spectrum disorder. Schizophreniform disorder has the same characteristic symptoms as schizophrenia but lasts 1–6 months, whereas schizophrenia requires at least 6 months of continuous disturbance. Brief psychotic disorder lasts less than 1 month. Major depressive disorder with psychotic features and schizoaffective disorder require major mood episodes, which are not established in this presentation.",
+    "high_yield_pearl": "Schizophrenia spectrum timeline rule: Brief Psychotic Disorder (< 1 month), Schizophreniform Disorder (1 to 6 months), Schizophrenia (>= 6 months).",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q4",
+    "q_num": "4",
+    "stem": "Tiffany is a 15-year-old female who was enrolled in counseling at the request of her school guidance counselor. For the past year, she has been rude and disrespectful when dealing with teachers, at times raising her voice when asked to comply with school rules. Her mood is generally good, and she sleeps and eats well. She is interested in becoming a hairdresser but is worried that she will not graduate. Tiffany’s diagnosis is probably:",
+    "category": "Disruptive Disorders and Forensic Psychiatry",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Major Depressive Disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Oppositional Defiant Disorder",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Intermittent explosive disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Disruptive mood dysregulation disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "E",
+        "text": "Conduct Disorder",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Oppositional defiant disorder (ODD) is characterized by a persistent pattern of argumentative, defiant, or hostile behavior toward authority figures lasting at least six months. Tiffany's ongoing refusal to follow instructions and frequent arguments with teachers are consistent with ODD. Intermittent explosive disorder involves recurrent, impulsive aggressive outbursts that are disproportionate to the provocation, rather than persistent oppositional behavior. Disruptive mood dysregulation disorder involves chronic irritability between severe temper outbursts, while conduct disorder involves more serious violations of others' rights or societal norms.",
+    "high_yield_pearl": "Oppositional defiant disorder (ODD) requires >= 6 months of angry/irritable mood, argumentative/defiant behavior, or vindictiveness toward authority figures without severe physical aggression or violation of basic rights seen in conduct disorder.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q5",
+    "q_num": "5",
+    "stem": "A 22-year-old graduate student has 5 days of elevated mood, decreased need for sleep, and increased talkativeness. She remains able to attend classes and denies auditory hallucinations. No psychotic symptoms are present on exam. Her roommate reports a similar episode last year that lasted 8 days and resulted in arrest after dangerous, disinhibited behavior. Which is the most appropriate diagnosis?",
+    "category": "Bipolar Disorders and Mood Stabilizers",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Bipolar II disorder with hypomania",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Cyclothymic disorder with dysthymia",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Bipolar I disorder with manic episode",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Substance-induced bipolar disorder",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "The prior episode had a duration consistent with mania and severe functional impairment, establishing bipolar I disorder regardless of the current less severe episode.",
+    "high_yield_pearl": "A single manic episode (lasting >= 7 days or requiring hospitalization) establishes the diagnosis of Bipolar I Disorder, regardless of prior or subsequent depressive episodes.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q6",
+    "q_num": "6",
+    "stem": "A 75-year-old woman asks to speak privately to her husband’s primary care physician. She confides that for the last 6 months her 80-year-old husband has been accusing her of having an affair with their 35-year-old gardener. She is very humiliated by this, as in their 50-year marriage, she has never been unfaithful. Her husband gets so furious that she sometimes fears that he will hit her. Yesterday, she wore green slacks, and he claimed this was a “come-on” code for the gardener. His behavior is otherwise unremarkable. The most likely diagnosis is:",
+    "category": "Schizophrenia and Psychosis",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Bipolar I Disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Delusional disorder",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Schizophrenia",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Delirium",
+        "is_correct": false
+      },
+      {
+        "letter": "E",
+        "text": "Pseudodementia",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "A persistent fixed belief that a spouse is unfaithful, despite contrary evidence and otherwise relatively preserved functioning, suggests delusional disorder. The stem does not establish other symptoms of schizophrenia that would be needed to make the diagnosis (hallucinations, disorganized speech, or negative symptoms). It also does not establish a clear mood component to the presentation, nor a cognitive impairment that would suggest delirium or pseudodementia.",
+    "high_yield_pearl": "Delusional disorder is characterized by >= 1 month of delusions without other psychotic or prominent mood symptoms and with relatively preserved daily functioning outside the delusional impact.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q7",
+    "q_num": "7",
+    "stem": "A 29-year-old woman presents with 3 weeks of depressed mood, anhedonia, fatigue, poor concentration, and feelings of worthlessness. She reports that 2 years ago, she experienced a period of several days during which she slept only 2–3 hours per night without feeling tired, had unusually high energy, spoke rapidly, and believed she had special abilities. During that episode, she spent thousands of dollars on unnecessary purchases and was hospitalized after becoming increasingly agitated and impulsive. She is not currently taking psychiatric medications. Which of the following medications would be most appropriate for treating her current depressive episode?",
+    "category": "Bipolar Disorders and Mood Stabilizers",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Sertraline",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Haloperidol",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Quetiapine",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Aripiprazole",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "This patient has bipolar I disorder, characterized by a prior manic episode requiring hospitalization, and is currently experiencing a major depressive episode. Quetiapine is FDA-approved for acute bipolar I depression. Sertraline monotherapy is generally avoided in bipolar I disorder due to the risk of inducing mania. Haloperidol and aripiprazole are effective treatments for acute mania but are not established treatments for acute bipolar depression.",
+    "high_yield_pearl": "Bipolar depression treatment requires mood stabilizers or approved atypical antipsychotics (quetiapine, lurasidone, lumateperone, cariprazine, or olanzapine-fluoxetine). Antidepressant monotherapy is contraindicated due to risk of inducing mania.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q8",
+    "q_num": "8",
+    "stem": "A 28-year-old man presents with a 6-month history of recurrent intrusive thoughts that he might run someone over while driving, even when he is certain he has not. After driving home, he repeatedly circles back to check the same stretch of road, sometimes for 45–60 minutes, to “make sure no one is dead.” He says these thoughts are unwanted and distressing, and he recognizes they are irrational. He continues to function at his job but feels “exhausted” from the checking behaviors. He denies hallucinations, delusions, mania, substance use, or depression. Physical exam and medical workup are normal. Which of the following is the most appropriate next step in management?",
+    "category": "OCD & Defense Mechanisms",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Refer for psychodynamic psychotherapy",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Prescribe fluoxetine",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Prescribe lorazepam",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Prescribe clozapine",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "The unwanted, distressing thoughts about causing harm are obsessions. Repeatedly retracing the driving route is a checking compulsion. An SSRI such as fluoxetine is a first-line pharmacologic treatment, and exposure and response prevention (ERP) and CBT are the preferred therapies.",
+    "high_yield_pearl": "In OCD, obsessions are intrusive, distressing recurrent thoughts or urges; compulsions are repetitive behaviors or mental acts performed to reduce distress or prevent a dreaded event.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q9",
+    "q_num": "9",
+    "stem": "A 29-year-old man taking a medication for bipolar I disorder develops fever, fatigue, and increasing pain inside his mouth approximately three weeks after starting treatment. He reports that eating and swallowing have become uncomfortable. Physical examination reveals several shallow erosions along his oral mucosa and scattered, tender, erythematous lesions across his chest and back. Which of the following medications was he most likely taking?",
+    "category": "Bipolar Disorders and Mood Stabilizers",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Valproate",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Risperidone",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Lithium",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Lamotrigine",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "This patient's presentation is concerning for early Stevens-Johnson syndrome (SJS), a potentially life-threatening mucocutaneous reaction associated with lamotrigine. SJS may initially present with fever, malaise, and painful mucosal inflammation or erosions before progressing to widespread skin blistering and epidermal detachment. The risk is greatest during the first several weeks of treatment, particularly with rapid dose titration or concurrent valproate use. Suspected SJS requires immediate discontinuation of the offending medication and urgent medical evaluation.",
+    "high_yield_pearl": "Lamotrigine requires slow dose titration due to the risk of life-threatening severe cutaneous reactions, particularly Stevens-Johnson syndrome (SJS) and toxic epidermal necrolysis (TEN).",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q10",
+    "q_num": "10",
+    "stem": "A patient has been seeing you for psychiatric treatment of anxiety and difficulty forming romantic relationships. She calls for an emergency appointment and reports that 2 days ago she paid a visit at an aunt’s house. When she entered, she was flooded by returned memories of her sexual abuse by a relative in that house during childhood. The defense mechanism that was lifted by returning to the aunt’s house is:",
+    "category": "OCD & Defense Mechanisms",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Sublimation",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Suppression",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Repression",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Reaction formation",
+        "is_correct": false
+      },
+      {
+        "letter": "E",
+        "text": "Displacement",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Repression is an unconscious defense mechanism in which distressing thoughts or memories are kept outside conscious awareness.",
+    "high_yield_pearl": "Repression is an immature unconscious defense mechanism that banishes distressing thoughts, memories, or impulses from conscious awareness.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q11",
+    "q_num": "11",
+    "stem": "A 32-year-old woman with a history of hypertension, hyperlipidemia, and type 2 diabetes mellitus is admitted to a psychiatric hospital because of increasingly erratic behavior over the past week. Her family reports that she has been sleeping only 2–3 hours per night, talking excessively, and spending large amounts of money on unnecessary purchases. On examination, she is euphoric, speaks rapidly, and frequently interrupts the interviewer. She has no history of prior manic episodes. After a medical evaluation excludes secondary causes of her symptoms, the treatment team decides to initiate an antipsychotic medication. Which of the following medications would be most appropriate?",
+    "category": "Bipolar Disorders and Mood Stabilizers",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Olanzapine",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Quetiapine",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Risperidone",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Lurasidone",
+        "is_correct": false
+      },
+      {
+        "letter": "E",
+        "text": "Aripiprazole",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "This patient presents with an acute manic episode, characterized by elevated mood, decreased need for sleep, increased energy, and impulsive spending. Aripiprazole is a second-generation antipsychotic approved for acute mania and has a relatively low risk of metabolic adverse effects, making it a favorable option given her hypertension, hyperlipidemia, and type 2 diabetes mellitus. Olanzapine, quetiapine, and risperidone are also effective for acute mania but have greater metabolic liability. Lurasidone has a favorable metabolic profile but is approved for bipolar depression rather than acute mania.",
+    "high_yield_pearl": "Lithium is a gold-standard mood stabilizer for acute mania and maintenance in bipolar disorder; unlike valproate and second-generation antipsychotics, it does not promote weight gain or metabolic syndrome.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q12",
+    "q_num": "12",
+    "stem": "A 27-year-old woman with bipolar I disorder becomes pregnant and births a child with spina bifida. Which medication was she likely taking?",
+    "category": "Bipolar Disorders and Mood Stabilizers",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Lamotrigine",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Valproate",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Lithium",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Quetiapine",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Valproate carries a significant risk for neural tube defects in a developing fetus.",
+    "high_yield_pearl": "Valproate is strongly teratogenic, causing neural tube defects (spina bifida) in 1–2% of exposed pregnancies due to interference with folate metabolism; avoid in women of childbearing potential.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q13",
+    "q_num": "13",
+    "stem": "A 24-year-old woman is brought to the clinic by her roommate because of unstable behavior. Over the past year, she has frequently alternated between saying her roommate is “the only person who has ever really cared about me” and accusing her of “abandoning me” if she comes home late. She has intense, short-lived romantic relationships that often end abruptly after arguments. She reports chronic feelings of emptiness and says that when she feels overwhelmed, she sometimes cuts her forearms “to release the tension.” She describes her mood as have erratic “highs and lows” that change hour to hour. She denies hallucinations but admits that under stress she sometimes feels “unreal” or as if she is outside her body. She has a history of impulsive spending and binge eating during emotional crises. Which of the following is the most likely diagnosis?",
+    "category": "Personality Disorder",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Histrionic personality disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Bipolar II disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Borderline personality disorder",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Post-traumatic stress disorder",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Borderline personality disorder is characterized by unstable interpersonal relationships, fear of abandonment, affective instability, impulsivity, chronic feelings of emptiness, and recurrent self- injurious behavior. The patient's alternating idealization and devaluation of her roommate reflects splitting, while transient dissociative symptoms may occur under stress. Unlike bipolar II disorder, mood fluctuations in borderline personality disorder are typically rapid and reactive to interpersonal stressors rather than sustained episodes of depression or hypomania.",
+    "high_yield_pearl": "Borderline personality disorder is defined by a pervasive pattern of instability in interpersonal relationships, self-image, and affects, with marked impulsivity, splitting, and recurrent suicidal/self-harm behavior.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q14",
+    "q_num": "14",
+    "stem": "A 74-year-old patient is admitted to the hospital for pneumonia. He is initially calm and cooperative with medical staff. Overnight, he suddenly becomes agitated and begins pulling out his IV lines. He appears confused and is shouting at staff to get out of his home. He seems to calm down for a brief period, only to become agitated again with similar behaviors. Which of the following is the most likely diagnosis?",
+    "category": "Mental status exam",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Acute manic episode with agitation",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Delusional disorder, jealous subtype",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Delirium induced by acute infection",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Intermittent explosive rage outbursts",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Delirium is characterized by an acute disturbance in attention and awareness that develops over hours to days and fluctuates in severity. This patient's sudden confusion, agitation, and fluctuating behavior during hospitalization for pneumonia are characteristic of delirium. Acute mania typically involves a sustained episode of elevated or irritable mood with increased energy, while Alzheimer's disease causes a more gradual cognitive decline. Intermittent explosive disorder involves impulsive aggressive outbursts without the accompanying disturbance in attention and awareness.",
+    "high_yield_pearl": "Delirium is an acute, fluctuating disturbance in attention and awareness typically triggered by an underlying medical condition, medication toxicity, or substance withdrawal.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q15",
+    "q_num": "15",
+    "stem": "A 29-year-old woman is brought by her mother because of worsening mood changes and psychotic symptoms. Over the past 2 years, she has had numerous episodes of severe depression during which she sleeps up to 14 hours a day, has no energy, loses interest in hobbies, and expresses feelings of guilt and hopelessness. During these depressive periods, she also reports hearing a male voice whispering that she is “worthless” and that “people are watching her.” She is admitted to the hospital and treatment is initiated. Her symptoms improve over the next week, and she is discharged to follow up with her outpatient psychiatrist. Over the next month, it is noted by the psychiatrist that her mood appears stable, though she continues to feel people are “watching her” and occasionally hears her name being called when alone at home. Which of the following is the most likely diagnosis?",
+    "category": "Schizophrenia and Psychosis",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Schizophrenia",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Major depressive disorder with psychotic features",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Bipolar II disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Schizoaffective disorder",
+        "is_correct": true
+      },
+      {
+        "letter": "E",
+        "text": "Persistent depressive disorder",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Schizoaffective disorder is characterized by symptoms of schizophrenia occurring alongside major mood episodes, with at least two weeks of hallucinations or delusions occurring in the absence of a major mood episode. Major mood episodes must also occupy the majority of the total duration of the illness. This patient has recurrent major depressive episodes and persistent psychotic symptoms even after her mood symptoms resolve. In contrast, psychotic symptoms in major depressive disorder with psychotic features occur exclusively during depressive episodes, while schizophrenia is diagnosed when mood episodes are absent or present for only a minority of the illness.",
+    "high_yield_pearl": "Schizoaffective disorder requires delusions or hallucinations for >= 2 weeks in the absence of a major mood episode (depressive or manic), plus concurrent mood episodes during the active illness.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q16",
+    "q_num": "16",
+    "stem": "A 34-year-old man with schizophrenia continues to hear voices despite adequate trials of risperidone, olanzapine, and aripiprazole. His psychiatrist is now considering the use of clozapine. Which of the following is a common side effect?",
+    "category": "Antipsychotics",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Dry mouth",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Bradykinesia",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Decreased appetite",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Constipation",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Constipation is a common side effect of clozapine. It also causes hypersalivation and increased appetite. Clozapine is less likely to cause EPS such as bradykinesia.",
+    "high_yield_pearl": "Clozapine is the most effective antipsychotic for treatment-resistant schizophrenia; major adverse effects include agranulocytosis (requires absolute neutrophil count monitoring), severe constipation/ileus, seizures, and myocarditis.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q17",
+    "q_num": "17",
+    "stem": "A 12-year-old child assigned female at birth is brought to a pediatric clinic by her parents. For several years, the child has preferred traditionally masculine clothing, uses a male name at school, and consistently identifies as a boy with a preference for he/him pronouns. He has supportive friends and performs well academically. His parents report that he has recently become increasingly anxious about the physical changes associated with puberty. He avoids changing clothes for gym class, has stopped participating in swimming activities he previously enjoyed, and becomes distressed when discussing breast development. His parents ask whether his longstanding gender identity and preferences represent a psychiatric disorder. Which of the following would be most suggestive of gender dysphoria?",
+    "category": "LGBTQIA Mental Health",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Preference for clothing traditionally associated with another gender",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Persistent identification with a gender different from the one assigned at birth",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Distress related to the incongruence between experienced gender and assigned sex",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Preference for friendships and activities associated with another gender",
+        "is_correct": false
+      },
+      {
+        "letter": "E",
+        "text": "Use of a name traditionally associated with another gender",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Gender dysphoria involves a marked incongruence between experienced gender and assigned sex, accompanied by clinically significant distress or impairment. Gender identity, clothing preferences, and gender-nonconforming behaviors alone do not constitute a psychiatric disorder. The patient's distress about pubertal development and avoidance of previously enjoyed activities support the diagnosis.",
+    "high_yield_pearl": "Gender dysphoria requires a marked incongruence between experienced gender and assigned sex lasting >= 6 months, accompanied by clinically significant distress or functional impairment.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q18",
+    "q_num": "18",
+    "stem": "A 26-year-old patient treated with haloperidol develops painful neck twisting and upward deviation of the eyes 12 hours after the first dose. She is afebrile and alert, with stable vital signs. Which is the most appropriate immediate treatment?",
+    "category": "Antipsychotics",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Intramuscular diphenhydramine",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Oral propranolol",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Intravenous dantrolene",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Oral valbenazine",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Acute dystonia after dopamine blockade responds promptly to IV or IM anticholinergic treatment such as benztropine or diphenhydramine.",
+    "high_yield_pearl": "Acute dystonia is an extrapyramidal reaction characterized by sudden involuntary muscle contractions (torticollis, oculogyric crisis) occurring hours to days after dopamine D2 blockade; treated with anticholinergics (benztropine) or antihistamines (diphenhydramine).",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q19",
+    "q_num": "19",
+    "stem": "A 27-year-old woman presents to the emergency department after experiencing an episode of intense anxiety. She reports that during the episode, she felt as though she were observing herself from outside her body. She describes feeling disconnected from her own thoughts and movements, as though she were watching herself in a movie. Which of the following best describes this experience?",
+    "category": "Anxiety & Trauma",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Derealization",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Depersonalization",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Somatic delusion",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Stupor",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Depersonalization is characterized by a sense of detachment from one's own body, thoughts, or experiences, often described as observing oneself from outside the body. Derealization involves a sense that the external environment is unreal or unfamiliar, while somatic delusions are fixed false beliefs about the body. Stupor is characterized by markedly reduced responsiveness to external stimuli.",
+    "high_yield_pearl": "Depersonalization involves feelings of detachment or unreality regarding one's body or mind, whereas derealization involves feelings of unreality regarding one's external surroundings; reality testing remains intact.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q20",
+    "q_num": "20",
+    "stem": "A 32-year-old woman is admitted to the hospital for evaluation of recurrent episodes of hypoglycemia. She reports experiencing sudden dizziness, sweating, and confusion over the past several months and expresses significant worry that something is seriously wrong with her. She has undergone multiple hospitalizations without a clear explanation. During her current admission, laboratory testing reveals elevated insulin levels with suppressed C- peptide. A nurse subsequently discovers insulin syringes hidden among the patient's belongings, although she has no history of diabetes. When questioned, the patient denies administering insulin and expresses concern that her physicians are not taking her illness seriously. Which of the following is the most likely diagnosis?",
+    "category": "Perinatal Psych and Somatic Symptom Disorders",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Illness Anxiety Disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Somatic Symptom Disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Malingering",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Factitious Disorder",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Factitious disorder involves the intentional falsification or induction of symptoms, accompanied by deception, without an obvious external incentive. This patient's suspected surreptitious insulin administration and denial of her actions are consistent with factitious disorder. Malingering also involves intentional symptom fabrication but is motivated by external incentives, such as financial gain or avoidance of responsibilities, which is not made clear in this presentation. Illness anxiety disorder and somatic symptom disorder do not involve intentional deception or induction of symptoms.",
+    "high_yield_pearl": "Factitious disorder is characterized by the intentional falsification or induction of physical or psychological signs or symptoms in the absence of obvious external incentives (unlike malingering, which involves secondary gain).",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q21",
+    "q_num": "21",
+    "stem": "A 28-year-old man is brought to the emergency department by his family because of increasingly unusual behavior and decreased need for sleep over the past week. During the interview, he speaks rapidly and is difficult to interrupt. When asked about his recent activities, he responds, “I've been working on a business plan. Business is booming, you know, boom boxes were huge when I was a kid. Kids these days spend too much time on their phones. I should develop an app! Apps are the future, and the future is looking bright!” Which of the following best describes this patient's thought process?",
+    "category": "Mental status exam",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Circumstantiality",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Flight of ideas",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Loosening of associations",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Word salad",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Flight of ideas is characterized by rapid shifts between topics, with recognizable associations connecting successive thoughts. It is commonly associated with mania and often accompanied by pressured speech. Circumstantiality involves excessive detail but eventually reaching the intended point, while loosening of associations involves shifts between topics that lack a clear connection. Word salad refers to severely disorganized, incoherent speech which uses seemingly random, disconnected words.",
+    "high_yield_pearl": "Flight of ideas is a continuous flow of accelerated speech with abrupt topic changes, typically seen in mania; associations between ideas are recognizable, unlike in loose associations / derailment.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q22",
+    "q_num": "22",
+    "stem": "A 35-year-old woman begins psychotherapy for difficulties maintaining romantic relationships. During several sessions, she becomes increasingly frustrated with her therapist, accusing him of being judgmental and dismissive whenever he asks questions about her behavior. She describes similar feelings toward her father, whom she recalls as highly critical and emotionally distant throughout her childhood. Although the therapist has remained supportive and nonjudgmental, she begins responding to him with the same anger and defensiveness she did toward her father. Which of the following best describes this psychological phenomenon?",
+    "category": "Psychotherapy",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Projection",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Transference",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Countertransference",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Displacement",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "This scenario is best attributed to transference, which occurs when a patient unconsciously redirects feelings, expectations, or patterns of relating from important past relationships onto the therapist. In this case, the patient responds to her therapist as though he were her critical father. Countertransference refers to the therapist's emotional reactions to the patient. Projection involves attributing one's own unacceptable feelings to another person – in this case, the patient’s experience is better accounted for by transference as she is experiencing the therapist as dismissive and critical like her father rather than projecting her own disavowed feelings onto him. Displacement involves redirecting emotions from their original target toward a substitute target. The stem indicates that the patient also responded to her father with anger and defensiveness.",
+    "high_yield_pearl": "Transference is the unconscious redirection of feelings, desires, and expectations from significant past relationships onto the therapist.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q23",
+    "q_num": "23",
+    "stem": "A 34-year-old woman begins psychotherapy following an unexpected divorce. During her sessions, she frequently discusses research on divorce rates, the psychological effects of marital separation, and statistical predictors of relationship success. When her therapist asks how she feels about the end of her marriage, she responds by explaining various psychological theories of attachment and relationship stability. Which of the following defense mechanisms best describes this patient's behavior?",
+    "category": "OCD & Defense Mechanisms",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Intellectualization",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Rationalization",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Isolation of affect",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Suppression",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Intellectualization involves using abstract reasoning, analysis, or factual information to avoid confronting distressing emotions. This patient focuses on psychological theories and statistics about divorce rather than processing her own emotional experience. Isolation of affect involves discussing emotionally significant events without the associated emotional response, while rationalization involves providing seemingly logical explanations to justify one's behavior or feelings. Suppression involves consciously setting aside distressing thoughts or emotions.",
+    "high_yield_pearl": "Intellectualization is an immature defense mechanism where emotional reactions to a stressful event are replaced by excessively abstract, analytical, or clinical reasoning.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q24",
+    "q_num": "24",
+    "stem": "A 30-year-old female patient presents for an evaluation for psychotherapy. She is employed as an attorney in a local law firm, has several friends with whom she is close, and recently ended an intimate relationship with an older, married male attorney at another firm. She states “I’ve noticed that I keep having problems in my relationships. None of them seem to last very long…and I keep dating men that are older and not really available.” She denies any acute psychiatric symptoms, but is troubled by her relationship choices. Which style of therapy would be best suited for this patient?",
+    "category": "Psychotherapy",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Cognitive Behavioral Therapy",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Exposure and Response Prevention",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Psychodynamic Psychotherapy",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Supportive Psychotherapy",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Psychodynamic psychotherapy can help patients examine recurring patterns in relationships, unconscious conflicts, and how past experiences influence current interpersonal choices. CBT and ERP are more present-focused and help the patient modify thoughts and behaviors and reduce distress from feared stimuli.",
+    "high_yield_pearl": "Psychodynamic psychotherapy focuses on exploring unconscious conflicts, defenses, and recurring interpersonal patterns stemming from developmental experiences.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q25",
+    "q_num": "25",
+    "stem": "Which of the following is true of gender-affirming hormone therapy with testosterone?",
+    "category": "LGBTQIA Mental Health",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The effects are fully reversible",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "It is best used prior to the onset of puberty",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Polycythemia is a possible side effect",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "It commonly causes weight loss",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Testosterone therapy can increase red blood cell production, resulting in elevated hematocrit and potentially polycythemia (erythrocytosis). Some effects of testosterone, such as voice deepening and facial hair growth, may be irreversible. Testosterone is not recommended to be initiated before the onset of puberty (reaching at least Tanner Stage 2 is advised). Weight gain and increased muscle mass are side effects, not weight loss.",
+    "high_yield_pearl": "Testosterone therapy stimulates erythropoiesis by raising erythropoietin, carrying a risk of polycythemia (elevated hematocrit), which warrants periodic complete blood count monitoring.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q26",
+    "q_num": "26",
+    "stem": "A 42-year-old woman experiences significant emotional distress following the unexpected death of her husband. Several months later, she begins volunteering at a local organization that provides support to individuals who have recently lost loved ones. Which of the following defense mechanisms best describes her behavior?",
+    "category": "OCD & Defense Mechanisms",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Suppression",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Altruism",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Sublimation",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Reaction formation",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Altruism is a mature defense mechanism in which an individual manages emotional distress by helping others, often deriving personal satisfaction or relief from doing so. This patient copes with her own grief by supporting others experiencing similar losses. Sublimation involves channeling unacceptable impulses into socially acceptable activities, reaction formation involves expressing feelings opposite to one's unacceptable impulses, and suppression involves consciously setting aside distressing thoughts or emotions.",
+    "high_yield_pearl": "Altruism is a mature defense mechanism where vicarious satisfaction and emotional relief are gained by selflessly helping and serving others.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q27",
+    "q_num": "27",
+    "stem": "A 26-year-old woman presents to the emergency department for the third time in two months because of sudden episodes of intense fear accompanied by chest tightness, palpitations, shortness of breath, trembling, dizziness, and a sense of impending doom. The episodes are seemingly random and typically last 15–20 minutes. Medical evaluations have been unrevealing. She has been terrified of leaving home for the past month due to fear of having another attack and has been worried she has a life-threatening heart condition. Which of the following is the most likely diagnosis?",
+    "category": "Anxiety & Trauma",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Specific phobia",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Agoraphobia",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Panic disorder",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Generalized anxiety disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "E",
+        "text": "Illness anxiety disorder",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Panic disorder is characterized by recurrent, unexpected panic attacks followed by at least one month of persistent concern about additional attacks or their consequences and/or maladaptive behavioral changes. This patient has recurrent unexpected panic attacks, persistent worry about their medical consequences, and avoidance behavior related to fear of recurrence. Agoraphobia involves fear or avoidance of multiple situations where escape may be difficult or help unavailable, while illness anxiety disorder involves persistent preoccupation with having or acquiring a serious illness rather than recurrent panic attacks.",
+    "high_yield_pearl": "Panic disorder is defined by recurrent unexpected panic attacks with at least 1 month of persistent worry about additional attacks, their consequences, or maladaptive behavioral changes.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q28",
+    "q_num": "28",
+    "stem": "A 43-year-old man with alcohol use disorder presents for outpatient follow-up after completing medically supervised alcohol detox. He reports that he has not consumed alcohol for the past week but continues to experience strong cravings, particularly when he passes bars on his way home from work. He is motivated to maintain abstinence and asks whether a medication could help reduce his cravings. Which of the following medications would be most appropriate?",
+    "category": "Substance use",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Disulfiram",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Buprenorphine",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Lorazepam",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Naltrexone",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Naltrexone is an opioid receptor antagonist used to treat alcohol use disorder by reducing alcohol cravings and the rewarding effects of alcohol. It can help reduce heavy drinking and support abstinence. Disulfiram produces an aversive reaction when alcohol is consumed but does not directly reduce cravings. Lorazepam is used to manage acute alcohol withdrawal, while buprenorphine is used to treat opioid use disorder.",
+    "high_yield_pearl": "Naltrexone is an opioid receptor antagonist used in alcohol use disorder to block endorphin-mediated reinforcement, reducing heavy drinking days and cravings.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q29",
+    "q_num": "29",
+    "stem": "A 30-year-old man comes to the clinic because he becomes intensely anxious whenever he has to give presentations at work. Ten to fifteen minutes before speaking, he develops trembling, sweating, palpitations, and a sense of panic that improves once the presentation ends. He fears that others will judge him negatively, that he will “mess up,” or that his voice will shake. He socializes normally with coworkers and has no anxiety in casual conversations, eating in public, or attending social gatherings. He has no unexpected panic attacks and denies substance use. Physical examination is unremarkable. He wants a medication he can take as needed before presentations. Which of the following is the most appropriate medication to treat these episodes?",
+    "category": "Anxiety & Trauma",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Sertraline",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Lorazepam",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Propranolol",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Buspirone",
+        "is_correct": false
+      },
+      {
+        "letter": "E",
+        "text": "Hydroxyzine",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Propranolol can be taken before a predictable performance situation to reduce peripheral adrenergic symptoms such as tremor and palpitations. SSRIs are more appropriate for persistent or generalized social anxiety, whereas buspirone is not effective as an immediate PRN treatment. Lorazepam and hydroxyzine are used as needed for anxiety, though are sedating and impair cognitive performance which would be detrimental prior to a work presentation.",
+    "high_yield_pearl": "Performance-only social anxiety disorder responds well to as-needed beta-blockers (propranolol) taken 30-60 minutes before predictable performance situations to diminish autonomic arousal.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q30",
+    "q_num": "30",
+    "stem": "A 30-year-old woman presents with 4 months of nightmares, intrusive memories, and intense psychological distress when reminded of a home invasion that occurred in her apartment. She avoids entering her apartment alone, refuses to talk about the event, startles easily at loud noises, and reports feeling constantly “on edge.” Her concentration has worsened, leading to impaired work performance. Of the following options, what is the most likely diagnosis and an appropriate treatment?",
+    "category": "Anxiety & Trauma",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Acute stress disorder; cognitive behavioral therapy",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Post-traumatic stress disorder; sertraline",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Adjustment disorder; supportive psychotherapy",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Generalized anxiety disorder; diazepam",
+        "is_correct": false
+      },
+      {
+        "letter": "E",
+        "text": "Panic disorder; venlafaxine",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Symptoms of intrusion, avoidance, hyperarousal, and functional impairment persisting for more than 1 month after trauma support PTSD. Sertraline is an evidence-based medication option. Trauma- focused psychotherapy is also a first-line treatment.",
+    "high_yield_pearl": "Post-traumatic stress disorder (PTSD) requires exposure to trauma followed by intrusion, avoidance, negative cognitive/mood alterations, and hyperarousal symptoms lasting > 1 month; first-line pharmacotherapy is an SSRI (sertraline, paroxetine) or SNRI.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q31",
+    "q_num": "31",
+    "stem": "A 48-year-old patient with alcohol use disorder acknowledges that drinking has affected his marriage. He says, “I plan to quit next month and have already scheduled an intake appointment at a treatment program.” Which stage of change is most consistent?",
+    "category": "Substance use",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Precontemplation",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Contemplation",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Preparation",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Action",
+        "is_correct": false
+      },
+      {
+        "letter": "E",
+        "text": "Maintenance",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Preparation involves intent to take action soon and concrete steps toward changing behavior.",
+    "high_yield_pearl": "In the transtheoretical model of change, the Preparation stage is defined by intending to take action in the immediate future (typically within 30 days) and making concrete initial preparations.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q32",
+    "q_num": "32",
+    "stem": "A 34-year-old woman comes to her primary care physician because of 18 months of diffuse abdominal pain, intermittent headaches, and fatigue. She describes the symptoms as “unbearable” and says they have “taken over her life.” She has visited urgent care and the emergency department multiple times, convinced that she has a serious illness, despite repeated normal physical exams, labs, and imaging studies. She frequently misses work because of her symptoms and spends hours researching possible medical explanations. She becomes tearful when discussing how much her symptoms interfere with daily functioning. What is the most likely diagnosis?",
+    "category": "Perinatal Psych and Somatic Symptom Disorders",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Illness anxiety disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Somatic symptom disorder",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Generalized anxiety disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Factitious disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "E",
+        "text": "Conversion disorder",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Somatic symptom disorder involves distressing physical symptoms accompanied by disproportionate thoughts, anxiety, or time devoted to them. The diagnosis does not require symptoms to be medically unexplained. Illness anxiety disorder usually has few or no prominent somatic symptoms.",
+    "high_yield_pearl": "Somatic symptom disorder involves >= 1 distressing physical symptom associated with disproportionate, excessive thoughts, feelings, or behaviors related to the symptom lasting >= 6 months.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q33",
+    "q_num": "33",
+    "stem": "A 27-year-old patient started aripiprazole 10 days ago. She reports an unbearable internal sense of restlessness and paces continuously during the interview. Which dopamine pathway is implicated in the development of this side effect?",
+    "category": "Antipsychotics",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Mesolimbic",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Mesocortical",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Nigrostriatal",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Tuberoinfundibular",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Akathisia is an extrapyramidal side effect characterized by an uncomfortable sense of inner restlessness and a compelling need to move, often presenting with pacing or an inability to sit still. It can develop after initiating antipsychotic medications, including aripiprazole, and is associated with dopaminergic effects in the nigrostriatal pathway. The mesolimbic pathway is associated with positive psychotic symptoms, the mesocortical pathway with negative and cognitive symptoms, and the tuberoinfundibular pathway with prolactin regulation.",
+    "high_yield_pearl": "Akathisia is an extrapyramidal side effect manifesting as subjective inner restlessness and compelling urge to move, commonly seen with aripiprazole and other antipsychotics; first-line treatment is a beta-blocker (propranolol) or dose reduction.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q34",
+    "q_num": "34",
+    "stem": "A 24-year-old woman comes to the clinic because she is distressed about her eating habits. Over the past year, she has had episodes occurring several times per week in which she eats unusually large amounts of food in a short period of time. She reports feeling “unable to stop,” even when uncomfortably full. After these episodes, she feels ashamed and induces vomiting to prevent weight gain. She also occasionally uses laxatives after eating and is intensely concerned about her body weight and appearance. Her BMI is 23. What medication is indicated?",
+    "category": "Suicide and Eating Disorders",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Fluoxetine",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Bupropion",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Mirtazapine",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Nortriptyline",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "This patient has bulimia nervosa, characterized by recurrent episodes of binge eating accompanied by inappropriate compensatory behaviors, such as self-induced vomiting and laxative misuse, and excessive concern about body weight and shape. Fluoxetine is the only FDA-approved medication for bulimia nervosa. Bupropion is contraindicated in patients with bulimia nervosa because of increased seizure risk. Cognitive behavioral therapy is also a first-line treatment.",
+    "high_yield_pearl": "Bulimia nervosa features recurrent binge eating with inappropriate compensatory behaviors (purging, fasting, excessive exercise) in individuals with normal or elevated BMI; unlike anorexia nervosa, BMI is >= 18.5.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q35",
+    "q_num": "35",
+    "stem": "A 28-year-old man is brought to the emergency department by his friends because of chest pain, palpitations, and increasingly unusual behavior. He is visibly agitated, sweating profusely, and repeatedly looking over his shoulder. He insists that several people have been following him and are planning to harm him. His heart rate is 125 beats/min, blood pressure is 168/102 mmHg, and his pupils are dilated. Which of the following mechanisms of action is most consistent with the substance responsible for his presentation?",
+    "category": "Substance use",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Positive allosteric modulation of GABA-A receptors",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Inhibition of dopamine, norepinephrine, and serotonin reuptake",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Competitive antagonism of ionotropic NMDA glutamate receptors",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Direct agonistic stimulation of central cannabinoid receptors",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "This patient's presentation is consistent with acute cocaine intoxication, characterized by sympathetic activation (tachycardia, hypertension, diaphoresis, and mydriasis), paranoia, and chest pain. Cocaine inhibits the reuptake of dopamine, norepinephrine, and serotonin, increasing their synaptic concentrations. Cocaine-associated chest pain may result from coronary vasoconstriction and increased myocardial oxygen demand. Benzodiazepines enhance GABA-A receptor activity, PCP antagonizes NMDA receptors, and cannabis activates CB1 receptors.",
+    "high_yield_pearl": "Acute cocaine toxicity causes sympathetic overstimulation via blockade of presynaptic reuptake of dopamine, norepinephrine, and serotonin, presenting with tachycardia, hypertension, mydriasis, diaphoresis, and psychomotor agitation.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q36",
+    "q_num": "36",
+    "stem": "A 32-year-old woman is brought to the emergency department after being found unresponsive next to an empty bottle of an antidepressant medication. On examination, she is confused and lethargic. Her heart rate is 135 beats/min, blood pressure is 85/50 mmHg, and her pupils are dilated. An ECG reveals sinus tachycardia with a prolonged QRS interval. Which of the following is the most appropriate treatment for this patient's overdose?",
+    "category": "Suicide and Eating Disorders",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Naloxone",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Sodium bicarbonate",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Cyproheptadine",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Flumazenil",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "This patient's presentation is consistent with tricyclic antidepressant (TCA) overdose, which can cause anticholinergic toxicity, seizures, hypotension, and potentially fatal cardiac arrhythmias due to blockade of cardiac fast sodium channels. ECG findings include QRS widening, which indicates significant cardiotoxicity. Intravenous sodium bicarbonate is the treatment of choice for TCA-induced QRS widening and hemodynamic instability. Naloxone reverses opioid toxicity, cyproheptadine is used for serotonin syndrome, and flumazenil reverses benzodiazepine effects.",
+    "high_yield_pearl": "Tricyclic antidepressant (TCA) overdose causes life-threatening cardiac conduction delays (wide QRS > 100 ms) and arrhythmias via cardiac fast sodium channel blockade; treatment is intravenous sodium bicarbonate.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q37",
+    "q_num": "37",
+    "stem": "A 28-year-old man is brought in by his sister, who is concerned about his “complete isolation.” He works remotely as a data analyst and lives alone. He spends most of his free time reading and working on computer projects by himself. He says he feels most comfortable when alone and becomes irritated when family members try to involve him in social gatherings. He states, “I just don’t see the point of being around people. I’m fine by myself.” He is calm and cooperative but emotionally detached during the interview. Which of the following is the most likely diagnosis?",
+    "category": "Personality Disorder",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Avoidant personality disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Schizoid personality disorder",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Social anxiety disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Schizotypal personality disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "E",
+        "text": "Major depressive disorder",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Schizoid personality disorder is characterized by detachment from social relationships and limited desire for closeness. Unlike avoidant personality disorder or social anxiety disorder, the patient is not primarily avoiding relationships because of fear of rejection, but rather lack of interest in relationships with others.",
+    "high_yield_pearl": "Schizoid personality disorder is characterized by a pervasive pattern of detachment from social relationships and a restricted range of emotional expression, with indifference to praise or criticism and preference for solitary activities.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q38",
+    "q_num": "38",
+    "stem": "A 16-year-old boy is brought to a psychiatrist by his mother because of recurrent episodes of aggressive behavior over the past year. Several times per month, he becomes extremely angry over minor frustrations, such as being asked to turn off his video games or being corrected by a teacher. During these episodes, he yells, throws objects, and occasionally punches holes in walls. Between episodes, he is generally calm and follows the rules. He often expresses regret after his outbursts. Which of the following is the most likely diagnosis?",
+    "category": "Disruptive Disorders and Forensic Psychiatry",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Oppositional defiant disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Conduct disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Disruptive mood dysregulation disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Intermittent explosive disorder",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Intermittent explosive disorder (IED) is characterized by recurrent, impulsive aggressive outbursts that are grossly disproportionate to the provoking situation. Patients may experience regret or remorse following these episodes. Unlike oppositional defiant disorder, which involves a persistent pattern of defiance and irritability, IED is characterized by discrete episodes of aggression. Conduct disorder involves a pattern of violating others' rights or societal norms, while disruptive mood dysregulation disorder involves persistent irritability between outbursts.",
+    "high_yield_pearl": "Intermittent explosive disorder (IED) is characterized by recurrent behavioral outbursts representing a failure to control aggressive impulses, resulting in verbal or physical aggression disproportionate to the provocation.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q39",
+    "q_num": "39",
+    "stem": "A 61-year-old woman develops depressed mood, anhedonia, early-morning awakening, and marked weight loss for 7 weeks following the death of her husband. She believes her organs have irreversibly decayed and refuses food because she thinks digestion is impossible. Medical evaluation reveals no corresponding pathology. She has no history of hallucinations or delusions in the past. Which of the following pharmacologic treatment approaches is most appropriate?",
+    "category": "Depressive Disorders",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Atypical antipsychotic olanzapine monotherapy",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Oral fluoxetine combined with oral buspirone",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Oral risperidone combined with oral sertraline",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Noradrenergic tetracyclic mirtazapine alone",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "This patient has major depressive disorder with psychotic features, characterized by a major depressive episode accompanied by mood-congruent somatic delusions. Depression with psychotic features is generally treated with a combination of an antidepressant and an antipsychotic, or electroconvulsive therapy (ECT), particularly in severe cases requiring a rapid response. Antidepressant or antipsychotic monotherapy is generally less effective than combination treatment.",
+    "high_yield_pearl": "Major depressive disorder with psychotic features requires treatment with combination therapy: an antidepressant plus an atypical antipsychotic, or electroconvulsive therapy (ECT) in severe or refractory cases.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q40",
+    "q_num": "40",
+    "stem": "A 7-year-old boy is brought to a pediatric clinic by his parents because of difficulties interacting with other children. His teachers report that he rarely initiates conversations with classmates and has difficulty engaging in reciprocal conversations. He frequently avoids eye contact and struggles to interpret facial expressions and social cues. Although he has an age-appropriate vocabulary, he has difficulty developing friendships and participating in group activities. Which of the following additional findings would most strongly support a diagnosis of autism spectrum disorder?",
+    "category": "Autism",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Difficulty sustaining attention during classroom activities",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Unusually intense interest in weather patterns and meteorology",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Persistent fear of being embarrassed or negatively evaluated by peers",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Marked distress and anxiety when separated from primary caregivers",
+        "is_correct": false
+      },
+      {
+        "letter": "E",
+        "text": "Delayed development of expressive language during early childhood",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Autism spectrum disorder is characterized by persistent deficits in social communication and interaction, along with restricted, repetitive patterns of behavior, interests, or activities. This patient demonstrates difficulties with social reciprocity, nonverbal communication, and developing relationships. An unusually intense, highly focused interest would support the additional behavioral domain required for diagnosis. Inattention, social anxiety, separation anxiety, and a history of language delay do not independently establish the diagnosis.",
+    "high_yield_pearl": "Autism spectrum disorder is diagnosed by persistent deficits in social communication and interaction across multiple contexts, alongside restricted, repetitive patterns of behavior, interests, or activities.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q41",
+    "q_num": "41",
+    "stem": "A 28-year-old man is brought to the emergency department by his roommate because of increasingly bizarre behavior over the past week. The roommate reports that the patient has slept only 2–3 hours per night but remains highly energetic and talks “nonstop” about a plan to create a global streaming platform that will make him a billionaire. In the ED, the patient is euphoric, pacing around the room, and frequently interrupting the interviewer to share new business ideas. He becomes irritated when questioned and insists he has been chosen for “an international innovation award.” A urine toxicology screen is negative. Which of the following treatment options is least appropriate for managing this patient’s current episode?",
+    "category": "Bipolar Disorders and Mood Stabilizers",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Lithium",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Lamotrigine",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Valproate",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Olanzapine",
+        "is_correct": false
+      },
+      {
+        "letter": "E",
+        "text": "Risperidone",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "This patient is experiencing an acute manic episode, characterized by elevated mood, decreased need for sleep, increased energy, grandiosity, and pressured speech. Lithium, valproate, and second- generation antipsychotics such as olanzapine and risperidone are effective treatments for acute mania. Lamotrigine is not an approved treatment for mania, and is rather used for maintenance treatment and bipolar depression.",
+    "high_yield_pearl": "Acute mania requires prompt treatment with a mood stabilizer (lithium or valproate) and/or an atypical antipsychotic; in patients with prior good response, continuing or re-titrating that agent is preferred.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q42",
+    "q_num": "42",
+    "stem": "Which of the following is true of ADHD?",
+    "category": "ADHD",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Inattentive symptoms at school alone are sufficient for the diagnosis",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Methylphenidate is a second-line treatment option",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Symptoms must be present before the age of 5",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Patients can be diagnosed with inattentive symptoms only",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "ADHD has three presentations: predominantly inattentive, predominantly hyperactive/impulsive, and combined. Patients can meet diagnostic criteria based on inattentive symptoms alone, without significant hyperactivity or impulsivity. Several symptoms must have been present before age 12, and symptoms must occur in at least two settings and interfere with functioning. Stimulants such as methylphenidate are first-line pharmacologic treatments for ADHD.",
+    "high_yield_pearl": "ADHD can present in three subtypes: predominantly inattentive, predominantly hyperactive/impulsive, or combined presentation; symptoms must be present before age 12 in >= 2 settings.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q43",
+    "q_num": "43",
+    "stem": "A 48-year-old woman presents to her primary care physician with persistent depressed mood, anhedonia, fatigue, and difficulty concentrating over the past three months. She also reports chronic lower back pain that has persisted for several years despite physical therapy and intermittent use of NSAIDs. The pain frequently interferes with her sleep and daily activities. She denies any history of manic or hypomanic episodes. Physical examination reveals no focal neurologic deficits. Which of the following medications would be most appropriate for treating both her depressive symptoms and chronic pain?",
+    "category": "Depressive Disorders",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Bupropion",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Escitalopram",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Mirtazapine",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Selegiline",
+        "is_correct": false
+      },
+      {
+        "letter": "E",
+        "text": "Duloxetine",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 4,
+    "explanation": "This patient presents with major depressive disorder and chronic musculoskeletal pain. Duloxetine is a serotonin-norepinephrine reuptake inhibitor (SNRI) that is FDA-approved for both conditions. Its effects on serotonin and norepinephrine signaling in descending pain-modulating pathways make it particularly useful for patients with co-occurring depression and chronic pain. Bupropion, escitalopram, mirtazapine, and selegiline are antidepressants but do not have the same established efficacy or FDA indications for chronic musculoskeletal pain.",
+    "high_yield_pearl": "Duloxetine is a serotonin-norepinephrine reuptake inhibitor (SNRI) with dual efficacy for major depressive disorder and chronic musculoskeletal or neuropathic pain.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q44",
+    "q_num": "44",
+    "stem": "A 42-year-old woman presents to her psychiatrist with depressed mood, anhedonia, fatigue, difficulty concentrating, and feelings of worthlessness over the past 5 weeks. She reports experiencing similar episodes of depression over the past five years, although each summer she experiences approximately three months during which her mood returns to normal and she has no depressive symptoms. During her current episode, she has withdrawn from friends, stopped participating in activities she previously enjoyed, and has difficulty completing her work responsibilities. She denies any history of manic or hypomanic episodes. Which of the following is the most likely diagnosis?",
+    "category": "Depressive Disorders",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Persistent depressive disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Cyclothymia",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Major depressive disorder",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Bipolar II disorder",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "This patient meets criteria for major depressive disorder, characterized by at least five depressive symptoms, including depressed mood or anhedonia, lasting at least two weeks and causing functional impairment. Although she has experienced depression over several years, the presence of symptom-free intervals lasting longer than two months excludes persistent depressive disorder, which requires a chronic depressed mood (>2 years) without symptom free periods of >2 months. Cyclothymia and bipolar II disorder require a history of hypomanic symptoms, which is absent here.",
+    "high_yield_pearl": "An adequate trial of an antidepressant (e.g., SSRI) in major depressive disorder requires at least 4 to 6 weeks at therapeutic dosage before evaluating efficacy.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q45",
+    "q_num": "45",
+    "stem": "A 45-year-old man presents to the emergency department with a sudden, severe headache, palpitations, and nausea. He has a history of major depressive disorder that did not respond adequately to several antidepressants, including sertraline, which was discontinued several months ago. He recently began treatment with phenelzine. Earlier that evening, he attended a wine and cheese tasting, where he sampled a variety of cheeses. Approximately one hour later, he developed his current symptoms. His blood pressure is 220/120 mmHg, and his heart rate is 115 beats/min. He is visibly anxious and diaphoretic. Neurological exam reveals no significant findings. Which of the following best explains his presentation?",
+    "category": "Depressive Disorders",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Serotonin syndrome",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Hypertensive crisis",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Panic attack",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Neuroleptic malignant syndrome",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "This patient is experiencing a tyramine-induced hypertensive crisis associated with monoamine oxidase inhibitor (MAOI) use. Phenelzine inhibits the metabolism of tyramine, which is found in aged cheeses and other fermented foods. Accumulated tyramine promotes norepinephrine release, resulting in severe hypertension, headache, palpitations, and diaphoresis. Serotonin syndrome is associated with serotonergic drug interactions and typically involves clonus, hyperreflexia, and hyperthermia. Neuroleptic malignant syndrome typically presents with rigidity and hyperthermia, while panic attacks do not typically cause such severe hypertension.",
+    "high_yield_pearl": "Monoamine oxidase inhibitors (MAOIs) combined with dietary tyramine (aged cheeses, cured meats, draft beer) trigger hypertensive crisis due to displacement and release of accumulated peripheral norepinephrine.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q46",
+    "q_num": "46",
+    "stem": "Which of the following neurotransmitter changes is classically associated with major depressive disorder?",
+    "category": "Depressive Disorders",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Decreased serotonin and increased norepinephrine",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Decreased serotonin and norepinephrine",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Increased serotonin and decreased norepinephrine",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Increased serotonin and norepinephrine",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Major depressive disorder is associated with decreased serotonin, norepinephrine, and dopamine.",
+    "high_yield_pearl": "The monoamine hypothesis of depression posits that major depressive disorder is associated with functional deficiency of central serotonin, norepinephrine, and dopamine neurotransmission.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q47",
+    "q_num": "47",
+    "stem": "A 28-year-old woman presents to a psychiatrist because of worsening anxiety over the past six months. She reports intense fear when riding public transportation, standing in crowded stores, or being outside her home alone. She worries that she might experience a panic attack in these situations and be unable to escape or obtain help. Last week, while waiting in line at a grocery store, she experienced sudden palpitations, sweating, shortness of breath, and a fear of losing control. The symptoms peaked within several minutes and resolved after she left the store. She has increasingly avoided these situations and now relies on her family to accompany her when leaving home. Which of the following is the most appropriate first-line treatment?",
+    "category": "Anxiety & Trauma",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Oral alprazolam prescribed on an as-needed basis",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Oral tricyclic antidepressant amitriptyline daily",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Oral norepinephrine-dopamine reuptake bupropion",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Weekly outpatient cognitive behavioral psychotherapy",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "This patient presents with agoraphobia, characterized by marked fear and avoidance of situations in which escape may be difficult or help unavailable if panic-like symptoms occur. Cognitive behavioral therapy (CBT) incorporating gradual exposure to feared situations is a first-line treatment for agoraphobia. SSRIs and SNRIs are also commonly used pharmacologic treatments. Benzodiazepines are not preferred for long-term management, while bupropion and amitriptyline are not recommended first-line treatments.",
+    "high_yield_pearl": "Agoraphobia involves marked fear or anxiety about >= 2 of: public transportation, open spaces, enclosed places, lines/crowds, or being outside the home alone; first-line psychotherapy is Cognitive Behavioral Therapy (CBT).",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q48",
+    "q_num": "48",
+    "stem": "A 38-year-old man presents to his psychiatrist because of severe anxiety associated with flying. He reports that he becomes extremely anxious before boarding an airplane and experiences palpitations, sweating, and trembling during flights. He has an upcoming trip and requests a medication to help manage his anxiety during the flight. His psychiatric history is significant for alcohol use disorder, for which he completed inpatient rehabilitation three months ago. He reports maintaining abstinence since discharge. He denies experiencing significant anxiety in other situations and is not interested in taking a daily medication. Which of the following medications is most appropriate for managing his symptoms?",
+    "category": "Anxiety & Trauma",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Buspirone",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Alprazolam",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Hydroxyzine",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Venlafaxine",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "This patient presents with a specific phobia (flying) and requests an as-needed medication for situational anxiety. Hydroxyzine is a first-generation antihistamine with anxiolytic properties that can be used as needed without the abuse or dependence potential of benzodiazepines. Given his recent treatment for alcohol use disorder, benzodiazepines such as alprazolam are less desirable because of their potential for misuse and dependence. Buspirone and venlafaxine require regular administration and are not appropriate for immediate relief of situational anxiety. Exposure-based cognitive behavioral therapy remains the preferred long-term treatment for specific phobia.",
+    "high_yield_pearl": "Specific phobia is characterized by marked fear or anxiety about a specific object or situation; for infrequent, unavoidable exposures (e.g., flight phobia), a short-acting benzodiazepine is an effective as-needed option.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q49",
+    "q_num": "49",
+    "stem": "A 36-year-old man presents to a psychiatrist at the urging of his wife because of ongoing interpersonal conflicts. He reports frequent disagreements with “terrible” coworkers, whom he believes are deliberately undermining him because they are jealous of his abilities. He describes himself as exceptionally talented and complains that his supervisors fail to recognize his contributions. His wife reports that he frequently dismisses her concerns and becomes resentful when she does not offer him consistent attention. These patterns have been present since early adulthood and have caused difficulties in his relationships and career. Which of the following is the most likely diagnosis?",
+    "category": "Personality Disorder",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Paranoid personality disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Borderline personality disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Narcissistic personality disorder",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Histrionic personality disorder",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Narcissistic personality disorder is characterized by a pervasive pattern of grandiosity, need for admiration, and lack of empathy. This patient demonstrates an exaggerated sense of his abilities, resentment over insufficient recognition, and disregard for his wife's concerns. Although his suspiciousness toward coworkers may suggest paranoid personality disorder, it appears rooted in his sense of superiority rather than pervasive distrust. Borderline personality disorder is characterized by instability in relationships, self-image, and affect, while histrionic personality disorder involves excessive emotionality and attention-seeking behavior.",
+    "high_yield_pearl": "Narcissistic personality disorder is characterized by a pervasive pattern of grandiosity, need for admiration, sense of entitlement, and lack of empathy, often concealing fragile self-esteem.",
+    "image": null
+  },
+  {
+    "id": "exam4_psych_q50",
+    "q_num": "50",
+    "stem": "Which of the following is consistent with hypomania?",
+    "category": "Bipolar Disorders and Mood Stabilizers",
+    "source": "Psychiatry Practice Examination (IMC 535b)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Symptom duration of at least 4 consecutive days",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Delusional belief that one can influence the weather",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Severe inability to maintain occupational employment",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Marked clinical impairment requiring hospitalization",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Hypomania is characterized by elevated, expansive, or irritable mood and increased energy or activity lasting at least 4 consecutive days, without marked functional impairment, hospitalization, or psychotic symptoms. Importantly, there is no maximum duration for hypomania - an episode lasting 10 days can still qualify as hypomania if it does not meet criteria for mania based on severity. Psychotic symptoms, marked functional impairment, or the need for hospitalization instead indicate mania.",
+    "high_yield_pearl": "Hypomania lasts at least 4 consecutive days with elevated/irritable mood and increased energy, but without psychotic features, without need for hospitalization, and without marked impairment in social or occupational functioning.",
+    "image": null
+  }
+]
