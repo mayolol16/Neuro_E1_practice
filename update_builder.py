@@ -4966,7 +4966,7 @@ html_template = """<!DOCTYPE html>
 
       const toastMsg = isExam4Track(currentTrack)
         ? 'Exam 4: Loaded 🛋️ Psychiatry Practice (50 Qs - 16 Topics)'
-        : currentTrack === 'exam3_step1_150' '
+        : currentTrack === 'exam3_step1_150'
         ? 'Exam 3: Loaded ⚡ Step 1–Style (150 Qs - High-Yield USMLE)'
         : currentTrack === 'exam3_in_house_like_g'
         ? 'Exam 3: Loaded 🏛️ in_house_like_G (150 Qs - Case-Based)'
@@ -6061,7 +6061,7 @@ html_template = """<!DOCTYPE html>
 
       const reportTitle = isExam4Track(currentTrack)
         ? '🛋️ Exam 4 Psychiatry Practice (50 Qs) Score Report'
-        : currentTrack === 'exam3_step1_150' '
+        : currentTrack === 'exam3_step1_150'
         ? '⚡ Exam 3 Step 1–Style (150 Qs) Score Report'
         : currentTrack === 'exam3_in_house_like_g'
         ? '🏛️ Exam 3 in_house_like_G (150 Qs) Score Report'
@@ -7588,7 +7588,7 @@ html_template = """<!DOCTYPE html>
         setTimeout(() => {
           const trackLabel = isExam4Track(currentTrack)
             ? 'Exam 4 Psych Practice (50 Qs)'
-            : currentTrack === 'exam3_step1_150' '
+            : currentTrack === 'exam3_step1_150'
             ? 'Exam 3 Step 1–Style (150 Qs)'
             : currentTrack === 'exam3_in_house_like_g'
             ? 'Exam 3 in_house_like_G (150 Qs)'
