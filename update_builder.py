@@ -664,6 +664,22 @@ exam4_psych_categories = [
 exam4_psych_json_data_str = json.dumps(exam4_psych_questions, ensure_ascii=False)
 exam4_psych_categories_json_str = json.dumps(exam4_psych_categories, ensure_ascii=False)
 
+# Load Exam 4 In-House Practice (150 Questions, 5 Parts from IMC 535)
+exam4_inhouse_150_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'exam4_inhouse_150_questions.json')
+with open(exam4_inhouse_150_path, 'r', encoding='utf-8') as f:
+    exam4_inhouse_150_questions = json.load(f)
+
+exam4_inhouse_150_categories = [
+    'Part 1: Mental Status Exam',
+    'Part 2: Schizophrenia Spectrum',
+    'Part 3: Psychosis Workup & Early Intervention',
+    'Part 4: Antipsychotic Medications',
+    'Part 5: Substance Use Disorders'
+]
+
+exam4_inhouse_150_json_data_str = json.dumps(exam4_inhouse_150_questions, ensure_ascii=False)
+exam4_inhouse_150_categories_json_str = json.dumps(exam4_inhouse_150_categories, ensure_ascii=False)
+
 # Exam 3 In House c2 (In House c2: 100 Questions)
 exam3_inhouse_c2_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'exam3_inhouse_c2_questions.json')
 with open(exam3_inhouse_c2_path, 'r', encoding='utf-8') as f:
@@ -4140,6 +4156,8 @@ html_template = """<!DOCTYPE html>
     const exam3GHU16Categories = """ + exam3_g_h_u1_6_categories_json_str + """;
     const rawExam4PsychQuestions = """ + exam4_psych_json_data_str + """;
     const exam4PsychCategories = """ + exam4_psych_categories_json_str + """;
+    const rawExam4InHouse150Questions = """ + exam4_inhouse_150_json_data_str + """;
+    const exam4InHouse150Categories = """ + exam4_inhouse_150_categories_json_str + """;
 
 
     // ACTIVE TRACK: 'focused_zen' (320 Qs from Study Guide), 'exam' (125 Qs), or 'zen' (320 Qs)
@@ -4365,12 +4383,19 @@ html_template = """<!DOCTYPE html>
           icon: '🛋️',
           badge: '16 Topics • Official',
           type: 'exam4'
+        },
+        {
+          id: 'exam4_inhouse_150',
+          label: 'In-House E4 (150 Qs)',
+          icon: '📝',
+          badge: '5 Parts • Need-to-Know',
+          type: 'exam4'
         }
       ]
     };
 
     function isExam4Track(track) {
-      return track === 'exam4' || track === 'exam4_psych_practice' || (track && track.startsWith('exam4_'));
+      return track === 'exam4' || track === 'exam4_psych_practice' || track === 'exam4_inhouse_150' || (track && track.startsWith('exam4_'));
     }
 
     function isExam3Track(track) {
@@ -4386,6 +4411,7 @@ html_template = """<!DOCTYPE html>
     }
 
     function getCategoriesForTrack() {
+      if (currentTrack === 'exam4_inhouse_150') return exam4InHouse150Categories;
       if (isExam4Track(currentTrack)) return exam4PsychCategories;
       if (currentTrack === 'exam3_step1_150') return exam3Step1150Categories;
       if (currentTrack === 'exam3_in_house_like_g') return exam3InHouseLikeGCategories;
@@ -4730,7 +4756,16 @@ html_template = """<!DOCTYPE html>
 
       timerDisplay.classList.remove('zen', 'focused-zen', 'inhouse', 'exam2', 'exam3', 'exam4');
 
-      if (isExam4Track(currentTrack)) {
+      if (currentTrack === 'exam4_inhouse_150') {
+        zenTray.style.display = 'flex';
+        trayIcon.textContent = '📝';
+        trayLabelText.textContent = 'E4 Parts:';
+        trackTag.style.display = 'inline-block';
+        trackTag.className = 'q-track-tag exam4';
+        trackTag.textContent = '📝 In-House E4 (150 Qs)';
+        timerDisplay.classList.add('exam4');
+        sidebarTitle.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/></svg> In-House Parts (5)`;
+      } else if (currentTrack === 'exam4_psych_practice' || isExam4Track(currentTrack)) {
         zenTray.style.display = 'flex';
         trayIcon.textContent = '🛋️';
         trayLabelText.textContent = 'Psych Topics:';
@@ -4964,7 +4999,9 @@ html_template = """<!DOCTYPE html>
       updateOverallStats();
       renderCurrentQuestion();
 
-      const toastMsg = isExam4Track(currentTrack)
+      const toastMsg = currentTrack === 'exam4_inhouse_150'
+        ? 'Exam 4: Loaded 📝 In-House E4 (150 Qs - 5 Parts)'
+        : isExam4Track(currentTrack)
         ? 'Exam 4: Loaded 🛋️ Psychiatry Practice (50 Qs - 16 Topics)'
         : currentTrack === 'exam3_step1_150'
         ? 'Exam 3: Loaded ⚡ Step 1–Style (150 Qs - High-Yield USMLE)'
@@ -5018,6 +5055,7 @@ html_template = """<!DOCTYPE html>
 
     // Centralized storage prefix resolver ensuring 100% consistency across all tracks
     function getStoragePrefix(track = currentTrack) {
+      if (track === 'exam4_inhouse_150') return 'usmle_exam4_inhouse_150_';
       if (isExam4Track(track)) return 'usmle_exam4_psych_';
       if (track === 'exam3_redo' || track === 'redo') return 'usmle_exam3_redo_';
       if (track === 'exam3_high_yield' || track === 'high_yield') return 'usmle_exam3_high_yield_';
@@ -5050,7 +5088,9 @@ html_template = """<!DOCTYPE html>
       const storagePrefix = getStoragePrefix(currentTrack);
       let rawData = rawExamQuestions;
 
-      if (isExam4Track(currentTrack)) {
+      if (currentTrack === 'exam4_inhouse_150') {
+        rawData = rawExam4InHouse150Questions;
+      } else if (isExam4Track(currentTrack)) {
         rawData = rawExam4PsychQuestions;
       } else if (currentTrack === 'exam3_step1_150') {
         rawData = rawExam3Step1150Questions;
@@ -6059,7 +6099,9 @@ html_template = """<!DOCTYPE html>
       document.getElementById('reportCorrectCount').textContent = totalCorrect.toString();
       document.getElementById('reportIncorrectCount').textContent = totalIncorrect.toString();
 
-      const reportTitle = isExam4Track(currentTrack)
+      const reportTitle = currentTrack === 'exam4_inhouse_150'
+        ? '📝 Exam 4 In-House Practice (150 Qs) Score Report'
+        : isExam4Track(currentTrack)
         ? '🛋️ Exam 4 Psychiatry Practice (50 Qs) Score Report'
         : currentTrack === 'exam3_step1_150'
         ? '⚡ Exam 3 Step 1–Style (150 Qs) Score Report'
@@ -7586,7 +7628,9 @@ html_template = """<!DOCTYPE html>
 
       if (currentIndex > 0) {
         setTimeout(() => {
-          const trackLabel = isExam4Track(currentTrack)
+          const trackLabel = currentTrack === 'exam4_inhouse_150'
+            ? 'Exam 4 In-House E4 (150 Qs)'
+            : isExam4Track(currentTrack)
             ? 'Exam 4 Psych Practice (50 Qs)'
             : currentTrack === 'exam3_step1_150'
             ? 'Exam 3 Step 1–Style (150 Qs)'

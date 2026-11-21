@@ -153,37 +153,37 @@ patches.append((p8_old, p8_new))
 # 9. switchTrack toast message
 p9_old = '''      const toastMsg = isExam4Track(currentTrack)
         ? 'Exam 4: Loaded 🛋️ Psychiatry Practice (50 Qs - 16 Topics)'
-        : currentTrack === 'exam3_step1_150' '''
+        : currentTrack === 'exam3_step1_150'''
 
 p9_new = '''      const toastMsg = currentTrack === 'exam4_inhouse_150'
         ? 'Exam 4: Loaded 📝 In-House E4 (150 Qs - 5 Parts)'
         : isExam4Track(currentTrack)
         ? 'Exam 4: Loaded 🛋️ Psychiatry Practice (50 Qs - 16 Topics)'
-        : currentTrack === 'exam3_step1_150' '''
+        : currentTrack === 'exam3_step1_150'''
 patches.append((p9_old, p9_new))
 
 # 10. Score report title
 p10_old = '''      const reportTitle = isExam4Track(currentTrack)
         ? '🛋️ Exam 4 Psychiatry Practice (50 Qs) Score Report'
-        : currentTrack === 'exam3_step1_150' '''
+        : currentTrack === 'exam3_step1_150'''
 
 p10_new = '''      const reportTitle = currentTrack === 'exam4_inhouse_150'
         ? '📝 Exam 4 In-House Practice (150 Qs) Score Report'
         : isExam4Track(currentTrack)
         ? '🛋️ Exam 4 Psychiatry Practice (50 Qs) Score Report'
-        : currentTrack === 'exam3_step1_150' '''
+        : currentTrack === 'exam3_step1_150'''
 patches.append((p10_old, p10_new))
 
 # 11. initApp resume track label
 p11_old = '''          const trackLabel = isExam4Track(currentTrack)
             ? 'Exam 4 Psych Practice (50 Qs)'
-            : currentTrack === 'exam3_step1_150' '''
+            : currentTrack === 'exam3_step1_150'''
 
 p11_new = '''          const trackLabel = currentTrack === 'exam4_inhouse_150'
             ? 'Exam 4 In-House E4 (150 Qs)'
             : isExam4Track(currentTrack)
             ? 'Exam 4 Psych Practice (50 Qs)'
-            : currentTrack === 'exam3_step1_150' '''
+            : currentTrack === 'exam3_step1_150'''
 patches.append((p11_old, p11_new))
 
 # Apply all patches
