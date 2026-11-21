@@ -1,0 +1,5252 @@
+[
+  {
+    "id": "exam4_inhouse_q1",
+    "q_num": "1",
+    "part": 1,
+    "part_q_num": 1,
+    "stem": "Which is the correct standard order of the MSE?",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Mood/affect → Appearance → Speech → Thought content → Thought form → Perception → Cognition → Insight/judgment",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Appearance/attitude/activity → Speech/language → Mood/affect → Thought form → Thought content → Perception → Cognition → Insight/judgment",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Appearance → Speech → Thought form → Mood/affect → Perception → Thought content → Cognition → Insight/judgment",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Cognition → Perception → Thought content → Thought form → Mood/affect → Speech → Appearance → Insight/judgment ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Fixed 8-part sequence: appearance/attitude/activity, speech, mood/affect, thought form, thought content, perception, cognition, insight/judgment.",
+    "high_yield_pearl": "Fixed 8-part sequence: appearance/attitude/activity, speech, mood/affect, thought form, thought content, perception, cognition, insight/judgment.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q2",
+    "q_num": "2",
+    "part": 1,
+    "part_q_num": 2,
+    "stem": "How does the MSE differ from the MMSE/MoCA?",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The MSE is a comprehensive neuropsychological cognitive assessment",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "The MoCA primarily assesses mood state, affect, and thought content",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "The MSE broadly assesses signs of mental illness; cognition is only one section and not a thorough test",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "They are clinically interchangeable screening tools for psychiatric pathology",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "The MSE is the \"physical exam of psychiatry\"; MMSE/MoCA are dedicated cognitive screens.",
+    "high_yield_pearl": "The MSE is the \"physical exam of psychiatry\"; MMSE/MoCA are dedicated cognitive screens.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q3",
+    "q_num": "3",
+    "part": 1,
+    "part_q_num": 3,
+    "stem": "Which best describes **mood**?",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The patient's predominant internal feeling state, as stated by the patient (quote them)",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "The external, dynamic emotional expression observed by the clinician",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "The patient's ability to understand their illness",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "The organization of the patient's thoughts ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Mood is internal and patient-reported.",
+    "high_yield_pearl": "Mood is internal and patient-reported.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q4",
+    "q_num": "4",
+    "part": 1,
+    "part_q_num": 4,
+    "stem": "Which best describes **affect**?",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The patient's internal emotional state, as stated by the patient",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "A fixed, false belief firmly held despite contrary evidence",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "The clinical decision a patient demonstrates in real-life scenarios",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "The external, observable manifestation of the patient's emotional state",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Affect is observed by the clinician.",
+    "high_yield_pearl": "Affect is observed by the clinician.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q5",
+    "q_num": "5",
+    "part": 1,
+    "part_q_num": 5,
+    "stem": "A patient says \"I'm great, never better\" while tearful about her mother's death. How is this described?",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Flat affect",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Mood–affect incongruence",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Pressured speech",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Tangentiality ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Affect doesn't match the stated mood or the situation.",
+    "high_yield_pearl": "Affect doesn't match the stated mood or the situation.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q6",
+    "q_num": "6",
+    "part": 1,
+    "part_q_num": 6,
+    "stem": "An affect with markedly reduced intensity and almost no emotional expression is:",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Labile",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Restricted in range",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Flat/blunted",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Exaggerated ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Intensity descriptors: neutral, exaggerated, blunted, flat.",
+    "high_yield_pearl": "Intensity descriptors: neutral, exaggerated, blunted, flat.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q7",
+    "q_num": "7",
+    "part": 1,
+    "part_q_num": 7,
+    "stem": "A patient shifts rapidly from anxious to yelling within a minute. This is a description of:",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Labile affect (mobility)",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Fixed affect",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Flat affect",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Congruent affect ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Labile is a mobility descriptor.",
+    "high_yield_pearl": "Labile is a mobility descriptor.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q8",
+    "q_num": "8",
+    "part": 1,
+    "part_q_num": 8,
+    "stem": "An affect that does not change whether the clinician discusses happy or sad topics is:",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Full range",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Mobile",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Congruent",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Non-reactive ",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Reactivity is how appropriately affect adjusts to content.",
+    "high_yield_pearl": "Reactivity is how appropriately affect adjusts to content.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q9",
+    "q_num": "9",
+    "part": 1,
+    "part_q_num": 9,
+    "stem": "Speech that is fast and cannot be interrupted is:",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Hyper-verbal but spontaneous",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Pressured",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Prosodic",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Poverty of speech ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Pressured speech is fast and un-interruptible.",
+    "high_yield_pearl": "Pressured speech is fast and un-interruptible.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q10",
+    "q_num": "10",
+    "part": 1,
+    "part_q_num": 10,
+    "stem": "Asked \"What brought you in?\", a patient describes waking, showering, and eating cereal in long detail, then finally says \"chest pressure, so we came in.\" This is:",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Circumstantial",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Tangential",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Flight of ideas",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Word salad ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Circumstantial: long-winded but eventually answers.",
+    "high_yield_pearl": "Circumstantial: long-winded but eventually answers.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q11",
+    "q_num": "11",
+    "part": 1,
+    "part_q_num": 11,
+    "stem": "A patient talks about his morning routine and coffee and never states his chief complaint. This is:",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Circumstantial",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Flight of ideas",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Tangential",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Loosening of associations ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Tangential: never answers the question.",
+    "high_yield_pearl": "Tangential: never answers the question.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q12",
+    "q_num": "12",
+    "part": 1,
+    "part_q_num": 12,
+    "stem": "A patient ping-pongs rapidly between topics (\"pressure\" → Queen song → vanilla ice cream → Forrest Gump), but you can follow the connections. This is:",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Loosening of associations",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Flight of ideas",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Clanging",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Thought blocking ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Flight of ideas: rapid jumps, but a thread is followable.",
+    "high_yield_pearl": "Flight of ideas: rapid jumps, but a thread is followable.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q13",
+    "q_num": "13",
+    "part": 1,
+    "part_q_num": 13,
+    "stem": "A patient speaks in fluent, complete sentences, but ideas have no connecting thread between them. This is:",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Flight of ideas (rapid topic jumps with loose but discernable links)",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Circumstantiality (over-detailed speech that eventually reaches the goal)",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Echolalia (senseless repetition of words spoken by another person)",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Loosening of associations (fluent speech with no connecting conceptual thread)",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Loosening of associations: fluent but no connecting thread.",
+    "high_yield_pearl": "Loosening of associations: fluent but no connecting thread.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q14",
+    "q_num": "14",
+    "part": 1,
+    "part_q_num": 14,
+    "stem": "\"Print the light help for green ow mom don't wall and devil devil john green\" is an example of:",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Word salad",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Neologism",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Tangentiality",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Perseveration ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Word salad: random words, no sentence structure.",
+    "high_yield_pearl": "Word salad: random words, no sentence structure.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q15",
+    "q_num": "15",
+    "part": 1,
+    "part_q_num": 15,
+    "stem": "Which lists thought form from least to most disorganized?",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Tangential → circumstantial → flight of ideas → word salad → loosening of associations",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Flight of ideas → circumstantial → tangential → word salad → loosening of associations",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Circumstantial → tangential → flight of ideas → loosening of associations → word salad",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Word salad → loosening of associations → flight of ideas → tangential → circumstantial ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Linear → circumstantial → tangential → flight of ideas → loosening of associations → word salad.",
+    "high_yield_pearl": "Linear → circumstantial → tangential → flight of ideas → loosening of associations → word salad.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q16",
+    "q_num": "16",
+    "part": 1,
+    "part_q_num": 16,
+    "stem": "\"Oops on my nose, nobody knows\" illustrates:",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Echolalia",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Clanging",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Perseveration",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Neologism ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Clanging: association by sound/rhyme.",
+    "high_yield_pearl": "Clanging: association by sound/rhyme.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q17",
+    "q_num": "17",
+    "part": 1,
+    "part_q_num": 17,
+    "stem": "A patient coins the word \"shockma\" and at times stops abruptly mid-sentence, unable to continue her train of thought. These are:",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Clanging and echolalia",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Perseveration and neologism",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Echolalia and clanging",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Neologism and thought blocking ",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Neologisms are made-up words; thought blocking is abrupt loss of the train of thought.",
+    "high_yield_pearl": "Neologisms are made-up words; thought blocking is abrupt loss of the train of thought.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q18",
+    "q_num": "18",
+    "part": 1,
+    "part_q_num": 18,
+    "stem": "A patient fluctuates between alert and drowsy during the interview. Which diagnosis should you think of first?",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Delirium",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Schizophrenia",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Major depression",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Delusional disorder ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Fluctuating level of consciousness points to delirium.",
+    "high_yield_pearl": "Fluctuating level of consciousness points to delirium.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q19",
+    "q_num": "19",
+    "part": 1,
+    "part_q_num": 19,
+    "stem": "Serial sevens and spelling \"WORLD\" backwards assess which cognitive domain?",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Registration",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Long-term memory",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Concentration",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Abstraction ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Concentration is tested with serial 7s/WORLD backwards. Attention is tested with digit span.",
+    "high_yield_pearl": "Concentration is tested with serial 7s/WORLD backwards. Attention is tested with digit span.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q20",
+    "q_num": "20",
+    "part": 1,
+    "part_q_num": 20,
+    "stem": "Which is the best definition of a **delusion**?",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Perception of a stimulus that isn't there",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "A fixed, false belief that is not culturally shared and cannot be reasoned away",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "An intrusive, unwanted thought the patient recognizes as irrational",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "A strongly held belief that is not delusional in intensity ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Delusions are fixed, false, not culturally determined, and not reasoned away.",
+    "high_yield_pearl": "Delusions are fixed, false, not culturally determined, and not reasoned away.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q21",
+    "q_num": "21",
+    "part": 1,
+    "part_q_num": 21,
+    "stem": "Which is a **bizarre** delusion?",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A veteran believes the moon is a government space station monitoring people",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "A man believes his phone is tapped",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "A woman believes neighbors are poisoning her food",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "A man believes a coworker is plotting against him ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Bizarre delusions cannot happen in reality. Phone tapping is non-bizarre.",
+    "high_yield_pearl": "Bizarre delusions cannot happen in reality. Phone tapping is non-bizarre.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q22",
+    "q_num": "22",
+    "part": 1,
+    "part_q_num": 22,
+    "stem": "A man believes a famous actress is secretly in love with him (as with John Hinckley Jr.). This is:",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Grandiose",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Persecutory",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Somatic",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Erotomanic ",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Erotomanic: believing someone loves you when they do not.",
+    "high_yield_pearl": "Erotomanic: believing someone loves you when they do not.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q23",
+    "q_num": "23",
+    "part": 1,
+    "part_q_num": 23,
+    "stem": "A college student returns home convinced his family and even his dog are impostors. This is a delusion of:",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Reference",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Misidentification",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Control",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Nihilism ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Misidentification (impostor) delusion.",
+    "high_yield_pearl": "Misidentification (impostor) delusion.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q24",
+    "q_num": "24",
+    "part": 1,
+    "part_q_num": 24,
+    "stem": "A patient insists a bug is living in her spine despite normal imaging. This is a:",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Delusion of reference",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Grandiose delusion",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Somatic delusion",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Religious delusion ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Somatic delusion: something wrong inside the body when there isn't.",
+    "high_yield_pearl": "Somatic delusion: something wrong inside the body when there isn't.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q25",
+    "q_num": "25",
+    "part": 1,
+    "part_q_num": 25,
+    "stem": "A woman believes numbers on a pizza shop's wall art carry messages about her deceased father. This is a delusion of:",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Reference",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Control",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Misidentification",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Grandiosity ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Delusion of reference: benign cues are personal messages.",
+    "high_yield_pearl": "Delusion of reference: benign cues are personal messages.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q26",
+    "q_num": "26",
+    "part": 1,
+    "part_q_num": 26,
+    "stem": "Which statement about **psychosis** is correct?",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Psychosis is a diagnosis equivalent to schizophrenia",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Psychosis is a symptom (break from reality), not a diagnosis",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Psychosis requires hallucinations",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Psychosis requires disorganized speech ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Psychosis is a symptom, not a diagnosis.",
+    "high_yield_pearl": "Psychosis is a symptom, not a diagnosis.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q27",
+    "q_num": "27",
+    "part": 1,
+    "part_q_num": 27,
+    "stem": "\"I keep thinking I'm going to stab my baby, and I'm horrified\" is best described as:",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A delusion",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "An overvalued idea",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "A hallucination",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "An obsession (ego-dystonic) ",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Obsessions are intrusive, unwanted, ego-dystonic thoughts.",
+    "high_yield_pearl": "Obsessions are intrusive, unwanted, ego-dystonic thoughts.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q28",
+    "q_num": "28",
+    "part": 1,
+    "part_q_num": 28,
+    "stem": "Perceiving a stimulus in the absence of any actual external stimulus is a(n):",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Illusion",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Depersonalization",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Hallucination",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Derealization ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "A hallucination has no stimulus; an illusion misperceives a real one.",
+    "high_yield_pearl": "A hallucination has no stimulus; an illusion misperceives a real one.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q29",
+    "q_num": "29",
+    "part": 1,
+    "part_q_num": 29,
+    "stem": "A patient feels \"outside\" herself, watching herself from a third-person view. This is:",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Depersonalization",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Derealization",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Illusion",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Hallucination ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Depersonalization is feeling outside oneself; derealization is the surroundings feeling unreal.",
+    "high_yield_pearl": "Depersonalization is feeling outside oneself; derealization is the surroundings feeling unreal.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q30",
+    "q_num": "30",
+    "part": 1,
+    "part_q_num": 30,
+    "stem": "A patient recognizes his depression is worsened by drinking five drinks a day but keeps drinking. How are insight and judgment described?",
+    "category": "Part 1: Mental Status Exam",
+    "source": "IMC 535 Exam 4 Practice (Part 1: Mental Status Exam)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Poor insight, good judgment",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Good insight, poor judgment",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Poor insight, poor judgment",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Good insight, good judgment",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Insight is understanding; judgment is the action chosen.",
+    "high_yield_pearl": "Insight is understanding; judgment is the action chosen.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q31",
+    "q_num": "31",
+    "part": 2,
+    "part_q_num": 1,
+    "stem": "FP, 19, believes her ex-boyfriend is plotting to kill her and hears people outside laughing and calling her names. These symptoms are in which domain?",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Negative",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Cognitive",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Positive",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Mood ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Delusions and hallucinations are positive symptoms.",
+    "high_yield_pearl": "Delusions and hallucinations are positive symptoms.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q32",
+    "q_num": "32",
+    "part": 2,
+    "part_q_num": 2,
+    "stem": "Which is a **negative** symptom?",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Avolition, alogia, anhedonia, or blunted emotional expression",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Auditory, command, or persecutory perceptual hallucinations",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Disorganized, tangential, or derailed cognitive speech patterns",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Delusions of reference, control, or persecutory paranoia",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Negative symptoms are loss of normal function.",
+    "high_yield_pearl": "Negative symptoms are loss of normal function.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q33",
+    "q_num": "33",
+    "part": 2,
+    "part_q_num": 3,
+    "stem": "Which dopamine abnormality underlies negative and cognitive symptoms?",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "↑ Dopamine in the mesolimbic pathway",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "↑ Dopamine in the mesocortical pathway",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "↓ Dopamine in the nigrostriatal pathway",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "↓ Dopamine in the mesocortical pathway ",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Mesocortical hypodopaminergia produces negative and cognitive symptoms.",
+    "high_yield_pearl": "Mesocortical hypodopaminergia produces negative and cognitive symptoms.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q34",
+    "q_num": "34",
+    "part": 2,
+    "part_q_num": 4,
+    "stem": "Positive symptoms are attributed to:",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "↓ Dopamine in the mesocortical pathway",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "↑ Dopamine in the mesolimbic pathway",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "↑ Dopamine in the tuberoinfundibular pathway",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "↓ Dopamine in the nigrostriatal pathway ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Mesolimbic hyperdopaminergia produces positive symptoms.",
+    "high_yield_pearl": "Mesolimbic hyperdopaminergia produces positive symptoms.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q35",
+    "q_num": "35",
+    "part": 2,
+    "part_q_num": 5,
+    "stem": "Which symptom domain responds **least** to D2-blocking antipsychotics?",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Persecutory and somatic delusions",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Auditory and commanding hallucinations",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Negative and cognitive symptom domains",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Disorganized and circumstantial speech",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Negative, cognitive, and mood symptoms have little response to D2 blockade.",
+    "high_yield_pearl": "Negative, cognitive, and mood symptoms have little response to D2 blockade.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q36",
+    "q_num": "36",
+    "part": 2,
+    "part_q_num": 6,
+    "stem": "Which best defines **catatonia**?",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A disorganized motor syndrome with markedly decreased environmental reactivity or excessive purposeless motor activity",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "A delayed hyperkinetic syndrome with involuntary choreiform movements of the face and extremities following D2 blockade",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "A encapsulated delusional disorder characterized by fixed non-bizarre beliefs with preserved functional independence",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "An affective mood syndrome marked by rapid cycling between euphoric grandiosity and severe unipolar depression",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Catatonia is a motor syndrome with decreased (or excited) reactivity.",
+    "high_yield_pearl": "Catatonia is a motor syndrome with decreased (or excited) reactivity.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q37",
+    "q_num": "37",
+    "part": 2,
+    "part_q_num": 7,
+    "stem": "Which finding is characteristic of catatonia?",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pill-rolling tremor",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Oculogyric crisis",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Tongue protrusion and lip smacking",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Waxy flexibility or mutism ",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Waxy flexibility, stupor, mutism, and posturing. Tongue movements are TD and oculogyric crisis is dystonia.",
+    "high_yield_pearl": "Waxy flexibility, stupor, mutism, and posturing. Tongue movements are TD and oculogyric crisis is dystonia.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q38",
+    "q_num": "38",
+    "part": 2,
+    "part_q_num": 8,
+    "stem": "Typical age of onset of schizophrenia is:",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Females have earlier onset in early adolescence; males develop symptoms in mid-adulthood",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Males typically develop onset in late teens to early 20s; females in mid-20s to early 30s",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Both biological sexes exhibit identical peak incidence after the fourth decade of life",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Both biological sexes develop primary manifestations during early childhood development",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Earlier in males, later in females.",
+    "high_yield_pearl": "Earlier in males, later in females.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q39",
+    "q_num": "39",
+    "part": 2,
+    "part_q_num": 9,
+    "stem": "Lifetime prevalence of schizophrenia is about:",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.01%",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "10%",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "1%",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "5% ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "About 1% lifetime.",
+    "high_yield_pearl": "About 1% lifetime.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q40",
+    "q_num": "40",
+    "part": 2,
+    "part_q_num": 10,
+    "stem": "Concordance for schizophrenia in monozygotic twins is about:",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "40–50%",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "100%",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "10%",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "80% ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "MZ 40–50%, DZ 9–10%.",
+    "high_yield_pearl": "MZ 40–50%, DZ 9–10%.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q41",
+    "q_num": "41",
+    "part": 2,
+    "part_q_num": 11,
+    "stem": "Compared with the general population, schizophrenia risk in first-degree relatives is about:",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Equal",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "2× higher",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "5× higher",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "10× higher ",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "About 10× higher.",
+    "high_yield_pearl": "About 10× higher.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q42",
+    "q_num": "42",
+    "part": 2,
+    "part_q_num": 12,
+    "stem": "Heritability of schizophrenia is about:",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "20%",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "80%",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "50%",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "5% ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "About 80%.",
+    "high_yield_pearl": "About 80%.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q43",
+    "q_num": "43",
+    "part": 2,
+    "part_q_num": 13,
+    "stem": "Which parental factor raises schizophrenia risk (about 3× RR)?",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Advanced paternal age at conception",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Advanced maternal age only",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Young maternal age",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Maternal vegetarian diet ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Paternal age is about 3× RR.",
+    "high_yield_pearl": "Paternal age is about 3× RR.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q44",
+    "q_num": "44",
+    "part": 2,
+    "part_q_num": 14,
+    "stem": "FP had a difficult labor with a nuchal cord. Which risk factor does this represent (about 2× RR)?",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Maternal infection",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Paternal age",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Obstetric complications/hypoxia",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Epigenetic methylation ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Obstetric complications/hypoxia is about 2× RR.",
+    "high_yield_pearl": "Obstetric complications/hypoxia is about 2× RR.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q45",
+    "q_num": "45",
+    "part": 2,
+    "part_q_num": 15,
+    "stem": "Adolescent use of which substance is associated with 2–3× risk of schizophrenia?",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Caffeine",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Nicotine",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Alcohol",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "High-potency cannabis ",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Adolescent high-potency cannabis is 2–3× RR.",
+    "high_yield_pearl": "Adolescent high-potency cannabis is 2–3× RR.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q46",
+    "q_num": "46",
+    "part": 2,
+    "part_q_num": 16,
+    "stem": "Which is **NOT** a recognized risk factor for schizophrenia?",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "In utero famine",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Higher educational attainment",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Urban residence",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Migration/ethnic minority status ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Education is not a risk factor. The others are.",
+    "high_yield_pearl": "Education is not a risk factor. The others are.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q47",
+    "q_num": "47",
+    "part": 2,
+    "part_q_num": 17,
+    "stem": "A patient with a known genetic syndrome and new psychosis most likely has:",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "22q11.2 deletion syndrome",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Down syndrome only",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Turner syndrome",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Fragile X only ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "22q11.2 deletion is a classic genetic risk syndrome.",
+    "high_yield_pearl": "22q11.2 deletion is a classic genetic risk syndrome.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q48",
+    "q_num": "48",
+    "part": 2,
+    "part_q_num": 18,
+    "stem": "Which two dopamine pathways are **not** involved in schizophrenia pathogenesis but are responsible for key antipsychotic side effects?",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Mesolimbic and mesocortical",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Mesolimbic and nigrostriatal",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Nigrostriatal and tuberoinfundibular",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Mesocortical and tuberoinfundibular ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "These cause EPS and hyperprolactinemia, respectively.",
+    "high_yield_pearl": "These cause EPS and hyperprolactinemia, respectively.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q49",
+    "q_num": "49",
+    "part": 2,
+    "part_q_num": 19,
+    "stem": "D2 blockade in which pathway causes hyperprolactinemia?",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Mesolimbic",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Mesocortical",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Nigrostriatal",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Tuberoinfundibular ",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "DA normally inhibits prolactin, so blockade raises it.",
+    "high_yield_pearl": "DA normally inhibits prolactin, so blockade raises it.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q50",
+    "q_num": "50",
+    "part": 2,
+    "part_q_num": 20,
+    "stem": "D2 blockade in which pathway causes extrapyramidal symptoms?",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Nigrostriatal",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Mesolimbic",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Tuberoinfundibular",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Mesocortical ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Nigrostriatal blockade produces EPS.",
+    "high_yield_pearl": "Nigrostriatal blockade produces EPS.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q51",
+    "q_num": "51",
+    "part": 2,
+    "part_q_num": 21,
+    "stem": "Which disorder requires ≥1 psychotic symptom lasting ≥1 day but <1 month with full return to baseline?",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Schizophreniform disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Brief psychotic disorder",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Delusional disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Schizoaffective disorder ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Brief psychotic disorder: ≥1 day to <1 month.",
+    "high_yield_pearl": "Brief psychotic disorder: ≥1 day to <1 month.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q52",
+    "q_num": "52",
+    "part": 2,
+    "part_q_num": 22,
+    "stem": "Schizophreniform disorder lasts:",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "<1 week",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "1 day to 1 month",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "1 to 6 months",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": ">6 months ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "1 to <6 months.",
+    "high_yield_pearl": "1 to <6 months.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q53",
+    "q_num": "53",
+    "part": 2,
+    "part_q_num": 23,
+    "stem": "Which describes the diagnosis of schizophrenia?",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Presence of at least 1 Criterion A symptom for at least 1 week with acute behavioral decline",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Presence of at least 2 psychotic symptoms for 2 weeks occurring exclusively during mood episodes",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Presence of a single encapsulated delusion for 1 month with intact social and occupational functioning",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Presence of ≥2 Criterion A symptoms for ≥1 month, ≥6 months total disturbance, and functional decline",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Schizophrenia needs ≥6 months total and functional deterioration.",
+    "high_yield_pearl": "Schizophrenia needs ≥6 months total and functional deterioration.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q54",
+    "q_num": "54",
+    "part": 2,
+    "part_q_num": 24,
+    "stem": "Which describes **delusional disorder**?",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Presence of ≥1 delusion for ≥1 month, without prominent hallucinations, and functioning relatively preserved",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Presence of pervasive delusions accompanied by prominent negative symptoms and severe cognitive functional decline",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Presence of mood-congruent delusions occurring exclusively during acute euphoric manic or depressive episodes",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Presence of polymorphic psychotic symptoms with sudden acute onset and complete resolution in under 1 month",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Apart from the delusion, functioning is not markedly impaired.",
+    "high_yield_pearl": "Apart from the delusion, functioning is not markedly impaired.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q55",
+    "q_num": "55",
+    "part": 2,
+    "part_q_num": 25,
+    "stem": "What separates **schizoaffective disorder** from a mood disorder with psychotic features?",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Presence of prominent catatonic stupor, waxy flexibility, or posturing during acute illness",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Presence of ≥2 weeks of delusions or hallucinations in the absence of a major mood episode",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Onset of initial psychotic symptoms occurring predominantly after the fourth decade of life",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Presence of pervasive primary negative symptoms including avolition, alogia, and asociality",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "≥2 weeks of psychosis without a mood episode (lifetime).",
+    "high_yield_pearl": "≥2 weeks of psychosis without a mood episode (lifetime).",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q56",
+    "q_num": "56",
+    "part": 2,
+    "part_q_num": 26,
+    "stem": "A 28-year-old has hallucinations and delusions only during manic episodes and none between them. The diagnosis is:",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Schizoaffective disorder, bipolar type",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Schizophrenia with secondary mood symptoms",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Bipolar I disorder with psychotic features",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Brief psychotic disorder with affective features",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Psychosis only during mood episodes is a mood disorder with psychotic features.",
+    "high_yield_pearl": "Psychosis only during mood episodes is a mood disorder with psychotic features.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q57",
+    "q_num": "57",
+    "part": 2,
+    "part_q_num": 27,
+    "stem": "A 22-year-old has 3 months of delusions, hallucinations, withdrawal, and functional decline, with no substance or medical cause. The diagnosis is:",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Brief psychotic disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Schizophrenia",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Delusional disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Schizophreniform disorder ",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "1–6 months is schizophreniform.",
+    "high_yield_pearl": "1–6 months is schizophreniform.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q58",
+    "q_num": "58",
+    "part": 2,
+    "part_q_num": 28,
+    "stem": "Xanomeline/trospium differs from other antipsychotics because it is a:",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Dopamine D2 and D3 receptor partial agonist",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Dual muscarinic M1/M4 receptor agonist agent",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Potent selective serotonin 5-HT2A receptor antagonist",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Presynaptic vesicular monoamine transporter 2 inhibitor",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "It is the only current non-D2 mechanism, and it may help negative symptoms.",
+    "high_yield_pearl": "It is the only current non-D2 mechanism, and it may help negative symptoms.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q59",
+    "q_num": "59",
+    "part": 2,
+    "part_q_num": 29,
+    "stem": "Which family intervention target is emphasized in schizophrenia care?",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Reducing high expressed emotion such as familial criticism, hostility, and over-involvement",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Increasing direct parental criticism and structured confrontation to motivate social engagement",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Limiting family contact entirely by transferring long-term care to residential institutions",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Eliminating maintenance pharmacotherapy in favor of exclusive home-based behavioral reinforcement",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "High expressed emotion worsens relapse risk.",
+    "high_yield_pearl": "High expressed emotion worsens relapse risk.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q60",
+    "q_num": "60",
+    "part": 2,
+    "part_q_num": 30,
+    "stem": "Which is the mainstay of schizophrenia treatment, and what does it treat best?",
+    "category": "Part 2: Schizophrenia Spectrum",
+    "source": "IMC 535 Exam 4 Practice (Part 2: Schizophrenia Spectrum)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "SSRIs, for negative symptoms",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Lithium, for positive symptoms",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Antipsychotics, for positive symptoms",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Benzodiazepines, for cognitive symptoms",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Antipsychotics mainly treat positive symptoms.",
+    "high_yield_pearl": "Antipsychotics mainly treat positive symptoms.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q61",
+    "q_num": "61",
+    "part": 3,
+    "part_q_num": 1,
+    "stem": "DSM-5-TR psychosis includes which symptoms (with distress or impaired function)?",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Perceptual hallucinations and encapsulated somatic delusions exclusively",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Hallucinations, delusions, disorganized speech/behavior, and negative symptoms",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Expansive mood elevation, pressured speech, and grandiose delusions exclusively",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Severe somatic anxiety, autonomic arousal, and acute panic-related derealization",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Five core symptoms, with distress or impairment.",
+    "high_yield_pearl": "Five core symptoms, with distress or impairment.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q62",
+    "q_num": "62",
+    "part": 3,
+    "part_q_num": 2,
+    "stem": "A patient occasionally hears a voice, with no distress and no impairment. What does this mean for diagnosis?",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Schizophrenia meeting full DSM-5 criteria with secondary negative symptoms",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Schizophreniform disorder with good prognostic features and acute onset",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Brief psychotic disorder with marked stressors and transient impairment",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Subthreshold perceptual experience not meeting criteria for a psychotic disorder",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "No distress and no impairment means no psychotic disorder.",
+    "high_yield_pearl": "No distress and no impairment means no psychotic disorder.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q63",
+    "q_num": "63",
+    "part": 3,
+    "part_q_num": 3,
+    "stem": "Hallucinations while falling asleep are called:",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Hypnagogic hallucinations, representing a benign physiologic sleep-wake transition phenomenon",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Hypnopompic hallucinations, representing an early prodromal manifestation of schizophrenia",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "True psychotic command auditory hallucinations warranting immediate second-generation antipsychotic therapy",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Dissociative perceptual flashbacks secondary to acute psychological post-traumatic stress",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Hypnagogic (falling asleep) and hypnopompic (waking) are normal.",
+    "high_yield_pearl": "Hypnagogic (falling asleep) and hypnopompic (waking) are normal.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q64",
+    "q_num": "64",
+    "part": 3,
+    "part_q_num": 4,
+    "stem": "A child's belief is shared by his family, religion, and culture. The best approach is to:",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Immediately initiate high-potency oral second-generation antipsychotics",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Admit to an acute inpatient psychiatric unit under involuntary commitment",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Recognize that spiritual communion may be culturally or developmentally normative",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Order emergent brain MRI with and without contrast and lumbar puncture",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Always ask whether the belief is shared by family, culture, or religion.",
+    "high_yield_pearl": "Always ask whether the belief is shared by family, culture, or religion.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q65",
+    "q_num": "65",
+    "part": 3,
+    "part_q_num": 5,
+    "stem": "Which disorder has the highest lifetime prevalence of psychotic features?",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Major depressive disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Bipolar disorder (up to ~75%)",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "OCD",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "PTSD ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Bipolar disorder has up to ~75%. MDD is ~9–23%.",
+    "high_yield_pearl": "Bipolar disorder has up to ~75%. MDD is ~9–23%.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q66",
+    "q_num": "66",
+    "part": 3,
+    "part_q_num": 6,
+    "stem": "Which medications can cause psychosis?",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Selective serotonin reuptake inhibitors, beta-blockers, and calcium channel antagonists",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Second-generation atypical antipsychotics, mood stabilizers, and low-dose benzodiazepines",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Broad-spectrum penicillins, oral hypoglycemic agents, and proton pump inhibitors",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Systemic corticosteroids, dopamine agonists, anticholinergics, and stimulant medications",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Steroids, dopaminergic agents, anticholinergics, and stimulants.",
+    "high_yield_pearl": "Steroids, dopaminergic agents, anticholinergics, and stimulants.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q67",
+    "q_num": "67",
+    "part": 3,
+    "part_q_num": 7,
+    "stem": "Which is the most important \"do not miss\" cause of new psychosis?",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Delirium",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Schizoaffective disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Personality disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Brief psychotic disorder ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Delirium is the most important not to miss.",
+    "high_yield_pearl": "Delirium is the most important not to miss.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q68",
+    "q_num": "68",
+    "part": 3,
+    "part_q_num": 8,
+    "stem": "A 58-year-old has new-onset psychosis. This is a red flag because:",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Onset before puberty strongly indicates an underlying sporadic monogenic mitochondrial disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Onset in the third decade of life requires mandatory serial lumbar punctures and heavy metal screening",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Onset after age 40 significantly raises clinical suspicion for secondary medical or neurologic etiologies",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Onset in late adolescence is pathognomonic for paraneoplastic anti-NMDA receptor encephalitis",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "New psychosis after ~40 is a red flag.",
+    "high_yield_pearl": "New psychosis after ~40 is a red flag.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q69",
+    "q_num": "69",
+    "part": 3,
+    "part_q_num": 9,
+    "stem": "Which type of hallucination suggests a secondary (medical or substance) cause?",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Auditory command hallucinations running commentary",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Third-person auditory voices conversing with each other",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Echo de la pensée (audible thought echo phenomena)",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Visual, olfactory, gustatory, or tactile hallucinations",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Non-auditory hallucinations suggest secondary causes.",
+    "high_yield_pearl": "Non-auditory hallucinations suggest secondary causes.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q70",
+    "q_num": "70",
+    "part": 3,
+    "part_q_num": 10,
+    "stem": "A 20-year-old has psychosis, seizures, autonomic instability, and severe EPS/NMS-like reaction to haloperidol. The most likely diagnosis is:",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Early-onset behavioral variant frontotemporal lobar degeneration",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Anti-N-methyl-D-aspartate (anti-NMDA) receptor autoimmune encephalitis",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Acute uncal herniation secondary to rupture of an anterior communicating aneurysm",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Sporadic Creutzfeldt-Jakob disease with rapidly progressive spongiform encephalopathy",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Anti-NMDA encephalitis often shows antipsychotic sensitivity.",
+    "high_yield_pearl": "Anti-NMDA encephalitis often shows antipsychotic sensitivity.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q71",
+    "q_num": "71",
+    "part": 3,
+    "part_q_num": 11,
+    "stem": "Which test is best for anti-NMDA receptor encephalitis?",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Serum and cerebrospinal fluid autoimmune encephalopathy antibody panels",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Serum ceruloplasmin levels and 24-hour quantitative urinary copper excretion",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Serum rapid plasma reagin (RPR) titer and treponemal fluorescent antibody testing",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Serial quantitative urine heavy metal screens for lead, arsenic, and mercury",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Serum ~85% sensitive; CSF ~100%.",
+    "high_yield_pearl": "Serum ~85% sensitive; CSF ~100%.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q72",
+    "q_num": "72",
+    "part": 3,
+    "part_q_num": 12,
+    "stem": "Which describes the onset and course of delirium?",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Insidious progressive cognitive decline evolving silently over multiple consecutive years",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Static focal sensorimotor neurologic deficits with intact attentional concentration",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Acute onset evolving over hours to days with fluctuating course and sleep-wake disturbance",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Episodic behavioral disinhibition occurring exclusively during daytime waking hours",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Delirium is acute, fluctuating, and worse at night.",
+    "high_yield_pearl": "Delirium is acute, fluctuating, and worse at night.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q73",
+    "q_num": "73",
+    "part": 3,
+    "part_q_num": 13,
+    "stem": "Compared with schizophrenia, attention and consciousness in delirium are:",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Intact attentional focus with preserved serial subtraction and spelling capabilities",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Impaired attention and concentration with a waxing and waning level of consciousness",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Hyper-focused concentration accompanied by accelerated, logical linear thought processing",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Isolated executive dysfunction with fully preserved situational awareness and orientation",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Attention is impaired in delirium and intact in schizophrenia.",
+    "high_yield_pearl": "Attention is impaired in delirium and intact in schizophrenia.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q74",
+    "q_num": "74",
+    "part": 3,
+    "part_q_num": 14,
+    "stem": "Hallucinations are most often ____ in delirium and ____ in schizophrenia.",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Auditory; visual",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Olfactory; gustatory",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Tactile; olfactory",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Visual; auditory ",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Visual in delirium, auditory in schizophrenia.",
+    "high_yield_pearl": "Visual in delirium, auditory in schizophrenia.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q75",
+    "q_num": "75",
+    "part": 3,
+    "part_q_num": 15,
+    "stem": "Delusions in delirium tend to be:",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Fleeting and poorly organized",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Fixed and systematized",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Bizarre and stable",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Absent always ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Fleeting and poorly organized, versus fixed and systematized.",
+    "high_yield_pearl": "Fleeting and poorly organized, versus fixed and systematized.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q76",
+    "q_num": "76",
+    "part": 3,
+    "part_q_num": 16,
+    "stem": "The typical EEG finding in delirium is:",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Normal",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Spike-wave",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Diffuse slowing",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Burst suppression ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Diffuse slowing.",
+    "high_yield_pearl": "Diffuse slowing.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q77",
+    "q_num": "77",
+    "part": 3,
+    "part_q_num": 17,
+    "stem": "Which is a reasonable initial lab panel for new psychosis?",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Serum lead, arsenic, cadmium, and quantitative urinary porphyria profile",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "CBC, CMP, TSH/free T4, urine drug screen, B12/folate, RPR, and HIV testing",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Positron emission tomography (PET) scan and full-genome exome sequencing",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Polysomnography sleep study, serial EEG telemetry, and cerebral angiography",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Core labs also include a U/A and tox as indicated.",
+    "high_yield_pearl": "Core labs also include a U/A and tox as indicated.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q78",
+    "q_num": "78",
+    "part": 3,
+    "part_q_num": 18,
+    "stem": "Impostor delusions, hallucinations, lethargy, and normal LOC suggest Hashimoto's thyroiditis. Which test?",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Serum ceruloplasmin and 24-hour urinary copper excretion testing",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Serum and cerebrospinal fluid paraneoplastic antineuronal antibody panels",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Serum copper, zinc, magnesium, and red blood cell thiamine pyrophosphate",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Serum thyroid-stimulating hormone, free T4, and anti-thyroid peroxidase antibodies",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "TSH/free T4 and anti-thyroid antibodies.",
+    "high_yield_pearl": "TSH/free T4 and anti-thyroid antibodies.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q79",
+    "q_num": "79",
+    "part": 3,
+    "part_q_num": 19,
+    "stem": "Gait abnormality, incontinence, and cognitive deficits with psychosis suggest neurosyphilis. Which test?",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "RPR/FTA-ABS",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Lead level",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "EBV titers",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "HbA1c ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "RPR/treponemal antibody (FTA-ABS).",
+    "high_yield_pearl": "RPR/treponemal antibody (FTA-ABS).",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q80",
+    "q_num": "80",
+    "part": 3,
+    "part_q_num": 20,
+    "stem": "Tremor, spasticity, abnormal LFTs, and Kayser-Fleischer rings suggest Wilson disease. Which test?",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Serum rapid plasma reagin and cerebrospinal fluid VDRL antibody testing",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Serum anti-nuclear antibodies (ANA) and anti-double-stranded DNA titers",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Serum ceruloplasmin concentration and 24-hour quantitative urinary copper",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Serum and urine porphobilinogen and delta-aminolevulinic acid levels",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Ceruloplasmin and 24-hour urinary copper.",
+    "high_yield_pearl": "Ceruloplasmin and 24-hour urinary copper.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q81",
+    "q_num": "81",
+    "part": 3,
+    "part_q_num": 21,
+    "stem": "Chronic alcohol use with ophthalmoplegia, ataxia, and confabulation suggests deficiency of:",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Vitamin B12",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Thiamine (B1)",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Niacin (B3)",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Vitamin D ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Wernicke picture, thiamine deficiency.",
+    "high_yield_pearl": "Wernicke picture, thiamine deficiency.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q82",
+    "q_num": "82",
+    "part": 3,
+    "part_q_num": 22,
+    "stem": "Hallucinations, dermatitis, and diarrhea in a patient with alcohol dependence or restrictive eating suggest deficiency of:",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Thiamine",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Vitamin C",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Vitamin A",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Niacin (B3) ",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Pellagra (the 3 D's: dermatitis, diarrhea, dementia).",
+    "high_yield_pearl": "Pellagra (the 3 D's: dermatitis, diarrhea, dementia).",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q83",
+    "q_num": "83",
+    "part": 3,
+    "part_q_num": 23,
+    "stem": "A patient treated for TB with isoniazid develops psychosis and glossitis. Which deficiency?",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pyridoxine (B6)",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Folate",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Vitamin K",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Vitamin E ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "INH causes B6 deficiency.",
+    "high_yield_pearl": "INH causes B6 deficiency.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q84",
+    "q_num": "84",
+    "part": 3,
+    "part_q_num": 24,
+    "stem": "Moon facies, truncal obesity, bruising, bitemporal hemianopsia, and psychosis suggest Cushing/pituitary disease. Which workup?",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Serum anti-voltage-gated potassium channel complex and contactin-associated protein",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Serial non-contrast head CT and 24-hour ambulatory blood pressure monitoring",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "24-hour urinary free cortisol or late-night salivary cortisol and pituitary/adrenal MRI",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Fasting blood glucose, hemoglobin A1c, and oral glucose tolerance challenge test",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "24-hour urinary free cortisol, prolactin, IGF-1, MRI.",
+    "high_yield_pearl": "24-hour urinary free cortisol, prolactin, IGF-1, MRI.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q85",
+    "q_num": "85",
+    "part": 3,
+    "part_q_num": 25,
+    "stem": "Which scenario is an indication for lumbar puncture?",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Patient displays chronic auditory hallucinations without any new focal findings",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Presence of fever, nuchal rigidity, or clinical concern for autoimmune encephalitis",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Patient presents with classic adolescent onset of gradual social withdrawal and alogia",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Patient reports transient paranoia following recreational cannabis consumption",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Fever, neck stiffness, and reduced LOC are LP triggers.",
+    "high_yield_pearl": "Fever, neck stiffness, and reduced LOC are LP triggers.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q86",
+    "q_num": "86",
+    "part": 3,
+    "part_q_num": 26,
+    "stem": "Which are the \"5 F's\" used to evaluate psychotic symptoms?",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Fixed, Frequent, Familial, Fearful, Fluctuating",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Fear, Flight, Fight, Freeze, Fawn",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Formal, Factual, Frank, Fast, Free",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Formed, Firmly held, Frequent, Frightening, Functionally impairing ",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Formed, Firmly held, Frequent, Frightening, Functionally impairing.",
+    "high_yield_pearl": "Formed, Firmly held, Frequent, Frightening, Functionally impairing.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q87",
+    "q_num": "87",
+    "part": 3,
+    "part_q_num": 27,
+    "stem": "Which describes Attenuated Positive Symptom Syndrome?",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Weekly attenuated positive symptoms in past month, beginning or worsening in past year",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Continuous unremitting auditory hallucinations lasting greater than 6 consecutive months",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Isolated family history of bipolar disorder without any subjective cognitive or perceptual changes",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Acute polymorphic delirium accompanied by prominent fluctuating level of consciousness",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Insight is preserved in attenuated symptoms.",
+    "high_yield_pearl": "Insight is preserved in attenuated symptoms.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q88",
+    "q_num": "88",
+    "part": 3,
+    "part_q_num": 28,
+    "stem": "Genetic Risk and Deterioration Syndrome requires:",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Diagnosis of panic disorder with secondary situational agoraphobic avoidance",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Family history of unipolar depression with preserved full-time employment status",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "First-degree relative with psychosis plus ≥30% drop in Global Assessment of Functioning",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Presence of prominent substance use disorder without any baseline genetic psychiatric risk",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "First-degree relative plus ≥30% functional decline.",
+    "high_yield_pearl": "First-degree relative plus ≥30% functional decline.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q89",
+    "q_num": "89",
+    "part": 3,
+    "part_q_num": 29,
+    "stem": "For clinical high risk for psychosis (CHR-P), what is the appropriate approach?",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Immediate high-dose first-generation neuroleptic pharmacotherapy and long-term institutionalization",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Cognitive behavioral therapy, family-focused education, supported schooling, and clinical monitoring",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Elective electroconvulsive therapy (ECT) and mandatory permanent academic withdrawal",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Exclusive observation without clinical monitoring until frank psychotic decompensation occurs",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Psychosocial interventions are preferred. Only ~25% convert by 3 years.",
+    "high_yield_pearl": "Psychosocial interventions are preferred. Only ~25% convert by 3 years.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q90",
+    "q_num": "90",
+    "part": 3,
+    "part_q_num": 30,
+    "stem": "Which statement about DUP and coordinated specialty care (CSC) is correct?",
+    "category": "Part 3: Psychosis Workup & Early Intervention",
+    "source": "IMC 535 Exam 4 Practice (Part 3: Psychosis Workup & Early Intervention)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The duration of prodromal social isolation prior to the development of subthreshold symptoms",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "The total lifetime duration of continuous antipsychotic pharmacotherapy maintenance",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "The time interval between the initial psychiatric clinic intake and definitive psychological testing",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "The time interval from onset of frank psychotic symptoms to initiation of adequate treatment",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Shorter DUP predicts better response and fewer relapses.",
+    "high_yield_pearl": "Shorter DUP predicts better response and fewer relapses.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q91",
+    "q_num": "91",
+    "part": 4,
+    "part_q_num": 1,
+    "stem": "Typical antipsychotics work by:",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Postsynaptic dopamine D2 receptor antagonism across central dopaminergic pathways",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Selective serotonin 5-HT1A receptor agonism within the dorsal raphe nuclei",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Gamma-aminobutyric acid type A (GABA-A) positive allosteric receptor modulation",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Pre-synaptic vesicular monoamine transporter 2 (VMAT2) selective inhibition",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Typicals block D2 everywhere.",
+    "high_yield_pearl": "Typicals block D2 everywhere.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q92",
+    "q_num": "92",
+    "part": 4,
+    "part_q_num": 2,
+    "stem": "Atypical antipsychotics work by:",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Blocking only 5-HT2A",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Agonizing D2",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Blocking D2 and 5-HT2A",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Blocking GABA-A ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Atypicals block D2 and 5-HT2A.",
+    "high_yield_pearl": "Atypicals block D2 and 5-HT2A.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q93",
+    "q_num": "93",
+    "part": 4,
+    "part_q_num": 3,
+    "stem": "Why do atypicals cause fewer EPS and less hyperprolactinemia than typicals?",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "5-HT2A blockade diminishes acetylcholine synthesis in the striatal cholinergic interneurons",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "5-HT2A blockade disinhibits dopamine release in the nigrostriatal pathway, reducing EPS risk",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "5-HT2A blockade directly upregulates D2 receptor density within the tuberoinfundibular tract",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "5-HT2A blockade prevents peripheral conversion of levodopa to circulating dopamine",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "5-HT2A blockade increases DA release where 5-HT2A density is high.",
+    "high_yield_pearl": "5-HT2A blockade increases DA release where 5-HT2A density is high.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q94",
+    "q_num": "94",
+    "part": 4,
+    "part_q_num": 4,
+    "stem": "Compared with low-potency typicals, high-potency typicals (e.g., haloperidol) have:",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Equipotent D2 antagonism with identical metabolic, sedation, and EPS risk profiles",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Weaker central D2 antagonism, minimal risk of EPS, but marked metabolic weight gain",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Selective muscarinic M1 receptor agonism without any significant dopaminergic affinity",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Potent central D2 antagonism, higher EPS and NMS risk, and lower metabolic/sedative effects",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "High potency means more EPS, NMS, and prolactin, and less anti-HAM.",
+    "high_yield_pearl": "High potency means more EPS, NMS, and prolactin, and less anti-HAM.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q95",
+    "q_num": "95",
+    "part": 4,
+    "part_q_num": 5,
+    "stem": "\"Anti-HAM\" side effects refer to blockade of:",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Histamine, Alpha-1, Muscarinic receptors",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Hormone, Adrenergic, Mu receptors",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Hydroxytryptamine, Acetylcholine, Mesolimbic receptors",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Histamine, Acetylcholine, Mu receptors ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Histamine (sedation, weight gain), α1 (orthostasis), muscarinic (anticholinergic).",
+    "high_yield_pearl": "Histamine (sedation, weight gain), α1 (orthostasis), muscarinic (anticholinergic).",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q96",
+    "q_num": "96",
+    "part": 4,
+    "part_q_num": 6,
+    "stem": "Which receptor–effect pairing is correct?",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Alpha-1 adrenergic blockade causing dry mucous membranes and reflex hypertension",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Histamine H1 receptor blockade causing profound weight loss and central insomnia",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Muscarinic M1 receptor blockade causing dry mouth, constipation, urinary retention, and blurred vision",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Dopamine D2 receptor blockade causing excessive salivation, diarrhea, and miosis",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "M1 blockade is the anticholinergic profile.",
+    "high_yield_pearl": "M1 blockade is the anticholinergic profile.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q97",
+    "q_num": "97",
+    "part": 4,
+    "part_q_num": 7,
+    "stem": "Typical antipsychotics affect negative symptoms by:",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Producing marked rapid improvement in both executive processing and affective blunting",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Failing to improve or potentially worsening negative symptoms via mesocortical D2 blockade",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Inducing permanent resolution of cognitive deficits through mesolimbic D2 receptor upregulation",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Selectively enhancing prefrontal dopamine tone without altering subcortical transmission",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Mesocortical D2 blockade worsens or fails to improve negative symptoms.",
+    "high_yield_pearl": "Mesocortical D2 blockade worsens or fails to improve negative symptoms.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q98",
+    "q_num": "98",
+    "part": 4,
+    "part_q_num": 8,
+    "stem": "After starting haloperidol, a patient has a shuffling gait, cogwheel rigidity, bradykinesia, and pill-rolling tremor. This is:",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Akathisia",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Acute dystonia",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Tardive dyskinesia",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Pseudoparkinsonism ",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Pseudoparkinsonism.",
+    "high_yield_pearl": "Pseudoparkinsonism.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q99",
+    "q_num": "99",
+    "part": 4,
+    "part_q_num": 9,
+    "stem": "First-line treatment for pseudoparkinsonism is:",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Benztropine or trihexyphenidyl",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Propranolol",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Valbenazine",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Dantrolene ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Anticholinergics restore the DA/ACh balance.",
+    "high_yield_pearl": "Anticholinergics restore the DA/ACh balance.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q100",
+    "q_num": "100",
+    "part": 4,
+    "part_q_num": 10,
+    "stem": "After an IM haloperidol injection, a patient has a painful neck twist and upward eye deviation. This is:",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Akathisia",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Pseudoparkinsonism",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Acute dystonia",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Tardive dyskinesia ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Acute dystonia: torticollis and oculogyric crisis.",
+    "high_yield_pearl": "Acute dystonia: torticollis and oculogyric crisis.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q101",
+    "q_num": "101",
+    "part": 4,
+    "part_q_num": 11,
+    "stem": "Treatment for acute dystonia is:",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Propranolol",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Diphenhydramine or benztropine",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Valbenazine",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Bromocriptine ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Antihistamine or anticholinergic.",
+    "high_yield_pearl": "Antihistamine or anticholinergic.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q102",
+    "q_num": "102",
+    "part": 4,
+    "part_q_num": 12,
+    "stem": "A patient on aripiprazole can't sit still and paces constantly. This is:",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Tardive dyskinesia",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Mania",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Pseudoparkinsonism",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Akathisia ",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Akathisia, classic with aripiprazole.",
+    "high_yield_pearl": "Akathisia, classic with aripiprazole.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q103",
+    "q_num": "103",
+    "part": 4,
+    "part_q_num": 13,
+    "stem": "First-line treatment for akathisia is:",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Propranolol or a benzodiazepine",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Benztropine only",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Dantrolene",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Increasing the antipsychotic dose ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Beta-blocker (propranolol) or benzodiazepine.",
+    "high_yield_pearl": "Beta-blocker (propranolol) or benzodiazepine.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q104",
+    "q_num": "104",
+    "part": 4,
+    "part_q_num": 14,
+    "stem": "After years of antipsychotic use, a patient has lip smacking and tongue rolling. This is:",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Acute dystonia",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Tardive dyskinesia",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Akathisia",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "NMS ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "TD is a late-onset hyperkinetic movement disorder.",
+    "high_yield_pearl": "TD is a late-onset hyperkinetic movement disorder.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q105",
+    "q_num": "105",
+    "part": 4,
+    "part_q_num": 15,
+    "stem": "The mechanism of tardive dyskinesia is:",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Acute nigrostriatal dopamine D2 receptor hypoactivity following drug discontinuation",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Striatal cholinergic depletion resulting from excessive muscarinic M1 receptor stimulation",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Dopamine D2 receptor upregulation and supersensitivity following prolonged chronic receptor blockade",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Autoimmune degradation of peripheral acetylcholine receptors at the neuromuscular junction",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Chronic D2 blockade leads to supersensitivity.",
+    "high_yield_pearl": "Chronic D2 blockade leads to supersensitivity.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q106",
+    "q_num": "106",
+    "part": 4,
+    "part_q_num": 16,
+    "stem": "Treatment for tardive dyskinesia is:",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Immediate dose escalation of the offending high-potency first-generation antipsychotic",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Oral anticholinergic agents such as benztropine or diphenhydramine (which worsen TD)",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Dopamine receptor agonists such as pramipexole, ropinirole, or bromocriptine",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Vesicular monoamine transporter 2 (VMAT2) inhibitors such as valbenazine or deutetrabenazine",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "VMAT2 inhibitors. Anticholinergics can worsen TD.",
+    "high_yield_pearl": "VMAT2 inhibitors. Anticholinergics can worsen TD.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q107",
+    "q_num": "107",
+    "part": 4,
+    "part_q_num": 17,
+    "stem": "Antipsychotics cause hyperprolactinemia because:",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "D2 receptor stimulation within the pituitary stalk triggers excessive prolactin gene transcription",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "D2 receptor antagonism within the tuberoinfundibular tract removes tonic dopamine inhibition of prolactin",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Alpha-1 receptor antagonism within the hypothalamic nuclei stimulates growth hormone release",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Histamine H1 receptor blockade in the anterior pituitary directly releases stored gonadotropins",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Tuberoinfundibular blockade disinhibits prolactin.",
+    "high_yield_pearl": "Tuberoinfundibular blockade disinhibits prolactin.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q108",
+    "q_num": "108",
+    "part": 4,
+    "part_q_num": 18,
+    "stem": "Hyperprolactinemia in women causes:",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Galactorrhea, secondary amenorrhea, and diminished sexual libido",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Acute hirsutism, central adiposity, and purple abdominal striae",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Severe polyuria, polydipsia, and fluctuating hypernatremia",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Hot flashes, severe menorrhagia, and accelerated osteoporosis",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Galactorrhea, amenorrhea, decreased libido.",
+    "high_yield_pearl": "Galactorrhea, amenorrhea, decreased libido.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q109",
+    "q_num": "109",
+    "part": 4,
+    "part_q_num": 19,
+    "stem": "Hyperprolactinemia in men causes:",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Accelerated male-pattern baldness and testicular hypertrophy",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Severe priapism, polycythemia, and peripheral vasodilation",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Gynecomastia, erectile dysfunction, and decreased sexual libido",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Excessive muscular hypertrophy, acne vulgaris, and vocal deepening",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Gynecomastia, ED, decreased libido.",
+    "high_yield_pearl": "Gynecomastia, ED, decreased libido.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q110",
+    "q_num": "110",
+    "part": 4,
+    "part_q_num": 20,
+    "stem": "NMS classically presents with:",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Hypothermia, flaccid paralysis, pinpoint pupils, and respiratory depression",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Severe choreoathetosis, hyperreflexia, ocular clonus, and profuse diarrhea",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Intermittent resting tremor, normal temperature, and selective facial grimacing",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Hyperthermia, altered mental status, lead-pipe rigidity, and autonomic instability",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "NMS is fever, AMS, lead-pipe rigidity, and autonomic instability. Clonus points to serotonin syndrome.",
+    "high_yield_pearl": "NMS is fever, AMS, lead-pipe rigidity, and autonomic instability. Clonus points to serotonin syndrome.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q111",
+    "q_num": "111",
+    "part": 4,
+    "part_q_num": 21,
+    "stem": "Characteristic NMS labs are:",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Markedly decreased serum creatine kinase, leukopenia, and acute hypoglycemia",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Markedly elevated creatine kinase, leukocytosis, elevated transaminases, and hyperkalemia",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Profound thrombocytopenia, isolated hypercalcemia, and acute hypophosphatemia",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Normal serum biomarkers with isolated respiratory alkalosis on arterial blood gas",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Rhabdomyolysis picture.",
+    "high_yield_pearl": "Rhabdomyolysis picture.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q112",
+    "q_num": "112",
+    "part": 4,
+    "part_q_num": 22,
+    "stem": "The first step in managing NMS is to:",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Stop the antipsychotic",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Increase the antipsychotic",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Add anticholinergics",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Give flumazenil ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Stop the offending drug, then ICU and supportive care.",
+    "high_yield_pearl": "Stop the offending drug, then ICU and supportive care.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q113",
+    "q_num": "113",
+    "part": 4,
+    "part_q_num": 23,
+    "stem": "Medications used for NMS include:",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Intravenous flumazenil infusion accompanied by high-dose oral benztropine",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Aggressive therapeutic hypothermia without discontinuing the offending antipsychotic",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Immediate drug cessation, supportive cooling, and dantrolene or bromocriptine therapy",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "High-dose intravenous naloxone combined with central beta-adrenergic blockade",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Dantrolene (muscle relaxant) and bromocriptine (DA agonist).",
+    "high_yield_pearl": "Dantrolene (muscle relaxant) and bromocriptine (DA agonist).",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q114",
+    "q_num": "114",
+    "part": 4,
+    "part_q_num": 24,
+    "stem": "Which atypical has the highest risk of hyperprolactinemia and EPS?",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Aripiprazole",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Olanzapine",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Quetiapine",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Risperidone ",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Risperidone is the \"most typical atypical.\"",
+    "high_yield_pearl": "Risperidone is the \"most typical atypical.\"",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q115",
+    "q_num": "115",
+    "part": 4,
+    "part_q_num": 25,
+    "stem": "Which atypical is a partial D2 agonist that tends to be activating and commonly causes akathisia?",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Aripiprazole",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Olanzapine",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Clozapine",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Quetiapine ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Aripiprazole: \"A causes A.\"",
+    "high_yield_pearl": "Aripiprazole: \"A causes A.\"",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q116",
+    "q_num": "116",
+    "part": 4,
+    "part_q_num": 26,
+    "stem": "Which pairing correctly matches weight gain risk?",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ziprasidone and aripiprazole convey the highest risk; olanzapine conveys the lowest",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Olanzapine and clozapine convey the highest risk; ziprasidone and aripiprazole convey lower risk",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "All second-generation atypical antipsychotics exhibit completely identical metabolic liability",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "First-generation high-potency antipsychotics produce substantially greater weight gain than atypicals",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Olanzapine and clozapine are highest.",
+    "high_yield_pearl": "Olanzapine and clozapine are highest.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q117",
+    "q_num": "117",
+    "part": 4,
+    "part_q_num": 27,
+    "stem": "Which atypical is notable for significant sedation and off-label use as a sleep aid?",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ziprasidone",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Aripiprazole",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Quetiapine",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Lurasidone ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "\"Quiet-apine.\"",
+    "high_yield_pearl": "\"Quiet-apine.\"",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q118",
+    "q_num": "118",
+    "part": 4,
+    "part_q_num": 28,
+    "stem": "Clozapine is indicated for:",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "First-line monotherapy for acute adolescent-onset mild schizophreniform disorder",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Maintenance therapy for stable delusional disorder with preserved social functioning",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Adjunctive therapy for uncomplicated major depressive disorder without psychotic features",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Treatment-resistant schizophrenia, where it also significantly reduces suicidal behavior",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Clozapine is the most efficacious antipsychotic.",
+    "high_yield_pearl": "Clozapine is the most efficacious antipsychotic.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q119",
+    "q_num": "119",
+    "part": 4,
+    "part_q_num": 29,
+    "stem": "Which is a clozapine risk with required monitoring?",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Acute renal tubular necrosis requiring weekly urinalysis and creatinine monitoring",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Life-threatening agranulocytosis requiring mandatory absolute neutrophil count (ANC) monitoring",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Fulminant hepatic necrosis requiring serial liver biopsies every two months",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Severe pulmonary interstitial fibrosis requiring baseline and quarterly spirometry",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Agranulocytosis (ANC < 500), neutropenia (ANC < 1500).",
+    "high_yield_pearl": "Agranulocytosis (ANC < 500), neutropenia (ANC < 1500).",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q120",
+    "q_num": "120",
+    "part": 4,
+    "part_q_num": 30,
+    "stem": "Which atypical is the most weight-neutral but carries the highest QT-prolongation risk?",
+    "category": "Part 4: Antipsychotic Medications",
+    "source": "IMC 535 Exam 4 Practice (Part 4: Antipsychotic Medications)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ziprasidone",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Olanzapine",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Risperidone",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Quetiapine",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Ziprasidone is weight-neutral with the highest QT risk.",
+    "high_yield_pearl": "Ziprasidone is weight-neutral with the highest QT risk.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q121",
+    "q_num": "121",
+    "part": 5,
+    "part_q_num": 1,
+    "stem": "Which are the strongest risk factors for SUD?",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Late age of initial drug experimentation and absence of childhood stressors",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "High socioeconomic status and selective access to prescription medications",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Presence of strong familial cohesion and absence of parental substance use",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Young age at first substance use and positive family history of substance dependence",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Young age at first use and family history are the strongest predictors.",
+    "high_yield_pearl": "Young age at first use and family history are the strongest predictors.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q122",
+    "q_num": "122",
+    "part": 5,
+    "part_q_num": 2,
+    "stem": "Which statement about SUD is accurate?",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A chronic medical illness driven by neurochemical, anatomical, and behavioral alterations",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "A primary volitional defect reflecting lack of willpower and moral weakness",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "A benign lifestyle choice that invariably remits spontaneously without clinical intervention",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "An acute transient stress response triggered solely by external environmental adversity",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "All four myths are false.",
+    "high_yield_pearl": "All four myths are false.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q123",
+    "q_num": "123",
+    "part": 5,
+    "part_q_num": 3,
+    "stem": "The reward pathway involved in SUD is:",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Nigrostriatal dopaminergic tract (substantia nigra pars compacta to dorsal striatum)",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Tuberoinfundibular dopaminergic tract (arcuate nucleus to hypophyseal portal system)",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Mesocorticolimbic dopaminergic tract (ventral tegmental area to nucleus accumbens and prefrontal cortex)",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Hypothalamic-pituitary-adrenal axis (paraventricular nucleus to anterior pituitary gland)",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "VTA → nucleus accumbens (mesolimbic) and VTA → PFC (mesocortical).",
+    "high_yield_pearl": "VTA → nucleus accumbens (mesolimbic) and VTA → PFC (mesocortical).",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q124",
+    "q_num": "124",
+    "part": 5,
+    "part_q_num": 4,
+    "stem": "A man knows drinking is hurting his health and may quit \"someday\" but has no plan. What stage of change is this?",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Precontemplation",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Contemplation",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Preparation",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Maintenance ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Contemplation: aware, no concrete plan.",
+    "high_yield_pearl": "Contemplation: aware, no concrete plan.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q125",
+    "q_num": "125",
+    "part": 5,
+    "part_q_num": 5,
+    "stem": "Which correctly describes alcohol's mechanism?",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Acutely enhances GABAergic inhibition and blocks NMDA; chronically upregulates NMDA receptors",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Acutely inhibits GABAergic tone; chronically downregulates voltage-gated sodium channels",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Acutely stimulates presynaptic dopamine release; chronically depletes vesicular acetylcholine",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Acutely activates mu-opioid receptors; chronically blocks central beta-adrenergic signaling",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Acute GABA enhancement, chronic glutamate upregulation, and unopposed glutamate in withdrawal.",
+    "high_yield_pearl": "Acute GABA enhancement, chronic glutamate upregulation, and unopposed glutamate in withdrawal.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q126",
+    "q_num": "126",
+    "part": 5,
+    "part_q_num": 6,
+    "stem": "Acute alcohol intoxication typically shows:",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Severe pinpoint pupils, shallow respirations, and diminished bowel motility",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Marked bilateral pupillary dilation, acute hyperthermia, and ocular clonus",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Unilateral ptosis, facial anhidrosis, and ipsilateral pupillary constriction",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Normal or sluggish pupils with horizontal gaze nystagmus, ataxia, and slurred speech",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Alcohol leaves pupils normal with horizontal nystagmus.",
+    "high_yield_pearl": "Alcohol leaves pupils normal with horizontal nystagmus.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q127",
+    "q_num": "127",
+    "part": 5,
+    "part_q_num": 7,
+    "stem": "Alcohol withdrawal timing is:",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Symptoms begin within 30 minutes; delirium tremens invariably occurs at 6 hours post-cessation",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Withdrawal manifestations occur exclusively between 7 and 14 days following alcohol cessation",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Tremors begin at 6–12 h; seizures at 12–48 h; delirium tremens typically develops at 48–96 h",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Hallucinations precede tremulousness and resolve completely within the first 2 hours",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Onset at 4–12 h; seizures/hallucinations ~24–48 h; DTs >48 h.",
+    "high_yield_pearl": "Onset at 4–12 h; seizures/hallucinations ~24–48 h; DTs >48 h.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q128",
+    "q_num": "128",
+    "part": 5,
+    "part_q_num": 8,
+    "stem": "First-line treatment of alcohol withdrawal is:",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Immediate physical restraint and observation without administering sedative medications",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Symptom-triggered benzodiazepine administration (e.g., lorazepam or diazepam) guided by CIWA scoring",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "High-potency dopamine antagonists such as haloperidol monotherapy to suppress agitation",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Continuous intravenous infusion of flumazenil to prevent secondary receptor down-regulation",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Benzodiazepines plus thiamine and folate.",
+    "high_yield_pearl": "Benzodiazepines plus thiamine and folate.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q129",
+    "q_num": "129",
+    "part": 5,
+    "part_q_num": 9,
+    "stem": "Why give thiamine to patients with alcohol use disorder?",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To prevent acute precipitation of Wernicke encephalopathy (administer before or with dextrose)",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "To accelerate hepatic clearance of circulating ethanol through alcohol dehydrogenase induction",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "To correct refractory hyperkalemia and prevent cardiac dysrhythmias during intoxication",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "To reverse acute respiratory depression secondary to sedative-hypnotic co-ingestion",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Prevents Wernicke encephalopathy.",
+    "high_yield_pearl": "Prevents Wernicke encephalopathy.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q130",
+    "q_num": "130",
+    "part": 5,
+    "part_q_num": 10,
+    "stem": "Delirium tremens typically presents with:",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Mild early-morning finger tremulousness with fully preserved cognitive orientation",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Isolated auditory hallucinations occurring within 6 hours of cessation with normal vital signs",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Single generalized tonic-clonic seizure occurring 24 hours post-cessation without confusion",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Severe delirium, visual hallucinations, marked agitation, and extreme autonomic instability at 48–96 hours",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "DTs are a life-threatening emergency.",
+    "high_yield_pearl": "DTs are a life-threatening emergency.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q131",
+    "q_num": "131",
+    "part": 5,
+    "part_q_num": 11,
+    "stem": "Management of DTs is:",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Outpatient reassurance and scheduled follow-up in primary care within two weeks",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Low-dose oral hydroxyzine monotherapy in a quiet, unmonitored residential setting",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "ICU admission, high-dose intravenous benzodiazepine titration, fluid resuscitation, and thiamine repletion",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Emergent hemodialysis combined with competitive opioid receptor antagonist administration",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "ICU, scheduled/high-dose benzodiazepines, and supportive care.",
+    "high_yield_pearl": "ICU, scheduled/high-dose benzodiazepines, and supportive care.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q132",
+    "q_num": "132",
+    "part": 5,
+    "part_q_num": 12,
+    "stem": "Naltrexone treats AUD by:",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Irreversibly inhibiting aldehyde dehydrogenase to produce severe aversive facial flushing",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Competitively blocking central mu-opioid receptors to attenuate dopamine-mediated reward and cravings",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Selectively activating prefrontal GABA-B receptors to substitute for alcohol-induced sedation",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Inhibiting monoamine oxidase enzymes to elevate mood and combat depressive symptoms",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Opioid receptor antagonist; reduces craving.",
+    "high_yield_pearl": "Opioid receptor antagonist; reduces craving.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q133",
+    "q_num": "133",
+    "part": 5,
+    "part_q_num": 13,
+    "stem": "Acamprosate and disulfiram work, respectively, by:",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Modulating glutamate/GABA balance; inhibiting aldehyde dehydrogenase",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Blocking opioid receptors; inhibiting aldehyde dehydrogenase",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Agonizing GABA; blocking NMDA",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Inhibiting MAO; blocking opioid receptors ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Acamprosate restores GABA/glutamate balance; disulfiram inhibits ALDH.",
+    "high_yield_pearl": "Acamprosate restores GABA/glutamate balance; disulfiram inhibits ALDH.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q134",
+    "q_num": "134",
+    "part": 5,
+    "part_q_num": 14,
+    "stem": "THC acts as a:",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Full agonist at central postsynaptic mu and kappa opioid receptor complexes",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Non-competitive antagonist at N-methyl-D-aspartate (NMDA) glutamate receptors",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Direct agonist at serotonergic 5-HT2A receptors responsible for psychedelic experiences",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Partial agonist at cannabinoid CB1 and CB2 receptors, modulating presynaptic neurotransmitter release",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Partial agonist at CB1/CB2.",
+    "high_yield_pearl": "Partial agonist at CB1/CB2.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q135",
+    "q_num": "135",
+    "part": 5,
+    "part_q_num": 15,
+    "stem": "Cannabis intoxication typically shows:",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Bilateral pinpoint miosis, hypothermia, bradycardia, and diminished gastrointestinal motility",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Significant anorexia, severe pupillary dilation, horizontal nystagmus, and acute hyperreflexia",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Bilateral conjunctival injection, dry oral mucosa, tachycardia, and increased appetite",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Marked sinus bradycardia, excessive lacrimation, rhinorrhea, and severe abdominal cramping",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Red eyes, dry mouth, tachycardia, increased appetite.",
+    "high_yield_pearl": "Red eyes, dry mouth, tachycardia, increased appetite.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q136",
+    "q_num": "136",
+    "part": 5,
+    "part_q_num": 16,
+    "stem": "How does the onset of edible cannabis compare with inhaled?",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Edibles exert instantaneous clinical onset within minutes and dissipate within 1 hour",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Edibles exhibit delayed onset (30 min–3 h) and last up to ~12 h; inhaled onset is rapid (15–30 min) and lasts ~4 h",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Both oral ingestion and smoking exhibit completely identical pharmacokinetic profiles",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Inhaled cannabis requires extensive first-pass hepatic metabolism and outlasts oral ingestion",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Edibles have delayed onset and long duration, with a higher risk of overdose.",
+    "high_yield_pearl": "Edibles have delayed onset and long duration, with a higher risk of overdose.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q137",
+    "q_num": "137",
+    "part": 5,
+    "part_q_num": 17,
+    "stem": "Cannabis withdrawal features include:",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Irritability, anxiety, insomnia, and decreased appetite; non-life-threatening without FDA-approved drugs",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Generalized tonic-clonic seizures, severe hyperpyrexia, and delirium tremens requiring ICU care",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Life-threatening autonomic storm, acute hypertensive crisis, and malignant cardiac dysrhythmias",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Severe pupillary constriction, respiratory depression, and profound obtundation",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Withdrawal is distressing but not dangerous.",
+    "high_yield_pearl": "Withdrawal is distressing but not dangerous.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q138",
+    "q_num": "138",
+    "part": 5,
+    "part_q_num": 18,
+    "stem": "Which pairs the hallucinogen with its mechanism?",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "PCP: serotonin agonist; LSD: NMDA antagonist",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Both: opioid agonists",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Both: GABA agonists",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "PCP: NMDA antagonist; LSD: serotonin agonist ",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "PCP blocks NMDA; LSD is a 5-HT agonist.",
+    "high_yield_pearl": "PCP blocks NMDA; LSD is a 5-HT agonist.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q139",
+    "q_num": "139",
+    "part": 5,
+    "part_q_num": 19,
+    "stem": "A combative, agitated patient with vertical nystagmus, rigidity, and reduced pain sensation most likely used:",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "LSD",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Cannabis",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "PCP",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Opioids ",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "PCP: combativeness, multidirectional nystagmus, analgesia.",
+    "high_yield_pearl": "PCP: combativeness, multidirectional nystagmus, analgesia.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q140",
+    "q_num": "140",
+    "part": 5,
+    "part_q_num": 20,
+    "stem": "Management of a \"bad trip\" or PCP intoxication is:",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Rigid four-point physical restraint in a brightly illuminated room without pharmacotherapy",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Low-stimulus calming environment, verbal reassurance, and judicious benzodiazepines or haloperidol",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Immediate high-dose intravenous naloxone boluses followed by continuous infusion",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Intravenous flumazenil administration to reverse competitive receptor antagonism",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Calm room and benzodiazepines; benzos are anxiolytic, not an antidote.",
+    "high_yield_pearl": "Calm room and benzodiazepines; benzos are anxiolytic, not an antidote.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q141",
+    "q_num": "141",
+    "part": 5,
+    "part_q_num": 21,
+    "stem": "Opioid intoxication shows:",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Miosis, CNS sedation, shallow respiratory depression, and decreased bowel motility via mu-opioid receptors",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Severe pupillary dilation, marked motor agitation, tachypnea, and hyperactive bowel sounds",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Generalized epileptic seizures, hyperthermia, ocular clonus, and severe diaphoresis",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Severe sinus tachycardia, acute hypertension, paranoia, and tactile formication",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "MORPHINE mnemonic.",
+    "high_yield_pearl": "MORPHINE mnemonic.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q142",
+    "q_num": "142",
+    "part": 5,
+    "part_q_num": 22,
+    "stem": "Opioid withdrawal (\"wet, achy, restless\") shows:",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pinpoint pupillary constriction, deep CNS sedation, and severe hypothermia",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Generalized status epilepticus, severe delirium tremens, and acute hemodynamic collapse",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Lacrimation, rhinorrhea, piloerection, yawning, mydriasis, and hyperactive bowel sounds with diarrhea",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Progressive respiratory depression, pulmonary edema, and acute anoxic encephalopathy",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Withdrawal is the opposite of intoxication and rarely life-threatening.",
+    "high_yield_pearl": "Withdrawal is the opposite of intoxication and rarely life-threatening.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q143",
+    "q_num": "143",
+    "part": 5,
+    "part_q_num": 23,
+    "stem": "First steps in opioid overdose are:",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Intravenous flumazenil titration combined with high-dose loop diuretics",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Intravenous beta-adrenergic antagonist administration to control tachycardia",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Conservative observation without airway intervention in a dark room",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Airway/breathing ventilatory support and immediate administration of the opioid antagonist naloxone",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "ABCs and naloxone.",
+    "high_yield_pearl": "ABCs and naloxone.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q144",
+    "q_num": "144",
+    "part": 5,
+    "part_q_num": 24,
+    "stem": "Which is correct about OUD maintenance medications?",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Both agents are competitive receptor antagonists requiring intensive inpatient detoxification",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Methadone is a full agonist dispensed via clinics; buprenorphine is a partial agonist with ceiling effect; both safe in pregnancy",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "Buprenorphine is a full mu agonist carrying higher respiratory risk; methadone is a pure antagonist",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Methadone is strictly contraindicated in pregnant patients; buprenorphine cannot be used for maintenance",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Both are first-line for OUD.",
+    "high_yield_pearl": "Both are first-line for OUD.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q145",
+    "q_num": "145",
+    "part": 5,
+    "part_q_num": 25,
+    "stem": "When should naltrexone be started for OUD?",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Only after the patient has completed full opioid withdrawal and is confirmed 7–14 days opioid-free",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "During the acute height of active withdrawal to accelerate symptom resolution",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Immediately following acute overdose resuscitation without any required washout period",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Concurrently with full mu-opioid agonist maintenance regimens such as high-dose methadone",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Otherwise it precipitates withdrawal.",
+    "high_yield_pearl": "Otherwise it precipitates withdrawal.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q146",
+    "q_num": "146",
+    "part": 5,
+    "part_q_num": 26,
+    "stem": "Mechanisms of benzodiazepines versus barbiturates:",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Both drug classes directly open voltage-gated sodium channels in cortical pyramidal neurons",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Benzodiazepines increase chloride channel open duration; barbiturates increase opening frequency",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Benzodiazepines increase GABA-A opening frequency; barbiturates increase channel open duration",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Both drug classes act as non-competitive antagonists at central NMDA glutamate receptors",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Benzos: frequency. Barbiturates: duration (more dangerous).",
+    "high_yield_pearl": "Benzos: frequency. Barbiturates: duration (more dangerous).",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q147",
+    "q_num": "147",
+    "part": 5,
+    "part_q_num": 27,
+    "stem": "Sedative-hypnotic withdrawal is:",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A benign and self-limiting withdrawal state that requires no active medical supervision",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "A mild, transient syndrome characterized by vivid dreams and brief daytime somnolence",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "A condition marked by profound central nervous system sedation and respiratory slowing",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "A life-threatening withdrawal state (seizures, delirium); requires gradual taper, never abrupt cessation",
+        "is_correct": true
+      }
+    ],
+    "correct_idx": 3,
+    "explanation": "Unopposed glutamate causes seizures and delirium. Flumazenil is avoided in dependent patients.",
+    "high_yield_pearl": "Unopposed glutamate causes seizures and delirium. Flumazenil is avoided in dependent patients.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q148",
+    "q_num": "148",
+    "part": 5,
+    "part_q_num": 28,
+    "stem": "Which correctly matches stimulant mechanisms?",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Cocaine selectively triggers monoamine vesicular release; amphetamine blocks reuptake transporters",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Cocaine blocks DAT/NET/SERT and Na⁺ channels; amphetamine stimulates monoamine release; MDMA releases 5-HT",
+        "is_correct": true
+      },
+      {
+        "letter": "C",
+        "text": "All central stimulants function primarily as direct mu-opioid receptor agonists in the brainstem",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Cocaine acts primarily as an uncompetitive antagonist at glutamate NMDA receptor complexes",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 1,
+    "explanation": "Cocaine: reuptake block plus Na⁺ channel block. Amphetamine: release. MDMA: serotonin.",
+    "high_yield_pearl": "Cocaine: reuptake block plus Na⁺ channel block. Amphetamine: release. MDMA: serotonin.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q149",
+    "q_num": "149",
+    "part": 5,
+    "part_q_num": 29,
+    "stem": "A 24-year-old with chest pain, dilated pupils, agitation, and tachycardia likely has stimulant intoxication. What should you avoid and use?",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Avoid beta-blockers due to unopposed alpha-1 vasoconstriction; administer benzodiazepines",
+        "is_correct": true
+      },
+      {
+        "letter": "B",
+        "text": "Avoid benzodiazepines due to respiratory arrest; administer non-selective beta-blockers",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Avoid intravenous crystalloid fluids and administer high-dose calcium gluconate",
+        "is_correct": false
+      },
+      {
+        "letter": "D",
+        "text": "Immediately administer intravenous naloxone and flumazenil as competitive antidotes",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 0,
+    "explanation": "Beta-blockers risk unopposed α-stimulation and vasospasm.",
+    "high_yield_pearl": "Beta-blockers risk unopposed α-stimulation and vasospasm.",
+    "image": null
+  },
+  {
+    "id": "exam4_inhouse_q150",
+    "q_num": "150",
+    "part": 5,
+    "part_q_num": 30,
+    "stem": "Stimulant withdrawal (\"crash\") and psychosis:",
+    "category": "Part 5: Substance Use Disorders",
+    "source": "IMC 535 Exam 4 Practice (Part 5: Substance Use Disorders)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Stimulant withdrawal frequently triggers status epilepticus and life-threatening delirium tremens",
+        "is_correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Withdrawal is acutely life-threatening requiring ICU admission; acute intoxication is medically benign",
+        "is_correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Withdrawal produces severe dysphoria/suicidality, hypersomnia, and hyperphagia; intoxication can cause paranoid psychosis",
+        "is_correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Withdrawal responds rapidly to FDA-approved specific agonist-replacement pharmacotherapy",
+        "is_correct": false
+      }
+    ],
+    "correct_idx": 2,
+    "explanation": "Crash is dysphoria, hypersomnia, and hunger; behavioral therapy only.",
+    "high_yield_pearl": "Crash is dysphoria, hypersomnia, and hunger; behavioral therapy only.",
+    "image": null
+  }
+]
