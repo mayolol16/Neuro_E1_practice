@@ -45,22 +45,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "The MSE is a comprehensive neuropsychological cognitive assessment",
+        "text": "MSE is a dedicated cognitive battery; MMSE and MoCA assess affective and emotional psychopathology",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "The MoCA primarily assesses mood state, affect, and thought content",
+        "text": "MoCA primarily evaluates mood and thought content; MSE evaluates focal motor and cerebellar reflexes",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "The MSE broadly assesses signs of mental illness; cognition is only one section and not a thorough test",
+        "text": "MSE broadly assesses signs of mental illness; cognition is only one brief screening section tested",
         "is_correct": true
       },
       {
         "letter": "D",
-        "text": "They are clinically interchangeable screening tools for psychiatric pathology",
+        "text": "MSE is identical to cognitive screening tools; both instruments assess the exact same mental domains",
         "is_correct": false
       }
     ],
@@ -80,22 +80,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "The patient's predominant internal feeling state, as stated by the patient (quote them)",
+        "text": "The patient's predominant internal feeling state, as stated by the patient",
         "is_correct": true
       },
       {
         "letter": "B",
-        "text": "The external, dynamic emotional expression observed by the clinician",
+        "text": "The external, dynamic emotional expression observed objectively by the clinician",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "The patient's ability to understand their illness",
+        "text": "The patient's cognitive awareness and intellectual understanding of their illness",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "The organization of the patient's thoughts ",
+        "text": "The structural flow, goal-directedness, and organization of the patient's thoughts",
         "is_correct": false
       }
     ],
@@ -115,17 +115,17 @@
     "options": [
       {
         "letter": "A",
-        "text": "The patient's internal emotional state, as stated by the patient",
+        "text": "The internal emotional feeling state, as described verbally by the patient",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "A fixed, false belief firmly held despite contrary evidence",
+        "text": "A fixed, false belief firmly held despite contrary reality and evidence",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "The clinical decision a patient demonstrates in real-life scenarios",
+        "text": "The real-world decision a patient demonstrates in complex social dilemmas",
         "is_correct": false
       },
       {
@@ -150,22 +150,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Flat affect",
+        "text": "Blunted emotional affect",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Mood–affect incongruence",
+        "text": "Mood-affect incongruence",
         "is_correct": true
       },
       {
         "letter": "C",
-        "text": "Pressured speech",
+        "text": "Rapid pressured speech",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Tangentiality ",
+        "text": "Tangential thought form",
         "is_correct": false
       }
     ],
@@ -185,22 +185,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Labile",
+        "text": "Labile emotional affect",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Restricted in range",
+        "text": "Restricted affective range",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Flat/blunted",
+        "text": "Flat or blunted affect",
         "is_correct": true
       },
       {
         "letter": "D",
-        "text": "Exaggerated ",
+        "text": "Exaggerated dramatic affect",
         "is_correct": false
       }
     ],
@@ -220,22 +220,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Labile affect (mobility)",
+        "text": "Labile emotional affect",
         "is_correct": true
       },
       {
         "letter": "B",
-        "text": "Fixed affect",
+        "text": "Fixed emotional affect",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Flat affect",
+        "text": "Flat emotional affect",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Congruent affect ",
+        "text": "Congruent emotional affect",
         "is_correct": false
       }
     ],
@@ -255,22 +255,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Full range",
+        "text": "Full-range emotional affect",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Mobile",
+        "text": "Mobile-range emotional affect",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Congruent",
+        "text": "Congruent emotional affect",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Non-reactive ",
+        "text": "Non-reactive emotional affect",
         "is_correct": true
       }
     ],
@@ -290,22 +290,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Hyper-verbal but spontaneous",
+        "text": "Hyperverbal spontaneous speech",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Pressured",
+        "text": "Pressured un-interruptible speech",
         "is_correct": true
       },
       {
         "letter": "C",
-        "text": "Prosodic",
+        "text": "Prosodic monotone emotional speech",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Poverty of speech ",
+        "text": "Impoverished telegraphic speech",
         "is_correct": false
       }
     ],
@@ -325,22 +325,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Circumstantial",
+        "text": "Circumstantial thought form",
         "is_correct": true
       },
       {
         "letter": "B",
-        "text": "Tangential",
+        "text": "Tangential thought form",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Flight of ideas",
+        "text": "Flight of ideas thought form",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Word salad ",
+        "text": "Word salad thought form",
         "is_correct": false
       }
     ],
@@ -360,22 +360,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Circumstantial",
+        "text": "Circumstantial thought form",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Flight of ideas",
+        "text": "Flight of ideas thought form",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Tangential",
+        "text": "Tangential thought form",
         "is_correct": true
       },
       {
         "letter": "D",
-        "text": "Loosening of associations ",
+        "text": "Loose associations thought form",
         "is_correct": false
       }
     ],
@@ -400,17 +400,17 @@
       },
       {
         "letter": "B",
-        "text": "Flight of ideas",
+        "text": "Flight of rapid ideas",
         "is_correct": true
       },
       {
         "letter": "C",
-        "text": "Clanging",
+        "text": "Clanging associations",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Thought blocking ",
+        "text": "Acute thought blocking",
         "is_correct": false
       }
     ],
@@ -465,22 +465,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Word salad",
+        "text": "Word salad (schizophasia)",
         "is_correct": true
       },
       {
         "letter": "B",
-        "text": "Neologism",
+        "text": "Neologisms (coined words)",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Tangentiality",
+        "text": "Tangentiality (loss of goal)",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Perseveration ",
+        "text": "Perseveration (repetitive words)",
         "is_correct": false
       }
     ],
@@ -535,22 +535,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Echolalia",
+        "text": "Echolalia vocalization",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Clanging",
+        "text": "Clanging associations",
         "is_correct": true
       },
       {
         "letter": "C",
-        "text": "Perseveration",
+        "text": "Verbal perseveration",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Neologism ",
+        "text": "Neologistic invention",
         "is_correct": false
       }
     ],
@@ -570,22 +570,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Clanging and echolalia",
+        "text": "Clanging and echolalic vocalizations",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Perseveration and neologism",
+        "text": "Perseveration and neologistic speech",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Echolalia and clanging",
+        "text": "Echolalia and clanging associations",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Neologism and thought blocking ",
+        "text": "Neologisms and acute thought blocking",
         "is_correct": true
       }
     ],
@@ -605,7 +605,7 @@
     "options": [
       {
         "letter": "A",
-        "text": "Delirium",
+        "text": "Acute delirium",
         "is_correct": true
       },
       {
@@ -620,7 +620,7 @@
       },
       {
         "letter": "D",
-        "text": "Delusional disorder ",
+        "text": "Delusional state",
         "is_correct": false
       }
     ],
@@ -640,22 +640,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Registration",
+        "text": "Abstract reasoning",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Long-term memory",
+        "text": "Executive judgment",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Concentration",
+        "text": "Sustained attention",
         "is_correct": true
       },
       {
         "letter": "D",
-        "text": "Abstraction ",
+        "text": "Episodic memory",
         "is_correct": false
       }
     ],
@@ -675,22 +675,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Perception of a stimulus that isn't there",
+        "text": "A sensory perceptual experience occurring in the absence of any real external stimulus",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "A fixed, false belief that is not culturally shared and cannot be reasoned away",
+        "text": "A fixed, false belief not culturally shared and unshakeable despite contrary evidence",
         "is_correct": true
       },
       {
         "letter": "C",
-        "text": "An intrusive, unwanted thought the patient recognizes as irrational",
+        "text": "An intrusive, unwanted ego-dystonic thought that the patient recognizes as irrational",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "A strongly held belief that is not delusional in intensity ",
+        "text": "An overvalued cognitive preoccupation held with strong emotion without frank psychosis",
         "is_correct": false
       }
     ],
@@ -710,22 +710,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "A veteran believes the moon is a government space station monitoring people",
+        "text": "A veteran believes the moon is an extraterrestrial satellite monitoring citizens",
         "is_correct": true
       },
       {
         "letter": "B",
-        "text": "A man believes his phone is tapped",
+        "text": "A businessman believes federal intelligence agencies have wiretapped his office phone",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "A woman believes neighbors are poisoning her food",
+        "text": "A woman believes her apartment neighbors are deliberately contaminating her food supply",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "A man believes a coworker is plotting against him ",
+        "text": "An executive believes corporate competitors are actively conspiring to terminate him",
         "is_correct": false
       }
     ],
@@ -745,22 +745,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Grandiose",
+        "text": "Persecutory delusion",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Persecutory",
+        "text": "Delusion of reference",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Somatic",
+        "text": "Grandiose delusion",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Erotomanic ",
+        "text": "Erotomanic delusion",
         "is_correct": true
       }
     ],
@@ -780,22 +780,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Reference",
+        "text": "Cotard delusion",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Misidentification",
+        "text": "Capgras delusion",
         "is_correct": true
       },
       {
         "letter": "C",
-        "text": "Control",
+        "text": "Fregoli delusion",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Nihilism ",
+        "text": "Erotomanic state",
         "is_correct": false
       }
     ],
@@ -815,12 +815,12 @@
     "options": [
       {
         "letter": "A",
-        "text": "Delusion of reference",
+        "text": "Persecutory delusion",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Grandiose delusion",
+        "text": "Delusion of reference",
         "is_correct": false
       },
       {
@@ -830,7 +830,7 @@
       },
       {
         "letter": "D",
-        "text": "Religious delusion ",
+        "text": "Erotomanic delusion",
         "is_correct": false
       }
     ],
@@ -850,22 +850,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Reference",
+        "text": "Delusion of reference",
         "is_correct": true
       },
       {
         "letter": "B",
-        "text": "Control",
+        "text": "Somatic delusion",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Misidentification",
+        "text": "Persecutory delusion",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Grandiosity ",
+        "text": "Grandiose delusion",
         "is_correct": false
       }
     ],
@@ -885,22 +885,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Psychosis is a diagnosis equivalent to schizophrenia",
+        "text": "Psychosis is a specific categorical DSM-5 diagnosis with defined illness course",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Psychosis is a symptom (break from reality), not a diagnosis",
+        "text": "Psychosis is a broad clinical symptom syndrome with diverse underlying etiologies",
         "is_correct": true
       },
       {
         "letter": "C",
-        "text": "Psychosis requires hallucinations",
+        "text": "Psychosis is exclusively caused by primary idiopathic psychiatric brain disorders",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Psychosis requires disorganized speech ",
+        "text": "Psychosis is defined purely by presence of active auditory hallucination phenomena",
         "is_correct": false
       }
     ],
@@ -920,22 +920,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "A delusion",
+        "text": "Erotomanic delusion (fixed belief)",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "An overvalued idea",
+        "text": "Command hallucination (perception)",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "A hallucination",
+        "text": "Persecutory idea (cultural belief)",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "An obsession (ego-dystonic) ",
+        "text": "Intrusive obsession (ego-dystonic)",
         "is_correct": true
       }
     ],
@@ -955,22 +955,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Illusion",
+        "text": "Perceptual sensory illusion",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Depersonalization",
+        "text": "Fixed persecutory delusion",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Hallucination",
+        "text": "True sensory hallucination",
         "is_correct": true
       },
       {
         "letter": "D",
-        "text": "Derealization ",
+        "text": "Derealization phenomenon",
         "is_correct": false
       }
     ],
@@ -990,22 +990,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Depersonalization",
+        "text": "Depersonalization experience",
         "is_correct": true
       },
       {
         "letter": "B",
-        "text": "Derealization",
+        "text": "Derealization phenomenon",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Illusion",
+        "text": "Visual illusion misperception",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Hallucination ",
+        "text": "Somatosensory dissociation",
         "is_correct": false
       }
     ],
@@ -1060,22 +1060,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Negative",
+        "text": "Negative symptom domain",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Cognitive",
+        "text": "Cognitive symptom domain",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Positive",
+        "text": "Positive symptom domain",
         "is_correct": true
       },
       {
         "letter": "D",
-        "text": "Mood ",
+        "text": "Affective symptom domain",
         "is_correct": false
       }
     ],
@@ -1270,22 +1270,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Pill-rolling tremor",
+        "text": "Resting pill-rolling tremor",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Oculogyric crisis",
+        "text": "Acute oculogyric crisis",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Tongue protrusion and lip smacking",
+        "text": "Choreiform tongue protrusion",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Waxy flexibility or mutism ",
+        "text": "Waxy flexibility and mutism",
         "is_correct": true
       }
     ],
@@ -1305,22 +1305,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Females have earlier onset in early adolescence; males develop symptoms in mid-adulthood",
+        "text": "Females typically develop onset in early adolescence, while males present in mid-adulthood",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Males typically develop onset in late teens to early 20s; females in mid-20s to early 30s",
+        "text": "Males typically develop onset in late teens to early 20s, while females present in mid-20s",
         "is_correct": true
       },
       {
         "letter": "C",
-        "text": "Both biological sexes exhibit identical peak incidence after the fourth decade of life",
+        "text": "Both biological sexes exhibit identical peak incidence after the fourth decade of adult life",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Both biological sexes develop primary manifestations during early childhood development",
+        "text": "Both biological sexes develop primary clinical manifestations during early childhood years",
         "is_correct": false
       }
     ],
@@ -1340,22 +1340,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "0.01%",
+        "text": "Approximately 0.1%",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "10%",
+        "text": "Approximately 10.0%",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "1%",
+        "text": "Approximately 1.0%",
         "is_correct": true
       },
       {
         "letter": "D",
-        "text": "5% ",
+        "text": "Approximately 5.0%",
         "is_correct": false
       }
     ],
@@ -1375,22 +1375,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "40–50%",
+        "text": "Approximately 40% to 50%",
         "is_correct": true
       },
       {
         "letter": "B",
-        "text": "100%",
+        "text": "Approximately 95% to 100%",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "10%",
+        "text": "Approximately 5% to 10%",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "80% ",
+        "text": "Approximately 75% to 80%",
         "is_correct": false
       }
     ],
@@ -1410,22 +1410,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Equal",
+        "text": "Equal to baseline (1× relative risk)",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "2× higher",
+        "text": "Moderately elevated (2× relative risk)",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "5× higher",
+        "text": "Substantially elevated (5× relative risk)",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "10× higher ",
+        "text": "Markedly elevated (10× relative risk)",
         "is_correct": true
       }
     ],
@@ -1480,22 +1480,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Advanced paternal age at conception",
+        "text": "Advanced paternal age at time of conception",
         "is_correct": true
       },
       {
         "letter": "B",
-        "text": "Advanced maternal age only",
+        "text": "Advanced maternal age at time of conception",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Young maternal age",
+        "text": "Very young maternal age during adolescence",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Maternal vegetarian diet ",
+        "text": "Maternal strictly vegetarian dietary intake",
         "is_correct": false
       }
     ],
@@ -1515,22 +1515,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Maternal infection",
+        "text": "Maternal prenatal influenza viral infection",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Paternal age",
+        "text": "Advanced paternal chronological age at birth",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Obstetric complications/hypoxia",
+        "text": "Perinatal obstetric complications and hypoxia",
         "is_correct": true
       },
       {
         "letter": "D",
-        "text": "Epigenetic methylation ",
+        "text": "Aberrant post-zygotic epigenetic methylation",
         "is_correct": false
       }
     ],
@@ -1550,22 +1550,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Caffeine",
+        "text": "Chronic excessive caffeine consumption",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Nicotine",
+        "text": "Early adolescent nicotine vaping habits",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Alcohol",
+        "text": "Binge alcohol drinking during weekends",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "High-potency cannabis ",
+        "text": "Frequent high-potency cannabis smoking",
         "is_correct": true
       }
     ],
@@ -1585,22 +1585,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "In utero famine",
+        "text": "Severe maternal in utero famine exposure",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Higher educational attainment",
+        "text": "Higher completed educational attainment",
         "is_correct": true
       },
       {
         "letter": "C",
-        "text": "Urban residence",
+        "text": "Birth and upbringing in an urban residence",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Migration/ethnic minority status ",
+        "text": "International migration and minority status",
         "is_correct": false
       }
     ],
@@ -1620,22 +1620,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "22q11.2 deletion syndrome",
+        "text": "22q11.2 microdeletion syndrome",
         "is_correct": true
       },
       {
         "letter": "B",
-        "text": "Down syndrome only",
+        "text": "Trisomy 21 Down chromosomal syndrome",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Turner syndrome",
+        "text": "45,X monosomy Turner dysgenesis syndrome",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Fragile X only ",
+        "text": "FMR1 gene Fragile X mental syndrome",
         "is_correct": false
       }
     ],
@@ -1655,12 +1655,12 @@
     "options": [
       {
         "letter": "A",
-        "text": "Mesolimbic and mesocortical",
+        "text": "Mesolimbic and mesocortical tracts",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Mesolimbic and nigrostriatal",
+        "text": "Mesolimbic and nigrostriatal tracts",
         "is_correct": false
       },
       {
@@ -1670,7 +1670,7 @@
       },
       {
         "letter": "D",
-        "text": "Mesocortical and tuberoinfundibular ",
+        "text": "Mesocortical and tuberoinfundibular",
         "is_correct": false
       }
     ],
@@ -1690,22 +1690,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Mesolimbic",
+        "text": "Mesolimbic dopaminergic pathway",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Mesocortical",
+        "text": "Mesocortical dopaminergic pathway",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Nigrostriatal",
+        "text": "Nigrostriatal dopaminergic pathway",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Tuberoinfundibular ",
+        "text": "Tuberoinfundibular dopamine pathway",
         "is_correct": true
       }
     ],
@@ -1725,22 +1725,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Nigrostriatal",
+        "text": "Nigrostriatal dopaminergic pathway",
         "is_correct": true
       },
       {
         "letter": "B",
-        "text": "Mesolimbic",
+        "text": "Mesolimbic dopaminergic pathway",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Tuberoinfundibular",
+        "text": "Tuberoinfundibular dopamine pathway",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Mesocortical ",
+        "text": "Mesocortical dopaminergic pathway",
         "is_correct": false
       }
     ],
@@ -1770,12 +1770,12 @@
       },
       {
         "letter": "C",
-        "text": "Delusional disorder",
+        "text": "Primary delusional disorder",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Schizoaffective disorder ",
+        "text": "Schizoaffective disorder",
         "is_correct": false
       }
     ],
@@ -1795,22 +1795,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "<1 week",
+        "text": "Less than 1 day in total duration",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "1 day to 1 month",
+        "text": "1 day to less than 1 full month",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "1 to 6 months",
+        "text": "1 month to less than 6 full months",
         "is_correct": true
       },
       {
         "letter": "D",
-        "text": ">6 months ",
+        "text": "Greater than 6 continuous months",
         "is_correct": false
       }
     ],
@@ -1975,17 +1975,17 @@
       },
       {
         "letter": "B",
-        "text": "Schizophrenia",
+        "text": "Undifferentiated schizophrenia",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Delusional disorder",
+        "text": "Primary delusional disorder",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Schizophreniform disorder ",
+        "text": "Schizophreniform disorder",
         "is_correct": true
       }
     ],
@@ -2075,22 +2075,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "SSRIs, for negative symptoms",
+        "text": "Selective serotonin reuptake inhibitors, primarily targeting affective symptoms",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Lithium, for positive symptoms",
+        "text": "Lithium carbonate monotherapy, primarily targeting neurovegetative sleep symptoms",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Antipsychotics, for positive symptoms",
+        "text": "Dopamine-blocking antipsychotics, primarily targeting positive psychotic symptoms",
         "is_correct": true
       },
       {
         "letter": "D",
-        "text": "Benzodiazepines, for cognitive symptoms",
+        "text": "High-potency benzodiazepines, primarily targeting chronic negative social symptoms",
         "is_correct": false
       }
     ],
@@ -2250,22 +2250,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Major depressive disorder",
+        "text": "Major depressive disorder with psychotic features",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Bipolar disorder (up to ~75%)",
+        "text": "Bipolar I disorder with manic psychotic features",
         "is_correct": true
       },
       {
         "letter": "C",
-        "text": "OCD",
+        "text": "Severe obsessive-compulsive disorder with poor insight",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "PTSD ",
+        "text": "Chronic post-traumatic stress disorder with dissociation",
         "is_correct": false
       }
     ],
@@ -2320,22 +2320,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Delirium",
+        "text": "Acute delirium confusional state",
         "is_correct": true
       },
       {
         "letter": "B",
-        "text": "Schizoaffective disorder",
+        "text": "Schizoaffective psychotic disorder",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Personality disorder",
+        "text": "Borderline personality pathology",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Brief psychotic disorder ",
+        "text": "Brief situational psychotic episode",
         "is_correct": false
       }
     ],
@@ -2400,7 +2400,7 @@
       },
       {
         "letter": "C",
-        "text": "Echo de la pensée (audible thought echo phenomena)",
+        "text": "Echo de la pensée with audible thought echo phenomena",
         "is_correct": false
       },
       {
@@ -2425,22 +2425,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Early-onset behavioral variant frontotemporal lobar degeneration",
+        "text": "Early-onset behavioral variant frontotemporal lobar brain degeneration",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Anti-N-methyl-D-aspartate (anti-NMDA) receptor autoimmune encephalitis",
+        "text": "Autoimmune encephalitis mediated by anti-N-methyl-D-aspartate receptors",
         "is_correct": true
       },
       {
         "letter": "C",
-        "text": "Acute uncal herniation secondary to rupture of an anterior communicating aneurysm",
+        "text": "Acute uncal herniation secondary to rupture of an anterior cerebral aneurysm",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Sporadic Creutzfeldt-Jakob disease with rapidly progressive spongiform encephalopathy",
+        "text": "Sporadic Creutzfeldt-Jakob disease with rapidly progressive spongiform change",
         "is_correct": false
       }
     ],
@@ -2470,7 +2470,7 @@
       },
       {
         "letter": "C",
-        "text": "Serum rapid plasma reagin (RPR) titer and treponemal fluorescent antibody testing",
+        "text": "Serum rapid plasma reagin titer and treponemal fluorescent antibody testing",
         "is_correct": false
       },
       {
@@ -2600,22 +2600,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Fleeting and poorly organized",
+        "text": "Fleeting, fragmented, and poorly organized",
         "is_correct": true
       },
       {
         "letter": "B",
-        "text": "Fixed and systematized",
+        "text": "Fixed, complex, and highly systematized",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Bizarre and stable",
+        "text": "Stable, bizarre, and chronic in duration",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Absent always ",
+        "text": "Entirely absent across all presentations",
         "is_correct": false
       }
     ],
@@ -2635,22 +2635,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Normal",
+        "text": "Normal alpha rhythm",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Spike-wave",
+        "text": "3-Hz spike-and-wave",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Diffuse slowing",
+        "text": "Generalized slowing",
         "is_correct": true
       },
       {
         "letter": "D",
-        "text": "Burst suppression ",
+        "text": "Periodic sharp waves",
         "is_correct": false
       }
     ],
@@ -2680,7 +2680,7 @@
       },
       {
         "letter": "C",
-        "text": "Positron emission tomography (PET) scan and full-genome exome sequencing",
+        "text": "Positron emission tomography scan and full-genome exome sequencing profile",
         "is_correct": false
       },
       {
@@ -2740,22 +2740,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "RPR/FTA-ABS",
+        "text": "Rapid plasma reagin and FTA-ABS testing",
         "is_correct": true
       },
       {
         "letter": "B",
-        "text": "Lead level",
+        "text": "Blood lead and heavy metal screening",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "EBV titers",
+        "text": "Epstein-Barr viral capsid antibody titers",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "HbA1c ",
+        "text": "Hemoglobin A1c and fasting blood glucose",
         "is_correct": false
       }
     ],
@@ -2780,7 +2780,7 @@
       },
       {
         "letter": "B",
-        "text": "Serum anti-nuclear antibodies (ANA) and anti-double-stranded DNA titers",
+        "text": "Serum antinuclear antibodies and anti-double-stranded DNA titers",
         "is_correct": false
       },
       {
@@ -2810,22 +2810,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Vitamin B12",
+        "text": "Korsakoff confabulatory psychosis",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Thiamine (B1)",
+        "text": "Wernicke acute encephalopathy state",
         "is_correct": true
       },
       {
         "letter": "C",
-        "text": "Niacin (B3)",
+        "text": "Marchiafava-Bignami demyelination",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Vitamin D ",
+        "text": "Delirium tremens withdrawal state",
         "is_correct": false
       }
     ],
@@ -2845,22 +2845,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Thiamine",
+        "text": "Beriberi (thiamine / vitamin B1)",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Vitamin C",
+        "text": "Scurvy (ascorbate / vitamin C)",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Vitamin A",
+        "text": "Rickets (calciferol / vitamin D)",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Niacin (B3) ",
+        "text": "Pellagra (niacin / vitamin B3)",
         "is_correct": true
       }
     ],
@@ -2880,22 +2880,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Pyridoxine (B6)",
+        "text": "Pyridoxine deficiency (vitamin B6)",
         "is_correct": true
       },
       {
         "letter": "B",
-        "text": "Folate",
+        "text": "Thiamine deficiency (vitamin B1)",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Vitamin K",
+        "text": "Niacin deficiency (vitamin B3)",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Vitamin E ",
+        "text": "Cobalamin deficiency (vitamin B12)",
         "is_correct": false
       }
     ],
@@ -2985,22 +2985,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Fixed, Frequent, Familial, Fearful, Fluctuating",
+        "text": "Form, Flow, Frequency, Fullness, and Finality",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Fear, Flight, Fight, Freeze, Fawn",
+        "text": "Feeling, Fixation, Fluency, Fatigue, and Fear",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Formal, Factual, Frank, Fast, Free",
+        "text": "Focus, Fulfillment, Flashbacks, Fragility, Fate",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Formed, Firmly held, Frequent, Frightening, Functionally impairing ",
+        "text": "Frequency, Fixity, Fluctuation, Function, Fear",
         "is_correct": true
       }
     ],
@@ -3100,7 +3100,7 @@
       },
       {
         "letter": "C",
-        "text": "Elective electroconvulsive therapy (ECT) and mandatory permanent academic withdrawal",
+        "text": "Elective electroconvulsive therapy and mandatory permanent academic withdrawal",
         "is_correct": false
       },
       {
@@ -3170,12 +3170,12 @@
       },
       {
         "letter": "C",
-        "text": "Gamma-aminobutyric acid type A (GABA-A) positive allosteric receptor modulation",
+        "text": "Gamma-aminobutyric acid type A positive allosteric receptor modulation",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Pre-synaptic vesicular monoamine transporter 2 (VMAT2) selective inhibition",
+        "text": "Pre-synaptic vesicular monoamine transporter 2 selective inhibition",
         "is_correct": false
       }
     ],
@@ -3195,22 +3195,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Blocking only 5-HT2A",
+        "text": "Selective antagonism of serotonin 5-HT2A receptors",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Agonizing D2",
+        "text": "Partial agonism at dopamine D2 and D3 receptors",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Blocking D2 and 5-HT2A",
+        "text": "Dual antagonism at dopamine D2 and 5-HT2A receptors",
         "is_correct": true
       },
       {
         "letter": "D",
-        "text": "Blocking GABA-A ",
+        "text": "Negative allosteric modulation of GABA-A receptors",
         "is_correct": false
       }
     ],
@@ -3300,22 +3300,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Histamine, Alpha-1, Muscarinic receptors",
+        "text": "Histamine H1, alpha-1 adrenergic, and muscarinic M1",
         "is_correct": true
       },
       {
         "letter": "B",
-        "text": "Hormone, Adrenergic, Mu receptors",
+        "text": "Hormone receptors, alpha-2 adrenergic, and mu-opioid",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Hydroxytryptamine, Acetylcholine, Mesolimbic receptors",
+        "text": "Hydroxytryptamine, acetylcholine, and mesolimbic D2",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Histamine, Acetylcholine, Mu receptors ",
+        "text": "Histamine H2, acetylcholinesterase, and mu-opioid",
         "is_correct": false
       }
     ],
@@ -3405,22 +3405,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Akathisia",
+        "text": "Subjective motor akathisia",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Acute dystonia",
+        "text": "Acute spasmodic dystonia",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Tardive dyskinesia",
+        "text": "Delayed choreic dyskinesia",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Pseudoparkinsonism ",
+        "text": "Bradykinetic pseudoparkinsonism",
         "is_correct": true
       }
     ],
@@ -3440,22 +3440,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Benztropine or trihexyphenidyl",
+        "text": "Oral benztropine or trihexyphenidyl",
         "is_correct": true
       },
       {
         "letter": "B",
-        "text": "Propranolol",
+        "text": "Oral non-selective propranolol",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Valbenazine",
+        "text": "Oral valbenazine or deutetrabenazine",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Dantrolene ",
+        "text": "Intravenous dantrolene infusion",
         "is_correct": false
       }
     ],
@@ -3475,22 +3475,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Akathisia",
+        "text": "Subjective inner motor restlessness (akathisia)",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Pseudoparkinsonism",
+        "text": "Resting tremor and cogwheeling (pseudoparkinsonism)",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Acute dystonia",
+        "text": "Acute painful muscle spasm (acute dystonia)",
         "is_correct": true
       },
       {
         "letter": "D",
-        "text": "Tardive dyskinesia ",
+        "text": "Involuntary choreiform movements (tardive dyskinesia)",
         "is_correct": false
       }
     ],
@@ -3510,22 +3510,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Propranolol",
+        "text": "Oral propranolol administration",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Diphenhydramine or benztropine",
+        "text": "Intravenous benztropine injection",
         "is_correct": true
       },
       {
         "letter": "C",
-        "text": "Valbenazine",
+        "text": "Oral valbenazine pharmacotherapy",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Bromocriptine ",
+        "text": "Intravenous dantrolene infusion",
         "is_correct": false
       }
     ],
@@ -3545,22 +3545,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Tardive dyskinesia",
+        "text": "Delayed tardive dyskinesia",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Mania",
+        "text": "Acute euphoric bipolar mania",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Pseudoparkinsonism",
+        "text": "Drug-induced pseudoparkinsonism",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Akathisia ",
+        "text": "Neuroleptic-induced akathisia",
         "is_correct": true
       }
     ],
@@ -3580,22 +3580,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Propranolol or a benzodiazepine",
+        "text": "Oral propranolol or a low-dose benzodiazepine",
         "is_correct": true
       },
       {
         "letter": "B",
-        "text": "Benztropine only",
+        "text": "High-dose oral benztropine or trihexyphenidyl",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Dantrolene",
+        "text": "Intravenous dantrolene or oral bromocriptine",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Increasing the antipsychotic dose ",
+        "text": "Immediate dose escalation of the antipsychotic",
         "is_correct": false
       }
     ],
@@ -3615,22 +3615,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Acute dystonia",
+        "text": "Acute muscular dystonia",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Tardive dyskinesia",
+        "text": "Tardive dyskinesia syndrome",
         "is_correct": true
       },
       {
         "letter": "C",
-        "text": "Akathisia",
+        "text": "Parkinsonian cogwheel tremor",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "NMS ",
+        "text": "Severe akathisia restlessness",
         "is_correct": false
       }
     ],
@@ -3690,7 +3690,7 @@
       },
       {
         "letter": "B",
-        "text": "Oral anticholinergic agents such as benztropine or diphenhydramine (which worsen TD)",
+        "text": "Oral anticholinergic agents such as benztropine or diphenhydramine therapy",
         "is_correct": false
       },
       {
@@ -3700,7 +3700,7 @@
       },
       {
         "letter": "D",
-        "text": "Vesicular monoamine transporter 2 (VMAT2) inhibitors such as valbenazine or deutetrabenazine",
+        "text": "Vesicular monoamine transporter 2 inhibitors such as valbenazine or deutetrabenazine",
         "is_correct": true
       }
     ],
@@ -3895,22 +3895,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Stop the antipsychotic",
+        "text": "Stop the antipsychotic immediately",
         "is_correct": true
       },
       {
         "letter": "B",
-        "text": "Increase the antipsychotic",
+        "text": "Escalate the antipsychotic dosage",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Add anticholinergics",
+        "text": "Administer high-dose propranolol",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Give flumazenil ",
+        "text": "Initiate prophylactic haloperidol",
         "is_correct": false
       }
     ],
@@ -4035,22 +4035,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Ziprasidone and aripiprazole convey the highest risk; olanzapine conveys the lowest",
+        "text": "Ziprasidone and aripiprazole convey the highest risk, while olanzapine conveys the lowest risk",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Olanzapine and clozapine convey the highest risk; ziprasidone and aripiprazole convey lower risk",
+        "text": "Olanzapine and clozapine convey the highest risk, while ziprasidone and aripiprazole convey lower risk",
         "is_correct": true
       },
       {
         "letter": "C",
-        "text": "All second-generation atypical antipsychotics exhibit completely identical metabolic liability",
+        "text": "Risperidone and paliperidone convey the highest risk, while clozapine and olanzapine convey lower risk",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "First-generation high-potency antipsychotics produce substantially greater weight gain than atypicals",
+        "text": "High-potency typical antipsychotics convey greater risk, while atypical agents convey zero metabolic risk",
         "is_correct": false
       }
     ],
@@ -4140,22 +4140,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Acute renal tubular necrosis requiring weekly urinalysis and creatinine monitoring",
+        "text": "Acute renal tubular necrosis requiring routine serum creatinine monitoring",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Life-threatening agranulocytosis requiring mandatory absolute neutrophil count (ANC) monitoring",
+        "text": "Life-threatening agranulocytosis requiring regular absolute neutrophil count monitoring",
         "is_correct": true
       },
       {
         "letter": "C",
-        "text": "Fulminant hepatic necrosis requiring serial liver biopsies every two months",
+        "text": "Fulminant hepatic failure requiring serial liver biopsy surveillance",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Severe pulmonary interstitial fibrosis requiring baseline and quarterly spirometry",
+        "text": "Interstitial pulmonary fibrosis requiring routine baseline spirometry",
         "is_correct": false
       }
     ],
@@ -4315,22 +4315,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Precontemplation",
+        "text": "Precontemplation stage of change",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Contemplation",
+        "text": "Contemplation stage of change",
         "is_correct": true
       },
       {
         "letter": "C",
-        "text": "Preparation",
+        "text": "Preparation stage of change",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Maintenance ",
+        "text": "Maintenance stage of change",
         "is_correct": false
       }
     ],
@@ -4420,22 +4420,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Symptoms begin within 30 minutes; delirium tremens invariably occurs at 6 hours post-cessation",
+        "text": "Symptoms begin at 30 minutes, tremors peak at 6 hours, and delirium tremens resolves by 24 hours",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Withdrawal manifestations occur exclusively between 7 and 14 days following alcohol cessation",
+        "text": "Symptoms begin at 24 hours, seizures occur at 4 days, and delirium tremens develops after 2 weeks",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Tremors begin at 6–12 h; seizures at 12–48 h; delirium tremens typically develops at 48–96 h",
+        "text": "Tremors begin at 6 to 12 hours, seizures occur at 12 to 48 hours, and delirium tremens peaks at 48 to 96 hours",
         "is_correct": true
       },
       {
         "letter": "D",
-        "text": "Hallucinations precede tremulousness and resolve completely within the first 2 hours",
+        "text": "Hallucinations begin at 1 hour, confusion resolves at 6 hours, and autonomic instability is absent",
         "is_correct": false
       }
     ],
@@ -4455,22 +4455,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Immediate physical restraint and observation without administering sedative medications",
+        "text": "Immediate physical restraint and observation without administering sedative pharmacotherapy",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Symptom-triggered benzodiazepine administration (e.g., lorazepam or diazepam) guided by CIWA scoring",
+        "text": "Symptom-triggered benzodiazepine administration such as lorazepam guided by CIWA protocol",
         "is_correct": true
       },
       {
         "letter": "C",
-        "text": "High-potency dopamine antagonists such as haloperidol monotherapy to suppress agitation",
+        "text": "High-potency dopamine antagonists such as haloperidol monotherapy to suppress motor agitation",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Continuous intravenous infusion of flumazenil to prevent secondary receptor down-regulation",
+        "text": "Continuous intravenous flumazenil infusion to prevent secondary GABA-A down-regulation",
         "is_correct": false
       }
     ],
@@ -4490,22 +4490,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "To prevent acute precipitation of Wernicke encephalopathy (administer before or with dextrose)",
+        "text": "To prevent precipitating acute Wernicke encephalopathy by administering prior to intravenous dextrose",
         "is_correct": true
       },
       {
         "letter": "B",
-        "text": "To accelerate hepatic clearance of circulating ethanol through alcohol dehydrogenase induction",
+        "text": "To accelerate hepatic clearance of circulating ethanol through metabolic enzyme induction pathways",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "To correct refractory hyperkalemia and prevent cardiac dysrhythmias during intoxication",
+        "text": "To correct refractory intracellular hyperkalemia and prevent life-threatening ventricular dysrhythmias",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "To reverse acute respiratory depression secondary to sedative-hypnotic co-ingestion",
+        "text": "To reverse acute respiratory depression secondary to concomitant sedative-hypnotic co-ingestion",
         "is_correct": false
       }
     ],
@@ -4560,22 +4560,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Outpatient reassurance and scheduled follow-up in primary care within two weeks",
+        "text": "Outpatient reassurance with primary care clinic follow-up within two weeks",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Low-dose oral hydroxyzine monotherapy in a quiet, unmonitored residential setting",
+        "text": "Low-dose oral hydroxyzine monotherapy in an unmonitored residential setting",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "ICU admission, high-dose intravenous benzodiazepine titration, fluid resuscitation, and thiamine repletion",
+        "text": "Intensive care unit admission, aggressive IV benzodiazepines, and thiamine",
         "is_correct": true
       },
       {
         "letter": "D",
-        "text": "Emergent hemodialysis combined with competitive opioid receptor antagonist administration",
+        "text": "Emergent hemodialysis combined with competitive opioid receptor antagonists",
         "is_correct": false
       }
     ],
@@ -4630,22 +4630,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Modulating glutamate/GABA balance; inhibiting aldehyde dehydrogenase",
+        "text": "Acamprosate modulates NMDA/GABA tone, while disulfiram inhibits aldehyde dehydrogenase",
         "is_correct": true
       },
       {
         "letter": "B",
-        "text": "Blocking opioid receptors; inhibiting aldehyde dehydrogenase",
+        "text": "Acamprosate stimulates dopamine release, while disulfiram enhances alcohol dehydrogenase",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Agonizing GABA; blocking NMDA",
+        "text": "Acamprosate blocks central mu receptors, while disulfiram stimulates GABA-A receptors",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Inhibiting MAO; blocking opioid receptors ",
+        "text": "Acamprosate inhibits monoamine oxidase, while disulfiram blocks cardiac sodium channels",
         "is_correct": false
       }
     ],
@@ -4670,17 +4670,17 @@
       },
       {
         "letter": "B",
-        "text": "Non-competitive antagonist at N-methyl-D-aspartate (NMDA) glutamate receptors",
+        "text": "Non-competitive antagonist at glutamate N-methyl-D-aspartate receptors",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Direct agonist at serotonergic 5-HT2A receptors responsible for psychedelic experiences",
+        "text": "Direct agonist at serotonergic 5-HT2A receptors causing psychedelic experiences",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Partial agonist at cannabinoid CB1 and CB2 receptors, modulating presynaptic neurotransmitter release",
+        "text": "Partial agonist at cannabinoid CB1 and CB2 receptors modulating neurotransmission",
         "is_correct": true
       }
     ],
@@ -4735,22 +4735,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Edibles exert instantaneous clinical onset within minutes and dissipate within 1 hour",
+        "text": "Edibles exert onset in minutes and dissipate in 1 hour, while inhaled lasts up to 12 hours",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Edibles exhibit delayed onset (30 min–3 h) and last up to ~12 h; inhaled onset is rapid (15–30 min) and lasts ~4 h",
+        "text": "Edibles exhibit delayed onset of 30 min to 3 h, while inhaled onset is rapid in 15 to 30 min",
         "is_correct": true
       },
       {
         "letter": "C",
-        "text": "Both oral ingestion and smoking exhibit completely identical pharmacokinetic profiles",
+        "text": "Edibles and inhaled cannabis exhibit completely identical clinical pharmacokinetic profiles",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Inhaled cannabis requires extensive first-pass hepatic metabolism and outlasts oral ingestion",
+        "text": "Inhaled cannabis undergoes extensive first-pass metabolism, while edibles bypass liver clearance",
         "is_correct": false
       }
     ],
@@ -4770,12 +4770,12 @@
     "options": [
       {
         "letter": "A",
-        "text": "Irritability, anxiety, insomnia, and decreased appetite; non-life-threatening without FDA-approved drugs",
+        "text": "Irritability, anxiety, insomnia, and anorexia, which are non-life-threatening without approved drugs",
         "is_correct": true
       },
       {
         "letter": "B",
-        "text": "Generalized tonic-clonic seizures, severe hyperpyrexia, and delirium tremens requiring ICU care",
+        "text": "Generalized tonic-clonic seizures, hyperthermia, and delirium tremens requiring intensive ICU care",
         "is_correct": false
       },
       {
@@ -4785,7 +4785,7 @@
       },
       {
         "letter": "D",
-        "text": "Severe pupillary constriction, respiratory depression, and profound obtundation",
+        "text": "Severe pinpoint pupillary miosis, respiratory depression, and profound unarousable coma state",
         "is_correct": false
       }
     ],
@@ -4805,22 +4805,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "PCP: serotonin agonist; LSD: NMDA antagonist",
+        "text": "PCP acts as a serotonin receptor agonist; LSD acts as an NMDA receptor antagonist",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Both: opioid agonists",
+        "text": "PCP acts as a selective mu-opioid agonist; LSD acts as a kappa-opioid receptor agonist",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Both: GABA agonists",
+        "text": "PCP acts as an allosteric GABA-A agonist; LSD acts as a central GABA-B receptor agonist",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "PCP: NMDA antagonist; LSD: serotonin agonist ",
+        "text": "PCP acts as an NMDA receptor antagonist; LSD acts as a serotonin 5-HT2A receptor agonist",
         "is_correct": true
       }
     ],
@@ -4840,22 +4840,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "LSD",
+        "text": "Lysergic acid diethylamide ingestion",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Cannabis",
+        "text": "Tetrahydrocannabinol concentration",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "PCP",
+        "text": "Phencyclidine intoxication exposure",
         "is_correct": true
       },
       {
         "letter": "D",
-        "text": "Opioids ",
+        "text": "Prescription opioid analgesic agents",
         "is_correct": false
       }
     ],
@@ -4910,22 +4910,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Miosis, CNS sedation, shallow respiratory depression, and decreased bowel motility via mu-opioid receptors",
+        "text": "Miosis, CNS depression, respiratory depression, and decreased bowel motility",
         "is_correct": true
       },
       {
         "letter": "B",
-        "text": "Severe pupillary dilation, marked motor agitation, tachypnea, and hyperactive bowel sounds",
+        "text": "Mydriasis, marked motor agitation, tachypnea, and hyperactive bowel sounds",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Generalized epileptic seizures, hyperthermia, ocular clonus, and severe diaphoresis",
+        "text": "Generalized seizures, hyperthermia, ocular clonus, and profuse diaphoresis",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Severe sinus tachycardia, acute hypertension, paranoia, and tactile formication",
+        "text": "Sinus tachycardia, acute hypertension, paranoia, and formication sensations",
         "is_correct": false
       }
     ],
@@ -4945,22 +4945,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Pinpoint pupillary constriction, deep CNS sedation, and severe hypothermia",
+        "text": "Pinpoint pupillary miosis, CNS depression, and severe hypothermia",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Generalized status epilepticus, severe delirium tremens, and acute hemodynamic collapse",
+        "text": "Generalized status epilepticus, delirium tremens, and hemodynamic collapse",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Lacrimation, rhinorrhea, piloerection, yawning, mydriasis, and hyperactive bowel sounds with diarrhea",
+        "text": "Lacrimation, rhinorrhea, piloerection, yawning, mydriasis, and diarrhea",
         "is_correct": true
       },
       {
         "letter": "D",
-        "text": "Progressive respiratory depression, pulmonary edema, and acute anoxic encephalopathy",
+        "text": "Progressive respiratory depression, pulmonary edema, and anoxic brain injury",
         "is_correct": false
       }
     ],
@@ -4980,22 +4980,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Intravenous flumazenil titration combined with high-dose loop diuretics",
+        "text": "Intravenous flumazenil titration combined with loop diuretics",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Intravenous beta-adrenergic antagonist administration to control tachycardia",
+        "text": "Intravenous beta-adrenergic antagonist administration for tachycardia",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Conservative observation without airway intervention in a dark room",
+        "text": "Conservative observation in a darkened room without intervention",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Airway/breathing ventilatory support and immediate administration of the opioid antagonist naloxone",
+        "text": "Airway and ventilatory support with immediate intravenous naloxone",
         "is_correct": true
       }
     ],
@@ -5015,22 +5015,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Both agents are competitive receptor antagonists requiring intensive inpatient detoxification",
+        "text": "Both are competitive antagonists requiring inpatient detoxification prior to therapy",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Methadone is a full agonist dispensed via clinics; buprenorphine is a partial agonist with ceiling effect; both safe in pregnancy",
+        "text": "Methadone is a full agonist, while buprenorphine is a partial agonist and both safe in pregnancy",
         "is_correct": true
       },
       {
         "letter": "C",
-        "text": "Buprenorphine is a full mu agonist carrying higher respiratory risk; methadone is a pure antagonist",
+        "text": "Buprenorphine is a full agonist with high overdose risk, while methadone is a pure antagonist",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Methadone is strictly contraindicated in pregnant patients; buprenorphine cannot be used for maintenance",
+        "text": "Methadone is contraindicated in pregnancy, while buprenorphine is restricted to inpatient use",
         "is_correct": false
       }
     ],
@@ -5085,22 +5085,22 @@
     "options": [
       {
         "letter": "A",
-        "text": "Both drug classes directly open voltage-gated sodium channels in cortical pyramidal neurons",
+        "text": "Both drug classes directly open voltage-gated sodium channels in cerebral cortical neurons",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Benzodiazepines increase chloride channel open duration; barbiturates increase opening frequency",
+        "text": "Benzodiazepines increase chloride channel open duration, while barbiturates increase opening frequency",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Benzodiazepines increase GABA-A opening frequency; barbiturates increase channel open duration",
+        "text": "Benzodiazepines increase GABA-A opening frequency, while barbiturates increase channel open duration",
         "is_correct": true
       },
       {
         "letter": "D",
-        "text": "Both drug classes act as non-competitive antagonists at central NMDA glutamate receptors",
+        "text": "Both drug classes function as non-competitive antagonists at central NMDA glutamate receptors",
         "is_correct": false
       }
     ],
@@ -5135,7 +5135,7 @@
       },
       {
         "letter": "D",
-        "text": "A life-threatening withdrawal state (seizures, delirium); requires gradual taper, never abrupt cessation",
+        "text": "A life-threatening state marked by seizures and delirium, requiring gradual taper and never abrupt cessation",
         "is_correct": true
       }
     ],
@@ -5155,12 +5155,12 @@
     "options": [
       {
         "letter": "A",
-        "text": "Cocaine selectively triggers monoamine vesicular release; amphetamine blocks reuptake transporters",
+        "text": "Cocaine selectively triggers monoamine vesicular release, while amphetamine blocks reuptake transporters",
         "is_correct": false
       },
       {
         "letter": "B",
-        "text": "Cocaine blocks DAT/NET/SERT and Na⁺ channels; amphetamine stimulates monoamine release; MDMA releases 5-HT",
+        "text": "Cocaine blocks monoamine reuptake and sodium channels, while amphetamine and MDMA release monoamines",
         "is_correct": true
       },
       {
@@ -5195,17 +5195,17 @@
       },
       {
         "letter": "B",
-        "text": "Avoid benzodiazepines due to respiratory arrest; administer non-selective beta-blockers",
+        "text": "Avoid benzodiazepines due to respiratory depression; administer non-selective beta-blockers",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Avoid intravenous crystalloid fluids and administer high-dose calcium gluconate",
+        "text": "Avoid intravenous crystalloid fluids; administer high-dose calcium channel antagonists",
         "is_correct": false
       },
       {
         "letter": "D",
-        "text": "Immediately administer intravenous naloxone and flumazenil as competitive antidotes",
+        "text": "Avoid all pharmacologic interventions; observe the patient under low lighting conditions",
         "is_correct": false
       }
     ],
@@ -5230,12 +5230,12 @@
       },
       {
         "letter": "B",
-        "text": "Withdrawal is acutely life-threatening requiring ICU admission; acute intoxication is medically benign",
+        "text": "Withdrawal is acutely life-threatening requiring ICU care, while intoxication is medically benign",
         "is_correct": false
       },
       {
         "letter": "C",
-        "text": "Withdrawal produces severe dysphoria/suicidality, hypersomnia, and hyperphagia; intoxication can cause paranoid psychosis",
+        "text": "Withdrawal causes dysphoria, hypersomnia, and hyperphagia, while intoxication can cause psychosis",
         "is_correct": true
       },
       {
