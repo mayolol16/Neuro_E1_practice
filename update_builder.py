@@ -814,7 +814,8 @@ html_template = """<!DOCTYPE html>
       box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.4);
       flex-shrink: 0;
       position: relative;
-      z-index: 15;
+      z-index: 60;
+      pointer-events: auto !important;
     }
 
     .exam-tab-btn {
@@ -829,12 +830,17 @@ html_template = """<!DOCTYPE html>
       font-weight: 700;
       padding: 4px 8px;
       border-radius: 999px;
-      cursor: pointer;
+      cursor: pointer !important;
       transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
       white-space: nowrap;
       position: relative;
-      z-index: 15;
+      z-index: 60;
       user-select: none;
+      pointer-events: auto !important;
+    }
+
+    .exam-tab-btn * {
+      pointer-events: none !important;
     }
 
     .exam-tab-btn:hover {
@@ -1191,7 +1197,9 @@ html_template = """<!DOCTYPE html>
       flex-shrink: 0;
       z-index: 20;
       gap: 8px;
-      overflow: hidden;
+      overflow: clip !important;
+      overflow-x: clip !important;
+      overflow-y: clip !important;
     }
 
     .header-left {
@@ -1200,7 +1208,9 @@ html_template = """<!DOCTYPE html>
       gap: 8px;
       min-width: 0;
       flex: 1;
-      overflow: hidden;
+      overflow: clip !important;
+      overflow-x: clip !important;
+      overflow-y: clip !important;
     }
 
     .assess-btn-short { display: none; }
@@ -1970,7 +1980,9 @@ html_template = """<!DOCTYPE html>
       inset: 0;
       background: rgba(0, 0, 0, 0.75);
       backdrop-filter: blur(4px);
-      display: none;
+      display: none !important;
+      pointer-events: none !important;
+      visibility: hidden !important;
       align-items: center;
       justify-content: center;
       z-index: 100;
@@ -1978,7 +1990,9 @@ html_template = """<!DOCTYPE html>
     }
 
     .modal-backdrop.show {
-      display: flex;
+      display: flex !important;
+      pointer-events: auto !important;
+      visibility: visible !important;
       animation: fadeIn 0.15s ease;
     }
 
@@ -4519,7 +4533,6 @@ html_template = """<!DOCTYPE html>
       currentExam = examId;
       localStorage.setItem('usmle_active_exam', currentExam);
 
-      // Keep headerLeft and header scroll pinned to 0
       const headerLeft = document.querySelector('.header-left');
       if (headerLeft && headerLeft.scrollLeft !== 0) headerLeft.scrollLeft = 0;
       const header = document.querySelector('header.exam-header');
@@ -4534,26 +4547,22 @@ html_template = """<!DOCTYPE html>
       if (e3Tab) e3Tab.className = 'exam-tab-btn' + (currentExam === 'exam3' ? ' active-exam3' : '');
       if (e4Tab) e4Tab.className = 'exam-tab-btn' + (currentExam === 'exam4' ? ' active-exam4' : '');
 
-      renderBankSwitcher();
-
       // Pick active bank for this exam with strict validation
+      let targetBank = null;
       if (currentExam === 'exam4') {
-        let savedBank = localStorage.getItem('usmle_exam4_active_bank') || 'exam4_psych_practice';
-        if (!isExam4Track(savedBank)) savedBank = 'exam4_psych_practice';
-        switchTrack(savedBank);
+        targetBank = localStorage.getItem('usmle_exam4_active_bank') || 'exam4_psych_practice';
+        if (!isExam4Track(targetBank)) targetBank = 'exam4_psych_practice';
       } else if (currentExam === 'exam3') {
-        let savedBank = localStorage.getItem('usmle_exam3_active_bank') || 'exam3_practice';
-        if (!isExam3Track(savedBank)) savedBank = 'exam3_practice';
-        switchTrack(savedBank);
+        targetBank = localStorage.getItem('usmle_exam3_active_bank') || 'exam3_practice';
+        if (!isExam3Track(targetBank)) targetBank = 'exam3_practice';
       } else if (currentExam === 'exam2') {
-        let savedBank = localStorage.getItem('usmle_exam2_active_bank') || 'exam2_zen';
-        if (!isExam2Track(savedBank)) savedBank = 'exam2_zen';
-        switchTrack(savedBank);
+        targetBank = localStorage.getItem('usmle_exam2_active_bank') || 'exam2_zen';
+        if (!isExam2Track(targetBank)) targetBank = 'exam2_zen';
       } else {
-        let savedBank = localStorage.getItem('usmle_exam1_active_bank') || 'inhouse';
-        if (isExam2Track(savedBank) || isExam3Track(savedBank) || isExam4Track(savedBank)) savedBank = 'inhouse';
-        switchTrack(savedBank);
+        targetBank = localStorage.getItem('usmle_exam1_active_bank') || 'inhouse';
+        if (isExam2Track(targetBank) || isExam3Track(targetBank) || isExam4Track(targetBank)) targetBank = 'inhouse';
       }
+      switchTrack(targetBank);
     }
 
     /* ========================================================= */
@@ -4632,29 +4641,22 @@ html_template = """<!DOCTYPE html>
     }
 
     function centerActiveBankPill() {
-      setTimeout(() => {
-        const viewport = document.getElementById('bankSliderViewport');
-        const activeBtn = document.getElementById('trackBtn_' + currentTrack) ||
-                          (currentTrack === 'exam2' ? document.getElementById('trackBtn_exam2_zen') : null);
-        if (viewport && activeBtn) {
-          const btnLeft = activeBtn.offsetLeft;
-          const btnWidth = activeBtn.offsetWidth;
-          const vpWidth = viewport.clientWidth;
-          const targetScroll = btnLeft - (vpWidth / 2) + (btnWidth / 2);
-          viewport.scrollTo({ left: Math.max(0, targetScroll), behavior: 'smooth' });
-        }
-        // Guarantee ancestor containers are NEVER scrolled off-screen
-        const headerLeft = document.querySelector('.header-left');
-        if (headerLeft && headerLeft.scrollLeft !== 0) {
-          headerLeft.scrollLeft = 0;
-        }
-        const header = document.querySelector('header.exam-header');
-        if (header && header.scrollLeft !== 0) {
-          header.scrollLeft = 0;
-        }
-        updateSliderArrows();
-        updateBankScrubber();
-      }, 50);
+      const viewport = document.getElementById('bankSliderViewport');
+      const activeBtn = document.getElementById('trackBtn_' + currentTrack) ||
+                        (currentTrack === 'exam2' ? document.getElementById('trackBtn_exam2_zen') : null);
+      if (viewport && activeBtn) {
+        const btnLeft = activeBtn.offsetLeft;
+        const btnWidth = activeBtn.offsetWidth;
+        const vpWidth = viewport.clientWidth;
+        const targetScroll = btnLeft - (vpWidth / 2) + (btnWidth / 2);
+        viewport.scrollTo({ left: Math.max(0, targetScroll), behavior: 'auto' });
+      }
+      const headerLeft = document.querySelector('.header-left');
+      if (headerLeft && headerLeft.scrollLeft !== 0) headerLeft.scrollLeft = 0;
+      const header = document.querySelector('header.exam-header');
+      if (header && header.scrollLeft !== 0) header.scrollLeft = 0;
+      updateSliderArrows();
+      updateBankScrubber();
     }
 
     function initBankSliderEvents() {
@@ -7651,20 +7653,28 @@ html_template = """<!DOCTYPE html>
       const urlTrack = urlParams.get('track');
 
       let savedExam = urlExam || localStorage.getItem('usmle_active_exam') || 'exam1';
-      let targetTrack = urlTrack || localStorage.getItem('usmle_active_track');
+      if (!['exam1', 'exam2', 'exam3', 'exam4'].includes(savedExam)) savedExam = 'exam1';
 
-      // If a locked exam3 track is requested but NOT unlocked, fallback to exam3_practice
-      if (isExam3Track(targetTrack) && !isExam3BaseTrack(targetTrack) && !isExam3Unlocked()) {
-        targetTrack = 'exam3_practice';
-      }
-
+      let targetTrack = urlTrack;
       if (!targetTrack) {
-        targetTrack = (savedExam === 'exam4') ? 'exam4_psych_practice' : (savedExam === 'exam3') ? 'exam3_practice' : (savedExam === 'exam2') ? 'exam2_zen' : 'inhouse';
+        if (savedExam === 'exam4') {
+          targetTrack = localStorage.getItem('usmle_exam4_active_bank') || 'exam4_psych_practice';
+          if (!isExam4Track(targetTrack)) targetTrack = 'exam4_psych_practice';
+        } else if (savedExam === 'exam3') {
+          targetTrack = localStorage.getItem('usmle_exam3_active_bank') || 'exam3_practice';
+          if (!isExam3Track(targetTrack)) targetTrack = 'exam3_practice';
+        } else if (savedExam === 'exam2') {
+          targetTrack = localStorage.getItem('usmle_exam2_active_bank') || 'exam2_zen';
+          if (!isExam2Track(targetTrack)) targetTrack = 'exam2_zen';
+        } else {
+          targetTrack = localStorage.getItem('usmle_exam1_active_bank') || 'inhouse';
+          if (isExam2Track(targetTrack) || isExam3Track(targetTrack) || isExam4Track(targetTrack)) targetTrack = 'inhouse';
+        }
       }
 
       currentExam = savedExam;
       selectExam(savedExam);
-      if (targetTrack) {
+      if (targetTrack && targetTrack !== currentTrack) {
         switchTrack(targetTrack);
       }
 
