@@ -806,30 +806,35 @@ html_template = """<!DOCTYPE html>
         /* Level 1: Exam Selector Tabs */
     .exam-selector-tabs {
       display: inline-flex;
-      background: rgba(15, 23, 42, 0.7);
-      border: 1.5px solid rgba(255, 255, 255, 0.12);
+      background: rgba(15, 23, 42, 0.75);
+      border: 1.5px solid rgba(255, 255, 255, 0.14);
       border-radius: 999px;
-      padding: 2px;
-      gap: 2px;
+      padding: 2px 3px;
+      gap: 3px;
       box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.4);
       flex-shrink: 0;
+      position: relative;
+      z-index: 15;
     }
 
     .exam-tab-btn {
       display: flex;
       align-items: center;
-      gap: 5px;
+      gap: 4px;
       background: transparent;
       border: none;
       color: var(--text-muted);
       font-family: inherit;
-      font-size: 0.8rem;
+      font-size: 0.78rem;
       font-weight: 700;
-      padding: 4px 10px;
+      padding: 4px 8px;
       border-radius: 999px;
       cursor: pointer;
       transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
       white-space: nowrap;
+      position: relative;
+      z-index: 15;
+      user-select: none;
     }
 
     .exam-tab-btn:hover {
@@ -1182,20 +1187,27 @@ html_template = """<!DOCTYPE html>
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 0 16px;
+      padding: 0 12px;
       flex-shrink: 0;
       z-index: 20;
-      gap: 12px;
+      gap: 8px;
       overflow: hidden;
     }
 
     .header-left {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 8px;
       min-width: 0;
       flex: 1;
       overflow: hidden;
+    }
+
+    .assess-btn-short { display: none; }
+    @media (max-width: 1350px) {
+      .bank-scrubber-box { display: none !important; }
+      .assess-btn-full { display: none !important; }
+      .assess-btn-short { display: inline !important; }
     }
 
     .header-center {
@@ -3715,9 +3727,9 @@ html_template = """<!DOCTYPE html>
           <span>⚡</span>
           <span>Exam 3</span>
         </button>
-        <button id="exam4TabBtn" class="exam-tab-btn" onclick="selectExam('exam4')">
+        <button id="exam4TabBtn" class="exam-tab-btn" onclick="selectExam('exam4')" title="Exam 4: Psychiatry Practice & In-House Need-to-Know">
           <span>🛋️</span>
-          <span>Exam 4 (Psych)</span>
+          <span>Exam 4</span>
         </button>
       </div>
 
@@ -3757,7 +3769,8 @@ html_template = """<!DOCTYPE html>
       <!-- Weakness Assessment & AI Questions Generator Button -->
       <button class="btn btn-purple" onclick="openWeaknessAssessmentModal()" id="assessWeaknessHeaderBtn" title="Assess weaknesses across your incorrect questions and generate targeted practice questions">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a9 9 0 0 1 9 9c0 3.1-1.6 5.8-4 7.4V20a2 2 0 0 1-2 2h-6a2 2 0 0 1-2-2v-1.6C4.6 16.8 3 14.1 3 11a9 9 0 0 1 9-9z"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>
-        <span>Assess Weaknesses & AI Qs</span>
+        <span class="assess-btn-full">Assess Weaknesses & AI Qs</span>
+        <span class="assess-btn-short">AI Weaknesses</span>
       </button>
 
       <button class="btn" onclick="toggleRandomizeOptions()" id="randomizeToggleBtn" title="Answer choices are dynamically shuffled">
@@ -4395,11 +4408,11 @@ html_template = """<!DOCTYPE html>
     };
 
     function isExam4Track(track) {
-      return track === 'exam4' || track === 'exam4_psych_practice' || track === 'exam4_inhouse_150' || (track && track.startsWith('exam4_'));
+      return track === 'exam4' || track === 'exam4_psych_practice' || track === 'exam4_inhouse_150' || (Boolean(track) && track.startsWith('exam4_'));
     }
 
     function isExam3Track(track) {
-      return track === 'exam3' || track === 'exam3_practice' || track === 'exam3_redo' || track === 'redo' || track === 'exam3_high_yield' || track === 'high_yield' || track === 'exam3_c_u1_6' || track === 'exam3_c_h1_6' || track === 'exam3_c_u2_1_6' || track === 'exam3_g_h_u1_6' || track === 'exam3_inhouse_c' || track === 'exam3_inhouse_c2' || track === 'exam3_in_house_like_g' || track === 'exam3_step1_150';
+      return track === 'exam3' || track === 'exam3_practice' || track === 'exam3_redo' || track === 'redo' || track === 'exam3_high_yield' || track === 'high_yield' || track === 'exam3_c_u1_6' || track === 'exam3_c_h1_6' || track === 'exam3_c_u2_1_6' || track === 'exam3_g_h_u1_6' || track === 'exam3_inhouse_c' || track === 'exam3_inhouse_c2' || track === 'exam3_in_house_like_g' || track === 'exam3_step1_150' || (Boolean(track) && track.startsWith('exam3_'));
     }
 
     function isExam3BaseTrack(track) {
@@ -4407,7 +4420,7 @@ html_template = """<!DOCTYPE html>
     }
 
     function isExam2Track(track) {
-      return track === 'exam2' || track === 'exam2_inhouse' || track === 'exam2_inhouse2' || track === 'exam2_replicate' || track === 'exam2_deep' || track === 'exam2_set3' || track === 'exam2_set2' || track === 'exam2_sim' || track === 'exam2_zen' || track === 'exam2_pdf_practice';
+      return track === 'exam2' || track === 'exam2_inhouse' || track === 'exam2_inhouse2' || track === 'exam2_replicate' || track === 'exam2_deep' || track === 'exam2_set3' || track === 'exam2_set2' || track === 'exam2_sim' || track === 'exam2_zen' || track === 'exam2_pdf_practice' || (Boolean(track) && track.startsWith('exam2_'));
     }
 
     function getCategoriesForTrack() {
@@ -4506,6 +4519,12 @@ html_template = """<!DOCTYPE html>
       currentExam = examId;
       localStorage.setItem('usmle_active_exam', currentExam);
 
+      // Keep headerLeft and header scroll pinned to 0
+      const headerLeft = document.querySelector('.header-left');
+      if (headerLeft && headerLeft.scrollLeft !== 0) headerLeft.scrollLeft = 0;
+      const header = document.querySelector('header.exam-header');
+      if (header && header.scrollLeft !== 0) header.scrollLeft = 0;
+
       const e1Tab = document.getElementById('exam1TabBtn');
       const e2Tab = document.getElementById('exam2TabBtn');
       const e3Tab = document.getElementById('exam3TabBtn');
@@ -4517,18 +4536,22 @@ html_template = """<!DOCTYPE html>
 
       renderBankSwitcher();
 
-      // Pick active bank for this exam
+      // Pick active bank for this exam with strict validation
       if (currentExam === 'exam4') {
-        const savedBank = localStorage.getItem('usmle_exam4_active_bank') || 'exam4_psych_practice';
+        let savedBank = localStorage.getItem('usmle_exam4_active_bank') || 'exam4_psych_practice';
+        if (!isExam4Track(savedBank)) savedBank = 'exam4_psych_practice';
         switchTrack(savedBank);
       } else if (currentExam === 'exam3') {
         let savedBank = localStorage.getItem('usmle_exam3_active_bank') || 'exam3_practice';
+        if (!isExam3Track(savedBank)) savedBank = 'exam3_practice';
         switchTrack(savedBank);
       } else if (currentExam === 'exam2') {
-        const savedBank = localStorage.getItem('usmle_exam2_active_bank') || 'exam2_zen';
+        let savedBank = localStorage.getItem('usmle_exam2_active_bank') || 'exam2_zen';
+        if (!isExam2Track(savedBank)) savedBank = 'exam2_zen';
         switchTrack(savedBank);
       } else {
-        const savedBank = localStorage.getItem('usmle_exam1_active_bank') || 'inhouse';
+        let savedBank = localStorage.getItem('usmle_exam1_active_bank') || 'inhouse';
+        if (isExam2Track(savedBank) || isExam3Track(savedBank) || isExam4Track(savedBank)) savedBank = 'inhouse';
         switchTrack(savedBank);
       }
     }
@@ -4610,10 +4633,24 @@ html_template = """<!DOCTYPE html>
 
     function centerActiveBankPill() {
       setTimeout(() => {
+        const viewport = document.getElementById('bankSliderViewport');
         const activeBtn = document.getElementById('trackBtn_' + currentTrack) ||
                           (currentTrack === 'exam2' ? document.getElementById('trackBtn_exam2_zen') : null);
-        if (activeBtn) {
-          activeBtn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+        if (viewport && activeBtn) {
+          const btnLeft = activeBtn.offsetLeft;
+          const btnWidth = activeBtn.offsetWidth;
+          const vpWidth = viewport.clientWidth;
+          const targetScroll = btnLeft - (vpWidth / 2) + (btnWidth / 2);
+          viewport.scrollTo({ left: Math.max(0, targetScroll), behavior: 'smooth' });
+        }
+        // Guarantee ancestor containers are NEVER scrolled off-screen
+        const headerLeft = document.querySelector('.header-left');
+        if (headerLeft && headerLeft.scrollLeft !== 0) {
+          headerLeft.scrollLeft = 0;
+        }
+        const header = document.querySelector('header.exam-header');
+        if (header && header.scrollLeft !== 0) {
+          header.scrollLeft = 0;
         }
         updateSliderArrows();
         updateBankScrubber();
@@ -4732,6 +4769,12 @@ html_template = """<!DOCTYPE html>
       currentTrack = newTrack;
       localStorage.setItem('usmle_active_track', currentTrack);
 
+      // Reset any container scroll immediately
+      const headerLeft = document.querySelector('.header-left');
+      if (headerLeft && headerLeft.scrollLeft !== 0) headerLeft.scrollLeft = 0;
+      const header = document.querySelector('header.exam-header');
+      if (header && header.scrollLeft !== 0) header.scrollLeft = 0;
+
       // Highlight level 1 tabs
       const e1Tab = document.getElementById('exam1TabBtn');
       const e2Tab = document.getElementById('exam2TabBtn');
@@ -4742,10 +4785,9 @@ html_template = """<!DOCTYPE html>
       if (e3Tab) e3Tab.className = 'exam-tab-btn' + (currentExam === 'exam3' ? ' active-exam3' : '');
       if (e4Tab) e4Tab.className = 'exam-tab-btn' + (currentExam === 'exam4' ? ' active-exam4' : '');
 
-      centerActiveBankPill();
-
       // Re-render level 2 bank pills with new active state
       renderBankSwitcher();
+      centerActiveBankPill();
 
       const zenTray = document.getElementById('zenSectionTray');
       const trayIcon = document.getElementById('zenTrayIcon');
